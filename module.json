@@ -1,33 +1,24 @@
 {
-  "id": "fabulaultima-homebrew",
-  "title": "Fabula Ultima Community Homebrew",
-  "description": "",
+  "id": "fabula-ultima-homebrew",
+  "title": "Fabula Ultima - Community Homebrew",
   "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 11,
-    "maximum": 11
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
   },
   "authors": [
     {
       "name": "spyrella",
-      "url": "https://github.com/spyrella"
+      "url": "https://github.com/spyrella",
+      "discord": "spyrella"
     },
     {
-      "name": "fabula ultima community"
+      "name": "Fabula Ultima Community"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
   "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
+    "scripts/module.mjs"
   ],
   "styles": [
     "styles/module.css"
@@ -36,12 +27,101 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE.md",
-  "readme": "README.md"
+  "readme": "README.md",
+  "packs": [
+    {
+      "name": "homebrew-classes",
+      "label": "Classes [Homebrew]",
+      "path": "packs/homebrew-classes",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-skills",
+      "label": "Skills [Homebrew]",
+      "path": "packs/homebrew-skills",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-heroic-skills",
+      "label": "Heroic Skills [Homebrew]",
+      "path": "packs/homebrew-heroic-skills",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-heroic-styles",
+      "label": "Heroic Styles [Homebrew]",
+      "path": "packs/homebrew-heroic-styles",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-classic-characters",
+      "label": "Classic Characters [Homebrew]",
+      "path": "packs/homebrew-classic-characters",
+      "type": "Actor",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-handouts",
+      "label": "Handouts [Homebrew]",
+      "path": "packs/homebrew-handouts",
+      "type": "JournalEntry",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-npcs",
+      "label": "NPCs [Homebrew]",
+      "path": "packs/homebrew-npcs",
+      "type": "Actor",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "projectfu",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
 }
