@@ -2,8 +2,7 @@
 
 ![fu-sitecover.jpg](https://trello.com/1/cards/64db0994c4a8791322c8b2e2/attachments/64f476a7f1dc332714f44c8c/download/fu-sitecover.jpg)
 
-![foundry-v10-yellow](https://img.shields.io/badge/foundry-v10-yellow)
-![foundry-v11-yellow](https://img.shields.io/badge/foundry-v11-yellow)
+![foundry-v11-yellow](https://img.shields.io/badge/foundry-v11-green)
 
 Welcome to the Unofficial Fabula Ultima Community Homebrew Module for the Foundry Virtual Tabletop. Here, you'll discover a compilation of homebrew content originally available on the [Rooster Games Discord](https://discord.gg/G9qGbn2).
 
