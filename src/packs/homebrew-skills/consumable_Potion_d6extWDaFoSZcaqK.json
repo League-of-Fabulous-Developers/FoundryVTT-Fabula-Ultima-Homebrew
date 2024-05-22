@@ -1,0 +1,44 @@
+{
+  "folder": "pLnYnzfcOXNDeQq4",
+  "name": "Potion",
+  "type": "consumable",
+  "_id": "d6extWDaFoSZcaqK",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature recovers <strong>@GAIN[15 hp]</strong>.</p><hr /><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715048573850,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!items!d6extWDaFoSZcaqK"
+}

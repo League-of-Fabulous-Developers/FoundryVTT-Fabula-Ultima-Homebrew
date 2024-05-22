@@ -1,0 +1,119 @@
+{
+  "folder": "DDfOuiz404kf1WY3",
+  "name": "Comeback Kid",
+  "type": "heroic",
+  "img": "icons/equipment/waist/sash-cloth-pink-gold.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><em><strong>Requirements:</strong> You must have mastered the <strong>Wrestler</strong> class, and you must have acquired the <strong>Hype</strong> skill.</em></p></blockquote><p>When you first enter Crisis in a conflict, you gain Hype equal to your level.</p><p>While in Crisis, you may spend Hype to reduce incoming damage by 3 for every Hype spent. If you use this Skill in a conflict, you cannot use it again until the start of your next turn.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Wrestler"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713025334700,
+    "modifiedTime": 1715045367505,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "2Zba0SixNZIQzziC",
+  "sort": 200000,
+  "_key": "!items!2Zba0SixNZIQzziC"
+}

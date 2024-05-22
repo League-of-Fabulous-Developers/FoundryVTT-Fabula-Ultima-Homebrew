@@ -1,0 +1,154 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "[Handout: All Sanctuaries]",
+  "type": "miscAbility",
+  "_id": "JF4Vq0mwDSfEI1ry",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>.</p><table><tbody><tr><td><h4>ASTRAL PALACE OF UNEASY DREAMS</h4></td></tr><tr><td><p><em>It looms invisibly over Epiala and warps the hearts of its people.</em></p></td></tr></tbody></table><table><tbody><tr><td><p><strong>HAUNT</strong></p></td><td><p>If you don’t have a Bond of mistrust with the Hauntee, on each of their turns, they may ask a question about a creature they can see about what that creature fears or who they plan to hurt. The GM answers truthfully.</p><p>If you have a Bond of mistrust with the Hauntee, they are shaken, and cannot recover until the Haunt is banished or they leave the scene.</p></td></tr><tr><td><p><strong>RITUAL</strong></p></td><td><p>Bring a person or object into conformity with their surroundings.</p></td></tr></tbody></table><p>.</p><table><tbody><tr><td><h4>ELEMENTAL TEMPE OF WATER</h4></td></tr><tr><td><p><em>Once a grand temple over clear waters, now a ruin squatting in sewage. Can you restore it?</em></p></td></tr></tbody></table><table><tbody><tr><td><p><strong>HAUNT</strong></p></td><td><p>If the Hauntee’s Bond with you has more positive emotions, they may change any damage they deal to ice, or add 2 damage for each positive emotion if it was already ice.</p><p>If their bond with you has more negative emotions, they may instead change the damage to poison, or add 2 damage for each negative emotion if it was already poison.</p></td></tr><tr><td><p><strong>RITUAL</strong></p></td><td><p>Guide and purify water to bring life.</p></td></tr></tbody></table><p>.</p><table><tbody><tr><td><h4>NAMELESS CAIRN</h4></td></tr><tr><td><p><em>The battle here was fought long before humanity existed... but were they really so different?</em></p></td></tr></tbody></table><table><tbody><tr><td><p><strong>HAUNT</strong></p></td><td><p>If the Hauntee has any Bonds of hatred, they are dazed and cannot recover until the Haunt is banished or the scene ends, but their melee and ranged attacks deal 2 extra damage for each Bond of hatred they have.</p><p>If they do not, then on each of their turns, they may ask a question about a creature they can see concerning what is motivating that creature to struggle.</p></td></tr><tr><td><p><strong>RITUAL</strong></p></td><td><p>Bring creatures who have little in common together - in battle, or in peace.</p></td></tr></tbody></table><p>.</p><table><tbody><tr><td><h4>POWERCORE OF THE <em>STARDUST</em></h4></td></tr><tr><td><p><em>The ship has a spirit of her own, and this is the best place to listen to her.</em></p></td></tr></tbody></table><table><tbody><tr><td><p><strong>HAUNT</strong></p></td><td><p>The Hauntee becomes a <strong>construct</strong>, gaining vulnerability to <strong>lightning</strong>, and immunity to <strong>poison</strong> and the <strong>poisoned</strong> condition. They cannot cast Spells except through Magispheres, for which they do not need to pay the IP cost.</p></td></tr><tr><td><p><strong>RITUAL</strong></p></td><td><p>Projects get +2 progress each day someone works on them here.</p></td></tr></tbody></table><p>.</p><table><tbody><tr><td><h4>PRIMAL GROOVE</h4></td></tr><tr><td><p><em>Hidden beneath this canopy, you’ll find not gentleness, nor brutality, but a whole universe.</em></p></td></tr></tbody></table><table><tbody><tr><td><p><strong>HAUNT</strong></p></td><td><p>Creatures that you have attacked or targeted with a spell this round suffer a penalty equal to <strong>【the number of Primal Sanctuaries you have Bonded】</strong> to their Accuracy or Magic Checks that include the Hauntee among their targets.</p></td></tr><tr><td><p><strong>RITUAL</strong></p></td><td><p>Reveal the hidden lives and relationships of beasts.</p></td></tr></tbody></table><p>.</p><table><tbody><tr><td><h4>SHRINE TO A WRATHFUL MAJIN</h4></td></tr><tr><td><p><em>The air is cool and still, but you can feel His rage boiling.</em></p></td></tr></tbody></table><table><tbody><tr><td data-colwidth=\"320\"><p><strong>HAUNT</strong></p></td><td><p>When the Hauntee suffers damage from a creature in this scene, they get a one-emotion Bond of <strong>hatred</strong> towards that creature, replacing another Bond that they have at random. Whenever they attack or cast an offensive spell, each creature they have a Bond of <strong>hatred</strong> towards suffers 3 <strong>fire</strong> damage. This Haunt cannot be banished except by the end of the scene.</p></td></tr><tr><td data-colwidth=\"320\"><p><strong>RITUAL</strong></p></td><td><p>Bring wrath down upon those who have wronged you... but dig two graves.</p></td></tr></tbody></table><p>.</p><table><tbody><tr><td><h4>THE MAINGSPRING</h4></td></tr><tr><td><p><em>They say the world is a mechanism, and this machine keeps it turning. What do you think?</em></p></td></tr></tbody></table><table><tbody><tr><td><p><strong>HAUNT</strong></p></td><td><p>The Hauntee becomes a construct, gaining vulnerability to lightning, and immunity to poison and the poisoned condition. They cannot cast Spells except through Magispheres, for which they do not need to pay the IP cost.</p></td></tr><tr><td><p><strong>RITUAL</strong></p></td><td><p>Projects get +2 progress each day someone works on them here.</p></td></tr></tbody></table><p>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.8ySmNzjYisVduHWP"
+    },
+    "projectfu-playtest": {
+      "growthClock": false
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1710465708129,
+    "modifiedTime": 1715116163266,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YN7AhHIwAZeH33Tw": 3,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!JF4Vq0mwDSfEI1ry"
+}

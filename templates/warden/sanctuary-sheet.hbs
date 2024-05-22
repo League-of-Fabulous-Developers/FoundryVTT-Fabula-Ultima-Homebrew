@@ -1,0 +1,14 @@
+<div>
+    <fieldset class="title-fieldset section-container desc resource-content">
+        <div class="grid grid-2col gap-5 border-rc">
+            <div>
+                <label class="resource-label-m">{{localize 'FU-HB.warden.haunt'}}</label>
+                {{editor enrichedHtml.haunt target="system.data.haunt" engine="prosemirror" button=true}}
+            </div>
+            <div>
+                <label class="resource-label-m">{{localize 'FU-HB.warden.ritual'}}</label>
+                {{editor enrichedHtml.ritual target="system.data.ritual" engine="prosemirror" button=true}}
+            </div>
+        </div>
+    </fieldset>
+</div>

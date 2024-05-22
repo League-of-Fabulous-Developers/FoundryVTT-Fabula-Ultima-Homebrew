@@ -1,0 +1,128 @@
+{
+  "name": "Blood is Life",
+  "type": "skill",
+  "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When an ally casts a spell that includes you among the targets, they may choose to spend<strong>【SL】</strong>Hit Points to allow you to regain<strong>【SL x 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend<strong>【SL】</strong></p><p>Hit Points to deal<strong>【SL x 3】</strong>dark damage to them.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Predator"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "folder": "7X5ncpm944PmFfES",
+  "ownership": {
+    "default": 0,
+    "YN7AhHIwAZeH33Tw": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1709317931671,
+    "modifiedTime": 1709319910503,
+    "lastModifiedBy": "YN7AhHIwAZeH33Tw"
+  },
+  "_id": "ggXXiDX5jxP77Nm4",
+  "sort": 100000,
+  "_key": "!items!ggXXiDX5jxP77Nm4"
+}

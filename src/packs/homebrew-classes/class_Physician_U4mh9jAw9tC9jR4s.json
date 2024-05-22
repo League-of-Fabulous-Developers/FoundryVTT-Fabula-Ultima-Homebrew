@@ -1,0 +1,93 @@
+{
+  "name": "Physician",
+  "type": "class",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "I promise you, my bedside manner is excellent"
+    },
+    "description": "<div class=\"stackedit__html\"><h1>PHYSICIAN</h1><h4><strong>ALSO: Hospitalier, Medic, Nurse</strong></h4><p><strong>Physicians</strong> are professionals at the healing arts. Their deft and steady hands are well suited to various mundane medical procedures, from dressing wounds to ameliorating even the worst of maladies.</p><p>Beyond the medical arts, Physicians also possess uncanny precision, whether it be for packing as many medical supplies as they can or wielding weapons with deadly accuracy.</p><h4><strong>PHYSICIAN FREE BENEFITS</strong></h4><ul><li>Permanently increase your maximum Inventory Points by 2.</li></ul><h3><strong>PHYSICIAN SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.wK7vLSqzAc18YJVc]{Doctorate}</strong></h4><p>You may perform Medical Procedures (see next page).</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.shDIeaOHgvXlEI8A]{Drug Synthesis} (SL3)</strong></h4><p>When you create a <strong>potion</strong>, you may combine that item with up to <strong>【SL】 </strong>number of <strong>Pharmaceuticals</strong> before using it. The resulting potion combines all the component items' effects and IP costs, and may have <strong>synergy</strong> effects depending on the combination.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ynC07YVeGT35RyKl]{Emergency Aid} (SL5)</strong></h4><p>When you use an item or cast a spell that restores HP and/or MP, your target recovers an additional <strong>【SL x 5】</strong> HP and/or MP if they are in <strong>Crisis</strong>.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Jh95dD6UU2BYvK8a]{Organized Pharmacy} (SL3)</strong></h4><p>You may carry an additional <strong>【SL x 2】 Inventory Points</strong>. You can only use these additional Inventory Points for <strong>Pharmaceuticals</strong> and items made using the Drug Synthesis Skill.</p><p>If you take this Skill during character creation, you begin play with the additional IP.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.pLb2shfrtJpF9eNQ]{Pharmaceuticals} (SL5)</strong></h4><p>Each time you acquire this Skill, you stock two new kinds of <strong>Pharmaceutical</strong> (see page <strong>4</strong>).</p><p></p><h1>Medical Procedures</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fnTzWUiRzI51oS1z]{[Handout: Medical Procedures Rules]}</strong></p></div><p></p><div class=\"stackedit__html\"><h1>Pharmaceutical</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mhVnD4afPiP2GyrT]{[Handout: Pharmaceutical Rules]}</strong></p></div><p></p><div class=\"stackedit__html\"><h1>Heroic Skills</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.9wlTUeIdSbCbeUzM]{Emergency Treatment}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.7qtM3cp1fU65eOEM]{Insurance Policy}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.TqPm0WYvE4htArTY]{Miracle Tonic}</strong></p></div><p></p><h1>Credit</h1><p><strong>Class Design, Writing and Development</strong> Basil</p><p><strong>Physician Art </strong>https://www.artstation.com/artwork/nE0Gyr</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": true
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712414014626,
+    "modifiedTime": 1715826741412,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "U4mh9jAw9tC9jR4s",
+  "sort": 0,
+  "_key": "!items!U4mh9jAw9tC9jR4s"
+}

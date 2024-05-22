@@ -1,0 +1,38 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "The Maingspring",
+  "type": "classFeature",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "summary": {
+      "value": "They say the world is a mechanism, and this machine keeps it turning. What do you think?"
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.sanctuary",
+    "data": {
+      "description": "",
+      "haunt": "<p>The Hauntee becomes a construct, gaining vulnerability to lightning, and immunity to poison and the poisoned condition. They cannot cast Spells except through Magispheres, for which they do not need to pay the IP cost.</p>",
+      "ritual": "<p>Projects get +2 progress each day someone works on them here.</p>"
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715110576319,
+    "modifiedTime": 1715111791469,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "zWVWPDeztZjZKD6R",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!zWVWPDeztZjZKD6R"
+}

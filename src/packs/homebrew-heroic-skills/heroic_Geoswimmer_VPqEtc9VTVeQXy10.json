@@ -1,0 +1,119 @@
+{
+  "name": "Geoswimmer",
+  "type": "heroic",
+  "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements</strong>: You must have mastered the <strong>Tectonomancer</strong> Class, and must have acquired the <strong>Rogue's See You Later</strong> skill.</p></blockquote><p>You move through the Earth as shadows. When you sink into the ground with <strong>Earthmeld</strong>, you can choose to reappear as though you had used <strong>See You Later</strong>. You may take one willing creature with you when you do this.</p><p><em>Note: the main effect of this Heroic Skill is to let you run away with a friend as long as you can reach the ground. It feels Roguish to be able to abduct foes with this Skill, but I struggled with how to word that and it seems like a sinister talent for a Fabula hero to have...</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Tectonomancer"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": "Ed821xpGKSbM8rIv",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715059888237,
+    "modifiedTime": 1715060512609,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "VPqEtc9VTVeQXy10",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!VPqEtc9VTVeQXy10"
+}

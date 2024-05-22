@@ -1,0 +1,19 @@
+{
+  "name": "Malefactor",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "bXUoEKRalV5ZpWyh",
+  "sort": 2000000,
+  "color": "#6c3167",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715801790165,
+    "modifiedTime": 1715832790314,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!bXUoEKRalV5ZpWyh"
+}

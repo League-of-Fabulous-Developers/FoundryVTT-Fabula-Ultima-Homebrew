@@ -1,0 +1,19 @@
+{
+  "name": "Celebrity",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "93x1B9THra7ohdLS",
+  "sort": 300000,
+  "color": "#790625",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715779047670,
+    "modifiedTime": 1715832425540,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!93x1B9THra7ohdLS"
+}

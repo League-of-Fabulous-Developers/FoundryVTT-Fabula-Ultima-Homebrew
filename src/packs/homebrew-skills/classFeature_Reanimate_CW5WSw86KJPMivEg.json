@@ -1,0 +1,60 @@
+{
+  "name": "Reanimate",
+  "type": "classFeature",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "One corpse"
+      },
+      "duration": {
+        "value": "Until lifted"
+      },
+      "description": "<p>You raise a corpse from death, giving it a gruesome second life with your own vitality.</p><p>You revive a dead creature by spending HP equal to its Crisis score. If you do not have enough HP to revive a corpse or if the corpse has been revived previously, the malediction fails and you lose HP equal to your Crisis score instead.</p><p>The reanimated creature uses the profile it had in life, but changes its Species to undead, has half the maximum HP and MP it had in life, and cannot recover either while reanimated. You may freely give it commands and it will follow them as best as it can.</p><p>This malediction is lifted when the reanimated creature drops to 0 HP or when it receives healing three different times.</p>",
+      "hpCost": {
+        "value": 0
+      },
+      "maxTarget": {
+        "value": 1
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "physical",
+        "bonus": 0
+      },
+      "isOffensive": {
+        "value": false
+      }
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1715111862379,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "CW5WSw86KJPMivEg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!CW5WSw86KJPMivEg"
+}

@@ -1,0 +1,154 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "[Handout: Warden Notes]",
+  "type": "miscAbility",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h4><strong>@ICON[header]</strong> GM NOTES</h4><ul><li><p>Your Warden is likely to be deeply connected to your plot - the Four Elemental Crystals, Five Pilgrimage Temples, Seven Needles, or whatever your setting has going on. Like the Arcanist, you will need to be careful to keep that character from dominating.</p></li><li><p>Alternatively, you could use the Sanctuaries as a way to convey that the history of the world is much greater and more varied than the current Villain and their schemes.</p></li><li><p>Consider changing the Rituals that particular Sanctuaries encourage in response to the campaign’s events. Look at the Astral Palace, above. What if Epiala’s culture starts to change as a result of the heroes’ work?</p></li><li><p>This class demands attention to the Bonds within the party and their allies, but the goal is not to incentivize maximizing any one type of relationship. If your table enjoys fitting character interactions into conflict scenes, Haunts like the Wrathful Majin above, which round-by-round consumes the Hauntee with hatred and rage, can be especially fun. The effects of some Haunts are complex, but that complexity can be spread out over a campaign. For Haunts that vary, players can focus on their specific relationship with the Warden and the effect it has, noting when it changes.</p></li></ul><h4><strong>@ICON[header]</strong> ADAPTATION</h4><ul><li><p>The sites don’t have to be literal, physical locations in the world. If you want to go hard into the Bond aspect of this class and take some inspiration from Persona or Disgaea, you could even have the Sanctuaries be within characters! This would require some tweaks to Ritual rules and Soul Offering, of course.</p></li><li><p>(How would you play it if they were within party members? Having the “host” player take over GM duties for that session? I’m thinking about this too much already.)</p></li><li><p>The Alpha Beast was included with the example heroes as an out-there implementation of the class - a Godzilla-like territorial antihero who will protect his Sanctuaries from all comers and regards the party as his “pack.” The character’s ego might need to be cut down to size, but their player will cooperate in making that happen.</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.8ySmNzjYisVduHWP"
+    },
+    "projectfu-playtest": {
+      "growthClock": false
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1710465708129,
+    "modifiedTime": 1715101445689,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YN7AhHIwAZeH33Tw": 3,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_id": "JmXFUibkLN5ZCzJx",
+  "_key": "!items!JmXFUibkLN5ZCzJx"
+}

@@ -1,0 +1,99 @@
+{
+  "folder": "RZWxaWEXE0khR5da",
+  "name": "Perfect Stones",
+  "type": "weapon",
+  "_id": "Wo9LDqTbd4jGLsi6",
+  "img": "icons/magic/earth/projectiles-stone-salvo-gray.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": "Opportunity: Each target hit suffers dazed."
+    },
+    "isEquipped": {
+      "value": false
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "dex"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 10
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "category": {
+      "value": "thrown"
+    },
+    "hands": {
+      "value": "one-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "earth"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715062768863,
+    "modifiedTime": 1715065205379,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!Wo9LDqTbd4jGLsi6"
+}

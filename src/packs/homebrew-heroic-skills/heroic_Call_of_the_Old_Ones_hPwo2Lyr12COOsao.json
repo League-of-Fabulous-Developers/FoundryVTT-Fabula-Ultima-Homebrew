@@ -1,0 +1,117 @@
+{
+  "folder": "czQlUgYHZyHTcgna",
+  "name": "Call of the Old Ones",
+  "type": "heroic",
+  "_id": "hPwo2Lyr12COOsao",
+  "img": "icons/tools/fishing/rod-simple-bamboo.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> You must have mastered one or more classes among <strong>Loremaster</strong>, <strong>Entropist</strong> and <strong>Angler</strong>, and must have learned the <strong>Fishing</strong> skill.</p></blockquote><p>When you roll a <strong>Discovery</strong> using <strong>Unique</strong>-rank bait, you may instead channel to reel in from the cosmos and choose to get any of these special fish:</p><table><tbody><tr><td><p style=\"text-align:center\"><strong>Astral Leviathan</strong></p></td><td><p>You may cast an <strong>Entropic</strong> spell that you know for half the MP required.</p></td></tr><tr><td><p style=\"text-align:center\"><strong>Eldritch Elderfish</strong></p></td><td><p>When you take the Study action during a conflict, you can instead describe two things you want to know, instead of one. You learn both of those things as if you're rolled a 13, learning Detailed information without needing to make a roll (as per the study action open roll chart on <strong>page 74</strong> of the <strong>Core Rulebook</strong>).</p><p>Alternatively, you can choose one non-player character in a conflict and learn their physical traits as if you had rolled a 16+ to learn about an NPC's profile (<strong>Core Rulebook</strong>, page <strong>319</strong>).</p><p>You also learn all of that creature's Special Rules, if it has any.</p></td></tr><tr><td><p style=\"text-align:center\"><strong>Luminescent Voidswimmer</strong></p></td><td><p>Improve your next fishing die by one (up to d6), and turn a failure into a success. If it’s already a success, turn it into a <strong>Discovery</strong>. Note that this does not allow you to trigger <strong>Call of the Old Ones</strong> again.</p></td></tr></tbody></table>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Angler"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715038156384,
+    "modifiedTime": 1715045334993,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!items!hPwo2Lyr12COOsao"
+}

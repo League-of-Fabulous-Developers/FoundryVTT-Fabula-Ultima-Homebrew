@@ -1,3 +1,47 @@
 {
-    "MODULE.hello": "hello"
+  "FU-HB": {
+    "description": "Description",
+    "quality": "Quality",
+    "warden": {
+      "label": "Sanctuary",
+      "description": "Description",
+      "haunt": "Haunt",
+      "ritual": "Ritual"
+    },
+    "vampire": {
+      "label": "Malediction",
+      "description": "Description",
+      "hpCost": "HP Cost",
+      "maxTarget": "Max Target",
+      "target": "Target",
+      "duration": "Duration",
+      "accuracy": "Accuracy",
+      "accuracyAttributes": "Attributes",
+      "accuracyModifier": "Modifier",
+      "damage": "Damage",
+      "damageType": "Type",
+      "damageBonus": "Bonus"
+    },
+    "settings": {
+      "welcomeMessage": {
+        "name": "Show welcome message again",
+        "hint": "Activate to show the welcome message again on next reload."
+      },
+      "classes": {
+        "vampire": {
+          "name": "Activate Vampire features",
+          "hint": "Activates the 'Crimson Malediction' class feature type."
+        },
+        "warden": {
+          "name": "Activate Warden features",
+          "hint": "Activates the 'Sanctuary' class feature type."
+        }
+      }
+    },
+    "welcomeMessage": {
+      "thankYou": "Thank you for using Fabula Ultime - Community Homebrew module!",
+      "explanation": "Since not every GM necessarily wants all classes to be available in their game, we added configuration options to enable/disable them. By default every class is disabled, which means if you want to use any of them you have to enable them in the settings first.",
+      "warning": "Please use caution when disabling a class again, because items that refer to those features will become invalid and vanish. Both your browser console and the Foundry 'Support & Issues' dialog will show you errors. This is expected behaviour. To get rid of the errors you need to make sure no items use the class features you want to disable."
+    }
+  }
 }

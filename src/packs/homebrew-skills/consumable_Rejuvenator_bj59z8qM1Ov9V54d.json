@@ -1,0 +1,46 @@
+{
+  "folder": "pLnYnzfcOXNDeQq4",
+  "name": "Rejuvenator",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature recovers <strong>@GAIN[25 hp]</strong> and <strong>@GAIN[25 mp]</strong> .</p><hr /><p><strong>Synergy Conditions:</strong> Combine with Status Recovery potion.<br /><strong>Synergy Effect:</strong> Double the HP and MP recovery of this item.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 3
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715049819353,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "bj59z8qM1Ov9V54d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!bj59z8qM1Ov9V54d"
+}

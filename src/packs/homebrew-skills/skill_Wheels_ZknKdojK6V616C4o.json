@@ -1,0 +1,136 @@
+{
+  "folder": "mqbegCPHLgXbAtHz",
+  "name": "Wheels",
+  "type": "skill",
+  "img": "icons/equipment/hand/glove-spiked-leather-grey.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p style=\"box-sizing:border-box;user-select:text;margin:10px 0px 0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em;color:rgb(25, 24, 19);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">When you first acquire this Skill, choose a wheels type: <strong style=\"box-sizing:border-box;user-select:text\">Bike</strong>, <strong style=\"box-sizing:border-box;user-select:text\">Board</strong>, or <strong style=\"box-sizing:border-box;user-select:text\">Blades</strong>. You gain its <strong style=\"box-sizing:border-box;user-select:text\">basic benefits</strong>. If you take this skill at character creation, you begin play with a <strong style=\"box-sizing:border-box;user-select:text\">set</strong> of <strong style=\"box-sizing:border-box;user-select:text\">wheels</strong> of your choice.</span></p><p style=\"box-sizing:border-box;user-select:text;margin:10px 0px 0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em;color:rgb(25, 24, 19);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Whenever you take this Skill again, choose one option: you gain the <strong style=\"box-sizing:border-box;user-select:text\">basic benefits</strong> of a new wheels type; <strong style=\"box-sizing:border-box;user-select:text\">or</strong> you gain the <strong style=\"box-sizing:border-box;user-select:text\">advanced benefits</strong> of a wheels type whose <strong style=\"box-sizing:border-box;user-select:text\">basic benefits</strong> you already obtained; or you gain the <strong style=\"box-sizing:border-box;user-select:text\">superior benefits</strong> of a wheels type whose <strong style=\"box-sizing:border-box;user-select:text\">advanced benefits</strong> you already obtained.</span></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Delinquent"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715832655592,
+    "modifiedTime": 1715832866003,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "ZknKdojK6V616C4o",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "_key": "!items!ZknKdojK6V616C4o"
+}

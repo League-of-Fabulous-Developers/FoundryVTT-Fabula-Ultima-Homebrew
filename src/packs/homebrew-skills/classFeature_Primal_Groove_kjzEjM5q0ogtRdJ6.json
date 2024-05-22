@@ -1,0 +1,38 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "Primal Groove",
+  "type": "classFeature",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "summary": {
+      "value": "Hidden beneath this canopy, you’ll find not gentleness, nor brutality, but a whole universe."
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.sanctuary",
+    "data": {
+      "description": "",
+      "haunt": "<p>Creatures that you have attacked or targeted with a spell this round suffer a penalty equal to <strong>【the number of Primal Sanctuaries you have Bonded】</strong> to their Accuracy or Magic Checks that include the Hauntee among their targets.</p>",
+      "ritual": "<p>Reveal the hidden lives and relationships of beasts.</p>"
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715110576319,
+    "modifiedTime": 1715111791469,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "kjzEjM5q0ogtRdJ6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!kjzEjM5q0ogtRdJ6"
+}

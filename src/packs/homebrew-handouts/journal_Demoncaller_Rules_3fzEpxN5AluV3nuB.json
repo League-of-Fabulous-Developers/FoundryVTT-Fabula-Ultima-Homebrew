@@ -1,0 +1,57 @@
+{
+  "name": "Demoncaller Rules",
+  "_id": "3fzEpxN5AluV3nuB",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "OBTAINING DEMONIC POWERS",
+      "type": "text",
+      "_id": "c7AcwbUMXqgsE6RH",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span class=\"fontstyle0\">There are three ways to obtain the powers of a demon:</span></p><ul><li><p><span class=\"fontstyle0\"><strong>By trading them:</strong> You agree to perform a service or offer something of value to the demon in exchange for its powers. Once the service has been rendered (or a promise made to render the service made), you can obtain the demon's powers.</span></p></li><li><p><span class=\"fontstyle0\"><strong>By stealing them:</strong> If you have the Rogue class, you can choose to steal a demon's powers instead of their spiritual treasure or IP.</span></p></li><li><p><span class=\"fontstyle0\"><strong>By extorting them:</strong> When you personally reduce a demon to 0 HP, instead of describing how you put this demon out of play you can leave this narration to the GM, demanding that this demon offer you their powers in exchange.</span></p></li></ul><p><span class=\"fontstyle0\">Note the demon's weaknesses, resistances, immunities, absorptions and traits. Demons can't take back the powers you've obtained from them (even if you don't keep your promises).</span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715116765183,
+        "modifiedTime": 1716343841316,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_key": "!journal.pages!3fzEpxN5AluV3nuB.c7AcwbUMXqgsE6RH"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715113643587,
+    "modifiedTime": 1716343841316,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+  },
+  "_key": "!journal!3fzEpxN5AluV3nuB"
+}

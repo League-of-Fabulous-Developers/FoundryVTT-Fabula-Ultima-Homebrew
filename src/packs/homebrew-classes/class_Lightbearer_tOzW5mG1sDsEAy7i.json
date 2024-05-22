@@ -1,0 +1,93 @@
+{
+  "name": "Lightbearer",
+  "type": "class",
+  "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "Most people think they're the righteous ones. But as soon as you separate people into bad and good, Evil has already won!"
+    },
+    "description": "<div class=\"stackedit__html\"><h1>LIGHTBEARER</h1><h4><strong>ALSO: Innocent, Guide, Model</strong></h4><p>It may be necessary to take up arms to defend oneself. But the real enemies of a lightbearer are cowardice, cruelty, fear, egoism and despair, which lead people to lose themselves and sink into evil.</p><p><strong>Lightbearers</strong> are not necessarily pacifists or absolute paragons. But their heightened sense of justice makes them people of profound integrity, even when it comes to facing up to their own wrongdoings.</p><h4>LIGHTBEARER<strong> FREE BENEFITS</strong></h4><ul><li>Permanently increase your maximum Hit Points <strong>or</strong> Mind Points by 5 (your choice).</li></ul><h3>LIGHTBEARER<strong> SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JjodJOqVP5YpKeoA]{Moral Compass}</strong></h4><p>Each other player can, once per game session, highlight how their character acts, speaks or reacts in a way motivated by a strong negative emotion like cowardice, cruelty, fear, egoism or despair, and gains 1 Fabula point in doing so.</p><p>The GM then gains 1 Ultima point, which they can add to those possessed by the villain of their choice. You can choose instead to replace <strong>loyalty</strong> with <strong>mistrust</strong>, <strong>affection</strong> with <strong>hatred</strong>, or to remove an emotion from the bond you have with the character who has activated this power. If so, describe what your character sees as a disturbing change in hat other character's behavior.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.B6xWTA00SPECQFx8]{Forgiveness} (SL2)</strong></h4><p>During a rest interlude, if you've had a conversation with someone towards whom you had an emotion of <strong>mistrust</strong> or <strong>hatred</strong>, and that emotion has disappeared or been changed, you gain <strong>【SL】</strong> Fabula points each.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NMnojsG6bR9JLaCj]{Compassion} (SL3)</strong></h4><p>When you succeed a test to fill or erase sections of a Clock by trying to appease someone's anger, fear or grief, or to force them to face up to their wrongdoing, you can spend up to <strong>【SL × 10】</strong> MP. For every 10 MP spent in this way, fill or erase an additional section of the Clock.</p><p>Also fill in an additional section the first time you successfully identify the reasons behind that character's actions when using this skill.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-natural-fantasy.natural-fantasy-skills.Item.zU2ZJ9PaDAShVxsS]{Wrath} (SL5)</strong></h4><p>When attacking an enemy, you can spend 5 MP to inflict additional light damage equal to <strong>【SL × 2】</strong>+ their number of dark traits.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JwGymdYdR4upQ8Lb]{Determination} (SL5)</strong></h4><p>When an attack or spell inflicts damage to you, you can reduce it by up to <strong>【SL × The Number of Dark Traits】</strong> of the attacker by spending the same number of MP.</p><p></p><h1>Heroic Skills</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.Sgi0jb5mfejfhqPD]{Another Way}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.Xu90mPIj8f3lGCAV]{Judge of Character}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.yFW7RXzJVLI3kJH0]{Lesser, Greater, Middling}</strong></p></div><p></p><div class=\"stackedit__html\"><h1>Special Rule: Dark Traits</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.nTUMLJPwlB1Oy4fJ]{Dark Traits}</strong></p><p></p></div><h1>Credit</h1><p><strong>Class Design, Writing and Development </strong>KcoQuidam</p><p><strong>Lightbearer Art </strong>https://www.pixiv.net/en/artworks/90944084</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712414014626,
+    "modifiedTime": 1715826690879,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "tOzW5mG1sDsEAy7i",
+  "sort": 0,
+  "_key": "!items!tOzW5mG1sDsEAy7i"
+}

@@ -1,0 +1,46 @@
+{
+  "folder": "HELvtKZsLSdOOl9t",
+  "name": "Steroid (Physical)",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature <strong>attacks</strong> deal an extra <em>Minor</em> amount of damage until the end of the current scene. This effect does not stack.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with HP Recovery potion.<br /><strong>Synergy Effect:</strong> Target's next <strong>attack</strong> deals an extra <em>Heavy</em> amount of damage instead of <em>Minor</em>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 4
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715052686415,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "TfSwuCoxmJbv6zZy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!TfSwuCoxmJbv6zZy"
+}

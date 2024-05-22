@@ -1,0 +1,151 @@
+{
+  "folder": "Z0B7cYbIOE3hGtlu",
+  "name": "[Handout: All Finisher Bases]",
+  "type": "miscAbility",
+  "img": "icons/equipment/waist/sash-cloth-pink-gold.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h4>FINISHER BASES</h4><p>Each base has a Hype requirement in order to use them for your finisher, but you can spend additional Hype on the base itself to increase it's damage, up to a total of 10 Hype spent on the base alone.</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Acrobatic</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><blockquote><p>Free as a bird, strong as a storm! Your foes won't know what hit'em 'til it's too late, your shadow being the last thing they see before they go.</p></blockquote><p>You perform a <strong>free attack</strong> with a <strong>melee weapon</strong> you have equipped. This attack may target lying creatures. On a hit, you deal only the finisher's damage, and you may choose to have one of the following effects occur:</p><ul><li><p>Your high-lying antics grant you and yours a tailwind: you and your allies may perform another <strong>Initiative Group Check</strong> with you as the leader, using the new result at the start of the next round.</p></li><li><p>An atmospheric danger or hazard in the area is temporarily cleared for the scene.</p></li></ul><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Hold</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>2 Hype</strong></span></p></td></tr></tbody></table><blockquote><p>Time and pressure: key components in making a diamond and choking someone out.</p></blockquote><p>You perform an Opposed <strong>【MIG + DEX】</strong> Check against your target. If you succeed, your target takes damage, is grappled according to the rules in the Grapple Skill, and you may choose to have one of the following effects occur:</p><ul><li><p>You lock out your opponent's general mobility: choose a basic attack, spell, or other action your target can use. until the end of your next turn, your target cannot use that attack, spell, or other action.</p></li><li><p>You may ask one question about your target's external anatomy or skeletal structure, or whatever it has that is analogous to a skeleton. Your Game Master must answer truthfully.</p></li></ul><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Strike</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>2 Hype</strong></span></p></td></tr></tbody></table><blockquote><p>Simple, but effective. Sometimes all you need to finish a fight is a healthy serving of knuckle sandwiches.</p></blockquote><p>You perform a <strong>free attack</strong> with a <strong>melee weapon</strong> you have equipped. On a hit, you deal only the finisher's damage and you may choose to have one of the following effects occur:</p><ul><li><p>You flow into a combo: you may perform another free attack with a melee weapon you have equipped, treating your HR as 0 when calculating damage for this attack. This attack does not count as a finisher.</p></li><li><p>Tag team; you may choose an ally and have them perform a free attack against the creature you just hit, treating their HR as 0 when calculating damage for their attack.<br />This attack does not count as a finisher.</p></li></ul><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Takedown</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><blockquote><p>Your opponent's standing and that doesn't sit right with you. Whether through a tackle or a throw, you acquaint your enemy with a good friend of yours: the cold hard ground.</p></blockquote><p>You perform an Opposed <strong>【MIG + MIG】</strong> Check against your target. If you succeed, your target takes damage and you may choose to have one of the following effects occur:</p><ul><li><p>Your target is knocked out cold: they perform one less action (to a minimum of 0 actions) during their next turn.</p></li><li><p>The area in the current scene is altered due to the force of your takedown. Work with the GM on how your surroundings have changed and what possible effects these changes may have.</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "projectfu-playtest": {
+      "growthClock": false
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1708922588320,
+    "modifiedTime": 1715114140002,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_id": "Im3YifZqQT9hBSHN",
+  "sort": 0,
+  "_key": "!items!Im3YifZqQT9hBSHN"
+}

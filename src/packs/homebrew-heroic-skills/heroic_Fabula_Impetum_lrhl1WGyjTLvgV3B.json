@@ -1,0 +1,117 @@
+{
+  "folder": "nVBzQ8yaqQttxd17",
+  "name": "Fabula Impetum",
+  "type": "heroic",
+  "img": "icons/weapons/swords/sword-gold-holy.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><em><strong>Requirements :</strong> You must have mastered the <strong>Hero</strong> class.</em></p></blockquote><p>When you perform an Attack, you may spend a number of Fabula Points equal to <strong>your Character Level divided by 5</strong>. The attack then becomes <strong>light</strong> and its damage type <strong>cannot be changed</strong>, it ignores resistances, and for each Fabula Point spent this way, you may choose one of the die you rolled for the Attack and roll it again, dealing extra damage equal to the number rolled.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Hero"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713031878571,
+    "modifiedTime": 1715040449936,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "lrhl1WGyjTLvgV3B",
+  "_key": "!items!lrhl1WGyjTLvgV3B"
+}

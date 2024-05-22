@@ -1,0 +1,19 @@
+{
+  "name": "Tectonomancer",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "alaU8wZwsWZrDi8G",
+  "sort": 1800000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715057832563,
+    "modifiedTime": 1715832790314,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!alaU8wZwsWZrDi8G"
+}

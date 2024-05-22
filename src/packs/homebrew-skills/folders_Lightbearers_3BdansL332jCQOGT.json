@@ -1,0 +1,19 @@
+{
+  "name": "Lightbearers",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "3BdansL332jCQOGT",
+  "sort": 1300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715067620749,
+    "modifiedTime": 1715832790314,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!3BdansL332jCQOGT"
+}

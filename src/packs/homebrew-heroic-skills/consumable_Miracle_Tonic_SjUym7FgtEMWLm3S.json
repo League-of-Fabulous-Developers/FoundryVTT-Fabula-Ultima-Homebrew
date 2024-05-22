@@ -1,0 +1,46 @@
+{
+  "folder": "IKp7lv19iGv3feBl",
+  "name": "Miracle Tonic",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature permanently increases either their Hit Points or Mind Points by 10, or both by 5. The target chooses which effect the item has. A creature can only benefit from this item once.</p><hr /><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715053010496,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_id": "SjUym7FgtEMWLm3S",
+  "sort": 100000,
+  "_key": "!items!SjUym7FgtEMWLm3S"
+}

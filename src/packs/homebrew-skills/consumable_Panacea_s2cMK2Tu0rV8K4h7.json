@@ -1,0 +1,46 @@
+{
+  "folder": "pLnYnzfcOXNDeQq4",
+  "name": "Panacea",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature recovers from up to three Status effects.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with HP or MP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers 10 extra HP or MP for each Status effect removed by this item.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 3
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715049819353,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "s2cMK2Tu0rV8K4h7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!s2cMK2Tu0rV8K4h7"
+}

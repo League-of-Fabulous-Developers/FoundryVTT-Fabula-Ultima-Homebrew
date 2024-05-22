@@ -1,0 +1,19 @@
+{
+  "name": "Demoncaller",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ghAPL6Llu5kTmtg5",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715090338778,
+    "modifiedTime": 1715090347360,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!folders!ghAPL6Llu5kTmtg5"
+}

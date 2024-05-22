@@ -1,0 +1,119 @@
+{
+  "folder": "DDfOuiz404kf1WY3",
+  "name": "Impeccable Physique",
+  "type": "heroic",
+  "img": "icons/equipment/waist/sash-cloth-pink-gold.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><em><strong>Requirements : </strong>You must have mastered one or more classes among <strong>Fury</strong>, <strong>Guardian </strong>and <strong>Wrestler</strong>.</em></p></blockquote><p>You are immune to your choice of either dazed, shaken, slow, or weak. Whenever an effect would cause you to suffer a status effect you are immune to, you instead recover <strong>@GAIN[5 hp]</strong> <strong>Hit Points</strong> or <strong>@GAIN[5 mp]</strong> <strong>Mind Points</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Wrestler"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713025334700,
+    "modifiedTime": 1716074182131,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "ca4iets71WTvE3NA",
+  "sort": 100000,
+  "_key": "!items!ca4iets71WTvE3NA"
+}

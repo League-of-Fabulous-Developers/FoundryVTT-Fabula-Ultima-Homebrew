@@ -1,0 +1,93 @@
+{
+  "name": "Warden",
+  "type": "class",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
+    },
+    "description": "<div class=\"stackedit__html\"><h1>WARDEN</h1><h4><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h4><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><h4><strong>WARDEN FREE BENEFITS</strong></h4><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h3><strong>WARDEN SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</strong></h4><p>You may bind your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your Sanctuaries (see next page.) You can Haunt other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death} (SL5)</strong></h4><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL x 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance} (SL3)</strong></h4><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL x 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</strong></h4><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is} (SL5)</strong></h4><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL x 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><p></p><h1>SANCTUARY &amp; HAUNTOLOGY</h1></div><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JF4Vq0mwDSfEI1ry]{[Handout: Sanctuaries]}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.KaHBiyz46c4vfawG]{[Handout: Sanctuary Rules]}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JmXFUibkLN5ZCzJx]{[Handout: Warden Notes]}</strong></p><p></p><h1>Credit</h1><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Warden Art </strong>Eso from Granblue</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": true
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": true
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712414014626,
+    "modifiedTime": 1715828074791,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "GZCOjMGiVdCwwScN",
+  "sort": 0,
+  "_key": "!items!GZCOjMGiVdCwwScN"
+}

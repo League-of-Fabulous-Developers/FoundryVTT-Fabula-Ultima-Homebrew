@@ -1,0 +1,152 @@
+{
+  "folder": "vf8f1TxnaG3vqDEL",
+  "name": "[Handout: Predator Notes]",
+  "type": "miscAbility",
+  "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h4><span class=\"fontstyle0\"><strong>@ICON[header] GM NOTES</strong></span></h4><ul><li><p><span class=\"fontstyle2\">Discuss with the Predator’s player what story their curse contributes to, and make sure that it’s something that your table can work with. Keep the safety tools handy and balance their arc with the rest of the party.</span></p></li><li><p><span class=\"fontstyle2\">While it might not be the main focus, their story is likely to include themes of limiting and taking responsibility for the harm that we cause to others. Give them opportunities to resist or give in to temptation, and see how the rest of the party responds.</span></p></li><li><p><span class=\"fontstyle2\">Fabula Ultima is not a game about smashing all who oppose you... but now and again it’s fun to be a Halloween monster and terrorize a crowd that really deserves it. Things don’t have to be bleak all the time!</span></p></li><li><p><span class=\"fontstyle2\">Some people will be terrified of the Predator, while others will be unimpressed. Of the latter, some will be deluded and others rightfully confident. Be sure to include a mix of reactions. Characters may even find them fascinating, pitiable, or cute!</span></p></li><li><p><span class=\"fontstyle2\">Children of the Night allows the Predator to commune with bats, wolves, leeches, armadillos, and other spooky creatures. Like the Chimerist’s Feral Speech (Core), this creates more ways to get information and scene-setting to the players.</span></p></li></ul><p></p><h4><span class=\"fontstyle0\"><strong>@ICON[header] ADAPTATION</strong></span></h4><ul><li><p>The simplest way to change this class is to modify the Species that Dark Hunger applies to, and possibly the status effect that Spreading Terror looks for (which would also change the effect that you are not allowed to take for Dark Hunger.)</p><ul><li><p>Example: the <strong>Volt Thief</strong> - in a <strong>construct</strong>-heavy game, this is an ancient android that saps energy and computing power from other machines. They hack into <strong>constructs</strong> for MP by inflicting <strong>dazed</strong>, and gain strength when there are <strong>slowed constructs</strong> on the scene.</p></li></ul></li><li><p>This Class doesn’t have abilities that drain foes by hitting them because <strong>Darkblade</strong> (Core), <strong>Chimerist</strong> (Core), and <strong>Mutant</strong> (Techno) all have that territory covered. Consider adding one of them to get the feel of a more aggressive Predator.</p></li><li><p>Speaking of the Mutant - if you’re playing with Techno Fantasy classes, you could replace the Wolfman’s Rogue Skills with Mutant, taking <strong>Akromorphosis</strong> and <strong>Theriomorphosis</strong> (<strong>Dynamotheria</strong>, <strong>Tachytheria</strong>). This would save money on weapons and give you a thematic transformation!</p></li><li><p>If you have multiple Predators and their condition is going to be a major theme for your game... first, consider if you want to be playing something by White Wolf instead. If not, take a look at the optional extra Bond rules (in an <strong>upcoming Horror supplement</strong>). Just remember: the strength of a Bond <strong>never</strong> goes above 3, even if you’re using these!</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "name": "Name"
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        },
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": null
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "type": {
+          "value": "physical"
+        },
+        "value": 0
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "projectfu-playtest": {
+      "growthClock": false
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1706574599766,
+    "modifiedTime": 1715103840646,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "ownership": {
+    "default": 0,
+    "YN7AhHIwAZeH33Tw": 3,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_id": "l8Qopj48qcOCZFav",
+  "sort": 100000,
+  "_key": "!items!l8Qopj48qcOCZFav"
+}

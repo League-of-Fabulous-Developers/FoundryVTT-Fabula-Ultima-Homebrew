@@ -1,0 +1,19 @@
+{
+  "name": "Delinquent",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "mqbegCPHLgXbAtHz",
+  "sort": 1000000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715779072554,
+    "modifiedTime": 1715832790314,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!mqbegCPHLgXbAtHz"
+}

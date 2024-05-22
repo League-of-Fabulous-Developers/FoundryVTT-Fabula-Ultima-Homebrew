@@ -1,0 +1,134 @@
+{
+  "folder": "RZWxaWEXE0khR5da",
+  "name": "Tremor",
+  "type": "spell",
+  "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">You delicately pluck at the earth so that the damage doesn’t spread beyond your target. Each target hit by this spell suffers <strong style=\"box-sizing:border-box;user-select:text\">【HR + 10】 earth</strong> damage. This spell cannot target creatures who are flying, floating, falling, or otherwise in mid-air.</span></p><p style=\"box-sizing:border-box;user-select:text;margin:10px 0px 0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">Opportunity</strong>: On your next turn, you may cast <strong style=\"box-sizing:border-box;user-select:text\">Aftershock</strong> on all of the same targets who are still eligible, either before or after your action. It’s a copy of <strong style=\"box-sizing:border-box;user-select:text\">Tremor</strong> that doesn’t use your action and doesn’t have this <strong style=\"box-sizing:border-box;user-select:text\">Opportunity</strong>.</span></p><hr /><p><strong>@LOSS[5 mp]</strong> for <strong>one</strong> target.</p><p><strong>@LOSS[10 mp]</strong> for <strong>two</strong> targets.</p><p><strong>@LOSS[15 mp]</strong> for <strong>three</strong> targets.</p><p><strong>@LOSS[20 mp]</strong> for <strong>four</strong> targets.</p><p><strong>@LOSS[25 mp]</strong> for <strong>five</strong> targets.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "5 × T"
+    },
+    "target": {
+      "value": "Up to five creatures"
+    },
+    "duration": {
+      "value": "Instantaneous"
+    },
+    "isOffensive": {
+      "value": true
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715060941887,
+    "modifiedTime": 1715065205379,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "DXXiguRUl49GZhA0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!DXXiguRUl49GZhA0"
+}

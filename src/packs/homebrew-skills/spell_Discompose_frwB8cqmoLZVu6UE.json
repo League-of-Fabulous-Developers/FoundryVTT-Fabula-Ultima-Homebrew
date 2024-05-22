@@ -1,0 +1,134 @@
+{
+  "folder": "8G3K59b9u19Zwddg",
+  "name": "Discompose",
+  "type": "spell",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">Target suffers a <strong style=\"box-sizing:border-box;user-select:text;color:rgb(43, 74, 66);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">-1</strong> penalty to their Accuracy or Magic Checks. This penalty increases to <strong style=\"box-sizing:border-box;user-select:text;color:rgb(43, 74, 66);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">-2</strong> at if you are <strong style=\"box-sizing:border-box;user-select:text;color:rgb(43, 74, 66);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">level 20 or higher</strong>, and to <strong style=\"box-sizing:border-box;user-select:text;color:rgb(43, 74, 66);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">-3</strong> if you are <strong style=\"box-sizing:border-box;user-select:text;color:rgb(43, 74, 66);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">level 40 or higher</strong>.</span></p><hr /><p><strong>@EFFECT[eyJuYW1lIjoiRGlzY29tcG9zZSAoLTEpIiwiY2hhbmdlcyI6W3sia2V5Ijoic3lzdGVtLmJvbnVzZXMuYWNjdXJhY3kuYWNjdXJhY3lDaGVjayIsIm1vZGUiOjIsInZhbHVlIjotMX0seyJrZXkiOiJzeXN0ZW0uYm9udXNlcy5hY2N1cmFjeS5tYWdpY0NoZWNrIiwibW9kZSI6MiwidmFsdWUiOi0xfV0sImljb24iOiIvaWNvbnMvc3ZnL2F1cmEuc3ZnIn0=]  @EFFECT[eyJuYW1lIjoiRGlzY29tcG9zZSAoLTIpIiwiY2hhbmdlcyI6W3sia2V5Ijoic3lzdGVtLmJvbnVzZXMuYWNjdXJhY3kuYWNjdXJhY3lDaGVjayIsIm1vZGUiOjIsInZhbHVlIjotMn0seyJrZXkiOiJzeXN0ZW0uYm9udXNlcy5hY2N1cmFjeS5tYWdpY0NoZWNrIiwibW9kZSI6MiwidmFsdWUiOi0yfV0sImljb24iOiIvaWNvbnMvc3ZnL2F1cmEuc3ZnIn0=]  @EFFECT[eyJuYW1lIjoiRGlzY29tcG9zZSAoLTMpIiwiY2hhbmdlcyI6W3sia2V5Ijoic3lzdGVtLmJvbnVzZXMuYWNjdXJhY3kuYWNjdXJhY3lDaGVjayIsIm1vZGUiOjIsInZhbHVlIjotM30seyJrZXkiOiJzeXN0ZW0uYm9udXNlcy5hY2N1cmFjeS5tYWdpY0NoZWNrIiwibW9kZSI6MiwidmFsdWUiOi0zfV0sImljb24iOiIvaWNvbnMvc3ZnL2F1cmEuc3ZnIn0=] </strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Malefactor"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "20"
+    },
+    "target": {
+      "value": "One creature"
+    },
+    "duration": {
+      "value": "Scene"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715819987083,
+    "modifiedTime": 1715823684868,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "frwB8cqmoLZVu6UE",
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "_key": "!items!frwB8cqmoLZVu6UE"
+}

@@ -1,0 +1,153 @@
+{
+  "folder": "Z0B7cYbIOE3hGtlu",
+  "name": "[Handout: Finisher Rules]",
+  "type": "miscAbility",
+  "_id": "rsuNrrGhss8rHxiA",
+  "img": "icons/equipment/waist/sash-cloth-pink-gold.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h3>BUILDING A FINISHER</h3><p>A Finisher is a high-octane powermove a Wrestler does when they want to close out a fight. Finishers are generally unique to each wrestler, being given names by their users reflective of their effects or their user's personality.</p><p>Before you perform a finisher, you must pick which base your finisher uses: the base is what your finisher generally looks like and will determine the Check needed to perform it. Once you've picked your base, you can spend additional Hype to tack on lairs, extra effects that help a finisher feel distinct and powerful.</p><p>Once you've settled on your base and your flairs, you can now unleash your finisher upon your enemies! The damage calculation for finishers is <strong>【HR + Total Hype Spent】</strong> physical damage, or the damage type of the weapon used in the finisher, if applicable.</p><p></p><h5>WHEN TO MAKE A FINISHER</h5><p>While improvising a new finisher in the middle of a scene can be fun and exciting, it might be best to create preset finishers for your wrestler to ensure play runs smoothly. Make sure to note the effects and total Hype cost of preset finishers you make!</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "projectfu-playtest": {
+      "growthClock": false
+    },
+    "core": {
+      "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR"
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1708922588320,
+    "modifiedTime": 1716074509667,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!rsuNrrGhss8rHxiA"
+}

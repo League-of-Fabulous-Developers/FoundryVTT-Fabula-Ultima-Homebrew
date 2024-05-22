@@ -1,0 +1,138 @@
+{
+  "name": "Siphon Vitality",
+  "type": "skill",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>You may use an action to perform an Opposed <strong>【MIG + WLP】</strong> Check against a creature you can touch. If you succeed, choose one from the following:</p><ul><li><p>Your target loses <strong>【HR】 Hit Points</strong> and you recover an amount of HP equal to half this <strong>HP</strong> loss.</p></li><li><p>Your target suffers <strong>dazed</strong>, and you may treat your <strong>Insight</strong> die as one die size higher until they recover from dazed.</p></li><li><p>Your target suffers <strong>shaken</strong>, and you may treat your <strong>Willpower</strong> die as one die size higher until they recover from shaken.</p></li><li><p>Your target suffers <strong>slow</strong>, and you may treat your <strong>Dexterity</strong> die as one die size higher until they recover from slow.</p></li><li><p>Your target suffers <strong>weak</strong>, and you may treat your <strong>Might</strong> die as one die size higher 3 until they recover from weak.</p></li></ul></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 1,
+      "min": 0
+    },
+    "class": {
+      "value": "Vampire"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "defense": "def",
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    }
+  },
+  "effects": [],
+  "folder": "q3edpagvKBdht0Uw",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1709317931671,
+    "modifiedTime": 1713023226700,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "MSwWnD1He4wWGySB",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!MSwWnD1He4wWGySB"
+}

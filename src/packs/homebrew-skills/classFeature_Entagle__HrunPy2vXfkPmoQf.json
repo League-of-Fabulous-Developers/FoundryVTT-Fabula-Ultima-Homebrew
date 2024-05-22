@@ -1,0 +1,60 @@
+{
+  "name": "Entagle⚡",
+  "type": "classFeature",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "Up to three creatures"
+      },
+      "duration": {
+        "value": "Until lifted"
+      },
+      "description": "<p>You bind your prey to each other, chaining them to the wills of their fellow captives.</p><p>Targets cannot leave the scene while another target is still in the scene and is not at 0 HP.</p><p>When one target performs an action, all other targets must perform an Opposed <strong>【MIG + WLP】 </strong>check against the first target. If they succeed, they can perform actions as normal. If they fail, they must perform the action the first target performed on their turn, wasting their action if they cannot.</p><p>This malediction is lifted when the targets are able to perform actions independently of each other a total of three times, or when only one target is above 0 HP.</p>",
+      "hpCost": {
+        "value": 10
+      },
+      "maxTarget": {
+        "value": 3
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "physical",
+        "bonus": 0
+      },
+      "isOffensive": {
+        "value": false
+      }
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1715111879571,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "HrunPy2vXfkPmoQf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!HrunPy2vXfkPmoQf"
+}

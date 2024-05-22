@@ -1,0 +1,154 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "[Handout: Sanctuary Rules]",
+  "type": "miscAbility",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h3>SANCTUARY &amp; HAUNTOLOGY</h3><p><span class=\"fontstyle0\">Sanctuaries are sites in the world that have spiritual and historical significance. Usually, they take up a small area - a building, hill, grove, or small community - but larger Sanctuaries aren’t any more powerful or important. A Warden will need to understand the story and nature of a place in order to <strong>bind</strong> it, which can be a different trial for each one.</span></p><p><span class=\"fontstyle0\">Even when you are far away, the spirits of your Sanctuaries are always close at hand. On your turn in a conflict scene, you may spend an Action to Haunt other creatures that you have a Bond with in the scene, paying 5 Mind Points for the first Haunting, 10 for the second on the same turn, and 15 for each beyond that.</span></p><p><span class=\"fontstyle0\">You can banish any number of Hauntings on your turn, either before or after your action, which removes their benefit or drawback from the creatures and frees them to Haunt another creature.</span></p><p><span class=\"fontstyle0\">You cannot Haunt yourself, and each Sanctuary can only Haunt one creature at a time. Each Sanctuary has two mechanical effects. A Haunt is the benefit (or drawback) that a creature gets when you use Bind and Haunt to grant them its spirit. Ritual is a broad description of the types of Rituals that become easier when carried out at that site. The GM might allow a Mind Point discount, a stronger effect, or a cushion for failure to such Rituals there.</span></p><p><span class=\"fontstyle0\">Unless otherwise noted, each creature can only be Haunted by the spirit of one Sanctuary, and you can only Haunt one creature with the spirit of a given Sanctuary at a time.</span></p><p><span class=\"fontstyle0\">Here are some example Sanctuaries</span></p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JF4Vq0mwDSfEI1ry]{[Handout: All Sanctuaries]}</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "name": "Name"
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        },
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": null
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "type": {
+          "value": "physical"
+        },
+        "value": 0
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.wcHoBANLBJNHBTc0"
+    },
+    "projectfu-playtest": {
+      "growthClock": false
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1706551315529,
+    "modifiedTime": 1715116018588,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "ownership": {
+    "default": 0,
+    "YN7AhHIwAZeH33Tw": 3,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_id": "KaHBiyz46c4vfawG",
+  "sort": 100000,
+  "_key": "!items!KaHBiyz46c4vfawG"
+}

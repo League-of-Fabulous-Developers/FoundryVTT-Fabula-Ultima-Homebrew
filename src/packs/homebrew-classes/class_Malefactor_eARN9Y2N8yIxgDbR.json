@@ -1,0 +1,91 @@
+{
+  "name": "Malefactor",
+  "type": "class",
+  "_id": "eARN9Y2N8yIxgDbR",
+  "img": "icons/weapons/thrown/bomb-timer.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "The past and future are so similar to each other. I am... indifferent towards them."
+    },
+    "description": "<div class=\"stackedit__html\"><h1>MALEFACTOR</h1><h4><strong>ALSO: NIHILIST, VANDAL, WITCH</strong></h4><p>Those that fight against the evils of this world are not always kind about it. With every swing of a hero’s sword, is the wound it leaves behind. The <strong>Malefactor</strong> is the master of that pain.</p><p>They specialize in the magic of suffering, destruction, and change. Some call their work evil. Others call it chaos. They might even be right. However, there cannot be emancipation without violence.</p><h4>MALEFACTOR<strong> FREE BENEFITS</strong></h4><p>❖ Permanently increase your maximum Mind Points by 5.<br />❖ You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p><h3>MALEFACTOR<strong> SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.zeGS65Cq8PTfpw6c]{Exploit} (SL5)</strong></h4><p>As an Action during a <strong>Conflict</strong>, you can spend 10 Mind Points to begin exploiting the afflictions of your enemies. When you do this, choose one of the following Status Effects: <strong>Dazed</strong>, <strong>Shaken</strong>, <strong>Slow</strong>, or <strong>Weak</strong>. At the beginning of your future turns this <strong>Conflict</strong>, enemies with the chosen Status Effect suffers <strong>【SL × 3】</strong> damage of the same type as one of your equipped weapons (if none, <strong>physical</strong>).</p><p>You can only Exploit a single Status Effect at a time. You can use an Action on future turns to change the Status Effect you are exploiting.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.HxFWRCO5PCMv0M1C]{Maniacal Insight}</strong></h4><p>When a Villain enters a scene that you are present in, you can spend a Fabula Point to learn the Villains goal for that scene. For example, if they enter during a conflict, you might glean that they are present in order to steal a specific object from the party, or defeat a specific member.</p><p>If a Villain has multiple goals, the Game Master chooses which one you’d be most likely to learn.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ZNL2ePoRVlwBTzY1]{Malefactor Magic} (SL10)</strong></h4><p>Each time you acquire this Skill, learn one <strong>Malefaction</strong> spell (see next two pages).</p><p>Offensive (<strong>@ICON[offensive]</strong>) Malefaction spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.krAAFccCLZSlpn09]{Ritual Malefaction}</strong></h4><p>You may perform Rituals whose effects fall within the <strong>Malefaction</strong> discipline (see on page x).</p><p><strong>Malefaction</strong> Rituals use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr /></div><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.rq7F3pe3n6xkspnY]{Sacrificial Gambit}</strong></h4><p>When you cast an Offensive Spell at a single Target, before you make your Check, you can choose to automatically succeed at the cost of also suffering the spell’s effects (treating <strong>HR</strong> for both you and the Target as 0). If the spell in some way would have no effect on you, such as applying a Status Effect you already have, this skill fails and neither you nor the Target are effected.</p><p></p><div class=\"stackedit__html\"><h1>HEROIC SKILLS</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.zW4y0wiCJe5TtqiD]{Calamity}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.iInMULope5IK7aDX]{Merciless Assault}</strong></p></div><div class=\"stackedit__html\"><p></p><h1>MALEFACTOR SPELLS</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR]{[Handout: All Malefactor Spells]}</strong></p></div><p></p><h1>CREDIT</h1><p><strong>STELLA IMPULSUM </strong>homebrew module<strong> </strong>by Desm☆n</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": true
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": true
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715779127743,
+    "modifiedTime": 1715829361575,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!items!eARN9Y2N8yIxgDbR"
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Super Fanclub",
+  "type": "heroic",
+  "_id": "z744kTOPH7i1fQzx",
+  "img": "icons/equipment/head/hat-belted-purple.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> You must have Mastered the <strong>Celebrity</strong> Class, and must have learned the <strong>Call Entourage</strong> skill.</p></blockquote><p>You have developed a special fanbase, composed of people who define their way of life by you and their (often, but not always, metaphorical) worship thereof. Together with the rest of your group, design a <strong>level 10 humanoid</strong> (see page <strong>302</strong> of the <strong>Core Rulebook</strong>), and reduce their Maximum Hit Points and Mind Points by 50%. Those new statistics become one of your <strong>Entourage Members</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Celebrity"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": "EAu9O8sL7Ujuc4te",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715800820985,
+    "modifiedTime": 1715810044959,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!items!z744kTOPH7i1fQzx"
+}

@@ -1,0 +1,134 @@
+{
+  "folder": "8G3K59b9u19Zwddg",
+  "name": "Sunder",
+  "type": "spell",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">Targets Defense and Magic Defense are reduced by <strong style=\"box-sizing:border-box;user-select:text\">2</strong>.</span></p><p style=\"box-sizing:border-box;user-select:text;margin:10px 0px 0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Once the Target has been hit by <strong style=\"box-sizing:border-box;user-select:text\">3</strong> Attacks or Offensive Spells, this spells effect ends.</span></p><hr /><p><strong>@EFFECT[eyJuYW1lIjoiU3VuZGVyIiwiaWNvbiI6Ii9pY29ucy9zdmcvYXVyYS5zdmciLCJjaGFuZ2VzIjpbeyJrZXkiOiJzeXN0ZW0uZGVyaXZlZC5kZWYudmFsdWUiLCJtb2RlIjoyLCJ2YWx1ZSI6Ii0yIn0seyJrZXkiOiJzeXN0ZW0uZGVyaXZlZC5tZGVmLnZhbHVlIiwibW9kZSI6MiwidmFsdWUiOiItMiJ9XSwiZGlzYWJsZWQiOmZhbHNlLCJkdXJhdGlvbiI6eyJzdGFydFRpbWUiOjAsInNlY29uZHMiOm51bGwsImNvbWJhdCI6bnVsbCwicm91bmRzIjpudWxsLCJ0dXJucyI6bnVsbCwic3RhcnRSb3VuZCI6MCwic3RhcnRUdXJuIjowfSwiZGVzY3JpcHRpb24iOiI8cD48c3BhbiBzdHlsZT1cImZvbnQtZmFtaWx5OiAnUFQgU2FucyBOYXJyb3cnLCBzYW5zLXNlcmlmXCI+VGFyZ2V0cyBEZWZlbnNlIGFuZCBNYWdpYyBEZWZlbnNlIGFyZSByZWR1Y2VkIGJ5IDxzdHJvbmcgc3R5bGU9XCJib3gtc2l6aW5nOmJvcmRlci1ib3g7dXNlci1zZWxlY3Q6dGV4dFwiPjI8L3N0cm9uZz4uPC9zcGFuPjwvcD48cCBzdHlsZT1cImJveC1zaXppbmc6IGJvcmRlci1ib3g7IHVzZXItc2VsZWN0OiB0ZXh0OyBtYXJnaW46IDEwcHggMHB4IDBweDsgZm9udC1mYW1pbHk6ICdQVCBTYW5zIE5hcnJvdycsIHNhbnMtc2VyaWY7IGZvbnQtc3R5bGU6IG5vcm1hbDsgZm9udC1zaXplOiAxNnB4OyBsaW5lLWhlaWdodDogMS40NWVtOyBjb2xvcjogcmdiKDQzLCA3NCwgNjYpOyBmb250LXZhcmlhbnQtbGlnYXR1cmVzOiBub3JtYWw7IGZvbnQtdmFyaWFudC1jYXBzOiBub3JtYWw7IGZvbnQtd2VpZ2h0OiA0MDA7IGxldHRlci1zcGFjaW5nOiBub3JtYWw7IG9ycGhhbnM6IDI7IHRleHQtaW5kZW50OiAwcHg7IHRleHQtdHJhbnNmb3JtOiBub25lOyB3aGl0ZS1zcGFjZTogbm9ybWFsOyB3aWRvd3M6IDI7IHdvcmQtc3BhY2luZzogMHB4OyAtd2Via2l0LXRleHQtc3Ryb2tlLXdpZHRoOiAwcHg7IHRleHQtZGVjb3JhdGlvbi10aGlja25lc3M6IGluaXRpYWw7IHRleHQtZGVjb3JhdGlvbi1zdHlsZTogaW5pdGlhbDsgdGV4dC1kZWNvcmF0aW9uLWNvbG9yOiBpbml0aWFsOyB0ZXh0LWFsaWduOiBzdGFydFwiPjxzcGFuIHN0eWxlPVwiZm9udC1mYW1pbHk6ICdQVCBTYW5zIE5hcnJvdycsIHNhbnMtc2VyaWZcIj5PbmNlIHRoZSBUYXJnZXQgaGFzIGJlZW4gaGl0IGJ5IDxzdHJvbmcgc3R5bGU9XCJib3gtc2l6aW5nOmJvcmRlci1ib3g7dXNlci1zZWxlY3Q6dGV4dFwiPjM8L3N0cm9uZz4gQXR0YWNrcyBvciBPZmZlbnNpdmUgU3BlbGxzLCB0aGlzIHNwZWxscyBlZmZlY3QgZW5kcy48L3NwYW4+PC9wPiIsIm9yaWdpbiI6bnVsbCwidGludCI6bnVsbCwidHJhbnNmZXIiOmZhbHNlLCJzdGF0dXNlcyI6W10sImZsYWdzIjp7InByb2plY3RmdSI6eyJDcmlzaXNJbnRlcmFjdGlvbiI6Im5vbmUifX19]</strong> </p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Malefactor"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "20"
+    },
+    "target": {
+      "value": "One creature"
+    },
+    "duration": {
+      "value": "Scene"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "wlp"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": true
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715819987083,
+    "modifiedTime": 1715823339154,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "2FOoZ0zpwiRMzo9K",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "_key": "!items!2FOoZ0zpwiRMzo9K"
+}

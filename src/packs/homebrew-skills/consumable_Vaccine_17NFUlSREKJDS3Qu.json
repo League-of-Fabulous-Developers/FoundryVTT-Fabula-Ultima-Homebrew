@@ -1,0 +1,46 @@
+{
+  "folder": "HELvtKZsLSdOOl9t",
+  "name": "Vaccine",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature gains <strong>Immunity</strong> to one status effect of your choice until the end of the scene.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with Status Recovery potion.<br /><strong>Synergy Effect:</strong> Target can suffer status effects but may treat their Attribute dice as unchanged until the end of the scene.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 3
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715052686415,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "17NFUlSREKJDS3Qu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!17NFUlSREKJDS3Qu"
+}

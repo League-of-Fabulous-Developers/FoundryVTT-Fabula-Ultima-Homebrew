@@ -1,0 +1,150 @@
+{
+  "folder": "LoSdHCz7mOdydowM",
+  "name": "Dark Traits",
+  "type": "miscAbility",
+  "_id": "nTUMLJPwlB1Oy4fJ",
+  "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h4>SPECIAL RULE: DARK TRAITS</h4><p><strong>Dark traits</strong> are enemy traits that motivate their actions and aggressivity, e.g : blindly obeys orders, vengeful, convinced by their mission, desperate, corrupt, etc. In a campaign where a lightbearer is present, you should take care to ensure that all enemies have at least one trait that can be qualified as a dark trait, and at least two for</p><p>villains.</p><p>PCs should be able to interact with NPCs' dark traits by questioning them. This should be the subject of a Clock of at least 6 sections (and more likely 10 or 12 for traits that strongly define an NPC). When a Clock seeking to push an antagonist to question themself is filled, you should replace at least one of their dark traits with a temporary trait that represents the antagonist's doubt or questioning: confused, unsure, troubled, etc. However, the next time the antagonist meets the group, this trait should have evolved into a new one, which may or may not be a new dark trait.</p><p>During a conflict, if an enemy no longer possesses any dark trait, it should be fairly simple to convince them to stop fighting: via a Clock of 4 to 6 sections maximum. The GM chooses how the enemy abandons the conflict: Do they let the PCs go? Do they lay down their weapons? Do they flee? etc.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "projectfu-playtest": {
+      "growthClock": false
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715067957560,
+    "modifiedTime": 1715102911210,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!items!nTUMLJPwlB1Oy4fJ"
+}

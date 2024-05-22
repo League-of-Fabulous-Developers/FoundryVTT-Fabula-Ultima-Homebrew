@@ -1,0 +1,593 @@
+{
+  "folder": "eokC89cQpbZtOkCG",
+  "name": "Brute",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 30,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 20,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": []
+    },
+    "affinities": {
+      "physical": {
+        "base": 1
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 6
+      },
+      "ins": {
+        "base": 6
+      },
+      "mig": {
+        "base": 10
+      },
+      "wlp": {
+        "base": 10
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": "Bullheaded, Convicted, Loyal, Well-Equipped"
+    },
+    "species": {
+      "value": "humanoid"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": false
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "<p>Tough and protective individuals. Ready to defend you at all costs when danger comes your way.</p>",
+    "associatedTherioforms": ""
+  },
+  "prototypeToken": {
+    "name": "Aristocrat",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Thrown Weapon",
+      "type": "basic",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "ranged"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "_id": "QajiHXVStnTEmdvL",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "pBweP8B18hmB7U1j": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715804084215,
+        "modifiedTime": 1715804510792,
+        "lastModifiedBy": "pBweP8B18hmB7U1j"
+      },
+      "_key": "!actors.items!TIMkq8fwjl04se0F.QajiHXVStnTEmdvL"
+    },
+    {
+      "name": "Heavy Weapon",
+      "type": "basic",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 10
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "_id": "D4tYKP9yX6EI6vqD",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "pBweP8B18hmB7U1j": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715804084426,
+        "modifiedTime": 1715804510792,
+        "lastModifiedBy": "pBweP8B18hmB7U1j"
+      },
+      "_key": "!actors.items!TIMkq8fwjl04se0F.D4tYKP9yX6EI6vqD"
+    },
+    {
+      "name": "Heavily Armored",
+      "type": "rule",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p> Your Defense becomes <strong>12</strong>.</p><hr /><p><strong>@EFFECT[eyJuYW1lIjoiSGVhdmlseSBBcm1vcmVkIiwiY2hhbmdlcyI6W3sia2V5Ijoic3lzdGVtLmRlcml2ZWQuZGVmLnZhbHVlIiwibW9kZSI6NCwidmFsdWUiOjEyfV0sImljb24iOiJpY29ucy9lcXVpcG1lbnQvY2hlc3QvYnJlYXN0cGxhdGUtbGF5ZXJlZC1naWxkZWQtb3JhbmdlLndlYnAifQ==]</strong></p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "Homebrew"
+        }
+      },
+      "_id": "LriAjXvko77dQpdx",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "pBweP8B18hmB7U1j": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715804165986,
+        "modifiedTime": 1715804510792,
+        "lastModifiedBy": "pBweP8B18hmB7U1j"
+      },
+      "_key": "!actors.items!TIMkq8fwjl04se0F.LriAjXvko77dQpdx"
+    },
+    {
+      "name": "Intercept",
+      "type": "rule",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When an Ally is damaged by an Attack, you can choose to allow them to become Resistant to the damage. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "Homebrew"
+        }
+      },
+      "_id": "qReO2PHUCoSH6IBt",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "pBweP8B18hmB7U1j": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715804166221,
+        "modifiedTime": 1715804510792,
+        "lastModifiedBy": "pBweP8B18hmB7U1j"
+      },
+      "_key": "!actors.items!TIMkq8fwjl04se0F.qReO2PHUCoSH6IBt"
+    }
+  ],
+  "effects": [
+    {
+      "name": "Heavily Armored",
+      "changes": [
+        {
+          "key": "system.derived.def.value",
+          "mode": 4,
+          "value": "12",
+          "priority": null
+        }
+      ],
+      "icon": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+      "origin": "Actor.TIMkq8fwjl04se0F.Item.LriAjXvko77dQpdx",
+      "flags": {
+        "projectfu": {
+          "Temporary": true
+        }
+      },
+      "_id": "m41Eav9b7q8hvtTb",
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": 0,
+        "startTurn": 0
+      },
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "_key": "!actors.effects!TIMkq8fwjl04se0F.m41Eav9b7q8hvtTb"
+    },
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Actor.TIMkq8fwjl04se0F",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": 0,
+        "startTurn": 0
+      },
+      "disabled": false,
+      "name": "Reduce HP & MP",
+      "_id": "QVflNbfEMKt60xva",
+      "changes": [
+        {
+          "key": "system.resources.hp.max",
+          "mode": 5,
+          "value": "30",
+          "priority": null
+        },
+        {
+          "key": "system.resources.mp.max",
+          "mode": 5,
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "tint": null,
+      "_key": "!actors.effects!TIMkq8fwjl04se0F.QVflNbfEMKt60xva"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "flags": {
+    "projectfu-playtest": {
+      "therioforms": ""
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715803445479,
+    "modifiedTime": 1716344013386,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+  },
+  "_id": "TIMkq8fwjl04se0F",
+  "_key": "!actors!TIMkq8fwjl04se0F"
+}

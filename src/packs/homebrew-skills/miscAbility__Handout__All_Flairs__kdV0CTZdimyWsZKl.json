@@ -1,0 +1,153 @@
+{
+  "folder": "Z0B7cYbIOE3hGtlu",
+  "name": "[Handout: All Flairs]",
+  "type": "miscAbility",
+  "img": "icons/equipment/waist/sash-cloth-pink-gold.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h4>FLAIR</h4><p>The following are flairs you can add to a finisher base in order to customize its effects. A flair will indicate if you can spend more than 1 Hype on it, with others requiring you to do so before you can add their effects into the finisher.</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Atomic</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>The finisher's damage type changes from its original type to your choice of either <strong>bolt</strong>, <strong>fire</strong>, or <strong>light</strong>.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Avenging</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><p>This flair lets you perform the finisher <strong>on another creature's turn</strong> when an ally is targeted by an attack, spell, or other harmful effect.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Brilliant</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>When you add this flair, choose any number of creatures that can see you. You spend 1 Hype for each creature chosen. After performing the finisher, if your target's <strong>current Willpower die size</strong> is smaller than yours, then they have a -2 to Accuracy and Magic Checks until the start of your next turn.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Crowd Pleaser</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>2 Hype</strong></span></p></td></tr></tbody></table><p>You may add the <strong>number of Bonds</strong> you have to the finisher's damage calculation.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Dedicated</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>Choose an ally that you have a Bond with. After performing the finisher, that ally deals additional damage or recovers additional HP or MP equal to <strong>【the strength of your Bond with them, multiplied by 3】 </strong>the next time they do so.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td><p><strong>Dedicated</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>Choose an ally that you have a Bond with. After performing the finisher, that ally deals additional damage or recovers additional HP or MP equal to <strong>【the strength of your Bond with them, multiplied by 3】</strong> the next time they do so.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Double Edge</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><p>You do not include Hype spent on this lair in the finisher's damage calculation; instead, each Hype spent on this lair adds an additional 5 damage to the finisher, but you must lose HP equal to half the finisher's total damage.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Evil</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>The finisher's damage type changes from its original type to your choice of either <strong>dark</strong> or <strong>poison</strong>.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Explosive</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><p>Choose one creature for each Hype spent on this flair. Your target takes half the finisher's damage. The finisher's other effects only apply to the original target.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Greedy</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><p>When you deal damage with a finisher that has this lair, you earn zenit depending on the damage dealt and how much Hype you spent on this lair:</p><ul><li><p>1 Hype: <strong>【Total Damage Dealt】</strong> zenit</p></li><li><p>2 Hype: <strong>【Total Damage Dealt x 2】</strong> zenit</p></li><li><p>3 Hype: <strong>【Total Damage Dealt x 3】</strong> zenit</p></li></ul><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td><p><strong>Of Love</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>If you have a Bond of <strong>Admiration</strong>, <strong>Loyalty</strong>, or <strong>Affection</strong> with a creature in the scene, your target suffers either slow or weak (your choice).</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Passionate</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>Special</strong></span></p></td></tr></tbody></table><p>When you add this lair, choose allies that can see or hear you. You spend 1 Hype for each ally chosen. After performing the finisher, those allies treat their Bonds as having 1 additional strength (to a maximum of 4) until the end of the scene.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td><p><strong>Planetary</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>The finisher's damage type changes from its original type to your choice of either <strong>air</strong>, <strong>earth</strong> or <strong>ice</strong>.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td><p><strong>Powerful</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>Special</strong></span></p></td></tr></tbody></table><p>This flair lets you spend more Hype to increases the finisher's damage. You can spend a <strong>maximum</strong> of <strong>10 Hype</strong> that way.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Pumped</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><p>When you add this flair, choose one <strong>Attribute</strong>. After you perform the finisher, you treat that Attribute as one die size higher (up to a maximum of d12) until the end of your next turn.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Punishing</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>Special</strong></span></p></td></tr></tbody></table><p>Hype spent on this lair does not count towards the finisher's damage calculation; instead, each Hype spent on this lair allows you to suffer one of either dazed, shaken, slow, or weak in order to add 3 additional damage to the finisher's damage calculation.<br />This lair has no effect if you were already suffering from one of the mentioned status effects. You can spend a <strong>maximum</strong> of <strong>4 Hype</strong> that way.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Quick Change</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>2 Hype</strong></span></p></td></tr></tbody></table><p>Allows you to take the <strong>Equipment</strong> action before or after performing the finisher, and allows you to <strong>change your armor</strong> when you take the Equipment action this way.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Showstopping</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>3 Hype</strong></span></p></td></tr></tbody></table><p>If the finisher reduces the target to 0 HP, you gain a Fabula Point.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Technical</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>Special</strong></span></p></td></tr></tbody></table><p>Hype spent on this flair does not count towards the finisher's damage calculation, but instead is added as a bonus to the Check associated with the finisher. You can spend a <strong>maximum</strong> of <strong>3 Hype</strong> that way.</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td style=\"height:17px\"><p><strong>Wrathful</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>1 Hype</strong></span></p></td></tr></tbody></table><p>If you have a Bond of <strong>Inferiority</strong>, <strong>Mistrust</strong>, or <strong>Hatred</strong> with your target, they suffer either dazed or shaken (your choice).</p><p></p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\"><p><strong>Finisher Bases</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Requirement</strong></p></td></tr><tr style=\"height:17px\"><td><p><strong>X-Slaying</strong></p></td><td style=\"height:17px;text-align:center\"><p><span class=\"fontstyle0\"><strong>Special</strong></span></p></td></tr></tbody></table><p>When you add this flair, choose a <strong>Species</strong>. For every 2 Hype you spend on this flair, the finisher ignores certain Damage Affinities your target has if they belong to the Species you chose.</p><table><tbody><tr><td><p style=\"text-align:center\"><strong>Hype Spent</strong></p></td><td><p style=\"text-align:center\"><strong>Bypassed Damage Affinity</strong></p></td></tr><tr><td><p style=\"text-align:center\"><strong>2</strong></p></td><td><p style=\"text-align:center\"><strong>Resistance</strong></p></td></tr><tr><td><p style=\"text-align:center\"><strong>4</strong></p></td><td><p style=\"text-align:center\"><strong>Immunities</strong></p></td></tr><tr><td><p style=\"text-align:center\"><strong>6</strong></p></td><td><p style=\"text-align:center\"><strong>Absorptions</strong></p></td></tr></tbody></table>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "projectfu-playtest": {
+      "growthClock": false
+    },
+    "core": {
+      "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR"
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1708922588320,
+    "modifiedTime": 1715114108173,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_id": "kdV0CTZdimyWsZKl",
+  "_key": "!items!kdV0CTZdimyWsZKl"
+}

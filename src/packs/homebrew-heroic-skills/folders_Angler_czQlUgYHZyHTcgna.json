@@ -1,0 +1,19 @@
+{
+  "name": "Angler",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "czQlUgYHZyHTcgna",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715045333061,
+    "modifiedTime": 1715045333061,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!folders!czQlUgYHZyHTcgna"
+}

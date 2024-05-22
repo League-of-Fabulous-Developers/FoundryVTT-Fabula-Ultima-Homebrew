@@ -1,0 +1,138 @@
+{
+  "name": "Nightmare Visage",
+  "type": "skill",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>Together with the rest of your group, design a <strong>level 10 beast, demon, monster</strong>, or <strong>undead</strong> creature that will act as your <strong>nightmare visage</strong>. Your visage retains any Skills you have, uses your initiative score, does not level up, can have up to two basic attacks, and their maximum HP and MP is equal to <strong>【(SL x 3) + your maximum HP or MP, respectively】</strong> Your visage can also take the following Skills to gain an extra Skill during creation:</p><ul><li><p><strong>Accursed.</strong> This form is burdensome to maintain; at the start of your turn or every few minutes if you aren't in a conflict, you lose a Minor amount of MP. If you have no more MP to lose, you start losing a Minor amount of HP instead.</p></li><li><p><strong>Deathrattle.</strong> When you are reduced to 0 HP while assuming your visage, all other creatures in the scene take damage equal to two rolls of your visage's base Might die size.</p></li><li><p><strong>Fatal Flaw.</strong> When your visage takes light or fire damage, roll a d4. You suffer either (<strong>1</strong>) dazed, (<strong>2</strong>) shaken, (<strong>3</strong>) slow, or (<strong>4</strong>) weak.</p></li><li><p><strong>Savage.</strong> If you didn't deal damage or otherwise harm another creature other than yourself last turn, you must target a random creature within range with one of your attacks, spells, or Skills.</p></li></ul><p>You may use an action and spend HP equal to your Crisis score to assume your visage, using its profile. This transformation lasts until the end of the scene, you use an action to revert back to your normal form, or if you are reduced to 0 HP. If you are reduced to 0 HP while assuming your visage, you do not <strong>Surrender</strong> or <strong>Sacrifice</strong>, instead reverting back to your original form with the HP, MP, Attributes, and status effects you had pre-transformation.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Vampire"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "defense": "def",
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    }
+  },
+  "effects": [],
+  "folder": "q3edpagvKBdht0Uw",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1709317931671,
+    "modifiedTime": 1713023221944,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "PRVojGVIrWrloHBH",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!PRVojGVIrWrloHBH"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Physician",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "8CAn89BL3v7RIhcT",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712415505749,
+    "modifiedTime": 1715045324150,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!folders!8CAn89BL3v7RIhcT"
+}

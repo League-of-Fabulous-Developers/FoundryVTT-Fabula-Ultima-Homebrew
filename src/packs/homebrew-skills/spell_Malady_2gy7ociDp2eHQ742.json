@@ -1,0 +1,134 @@
+{
+  "folder": "8G3K59b9u19Zwddg",
+  "name": "Malady",
+  "type": "spell",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">Roll 1d6 once for every 10 Mind Points spent when casting this spell. Resolve each effect.</span></p><table style=\"box-sizing:border-box;user-select:text;width:642px;border-collapse:collapse;background:rgba(0, 0, 0, 0.05);border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(43, 74, 66);font-family:'PT Sans Narrow', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><tbody><tr style=\"box-sizing:border-box;user-select:text\"><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px 0.25em 2px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">1</strong></span></p></td><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Nothing happens.</span></p></td></tr><tr style=\"box-sizing:border-box;user-select:text;background-color:rgba(255, 255, 255, 0.2)\"><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px 0.25em 2px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">2</strong></span></p></td><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Target suffers <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[slow]</strong>.</span></p></td></tr><tr style=\"box-sizing:border-box;user-select:text\"><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px 0.25em 2px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">3</strong></span></p></td><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Target suffers <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[dazed]</strong>.</span></p></td></tr><tr style=\"box-sizing:border-box;user-select:text;background-color:rgba(255, 255, 255, 0.2)\"><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px 0.25em 2px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">4</strong></span></p></td><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Target suffers <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[weak]</strong>.</span></p></td></tr><tr style=\"box-sizing:border-box;user-select:text\"><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px 0.25em 2px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">5</strong></span></p></td><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Target suffers <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[shaken]</strong>.</span></p></td></tr><tr style=\"box-sizing:border-box;user-select:text;background-color:rgba(255, 255, 255, 0.2)\"><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px 0.25em 2px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">6</strong></span></p></td><td style=\"box-sizing:border-box;user-select:text;border:1px solid rgb(226, 232, 240);padding:0.25em 0px;text-align:left\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Target suffers your choice of either <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[dazed]</strong>, <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[shaken]</strong>, <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[slow]</strong>, or <strong style=\"box-sizing:border-box;user-select:text\">@EFFECT[weak]</strong>.</span></p></td></tr></tbody></table><hr /><p><strong>@LOSS[10 mp] @LOSS[20 mp]</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Malefactor"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "Up to 20"
+    },
+    "target": {
+      "value": "One creature"
+    },
+    "duration": {
+      "value": "Instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715819987083,
+    "modifiedTime": 1715823428765,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "2gy7ociDp2eHQ742",
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "_key": "!items!2gy7ociDp2eHQ742"
+}

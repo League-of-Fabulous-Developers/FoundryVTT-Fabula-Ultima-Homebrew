@@ -1,0 +1,57 @@
+{
+  "name": "Lightbearers Rules",
+  "_id": "ZNBn0MzByFJxCypO",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "SPECIAL RULES: DARK TRAITS",
+      "type": "text",
+      "_id": "XlJV9yK8VpMESntG",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Dark traits</strong> are enemy traits that motivate their actions and aggressivity, e.g : blindly obeys orders, vengeful, convinced by their mission, desperate, corrupt, etc. In a campaign where a lightbearer is present, you should take care to ensure that all enemies have at least one trait that can be qualified as a dark trait, and at least two for</p><p>villains.</p><p>PCs should be able to interact with NPCs' dark traits by questioning them. This should be the subject of a Clock of at least 6 sections (and more likely 10 or 12 for traits that strongly define an NPC). When a Clock seeking to push an antagonist to question themself is filled, you should replace at least one of their dark traits with a temporary trait that represents the antagonist's doubt or questioning: confused, unsure, troubled, etc. However, the next time the antagonist meets the group, this trait should have evolved into a new one, which may or may not be a new dark trait.</p><p>During a conflict, if an enemy no longer possesses any dark trait, it should be fairly simple to convince them to stop fighting: via a Clock of 4 to 6 sections maximum. The GM chooses how the enemy abandons the conflict: Do they let the PCs go? Do they lay down their weapons? Do they flee? etc.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715116711201,
+        "modifiedTime": 1716343913350,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_key": "!journal.pages!ZNBn0MzByFJxCypO.XlJV9yK8VpMESntG"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715113624341,
+    "modifiedTime": 1716343913350,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+  },
+  "_key": "!journal!ZNBn0MzByFJxCypO"
+}

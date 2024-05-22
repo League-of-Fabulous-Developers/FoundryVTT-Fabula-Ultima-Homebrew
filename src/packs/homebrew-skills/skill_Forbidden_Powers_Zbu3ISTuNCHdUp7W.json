@@ -1,0 +1,136 @@
+{
+  "folder": "psIcUxq7mWGsxpJb",
+  "name": "Forbidden Powers",
+  "type": "skill",
+  "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>Learn an NPC spell (except Devastation), you can cast spells learn this way via the <strong>Spell</strong> action using <strong>【MIG + WLP】</strong>, you pay the cost of these spells in HP and not in MP.</p><p>If this spell has an effect indicating <strong>(choose a type)</strong>, this type is physical by default. If you have taken a demon form, you may choose an elemental type for which this form offers you resistance, immunity or absorption the first time you cast that spell in this form. This type replaces this indication for all NPC spells you cast in this form from now on.</p><p>If this spell has an effect indicating <strong>(choose a status)</strong>, this status is weak by default. If you have taken demon form, you can choose a state from slow, dazed, weak or shaken the first time you cast that spell in this form. This state replaces this indication for all NPC spells you cast in this form from now on.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 3,
+      "min": 0
+    },
+    "class": {
+      "value": "Demoncaller"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715091618750,
+    "modifiedTime": 1715093813760,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "Zbu3ISTuNCHdUp7W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!Zbu3ISTuNCHdUp7W"
+}

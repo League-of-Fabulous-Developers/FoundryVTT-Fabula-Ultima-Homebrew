@@ -1,0 +1,154 @@
+{
+  "folder": "uVoqwmt3FfdNlwzn",
+  "name": "[Handout: All Boards]",
+  "type": "miscAbility",
+  "_id": "er10PlomtGyNOdNP",
+  "img": "icons/sundries/flags/banner-flag-pirate-swords.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h3>BOARDS</h3><p>A board with two sets of trucks attaching four wheels to the bottom, stood on to ride.</p><p>While you have a <strong>Board</strong> equipped, you gain a +2 to all Opposed Checks that rely on mobility in a closely urban environment, such as a junkyard, city street, or set of ruins. The following <strong>tricks</strong> are known based on what <strong>benefits</strong> you have in this wheel. You must have a <strong>Board</strong> equipped to use these <strong>tricks</strong>.</p><p>.</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>BASIC: Arcanists Ollie</strong></p></td><td style=\"height:17px;text-align:center\"><p>+1</p></td></tr></tbody></table><p>You gain +2 to your next Magic Check.</p><p>.</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>ADVANCED: Tribulant Tailslide</strong></p></td><td style=\"height:17px;text-align:center\"><p>-1</p></td></tr></tbody></table><p>The next time you are hit with a melee attack, the attacker suffers the same damage you took.</p><p>..</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>SUPERIOR: X-Degree Leviathan</strong></p></td><td style=\"height:17px;text-align:center\"><p>-X</p></td></tr></tbody></table><p>Make a number of <strong>free attacks</strong> equal to your <strong>X</strong> (the amount of Momentum you chose to spend on this <strong>trick</strong>)against a single creature. These attacks deal <strong>ice</strong> damage and treat their <strong>HR</strong> as 0.</p><p>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "defense": "def"
+  },
+  "effects": [],
+  "flags": {
+    "projectfu-playtest": {
+      "growthClock": false
+    },
+    "core": {
+      "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR"
+    }
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1708922588320,
+    "modifiedTime": 1715832425514,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "_key": "!items!er10PlomtGyNOdNP"
+}

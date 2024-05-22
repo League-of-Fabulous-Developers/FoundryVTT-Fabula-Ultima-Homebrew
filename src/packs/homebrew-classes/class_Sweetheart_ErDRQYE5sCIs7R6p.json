@@ -1,0 +1,93 @@
+{
+  "name": "Sweetheart",
+  "type": "class",
+  "img": "icons/magic/life/heart-pink.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "If people won't stop looking at me no matter what I do, it would be stupid not to use it."
+    },
+    "description": "<div class=\"stackedit__html\"><h1>SWEETHEART</h1><h4><strong>ALSO: Celebrated, Courtesan, Heir</strong></h4><p>Being the center of attention is a double-edged blessing. And it's rarely something you can do anything about.</p><p><strong>Sweethearts</strong> are aware of this, and make good fortune out of bad circumstances by seeking to control what makes their appearance and personality attractive to others, and turn it into a strength. This is rarely an easy task.</p><h4><strong>SWEETHEART FREE BENEFITS</strong></h4><ul><li>Permanently increase your maximum Inventory Points by 2.</li></ul><h3><strong>SWEETHEART SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.y7vrNiq1QYupuBe6]{The Eye of the Beholder}</strong></h4><p>Once per rest interlude you can ask a player (or the GM for a NPC) \"what did your character find attractive, admirable or endearing about me during our interactions?\".</p><p>You can spend your Fabula points to reroll one or both dice from any roll made to help or harm you by a character who has expressed attraction, admiration or affection toward you.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.DkCZRq81NGb4TxP5]{Attire} (SL5)</strong></h4><p>During your rest interludes, pick out what your character goes out of their way to enhance in their appearance or behavior, and write them down. You can have a maximum of <strong>【SL】</strong> things written on your list at any time.</p><p>When your character meets or converses with another character, you can spend 2 IP to ask them to choose something you've enhanced and describe how they find it attractive.<br />Gain one Fabula point and remove this element from your list.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mBONKhEHVXEQfTcg]{Double-Edge Personality}</strong></h4><p>When a character who knows you personally makes a roll to attract your attention, help you or cause you harm, they gain a +1 bonus.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.BJZNs4W2ZVUdou3T]{Trouble} (SL5)</strong></h4><p>During a conflict when an enemy attacks or use a spell on your group, before the target are declared, you can pay <span class=\"fontstyle0\"><strong>【</strong></span><span class=\"fontstyle1\"><strong>35 - (SL × 5)</strong></span><span class=\"fontstyle0\"><strong>】</strong></span> MP to force them to target you <strong>or</strong> force them to not target you.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.KRr6lLGu2zlp0dte]{Wavering Emotions} (SL3)</strong></h4><p>Up to <strong>【SL】</strong> times per scene, you can pay 10 MP to add an emotion of your choice to the bond you have with a character, or to the bond a character has with you until the end of the scene.</p><p>This can create temporary bonds (even if you already have 6) or momentarily add antagonistic emotions to existing bonds (such as adding <strong>loyalty</strong> to a bond that already has <strong>mistrust</strong>).</p></div><p></p><div class=\"stackedit__html\"><h1>Heroic Skills</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.3t6xgwYSggXZqTls]{Complicated Relationship}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.yaFeVaj8v0V3TUor]{Restless Emotions}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.zEHRgscd6yrGnPlF]{Unsuspected Persona}</strong></p></div><p></p><h1>Credit</h1><p><strong>Class Design, Writing and Development</strong> KcoQuidam</p><p><strong>Sweetheart Art </strong>Atelier Rorona – Tantris concept art</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": true
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712414014626,
+    "modifiedTime": 1715827727444,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "ErDRQYE5sCIs7R6p",
+  "sort": 0,
+  "_key": "!items!ErDRQYE5sCIs7R6p"
+}

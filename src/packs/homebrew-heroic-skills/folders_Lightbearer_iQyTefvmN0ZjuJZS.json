@@ -1,0 +1,19 @@
+{
+  "name": "Lightbearer",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "iQyTefvmN0ZjuJZS",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715067433723,
+    "modifiedTime": 1715067835793,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!folders!iQyTefvmN0ZjuJZS"
+}

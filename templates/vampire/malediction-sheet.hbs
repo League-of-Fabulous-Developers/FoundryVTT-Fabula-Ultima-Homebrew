@@ -1,0 +1,113 @@
+<div>
+    <fieldset class="title-fieldset desc resource-content">
+        <legend class="resource-label-full">
+            <label class="resource-label-m">
+                {{localize 'FU-HB.vampire.label'}}
+            </label>
+        </legend>
+        <div class="flexrow flex-group-center gap-3">
+            <label class="resource-label-m flexrow">
+                <span class="flexcol">
+                    {{localize 'FU-HB.vampire.hpCost'}}
+                    <input type='number' name='system.data.hpCost.value' value='{{system.data.hpCost.value}}'
+                        class="resource-inputs select-dropdown-full resource-text-m" />
+                </span>
+                ×
+                <span class="flexcol">
+                    {{localize 'FU-HB.vampire.maxTarget'}}
+                    <input type='number' name='system.data.maxTarget.value' value='{{system.data.maxTarget.value}}'
+                        class="resource-inputs select-dropdown-full resource-text-m" />
+                </span>
+            </label>
+            <label class="resource-label-m flexcol">
+                {{localize 'FU-HB.vampire.target'}}
+                <input type='text' name='system.data.target.value' value='{{system.data.target.value}}'
+                    class="resource-inputs select-dropdown-full resource-text-m" />
+            </label>
+            <label class="resource-label-m flexcol">
+                {{localize 'FU-HB.vampire.duration'}}
+                <input type='text' name='system.data.duration.value' value='{{system.data.duration.value}}'
+                    class="resource-inputs select-dropdown-full resource-text-m" />
+            </label>
+        </div>
+    </fieldset>
+
+    <div class="grid grid-2col">
+        <fieldset class="title-fieldset desc resource-content">
+            <legend class="resource-label-full">
+                <label class="resource-label-m">
+                    <i class="fas fa-dice icon"></i>
+                    {{localize 'FU-HB.vampire.accuracy'}}
+                </label>
+            </legend>
+            <div class="item-settings">
+                <label class="checkbox resource-label-m"> <span>{{localize 'FU.HasAccuracy'}}</span><input
+                        type="checkbox" name="system.data.hasRoll.value" {{ checked system.data.hasRoll.value }} />
+                </label>
+            </div>
+            <div class="grid grid-3col">
+                <label class="grid-span-2 resource-label-m flex-group-center">
+                    {{localize 'FU-HB.vampire.accuracyAttributes'}}
+                    <div class="resource-content flexrow flex-group-center gap-5">
+                        <select name="system.data.accuracy.attr1"
+                            class="resource-inputs select-dropdown-m resource-text-m">
+                            {{selectOptions additionalData.attributes selected=system.data.accuracy.attr1 sort=true
+                            localize=true}}
+                        </select>
+                        <span class="flex0"><i class="fas fa-plus"></i></span>
+                        <select name="system.data.accuracy.attr2"
+                            class="resource-inputs select-dropdown-m resource-text-m">
+                            {{selectOptions additionalData.attributes selected=system.data.accuracy.attr2 sort=true
+                            localize=true}}
+                        </select>
+                    </div>
+                </label>
+                <label class="resource-label-m flex-group-center">
+                    {{localize 'FU-HB.vampire.accuracyModifier'}}
+                    <div class="resource-content flexcol flex-group-center gap-5">
+                        <div>
+                            <span class="flex0"><i class="fas fa-plus"></i></span>
+                            <input type="number" name="system.data.accuracy.modifier"
+                                value="{{ system.data.accuracy.modifier }}" class="resource-inputs resource-text-m" />
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="title-fieldset desc resource-content">
+            <legend class="resource-label-full">
+                <label class="resource-label-m"><i class="fas fa-bullseye icon"></i>{{localize
+                    'FU-HB.vampire.damage'}}</label>
+            </legend>
+            <div class="grid grid-2col">
+                <label class="resource-content flex-group-center resource-label-m">
+                    {{localize 'FU-HB.vampire.damageType'}}
+                    <div>
+                        <select name="system.data.damage.type"
+                            class="resource-inputs select-dropdown-m  resource-text-m">
+                            {{selectOptions additionalData.damageTypes selected=system.data.damage.type
+                            sort=true
+                            localize=true}}
+                        </select>
+                    </div>
+                </label>
+                <label class="resource-content flex-group-center resource-label-m">
+                    {{localize 'FU-HB.vampire.damageBonus'}}
+                    <div>
+                        <span class="flex0"><i class="fas fa-plus"></i></span>
+                        <input type="number" name="system.data.damage.bonus" value="{{ system.data.damage.bonus }}"
+                            class="resource-inputs select-dropdown-sm resource-text-m" />
+                    </div>
+                </label>
+            </div>
+        </fieldset>
+    </div>
+
+    <fieldset class="title-fieldset desc resource-content">
+        <div>
+            <label class="resource-label-m">{{localize 'FU-HB.vampire.label'}}</label>
+            {{editor enrichedHtml.description target="system.data.description" engine="prosemirror" button=true}}
+        </div>
+    </fieldset>
+</div>

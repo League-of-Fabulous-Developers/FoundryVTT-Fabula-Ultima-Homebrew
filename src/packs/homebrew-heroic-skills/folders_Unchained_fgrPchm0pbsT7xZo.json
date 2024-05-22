@@ -1,0 +1,19 @@
+{
+  "name": "Unchained",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "fgrPchm0pbsT7xZo",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715069093596,
+    "modifiedTime": 1715069093596,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!folders!fgrPchm0pbsT7xZo"
+}

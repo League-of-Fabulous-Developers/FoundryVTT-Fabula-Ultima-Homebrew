@@ -1,0 +1,119 @@
+{
+  "name": "Lithommancy",
+  "type": "heroic",
+  "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements</strong>: You must have mastered the <strong>Tectonomancer</strong> Class, and must have acquired the <strong>Esper’s Psychic Gift</strong> Skill.</p></blockquote><p>You have made contact with the slumbering consciousness of the Earth itself. You can begin a ritual that will let you see and hear everything that happened in contact with the Earth at a particular time in the past, continuing up to ten minutes from that moment.</p><p>This Ritual requires an object that was present at the time and place you want to observe, the associated Magic Checks are <strong>【WLP + WLP】</strong>, and the length of the Clock depends on how long ago that time you’re observing was. Once you have done this, the Earth will need to rest, and you will not be able to ask about the same place again.</p><p>While it calls for intense focus, this Ritual can be performed quietly and subtly. Once it is complete, you are considered to have been present at the time for the purposes of Skills like the Loremaster’s <strong>Trained Memory</strong>, but you can’t witness anything that wasn’t touching the Earth.</p><p><em>Note: the Skill doesn’t specify the length of time that will add a segment to the ritual clock because that will depend on the history of your setting. What is “generations” for one can be “practically yesterday” for another.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Tectonomancer"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": "Ed821xpGKSbM8rIv",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715059888237,
+    "modifiedTime": 1715060512609,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "DBUmTrx8USXsGz9q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!DBUmTrx8USXsGz9q"
+}

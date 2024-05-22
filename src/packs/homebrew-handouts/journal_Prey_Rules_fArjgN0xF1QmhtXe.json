@@ -1,0 +1,57 @@
+{
+  "name": "Prey Rules",
+  "_id": "fArjgN0xF1QmhtXe",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "GM NOTES",
+      "type": "text",
+      "_id": "km9TmJ1MAJNe6yWz",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h4>@ICON[header] GM NOTES</h4><div class=\"stackedit__html\"><ul><li><p>This Class assumes that there is some specific foe who has it in for the Prey, and that they are too powerful for the party to immediately confront. Much like the Hunter’s Quarry, they should be a regular presence without dominating the story, unless the rest of the party has ties to them as well.</p></li><li><p>Keep at least a loose idea of where characters are in relation to one another in a conflict. Try not to fight over when the Skill Cornered Rat should apply, and remember that the Prey doesn’t have to be trying to escape - they just have to be able to see that it’s not an option with this creature in their way/restraining them.</p></li><li><p>As characters can opt out of conflict scenes, the Prey’s player will often be at cross-purposes with their character, thrusting them into scenes only to then frantically try to escape - unless there’s something else the Prey could be doing to help!</p></li></ul><p></p></div><div class=\"stackedit__html\"><h4>@ICON[header] ADAPTATION</h4><ul><li><p>While the Skills seem to give the impression of a frightened character, they can be applied to different attitudes. For instance, Prey Instinct could be a hyper-vigilant trauma response, or a dispassionate spy calmly assessing the situation. For such a character, Cornered Rat wouldn’t be frantic strength, but recognition that getting away with the information they have is their top priority.</p></li></ul></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715116371481,
+        "modifiedTime": 1716343785152,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_key": "!journal.pages!fArjgN0xF1QmhtXe.km9TmJ1MAJNe6yWz"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715113406818,
+    "modifiedTime": 1716343785152,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+  },
+  "_key": "!journal!fArjgN0xF1QmhtXe"
+}

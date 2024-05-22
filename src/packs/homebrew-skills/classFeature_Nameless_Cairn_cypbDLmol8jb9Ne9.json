@@ -1,0 +1,38 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "Nameless Cairn",
+  "type": "classFeature",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "summary": {
+      "value": "The battle here was fought long before humanity existed... but were they really so different?"
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.sanctuary",
+    "data": {
+      "description": "",
+      "haunt": "<p>If the Hauntee has any Bonds of hatred, they are dazed and cannot recover until the Haunt is banished or the scene ends, but their melee and ranged attacks deal 2 extra damage for each Bond of hatred they have.</p><p>If they do not, then on each of their turns, they may ask a question about a creature they can see concerning what is motivating that creature to struggle.</p>",
+      "ritual": "<p>Bring creatures who have little in common together - in battle, or in peace.</p>"
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715110576319,
+    "modifiedTime": 1715111791469,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "cypbDLmol8jb9Ne9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!cypbDLmol8jb9Ne9"
+}

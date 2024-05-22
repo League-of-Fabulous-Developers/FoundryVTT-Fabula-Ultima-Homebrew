@@ -1,0 +1,46 @@
+{
+  "folder": "pLnYnzfcOXNDeQq4",
+  "name": "Hi-Elixir",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature recovers Mind Points equal to half their Maximum MP.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with MP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers half the initial amount of MP recovered at the start of their next turn.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 4
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715049819353,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "fQncfNPZVxmoA6AT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!fQncfNPZVxmoA6AT"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Frenzy⚡",
+  "type": "classFeature",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "One Creature"
+      },
+      "duration": {
+        "value": "Until lifted"
+      },
+      "description": "<p>You inflict a maddening curse on your target, making their blood boil and vision fill with red. They must take their turn after all other creatures on their side have acted and must attack a random creature in the scene, preferring those it knows is weaker than it.</p><p>This malediction is lifted when the target reduces at least 3 creatures to 0 HP or when it recovers at least half its HP or MP in one turn.</p>",
+      "hpCost": {
+        "value": 15
+      },
+      "maxTarget": {
+        "value": 1
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "physical",
+        "bonus": 0
+      },
+      "isOffensive": {
+        "value": false
+      }
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1715111875385,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "BTP77FdGzA5JtbQF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!BTP77FdGzA5JtbQF"
+}

@@ -1,0 +1,117 @@
+{
+  "folder": "czQlUgYHZyHTcgna",
+  "name": "Spearfisher",
+  "type": "heroic",
+  "img": "icons/tools/fishing/rod-simple-bamboo.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> You must have mastered the <strong>Angler</strong> class.</p></blockquote><p>When you use the <strong>Fishing</strong> skill, you may spend 1 Fabula Point to use <strong>all of your weaponry fish up in sequence attacks</strong> (multiple attacks in one action).<br />Weapon attacks follow normal accuracy rules, however the HR is treated as 0 when determining damage and cannot gain the multi property (if it has it, it is automatically lost).</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Angler"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715038156384,
+    "modifiedTime": 1715045338230,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "OgGQ1DkDCmYFdMcG",
+  "_key": "!items!OgGQ1DkDCmYFdMcG"
+}

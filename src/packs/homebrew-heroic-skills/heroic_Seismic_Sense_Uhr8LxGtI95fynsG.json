@@ -1,0 +1,119 @@
+{
+  "name": "Seismic Sense",
+  "type": "heroic",
+  "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements</strong>: You must have mastered the <strong>Tectonomancer</strong> Class, and must have acquired the <strong>Wayfarer’s Well-Traveled</strong> Skill.</p></blockquote><p>Your long experience as a traveler has sharpened your mystical senses. When you roll a 6, 7, or 8 on <strong>a travel roll,</strong> you get a brief warning if there is something dangerous is ahead. If the danger leaves an impression on the ground, such as creatures approaching overland or a rockslide threatening, the GM will give you a hint. If not, you will only have the sense of approaching danger. Either way, each member of the party gets the chance to take the Equip, Inventory, or Guard action before the encounter begins.</p><p><em>Note: this Skill depends on how your GM decides what to include in encounters. Check with them before taking it.</em></p><p><em>Another Note: the Skill says “if there is something dangerous ahead” because not every encounter will be dangerous. The GM may choose to give you a heads up if whatever-it-is is tectonically interesting, though.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Tectonomancer"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": "Ed821xpGKSbM8rIv",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715059888237,
+    "modifiedTime": 1715060512609,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "Uhr8LxGtI95fynsG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!Uhr8LxGtI95fynsG"
+}

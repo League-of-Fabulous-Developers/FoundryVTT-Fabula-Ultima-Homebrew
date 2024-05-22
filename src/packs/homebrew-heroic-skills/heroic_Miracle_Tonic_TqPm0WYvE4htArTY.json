@@ -1,0 +1,117 @@
+{
+  "folder": "8CAn89BL3v7RIhcT",
+  "name": "Miracle Tonic",
+  "type": "heroic",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements: </strong>You must have mastered the <strong>Physician</strong> class and must have acquired the <strong>Pharmaceuticals</strong> skill.</p></blockquote><p>You learn how to synthesize a medical marvel: the <strong>Miracle Tonic</strong>.</p><table><tbody><tr><td><p style=\"text-align:center\"><strong>ITEM</strong></p></td><td data-colwidth=\"220\"><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p>Miracle Tonic</p></td><td data-colwidth=\"220\"><p style=\"text-align:center\">6</p></td><td><p>One creature permanently increases either their Hit Points or Mind Points by 10, or both by 5. The target chooses which effect the item has. A creature can only benefit from this item once.</p></td></tr></tbody></table><p><strong>Synergy Condition:</strong> -</p><p><strong>Synergy Effect:</strong> -</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Physician"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715044798079,
+    "modifiedTime": 1715045324137,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "TqPm0WYvE4htArTY",
+  "_key": "!items!TqPm0WYvE4htArTY"
+}

@@ -1,0 +1,138 @@
+{
+  "name": "Life Well",
+  "type": "skill",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>When you recover <strong>Hit Points</strong> and the healing exceeds your <strong>maximum HP,</strong> you may spend <strong>Mind Points</strong> equal to half the excess healing to store that excess in a Life Well. A Life Well can hold up to your Crisis score in <strong>HP</strong> and loses all stored <strong>HP</strong> after you <strong>rest</strong>. You can do the following with a Life Well:</p><ul><li><p>When you take damage, you may choose to mitigate up to all of that damage by spending an equal amount of HP in the Life Well. If you use this during a conflict, you may not use it again until the start of your next turn.</p></li><li><p>When another creature is about to take damage, you may choose to shield them with your Life Well, mitigating up to all of the damage by spending an equal amount of HP</p></li><li><p>in the Life Well. If you use this during a conflict, you may not use it again until the start of your next turn.</p></li><li><p>When you succeed on an Accuracy Check or a Magic Check for an offensive spell, you may spend HP from the Life Well to deal extra damage equal to half the HP spent.</p></li><li><p>You may use an action to siphon from the Life Well, spending HP from it to allow you or an ally you can see to recover HP equal to half the amount spent.</p></li><li><p>You may use HP in the Life Well for other Skills that require you to spend HP.</p></li></ul></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 1,
+      "min": 0
+    },
+    "class": {
+      "value": "Vampire"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "defense": "def",
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    }
+  },
+  "effects": [],
+  "folder": "q3edpagvKBdht0Uw",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1709317931671,
+    "modifiedTime": 1713023223275,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "zW8thoXBrsQ4BmHC",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!zW8thoXBrsQ4BmHC"
+}

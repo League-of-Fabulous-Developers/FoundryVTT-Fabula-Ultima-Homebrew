@@ -1,0 +1,93 @@
+{
+  "name": "Predator",
+  "type": "class",
+  "system": {
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": true
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "subtype": {},
+    "summary": {
+      "value": "A ravening beast? A pillaging lord? I reject both fates."
+    },
+    "description": "<div class=\"stackedit__html\"><h1>PREDATOR</h1><h4><strong>ALSO: Conqueror, Parasite, Vampire</strong></h4><p>Some <strong>Predators</strong> are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><h4><strong>PREDATOR FREE BENEFITS</strong></h4><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h3><strong>PREDATOR SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life} (SL5)</strong></h4><p>When an ally casts a spell that includes you among the targets, they may choose to spend <strong>【SL】 </strong>Hit Points to allow you to regain <strong>【SL x 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend <strong>【SL】 </strong>Hit Points to deal <strong>【SL x 3】 </strong>dark damage to them.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</strong></h4><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger} (SL5)</strong></h4><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die} (SL5)</strong></h4><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×5】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by <strong>【SL】 </strong>before affinities. (You still suffer the consequences for surrendering.)</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror} (SL2)</strong></h4><p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><p></p></div><div class=\"stackedit__html\"><h3>Predator Notes</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.l8Qopj48qcOCZFav]{[Handout: Predator Notes]}</strong></p><p></p></div><h1>Credit</h1><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Predator Art</strong> Kim Myung Jin on Artstation https://myungjinkim.artstation.com/</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "YN7AhHIwAZeH33Tw": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1709314829520,
+    "modifiedTime": 1715827494303,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "oA2gENCwk30ZsDeB",
+  "sort": 0,
+  "_key": "!items!oA2gENCwk30ZsDeB"
+}

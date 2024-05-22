@@ -1,0 +1,46 @@
+{
+  "folder": "HELvtKZsLSdOOl9t",
+  "name": "Stimulant",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature treats one of their Attributes as one die size higher (maximum of <strong>d12</strong>) for the next Check that uses that Attribute. You choose which Attribute when you make this item.</p><hr /><p><strong>@EFFECT[dex-up] @EFFECT[ins-up] @EFFECT[mig-up] @EFFECT[wlp-up]</strong></p><p><strong>Synergy Conditions:</strong> Combine with any Recovery potion.<br /><strong>Synergy Effect:</strong> You may choose an additional Attribute to boost using this item.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715052686415,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "TgRaq9ql3Yc3HigW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!TgRaq9ql3Yc3HigW"
+}

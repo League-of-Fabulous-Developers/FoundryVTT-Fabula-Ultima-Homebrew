@@ -1,0 +1,91 @@
+{
+  "name": "Delinquent",
+  "type": "class",
+  "_id": "01LKk4ammfeCagBz",
+  "img": "icons/equipment/hand/glove-spiked-leather-grey.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "They call us thugs, but it’s more complex than that... We’re the future, and they’re the past!"
+    },
+    "description": "<div class=\"stackedit__html\"><h1>DELINQUENT</h1><h4><strong>ALSO: BOARDER, SKATER, THUG</strong></h4><p><strong>Delinquents</strong> have learned to defy death through their intense and uniquely unparalleled fearlessness, and their mastery over movement in all of its forms. They utilize unconventional and socially juvenile forms of mobility to make the cities they traverse their own.</p><p>Any world with tyranny is bound to find those who are willing to bite back against the hand that crushes them. Passionately fighting back against oppression, tearing down the establishment, and drowning flags of conquest in paint.</p><h4>DELINQUENT<strong> FREE BENEFITS</strong></h4><p>❖ Permanently increase your maximum Hit Points by 5.<br />❖ Gain the ability to equip <strong>martial melee weapons</strong>.</p><h3>DELINQUENT <strong>SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.UoizkqPljfBMZaJx]{Bad Reputation} (SL4)</strong></h4><p>Travel rolls made while <strong>within 7 travel days</strong> of a town with an inn or tavern you have <strong>rested</strong> within before, or your characters <strong>Origin</strong>, require an <strong>【6 + SL】</strong> or higher to encounter a danger.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MPySD6AUlVBL55rh]{Mark Territory}</strong></h4><p>When you <strong>rest</strong> inside or near a settlement, you may spend 2 Inventory Points to tag the region. At the start of the next <strong>conflict</strong> you enter within that settlement, you may choose any number of <strong>soldier</strong>-rank <strong>humanoids</strong> you can see (the Game Master must tell you who is a valid target). They become <strong>shaken</strong>.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.3gclHUGLmtztekCO]{Skate Tricks} (SL5)</strong></h4><p>Each time you take this skill, you learn a <strong>trick</strong>. The rules for tricks and the momentum clock can be</p><p>found in the next page.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8U35iWQkbIQhchhk]{Sucker Punch}</strong></h4><p>When you and your party would make an <strong>Initiative Group Check</strong>, you may spend 1 Fabula Point to succeed without a check, on the condition that you act first. <strong>Soldier</strong>-rank creatures hit by your <strong>melee </strong>attacks on this turn cannot act during this round, and <strong>elite</strong> or <strong>champion</strong>-rank creatures act one less time than they would normally be capable of.</p><hr /></div><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ZknKdojK6V616C4o]{Wheels} (SL5)</strong></h4><p>When you first acquire this Skill, choose a wheels type: <strong>Bike</strong>, <strong>Board</strong>, or <strong>Blades</strong>. You gain its <strong>basic benefits</strong>. If you take this skill at character creation, you begin play with a <strong>set</strong> of <strong>wheels</strong> of your choice.</p><p>Whenever you take this Skill again, choose one option: you gain the <strong>basic benefits</strong> of a new wheels type; <strong>or</strong> you gain the <strong>advanced benefits</strong> of a wheels type whose <strong>basic benefits</strong> you already obtained; or you gain the <strong>superior benefits</strong> of a wheels type whose <strong>advanced benefits</strong> you already obtained.</p><p></p><div class=\"stackedit__html\"><h1>TRICKS</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.dCya2RWL5E2BIUes]{[Handout: Tricks Rules]}</strong></p><p></p></div><h1>CREDIT</h1><p><strong>Delinquent </strong>class<strong> </strong>by Desm☆n</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": true
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": true
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "pBweP8B18hmB7U1j": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715779085015,
+    "modifiedTime": 1715832932331,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!items!01LKk4ammfeCagBz"
+}

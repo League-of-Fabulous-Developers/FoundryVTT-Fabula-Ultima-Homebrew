@@ -1,0 +1,46 @@
+{
+  "folder": "HELvtKZsLSdOOl9t",
+  "name": "Mutagen (Offense)",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature gains the ability to reroll the <strong>【HR】</strong> of their attacks or offensive spells and use the higher result once per turn, unless they fumbled or critically succeeded. This effect lasts until the end of the current scene.</p><hr /><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 3
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715052686415,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "q7MVFUtanNoNWogc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!q7MVFUtanNoNWogc"
+}

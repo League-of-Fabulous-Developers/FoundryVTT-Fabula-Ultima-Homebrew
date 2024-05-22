@@ -1,0 +1,92 @@
+{
+  "name": "Physician Rules",
+  "_id": "9bcodgUpmyASPg2x",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "MEDICAL PROCEDURE RULES",
+      "type": "text",
+      "_id": "7UDorrMhvLMkixrt",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Medical procedures use the same mechanics as Rituals with a few differences:</p><ul><li><p>You perform a Medical Check instead of a Magic Check. The Attributes used for this Check vary depending on what you aim to accomplish, but are generally either <strong>【DEX + INS】</strong> or <strong>【INS + INS】</strong> Checks.</p></li><li><p>The cost of performing a Medical Procedure is more flexible; your GM may determine that you must spend Inventory Points, Zenit or special materials instead of or alongside Mind Points to perform the Medical Procedures.</p></li></ul><p>The table below illustrates some examples as to the alternative costs and sample effects you can produce using Medical Procedures.</p><p></p><table><tbody><tr><td><p><strong>POTENCY</strong></p></td><td><p style=\"text-align:center\"><strong>ALT COST</strong></p></td><td><p style=\"text-align:center\"><strong>DL</strong></p></td><td><p style=\"text-align:center\"><strong>EXAMPLES</strong></p></td></tr><tr><td><p style=\"text-align:center\">Minor</p></td><td><p style=\"text-align:center\">100 Zenit,<br />3 IP</p></td><td><p style=\"text-align:center\">7</p></td><td><p>Diagnose and treat flu-level diseases, create a nutrition plan for an individual, reset dislocated bones.</p></td></tr><tr><td><p style=\"text-align:center\">Medium</p></td><td><p style=\"text-align:center\">200 Zenit,<br />4 IP</p></td><td><p style=\"text-align:center\">10</p></td><td><p>Develop health and safety measures mitigating widespread diseases, performing minor cosmetic surgery, attaching a prosthetic limb.</p></td></tr><tr><td><p style=\"text-align:center\">Major</p></td><td><p style=\"text-align:center\">400 Zenit,<br />5 IP</p></td><td><p style=\"text-align:center\">13</p></td><td><p>Graft skin onto burn injuries, amputate a limb, create a vaccine for a localized disease.</p></td></tr><tr><td><p style=\"text-align:center\">Extreme</p></td><td><p style=\"text-align:center\">800 Zenit,<br />6 IP</p></td><td><p style=\"text-align:center\">16</p></td><td><p>Transplant organs, develop a cure for a deadly disease, excising tumors.</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715116534225,
+        "modifiedTime": 1715116670363,
+        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+      },
+      "_key": "!journal.pages!9bcodgUpmyASPg2x.7UDorrMhvLMkixrt"
+    },
+    {
+      "sort": 200000,
+      "name": "PHARMACEUTICAL LIST",
+      "type": "text",
+      "_id": "FZHns4vo3Q7TCuKC",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Pharmaceutical act as special consumable items available only to you. You may use the Inventory action to create and use them, following the rules for consumables items as normal.</p><hr /><h4>POTIONS</h4><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.d6extWDaFoSZcaqK]{Potion}</strong></p></td><td><p style=\"text-align:center\">1</p></td><td><p style=\"text-align:center\">One creature recovers 15 Hit Points.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.xqdfjKJwklFeZIiO]{Hi-Remedy}</strong></p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">One creature recovers 70 Hit Points.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with HP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers half the initial amount of HP recovered at the start of their next turn.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.B7ZVbW6ISngmT0Zz]{Full Remedy}</strong></p></td><td><p style=\"text-align:center\">5</p></td><td><p style=\"text-align:center\">One creature recovers 90 Hit Points.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with MP and Status Recovery potions.<br /><strong>Synergy Effect:</strong> Target may reduce the next source of damage they take to 1.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iry8dKEiwFqPobCi]{Ether}</strong></p></td><td><p style=\"text-align:center\">1</p></td><td><p style=\"text-align:center\">One creature recovers 15 Mind Points.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQncfNPZVxmoA6AT]{Hi-Elixir}</strong></p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">One creature recovers Mind Points equal to half their Maximum MP.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with MP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers half the initial amount of MP recovered at the start of their next turn.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mEiQg0YtvHjk4KIy]{Full Elixir}</strong></p></td><td><p style=\"text-align:center\">5</p></td><td><p style=\"text-align:center\">One creature recovers Mind Points equal to their Maximum MP.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with HP and Status Recovery potions.<br /><strong>Synergy Effect:</strong> Target recovers half the initial amount of MP recovered at the start of their next turn.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.bj59z8qM1Ov9V54d]{Rejuvenator}</strong></p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">One creature recovers 25 Hit Points and 25 Mind Points.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with Status Recovery potion.<br /><strong>Synergy Effect:</strong> Double the HP and MP recovery of this item.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.s2cMK2Tu0rV8K4h7]{Panacea}</strong></p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">One creature recovers from up to three Status effects.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with HP or MP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers 10 extra HP or MP for each Status effect removed by this item.</p><p>.</p><h4>UTILITY</h4><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td data-colwidth=\"166\"><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p style=\"text-align:center\"><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.TgRaq9ql3Yc3HigW]{Stimulant}</strong></p></td><td data-colwidth=\"166\"><p style=\"text-align:center\">1</p></td><td><p style=\"text-align:center\">One creature treats one of their Attributes as one die size higher (maximum of <strong>d12</strong>) for the next Check that uses that Attribute. You choose which Attribute when you make this item.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with any Recovery potion.<br /><strong>Synergy Effect:</strong> You may choose an additional Attribute to boost using this item.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.TfSwuCoxmJbv6zZy]{Steroid (Physical)}</strong></p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">One creature <strong>attacks</strong> deal an extra <em>Minor</em> amount of damage until the end of the current scene. This effect does not stack.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with HP Recovery potion.<br /><strong>Synergy Effect:</strong> Target's next <strong>attack</strong> deals an extra <em>Heavy</em> amount of damage instead of <em>Minor</em>.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p style=\"text-align:center\"><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.lk6o0dW6SICFeOxY]{Steroid (Magical)}</strong></p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">One creature <strong>spells</strong> deal an extra <em>Minor</em> amount of damage until the end of the current scene. This effect does not stack.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with MP Recovery potion.<br /><strong>Synergy Effect:</strong> Target's next <strong>spell</strong> deals an extra <em>Heavy</em> amount of damage instead of <em>Minor</em> .</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ItyLNcfNjw0rpzRm]{Steroid (Endurance)}</strong></p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">One creature <strong>spells</strong> deal an extra <em>Minor</em> amount of damage until the end of the current scene. This effect does not stack.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mESaqvzKZRv61lUn]{Steroid (Acuity)}</strong></p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">One creature increases their maximum MP by a <em>Minor</em> amount until the end of the current scene.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.UG1pAWIRmlvtatfs]{Mutagen (Defense)}</strong></p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">One creature gains <strong>Resistance</strong> to one damage type of your choice (except <strong>Physical</strong>) until the end of the current scene.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.q7MVFUtanNoNWogc]{Mutagen (Offense)}</strong></p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">One creature gains the ability to reroll the <strong>【HR】</strong> of their attacks or offensive spells and use the higher result once per turn, unless they fumbled or critically succeeded. This effect lasts until the end of the current scene.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p style=\"text-align:center\"><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.17NFUlSREKJDS3Qu]{Vaccine}</strong></p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">One creature gains <strong>Immunity</strong> to one status effect of your choice until the end of the scene.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with Status Recovery potion.<br /><strong>Synergy Effect:</strong> Target can suffer status effects but may treat their Attribute dice as unchanged until the end of the scene.</p><p>.</p><table><tbody><tr><td><p><strong>ITEM</strong></p></td><td><p style=\"text-align:center\"><strong>IP COST</strong></p></td><td><p style=\"text-align:center\"><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JwUq2O3EZTTyxAm7]{Numbing Agent}</strong></p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">The next time one creature takes damage, they may reduce that damage by a <em>Minor </em>amount to a minimum of 1.</p></td></tr></tbody></table><p><strong>Synergy Conditions:</strong> Combine with HP Recovery potion.<br /><strong>Synergy Effect:</strong> Increases the damage reduction to <em>Heavy</em>, instead of <em>Minor</em>.</p><p>.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715116601697,
+        "modifiedTime": 1715116653395,
+        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+      },
+      "_key": "!journal.pages!9bcodgUpmyASPg2x.FZHns4vo3Q7TCuKC"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715113608066,
+    "modifiedTime": 1715116670363,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!journal!9bcodgUpmyASPg2x"
+}

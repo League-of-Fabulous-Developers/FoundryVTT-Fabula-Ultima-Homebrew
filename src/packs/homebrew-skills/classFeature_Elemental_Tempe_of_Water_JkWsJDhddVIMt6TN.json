@@ -1,0 +1,38 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "Elemental Tempe of Water",
+  "type": "classFeature",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "summary": {
+      "value": "Once a grand temple over clear waters, now a ruin squatting in sewage. Can you restore it?"
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.sanctuary",
+    "data": {
+      "description": "",
+      "haunt": "<p>If the Hauntee’s Bond with you has more positive emotions, they may change any damage they deal to ice, or add 2 damage for each positive emotion if it was already ice.</p><p>If their bond with you has more negative emotions, they may instead change the damage to poison, or add 2 damage for each negative emotion if it was already poison.</p>",
+      "ritual": "<p>Guide and purify water to bring life.</p>"
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715110576319,
+    "modifiedTime": 1715111791469,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "JkWsJDhddVIMt6TN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!JkWsJDhddVIMt6TN"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Ritualist",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "VapJ0jSbbHHqGcEb",
+  "sort": 800000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712421184400,
+    "modifiedTime": 1715832425540,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!VapJ0jSbbHHqGcEb"
+}

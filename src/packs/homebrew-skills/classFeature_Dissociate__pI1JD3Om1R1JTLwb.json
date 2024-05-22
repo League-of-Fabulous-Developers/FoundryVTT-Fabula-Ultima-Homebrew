@@ -1,0 +1,60 @@
+{
+  "name": "Dissociate⚡",
+  "type": "classFeature",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "One creature"
+      },
+      "duration": {
+        "value": "Until lifted"
+      },
+      "description": "<p>An eerie fog settles on your target's mind, straining their ability to perform magic.</p><p>Your target must perform a Magic Check with a DL of <strong>【your Vampire level + 6】 </strong>before they cast a spell. If they succeed, the spell is cast normally. If they fail, the spell is wasted unless your target spends double the spell's MP cost to cast it.</p><p>This malediction is lifted when the target has either failed or succeeded in casting three spells, respectively.</p>",
+      "hpCost": {
+        "value": 20
+      },
+      "maxTarget": {
+        "value": 1
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "physical",
+        "bonus": 0
+      },
+      "isOffensive": {
+        "value": false
+      }
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1715111883955,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "pI1JD3Om1R1JTLwb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!pI1JD3Om1R1JTLwb"
+}

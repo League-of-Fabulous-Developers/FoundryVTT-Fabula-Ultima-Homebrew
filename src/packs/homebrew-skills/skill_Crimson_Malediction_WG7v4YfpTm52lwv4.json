@@ -1,0 +1,138 @@
+{
+  "name": "Crimson Malediction",
+  "type": "skill",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>Each time you take this Skill, learn one Crimson malediction (see further pages).</p><p>Maledictions follow the rules for spells except for two things: you spend HP to cast them and, as a general rule, maledictions can be lifted by filling a 4-section Clock.</p><blockquote><p><em><strong>CUSTOMIZED CURSES!<br /></strong>Maledictions are meant to represent a curse you bestow on your target; a personalized and potent hex inflicted upon your foes! As such, you should work with your Game Master to determine what actions can be taken to fill in the sections of the Clock tied to lifting your maledictions!</em></p></blockquote><p>Offensive @ICON[offensive] maledictions use <strong>【MIG + WLP】</strong> for the Magic Check.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Vampire"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "defense": "def",
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    }
+  },
+  "effects": [],
+  "folder": "q3edpagvKBdht0Uw",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1709317931671,
+    "modifiedTime": 1713023219271,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "WG7v4YfpTm52lwv4",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!WG7v4YfpTm52lwv4"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Entourage",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "eokC89cQpbZtOkCG",
+  "sort": 100000,
+  "color": "#790625",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715803435792,
+    "modifiedTime": 1715809983437,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!eokC89cQpbZtOkCG"
+}

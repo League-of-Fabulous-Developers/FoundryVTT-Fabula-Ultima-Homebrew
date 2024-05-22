@@ -1,0 +1,38 @@
+{
+  "folder": "MBx3zV0aWHd2hgLP",
+  "name": "Shrine to a Wrathful Majin",
+  "type": "classFeature",
+  "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+  "system": {
+    "summary": {
+      "value": "The air is cool and still, but you can feel His rage boiling."
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.sanctuary",
+    "data": {
+      "description": "",
+      "haunt": "<p>When the Hauntee suffers damage from a creature in this scene, they get a one-emotion Bond of <strong>hatred</strong> towards that creature, replacing another Bond that they have at random. Whenever they attack or cast an offensive spell, each creature they have a Bond of <strong>hatred</strong> towards suffers <strong>@DMG[3 fire]</strong> damage. This Haunt cannot be banished except by the end of the scene.</p>",
+      "ritual": "<p>Bring wrath down upon those who have wronged you... but dig two graves.</p>"
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715110576319,
+    "modifiedTime": 1715111791469,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "00KiNWIjY2aSujq5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!00KiNWIjY2aSujq5"
+}

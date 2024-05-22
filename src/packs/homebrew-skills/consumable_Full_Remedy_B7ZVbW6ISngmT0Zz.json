@@ -1,0 +1,46 @@
+{
+  "folder": "pLnYnzfcOXNDeQq4",
+  "name": "Full Remedy",
+  "type": "consumable",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature recovers <strong>@GAIN[90 hp]</strong>.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with MP and Status Recovery potions.<br /><strong>Synergy Effect:</strong> Target may reduce the next source of damage they take to 1.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 5
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715048449880,
+    "modifiedTime": 1715049819353,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "B7ZVbW6ISngmT0Zz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!B7ZVbW6ISngmT0Zz"
+}

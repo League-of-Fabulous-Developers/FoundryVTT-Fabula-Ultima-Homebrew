@@ -1,0 +1,19 @@
+{
+  "name": "Vampire",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "q3edpagvKBdht0Uw",
+  "sort": 1200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712598738543,
+    "modifiedTime": 1715832790314,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!q3edpagvKBdht0Uw"
+}

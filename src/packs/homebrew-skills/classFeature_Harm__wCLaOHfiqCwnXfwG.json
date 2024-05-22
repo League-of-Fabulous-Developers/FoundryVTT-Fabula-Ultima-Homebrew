@@ -1,0 +1,60 @@
+{
+  "name": "Harm⚡",
+  "type": "classFeature",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "One Creature"
+      },
+      "duration": {
+        "value": "Instantaneous"
+      },
+      "description": "<p>With a single word, you inflict great agony on your foe. Your target takes <strong>【MIG + WLP】</strong> typeless damage.</p><p><em>Opportunity:</em> Your target takes the half the initial damage again at the start of its turn.</p>",
+      "hpCost": {
+        "value": 15
+      },
+      "maxTarget": {
+        "value": 1
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "untyped",
+        "bonus": 0
+      },
+      "isOffensive": {
+        "value": false
+      }
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1715111871188,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "wCLaOHfiqCwnXfwG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!wCLaOHfiqCwnXfwG"
+}

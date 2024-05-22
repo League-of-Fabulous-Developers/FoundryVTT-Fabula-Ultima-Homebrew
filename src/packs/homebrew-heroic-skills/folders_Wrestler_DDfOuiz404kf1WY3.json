@@ -1,0 +1,19 @@
+{
+  "name": "Wrestler",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "DDfOuiz404kf1WY3",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713025754212,
+    "modifiedTime": 1713025754212,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!folders!DDfOuiz404kf1WY3"
+}

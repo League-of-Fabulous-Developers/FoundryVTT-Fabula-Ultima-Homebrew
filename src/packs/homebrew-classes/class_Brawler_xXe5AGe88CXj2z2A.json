@@ -1,0 +1,93 @@
+{
+  "name": "Brawler",
+  "type": "class",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "This time, victory is mine!"
+    },
+    "description": "<div class=\"stackedit__html\"><h1>BRAWLER</h1><h4><strong>ALSO: Martial Artist, Pugilist, Street Fighter</strong></h4><ul><li><p>Are you trying to win a tournament, or did someone steal your significant other?</p></li><li><p>Would you eat floor chicken? What about wall chicken?</p></li><li><p>Which stereotypes of your culture do you embody?</p></li><li><p>How many times were you thrown off a volcano?</p></li></ul><h4><strong>BRAWLER FREE BENEFITS</strong></h4><ul><li>Permanently increase your maximum Health Points by 5.</li></ul><h3><strong>PREDATOR SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM]{Attack Chain}</strong></h4><p>Whenever you hit a target with an unarmed attack, mark them as your Attack Chain target.<br />Your next action against them spends the mark but gains a <strong>+1</strong> bonus to its <strong>Accuracy</strong> or <strong>Magic Check</strong>.</p><p>Whenever you mark a target, remove your mark from everyone else. The mark is automatically cleared at the end of the scene.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mMAF7OQ047j4JqA7]{Combo Breaker} (SL2)</strong></h4><p>At the start of every conflict, gain <strong>【SL】</strong> Combo Break Counters. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <em>Counter</em> at any time to dodge an attack.</p><p>You lose all of these Counters whenever there’s a scene change.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mDEwE0XISdc9Hr9J]{Command Grab} (SL3)</strong></h4><p>When you hit an unarmed melee attack against a single opponent, you may choose to deal no damage and instead perform an <strong>Opposed Check</strong> with <strong>【DEX + MIG】</strong>. If successful, your attack will instead deal twice its original damage, ignoring Vulnerability.<br />You gain a <strong>【SL】</strong> bonus to your check.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH]{Command Input} (SL5)</strong></h4><p>As an action, choose a number of <em>Inputs</em> up to <strong>【SL】</strong> and spend <strong>【5 x Inputs】 MP</strong>.<br />Perform a check with <strong>【DEX + INS】</strong> against a difficulty of <strong>【6 + Inputs】</strong>.<br />If you succeed, perform an unarmed Free Attack, adding as many effects from the following list as the Inputs you chose (each may only be chosen once) :</p><ul><li><p><strong>Powerful:</strong> Deal +5 <strong>Damage</strong>.</p></li><li><p><strong>Quick:</strong> Add a +3 bonus to the <strong>Accuracy Check</strong>.</p></li><li><p><strong>Anti-air:</strong> May target <strong>Flying</strong> foes: On hit, they become grounded.</p></li><li><p><strong>Screen-clear:</strong> Gain <strong>Multi (3)</strong>.</p></li><li><p><strong>Stun:</strong> Apply <strong>Slow</strong> or <strong>Dazed</strong> on hit.</p><hr /></li></ul><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9iYytTSGAbEXr8Qo]{Perfect Parry}</strong></h4><p>When you are about to be hit by a melee attack, you may perform an <strong>Accuracy Check</strong> as if you were attacking with an unarmed melee attack. Compare their results: <br />If you roll <strong>above</strong> it, treat that attack’s damage as if you <strong>Resist</strong> it.<br />If you roll <strong>below</strong> it, treat the attack’s damage as if you are <strong>Vulnerable</strong> to it.<br />If you match it, dodge that attack instead, ignoring all of its effects.</p><p>During conflict scenes and unless you matched the difficulty, you may not do this again until the start of your next turn.</p><p></p><h1>Heroic Skills</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.HLxsAmtvswosR6eD]{Comback Mechanics}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.ArjRYKqCC9hzn102]{Devastating Counter}</strong></p></div><p></p><h1>Credit</h1><p><strong>Class Design, Writing and Development </strong>NitroRobotto</p><p><strong>Angler Art </strong>GranBlue Gran Ryu Outfit</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": true
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712414014626,
+    "modifiedTime": 1715826455588,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_id": "xXe5AGe88CXj2z2A",
+  "sort": 0,
+  "_key": "!items!xXe5AGe88CXj2z2A"
+}

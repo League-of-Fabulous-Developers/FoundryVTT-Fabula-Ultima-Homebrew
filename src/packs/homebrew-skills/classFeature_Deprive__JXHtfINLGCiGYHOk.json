@@ -1,0 +1,61 @@
+{
+  "name": "Deprive⚡",
+  "type": "classFeature",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "Up to three creatures"
+      },
+      "duration": {
+        "value": "Until lifted"
+      },
+      "description": "<p>You lay waste to your foe's inner workings, denying them any meaningful respite.</p><p>Your targets cannot recover HP or MP above their Crisis score or half their maximum MP, respectively.</p><p>This malediction is lifted when the target heals or restores a total amount of HP or MP equal to their Crisis score or half their maximum MP, respectively, to other creatures, or when they waste three potions trying to restore their HP or MP.</p>",
+      "hpCost": {
+        "value": 10
+      },
+      "maxTarget": {
+        "value": 3
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "physical",
+        "bonus": 0
+      },
+      "isOffensive": {
+        "value": false
+      },
+      "domains": ""
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1716339955044,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+  },
+  "_id": "JXHtfINLGCiGYHOk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!JXHtfINLGCiGYHOk"
+}

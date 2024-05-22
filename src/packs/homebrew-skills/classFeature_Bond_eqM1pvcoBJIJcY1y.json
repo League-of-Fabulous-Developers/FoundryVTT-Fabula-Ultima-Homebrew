@@ -1,0 +1,60 @@
+{
+  "name": "Bond",
+  "type": "classFeature",
+  "_id": "eqM1pvcoBJIJcY1y",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "Two allies and/or self"
+      },
+      "duration": {
+        "value": "Until lifted"
+      },
+      "description": "<p>You form a blood bond between two beings, tying their fates together. You bind your targets together; when either target takes damage or otherwise loses HP, that HP loss is split evenly between the two of them.</p><p>This malediction is lifted when both targets wish it to or before an instance of HP loss that would reduce one of them to 0 HP.</p>",
+      "hpCost": {
+        "value": 5
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "physical",
+        "bonus": 0
+      },
+      "maxTarget": {
+        "value": 1
+      },
+      "isOffensive": {
+        "value": false
+      }
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1715111891685,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!eqM1pvcoBJIJcY1y"
+}

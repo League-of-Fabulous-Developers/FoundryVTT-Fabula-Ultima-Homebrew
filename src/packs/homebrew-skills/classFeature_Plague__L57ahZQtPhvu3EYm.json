@@ -1,0 +1,60 @@
+{
+  "name": "Plague⚡",
+  "type": "classFeature",
+  "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "isFavored": {
+      "value": false
+    },
+    "featureType": "fabula-ultima-homebrew.malediction",
+    "data": {
+      "target": {
+        "value": "One Creature"
+      },
+      "duration": {
+        "value": "Until lifted"
+      },
+      "description": "<p>You bestow a malevolent plague on your target, enfeebling them and sapping their vitality. Your target suffers poisoned and takes 3 poison damage at the start of each turn.</p><p>This malediction is lifted when the target spends an action to make substantial physical contact with another creature, transferring this malediction to them, or when they have taken poison damage equal to at least their Crisis score.</p>",
+      "hpCost": {
+        "value": 15
+      },
+      "maxTarget": {
+        "value": 1
+      },
+      "accuracy": {
+        "attr1": "mig",
+        "attr2": "wlp",
+        "modifier": 0
+      },
+      "damage": {
+        "type": "physical",
+        "bonus": 0
+      },
+      "isOffensive": {
+        "value": false
+      }
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "folder": "24MxVMTeYHf6iPDG",
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712591397301,
+    "modifiedTime": 1715111866351,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "L57ahZQtPhvu3EYm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!L57ahZQtPhvu3EYm"
+}

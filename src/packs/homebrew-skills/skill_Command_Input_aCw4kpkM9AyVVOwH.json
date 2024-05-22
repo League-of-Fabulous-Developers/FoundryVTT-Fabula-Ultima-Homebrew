@@ -1,0 +1,136 @@
+{
+  "folder": "R6nlUG6b2nmGv2sK",
+  "name": "Command Input",
+  "type": "skill",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>As an action, choose a number of <em>Inputs</em> up to <strong>【SL】</strong> and spend <strong>【5 x Inputs】 MP</strong>.<br />Perform a check with <strong>【DEX + INS】</strong> against a difficulty of <strong>【6 + Inputs】</strong>.<br />If you succeed, perform an unarmed Free Attack, adding as many effects from the following list as the Inputs you chose (each may only be chosen once) :</p><ul><li><p><strong>Powerful:</strong> Deal +5 <strong>Damage</strong>.</p></li><li><p><strong>Quick:</strong> Add a +3 bonus to the <strong>Accuracy Check</strong>.</p></li><li><p><strong>Anti-air:</strong> May target <strong>Flying</strong> foes: On hit, they become grounded.</p></li><li><p><strong>Screen-clear:</strong> Gain <strong>Multi (3)</strong>.</p></li><li><p><strong>Stun:</strong> Apply <strong>Slow</strong> or <strong>Dazed</strong> on hit.</p></li></ul></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Brawler"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715043700326,
+    "modifiedTime": 1715043968413,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "aCw4kpkM9AyVVOwH",
+  "_key": "!items!aCw4kpkM9AyVVOwH"
+}
