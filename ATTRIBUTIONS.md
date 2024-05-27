@@ -2,7 +2,7 @@
 
 ## Homebrew Classes
 
-For the following, PDFs can be found in Orphan's reposittory ([Link](https://drive.google.com/drive/folders/1JN7YknbMJQbLOLDk_WT640lHQ-L42qp1))
+For the following, PDFs can be found in Orphan's repository ([Link](https://drive.google.com/drive/folders/1JN7YknbMJQbLOLDk_WT640lHQ-L42qp1))
 
 - Angler by Kitty
 - Assassin by Nitro

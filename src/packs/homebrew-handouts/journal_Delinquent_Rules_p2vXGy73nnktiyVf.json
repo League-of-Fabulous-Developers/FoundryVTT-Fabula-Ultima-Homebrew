@@ -1,0 +1,201 @@
+{
+  "name": "Delinquent Rules",
+  "_id": "p2vXGy73nnktiyVf",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "TRICKS",
+      "type": "text",
+      "_id": "t0vOSSxUzAHTrzGs",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h4>USING A TRICK</h4><p>Each trick may be used as an <strong>action</strong> during a <strong>conflict</strong> if you have a <strong>set of wheels</strong> equipped, and either produces or costs <strong>momentum</strong>. You cannot use a trick if it would bring your <strong>Momentum Clock</strong> to higher than <strong>8</strong> or lower than <strong>0</strong>.</p><p></p><h4>THE MOMENTUM CLOCK</h4><p>When you first learn a <strong>trick</strong>, either through acquiring the <strong>Skate Tricks</strong> or by equipping a set of</p><p>wheels you acquired through the <strong>Wheels</strong> skills, you receive a <strong>Momentum Clock</strong>.</p><p>❖ Your Momentum Clock has <strong>8 sections</strong>, and begins each scene <strong>empty</strong>.</p><p>❖ When you use a trick, you will <strong>fill</strong> or <strong>erase</strong> sections of the clock depending on the <strong>Momentum</strong> of the trick. <strong>Filling</strong> if an increase and <strong>erasing</strong> if a decrease (you do so <strong>before</strong> the effects of the trick have been calculated and applied).</p><p>❖ Your Momentum Clock will provide a value called <strong>Momentum</strong> used when determining the effects of your tricks. Your <strong>MV</strong> is equal to the number of <strong>filled</strong> sections of your Momentum Clock, and your <strong>HV </strong>is equal to half of that number, rounded down.</p><p>❖ The effects of the Momentum Clock only apply during <strong>conflict</strong>, and will apply passive positive and negative effects to you based on its number of filled sections.</p><p>❖ Sections of your Momentum Clock <strong>may not be filled</strong> or <strong>erased</strong> in any way other than through the use of <strong>tricks</strong>, or through <strong>opportunities</strong> used by you.</p><p></p><table><tbody><tr><td><p><strong>@ICON[skill]</strong></p></td><td><p><strong>EFFECT</strong></p></td></tr><tr><td><p><strong>1</strong></p></td><td><p>No effect.</p></td></tr><tr><td><p><strong>2-3</strong></p></td><td><p>You have +1 Defense.</p></td></tr><tr><td><p><strong>4-5</strong></p></td><td><p>You have +2 Defense and -1 penalty to Accuracyand Magic Checks.</p></td></tr><tr><td><p><strong>6-7</strong></p></td><td><p>You have +3 Defense and -2 penalty to Accuracy and Magic Checks.</p></td></tr><tr><td><p><strong>8</strong></p></td><td><p>You have +4 Defense and -3 penalty to Accuracyand Magic Checks.</p></td></tr></tbody></table><p></p><h3>Wheels</h3><p>When you first take the <strong>Wheels</strong> skill, you learn to ride one of three kinds of <strong>wheels</strong>, a special item that can be equipped as an <strong>accessory</strong>. You can only do so if you’ve taken their <strong>basic benefits</strong>.</p><p><strong>Sets of Wheels</strong> have a base cost of 300 zenit. <strong>Rare</strong> versions of the <strong>accessory</strong> can be found that possess qualities, as described in the <strong>Core Rulebook</strong>.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716734170046,
+        "modifiedTime": 1716736321902,
+        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+      },
+      "_key": "!journal.pages!p2vXGy73nnktiyVf.t0vOSSxUzAHTrzGs"
+    },
+    {
+      "sort": 200000,
+      "name": "BIKE LIST",
+      "type": "text",
+      "_id": "JznuENVYTtpm7Zh4",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Two wheels held together by a frame, with a set of handlebars, and a seat for the rider.</p><p>While you have a <strong>Bike</strong> equipped, your distance traveled per day is multiplied by 2, and you cannot have anything equipped in your off-hand. The following <strong>tricks</strong> are known based on what <strong>benefits</strong> you have in this wheel. You must have a <strong>Bike</strong> equipped to use these <strong>tricks</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>BASIC: Aerodynamic Blitz</strong></p></td><td style=\"height:17px;text-align:center\"><p>-1</p></td></tr></tbody></table><p>Make two <strong>free attacks</strong>. These attacks replace their <strong>HR</strong> with your <strong>MV</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>ADVANCED: Sylvan Hopscotch</strong></p></td><td style=\"height:17px;text-align:center\"><p>-2</p></td></tr></tbody></table><p>Make a <strong>free attack</strong> with <strong>multi (HV)</strong>. This attack deals your choice of <strong>air</strong> or <strong>earth</strong> damage, and you regain 5 MP for each creature hit.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>SUPERIOR: Soaring Dragon</strong></p></td><td style=\"height:17px;text-align:center\"><p>-4</p></td></tr></tbody></table><p>If you are in crisis, nothing happens. If not, you become <strong>flying</strong> until the beginning of your next</p><p>turn. See page <strong>307</strong> of the <strong>Core Rulebook</strong> for the detailed effects of <strong>flying</strong>. At the start of your</p><p>next turn, if you have not suffered damage that you were <strong>vulnerable</strong> to or entered <strong>crisis</strong>, you</p><p>must use your action to <strong>attack</strong>. This can target <strong>flying</strong> creatures. This attack deals 20 extra</p><p>damage, and its damage becomes <strong>fire</strong>.</p><p>-</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716734223913,
+        "modifiedTime": 1716737546633,
+        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+      },
+      "_key": "!journal.pages!p2vXGy73nnktiyVf.JznuENVYTtpm7Zh4"
+    },
+    {
+      "sort": 300000,
+      "name": "BOARD LIST",
+      "type": "text",
+      "_id": "rewphsS8JpCsRlhQ",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A board with two sets of trucks attaching four wheels to the bottom, stood on to ride.</p><p>While you have a <strong>Board</strong> equipped, you gain a +2 to all Opposed Checks that rely on mobility in a closely urban environment, such as a junkyard, city street, or set of ruins. The following <strong>tricks</strong> are known based on what <strong>benefits</strong> you have in this wheel. You must have a <strong>Board</strong> equipped to use these <strong>tricks</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>BASIC: Arcanists Ollie</strong></p></td><td style=\"height:17px;text-align:center\"><p>+1</p></td></tr></tbody></table><p>You gain +2 to your next Magic Check.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>ADVANCED: Tribulant Tailslide</strong></p></td><td style=\"height:17px;text-align:center\"><p>-1</p></td></tr></tbody></table><p>The next time you are hit with a melee attack, the attacker suffers the same damage you took.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>SUPERIOR: X-Degree Leviathan</strong></p></td><td style=\"height:17px;text-align:center\"><p>-X</p></td></tr></tbody></table><p>Make a number of <strong>free attacks</strong> equal to your <strong>X</strong> (the amount of Momentum you chose to spend on this <strong>trick</strong>)against a single creature. These attacks deal <strong>ice</strong> damage and treat their <strong>HR</strong> as 0.</p><p>-</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716734228939,
+        "modifiedTime": 1716737432645,
+        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+      },
+      "_key": "!journal.pages!p2vXGy73nnktiyVf.rewphsS8JpCsRlhQ"
+    },
+    {
+      "sort": 400000,
+      "name": "BLADE LIST",
+      "type": "text",
+      "_id": "PDm7HcdWBxZ6t4vV",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A pair of special boots with wheels on the bottom, allowing the wearer to skate upon the ground.</p><p>While you have <strong>Blades</strong> equipped, you enter <strong>conflict scenes</strong> where you were the leader or succeeded your <strong>Support</strong> Check, with two sections of your Momentum Clock filled. The following <strong>tricks</strong> are known based on what benefits you have in this wheel. You must have a <strong>Blades</strong> equipped to use these <strong>tricks</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>BASIC: Thorn Dagger Spin</strong></p></td><td style=\"height:17px;text-align:center\"><p>-2</p></td></tr></tbody></table><p>Make two <strong>free attacks</strong>. These attacks replace their <strong>HR</strong> with your <strong>MV</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>BASIC: Thorn Dagger Spin</strong></p></td><td style=\"height:17px;text-align:center\"><p>-1</p></td></tr></tbody></table><p>Choose an ally you can see. They gain a bonus equal to your current <strong>HV</strong> to their next check.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>BASIC: Thorn Dagger Spin</strong></p></td><td style=\"height:17px;text-align:center\"><p>-1</p></td></tr></tbody></table><p>Every ally of your choice that you can see recovers HP and MP equal to 2 × <strong>MV</strong>. You can immediately use another (different) <strong>trick.</strong></p><p>-</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716734247561,
+        "modifiedTime": 1716737379468,
+        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+      },
+      "_key": "!journal.pages!p2vXGy73nnktiyVf.PDm7HcdWBxZ6t4vV"
+    },
+    {
+      "sort": 150000,
+      "name": "TRICK LIST",
+      "type": "text",
+      "_id": "aYl4KvGtYl6W4n4i",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Cold Shoulder</strong></p></td><td style=\"height:17px;text-align:center\"><p>-2</p></td></tr></tbody></table><p>Creatures that hit you with a <strong>melee attack</strong> before the end of your next turn suffer <strong>5 ice </strong>damage (after the attack has been resolved). This amount increases by 5 damage if you are <strong>level 20 or higher</strong>, or by 10 damage if you are <strong>level 40 or higher</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Dragon Tail Whip</strong></p></td><td style=\"height:17px;text-align:center\"><p>-2</p></td></tr></tbody></table><p>Make a <strong>free attack</strong>. That attack <strong>gains multi (HV)</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Electric Backslide</strong></p></td><td style=\"height:17px;text-align:center\"><p>-1</p></td></tr></tbody></table><p>Any creatures that hit you with a <strong>melee attack</strong> since the beginning of this round become <strong>dazed</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Enigma Manual</strong></p></td><td style=\"height:17px;text-align:center\"><p>+1</p></td></tr></tbody></table><p>You recover 2 × <strong>MV</strong> mind points. This increases to 3 if you are <strong>level 20 or higher</strong>, or by 4 if you are <strong>level 40 or higher.</strong></p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Gravitational Grab</strong></p></td><td style=\"height:17px;text-align:center\"><p>+1</p></td></tr></tbody></table><p>You become <strong>flying</strong> until the end of your next turn. See page <strong>307</strong> of the <strong>Core Rulebook</strong> for the detailed effects of <strong>flying</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Inferno Kick</strong></p></td><td style=\"height:17px;text-align:center\"><p>-1</p></td></tr></tbody></table><p>Make a <strong>free attack</strong>. That attack deals <strong>fire</strong> and deals 5 extra damage. This amount increases by 5 damage if you are <strong>level 20 or higher</strong>, or by 10 damage if you are <strong>level 40 or higher</strong>.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Mystic Grind</strong></p></td><td style=\"height:17px;text-align:center\"><p>+2</p></td></tr></tbody></table><p>Replace your Defense increase you would gain from your <strong>Momentum</strong> with an equal M. Defense increase until the end of your next turn.</p><p>-</p><table style=\"width:96.5571%;height:80px\" border=\"1\"><tbody><tr style=\"height:9px\"><td style=\"height:17px\" data-colwidth=\"520\"><p><strong>Trick</strong></p></td><td style=\"height:17px;text-align:center\"><p><strong> Momentum</strong></p></td></tr><tr style=\"height:17px\"><td data-colwidth=\"520\"><p><strong>Starfall Spin</strong></p></td><td style=\"height:17px;text-align:center\"><p>+2</p></td></tr></tbody></table><p>Choose a creature you can see that has <strong>flying</strong>. Make an opposed <strong>【DEX + WLP】</strong> against the target, who uses the same attributes. If you win, the target loses its <strong>flying</strong> skill until the end of your next turn. If you lose, they make a <strong>free attack</strong> against you, treating their <strong>HR</strong> as 0.</p><p>-</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716735912983,
+        "modifiedTime": 1716737643325,
+        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+      },
+      "_key": "!journal.pages!p2vXGy73nnktiyVf.aYl4KvGtYl6W4n4i"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716734150941,
+    "modifiedTime": 1716737643325,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!journal!p2vXGy73nnktiyVf"
+}

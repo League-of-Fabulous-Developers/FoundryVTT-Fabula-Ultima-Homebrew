@@ -1,0 +1,61 @@
+{
+  "name": "Hunter Rules",
+  "_id": "J9UR8eVsU7XhlOLw",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "GM NOTES",
+      "type": "text",
+      "_id": "km9TmJ1MAJNe6yWz",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"stackedit__html\"><h4>@ICON[header] GM NOTES</h4><ul><li><p>Your Hunter’s chosen Species should be a regular presence without dominating the story. Remember that they can appear alongside mixes of other creatures.</p></li><li><p>Hunter Skills have uses outside of combat - especially since some Hunters, like the Naturalist above, don’t even want to hurt their Quarry. Keep your Hunter’s Skills in mind if they are, for example, matching wits with a vampire count or playing chicken with a demon motorcycle.</p></li><li><p>Like the Loremaster, the Hunter is an expert and their player is probably interested in the creature type they chose. Let them add to the information that you give to show off their character’s knowledge and contribute to a part of the setting that they enjoy.</p></li><li><p>Limited Bond slots may become an issue, but that’s the drawback to devoting yourself to The Hunt. A Hunter can commiserate with the party Darkblade... unless they are also the Darkblade, in which case, good luck. Either way, this is an opportunity for drama.</p></li><li><p>If your Hunter discovers that they are on the wrong path, be generous in letting them apply their skills to better ends and consider the ideas in the Adaptation section. However, their former quarry may not forgive them, and former colleagues surely won’t!</p></li><li><p>This particular arc is well-served by the Quirk Fettered Heart (High Fantasy).</p></li></ul></div><p></p><div class=\"stackedit__html\"><h4>@ICON[header] ADAPTATION</h4><ul><li><p>There are a few ways to adapt a remorseful Hunter’s Class to reflect their new reality:</p><ul><li><p>They keep tracking their former quarry, but now with the goal of helping them.</p></li><li><p>Change their chosen Species to “Hunters from my former organization.”</p></li><li><p>Let them respec their Hunter Skills into a thematically appropriate Class.</p></li></ul></li><li><p>Your setting might have more specific types that a Hunter could focus on. (such as a world ruled by vampires, or a cruel empire with a corps of Mage Hunters.) To avoid interfering with other Classes, make it a subtype and ensure that every creature also has one of the official Species, as well. (like “Humanoid Vampire” or “Beast Mage.”)</p></li><li><p>You could allow a Hunter to take “Humanoid” as their choice in Bloodhound to represent a bounty hunter or assassin, but then some Heroic Skills won’t make sense or shouldn’t! But then, this is the Horror Fantasy supplement...</p></li></ul></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "B6evqtezy9ZsGZG3": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.fArjgN0xF1QmhtXe.JournalEntryPage.km9TmJ1MAJNe6yWz"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715116371481,
+        "modifiedTime": 1716822506778,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_key": "!journal.pages!J9UR8eVsU7XhlOLw.km9TmJ1MAJNe6yWz"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716736485418,
+    "modifiedTime": 1716822506778,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+  },
+  "_key": "!journal!J9UR8eVsU7XhlOLw"
+}

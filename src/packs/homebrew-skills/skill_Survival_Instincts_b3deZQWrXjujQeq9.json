@@ -1,0 +1,136 @@
+{
+  "folder": "uLuyhzsOcvyaEpGd",
+  "name": "Survival Instincts",
+  "type": "skill",
+  "img": "icons/sundries/lights/lantern-iron-lit-yellow.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>All damage you suffer while outside of a <strong>Conflict Scene</strong> that is not from an Attack or Spell, such as from a <strong>Danger</strong> in a Dungeon or during Travel, a <strong>Catastrophe</strong> caused by a failed ritual, or harsh environmental conditions such as harmful terrain or weather, is reduced by <strong>【SL × 3】</strong>.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 4,
+      "min": 0
+    },
+    "class": {
+      "value": "Dungeoneer"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716743169594,
+    "modifiedTime": 1716743419860,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_id": "b3deZQWrXjujQeq9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!b3deZQWrXjujQeq9"
+}

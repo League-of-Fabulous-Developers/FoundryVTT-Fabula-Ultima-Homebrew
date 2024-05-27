@@ -1,0 +1,117 @@
+{
+  "folder": "0kob4rnOKBXiCB0B",
+  "name": "Treasure Fiend",
+  "type": "heroic",
+  "_id": "lfyzpkcGwzrg1vVn",
+  "img": "icons/sundries/lights/lantern-iron-lit-yellow.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered one or more Classes among <strong>Dungeoneer</strong> and <strong>Wayfarer</strong>, and must have learned <strong>both</strong> the <strong>Treasure Hunter</strong> and <strong>Treasure Magnet</strong> skills.</p></blockquote><p>When you encounter a <strong>Danger</strong> as a result of a travel or encounter roll, you may spend a Fabula Point to, at the same time as the Danger, also make a <strong>Discovery</strong>. These two things may be one after the other or interwoven into the same scene, chosen by your <strong>Game Master</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Dungeoneer"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716742124341,
+    "modifiedTime": 1716742885445,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!items!lfyzpkcGwzrg1vVn"
+}

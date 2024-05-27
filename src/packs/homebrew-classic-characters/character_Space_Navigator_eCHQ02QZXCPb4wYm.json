@@ -1,0 +1,1809 @@
+{
+  "name": "Space Navigator",
+  "type": "character",
+  "_id": "eCHQ02QZXCPb4wYm",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 35,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 55,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 200
+      },
+      "ip": {
+        "value": 8,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "exp": {
+        "value": 0
+      },
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 10
+      },
+      "mig": {
+        "base": 6
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "description": ""
+  },
+  "prototypeToken": {
+    "name": "Space Navigator",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "3EHcnClhu17OK3A7",
+      "name": "Bind And Haunt",
+      "type": "skill",
+      "_id": "tV4VO0JfyOoYbYUG",
+      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>You may bind your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your Sanctuaries (see next page.) You can Haunt other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Warden"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            },
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "mig"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        }
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715100922423,
+        "modifiedTime": 1716822974135,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.tV4VO0JfyOoYbYUG"
+    },
+    {
+      "name": "Warden",
+      "type": "class",
+      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
+        },
+        "description": "<div class=\"stackedit__html\"><h1>WARDEN</h1><h4><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h4><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><h4><strong>WARDEN FREE BENEFITS</strong></h4><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h3><strong>WARDEN SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</strong></h4><p>You may bind your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your Sanctuaries (see next page.) You can Haunt other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death} (SL5)</strong></h4><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL x 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance} (SL3)</strong></h4><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL x 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</strong></h4><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is} (SL5)</strong></h4><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL x 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><p></p><h1>SANCTUARY &amp; HAUNTOLOGY</h1><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.KaHBiyz46c4vfawG]{[Handout: Sanctuary Rules]} | @UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</strong></p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JF4Vq0mwDSfEI1ry]{[Handout: Sanctuaries]}</strong></p></div><p></p><h1>Credit</h1><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.GZCOjMGiVdCwwScN"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712414014626,
+        "modifiedTime": 1716819032060,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "4jVCK4MD5iNWdh91",
+      "sort": 0,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.4jVCK4MD5iNWdh91"
+    },
+    {
+      "name": "Entropic Magic",
+      "type": "skill",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "source": {
+          "value": "FUCR191"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            },
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "defense": "def"
+      },
+      "img": "icons/sundries/books/book-purple-glyph.webp",
+      "effects": [],
+      "folder": "bqBl8kPDVcWqosfM",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.vtmxLTltA4JvXFXu"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706421766290,
+        "modifiedTime": 1716819337926,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "09ia8gqWdOfkyvCe",
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "sort": 200000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.09ia8gqWdOfkyvCe"
+    },
+    {
+      "name": "Entropist",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><h1>ENTROPIST</h1><h5><strong>ALSO:</strong> Astromancer, Chaos Mage, Gambler</h5><p><strong>ENTROPIST FREE BENEFITS</strong></p><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</li></ul><h3 id=\"entropist-skills\"><strong>ENTROPIST SKILLS</strong></h3><h4><strong>Absorb MP (SL5)</strong></h4><hr /><h4><strong>Entropic Magic (SL10)</strong></h4><hr /><h4><strong>Lucky Seven</strong></h4><hr /><h4><strong>Ritual Entropism</strong></h4><hr /><h4><strong>Stolen Time (SL4)</strong></h4></div>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 3,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR190"
+        }
+      },
+      "img": "icons/magic/time/hourglass-yellow-green.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.classes.Item.4DD5apOyiv1NQK3c"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706418603805,
+        "modifiedTime": 1716819368446,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "_id": "ORY6Q5fIU96fcaBD",
+      "sort": 200000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.ORY6Q5fIU96fcaBD"
+    },
+    {
+      "folder": "3BdwBwfSnD04VRAz",
+      "name": "Acceleration",
+      "type": "spell",
+      "_id": "ARxsrw2Fln180HwF",
+      "img": "icons/magic/time/arrows-circling-pink.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p></p><hr /><p><strong>@LOSS[20 mp]</strong></p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "20"
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "duration": {
+          "value": "Scene"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR192"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.spells.Item.odCKj31VovzmcEUw"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706567990806,
+        "modifiedTime": 1716819461705,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "sort": 200000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.ARxsrw2Fln180HwF"
+    },
+    {
+      "folder": "3BdwBwfSnD04VRAz",
+      "name": "Divination",
+      "type": "spell",
+      "_id": "02pyVxBb0H8Yl95k",
+      "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p></p><hr /><p><strong>@LOSS[10 mp]</strong></p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Self"
+        },
+        "duration": {
+          "value": "Scene"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR192"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.spells.Item.AAsEhxIBxlig3hRk"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706570972318,
+        "modifiedTime": 1716819461705,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.02pyVxBb0H8Yl95k"
+    },
+    {
+      "folder": "bqBl8kPDVcWqosfM",
+      "name": "Ritual Entropism",
+      "type": "skill",
+      "_id": "RtdcuQ8UJQJRYlAV",
+      "img": "icons/magic/symbols/runes-star-magenta.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "source": {
+          "value": "FUCR191"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            },
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "defense": "def"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.Ko2QCUw6qbxhufwE"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706486739037,
+        "modifiedTime": 1716819461705,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "sort": 500000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.RtdcuQ8UJQJRYlAV"
+    },
+    {
+      "folder": "Jv2TAynII0DVVBZS",
+      "name": "Visionary",
+      "type": "skill",
+      "_id": "Fib0Z0q4xC3oaJ00",
+      "img": "icons/sundries/documents/blueprint-helmet.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Tinkerer"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "source": {
+          "value": "FUCR211"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            },
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "defense": "def"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.6pJAB6E29I15q1gU"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706508759212,
+        "modifiedTime": 1716819461705,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "sort": 600000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.Fib0Z0q4xC3oaJ00"
+    },
+    {
+      "name": "Tinkerer",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<h1>TINKERER</h1><h5><strong>ALSO:</strong> Alchemist, Magitech Engineer, Mechanic</h5><p><strong>TINKERER FREE BENEFITS</strong></p><ul><li>Permanently increase your maximum Inventory Points by 2.</li><li>You may initiate <strong>Projects</strong>.</li></ul><h3 id=\"tinkerer-skills\"><strong>TINKERER SKILLS</strong></h3><h4><strong>Emergency Item</strong></h4><hr /><h4><strong>Gadgets (SL5)</strong></h4><hr /><h4><strong>Potion Rain (SL2)</strong></h4><hr /><h4><strong>Secret Formula (SL5)</strong></h4><hr /><h4><strong>Visionary (SL5)</strong></h4>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": true
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR210"
+        }
+      },
+      "img": "icons/magic/symbols/cog-orange-red.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.classes.Item.PEjviStIco7RJLLA"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706416691918,
+        "modifiedTime": 1716819360712,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "_id": "ASt2waKM042YXPiX",
+      "sort": 400000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.ASt2waKM042YXPiX"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Elemental%20Shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For <strong>@LOSS[2 ip]</strong> o<span class=\"fontstyle0\">ne creature suffers 10 damage of a type of your choice (</span><strong>@DMG[10 air]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 bolt]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 earth]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 fire]</strong><span class=\"fontstyle0\">, or </span><strong>@DMG[10 ice]</strong><span class=\"fontstyle0\">).</span></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        }
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706516143319,
+        "modifiedTime": 1716819391693,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "8FYPrAoWZB9Ed1Ja",
+      "sort": 87500,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.8FYPrAoWZB9Ed1Ja"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Magic%20Tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p><span class=\"fontstyle0\">For </span><strong>@LOSS[4 ip]</strong>, <span class=\"fontstyle0\">this allows the entire group to </span><span class=\"fontstyle2\"><strong>rest </strong></span><span class=\"fontstyle0\">in the wilderness and at sea.</span> </p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        }
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706516284047,
+        "modifiedTime": 1716819391693,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "atbcJ483eEAgdIMK",
+      "sort": 100000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.atbcJ483eEAgdIMK"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For <strong>@LOSS[3 ip]</strong> one creature recovers <strong>@HEAL[50 hp]</strong>.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        }
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706516053996,
+        "modifiedTime": 1716819391693,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "R2z9RZ6p6IobEkQa",
+      "sort": 0,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.R2z9RZ6p6IobEkQa"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For <strong>@LOSS[2 ip]</strong> one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        }
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706516094485,
+        "modifiedTime": 1716819391693,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "jerWVzzyZuTX61Iy",
+      "sort": 75000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.jerWVzzyZuTX61Iy"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For <strong>@LOSS[3 ip]</strong> one creature recovers <strong>@HEAL[50 mp]</strong>.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        }
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706515894820,
+        "modifiedTime": 1716819391693,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "9izi3JcqHJyzRXEk",
+      "sort": 50000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.9izi3JcqHJyzRXEk"
+    },
+    {
+      "name": "Tome",
+      "type": "weapon",
+      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Weapons/Tome.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 100
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "isEquipped": {
+          "value": true,
+          "slot": "mainHand"
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 6
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "arcane"
+        },
+        "hands": {
+          "value": "two-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-weapons.Item.6vo11SJoV4Sh0Irl"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706648474149,
+        "modifiedTime": 1716819461705,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "gcZP8mLd1UZlOnWb",
+      "sort": 100000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.gcZP8mLd1UZlOnWb"
+    },
+    {
+      "name": "Sage Robe",
+      "type": "armor",
+      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Armor%20and%20Shields/Sage%20Robe.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "isEquipped": {
+          "value": true,
+          "slot": "armor"
+        },
+        "def": {
+          "value": 1
+        },
+        "mdef": {
+          "value": 2
+        },
+        "init": {
+          "value": -2
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "source": {
+          "value": "FUCR132"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "CLAzxWQsDDB8fCLx": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-armor.Item.H4n3JfVSfnMJmOZl"
+        }
+      },
+      "_stats": {
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1706646363915,
+        "modifiedTime": 1716819423906,
+        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+      },
+      "_id": "KE8Vz114otF6zM5V",
+      "sort": 200000,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.KE8Vz114otF6zM5V"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716811814714,
+    "modifiedTime": 1716824265984,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CLAzxWQsDDB8fCLx": 3
+  },
+  "_key": "!actors!eCHQ02QZXCPb4wYm"
+}

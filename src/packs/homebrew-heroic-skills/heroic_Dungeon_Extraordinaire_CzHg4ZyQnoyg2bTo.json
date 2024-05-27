@@ -1,0 +1,117 @@
+{
+  "folder": "0kob4rnOKBXiCB0B",
+  "name": "Dungeon Extraordinaire",
+  "type": "heroic",
+  "_id": "CzHg4ZyQnoyg2bTo",
+  "img": "icons/sundries/lights/lantern-iron-lit-yellow.webp",
+  "system": {
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Dungeoneer</strong> Class.</p></blockquote><p>Once per <strong>dungeon</strong>, when you complete a <strong>stage</strong>, you can ask the <strong>Game Master</strong> a question or describe to them something you wish to know. They must offer you a complete answer, with no room for doubt. If for some reason the information is not possible to know or deduce, your <strong>Game Master</strong> may instead give you 1 Fabula Point.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Dungeoneer"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716742065273,
+    "modifiedTime": 1716742649527,
+    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+  },
+  "_key": "!items!CzHg4ZyQnoyg2bTo"
+}
