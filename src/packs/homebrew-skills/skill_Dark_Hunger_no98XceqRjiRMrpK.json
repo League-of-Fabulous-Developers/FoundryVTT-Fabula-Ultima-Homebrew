@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain<strong>【SL】</strong> Hit Points or <strong>【SL】</strong>Mind Points.</p>",
+    "description": "<p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p>",
     "isFavored": {
       "value": false
     },
@@ -119,8 +119,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1709317931671,
-    "modifiedTime": 1709319911735,
-    "lastModifiedBy": "YN7AhHIwAZeH33Tw"
+    "modifiedTime": 1716848730194,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "no98XceqRjiRMrpK",
   "sort": 300000,

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Gain a <strong>【SL】</strong> bonus to any Ritual check you perform. Reduce the base cost of Rituals you initiate by <strong>【SL x 5】</strong> MP (down to a minimum of 1).</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>Gain a <strong>【SL】</strong> bonus to any Ritual check you perform. Reduce the base cost of Rituals you initiate by <strong>【SL × 5】</strong> MP (down to a minimum of 1).</p></div>",
     "isFavored": {
       "value": false
     },
@@ -123,8 +123,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1712420994401,
-    "modifiedTime": 1712421198426,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716850242092,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "4yBals9akG0i4TuI",
   "sort": 0,

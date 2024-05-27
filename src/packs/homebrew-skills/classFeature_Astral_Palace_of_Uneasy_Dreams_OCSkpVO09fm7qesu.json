@@ -14,7 +14,7 @@
     "featureType": "fabula-ultima-homebrew.sanctuary",
     "data": {
       "description": "",
-      "haunt": "<p>If you don’t have a Bond of mistrust with the Hauntee, on each of their turns, they may ask a question about a creature they can see about what that creature fears or who they plan to hurt. The GM answers truthfully.</p><p>If you have a Bond of mistrust with the Hauntee, they are shaken, and cannot recover until the Haunt is banished or they leave the scene.</p>",
+      "haunt": "<p>If you don’t have a Bond of <strong>mistrust</strong> with the Hauntee, on each of their turns, they may ask a question about a creature they can see about what that creature fears or who they plan to hurt. The GM answers truthfully.</p><p>If you have a Bond of <strong>mistrust</strong> with the Hauntee, they are <strong>@EFFECT[shaken]</strong>, and cannot recover until the Haunt is banished or they leave the scene.</p>",
       "ritual": "<p>Bring a person or object into conformity with their surroundings.</p>",
       "domains": "",
       "merge": ""
@@ -28,8 +28,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715110576319,
-    "modifiedTime": 1715173246392,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1716841981739,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "sort": 0,
   "ownership": {

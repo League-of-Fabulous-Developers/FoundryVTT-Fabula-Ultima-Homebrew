@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you enter a settlement, you may spend up to all your current Hype to declare you have a fan club there. A fan club is a group of NPCs devoted to your actions and persona. They are willing to cover expenses or perform services up to a total cost of <strong>【(SL + Hype Spent) x 30】</strong> zenit while you are in the settlement. These services may be the ones found in <span style=\"font-family:'PT Sans Narrow', sans-serif\">Core Rulebook</span>, page <strong>125</strong>, or other services you and your group may find appropriate. You can change this limit by spending Hype again the next time you enter a settlement with a fan club.</p><p>You gain <strong>【SL x 2】</strong>Hype after resting in a settlement where you have a fan club.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>When you enter a settlement, you may spend up to all your current Hype to declare you have a fan club there. A fan club is a group of NPCs devoted to your actions and persona. They are willing to cover expenses or perform services up to a total cost of <strong>【(SL + Hype Spent) × 30】</strong> zenit while you are in the settlement. These services may be the ones found in <span style=\"font-family:'PT Sans Narrow', sans-serif\">Core Rulebook</span>, page <strong>125</strong>, or other services you and your group may find appropriate. You can change this limit by spending Hype again the next time you enter a settlement with a fan club.</p><p>You gain <strong>【SL × 2】</strong>Hype after resting in a settlement where you have a fan club.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -123,7 +123,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713026327778,
-    "modifiedTime": 1716336224736,
+    "modifiedTime": 1716848968596,
     "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "wk0bFjRGBD7uYhVe",

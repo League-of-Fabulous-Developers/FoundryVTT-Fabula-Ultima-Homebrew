@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you use an item or cast a spell that restores HP and/or MP, your target recovers an additional <strong>【SL x 5】</strong> HP and/or MP if they are in <strong>Crisis</strong>.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>When you use an item or cast a spell that restores HP and/or MP, your target recovers an additional <strong>【SL × 5】</strong> HP and/or MP if they are in <strong>Crisis</strong>.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -128,8 +128,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715045495338,
-    "modifiedTime": 1715048185652,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716850348881,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "ynC07YVeGT35RyKl",
   "_key": "!items!ynC07YVeGT35RyKl"

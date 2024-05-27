@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL x 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL × 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -123,8 +123,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715055493003,
-    "modifiedTime": 1715057284920,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716850295455,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "aFH53QmpAoUH4aBy",
   "sort": 0,

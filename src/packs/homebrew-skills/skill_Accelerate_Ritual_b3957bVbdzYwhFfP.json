@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Whenever you mark a segment of a ritual’s <strong>Clock</strong>, you may spend <strong>【SL x 20】</strong> MP to mark an additional segment for every 20 <strong>MP</strong> spent this way.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>Whenever you mark a segment of a ritual’s <strong>Clock</strong>, you may spend <strong>【SL × 20】</strong> MP to mark an additional segment for every 20 <strong>MP</strong> spent this way.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -124,8 +124,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1712420994401,
-    "modifiedTime": 1712421198426,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716850223298,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "sort": 0,
   "ownership": {

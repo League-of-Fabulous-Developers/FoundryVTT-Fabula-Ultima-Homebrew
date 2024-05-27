@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>After you invoke a bond, you or the creature of that bond may recover a number of Hit Points or Mind Points equal to <strong>【SL× the Strength of that bond】</strong> , or a creature of your choice present in the scene may lose a number of Hit Points or Mind Points equal to <strong>【SL× the Strength of that bond】</strong> .</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>After you invoke a bond, you or the creature of that bond may recover a number of Hit Points or Mind Points equal to <strong>【SL× the Strength of that bond】</strong> , <strong>or</strong> a creature of your choice present in the scene may lose a number of Hit Points or Mind Points equal to <strong>【SL× the Strength of that bond】</strong> .</p></div>",
     "isFavored": {
       "value": false
     },
@@ -123,8 +123,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713032976619,
-    "modifiedTime": 1715104231824,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716850935065,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "89brp9KWRYdJlvgZ",
   "sort": 0,

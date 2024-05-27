@@ -13,7 +13,7 @@
     "featureType": "fabula-ultima-homebrew.sanctuary",
     "data": {
       "description": "",
-      "haunt": "<p>If the Hauntee’s Bond with you has more positive emotions, they may change any damage they deal to ice, or add 2 damage for each positive emotion if it was already ice.</p><p>If their bond with you has more negative emotions, they may instead change the damage to poison, or add 2 damage for each negative emotion if it was already poison.</p>",
+      "haunt": "<p>If the Hauntee’s Bond with you has more positive emotions, they may change any damage they deal to <strong>ice</strong>, or add 2 damage for each positive emotion if it was already <strong>ice</strong>.</p><p>If their bond with you has more negative emotions, they may instead change the damage to poison, or add 2 damage for each negative emotion if it was already <strong>poison</strong>.</p>",
       "ritual": "<p>Guide and purify water to bring life.</p>"
     },
     "source": "Homebrew"
@@ -25,8 +25,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715110576319,
-    "modifiedTime": 1715111791469,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716842467052,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "JkWsJDhddVIMt6TN",
   "sort": 0,

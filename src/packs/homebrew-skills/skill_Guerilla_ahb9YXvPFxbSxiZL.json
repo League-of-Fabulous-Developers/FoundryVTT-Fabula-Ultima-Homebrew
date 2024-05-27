@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>After successfully using Study on them, you inflict <strong>【SL x 2】</strong> additional damage and ignore resistances on enemies you attack if they represent or follow an authority figure.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>After successfully using Study on them, you inflict <strong>【SL × 2】</strong> additional damage and ignore resistances on enemies you attack if they represent or follow an authority figure.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -123,8 +123,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715089005146,
-    "modifiedTime": 1715090182876,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716849385378,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "ahb9YXvPFxbSxiZL",
   "sort": 0,

@@ -13,8 +13,8 @@
     "featureType": "fabula-ultima-homebrew.sanctuary",
     "data": {
       "description": "",
-      "haunt": "<p>Creatures that you have attacked or targeted with a spell this round suffer a penalty equal to <strong>【the number of Primal Sanctuaries you have Bonded】</strong> to their Accuracy or Magic Checks that include the Hauntee among their targets.</p>",
-      "ritual": "<p>Reveal the hidden lives and relationships of beasts.</p>"
+      "haunt": "<p>Creatures that you have attacked or targeted with a spell this round suffer a penalty equal to <strong>【the number of Primal Sanctuaries you have Bonded】</strong> to their Accuracy or Magic Checks that include the Hauntee among their targets. </p>",
+      "ritual": "<p>Reveal the hidden lives and relationships of <strong>beasts</strong>.</p>"
     },
     "source": "Homebrew"
   },
@@ -25,8 +25,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715110576319,
-    "modifiedTime": 1715111791469,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716843578403,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "kjzEjM5q0ogtRdJ6",
   "sort": 0,

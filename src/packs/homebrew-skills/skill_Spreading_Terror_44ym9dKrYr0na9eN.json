@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You deal<strong>【SL】</strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to<strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p>",
+    "description": "<p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】 </strong>Mind Points to inflict <strong>@EFFECT[shaken]</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p>",
     "isFavored": {
       "value": false
     },
@@ -119,8 +119,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1709317931671,
-    "modifiedTime": 1709319912857,
-    "lastModifiedBy": "YN7AhHIwAZeH33Tw"
+    "modifiedTime": 1716848186535,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "44ym9dKrYr0na9eN",
   "sort": 500000,

@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×5】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by<strong>【SL】</strong>before affinities. (You still suffer the consequences for surrendering.)</p>",
+    "description": "<p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×2】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by<strong>【SL】</strong>before affinities. (You still suffer the consequences for surrendering.)</p>",
     "isFavored": {
       "value": false
     },
@@ -119,8 +119,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1709317931671,
-    "modifiedTime": 1709319912284,
-    "lastModifiedBy": "YN7AhHIwAZeH33Tw"
+    "modifiedTime": 1716848290233,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "fQTYuXRtM3UNEbbf",
   "sort": 400000,

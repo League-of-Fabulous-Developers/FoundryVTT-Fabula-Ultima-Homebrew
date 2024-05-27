@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL x 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -123,8 +123,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715054358875,
-    "modifiedTime": 1715054636863,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716850669920,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "ek3HmMmJLSxQ5L40",
   "sort": 0,

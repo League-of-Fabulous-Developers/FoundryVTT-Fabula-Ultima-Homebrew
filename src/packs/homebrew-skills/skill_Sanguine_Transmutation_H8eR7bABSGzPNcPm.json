@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>During a conflict, you may use an action to spend up to <strong>【SL×10】</strong> Hit Points and either recover half the HP lost as Mind Points or recharge 1 Inventory Point for every 20 HP lost.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>During a conflict, you may use an action to spend up to <strong>【SL × 10】</strong> Hit Points and either recover half the HP lost as Mind Points or recharge 1 Inventory Point for every 20 HP lost.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -125,8 +125,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1709317931671,
-    "modifiedTime": 1713023224521,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716849230605,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "H8eR7bABSGzPNcPm",
   "sort": 125000,

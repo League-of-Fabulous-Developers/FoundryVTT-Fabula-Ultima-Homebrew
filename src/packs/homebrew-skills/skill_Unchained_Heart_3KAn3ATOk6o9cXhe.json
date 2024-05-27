@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>During a conflict, after a roll, you can highlight how your action corresponds to one of the known traits of a demon whose form you have adopted or with whom you have a bond, and pay up to <strong>【SL×5】 </strong>HP. You then get a +1 bonus on this roll for every 5 HP paid.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>During a conflict, after a roll, you can highlight how your action corresponds to one of the known traits of a demon whose form you have adopted or with whom you have a bond, and pay up to <strong>【SL × 5】 </strong>HP. You then get a +1 bonus on this roll for every 5 HP paid.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -123,8 +123,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715091618750,
-    "modifiedTime": 1715093813760,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716851160041,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "3KAn3ATOk6o9cXhe",
   "sort": 0,
