@@ -7,7 +7,7 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": ""
+      "value": "Low kick, mid punch, high kick!"
     },
     "description": "<div class=\"stackedit__html\"><p>Whenever you hit a target with an unarmed attack, mark them as your Attack Chain target.<br />Your next action against them spends the mark but gains a <strong>+1</strong> bonus to its <strong>Accuracy</strong> or <strong>Magic Check</strong>.</p><p>Whenever you mark a target, remove your mark from everyone else. The mark is automatically cleared at the end of the scene.</p></div>",
     "isFavored": {
@@ -129,8 +129,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715043700326,
-    "modifiedTime": 1715043968413,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716866639306,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_key": "!items!hG34QQWLn0oW1tRM"
 }

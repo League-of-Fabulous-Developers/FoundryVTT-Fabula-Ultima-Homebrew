@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Spend <strong>@LOSS[1 ip]</strong> to get a net and make a <strong>melee attack</strong> <strong>【DEX + INS + SL】 </strong>with it. If you hit, you can choose one of those two options: Reduce one enemy's next <strong>Accuracy Check</strong> or <strong>Magic Check </strong>by <strong>【SL】</strong> , or improve one of your ally's next <strong>Accuracy Check</strong> or <strong>Magic Check</strong> by <strong>【SL】</strong>. This last until the end of your next turn.</p></div>",
+    "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">You may spend <strong>@LOSS[2 ip]</strong> to create a <strong>thrown</strong> weapon known as a fishing net (see below). The fishing net will crumble to pieces as soon as it successfully hits an enemy. Upon creating a net, you perform a free attack with it. If this attack hits, choose one option: Reduce one enemy's next <strong>attack </strong>or<strong> offensive spell check</strong> by <strong>【SL】</strong>, <strong>or</strong> improve one of your ally’s next <strong>attack </strong>or<strong> offensive spell check</strong> by <strong>【SL】</strong>. This effect lasts until the end of your next turn.</span></p><p></p><table style=\"width:98.7597%\" border=\"1\"><colgroup><col style=\"width:14.4654%\"></col><col style=\"width:20.7547%\"></col><col style=\"width:23.2618%\"></col><col style=\"width:41.5181%\"></col></colgroup><tbody><tr><td><strong>WEAPON</strong></td><td><strong> ACCURACY</strong></td><td><strong> DAMAGE</strong></td><td><strong> QUALITY</strong></td></tr><tr><td><span style=\"font-family:'PT Sans Narrow',sans-serif\"><strong>Fishing Net</strong></span></td><td><span style=\"font-family:'PT Sans Narrow',sans-serif\"><strong>【DEX + INS】+ SL</strong></span></td><td><span style=\"font-family:'PT Sans Narrow',sans-serif\"><strong>【HR + 4】 physical</strong></span></td><td><span style=\"font-family:'PT Sans Narrow',sans-serif\">Two-handed ⬩ Melee ⬩ No Quality</span></td></tr></tbody></table></div></div>",
     "isFavored": {
       "value": false
     },
@@ -129,8 +129,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713041900323,
-    "modifiedTime": 1715039871337,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716862545930,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_key": "!items!akFeDTKm7alzKanM"
 }

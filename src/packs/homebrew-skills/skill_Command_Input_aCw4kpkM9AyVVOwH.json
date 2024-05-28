@@ -6,7 +6,7 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": ""
+      "value": "Quarter circle back, half circle forward, high punch!"
     },
     "description": "<div class=\"stackedit__html\"><p>As an action, choose a number of <em>Inputs</em> up to <strong>【SL】</strong> and spend <strong>【5 × Inputs】 MP</strong>.<br />Perform a check with <strong>【DEX + INS】</strong> against a difficulty of <strong>【6 + Inputs】</strong>.<br />If you succeed, perform an unarmed Free Attack, adding as many effects from the following list as the Inputs you chose (each may only be chosen once) :</p><ul><li><p><strong>Powerful:</strong> Deal +5 <strong>Damage</strong>.</p></li><li><p><strong>Quick:</strong> Add a +3 bonus to the <strong>Accuracy Check</strong>.</p></li><li><p><strong>Anti-air:</strong> May target <strong>Flying</strong> foes: On hit, they become grounded.</p></li><li><p><strong>Screen-clear:</strong> Gain <strong>Multi (3)</strong>.</p></li><li><p><strong>Stun:</strong> Apply <strong>Slow</strong> or <strong>Dazed</strong> on hit.</p></li></ul></div>",
     "isFavored": {
@@ -128,7 +128,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715043700326,
-    "modifiedTime": 1716851279128,
+    "modifiedTime": 1716866615191,
     "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "aCw4kpkM9AyVVOwH",

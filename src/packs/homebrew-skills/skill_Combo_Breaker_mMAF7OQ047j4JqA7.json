@@ -6,7 +6,7 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": ""
+      "value": "Quick, hit all the buttons at the same time!"
     },
     "description": "<div class=\"stackedit__html\"><p>At the start of every conflict, gain <strong>【SL】</strong> Combo Break Counters. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <em>Counter</em> at any time to dodge an attack.</p><p>You lose all of these Counters whenever there’s a scene change.</p></div>",
     "isFavored": {
@@ -128,8 +128,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715043700326,
-    "modifiedTime": 1715043968413,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1716866633188,
+    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
   },
   "_id": "mMAF7OQ047j4JqA7",
   "_key": "!items!mMAF7OQ047j4JqA7"
