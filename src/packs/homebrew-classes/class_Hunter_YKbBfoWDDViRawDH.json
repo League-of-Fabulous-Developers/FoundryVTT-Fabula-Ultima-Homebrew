@@ -1,0 +1,94 @@
+{
+  "name": "Hunter",
+  "type": "class",
+  "_id": "YKbBfoWDDViRawDH",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "fuid": "hunter",
+    "subtype": {},
+    "summary": {
+      "value": "Silent steps bring the loudest victories."
+    },
+    "description": "<h5><strong>ALSO: Stalker, Tracker, Trapper</strong></h5><p>Hunters are masters of the wild, expert trackers, survivalists, and trappers who possess a deep understanding and connection to nature. They respect the cycle of life and often form a symbiotic bond with the creatures they hunt, utilizing the abilities and instincts of their quarry to enhance their own.</p><p>While some hunters prefer a nomadic life, others take root and become one with their environment. The Hunter's prowess <strong>extends beyond the natural world</strong> and can be adapted to any terrain, from populous cities to desolate landscapes.</p><hr /><h5><strong>HUNTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum IP by 2.</li><li>Gain the ability to equip <strong>martial ranged weapons</strong> and <strong>martial melee weapons</strong>.</li></ul><h2><strong>HUNTER SKILLS</strong></h2><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.G3PsZ2JOeBn3tQlL]{Lock-on}</strong></p><p>You may use an action and spend 10 Mind Points to lock onto a target. During the next turn, any action taken by an ally against this target gains a <strong>+2 bonus</strong> to associated checks.</p><p>If all checks succeed, the target suffers the <strong>weakened</strong> condition.</p><p>If the target is reduced to 0 Hit Points while under the effect of this skill, you may <strong>immediately</strong> lock onto another target, starting the cycle anew for the next round.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.TiymkOo3y9KboBdt]{Set Trap (SL5)}</strong></p><p>Each time you acquire this Skill, you progressively learn better <strong>traps</strong>. (See <strong>below</strong>)</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.SszkVbiIJqsMBm8A]{Track (SL5)}</strong></p><p>Use an action and spend 10 Mind Points to track prey that is not currently in the scene and whose leads can be followed through conventional, hunter-related means. The target must roll an Opposed <strong>【WLP + INS】</strong> Check against you, and you gain a bonus equal to <strong>【SL】</strong> on this check.</p><p>If the tracking is successful, you arrive at the prey’s location. If you decide to start a conflict, you gain a bonus equal to <strong>【SL】</strong> to your first Accuracy Check against the prey, and the target suffers <strong>【HR + 15】</strong> damage.</p><p>This ability ends if you fall unconscious, attack the prey, choose to track another target, or by Game Master ruling.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mt0XIbBmyKyHeIfB]{Vital Strike}</strong></p><p>After a successful Accuracy Check, you may spend 10 Mind Points. The targeted creatures suffer additional damage equal to your <strong>【DEX】</strong> die size. If a creature is already in <strong>Crisis</strong>, or would enter <strong>Crisis</strong> with your attack, it also suffers an <strong>additional 5 damage</strong>.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.92nK16j7z8OveUOE]{Wild Reflexes (SL5)}</strong></p><p>When you perform the <strong>Guard</strong> action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p><p>Additionally, if an enemy <strong>misses</strong> you with an attack during the effect of this skill, you may perform a <strong>free attack</strong> against that creature. Treat your <strong>High Roll (HR)</strong> as <strong>0</strong> when calculating the damage dealt by this attack.</p><p></p><h3>TRAPS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.y61yipTI0Wnm9xkE.JournalEntryPage.ymijw4JS529Pg8dI]{TRAPS}</p><p><strong>Tripwire 【SL 1】</strong><br />You set up a simple wire attached to two points for detecting physical movement and tripping your target, sounding an alarm when triggered. The target suffers <strong>【HR + 10】</strong> Physical Damage. Describe your contraption and the sound it makes!</p><p><strong>Snare Net 【SL 2】</strong><br />This trap, when triggered, swiftly ensnares the target. The target must <strong>spend their first turn</strong> escaping the trap.</p><p><strong>Poisonous Dart Trap 【SL 3】</strong><br />You set up a hidden mechanism that, when activated, shoots a concealed dart at the unsuspecting target. The dart is coated with a potent toxin. The target suffers <strong>【HR + 15】</strong> Poison Damage and becomes <strong>poisoned</strong>.</p><p><strong>Bear Trap 【SL 4】</strong><br />You create a powerful spring-loaded bear trap with razor-sharp teeth, capable of snapping shut on the target's limb. The target suffers <strong>【HR + 25】</strong> Physical Damage and becomes <strong>slow</strong>.</p><p><strong>Explosive Trap 【SL 5】</strong><br />When triggered, this <strong>multi (2)</strong> trap releases a concussive explosion. Targets caught in the blast suffer <strong>【HR + 15】</strong> Physical Damage and <strong>【HR + 10】</strong> Fire Damage.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": true
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": true
+        },
+        "ranged": {
+          "value": true
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "FULF"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728419484824,
+    "modifiedTime": 1728434023308,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!items!YKbBfoWDDViRawDH"
+}

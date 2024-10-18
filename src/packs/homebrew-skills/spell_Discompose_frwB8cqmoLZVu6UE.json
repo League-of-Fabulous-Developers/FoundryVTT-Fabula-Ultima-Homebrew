@@ -112,17 +112,20 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "fuid": "discompose"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715819987083,
-    "modifiedTime": 1715823684868,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729282029166,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "frwB8cqmoLZVu6UE",
   "sort": 106250,

@@ -95,17 +95,20 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "magical-sabotage"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715088479323,
-    "modifiedTime": 1715088766923,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101968,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "o2o1dg6iKquQkxGC",
   "sort": 150000,

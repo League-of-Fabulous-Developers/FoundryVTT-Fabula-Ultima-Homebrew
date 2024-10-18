@@ -95,17 +95,20 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "malevolent-maledictions"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1712423219042,
-    "modifiedTime": 1712424114270,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101555,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "K5J9YtJPN4XEhhKh",
   "sort": 0,

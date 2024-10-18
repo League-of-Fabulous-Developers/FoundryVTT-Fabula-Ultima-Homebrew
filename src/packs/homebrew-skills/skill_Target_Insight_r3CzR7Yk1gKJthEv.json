@@ -114,17 +114,20 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "target-insight"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715054358875,
-    "modifiedTime": 1715054636863,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282029906,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "r3CzR7Yk1gKJthEv",
   "sort": 0,

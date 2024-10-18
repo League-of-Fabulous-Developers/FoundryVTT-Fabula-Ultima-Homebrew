@@ -35,6 +35,7 @@
     {
       "name": "Homebrew",
       "sorting": "a",
+      "color": "#ba3b14",
       "packs": [
         "homebrew-classes",
         "homebrew-skills",

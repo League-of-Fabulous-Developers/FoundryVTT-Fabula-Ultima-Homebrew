@@ -95,17 +95,20 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "know-your-enemies"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715088479323,
-    "modifiedTime": 1715088765793,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101513,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "ElGiQxSC8esm5uEh",
   "sort": 200000,

@@ -36,9 +36,11 @@
       },
       "isOffensive": {
         "value": false
-      }
+      },
+      "domains": ""
     },
-    "source": "Homebrew"
+    "source": "Homebrew",
+    "fuid": "bond"
   },
   "effects": [],
   "folder": "24MxVMTeYHf6iPDG",
@@ -46,10 +48,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1712591397301,
-    "modifiedTime": 1715111891685,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729281661427,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

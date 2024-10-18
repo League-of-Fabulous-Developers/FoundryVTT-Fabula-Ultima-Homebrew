@@ -103,7 +103,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "it-wont-die"
   },
   "effects": [],
   "folder": "7X5ncpm944PmFfES",
@@ -117,10 +118,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1709317931671,
-    "modifiedTime": 1716848290233,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282028970,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "fQTYuXRtM3UNEbbf",
   "sort": 400000,

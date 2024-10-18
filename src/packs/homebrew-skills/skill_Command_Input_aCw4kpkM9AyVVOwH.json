@@ -114,7 +114,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "command-input"
   },
   "effects": [],
   "sort": 0,
@@ -126,10 +127,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715043700326,
-    "modifiedTime": 1716866615191,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282028329,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "aCw4kpkM9AyVVOwH",
   "_key": "!items!aCw4kpkM9AyVVOwH"

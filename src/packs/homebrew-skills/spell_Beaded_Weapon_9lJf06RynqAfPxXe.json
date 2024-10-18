@@ -1,0 +1,140 @@
+{
+  "folder": "atEKgZ9BtWOKeFoI",
+  "name": "Beaded Weapon",
+  "type": "spell",
+  "_id": "9lJf06RynqAfPxXe",
+  "img": "icons/weapons/clubs/club-baton-studded.webp",
+  "system": {
+    "fuid": "beaded-weapon",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<ul><li><p><span>At any moment, if you have a full set of active Soul Beads, you may imbue one weapon with them. Until this spell ends, the weapon gains a +3 bonus to Accuracy Checks, and its damage ignores Resistances.</span></p></li><li><p><span>If it’s a melee weapon, it also gains the ranged property, and its attacks can now be launched from afar.</span></p></li><li><p><span>If you have that weapon equipped while casting this spell, you may perform a free attack with it as part of the same action.</span></p></li><li><p><span>You lose access to beads used, and they don’t count toward the Clarity Skill while imbued in your weapon.</span></p></li><li><p><span>You can generate Soul Beads as normal on the next turn.</span></p></li><li><p><span>The same weapon cannot benefit from this skill twice.</span></p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "40"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": "One equipped weapon"
+    },
+    "duration": {
+      "value": "scene"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FULF"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728426050320,
+    "modifiedTime": 1728426641998,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!items!9lJf06RynqAfPxXe"
+}

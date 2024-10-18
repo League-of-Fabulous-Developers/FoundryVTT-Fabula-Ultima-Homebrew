@@ -114,7 +114,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "organized-pharmacy"
   },
   "effects": [],
   "sort": 0,
@@ -126,10 +127,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715045495338,
-    "modifiedTime": 1716850359177,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282026904,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "Jh95dD6UU2BYvK8a",
   "_key": "!items!Jh95dD6UU2BYvK8a"

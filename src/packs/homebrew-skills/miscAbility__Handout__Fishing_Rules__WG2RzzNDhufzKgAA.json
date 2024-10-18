@@ -2,7 +2,7 @@
   "folder": "MdYoo1z2DSVu7gxL",
   "name": "[Handout: Fishing Rules]",
   "type": "miscAbility",
-  "img": "icons/tools/fishing/rod-simple-bamboo.webp",
+  "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
   "system": {
     "subtype": {
       "value": "other"
@@ -124,7 +124,8 @@
       "step": 1,
       "max": 6
     },
-    "defense": "def"
+    "defense": "def",
+    "fuid": "handout-fishing-rules"
   },
   "effects": [],
   "flags": {
@@ -138,10 +139,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1706574599766,
-    "modifiedTime": 1716863572629,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282027893,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": "Compendium.fabula-ultima-core-rulebook.skills.Item.7Hw8p7ZefudMdCxV",
+    "duplicateSource": null
   },
   "_id": "WG2RzzNDhufzKgAA",
   "sort": 100000,

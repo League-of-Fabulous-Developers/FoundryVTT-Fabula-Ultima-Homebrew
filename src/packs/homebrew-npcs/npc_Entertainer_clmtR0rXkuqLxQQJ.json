@@ -38,7 +38,10 @@
       "fp": {
         "value": 3
       },
-      "bonds": []
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
     },
     "affinities": {
       "physical": {
@@ -176,7 +179,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -211,7 +219,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -221,11 +232,28 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -285,7 +313,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "sword"
       },
       "_id": "o1rbHeHrTNiMTcHm",
       "img": "icons/svg/item-bag.svg",
@@ -304,10 +333,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715803658250,
-        "modifiedTime": 1715805645835,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287509819,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Actor.j9SR0pA2kmoT2BlE.Item.MBmZwZMEut1tDFzE",
+        "duplicateSource": null
       },
       "_key": "!actors.items!clmtR0rXkuqLxQQJ.o1rbHeHrTNiMTcHm"
     },
@@ -368,7 +399,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "thrown-weapon"
       },
       "_id": "UyEZSBWthVcxHnIX",
       "img": "icons/svg/item-bag.svg",
@@ -387,10 +419,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804084215,
-        "modifiedTime": 1715805197747,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287513839,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Actor.TIMkq8fwjl04se0F.Item.QajiHXVStnTEmdvL",
+        "duplicateSource": null
       },
       "_key": "!actors.items!clmtR0rXkuqLxQQJ.UyEZSBWthVcxHnIX"
     },
@@ -468,7 +502,7 @@
           "value": "One creature"
         },
         "duration": {
-          "value": "Instantaneous"
+          "value": "instantaneous"
         },
         "isOffensive": {
           "value": false
@@ -506,7 +540,8 @@
         "hasRoll": {
           "value": false
         },
-        "opportunity": ""
+        "opportunity": "",
+        "fuid": "enthrall"
       },
       "_id": "r4HLlY5T4tYHbl2g",
       "img": "icons/svg/item-bag.svg",
@@ -521,10 +556,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715805218367,
-        "modifiedTime": 1715805645835,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287556183,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!clmtR0rXkuqLxQQJ.r4HLlY5T4tYHbl2g"
     },
@@ -602,7 +639,7 @@
           "value": "Up to three creatures"
         },
         "duration": {
-          "value": "Scene"
+          "value": "instantaneous"
         },
         "isOffensive": {
           "value": false
@@ -640,7 +677,8 @@
         "hasRoll": {
           "value": false
         },
-        "opportunity": ""
+        "opportunity": "",
+        "fuid": "inspire"
       },
       "_id": "4K05BsdEflDCRLP1",
       "img": "icons/svg/item-bag.svg",
@@ -655,10 +693,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715805218367,
-        "modifiedTime": 1715805645835,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287560195,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!clmtR0rXkuqLxQQJ.4K05BsdEflDCRLP1"
     },
@@ -694,7 +734,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "wellspring-of-talent"
       },
       "_id": "6C4LDkGYXeP1QRCP",
       "img": "icons/svg/item-bag.svg",
@@ -709,17 +750,18 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715805423507,
-        "modifiedTime": 1715806768644,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287562879,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!clmtR0rXkuqLxQQJ.6C4LDkGYXeP1QRCP"
     }
   ],
   "effects": [
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Actor.clmtR0rXkuqLxQQJ",
       "duration": {
         "startTime": 0,
@@ -755,7 +797,21 @@
           "CrisisInteraction": "none"
         }
       },
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!actors.effects!clmtR0rXkuqLxQQJ.EPwQNlv96hfdKORu"
     }
   ],
@@ -772,10 +828,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715803445479,
-    "modifiedTime": 1716344052640,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729287386954,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "clmtR0rXkuqLxQQJ",
   "_key": "!actors!clmtR0rXkuqLxQQJ"

@@ -114,7 +114,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "compassion"
   },
   "effects": [],
   "sort": 0,
@@ -126,10 +127,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715067636031,
-    "modifiedTime": 1715102914121,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282027345,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "NMnojsG6bR9JLaCj",
   "_key": "!items!NMnojsG6bR9JLaCj"

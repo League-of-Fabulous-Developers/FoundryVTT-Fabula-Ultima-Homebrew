@@ -125,7 +125,8 @@
       "value": false
     },
     "opportunity": "",
-    "defense": "def"
+    "defense": "def",
+    "fuid": "handout-all-sanctuaries"
   },
   "effects": [],
   "flags": {
@@ -139,10 +140,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1710465708129,
-    "modifiedTime": 1716843784452,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729281468378,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": "Compendium.fabula-ultima-core-rulebook.skills.Item.8ySmNzjYisVduHWP",
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

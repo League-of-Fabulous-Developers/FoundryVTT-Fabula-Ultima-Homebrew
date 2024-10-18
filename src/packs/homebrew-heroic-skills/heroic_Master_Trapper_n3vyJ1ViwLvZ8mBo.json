@@ -1,0 +1,120 @@
+{
+  "folder": "QFIN04eSLGjn1zMw",
+  "name": "Master Trapper",
+  "type": "heroic",
+  "_id": "n3vyJ1ViwLvZ8mBo",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "fuid": "master-trapper",
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family:'EB Garamond', sans-serif !important\"> and acquired the <strong>Set Trap</strong> skill.</span></p></blockquote><ul><li><p>The IP requirement to set up traps is reduced by 1. For instance, Tripwire is now free, and the <strong>Explosive Trap</strong> will cost 4 IP.</p></li><li><p>Additionally, you can prepare and store up to 3 traps during resting scenes. At any moment, including during conflict scenes, you can use an action to throw a trap at any target. The target must roll an Opposed <strong>【DEX + INS】</strong> Check against you, and then normal trap rules regarding multiple targets are applied.</p></li></ul><p></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": "Hunter"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "requirement": {
+      "value": ""
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "FULF"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728440398615,
+    "modifiedTime": 1728440398615,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "_key": "!items!n3vyJ1ViwLvZ8mBo"
+}

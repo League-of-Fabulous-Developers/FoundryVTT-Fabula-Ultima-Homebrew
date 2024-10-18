@@ -114,7 +114,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "charming-presence"
   },
   "effects": [],
   "flags": {
@@ -123,10 +124,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715791034905,
-    "modifiedTime": 1715810138513,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729282026725,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "HhvojZYtx4Gd2VoT",
   "sort": 0,

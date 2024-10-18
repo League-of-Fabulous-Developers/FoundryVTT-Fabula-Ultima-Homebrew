@@ -114,17 +114,20 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "if-it-bleeds"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715055493003,
-    "modifiedTime": 1716850295455,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282028399,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "aFH53QmpAoUH4aBy",
   "sort": 0,

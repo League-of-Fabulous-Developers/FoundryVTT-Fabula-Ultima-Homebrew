@@ -16,17 +16,20 @@
       "haunt": "<p>If the Hauntee has any Bonds of <strong>hatred</strong>, they are<strong> @EFFECT[dazed] </strong>and cannot recover until the Haunt is banished or the scene ends, but their melee and ranged attacks deal 2 extra damage for each Bond of <strong>hatred</strong> they have.</p><p>If they do not, then on each of their turns, they may ask a question about a creature they can see concerning what is motivating that creature to struggle, and what might make them stand down.  The GM answers truthfully.</p>",
       "ritual": "<p>Bring creatures who have little in common together - in battle, or in peace.</p>"
     },
-    "source": "Homebrew"
+    "source": "Homebrew",
+    "fuid": "nameless-cairn"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715110576319,
-    "modifiedTime": 1716842584102,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729281490639,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "cypbDLmol8jb9Ne9",
   "sort": 0,

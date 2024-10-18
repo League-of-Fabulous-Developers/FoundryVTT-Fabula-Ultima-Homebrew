@@ -124,7 +124,8 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "fuid": "handout-medical-procedures-rules"
   },
   "effects": [],
   "sort": 0,
@@ -140,10 +141,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715045716064,
-    "modifiedTime": 1715116574950,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282029127,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "fnTzWUiRzI51oS1z",
   "_key": "!items!fnTzWUiRzI51oS1z"

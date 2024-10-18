@@ -58,7 +58,8 @@
           "value": false
         }
       }
-    }
+    },
+    "fuid": "comback-mechanics"
   },
   "effects": [],
   "sort": 100000,
@@ -70,10 +71,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715042810806,
-    "modifiedTime": 1715043996758,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101537,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!HLxsAmtvswosR6eD"
 }

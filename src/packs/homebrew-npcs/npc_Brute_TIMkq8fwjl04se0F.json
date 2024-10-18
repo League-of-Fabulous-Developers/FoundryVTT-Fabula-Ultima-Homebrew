@@ -38,7 +38,10 @@
       "fp": {
         "value": 3
       },
-      "bonds": []
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
     },
     "affinities": {
       "physical": {
@@ -176,7 +179,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -211,7 +219,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -221,11 +232,28 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -285,7 +313,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "thrown-weapon"
       },
       "_id": "QajiHXVStnTEmdvL",
       "img": "icons/svg/item-bag.svg",
@@ -300,10 +329,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804084215,
-        "modifiedTime": 1715804510792,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287343870,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!TIMkq8fwjl04se0F.QajiHXVStnTEmdvL"
     },
@@ -364,7 +395,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "heavy-weapon"
       },
       "_id": "D4tYKP9yX6EI6vqD",
       "img": "icons/svg/item-bag.svg",
@@ -379,10 +411,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804084426,
-        "modifiedTime": 1715804510792,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287340268,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!TIMkq8fwjl04se0F.D4tYKP9yX6EI6vqD"
     },
@@ -418,7 +452,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "heavily-armored"
       },
       "_id": "LriAjXvko77dQpdx",
       "img": "icons/svg/item-bag.svg",
@@ -433,10 +468,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804165986,
-        "modifiedTime": 1715804510792,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287349511,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!TIMkq8fwjl04se0F.LriAjXvko77dQpdx"
     },
@@ -472,7 +509,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "intercept"
       },
       "_id": "qReO2PHUCoSH6IBt",
       "img": "icons/svg/item-bag.svg",
@@ -487,10 +525,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804166221,
-        "modifiedTime": 1715804510792,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287352944,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!TIMkq8fwjl04se0F.qReO2PHUCoSH6IBt"
     }
@@ -506,7 +546,6 @@
           "priority": null
         }
       ],
-      "icon": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
       "origin": "Actor.TIMkq8fwjl04se0F.Item.LriAjXvko77dQpdx",
       "flags": {
         "projectfu": {
@@ -527,10 +566,24 @@
       "description": "",
       "transfer": false,
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+      "type": "base",
+      "system": {},
+      "tint": "#ffffff",
+      "sort": 0,
       "_key": "!actors.effects!TIMkq8fwjl04se0F.m41Eav9b7q8hvtTb"
     },
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Actor.TIMkq8fwjl04se0F",
       "duration": {
         "startTime": 0,
@@ -566,7 +619,21 @@
           "CrisisInteraction": "none"
         }
       },
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!actors.effects!TIMkq8fwjl04se0F.QVflNbfEMKt60xva"
     }
   ],
@@ -583,10 +650,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715803445479,
-    "modifiedTime": 1716344013386,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729287372922,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "TIMkq8fwjl04se0F",
   "_key": "!actors!TIMkq8fwjl04se0F"

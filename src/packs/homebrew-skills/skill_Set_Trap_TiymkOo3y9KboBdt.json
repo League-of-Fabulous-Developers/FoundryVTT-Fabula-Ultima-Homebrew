@@ -1,0 +1,139 @@
+{
+  "folder": "QFIN04eSLGjn1zMw",
+  "name": "Set Trap",
+  "type": "skill",
+  "_id": "TiymkOo3y9KboBdt",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "fuid": "set-trap",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Each time you acquire this Skill, you progressively learn better traps.</p><p><strong>Tripwire 【SL 1】</strong><br />You set up a simple wire attached to two points for detecting physical movement and tripping your target, sounding an alarm when triggered. The target suffers <strong>【HR + 10】</strong> Physical Damage. Describe your contraption and the sound it makes!</p><p><strong>Snare Net 【SL 2】</strong><br />This trap, when triggered, swiftly ensnares the target. The target must <strong>spend their first turn</strong> escaping the trap.</p><p><strong>Poisonous Dart Trap 【SL 3】</strong><br />You set up a hidden mechanism that, when activated, shoots a concealed dart at the unsuspecting target. The dart is coated with a potent toxin. The target suffers <strong>【HR + 15】</strong> Poison Damage and becomes <strong>poisoned</strong>.</p><p><strong>Bear Trap 【SL 4】</strong><br />You create a powerful spring-loaded bear trap with razor-sharp teeth, capable of snapping shut on the target's limb. The target suffers <strong>【HR + 25】</strong> Physical Damage and becomes <strong>slow</strong>.</p><p><strong>Explosive Trap 【SL 5】</strong><br />When triggered, this <strong>multi (2)</strong> trap releases a concussive explosion. Targets caught in the blast suffer <strong>【HR + 15】</strong> Physical Damage and <strong>【HR + 10】</strong> Fire Damage.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Hunter"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FULF"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728423443241,
+    "modifiedTime": 1728428430833,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!items!TiymkOo3y9KboBdt"
+}

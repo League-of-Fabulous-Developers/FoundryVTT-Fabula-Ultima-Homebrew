@@ -112,7 +112,8 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "fuid": "calamity"
   },
   "effects": [],
   "ownership": {
@@ -125,10 +126,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715802294082,
-    "modifiedTime": 1715823374259,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729282102029,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "tlpBSwSM525GU18M",
   "sort": 0,

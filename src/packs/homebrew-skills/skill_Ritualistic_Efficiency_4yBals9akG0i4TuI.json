@@ -114,17 +114,20 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "ritualistic-efficiency"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1712420994401,
-    "modifiedTime": 1716850242092,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282024882,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "4yBals9akG0i4TuI",
   "sort": 0,

@@ -114,7 +114,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "where-the-heart-is"
   },
   "effects": [],
   "sort": 0,
@@ -126,10 +127,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715100922423,
-    "modifiedTime": 1715101445689,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729281525091,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "NuvX3gMhPapKqmI0",
   "_key": "!items!NuvX3gMhPapKqmI0"

@@ -2,7 +2,7 @@
   "folder": "czQlUgYHZyHTcgna",
   "name": "Spearfisher",
   "type": "heroic",
-  "img": "icons/tools/fishing/rod-simple-bamboo.webp",
+  "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
   "system": {
     "subtype": {
       "value": "skill"
@@ -95,7 +95,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "spearfisher"
   },
   "effects": [],
   "sort": 150000,
@@ -107,10 +108,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715038156384,
-    "modifiedTime": 1715045338230,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101601,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "OgGQ1DkDCmYFdMcG",
   "_key": "!items!OgGQ1DkDCmYFdMcG"

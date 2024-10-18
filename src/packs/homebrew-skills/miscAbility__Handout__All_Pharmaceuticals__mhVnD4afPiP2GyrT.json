@@ -125,7 +125,8 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "fuid": "handout-all-pharmaceuticals"
   },
   "effects": [],
   "sort": 0,
@@ -141,10 +142,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715045716064,
-    "modifiedTime": 1715116581840,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282029690,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!mhVnD4afPiP2GyrT"
 }

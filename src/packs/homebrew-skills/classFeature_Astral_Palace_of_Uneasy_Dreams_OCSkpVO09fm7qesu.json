@@ -19,17 +19,20 @@
       "domains": "",
       "merge": ""
     },
-    "source": "Homebrew"
+    "source": "Homebrew",
+    "fuid": "astral-palace-of-uneasy-dreams"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715110576319,
-    "modifiedTime": 1716841981739,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729281477049,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

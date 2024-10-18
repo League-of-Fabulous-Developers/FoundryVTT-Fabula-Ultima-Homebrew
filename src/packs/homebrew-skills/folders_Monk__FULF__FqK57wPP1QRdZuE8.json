@@ -1,0 +1,22 @@
+{
+  "name": "Monk [FULF]",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "FqK57wPP1QRdZuE8",
+  "description": "",
+  "sort": 0,
+  "color": "#a0a0a0",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728419071162,
+    "modifiedTime": 1728421392546,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!folders!FqK57wPP1QRdZuE8"
+}

@@ -114,17 +114,20 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "showboat"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1713026327778,
-    "modifiedTime": 1715101797035,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729281439265,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "0dP0vY67d2y5SU8Q",
   "sort": 0,

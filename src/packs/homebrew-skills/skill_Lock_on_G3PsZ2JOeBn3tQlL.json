@@ -1,0 +1,139 @@
+{
+  "folder": "QFIN04eSLGjn1zMw",
+  "name": "Lock-on",
+  "type": "skill",
+  "_id": "G3PsZ2JOeBn3tQlL",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "fuid": "lock-on",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You may use an action and spend 10 Mind Points to lock onto a target. During the next turn, any action taken by an ally against this target gains a <strong>+2 bonus</strong> to associated checks.</p><p>If all checks succeed, the target suffers the <strong> @EFFECT[weak] </strong> condition.</p><p>If the target is reduced to 0 Hit Points while under the effect of this skill, you may <strong>immediately</strong> lock onto another target, starting the cycle anew for the next round.</p><hr /><p>@LOSS[10 mp]</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 1,
+      "min": 0
+    },
+    "class": {
+      "value": "Hunter"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FULF"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728423517494,
+    "modifiedTime": 1728428436930,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!items!G3PsZ2JOeBn3tQlL"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Illusionist Rules [FULF]",
+  "_id": "Bp8PntSqJ0Gln6SZ",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "PHANTASMS",
+      "type": "text",
+      "_id": "zEsGtUHjf0ZpsEBn",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Phantasms follow a set of special rules.</p><ul><li><p>Phantasms are entities of pure energy, capable of taking on various sizes and forms — even becoming exact replicas of you.</p></li><li><p>They do not talk or have a mind of their own. They <strong>aren't</strong> capable of reason or logic.</p></li><li><p>They only follow <strong>simple one-clause</strong> commands and cannot abstract meaning or extrapolate from them. For example, if you ask a Phantasm to grab some milk, it knows where the milk is because you do. It also knows that you are feeling thirsty — because you know it too. However, it won't understand that milk can quench thirst, nor will it know to pour the milk into a glass; these thought processes are too complex for Phantasms. So, it would just bring you the whole bottle of milk, with a deadpan look.</p></li><li><p>Phantasms <strong>share</strong> your <strong>base Attributes</strong> and <strong>defenses</strong>, have <strong>no MP,</strong> and their <strong>Phantasmal Vitality</strong> (<strong>PV</strong>) is equal to your base <strong>INS die size plus your level.</strong> They are <strong>immune</strong> to all status effects.</p></li><li><p>They have <strong>no Initiative score</strong>. Phantasms do not get a turn during conflicts, but on your turn, you can use <strong>an action</strong> to command one or more Phantasms, depending on the spell being used.</p></li><li><p>Phantasms always target <strong>Magical Defense</strong>.</p></li><li><p>If your Phantasms fall to <strong>0 PV</strong>, they <strong>shatter</strong>. You can also shatter them through skills, spells, or at will. If you fall to <strong>0 HP</strong> or leave a scene, your Phantasms <strong>shatter</strong>.</p></li><li><p>You may create a Phantasm and command it in the <strong>same action</strong>. After this first command—which directly follows its creation—on your next turn, it requires a whole action to be commanded again. Therefore, you <strong>cannot</strong> command Phantasm 1 and then proceed to create Phantasm 2 in the same action.</p></li><li><p>Unless stated otherwise, you can have up to <strong>3 Phantasms active</strong> at the same time. Attempts to cast more Phantasms beyond 3 will fail. </p></li></ul><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1728429958836,
+        "modifiedTime": 1728430226634,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_key": "!journal.pages!Bp8PntSqJ0Gln6SZ.zEsGtUHjf0ZpsEBn"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728429941437,
+    "modifiedTime": 1728431022735,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!journal!Bp8PntSqJ0Gln6SZ"
+}

@@ -95,7 +95,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "grand-entrance"
   },
   "effects": [],
   "ownership": {
@@ -108,10 +109,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1713025334700,
-    "modifiedTime": 1715045361858,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282102011,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "sqOoNF3yYR9e219Y",
   "sort": 300000,

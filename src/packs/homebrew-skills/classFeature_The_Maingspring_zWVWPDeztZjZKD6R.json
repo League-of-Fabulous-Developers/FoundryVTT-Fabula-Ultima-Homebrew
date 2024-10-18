@@ -16,17 +16,20 @@
       "haunt": "<p>The Hauntee becomes a <strong>construct</strong>, gaining vulnerability to <strong>bolt</strong> damage, and immunity to <strong>poison</strong> and the <strong>poisoned</strong> condition.  They cannot cast Spells except through Magispheres, for which they do not need to pay the IP cost.</p><hr><p><span class=\"fontstyle2\"><strong>@EFFECT[eyJuYW1lIjoiUmVzaXN0YW5jZTogQm9sdCIsImNoYW5nZXMiOlt7ImtleSI6InN5c3RlbS5hZmZpbml0aWVzLmJvbHQiLCJtb2RlIjowLCJ2YWx1ZSI6InVwZ3JhZGUifV0sImljb24iOiJpY29ucy9tYWdpYy9kZWZlbnNpdmUvc2hpZWxkLWJhcnJpZXItZmxhbWluZy1wZW50YWdvbi1ibHVlLXllbGxvdy53ZWJwIn0=]</strong></span></p>",
       "ritual": "<p>Projects get +2 progress each day someone works on them here.</p>"
     },
-    "source": "Homebrew"
+    "source": "Homebrew",
+    "fuid": "the-maingspring"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715110576319,
-    "modifiedTime": 1716844834583,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729281505043,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "zWVWPDeztZjZKD6R",
   "sort": 0,

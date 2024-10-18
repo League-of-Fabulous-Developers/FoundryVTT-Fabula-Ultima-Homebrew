@@ -149,6 +149,11 @@
       "weapons": [],
       "armor": null,
       "supports": []
+    },
+    "equipped": {
+      "mainHand": "pOCxxUPSq0ha3lpg",
+      "offHand": "q0hyrsNw2vkqnwaE",
+      "armor": "8OX3HDwHh9hmSYCN"
     }
   },
   "prototypeToken": {
@@ -163,7 +168,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -198,7 +208,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -208,321 +221,30 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
-    {
-      "name": "Rapier",
-      "type": "weapon",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Weapons/Rapier.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 200
-        },
-        "isMartial": {
-          "value": true
-        },
-        "quality": {
-          "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "mainHand"
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "ins"
-          }
-        },
-        "accuracy": {
-          "value": 1
-        },
-        "damage": {
-          "value": 6
-        },
-        "type": {
-          "value": "melee"
-        },
-        "category": {
-          "value": "sword"
-        },
-        "hands": {
-          "value": "one-handed"
-        },
-        "impType": {
-          "value": "minor"
-        },
-        "damageType": {
-          "value": "physical"
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR131"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "defense": "def"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-weapons.Item.nAuowNCnvwn9L9Ry"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706649018107,
-        "modifiedTime": 1716814256423,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "_id": "qoEgOZ9m4OI0NgkY",
-      "sort": 100000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.qoEgOZ9m4OI0NgkY"
-    },
-    {
-      "name": "Combat Tunic",
-      "type": "armor",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Armor%20and%20Shields/Combat%20Tunic.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 150
-        },
-        "isMartial": {
-          "value": false
-        },
-        "quality": {
-          "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "armor"
-        },
-        "def": {
-          "value": 1
-        },
-        "mdef": {
-          "value": 1
-        },
-        "init": {
-          "value": 0
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "ins"
-          }
-        },
-        "source": {
-          "value": "FUCR132"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-armor.Item.pUAfMUA62EWTmJEg"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706646338093,
-        "modifiedTime": 1716814248305,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "_id": "wAstJst1MAG7mfgT",
-      "sort": 500000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.wAstJst1MAG7mfgT"
-    },
-    {
-      "name": "Runic Shield",
-      "type": "shield",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Armor%20and%20Shields/Runic%20Shield.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 150
-        },
-        "isMartial": {
-          "value": true
-        },
-        "quality": {
-          "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "offHand"
-        },
-        "def": {
-          "value": 2
-        },
-        "mdef": {
-          "value": 2
-        },
-        "init": {
-          "value": 0
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "value": 5
-        },
-        "type": {
-          "value": "melee"
-        },
-        "category": {
-          "value": "brawling"
-        },
-        "hands": {
-          "value": "one-handed"
-        },
-        "impType": {
-          "value": "minor"
-        },
-        "damageType": {
-          "value": "physical"
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "isDualShield": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR133"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "defense": "def"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-armor.Item.kc8TwWmHwGscGSiK"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706646783478,
-        "modifiedTime": 1716814282803,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "_id": "Ud8Xf7K6uWGQziob",
-      "sort": 200000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.Ud8Xf7K6uWGQziob"
-    },
     {
       "name": "Dark Hunger",
       "type": "skill",
@@ -655,692 +377,16 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1709317931671,
-        "modifiedTime": 1716814282803,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "modifiedTime": 1729286200081,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK",
+        "duplicateSource": null
       },
       "_id": "xZDLC4dRYsUyKpbY",
       "sort": 300000,
       "_key": "!actors.items!AL6QTytKoFzv90D6.xZDLC4dRYsUyKpbY"
-    },
-    {
-      "folder": "t0can7tJoRis1H3f",
-      "name": "Bone Crusher",
-      "type": "skill",
-      "_id": "mS7FuXKwtRQ94ce9",
-      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 4,
-          "min": 0
-        },
-        "class": {
-          "value": "Weaponmaster"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR219"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.7jWycVYFgZ1BMxch"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706514091257,
-        "modifiedTime": 1716814282803,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "sort": 700000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.mS7FuXKwtRQ94ce9"
-    },
-    {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Elemental%20Shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For <strong>@LOSS[2 ip]</strong> o<span class=\"fontstyle0\">ne creature suffers 10 damage of a type of your choice (</span><strong>@DMG[10 air]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 bolt]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 earth]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 fire]</strong><span class=\"fontstyle0\">, or </span><strong>@DMG[10 ice]</strong><span class=\"fontstyle0\">).</span></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.00h8sKH3ktIFF5ei"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516143319,
-        "modifiedTime": 1714780614211,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "eTIww7uoeKkC3CrW",
-      "sort": 87500,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.eTIww7uoeKkC3CrW"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Magic%20Tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p><span class=\"fontstyle0\">For </span><strong>@LOSS[4 ip]</strong>, <span class=\"fontstyle0\">this allows the entire group to </span><span class=\"fontstyle2\"><strong>rest </strong></span><span class=\"fontstyle0\">in the wilderness and at sea.</span> </p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.QYyuig5iy5mMN9F8"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516284047,
-        "modifiedTime": 1714780614211,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "QzqXI04ynHsAkKNO",
-      "sort": 100000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.QzqXI04ynHsAkKNO"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For <strong>@LOSS[3 ip]</strong> one creature recovers <strong>@HEAL[50 hp]</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.iLidslBpjoLfrsT9"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516053996,
-        "modifiedTime": 1714780614211,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "xWaqBW5Q8puWjdpa",
-      "sort": 0,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.xWaqBW5Q8puWjdpa"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For <strong>@LOSS[2 ip]</strong> one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.mZPZqpxSMxzpQ8uX"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516094485,
-        "modifiedTime": 1714780614211,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "6KiEbiRu96IZoUDv",
-      "sort": 75000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.6KiEbiRu96IZoUDv"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For <strong>@LOSS[3 ip]</strong> one creature recovers <strong>@HEAL[50 mp]</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.mn3F6qOfdVYM405v"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706515894820,
-        "modifiedTime": 1714780614211,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "L6FDDl5BAzXSMzhf",
-      "sort": 50000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.L6FDDl5BAzXSMzhf"
-    },
-    {
-      "name": "Hunter",
-      "type": "class",
-      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "If hatred you will never find your quarry."
-        },
-        "description": "<div class=\"stackedit__html\"><h1>Hunter</h1><h4><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h4><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><h4>HUNTER <strong>FREE BENEFITS</strong></h4><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound} (SL4)</strong></h4><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer} (SL4)</strong></h4><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver &amp; Garlic}</strong></h4><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight} (SL3)</strong></h4><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks} (SL5)</strong></h4><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL x 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p></div><p></p><h3>HUNTER Notes</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><p></p><h1>Credit</h1><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": true
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": true
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "CLAzxWQsDDB8fCLx": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.WLjUavn6dDW5T8xl"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1712414014626,
-        "modifiedTime": 1716813564384,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "_id": "grV1wd0svtR2lfXx",
-      "sort": 0,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.grV1wd0svtR2lfXx"
-    },
-    {
-      "name": "Predator",
-      "type": "class",
-      "system": {
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": true
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "subtype": {},
-        "summary": {
-          "value": "A ravening beast? A pillaging lord? I reject both fates."
-        },
-        "description": "<div class=\"stackedit__html\"><h1>PREDATOR</h1><h4><strong>ALSO: Conqueror, Parasite, Vampire</strong></h4><p>Some <strong>Predators</strong> are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><h4><strong>PREDATOR FREE BENEFITS</strong></h4><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h3><strong>PREDATOR SKILLS</strong></h3><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life} (SL5)</strong></h4><p>When an ally casts a spell that includes you among the targets, they may choose to spend <strong>【SL】 </strong>Hit Points to allow you to regain <strong>【SL x 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend <strong>【SL】 </strong>Hit Points to deal <strong>【SL x 3】 </strong>dark damage to them.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</strong></h4><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger} (SL5)</strong></h4><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die} (SL5)</strong></h4><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×5】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by <strong>【SL】 </strong>before affinities. (You still suffer the consequences for surrendering.)</p><hr /><h4><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror} (SL2)</strong></h4><p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><p></p></div><div class=\"stackedit__html\"><h3>Predator Notes</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.dmcZAwL31lbvyJ8j]{Predator Rules}</strong></p><p></p></div><h1>Credit</h1><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 10,
-          "min": 0
-        },
-        "source": {
-          "value": "Homebrew"
-        }
-      },
-      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "YN7AhHIwAZeH33Tw": 3,
-        "CLAzxWQsDDB8fCLx": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.oA2gENCwk30ZsDeB"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1709314829520,
-        "modifiedTime": 1716813580084,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "_id": "YVLgO10npyLmdmiW",
-      "sort": -100000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.YVLgO10npyLmdmiW"
-    },
-    {
-      "name": "Weapon Master",
-      "type": "class",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<div class=\"stackedit__html\"><h1>WEAPON MASTER</h1><h5><strong>ALSO: Fighter, Rōnin, Warrior</strong></h5><p><strong>WEAPONMASTER FREE BENEFITS</strong></p><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial shields</strong>.</li></ul><h3 id=\"weaponmaster-skills\"><strong>WEAPONMASTER SKILLS</strong></h3><h4><strong>Bladestorm (SL5)</strong></h4><hr /><h4><strong>Bone Crusher (SL4)</strong></h4><hr /><h4><strong>Breach (SL3)</strong></h4><hr /><h4><strong>Counterattack</strong></h4><hr /><h4><strong>Melee Weapon Mastery (SL4)</strong></h4></div>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": true
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": true
-            },
-            "ranged": {
-              "value": true
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": true
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "FUCR218"
-        }
-      },
-      "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
-      "effects": [],
-      "folder": null,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.classes.Item.IpyJ9Mqzshx1615R"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706418412468,
-        "modifiedTime": 1716814175682,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
-      },
-      "_id": "lCJBqsYx5eiooVxr",
-      "sort": 200000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.lCJBqsYx5eiooVxr"
     },
     {
       "folder": "EeQWHiKz0q3EbCsZ",
@@ -1459,7 +505,8 @@
         },
         "hasRoll": {
           "value": false
-        }
+        },
+        "fuid": ""
       },
       "effects": [],
       "flags": {
@@ -1470,10 +517,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715054358875,
-        "modifiedTime": 1716814282803,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "modifiedTime": 1729286201230,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9",
+        "duplicateSource": null
       },
       "sort": 400000,
       "ownership": {
@@ -1610,10 +659,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715054358875,
-        "modifiedTime": 1716814282803,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "modifiedTime": 1729286201874,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g",
+        "duplicateSource": null
       },
       "ownership": {
         "default": 0,
@@ -1625,10 +676,559 @@
       "_key": "!actors.items!AL6QTytKoFzv90D6.0xQkGFpxTDZc4QtY"
     },
     {
-      "folder": "6gTO70HUAzfEfLY2",
+      "name": "Predator",
+      "type": "class",
+      "system": {
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "subtype": {},
+        "summary": {
+          "value": "A ravening beast? A pillaging lord? I reject both fates."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Conqueror, Parasite, Vampire</strong></h5><p>Some <strong>Predators</strong> are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><hr /><h5><strong>PREDATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life (SL5)}</p><p>When an ally casts a spell that includes you among the targets, they may choose to spend <strong>【SL】 </strong>Hit Points to allow you to regain <strong>【SL × 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend <strong>【SL】 </strong>Hit Points to deal <strong>【SL × 3】 </strong>dark damage to them.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</p><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger (SL5)}</strong></p><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die(SL5)}</p><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×2】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by <strong>【SL】 </strong>before affinities. (You still suffer the consequences for <strong>surrendering</strong>.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror (SL2)}</p><p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><p></p></div><div class=\"stackedit__html\"><h3>PREDATOR NOTES</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.dmcZAwL31lbvyJ8j]{Predator Rules}</strong></p><p></p></div><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "predator"
+      },
+      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "YN7AhHIwAZeH33Tw": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.oA2gENCwk30ZsDeB",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280349705,
+        "modifiedTime": 1729280777477,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "ziATBwdoAixTStmQ",
+      "sort": 200000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.ziATBwdoAixTStmQ"
+    },
+    {
+      "name": "Hunter",
+      "type": "class",
+      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "If hatred you will never find your quarry."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h5><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><hr /><h5>HUNTER <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound (SL4)}</p><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer (SL4)}</p><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver &amp; Garlic}</p><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight (SL3)}</p><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks (SL5)}</p><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p><p></p><h3>HUNTER NOTES</h3></div><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": true
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": true
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "hunter"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.WLjUavn6dDW5T8xl",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280359010,
+        "modifiedTime": 1729280777477,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "5JK1tVN5Rbrzqnbh",
+      "sort": 100000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.5JK1tVN5Rbrzqnbh"
+    },
+    {
+      "name": "Weaponmaster",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "The wiser blades remain unsheathed."
+        },
+        "description": "<h5><strong>ALSO: Fighter, Rōnin, Warrior</strong></h5><p>Weaponmasters spend years upon years honing their close combat arts. Most of them display remarkable skill with a variety of weapons; others have trained to become one with a specific armament. Many <strong>Weaponmasters </strong>follow and protect someone out of love or loyalty, but there are also those who tirelessly wander the world seeking worthy opponents, legendary magical weapons, or capable teachers.</p><hr /><h5><strong>WEAPONMASTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial shields</strong>.</li></ul><h2><strong>WEAPONMASTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.IhBCZsilt0bj5RJK]{Bladestorm}</p><p>When you perform a <strong>melee </strong>attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi (2)</strong>; or you increase the attack’s multi property by one, up to a maximum of <strong>multi (3)</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7jWycVYFgZ1BMxch]{Bone Crusher} <strong>(SL4)</strong></p><p>When you hit one or more targets with a <strong>melee </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>dazed </strong>on each target hit by the attack; <strong>or </strong>inflict <strong>weak </strong>on each target hit by the attack; <strong>or </strong>each target hit by the attack loses <strong>【SL × 10】 </strong>Mind Points. Describe your maneuver!</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.WZDdQfw9VF64La2P]{Breach} <strong>(SL3)</strong></p><p>You may use an action and spend 5 Mind Points to perform a<strong> free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack must target a <strong>single creature</strong>. If the attack is successful, it deals no damage and you choose one option: you destroy one shield equipped by the target; <strong>or </strong>you destroy the target’s equipped armor; or whenever the target suffers damage from a source before the start of your next turn, that source deals <strong>【SL × 2】 </strong>extra damage to them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.XhcTVGtGEk7L2Ddq]{Counterattack}</p><p>After an enemy <strong>hits or misses you with a melee attack</strong>, if the Result of their Accuracy Check was an <strong>even number</strong>, you may perform a<strong> free attack </strong>against that enemy (after their attack has been fully resolved). This attack must be a <strong>melee </strong>attack and must have that enemy as its <strong>only </strong>target; treat your<strong> High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ztxLYzo1ADCaRupR]{Melee Weapon Mastery} <strong>(SL4)</strong></p><p>You gain a bonus equal to <strong>【SL】 </strong>to all Accuracy Checks with <strong>melee </strong>weapons.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": true
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": true
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR218"
+        },
+        "fuid": "weaponmaster"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.kVSzbabb2AUviwnH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280776043,
+        "modifiedTime": 1729280778572,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_id": "jAxnX79Qvd9X4t51",
+      "sort": 300000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.jAxnX79Qvd9X4t51"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280807098,
+        "modifiedTime": 1729280807098,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "4AZ1iXYwBACB1n5u",
+      "sort": 87500,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.4AZ1iXYwBACB1n5u"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280807098,
+        "modifiedTime": 1729280807098,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "jkzFm045yezcbO0W",
+      "sort": 50000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.jkzFm045yezcbO0W"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280807098,
+        "modifiedTime": 1729280807098,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "SCSK37CmR4pSTrUy",
+      "sort": 100000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.SCSK37CmR4pSTrUy"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280807098,
+        "modifiedTime": 1729280807098,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "C8duzcIqSd22BFyk",
+      "sort": 0,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.C8duzcIqSd22BFyk"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280807098,
+        "modifiedTime": 1729280807098,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "Gh13yKffdbTUiyWE",
+      "sort": 75000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.Gh13yKffdbTUiyWE"
+    },
+    {
+      "folder": "t0can7tJoRis1H3f",
       "name": "Melee Weapon Mastery",
       "type": "skill",
-      "img": "icons/skills/melee/weapons-crossed-swords-pink.webp",
+      "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster_melee_weapon_mastery.png",
       "system": {
         "subtype": {
           "value": ""
@@ -1636,7 +1236,238 @@
         "summary": {
           "value": ""
         },
-        "description": "",
+        "description": "<p><span>You gain a bonus equal to <strong>【SL】</strong> to all Accuracy Checks with <strong>melee</strong> weapons.</span></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 4,
+          "min": 0
+        },
+        "class": {
+          "value": "Weaponmaster"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "source": {
+          "value": "FUCR219"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            },
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "defense": "def",
+        "fuid": "melee-weapon-mastery"
+      },
+      "effects": [
+        {
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": 1,
+            "startTurn": 1
+          },
+          "disabled": false,
+          "name": "Melee Weapon Mastery",
+          "_id": "Sks7cSsjFlEgMg53",
+          "changes": [
+            {
+              "key": "system.bonuses.accuracy.arcane",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.accuracy.brawling",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.accuracy.dagger",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.accuracy.flail",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.accuracy.heavy",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.accuracy.spear",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.accuracy.sword",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">You gain a bonus equal to<strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px;color:rgb(25, 24, 19);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">【SL</strong><strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px\">】</strong>to all Accuracy Checks with <strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px;color:rgb(25, 24, 19);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">melee </strong>weapons. </span></p>",
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster_melee_weapon_mastery.png",
+          "type": "base",
+          "system": {},
+          "origin": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!AL6QTytKoFzv90D6.alrwThAnrsv3IrFd.Sks7cSsjFlEgMg53"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "YN7AhHIwAZeH33Tw": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.ztxLYzo1ADCaRupR",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729280920776,
+        "modifiedTime": 1729280920776,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "alrwThAnrsv3IrFd",
+      "sort": 500000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.alrwThAnrsv3IrFd"
+    },
+    {
+      "folder": "t0can7tJoRis1H3f",
+      "name": "Bone Crusher",
+      "type": "skill",
+      "_id": "dylG0iKe2Kv0J0Ev",
+      "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster_bone_crusher.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you hit one or more targets with a <strong>melee</strong> attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>@EFFECT[dazed]</strong> on each target hit by the attack; <strong>or</strong> inflict <strong>@EFFECT[weak]</strong> on each target hit by the attack; <strong>or</strong> each target hit by the attack loses <strong>【SL × 10】</strong> Mind Points. Describe your maneuver!</p><hr /><p>Skill Level <strong>1</strong> - @LOSS[10 mp]</p><p>Skill Level <strong>2</strong> - @LOSS[20 mp]</p><p>Skill Level <strong>3</strong> - @LOSS[30 mp]</p><p>Skill Level <strong>4</strong> - @LOSS[40 mp]</p>",
         "isFavored": {
           "value": true
         },
@@ -1742,102 +1573,447 @@
           "step": 1,
           "max": 6
         },
-        "defense": "def"
+        "defense": "def",
+        "fuid": "bone-crusher"
       },
-      "effects": [
-        {
-          "icon": "icons/skills/melee/weapons-crossed-swords-pink.webp",
-          "origin": "Compendium.fabula-ultima-core-rulebook.skills.Item.I5IuMtOaPji0mAVi",
-          "duration": {
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": 0,
-            "startTurn": 0
-          },
-          "disabled": false,
-          "name": "Melee Weapon Mastery",
-          "_id": "Sks7cSsjFlEgMg53",
-          "changes": [
-            {
-              "key": "system.bonuses.accuracy.arcane",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            },
-            {
-              "key": "system.bonuses.accuracy.brawling",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            },
-            {
-              "key": "system.bonuses.accuracy.dagger",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            },
-            {
-              "key": "system.bonuses.accuracy.flail",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            },
-            {
-              "key": "system.bonuses.accuracy.heavy",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            },
-            {
-              "key": "system.bonuses.accuracy.spear",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            },
-            {
-              "key": "system.bonuses.accuracy.sword",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            }
-          ],
-          "description": "<ul><li><p><strong>Effect:</strong> <span class=\"fontstyle0\"><strong>【</strong></span><span class=\"fontstyle1\"><strong>SL</strong></span><span class=\"fontstyle0\"><strong>】 </strong>bonus to <strong>Accuracy Checks</strong> with <strong>melee </strong>weapons.</span></p></li></ul>",
-          "transfer": true,
-          "statuses": [],
-          "flags": {
-            "projectfu": {
-              "CrisisInteraction": "none"
-            }
-          },
-          "tint": null,
-          "_key": "!actors.items.effects!AL6QTytKoFzv90D6.eKZOv4l9FrR1dEF7.Sks7cSsjFlEgMg53"
-        }
-      ],
+      "effects": [],
       "ownership": {
-        "default": 0,
+        "default": 2,
         "hYECXwi6O8UUBuN4": 3,
-        "YN7AhHIwAZeH33Tw": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.projectfu.essentials.Item.QcTHEWL3xEos1UyO"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.7jWycVYFgZ1BMxch",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706514138632,
-        "modifiedTime": 1716814282803,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729281080811,
+        "modifiedTime": 1729286207050,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "_id": "eKZOv4l9FrR1dEF7",
-      "sort": 600000,
-      "_key": "!actors.items!AL6QTytKoFzv90D6.eKZOv4l9FrR1dEF7"
+      "sort": 200000,
+      "_key": "!actors.items!AL6QTytKoFzv90D6.dylG0iKe2Kv0J0Ev"
+    },
+    {
+      "name": "Combat Tunic",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/combat-tunic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 1
+        },
+        "mdef": {
+          "value": 1
+        },
+        "init": {
+          "value": 0
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "source": {
+          "value": "FUCR132"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "combat-tunic"
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.he3PXlM5vLUb28qz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729282203250,
+        "modifiedTime": 1729282203250,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "8OX3HDwHh9hmSYCN",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!AL6QTytKoFzv90D6.8OX3HDwHh9hmSYCN"
+    },
+    {
+      "name": "Runic Shield",
+      "type": "shield",
+      "img": "systems/projectfu/styles/static/compendium/armor/runic-shield.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 2
+        },
+        "mdef": {
+          "value": 2
+        },
+        "init": {
+          "value": 0
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": {
+          "value": "FUCR133"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "runic-shield"
+      },
+      "effects": [],
+      "folder": "ns5SuBHXn69q4YjA",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.13eXYpKPmgRYf7Lz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729282214182,
+        "modifiedTime": 1729286192751,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "q0hyrsNw2vkqnwaE",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!AL6QTytKoFzv90D6.q0hyrsNw2vkqnwaE"
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/rapier.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "damage": {
+          "value": 6
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "sword"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR131"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "rapier",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.CgzOruOUPActk6gT",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729282241855,
+        "modifiedTime": 1729286191961,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "pOCxxUPSq0ha3lpg",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!AL6QTytKoFzv90D6.pOCxxUPSq0ha3lpg"
+    },
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285676936,
+        "modifiedTime": 1729285678979,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "6wkMBOBOM6lT9PAS",
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!AL6QTytKoFzv90D6.6wkMBOBOM6lT9PAS"
     }
   ],
   "effects": [],
@@ -1848,10 +2024,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1712415879143,
-    "modifiedTime": 1716824265984,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282246745,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

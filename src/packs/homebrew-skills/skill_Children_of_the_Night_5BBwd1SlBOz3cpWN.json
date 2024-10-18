@@ -103,7 +103,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "children-of-the-night"
   },
   "effects": [],
   "folder": "7X5ncpm944PmFfES",
@@ -117,10 +118,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1709317931671,
-    "modifiedTime": 1709319911114,
-    "lastModifiedBy": "YN7AhHIwAZeH33Tw"
+    "modifiedTime": 1729282024909,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "5BBwd1SlBOz3cpWN",
   "sort": 200000,

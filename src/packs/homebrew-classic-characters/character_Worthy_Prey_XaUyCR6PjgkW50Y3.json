@@ -149,6 +149,11 @@
       "weapons": [],
       "armor": null,
       "supports": []
+    },
+    "equipped": {
+      "mainHand": "jZSwzt4gsMxEVdBJ",
+      "offHand": "jZSwzt4gsMxEVdBJ",
+      "armor": "Q2siBejANcn9SOV6"
     }
   },
   "prototypeToken": {
@@ -163,7 +168,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -198,7 +208,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -208,7 +221,8 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {
@@ -239,7 +253,23 @@
         }
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -254,7 +284,7 @@
         },
         "description": "<div class=\"stackedit__html\"><p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p></div>",
         "isFavored": {
-          "value": true
+          "value": false
         },
         "showTitleCard": {
           "value": false
@@ -369,10 +399,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715055493003,
-        "modifiedTime": 1716824213655,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "modifiedTime": 1729285561052,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y",
+        "duplicateSource": null
       },
       "_id": "jQiClJZ921pAWlbN",
       "sort": 100000,
@@ -394,7 +426,7 @@
         },
         "description": "<div class=\"stackedit__html\"><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL x 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p></div>",
         "isFavored": {
-          "value": true
+          "value": false
         },
         "showTitleCard": {
           "value": false
@@ -509,399 +541,20 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715055493003,
-        "modifiedTime": 1716824213655,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "modifiedTime": 1729285560898,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy",
+        "duplicateSource": null
       },
       "_id": "DMbhDe9ov53tB5IX",
-      "sort": 200000,
+      "sort": 0,
       "ownership": {
         "default": 0,
         "B6evqtezy9ZsGZG3": 3
       },
       "_key": "!actors.items!XaUyCR6PjgkW50Y3.DMbhDe9ov53tB5IX"
-    },
-    {
-      "folder": "BdAXAA3IkZnarpJX",
-      "name": "Bodyguard",
-      "type": "skill",
-      "_id": "MDZ9ZzvXung1wD8w",
-      "img": "icons/skills/melee/sword-shield-stylized-white.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p><strong>@EFFECT[guard] @EFFECT[cover] </strong></p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Guardian"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR196"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.ZvZT5jWlBZVm1Gmd"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706503483660,
-        "modifiedTime": 1716824187739,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "sort": 400000,
-      "_key": "!actors.items!XaUyCR6PjgkW50Y3.MDZ9ZzvXung1wD8w"
-    },
-    {
-      "folder": "3SZiWPJ5zkuKH7Pj",
-      "name": "Barrage",
-      "type": "skill",
-      "_id": "LgXs7nMdhgBpXZGy",
-      "img": "icons/skills/ranged/arrows-flying-salvo-blue.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p><strong>@LOSS[10 mp]</strong></p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Sharpshooter"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR205"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.lCFQMCY4AmDsv6sv"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706506734196,
-        "modifiedTime": 1716824187739,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "sort": 500000,
-      "_key": "!actors.items!XaUyCR6PjgkW50Y3.LgXs7nMdhgBpXZGy"
-    },
-    {
-      "name": "Prey",
-      "type": "class",
-      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "Finally, a momentt to rest! I hope."
-        },
-        "description": "<div class=\"stackedit__html\"><h1>PREY</h1><h4><strong>ALSO: Final Girl, Target, Whisteblower</strong></h4><p>These heroes aren’t chosen by destiny or the gods, but rather by the very evil that they will oppose, as <strong>Prey</strong>. They might have been another forgotten victim, if not for the moment of strength, inspiration, or pure dumb luck that changed their fate.<br />Now they have a party of allies and a chance, however slim, to strike back at the evil that tried to claim them... as long as they can see past their own fear.</p><h4>PREY <strong>FREE BENEFITS</strong></h4><ul><li><p>Permanently increase your maximum Hit Points or Mind Points by 5</p></li></ul><h3>PREY<strong> SKILLS</strong></h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Aq4xDd3pP4dQ9fGt]{Cornered Rat} (SL3)</strong></p><p>If a creature is blocking you from escaping a scene or restraining you, you deal <strong>【SL x 2】</strong>extra damage to them, and get a bonus equal to <strong>【SL】</strong> to Opposed Checks against them.</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y]{Go On Without Me!}</strong></p><p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy]{If It Bleeds…} (SL5)</strong></p><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL x 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd]{Prey Instinct} (SL3)</strong></p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8EhoBIexhAqyb0ex]{Vigilance or Paranoia} (SL4)</strong></p><p>You can identify on sight when soldier-rank creatures are searching for you or mean you harm, but this Skill doesn’t reveal their exact intentions. Describe what tipped you off!</p><p>When you are present for the appearance or revelation of a Villain, you may immediately spend a Fabula Point to ask the GM a question about how the party could escape or hinder the Villain (but not to attack or defeat them.) The first Player Character to act on this answer gains a bonus equal to <strong>【SL】</strong> to their Check.</p></div><p></p><div class=\"stackedit__html\"><h4>@ICON[header] GM Notes</h4><ul><li><p>This Class assumes that there is some specific foe who has it in for the Prey, and that they are too powerful for the party to immediately confront. Much like the Hunter’s Quarry, they should be a regular presence without dominating the story, unless the rest of the party has ties to them as well.</p></li><li><p>Keep at least a loose idea of where characters are in relation to one another in a conflict. Try not to fight over when the Skill Cornered Rat should apply, and remember that the Prey doesn’t have to be trying to escape - they just have to be able to see that it’s not an option with this creature in their way/restraining them.</p></li><li><p>As characters can opt out of conflict scenes, the Prey’s player will often be at cross-purposes with their character, thrusting them into scenes only to then frantically try to escape - unless there’s something else the Prey could be doing to help!</p></li></ul><p></p></div><div class=\"stackedit__html\"><h4>@ICON[header] ADAPTATION</h4><ul><li><p>While the Skills seem to give the impression of a frightened character, they can be applied to different attitudes. For instance, Prey Instinct could be a hyper-vigilant trauma response, or a dispassionate spy calmly assessing the situation. For such a character, Cornered Rat wouldn’t be frantic strength, but recognition that getting away with the information they have is their top priority.</p></li></ul></div><p></p><h1>Credit</h1><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Prey Art </strong>Diego Mamedio diegomamedio.artstation.com</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": true
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": true
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.dQIJpnWSMTIOC7nn"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1712414014626,
-        "modifiedTime": 1715057445536,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "W9hUp4iioovdy0vp",
-      "sort": 0,
-      "_key": "!actors.items!XaUyCR6PjgkW50Y3.W9hUp4iioovdy0vp"
     },
     {
       "name": "Heavy Rifle",
@@ -913,7 +566,7 @@
         },
         "description": "<p>This weapon possesses the modifications of <strong>Accurate</strong>, <strong>Powerful</strong>, and <strong>Magic Defense Boost.</strong></p><p>See <strong>Custom Weapons</strong> for details.</p>",
         "isFavored": {
-          "value": true
+          "value": false
         },
         "showTitleCard": {
           "value": false
@@ -979,13 +632,14 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "heavy-rifle"
       },
       "_id": "jZSwzt4gsMxEVdBJ",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/projectfu/styles/static/compendium/weapon-modules/rifle-module.png",
       "effects": [],
       "folder": null,
-      "sort": 100000,
+      "sort": -200000,
       "ownership": {
         "default": 0,
         "B6evqtezy9ZsGZG3": 3
@@ -998,114 +652,124 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715057538497,
-        "modifiedTime": 1716824187739,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "modifiedTime": 1729285560541,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Actor.XaUyCR6PjgkW50Y3.Item.jZSwzt4gsMxEVdBJ",
+        "duplicateSource": null
       },
       "_key": "!actors.items!XaUyCR6PjgkW50Y3.jZSwzt4gsMxEVdBJ"
     },
     {
-      "name": "Brigandine",
-      "type": "armor",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Armor%20and%20Shields/Brigandine.png",
+      "name": "Prey",
+      "type": "class",
+      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
       "system": {
-        "subtype": {
-          "value": ""
-        },
+        "subtype": {},
         "summary": {
-          "value": ""
+          "value": "Finally, a momentt to rest! I hope."
         },
-        "description": "",
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Final Girl, Target, Whisteblower</strong></h5><p>These heroes aren’t chosen by destiny or the gods, but rather by the very evil that they will oppose, as <strong>Prey</strong>. They might have been another forgotten victim, if not for the moment of strength, inspiration, or pure dumb luck that changed their fate.<br />Now they have a party of allies and a chance, however slim, to strike back at the evil that tried to claim them... as long as they can see past their own fear.</p><hr /><h5>PREY <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points or Mind Points by 5</p></li></ul><h2>PREY<strong> SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Aq4xDd3pP4dQ9fGt]{Cornered Rat (SL3)}</p><p>If a creature is blocking you from escaping a scene or restraining you, you deal <strong>【SL × 2】</strong>extra damage to them, and get a bonus equal to <strong>【SL】</strong> to Opposed Checks against them.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y]{Go On Without Me!}</p><p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy]{If It Bleeds… (SL5)}</p><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL × 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd]{Prey Instinct (SL3)}</p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8EhoBIexhAqyb0ex]{Vigilance or Paranoia (SL4)}</p><p>You can identify on sight when <strong>soldier</strong>-rank creatures are searching for you or mean you harm, but this Skill doesn’t reveal their exact intentions. Describe what tipped you off!</p><p>When you are present for the appearance or revelation of a Villain, you may immediately spend a Fabula Point to ask the GM a question about how the party could escape or hinder the Villain (but not to attack or defeat them.) The first Player Character to act on this answer gains a bonus equal to <strong>【SL】</strong> to their Check.</p></div><p></p><h3>PREY NOTES</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.fArjgN0xF1QmhtXe]{Prey Rules}</p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
         "isFavored": {
           "value": false
         },
         "showTitleCard": {
           "value": false
         },
-        "cost": {
-          "value": 150
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
         },
-        "isMartial": {
-          "value": true
-        },
-        "quality": {
-          "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "armor"
-        },
-        "def": {
-          "value": 10
-        },
-        "mdef": {
-          "value": 0
-        },
-        "init": {
-          "value": -2
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "attributes": {
-          "primary": {
-            "value": ""
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
           },
-          "secondary": {
-            "value": "ins"
-          }
-        },
-        "source": {
-          "value": "FUCR132"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
               "value": false
             }
           }
-        }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "prey"
       },
       "effects": [],
       "folder": null,
       "ownership": {
         "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
+        "B6evqtezy9ZsGZG3": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-armor.Item.qFgByKkXNnKRuMJy"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.dQIJpnWSMTIOC7nn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706646424338,
-        "modifiedTime": 1716821976421,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729285022401,
+        "modifiedTime": 1729285039234,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "_id": "gK7qnHJKSMSJTDhn",
-      "sort": 800000,
-      "_key": "!actors.items!XaUyCR6PjgkW50Y3.gK7qnHJKSMSJTDhn"
+      "_id": "trrbyC4bF8EGp860",
+      "sort": 0,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.trrbyC4bF8EGp860"
     },
     {
       "name": "Guardian",
       "type": "class",
-      "img": "icons/equipment/shield/heater-crystal-blue.webp",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian.png",
       "system": {
         "subtype": {
           "value": ""
         },
         "summary": {
-          "value": ""
+          "value": "Let me be your shield."
         },
-        "description": "<div class=\"stackedit__html\"><h1>GUARDIAN</h1><h5><strong>ALSO:</strong> Paladin, Soldier, Yōjinbō</h5><p><strong>GUARDIAN FREE BENEFITS</strong></p><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial armor </strong>and <strong>martial shields.</strong></li></ul><h3 id=\"guardian-skills\"><strong>GUARDIAN SKILLS</strong></h3><h4><strong>Bodyguard</strong></h4><hr /><h4><strong>Defensive Mastery (SL5)</strong></h4><hr /><h4><strong>Dual Shieldbearer</strong></h4><hr /><h4><strong>Fortress (SL5)</strong></h4><hr /><h4><strong>Protect</strong></h4></div>",
+        "description": "<h5><strong>ALSO: Paladin, Soldier, Yōjinbō</strong></h5><p>Proud and selfless, <strong>Guardians</strong> are individuals who know the value of life… and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. They are often extraordinary and impressive individuals, such as valiant soldiers or veterans scarred by a thousand battles. While some Guardians may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.</p><hr /><h5><strong>GUARDIAN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial armor</strong> and <strong>martial shields.</strong></li></ul><h2><strong>GUARDIAN SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd]{Bodyguard}</p><p>If you perform the <strong>Guard</strong> action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF]{Defensive Mastery} <strong>(SL5)</strong></p><p>As long as you have a <strong>shield</strong> or a <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aPQXTQegswRisA1R]{Dual Shieldbearer}</p><p>You may now equip a <strong>shield</strong> in your <strong>main hand</strong> slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee <strong>brawling</strong> weapon:</p><table style=\"width:98.7597%;height:53px\" border=\"1\"><colgroup><col style=\"width:14.4654%\"></col><col style=\"width:20.7547%\"></col><col style=\"width:23.2618%\"></col><col style=\"width:41.5181%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px\"><strong>WEAPON</strong></td><td style=\"height:17px\"><strong>ACCURACY</strong></td><td style=\"height:17px\"><strong>DAMAGE</strong></td><td style=\"height:17px\"><strong>QUALITY</strong></td></tr><tr style=\"height:36px\"><td style=\"height:36px\"><strong>Twin Shields</strong></td><td style=\"height:36px\">【MIG + MIG】</td><td style=\"height:36px\">【HR + 5】physical </td><td style=\"height:36px\">Deals extra damage equal to your 【SL】 in defensive mastery (above).</td></tr></tbody></table><p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong> (above).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.X4KdFiQmzikrsM6v]{Fortress} <strong>(SL5)</strong></p><p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES]{Protect}</p><p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong> or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
         "isFavored": {
           "value": false
         },
@@ -1166,31 +830,33 @@
         },
         "source": {
           "value": "FUCR196"
-        }
+        },
+        "fuid": "guardian"
       },
       "effects": [],
       "folder": null,
       "ownership": {
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.classes.Item.Z0SAqRaTANzF2Dft"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.ARBTZXtCwUzlyIyy",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706437992957,
-        "modifiedTime": 1716821818220,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729285026284,
+        "modifiedTime": 1729285047913,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "_id": "ypgzoHgbpzDzmrRA",
+      "_id": "7zgwcUnRELvJq62r",
       "sort": 400000,
-      "_key": "!actors.items!XaUyCR6PjgkW50Y3.ypgzoHgbpzDzmrRA"
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.7zgwcUnRELvJq62r"
     },
     {
       "name": "Sharpshooter",
@@ -1200,9 +866,9 @@
           "value": ""
         },
         "summary": {
-          "value": ""
+          "value": "Flee to the other end of the world; my arrow shall find you."
         },
-        "description": "<div class=\"stackedit__html\"><h1>SHARPSHOOTER</h1><h5><strong>ALSO: </strong>Archer, Gunslinger, Sniper</h5><p><strong>SHARPSHOOTER FREE BENEFITS</strong></p><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip martial ranged weapons and martial shields.</li></ul><h3 id=\"sharpshooter-skills\"><strong>SHARPSHOOTER SKILLS</strong></h3><h4><strong>Barrage (SL5)</strong></h4><hr /><h4><strong>Crossfire (SL3)</strong></h4><hr /><h4><strong>Hawkeye (SL5)</strong></h4><hr /><h4><strong>Ranged Weapon Mastery (SL4)</strong></h4><hr /><h4><strong>Warning Shot (SL4)</strong></h4></div>",
+        "description": "<h5><strong>ALSO: Archer, Gunslinger, Sniper</strong></h5><p>A majority of <strong>Sharpshooters </strong>are exceptionally good at dealing with threats from a carefully calculated distance; others are brave, skilled or reckless enough to engage their foes at point-blank. While many of these skilled snipers are battle-hardened soldiers, some have turned to a life of piracy, bounty hunting or banditry. A few have put their abilities at the service of the people, or use them to protect a sacred or forbidden site from intruders.</p><hr /><h5><strong>SHARPSHOOTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip martial ranged weapons and martial shields.</li></ul><h2><strong>SHARPSHOOTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.lCFQMCY4AmDsv6sv]{Barrage} <strong>(SL5)</strong></p><p>When you perform a <strong>ranged </strong>attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi </strong>(2); or you increase the attack’s <strong>multi </strong>property by one, up to a maximum of <strong>multi </strong>(3).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.sIkQa2NzkqsvczBr]{Crossfire} <strong>(SL3)</strong></p><p>After a creature you can see performs a <strong>ranged </strong>attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a ranged weapon equipped, and it has no effect if the Accuracy Check was a critical success.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.hmDCgX5OEk5l4uXW]{Hawkeye} <strong>(SL5)</strong></p><p>When you perform the <strong>Guard </strong>action, if you choose <strong>not </strong>to provide cover to another creature, you may choose one option: the next <strong>ranged </strong>attack you perform before the end of the current scene will deal <strong>【SL × 2】 </strong>extra damage; or you may immediately perform a<strong> free attack</strong> with a <strong>bow </strong>or <strong>firearm </strong>you have equipped, treating your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.0UxTgrag7cE4M1oc]{Ranged Weapon Mastery} <strong>(SL4)</strong></p><p>You gain a bonus equal to <strong>【SL】 </strong>to all Accuracy Checks with <strong>ranged </strong>weapons.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Ovmw7cMrN6qvagG4]{Warning Shot} <strong>(SL4)</strong></p><p>When you hit one or more targets with a <strong>ranged </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>shaken </strong>on each target hit by the attack; <strong>or </strong>inflict <strong>slow </strong>on each target hit by the attack; <strong>or </strong>each target hit by the attack loses <strong>【SL × 10】 </strong>Mind Points. Describe your maneuver!</p>",
         "isFavored": {
           "value": false
         },
@@ -1263,38 +929,41 @@
         },
         "source": {
           "value": "FUCR204"
-        }
+        },
+        "fuid": "sharpshooter"
       },
-      "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
+      "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter.png",
       "effects": [],
       "folder": null,
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.classes.Item.rgi283okGL2ryoWj"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.eO37Jm8x3VaGmE7c",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706417554502,
-        "modifiedTime": 1716821806106,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729285036416,
+        "modifiedTime": 1729285048722,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
       "ownership": {
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
-      "_id": "QxRAAnPEyOcmY88g",
-      "sort": 800000,
-      "_key": "!actors.items!XaUyCR6PjgkW50Y3.QxRAAnPEyOcmY88g"
+      "_id": "pdSU212KtblFrKLG",
+      "sort": 500000,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.pdSU212KtblFrKLG"
     },
     {
-      "folder": "6gTO70HUAzfEfLY2",
+      "folder": "3SZiWPJ5zkuKH7Pj",
       "name": "Ranged Weapon Mastery",
       "type": "skill",
-      "img": "icons/skills/ranged/target-bullseye-arrow-glowing.webp",
+      "_id": "jhZgVsN6LPZHFjga",
+      "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_ranged_weapon_mastery.png",
       "system": {
         "subtype": {
           "value": ""
@@ -1302,9 +971,9 @@
         "summary": {
           "value": ""
         },
-        "description": "",
+        "description": "<p>You gain a bonus equal to <strong>【SL】</strong> to all Accuracy Checks with <strong>ranged</strong> weapons.</p>",
         "isFavored": {
-          "value": true
+          "value": false
         },
         "showTitleCard": {
           "value": false
@@ -1408,24 +1077,23 @@
           "step": 1,
           "max": 6
         },
-        "defense": "def"
+        "defense": "def",
+        "fuid": "ranged-weapon-mastery"
       },
       "effects": [
         {
-          "icon": "icons/skills/ranged/target-bullseye-arrow-glowing.webp",
-          "origin": "Item.WLFwkDW5mLynFMpJ",
           "duration": {
             "startTime": 0,
             "seconds": null,
             "combat": null,
             "rounds": null,
             "turns": null,
-            "startRound": 0,
-            "startTurn": 0
+            "startRound": 1,
+            "startTurn": 1
           },
           "disabled": false,
           "name": "Ranged Weapon Mastery",
-          "_id": "XkHK5cD6OreUyE6O",
+          "_id": "M8kqwCdFQHllfjGs",
           "changes": [
             {
               "key": "system.bonuses.accuracy.bow",
@@ -1446,7 +1114,7 @@
               "priority": null
             }
           ],
-          "description": "<ul><li><p><strong>Effect:</strong> <span class=\"fontstyle0\"><strong>【</strong></span><span class=\"fontstyle1\"><strong>SL</strong></span><span class=\"fontstyle0\"><strong>】 </strong>bonus to <strong>Accuracy Checks</strong> with <strong>ranged</strong> weapons.</span></p></li></ul>",
+          "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">You gain a bonus equal to<strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px;color:rgb(25, 24, 19);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">【SL</strong><strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px\">】</strong>to all Accuracy Checks with <strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px;color:rgb(25, 24, 19);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">ranged </strong>weapons. </span></p>",
           "transfer": true,
           "statuses": [],
           "flags": {
@@ -1454,32 +1122,789 @@
               "CrisisInteraction": "none"
             }
           },
-          "tint": null,
-          "_key": "!actors.items.effects!XaUyCR6PjgkW50Y3.erV2USARoHSuI3GW.XkHK5cD6OreUyE6O"
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_ranged_weapon_mastery.png",
+          "type": "base",
+          "system": {},
+          "origin": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!XaUyCR6PjgkW50Y3.jhZgVsN6LPZHFjga.M8kqwCdFQHllfjGs"
         }
       ],
+      "sort": 400000,
       "ownership": {
         "default": 3,
         "hYECXwi6O8UUBuN4": 3,
         "YN7AhHIwAZeH33Tw": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.projectfu.essentials.Item.rFXN3ruFGCgaUnry"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.0UxTgrag7cE4M1oc",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706506773814,
-        "modifiedTime": 1716824213655,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729285063537,
+        "modifiedTime": 1729285063537,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "_id": "erV2USARoHSuI3GW",
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.jhZgVsN6LPZHFjga"
+    },
+    {
+      "folder": "BdAXAA3IkZnarpJX",
+      "name": "Bodyguard",
+      "type": "skill",
+      "_id": "gGCIjoZB2ku6vMsG",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_bodyguard.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>If you perform the @EFFECT[guard] action and choose to provide cover to another creature, that creature gains <strong>Resistance</strong> to all damage types until the start of your next turn.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Guardian"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "source": {
+          "value": "FUCR196"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            },
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "defense": "def",
+        "fuid": "bodyguard"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285118567,
+        "modifiedTime": 1729285561172,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
       "sort": 300000,
-      "_key": "!actors.items!XaUyCR6PjgkW50Y3.erV2USARoHSuI3GW"
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.gGCIjoZB2ku6vMsG"
+    },
+    {
+      "name": "Brigandine",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/brigadine.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 10
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": -2
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": ""
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "source": {
+          "value": "FUCR132"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "brigandine"
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.53hU8yNkPrgXhtx5",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285175390,
+        "modifiedTime": 1729285175390,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "Q2siBejANcn9SOV6",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.Q2siBejANcn9SOV6"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285195446,
+        "modifiedTime": 1729285195446,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "9w3iArLkXtlW0HER",
+      "sort": 87500,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.9w3iArLkXtlW0HER"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285195446,
+        "modifiedTime": 1729285195446,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "95kCsPmLcWvf5u5a",
+      "sort": 50000,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.95kCsPmLcWvf5u5a"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285195446,
+        "modifiedTime": 1729285195446,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "9mrK8FmhAwSAHwAm",
+      "sort": 100000,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.9mrK8FmhAwSAHwAm"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285195446,
+        "modifiedTime": 1729285195446,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "tT8XNHBalNDJgTMe",
+      "sort": 0,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.tT8XNHBalNDJgTMe"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285195446,
+        "modifiedTime": 1729285195446,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "BKV3JOybshxHBWeN",
+      "sort": 75000,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.BKV3JOybshxHBWeN"
+    },
+    {
+      "folder": "3SZiWPJ5zkuKH7Pj",
+      "name": "Barrage",
+      "type": "skill",
+      "_id": "uwlGdIejuDgvfnuG",
+      "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_barrage.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you perform a <strong>ranged</strong> attack, you may spend <strong>@LOSS[10 mp]</strong> to choose one option: the attack gains <strong>multi (2)</strong>; <strong>or</strong> you increase the attack's <strong>multi</strong> property by one, up to a maximum of <strong>multi (3)</strong>.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Sharpshooter"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "source": {
+          "value": "FUCR205"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            },
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "defense": "def",
+        "fuid": "barrage"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.lCFQMCY4AmDsv6sv",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285226191,
+        "modifiedTime": 1729285560721,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "sort": -100000,
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.uwlGdIejuDgvfnuG"
+    },
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285423984,
+        "modifiedTime": 1729285425364,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "QKBlR0GuWDfz70o5",
+      "sort": -300000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!XaUyCR6PjgkW50Y3.QKBlR0GuWDfz70o5"
     }
   ],
   "effects": [],
@@ -1490,10 +1915,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715057116072,
-    "modifiedTime": 1716824265984,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729285176745,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

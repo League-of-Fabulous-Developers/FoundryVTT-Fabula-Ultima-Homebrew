@@ -114,17 +114,20 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "guerilla"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715089005146,
-    "modifiedTime": 1716849385378,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282028463,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "ahb9YXvPFxbSxiZL",
   "sort": 0,

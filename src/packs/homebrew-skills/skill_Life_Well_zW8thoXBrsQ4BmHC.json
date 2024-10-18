@@ -113,7 +113,8 @@
       "current": 0,
       "step": 1,
       "max": 6
-    }
+    },
+    "fuid": "life-well"
   },
   "effects": [],
   "folder": "q3edpagvKBdht0Uw",
@@ -123,10 +124,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1709317931671,
-    "modifiedTime": 1713023223275,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729281788509,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "zW8thoXBrsQ4BmHC",
   "sort": 150000,

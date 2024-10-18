@@ -39,7 +39,10 @@
       "fp": {
         "value": 3
       },
-      "bonds": []
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
     },
     "affinities": {
       "physical": {
@@ -177,7 +180,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -212,7 +220,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -222,11 +233,28 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -286,7 +314,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "sword"
       },
       "_id": "MBmZwZMEut1tDFzE",
       "img": "icons/svg/item-bag.svg",
@@ -301,10 +330,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715803658250,
-        "modifiedTime": 1715803700263,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287252556,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.MBmZwZMEut1tDFzE"
     },
@@ -365,7 +396,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "firearm"
       },
       "_id": "iD8bdFKmn09odlJn",
       "img": "icons/svg/item-bag.svg",
@@ -380,10 +412,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715803659096,
-        "modifiedTime": 1715803807356,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287257232,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.iD8bdFKmn09odlJn"
     },
@@ -466,7 +500,7 @@
           "value": "One creature"
         },
         "duration": {
-          "value": "Instantaneous"
+          "value": "instantaneous"
         },
         "isOffensive": {
           "value": false
@@ -504,7 +538,8 @@
         "hasRoll": {
           "value": false
         },
-        "opportunity": ""
+        "opportunity": "",
+        "fuid": "dispel"
       },
       "effects": [],
       "ownership": {
@@ -520,10 +555,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1706570865794,
-        "modifiedTime": 1715803789205,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287264140,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Compendium.fabula-ultima-core-rulebook.spells.Item.6QG5ZZgRs4xnxlVl",
+        "duplicateSource": null
       },
       "sort": 0,
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.StfbLMx1f1IDL6fc"
@@ -560,7 +597,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "high-end-education"
       },
       "_id": "MlqMZ6OA9DQ4DvKV",
       "img": "icons/svg/item-bag.svg",
@@ -575,10 +613,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715803789965,
-        "modifiedTime": 1715807447497,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287274220,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.MlqMZ6OA9DQ4DvKV"
     },
@@ -614,7 +654,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "royal-swordplay"
       },
       "_id": "JngCScGpJMgfgydL",
       "img": "icons/svg/item-bag.svg",
@@ -629,17 +670,18 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715803796413,
-        "modifiedTime": 1715803887272,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287269735,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.JngCScGpJMgfgydL"
     }
   ],
   "effects": [
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Actor.j9SR0pA2kmoT2BlE",
       "duration": {
         "startTime": 0,
@@ -675,7 +717,21 @@
           "CrisisInteraction": "none"
         }
       },
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!actors.effects!j9SR0pA2kmoT2BlE.8sSnbxCpqaqpI71w"
     },
     {
@@ -688,7 +744,6 @@
           "priority": null
         }
       ],
-      "icon": "/icons/svg/aura.svg",
       "origin": "Actor.j9SR0pA2kmoT2BlE.Item.MlqMZ6OA9DQ4DvKV",
       "flags": {
         "projectfu": {
@@ -710,7 +765,21 @@
       "description": "",
       "transfer": false,
       "statuses": [],
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "/icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!actors.effects!j9SR0pA2kmoT2BlE.WSPwBs3TSac9ocZd"
     }
   ],
@@ -727,10 +796,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715803445479,
-    "modifiedTime": 1716344013884,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729287325394,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!actors!j9SR0pA2kmoT2BlE"
 }

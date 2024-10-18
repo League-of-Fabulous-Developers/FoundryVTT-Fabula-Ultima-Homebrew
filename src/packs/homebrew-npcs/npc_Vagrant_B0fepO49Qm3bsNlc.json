@@ -38,7 +38,10 @@
       "fp": {
         "value": 3
       },
-      "bonds": []
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
     },
     "affinities": {
       "physical": {
@@ -176,7 +179,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -211,7 +219,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -221,11 +232,28 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -285,7 +313,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "thrown-weapon"
       },
       "_id": "EQ9gJz0mqlVJfvtX",
       "img": "icons/svg/item-bag.svg",
@@ -304,10 +333,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804084215,
-        "modifiedTime": 1715809162817,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287752113,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Actor.TIMkq8fwjl04se0F.Item.QajiHXVStnTEmdvL",
+        "duplicateSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.EQ9gJz0mqlVJfvtX"
     },
@@ -368,7 +399,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "heavy-weapon"
       },
       "_id": "e0uZaHb0igfBve21",
       "img": "icons/svg/item-bag.svg",
@@ -387,10 +419,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804084426,
-        "modifiedTime": 1715808720625,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287747184,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Actor.TIMkq8fwjl04se0F.Item.D4tYKP9yX6EI6vqD",
+        "duplicateSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.e0uZaHb0igfBve21"
     },
@@ -426,7 +460,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "desperate"
       },
       "_id": "QIy1g9LZsjuFvht8",
       "img": "icons/svg/item-bag.svg",
@@ -441,10 +476,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715805690970,
-        "modifiedTime": 1715808781087,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287765853,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.QIy1g9LZsjuFvht8"
     },
@@ -480,7 +517,8 @@
         },
         "source": {
           "value": ""
-        }
+        },
+        "fuid": "scrap-armor"
       },
       "_id": "cLrZvF89Tun7OTny",
       "img": "icons/svg/item-bag.svg",
@@ -495,10 +533,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715805691159,
-        "modifiedTime": 1715809011332,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287771986,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.cLrZvF89Tun7OTny"
     }
@@ -506,7 +546,6 @@
   "effects": [
     {
       "name": "Scrap Armor",
-      "icon": "/icons/svg/aura.svg",
       "changes": [
         {
           "key": "system.derived.def.value",
@@ -533,7 +572,7 @@
       },
       "description": "",
       "origin": "Actor.B0fepO49Qm3bsNlc.Item.cLrZvF89Tun7OTny",
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
       "flags": {
@@ -543,10 +582,23 @@
         }
       },
       "_id": "2Z4k6lOPml7uO1wR",
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "/icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!actors.effects!B0fepO49Qm3bsNlc.2Z4k6lOPml7uO1wR"
     },
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Actor.B0fepO49Qm3bsNlc",
       "duration": {
         "startTime": 0,
@@ -582,7 +634,21 @@
           "CrisisInteraction": "none"
         }
       },
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!actors.effects!B0fepO49Qm3bsNlc.luxilm58oqQEVdk9"
     }
   ],
@@ -599,10 +665,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715803445479,
-    "modifiedTime": 1716344065847,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729288047712,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "B0fepO49Qm3bsNlc",
   "_key": "!actors!B0fepO49Qm3bsNlc"

@@ -115,17 +115,20 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "call-entourage"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715791034905,
-    "modifiedTime": 1715810138513,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729282027698,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

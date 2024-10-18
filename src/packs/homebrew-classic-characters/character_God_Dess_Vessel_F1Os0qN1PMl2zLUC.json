@@ -9,7 +9,7 @@
     },
     "resources": {
       "hp": {
-        "value": 35,
+        "value": 40,
         "bonus": 0
       },
       "mp": {
@@ -149,6 +149,11 @@
       "weapons": [],
       "armor": null,
       "supports": []
+    },
+    "equipped": {
+      "armor": "Ms4wQiIkl4a9Utum",
+      "mainHand": "icAyzjs0EHLmd6Ii",
+      "offHand": "icAyzjs0EHLmd6Ii"
     }
   },
   "prototypeToken": {
@@ -163,7 +168,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -198,7 +208,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -208,109 +221,30 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
-    {
-      "name": "Predator",
-      "type": "class",
-      "system": {
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "subtype": {},
-        "summary": {
-          "value": "A ravening beast? A pillaging lord? I reject both fates."
-        },
-        "description": "<div class=\"stackedit__html\"><h1>PREDATOR</h1><h4><strong>ALSO: Conqueror, Parasite, Vampire</strong></h4><p>Some Predators are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation</p><p>can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><h4><strong>PREDATOR FREE BENEFITS</strong></h4><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h3><strong>PREDATOR SKILLS</strong></h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life} (SL5)</strong></p><p>When an ally casts a spell that includes you among the targets, they may choose to spend<strong>【SL】</strong>Hit Points to allow you to regain<strong>【SL x 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend<strong>【SL】</strong>Hit Points to deal<strong>【SL x 3】</strong>dark damage to them.</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</strong></p><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger} (SL5)</strong></p><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain<strong>【SL】</strong> Hit Points or <strong>【SL】</strong>Mind Points.</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die} (SL5)</strong></p><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×5】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by<strong>【SL】</strong>before affinities. (You still suffer the consequences for surrendering.)</p><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror} (SL2)</strong></p><p>You deal<strong>【SL】</strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to<strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><p></p></div><h1>Credit</h1><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Predator Art</strong> Kim Myung Jin on Artstation https://myungjinkim.artstation.com/</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "source": {
-          "value": "Homebrew"
-        }
-      },
-      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "YN7AhHIwAZeH33Tw": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.oA2gENCwk30ZsDeB"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1709314829520,
-        "modifiedTime": 1712416031167,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "1KVhxrKHdXRFKbcx",
-      "sort": 0,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.1KVhxrKHdXRFKbcx"
-    },
     {
       "name": "Blood is Life",
       "type": "skill",
@@ -443,162 +377,21 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1709317931671,
-        "modifiedTime": 1716822584501,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "modifiedTime": 1729286444493,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4",
+        "duplicateSource": null
       },
       "_id": "ajDU81yS6fxygqEv",
-      "sort": 100000,
+      "sort": 50000,
       "_key": "!actors.items!F1Os0qN1PMl2zLUC.ajDU81yS6fxygqEv"
-    },
-    {
-      "folder": "laGyUtQnXPDC2pZG",
-      "name": "Elemental Magic",
-      "type": "skill",
-      "_id": "AL9n4O2q6zYrhk0g",
-      "img": "icons/sundries/books/book-symbol-fire-gold-orange.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR187"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.73RbqZcndgS97kF3"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706497980288,
-        "modifiedTime": 1716822632522,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "sort": 200000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.AL9n4O2q6zYrhk0g"
     },
     {
       "name": "Staff",
       "type": "weapon",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Weapons/Staff.png",
+      "img": "systems/projectfu/styles/static/compendium/weapons/staff.png",
       "system": {
         "subtype": {
           "value": ""
@@ -621,10 +414,6 @@
         },
         "quality": {
           "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "mainHand"
         },
         "attributes": {
           "primary": {
@@ -674,36 +463,45 @@
             }
           }
         },
-        "defense": "def"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-weapons.Item.q90ZZP0ibXGq0JbJ"
+        "defense": "def",
+        "fuid": "staff",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
         }
       },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.yPIyB7tBCD4ZVP4C",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706648302926,
-        "modifiedTime": 1716815818317,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729283214269,
+        "modifiedTime": 1729286421173,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "_id": "3c8SQblbejWERB5E",
-      "sort": -100000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.3c8SQblbejWERB5E"
+      "_id": "icAyzjs0EHLmd6Ii",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.icAyzjs0EHLmd6Ii"
     },
     {
-      "name": "Sage Robe",
+      "name": "Sage Robe (S5)",
       "type": "armor",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Armor%20and%20Shields/Sage%20Robe.png",
       "system": {
         "subtype": {
           "value": ""
@@ -726,10 +524,6 @@
         },
         "quality": {
           "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "armor"
         },
         "def": {
           "value": 1
@@ -763,276 +557,328 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "sage-robe-s5"
       },
+      "_id": "Ms4wQiIkl4a9Utum",
+      "img": "modules/fabula-ultima-press-start/artwork/items/Sage%20Robe.png",
       "effects": [],
       "folder": null,
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-armor.Item.H4n3JfVSfnMJmOZl"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706646363915,
-        "modifiedTime": 1716815822310,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "_id": "Nj41CzH1YD2CBC2s",
-      "sort": 200000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.Nj41CzH1YD2CBC2s"
-    },
-    {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Elemental%20Shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For <strong>@LOSS[2 ip]</strong> o<span class=\"fontstyle0\">ne creature suffers 10 damage of a type of your choice (</span><strong>@DMG[10 air]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 bolt]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 earth]</strong><span class=\"fontstyle0\">, </span><strong>@DMG[10 fire]</strong><span class=\"fontstyle0\">, or </span><strong>@DMG[10 ice]</strong><span class=\"fontstyle0\">).</span></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.00h8sKH3ktIFF5ei"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516143319,
-        "modifiedTime": 1714780606946,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "M2ruV93nfAlkCW7D",
-      "sort": 87500,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.M2ruV93nfAlkCW7D"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Magic%20Tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p><span class=\"fontstyle0\">For </span><strong>@LOSS[4 ip]</strong>, <span class=\"fontstyle0\">this allows the entire group to </span><span class=\"fontstyle2\"><strong>rest </strong></span><span class=\"fontstyle0\">in the wilderness and at sea.</span> </p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.QYyuig5iy5mMN9F8"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516284047,
-        "modifiedTime": 1714780606946,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "pdQU4IhryyrdMVA0",
-      "sort": 100000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.pdQU4IhryyrdMVA0"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For <strong>@LOSS[3 ip]</strong> one creature recovers <strong>@HEAL[50 hp]</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.iLidslBpjoLfrsT9"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516053996,
-        "modifiedTime": 1714780606946,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
-      },
-      "_id": "R2VyMqlDVpD1zu8e",
       "sort": 0,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.R2VyMqlDVpD1zu8e"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For <strong>@LOSS[2 ip]</strong> one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        }
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
       "ownership": {
         "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
+        "tpPonTjn7it9dSQP": 3,
+        "pcRlFlAnFfU7VnPM": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.mZPZqpxSMxzpQ8uX"
+          "sourceId": "Actor.bWa9CbV0GYZywXtj.Item.g1H1TkpPybmfzGts"
         }
       },
       "_stats": {
+        "compendiumSource": "Actor.bWa9CbV0GYZywXtj.Item.g1H1TkpPybmfzGts",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706516094485,
-        "modifiedTime": 1714780606946,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+        "createdTime": 1729283217638,
+        "modifiedTime": 1729283217638,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "_id": "zySf0Bi6YEH5wCl6",
-      "sort": 75000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.zySf0Bi6YEH5wCl6"
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.Ms4wQiIkl4a9Utum"
     },
     {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Consumables/Elixir.png",
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Fulgur",
+      "type": "spell",
+      "_id": "vDqWgGa728v2T1Zm",
+      "img": "icons/magic/lightning/bolts-forked-large-blue.webp",
       "system": {
         "subtype": {
-          "value": "potion"
+          "value": ""
         },
         "summary": {
-          "value": "One creature recovers 50 MP."
+          "value": ""
         },
-        "description": "<p>For <strong>@LOSS[3 ip]</strong> one creature recovers <strong>@HEAL[50 mp]</strong>.</p>",
+        "description": "<p>You weave electricity into a wave of crackling bolts. Each target hit by this spell suffers <strong>【HR + 15】 bolt</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p><hr /><p>@LOSS[10 mp] for <strong>one</strong> target.</p><p>@LOSS[20 mp] for <strong>two</strong> targets.</p><p>@LOSS[30 mp] for <strong>three</strong> targets.</p>",
         "isFavored": {
-          "value": false
+          "value": true
         },
         "showTitleCard": {
           "value": false
         },
-        "ipCost": {
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FUCR188"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "bolt"
+            },
+            "value": 15
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "Each target hit by this spell suffers dazed.",
+        "maxTargets": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        }
+        "fuid": "fulgur"
       },
       "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
       "ownership": {
-        "default": 0,
+        "default": 2,
         "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.consumables.Item.mn3F6qOfdVYM405v"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.YV1OL72oIzseoLbd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706515894820,
-        "modifiedTime": 1714780606946,
-        "lastModifiedBy": "B6evqtezy9ZsGZG3"
+        "createdTime": 1729283235714,
+        "modifiedTime": 1729286424836,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "_id": "sfLxgrlpANu0JUfi",
-      "sort": 50000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.sfLxgrlpANu0JUfi"
+      "sort": 0,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.vDqWgGa728v2T1Zm"
+    },
+    {
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Thunderbolt",
+      "type": "spell",
+      "_id": "AF0Wh0Hqt06tl3UI",
+      "img": "icons/magic/lightning/bolt-strike-blue.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You send lightning striking at your foe. The target suffers <strong>【HR + 25】bolt</strong> damage.</p><p>Damage dealt by this spell <strong>ignores Resistances</strong>.</p><hr /><p>@LOSS[20 mp]</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "20"
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FUCR189"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "bolt"
+            },
+            "value": 25
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "",
+        "maxTargets": {
+          "value": 1
+        },
+        "fuid": "thunderbolt"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.I4DfvMXCmGMkuXKB",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729283241281,
+        "modifiedTime": 1729286424532,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "sort": 0,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.AF0Wh0Hqt06tl3UI"
     },
     {
       "name": "Orator",
@@ -1042,9 +888,9 @@
           "value": ""
         },
         "summary": {
-          "value": ""
+          "value": "Words are only as good as they actions that follow them."
         },
-        "description": "<div class=\"stackedit__html\"><h1>ORATOR</h1><h5><strong>ALSO:</strong> Ambassador, Diplomat, Entertainer</h5><p><strong>ORATOR FREE BENEFITS</strong></p><ul><li>Permanently increase your maximum Mind Points by 5.</li></ul><h3 id=\"orator-skills\"><strong>ORATOR SKILLS</strong></h3><h4><strong>Condemn (SL4)</strong></h4><hr /><h4><strong>Encourage (SL6)</strong></h4><hr /><h4><strong>My Trust In You (SL2)</strong></h4><hr /><h4><strong>Persuasive (SL2)</strong></h4><hr /><h4><strong>Unexpected Ally</strong></h4></div>",
+        "description": "<h5><strong>ALSO: Ambassador, Diplomat, Entertainer</strong></h5><p>Some are graceful and ever smiling, others are subtle and witty: <strong>Orators </strong>are as good at reading someone’s heart as they are at rounding up allies for their cause, sometimes unintentionally. The words of an Orator may rekindle spirits or plunge their opponents into despair: over the centuries, some Orators’ talents have brought entire nations to ruin… and just as many have granted fallen kingdoms a chance to rise from their very ashes.</p><hr /><h5><strong>ORATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li></ul><h2><strong>ORATOR SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.DtEiCkDsC1amYABn]{Condemn} <strong>(SL4)</strong></p><p>You may use an action and spend 5 Mind Points to perform an Opposed 【<strong>INS</strong> + <strong>WLP</strong>】 Check against a creature that can hear and understand you — describe your accusations! If you succeed, the target loses <strong>【SL × 10】 </strong>Mind Points and suffers <strong>dazed </strong>or <strong>shaken </strong>(your choice).</p><p>You gain a bonus equal to <strong>【SL】 </strong>to your <strong>【INS + WLP】 </strong>Checks for this Skill.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n]{Encourage} <strong>(SL6)</strong></p><p>During a conflict, you may use an action and spend 5 Mind Points to choose another creature that can hear and understand you. That creature recovers <strong>【SL × 5】 </strong>Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>: they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.lK9onKSiMuQEe3zd]{My Trust In You} <strong>(SL2)</strong></p><p>After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their <strong>Traits </strong>or <strong>Bonds </strong>in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a <strong>Bond </strong>towards that character, they recover <strong>【SL × 10】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.GjmqoWAJ4szsk0om]{Persuasive} <strong>(SL2)</strong></p><p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception </strong>or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】 </strong>Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ucCrtRAvv2qX8aJO]{Unexpected Ally}</p><p>You may use an action and spend 1 Fabula Point to choose a <strong>non-hostile</strong> creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable.</p>",
         "isFavored": {
           "value": false
         },
@@ -1105,32 +951,131 @@
         },
         "source": {
           "value": "FUCR200"
-        }
+        },
+        "fuid": "orator"
       },
-      "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator.png",
       "effects": [],
       "folder": null,
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.classes.Item.rZqEk3yuXVtXR97t"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.8HxmAoTTwLlmQ8Fc",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706416689988,
-        "modifiedTime": 1716815575174,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729283263556,
+        "modifiedTime": 1729283264681,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
       "ownership": {
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
-      "_id": "A3w3kLuWOH8i0LKu",
+      "_id": "YTb8FD1htijuhw0v",
       "sort": -100000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.A3w3kLuWOH8i0LKu"
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.YTb8FD1htijuhw0v"
+    },
+    {
+      "name": "Predator",
+      "type": "class",
+      "system": {
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "subtype": {},
+        "summary": {
+          "value": "A ravening beast? A pillaging lord? I reject both fates."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Conqueror, Parasite, Vampire</strong></h5><p>Some <strong>Predators</strong> are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><hr /><h5><strong>PREDATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life (SL5)}</p><p>When an ally casts a spell that includes you among the targets, they may choose to spend <strong>【SL】 </strong>Hit Points to allow you to regain <strong>【SL × 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend <strong>【SL】 </strong>Hit Points to deal <strong>【SL × 3】 </strong>dark damage to them.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</p><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger (SL5)}</strong></p><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die(SL5)}</p><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×2】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by <strong>【SL】 </strong>before affinities. (You still suffer the consequences for <strong>surrendering</strong>.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror (SL2)}</p><p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><p></p></div><div class=\"stackedit__html\"><h3>PREDATOR NOTES</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.dmcZAwL31lbvyJ8j]{Predator Rules}</strong></p><p></p></div><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "predator"
+      },
+      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "YN7AhHIwAZeH33Tw": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.oA2gENCwk30ZsDeB",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729283276028,
+        "modifiedTime": 1729283281468,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "Ofp9ShlNx8eE9jO5",
+      "sort": 0,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.Ofp9ShlNx8eE9jO5"
     },
     {
       "name": "Elementalist",
@@ -1140,9 +1085,9 @@
           "value": ""
         },
         "summary": {
-          "value": ""
+          "value": "Ignore the warnings of this World at your own risk."
         },
-        "description": "<div class=\"stackedit__html\"><h1>ELEMENTALIST</h1><h5><strong>ALSO:</strong> Battle Mage, Geomancer, Sorcerer</h5><p><strong>ELEMENTALIST FREE BENEFITS</strong></p><ul><li>Permanently increase your maximum Mind Points by 5</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h3 id=\"elementalist-skills\"><strong>ELEMENTALIST SKILLS</strong></h3><h4><strong>Cataclysm (SL5)</strong></h4><hr /><h4><strong>Elemental Magic (SL10)</strong></h4><hr /><h4><strong>Magic Artillery (SL3)</strong></h4><hr /><h4><strong>Ritual Elementalism</strong></h4><hr /><h4><strong>Spellblade (SL4)</strong></h4></div>",
+        "description": "<h5><strong>ALSO: Battle Mage, Geomancer, Sorcerer</strong></h5><p>An <strong>Elementalist </strong>has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some of them develop complex spells to contain the powerful energies of nature; others seek its protection in harmony and communion. Elemental magic can be highly destructive, causing damage and inflicting negative status effects. Due to this, there are many who would covet an Elementalist’s abilities… often for nefarious purposes.</p><hr /><h5><strong>ELEMENTALIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>ELEMENTALIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.muhtqtJ6av32K34Z]{Cataclysm} <strong>(SL5)</strong></p><p>When you cast an <strong>instantaneous </strong>spell, if you have an <strong>arcane </strong>weapon equipped, you may <strong>increase the spell’s total MP cost</strong> by up to <strong>【SL × 10】 </strong>Mind Points. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5]{Elemental Magic} <strong>(SL10)</strong></p><p><span class=\"fontstyle0\">Each time you acquire this Skill, learn one Elementalist spell (<strong>Core Rulebook</strong>, page <strong>188</strong>).<br />Offensive </span>( @ICON[offensive] ) <span class=\"fontstyle0\">Elementalist spells use </span><span class=\"fontstyle3\"><strong>【</strong></span><span class=\"fontstyle4\"><strong>INS + WLP</strong></span><span class=\"fontstyle3\"><strong>】 </strong></span><span class=\"fontstyle0\">for the Magic Check.</span> </p><hr /><p>@UUID[Compendium.projectfu.skills.Item.b5zzfsWN7h5ugrnW]{Magic Artillery} <strong>(SL3)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell, if you have an <strong>arcane </strong>weapon equipped, you gain a bonus to your Magic Check equal to <strong>【SL × 2】</strong> .</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.qgy43lWGmJ2YGhTp]{Ritual Elementalism}</p><p>You may perform Rituals whose effects fall within the <strong>Elementalism </strong>discipline. <br />Elementalism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.v6rTedHMjbLuLdN3]{Spellblade} <strong>(SL4)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell targeting a <strong>single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 10】or lower </strong>and you have one or more <strong>bow</strong>, <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, <strong>spear </strong>or <strong>sword </strong>weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon’s Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a <strong>bronze sword</strong> (<strong>Core Rulebook</strong>, page <strong>131</strong>) will be <strong>【DEX + MIG】</strong>+1 instead of <strong>【INS + WLP】 </strong>.</p><p></p><h3 id=\"elementalist-skills\"><strong>ELEMENTALIST SPELLS</strong></h3><p>@UUID[Compendium.projectfu.spells.Item.GOEbYMBu3cGnszWt]{[Elementalist Spells]}</p><p></p>",
         "isFavored": {
           "value": false
         },
@@ -1203,39 +1148,41 @@
         },
         "source": {
           "value": "FUCR186"
-        }
+        },
+        "fuid": "elementalist"
       },
-      "img": "icons/magic/lightning/bolt-cloud-sky-white.webp",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist.png",
       "effects": [],
       "folder": null,
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.classes.Item.zQyJ5euCL7mBdA8w"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.vSE3PMoHTGLC1yzG",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706417336064,
-        "modifiedTime": 1716815647610,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729283298721,
+        "modifiedTime": 1729283299875,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
       "ownership": {
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
-      "_id": "WnpPFQCfF4YBEyDe",
-      "sort": 1100000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.WnpPFQCfF4YBEyDe"
+      "_id": "3KQjG1zwBc99fZ2b",
+      "sort": 1200000,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.3KQjG1zwBc99fZ2b"
     },
     {
       "folder": "XoV1kgCfYBfAuPoU",
       "name": "Condemn",
       "type": "skill",
-      "_id": "ZH2fguCCo7AsJhjl",
-      "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+      "_id": "Pwwrpr88aoOH39qh",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_condemn.png",
       "system": {
         "subtype": {
           "value": ""
@@ -1243,7 +1190,7 @@
         "summary": {
           "value": ""
         },
-        "description": "<p><strong>@LOSS[5 mp]</strong><span class=\"fontstyle0\"> </span><span class=\"fontstyle3\"><strong>@EFFECT[dazed] @EFFECT[shaken]</strong></span></p><hr /><p>Skill Level 1 - Target loses <strong>@LOSS[10 mp]</strong></p><p>Skill Level 2 - Target loses <strong>@LOSS[20 mp]</strong></p><p>Skill Level 3 - Target loses <strong>@LOSS[30 mp]</strong></p><p>Skill Level 4 - Target loses <strong>@LOSS[40 mp]</strong></p>",
+        "description": "<p>You may use an action and spend @LOSS[5 mp] to perform an Opposed <strong>【INS + WLP】</strong> Check against a creature that can hear and understand you — describe your accusations! If you succeed, the target loses <strong>【SL × 10】</strong> Mind Points and suffers @EFFECT[dazed] or @EFFECT[shaken] (your choice).</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【INS + WLP】</strong> Checks for this Skill.</p><hr /><p>Skill Level <strong>1</strong> - Target loses @LOSS[10 mp]</p><p>Skill Level <strong>2</strong> - Target loses @LOSS[20 mp]</p><p>Skill Level <strong>3</strong> - Target loses @LOSS[30 mp]</p><p>Skill Level <strong>4</strong> - Target loses @LOSS[40 mp]</p>",
         "isFavored": {
           "value": true
         },
@@ -1349,311 +1296,541 @@
           "step": 1,
           "max": 6
         },
-        "defense": "def"
+        "defense": "def",
+        "fuid": "condemn"
       },
       "effects": [],
       "ownership": {
         "default": 2,
         "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.DtEiCkDsC1amYABn"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.DtEiCkDsC1amYABn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706504101200,
-        "modifiedTime": 1716822583555,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729283313168,
+        "modifiedTime": 1729286429122,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
+      "sort": 100000,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.Pwwrpr88aoOH39qh"
+    },
+    {
+      "folder": "laGyUtQnXPDC2pZG",
+      "name": "Elemental Magic",
+      "type": "skill",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_elemental_magic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Elementalist spell (<strong>Core Rulebook</strong>, page <strong>188</strong> or @UUID[Compendium.projectfu.spells.Item.GOEbYMBu3cGnszWt]{[Elementalist Spells]}).</p><p>Offensive @ICON[offensive] Elementalist spells use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "source": {
+          "value": "FUCR187"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            },
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "defense": "def",
+        "fuid": "elemental-magic"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "6utNKI7T4Vq4KjiR": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729283332990,
+        "modifiedTime": 1729283340706,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "QKbO37QSLAffEsON",
+      "sort": 300000,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.QKbO37QSLAffEsON"
+    },
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285574628,
+        "modifiedTime": 1729285576612,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "vI7YMEteivGat39u",
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.vI7YMEteivGat39u"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285908641,
+        "modifiedTime": 1729285908641,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "POdW9iUL0bZ5QXnq",
+      "sort": 87500,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.POdW9iUL0bZ5QXnq"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285908641,
+        "modifiedTime": 1729285908641,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "1l67gFI1f4ZmnCAo",
+      "sort": 50000,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.1l67gFI1f4ZmnCAo"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285908641,
+        "modifiedTime": 1729285908641,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "GysRevfCj3NhDIut",
+      "sort": 100000,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.GysRevfCj3NhDIut"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1729285908641,
+        "modifiedTime": 1729285908641,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_id": "ECrkglyUGDKxWevW",
       "sort": 0,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.ZH2fguCCo7AsJhjl"
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.ECrkglyUGDKxWevW"
     },
     {
-      "folder": "NZHiCa0mU3DKOiVo",
-      "name": "Fulgur",
-      "type": "spell",
-      "_id": "4dCYIvLRIrj7dEdf",
-      "img": "icons/magic/lightning/bolts-forked-large-blue.webp",
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
       "system": {
         "subtype": {
-          "value": ""
+          "value": "potion"
         },
         "summary": {
-          "value": ""
+          "value": "One creature recovers from a single status effect."
         },
-        "description": "<p><span class=\"fontstyle3\"><strong>@EFFECT[dazed]</strong></span></p><hr /><p><strong>@LOSS[20 mp]</strong></p>",
+        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
         "isFavored": {
-          "value": true
+          "value": false
         },
         "showTitleCard": {
           "value": false
         },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "mpCost": {
-          "value": "10 × T"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
-        "duration": {
-          "value": "Instantaneous"
-        },
-        "isOffensive": {
-          "value": true
+        "ipCost": {
+          "value": 2
         },
         "source": {
-          "value": "FUCR188"
+          "value": "FUCR104"
         },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": true
-            },
-            "type": {
-              "value": "bolt"
-            },
-            "value": 15
-          }
-        },
-        "hasRoll": {
-          "value": true
-        },
-        "opportunity": "Opportunity: Each target hit by this spell suffers dazed."
+        "fuid": "tonic"
       },
       "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
       "ownership": {
-        "default": 2,
+        "default": 0,
         "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
+        "BwRsFvMHAq9vUtEO": 3,
+        "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.spells.Item.YV1OL72oIzseoLbd"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706565033495,
-        "modifiedTime": 1716822626912,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+        "createdTime": 1729285908641,
+        "modifiedTime": 1729285908641,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
-      "sort": -50000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.4dCYIvLRIrj7dEdf"
-    },
-    {
-      "folder": "NZHiCa0mU3DKOiVo",
-      "name": "Thunderbolt",
-      "type": "spell",
-      "_id": "uZtZLZyS4u0EgonH",
-      "img": "icons/magic/lightning/bolt-strike-blue.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "mpCost": {
-          "value": "20"
-        },
-        "target": {
-          "value": "One creature"
-        },
-        "duration": {
-          "value": "Instantaneous"
-        },
-        "isOffensive": {
-          "value": true
-        },
-        "source": {
-          "value": "FUCR189"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": true
-            },
-            "type": {
-              "value": "bolt"
-            },
-            "value": 25
-          }
-        },
-        "hasRoll": {
-          "value": true
-        },
-        "opportunity": ""
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "CLAzxWQsDDB8fCLx": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.spells.Item.I4DfvMXCmGMkuXKB"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1706567202542,
-        "modifiedTime": 1716822628403,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx"
-      },
-      "sort": -25000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.uZtZLZyS4u0EgonH"
+      "_id": "wTcHKFiniLbmTEKV",
+      "sort": 75000,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.wTcHKFiniLbmTEKV"
     }
   ],
   "effects": [],
@@ -1664,10 +1841,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1712416013022,
-    "modifiedTime": 1716824265984,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729283347325,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

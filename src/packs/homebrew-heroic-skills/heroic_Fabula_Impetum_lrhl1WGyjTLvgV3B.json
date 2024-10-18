@@ -95,7 +95,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "fabula-impetum"
   },
   "effects": [],
   "sort": 100000,
@@ -107,10 +108,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1713031878571,
-    "modifiedTime": 1715040449936,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101911,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "lrhl1WGyjTLvgV3B",
   "_key": "!items!lrhl1WGyjTLvgV3B"

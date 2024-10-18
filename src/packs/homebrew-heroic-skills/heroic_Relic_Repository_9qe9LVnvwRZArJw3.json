@@ -96,7 +96,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "relic-repository"
   },
   "effects": [],
   "sort": 0,
@@ -108,10 +109,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1716742094952,
-    "modifiedTime": 1716742954659,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101336,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!9qe9LVnvwRZArJw3"
 }

@@ -2,7 +2,7 @@
   "folder": "Hji3KzMYYREBhBi2",
   "name": "Improved Fishing",
   "type": "skill",
-  "img": "icons/tools/fishing/rod-simple-bamboo.webp",
+  "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
   "system": {
     "subtype": {},
     "summary": {
@@ -114,7 +114,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "improved-fishing"
   },
   "effects": [],
   "sort": 0,
@@ -126,10 +127,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1713041900323,
-    "modifiedTime": 1715039871337,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282024631,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "1fCaY2ogHQ9PMFJ1",
   "_key": "!items!1fCaY2ogHQ9PMFJ1"

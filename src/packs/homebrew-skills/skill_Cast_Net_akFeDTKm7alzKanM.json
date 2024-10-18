@@ -3,7 +3,7 @@
   "name": "Cast Net",
   "type": "skill",
   "_id": "akFeDTKm7alzKanM",
-  "img": "icons/tools/fishing/rod-simple-bamboo.webp",
+  "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
   "system": {
     "subtype": {},
     "summary": {
@@ -115,7 +115,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "cast-net"
   },
   "effects": [],
   "sort": 0,
@@ -127,10 +128,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1713041900323,
-    "modifiedTime": 1716862545930,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282028493,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!akFeDTKm7alzKanM"
 }

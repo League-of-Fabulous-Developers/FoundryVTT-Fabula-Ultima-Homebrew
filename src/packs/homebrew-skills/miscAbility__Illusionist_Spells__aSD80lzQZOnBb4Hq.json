@@ -1,0 +1,156 @@
+{
+  "folder": "xGjBeQbU1YQlrQsK",
+  "name": "[Illusionist Spells]",
+  "type": "miscAbility",
+  "img": "icons/sundries/books/book-eye-purple.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Spells marked with ( @ICON[offensive] ) are offensive spells and require Magic Checks!</p><table style=\"height:51px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:34px\"><td style=\"height:34px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Wo9Ox5SebLFF0M6V]{Create Phantasm: Dread} @ICON[offensive]</td><td style=\"height:34px;border-width:1px\">10</td><td style=\"height:34px;border-width:1px\">One creature</td><td style=\"height:34px;border-width:1px\">Scene</td></tr></tbody></table><p>You may spend one action to conjure a terrifying Phantasm. Choose either <strong>weaken</strong> or <strong>shaken</strong>: the Phantasm inflicts the chosen status effect on the target hit by this spell. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to inflict the effects again, with no MP requirements.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.jgu28rsxgmz1derC]{Create Phantasm: Mockery} @ICON[offensive]</td><td style=\"height:17px;border-width:1px\">10</td><td style=\"height:17px;border-width:1px\">One creature</td><td style=\"height:17px;border-width:1px\">Scene</td></tr></tbody></table><p>You may spend one action to create a vexing Phantasm that taunts and distracts your foe. For the next attack, if the target rolls an even number for Accuracy Check, the attack misses. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to taunt again, with no MP requirements.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6168%\"></col><col style=\"width:16.8213%\"></col><col style=\"width:16.8213%\"></col><col style=\"width:16.8213%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9Eu50hBASZZGgSXI]{Create Phantasm: Strike} @ICON[offensive]</td><td style=\"height:17px;border-width:1px\">10</td><td style=\"height:17px;border-width:1px\">One creature</td><td style=\"height:17px;border-width:1px\">Instantaneous</td></tr></tbody></table><p>You may spend one action to create a Phantasm and command it to attack an enemy. The target hit by the Phantasm suffers <strong>【HR + 25】</strong> damage. This damage increases to 16 if you are <strong>level 20 or higher</strong>, or to 18 if you are <strong>level 40 or higher</strong>.</p><p>The range of the attack is determined by your current weapon. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to attack again, with no MP requirements. Damage dealt by this spell ignores resistances.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MICa6hdONoYf5CR3]{Detonate Phantasm} @ICON[offensive]</td><td style=\"height:17px;border-width:1px\">20</td><td style=\"height:17px;border-width:1px\">One creature</td><td style=\"height:17px;border-width:1px\">Instantaneous</td></tr></tbody></table><p>You overflow one Phantasm with energy, making it explode to devastating effect. Choose a damage type: light or dark. The target hit by this spell suffers <strong>【HR + 25】</strong> damage of the chosen type.<br />This shatters the Phantasm.</p><table style=\"height:51px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:34px\"><td style=\"height:34px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.g3c8KaRPro7JObQ9]{Essence Sacrifice}</td><td style=\"height:34px;border-width:1px\">10 × T</td><td style=\"height:34px;border-width:1px\">Up to three allies</td><td style=\"height:34px;border-width:1px\">Instantaneous</td></tr></tbody></table><p>You command your Phantasms to replenish your allies' Mind Points. Each Phantasm runs towards a companion and shatters itself in a spray of mana. Each target recovers 20 Mind Points. A single ally cannot be replenished by more than one Phantasm per action.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px;width:49.8588%\"><p>Spell</p></td><td style=\"height:17px;border-width:1px;width:17.3054%\"><p>MP</p></td><td style=\"height:17px;border-width:1px;width:16.2162%\"><p>Target</p></td><td style=\"height:17px;border-width:1px;width:16.5793%\"><p>Duration</p></td></tr><tr style=\"height:17px\"><td><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.B20KHs7V7mMvN0T0]{Illusory Shield}</p></td><td style=\"height:17px;border-width:1px;width:17.3054%\"><p>20</p></td><td><p>One creature</p></td><td style=\"height:17px;border-width:1px;width:16.5793%\"><p>Instantaneous</p></td></tr></tbody></table><p>When another creature is threatened by an attack, spell, or other danger, command one Phantasm to take their place. Any Checks that are part of the danger will be performed against the Phantasm. The Phantasm shields the creature, taking an amount of damage corresponding to how much PV it has left, until it shatters. The remaining damage goes to the creature being defended. All status effects related to the attack are nullified.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mPlGOiG1s9d6P6wu]{Mirage Blitz} @ICON[offensive]</td><td style=\"height:17px;border-width:1px\">20</td><td style=\"height:17px;border-width:1px\">One creature</td><td style=\"height:17px;border-width:1px\">Instantaneous</td></tr></tbody></table><p>You command all your Phantasms to charge at a single enemy with incredible speed, shattering on impact. They all share a single Magic Check. If they hit, the target suffers <strong>【HR + 10】</strong> physical damage per Phantasm and the dazed effect. Damage dealt by this spell ignores resistances. This amount <span>increase by 15 if you are <strong>level 20 or higher</strong>, or by 20 if you are <strong>level 40 or higher</strong>.</span></p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8ctciTZ53bvJMic2]{Multi Shatter} @ICON[offensive]</td><td style=\"height:17px;border-width:1px\">10 x T</td><td style=\"height:17px;border-width:1px\">Up to three creatures</td><td style=\"height:17px;border-width:1px\">Instantaneous</td></tr></tbody></table><p>You command all your Phantasms to charge at your foes, shattering them on impact. They all share the same Magic Check. Each target hit suffers <strong>【HR + 15】</strong> physical damage. You can target only one foe per Phantasm. Damage dealt by this spell ignores resistances.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px;width:49.8404%\"><p>Spell</p></td><td style=\"height:17px;border-width:1px;width:16.5417%\"><p>MP</p></td><td style=\"height:17px;border-width:1px;width:16.9691%\"><p>Target</p></td><td style=\"height:17px;border-width:1px;width:16.6489%\"><p>Duration</p></td></tr><tr style=\"height:17px\"><td><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mFeezZHSeg55UDEd]{Nocebo Weapon}</p></td><td style=\"height:17px;border-width:1px;width:16.5417%\"><p>10</p></td><td><p>One weapon</p></td><td style=\"height:17px;border-width:1px;width:16.6489%\"><p>Scene</p></td></tr></tbody></table><p>You make a weapon appear as if it were imbued with soul energy. Choose a damage type: <strong>light</strong> or <strong>dark</strong>. Until this spell ends, all damage dealt by the weapon is of this type. If you have that weapon equipped while casting this spell, you may perform a <strong>free attack</strong> with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px;width:49.8404%\"><p>Spell</p></td><td style=\"height:17px;border-width:1px;width:16.5417%\" data-colwidth=\"106\"><p>MP</p></td><td style=\"height:17px;border-width:1px;width:16.9691%\"><p>Target</p></td><td style=\"height:17px;border-width:1px;width:16.6489%\"><p>Duration</p></td></tr><tr style=\"height:17px\"><td><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.f9MnxVJJaPbcktkL]{Placebo Energy}</p></td><td data-colwidth=\"106\"><p>10 x T</p></td><td style=\"height:17px;border-width:1px;width:16.9691%\"><p>Up to three creatures</p></td><td style=\"height:17px;border-width:1px;width:16.6489%\"><p>Instantaneous</p></td></tr></tbody></table><p>You create an illusion that makes your companions feel healthier and refreshed for a while. For 3 turns, they gain 40 additional HP — this increases both their maximum and their current HP. This amount increases to 50 HP if you are <strong>level 20 or higher</strong>, or to 60 HP if you are <strong>level 40 or higher</strong>. After 3 turns, they lose this additional HP. If reduced to 0 Hit Points at the end of the spell, the Sacrifice and Surrender rules apply as normal.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.G90dZhjuy3QOotmX]{Spectral Light}</td><td style=\"height:17px;border-width:1px\">5 × T</td><td style=\"height:17px;border-width:1px\">Up to three creatures</td><td style=\"height:17px;border-width:1px\">Instantaneous</td></tr></tbody></table><p>You command all your active Phantasms to shatter with a blinding light. Choose either <strong>dazed</strong> or <strong>shaken</strong>: You inflict the chosen status effect on each target hit by this spell.</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:49.6504%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col><col style=\"width:16.7832%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">Spell</td><td style=\"height:17px;border-width:1px\">MP</td><td style=\"height:17px;border-width:1px\">Target</td><td style=\"height:17px;border-width:1px\">Duration</td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\">@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.zH7GgjcAyZ2ApbhK]{Vital Sacrifice}</td><td style=\"height:17px;border-width:1px\">10 × T</td><td style=\"height:17px;border-width:1px\">Up to three allies</td><td style=\"height:17px;border-width:1px\">Instantaneous</td></tr></tbody></table><p>You command your Phantasms to heal your allies. Each Phantasm runs towards a companion and shatters itself in a cloud of healing energy. Each target recovers 20 Hit Points. A single ally cannot be healed by more than one Phantasm per action.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FULF"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "defense": "def",
+    "fuid": "elementalist-spells"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "hYECXwi6O8UUBuN4": 3,
+    "BwRsFvMHAq9vUtEO": 3,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {
+    "core": {},
+    "projectfu-playtest": {
+      "growthClock": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728430411071,
+    "modifiedTime": 1728433264176,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_id": "aSD80lzQZOnBb4Hq",
+  "sort": 0,
+  "_key": "!items!aSD80lzQZOnBb4Hq"
+}

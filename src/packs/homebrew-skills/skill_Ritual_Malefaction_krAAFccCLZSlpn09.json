@@ -114,7 +114,8 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "ritual-malefaction"
   },
   "effects": [],
   "sort": 500000,
@@ -126,10 +127,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715801812997,
-    "modifiedTime": 1715823341370,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729282029435,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "krAAFccCLZSlpn09",
   "_key": "!items!krAAFccCLZSlpn09"

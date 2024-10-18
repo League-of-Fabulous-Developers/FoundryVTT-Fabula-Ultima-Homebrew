@@ -124,7 +124,8 @@
       "step": 1,
       "max": 6
     },
-    "defense": "def"
+    "defense": "def",
+    "fuid": "handout-entourage-rules"
   },
   "effects": [],
   "flags": {
@@ -136,10 +137,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1706551315529,
-    "modifiedTime": 1716733939247,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282024995,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "6qshkYrdjOu6b4QL",
   "sort": 0,

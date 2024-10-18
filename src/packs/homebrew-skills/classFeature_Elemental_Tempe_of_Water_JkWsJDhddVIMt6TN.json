@@ -16,17 +16,20 @@
       "haunt": "<p>If the Hauntee’s Bond with you has more positive emotions, they may change any damage they deal to <strong>ice</strong>, or add 2 damage for each positive emotion if it was already <strong>ice</strong>.</p><p>If their bond with you has more negative emotions, they may instead change the damage to poison, or add 2 damage for each negative emotion if it was already <strong>poison</strong>.</p>",
       "ritual": "<p>Guide and purify water to bring life.</p>"
     },
-    "source": "Homebrew"
+    "source": "Homebrew",
+    "fuid": "elemental-tempe-of-water"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715110576319,
-    "modifiedTime": 1716842467052,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729281485080,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "JkWsJDhddVIMt6TN",
   "sort": 0,

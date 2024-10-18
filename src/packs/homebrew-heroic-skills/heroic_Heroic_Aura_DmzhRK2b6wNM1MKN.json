@@ -96,7 +96,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "heroic-aura"
   },
   "effects": [],
   "sort": 200000,
@@ -108,10 +109,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1713031878571,
-    "modifiedTime": 1715040445296,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101496,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!DmzhRK2b6wNM1MKN"
 }

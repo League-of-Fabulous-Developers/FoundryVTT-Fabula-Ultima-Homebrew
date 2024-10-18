@@ -1,0 +1,94 @@
+{
+  "name": "Illusionist",
+  "type": "class",
+  "_id": "rPyzPFTNcS2nJ4nv",
+  "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+  "system": {
+    "fuid": "illusionist",
+    "subtype": {},
+    "summary": {
+      "value": "If knowledge is power, I’ve got bad news for you."
+    },
+    "description": "<h5><strong>ALSO: Mesmerist, Prestidigitator, Trickster</strong></h5><p>Illusionists are masters of deception and manipulation, blurring the lines of reality to protect their allies and disorient their foes. Thriving on uncertainty, their presence on the battlefield is marked by unpredictability, sowing chaos across the enemy lines.</p><p>But an Illusionist's powers go beyond mere trickery: they can conjure material <strong>Phantasms</strong>, sending these mindless doppelgangers into the fray on their behalf.</p><hr /><h5><strong>ILLUSIONIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform <strong>Rituals</strong> whose effects fall within the <strong>Ritualism discipline</strong>.</li></ul><h2><strong>ILLUSIONIST SKILLS</strong></h2><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ZpNXTYGxw6xMWkmY]{Illusionist Magic (SL10)}</strong></p><p>Each time you acquire this Skill, learn one <strong>Illusionist spell</strong>. Offensive Illusionist spells and <strong>Phantasm</strong> use <strong>【INS + WLP】</strong> for their Checks.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.RH2J6woo98YWM0W3]{Phantasmal Echo (SL5)}</strong></p><p>After any of your Phantasms is destroyed, you may immediately recover <strong>【SL + 2】</strong> Mind Points.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.3CwZuXYCrgyKxpKm]{Phantasmal Recovery (SL5)}</strong></p><p>Destroy one of your Phantasms to recover <strong>【SL × 5】</strong> HP. Destroying a Phantasm this way <strong>will not</strong> trigger the Phantasmal Echo skill.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.bpbNh6wTEO9muDrX]{Phantasmal Recycling}</strong></p><p>When you cast a spell, if you don't have enough MP to pay for its total cost, you may choose to destroy one of your Phantasms instead. Destroying a Phantasm this way <strong>will not</strong> trigger the Phantasmal Echo skill. You <strong>cannot</strong> use this skill to create a Phantasm.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tgmv3ULFdtO1yMHO]{Ritual Illusionism}</strong></p><p>You may perform <strong>Rituals</strong> whose effects fall within the <strong>Illusionism discipline</strong>.</p><p><strong>Illusionism Rituals</strong> use <strong>【INS + WLP】</strong> for the Magic Check.</p><p></p><h3>PHANTASMS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.Bp8PntSqJ0Gln6SZ.JournalEntryPage.zEsGtUHjf0ZpsEBn]{PHANTASMS}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aSD80lzQZOnBb4Hq]{[Illusionist Spells]}</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": true
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": true
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "FULF"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728419664452,
+    "modifiedTime": 1728434116024,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!items!rPyzPFTNcS2nJ4nv"
+}

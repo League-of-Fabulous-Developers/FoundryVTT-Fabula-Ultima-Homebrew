@@ -16,17 +16,20 @@
       "haunt": "<p>If the Hauntee has a Bond with the Stardust, they may choose one of the following for each emotion in that Bond: resistance to <strong>bolt</strong>, resistance to <strong>fire</strong>, and resistance to <strong>light</strong>.</p><p>If they do not, they take <strong>@DMG[5 bolt]</strong> damage at the start of their turn. If they have multiple turns in a round, the second is <strong>@DMG[5 fire]</strong> damage, then <strong>@DMG[5 light]</strong> damage, then no more until the next round.</p><hr><p><strong>@EFFECT[eyJuYW1lIjoiUmVzaXN0YW5jZTogQm9sdCIsImNoYW5nZXMiOlt7ImtleSI6InN5c3RlbS5hZmZpbml0aWVzLmJvbHQiLCJtb2RlIjowLCJ2YWx1ZSI6InVwZ3JhZGUifV0sImljb24iOiJpY29ucy9tYWdpYy9kZWZlbnNpdmUvc2hpZWxkLWJhcnJpZXItZmxhbWluZy1wZW50YWdvbi1ibHVlLXllbGxvdy53ZWJwIn0=] @EFFECT[eyJuYW1lIjoiUmVzaXN0YW5jZTogRmlyZSIsImNoYW5nZXMiOlt7ImtleSI6InN5c3RlbS5hZmZpbml0aWVzLmZpcmUiLCJtb2RlIjowLCJ2YWx1ZSI6InVwZ3JhZGUifV0sImljb24iOiJpY29ucy9tYWdpYy9kZWZlbnNpdmUvc2hpZWxkLWJhcnJpZXItZmxhbWluZy1wZW50YWdvbi1yZWQud2VicCJ9]</strong></p><p><strong>@EFFECT[eyJuYW1lIjoiUmVzaXN0YW5jZTogTGlnaHQiLCJjaGFuZ2VzIjpbeyJrZXkiOiJzeXN0ZW0uYWZmaW5pdGllcy5saWdodCIsIm1vZGUiOjAsInZhbHVlIjoidXBncmFkZSJ9XSwiaWNvbiI6Imljb25zL21hZ2ljL2RlZmVuc2l2ZS9zaGllbGQtYmFycmllci1mbGFtaW5nLXBlbnRhZ29uLXB1cnBsZS1vcmFuZ2Uud2VicCJ9]</strong></p>",
       "ritual": "<p>Move fast, burn brightly, and resist hostile environments.</p>"
     },
-    "source": "Homebrew"
+    "source": "Homebrew",
+    "fuid": "powercore-of-the-stardust"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715110576319,
-    "modifiedTime": 1716847016425,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729281494278,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "7nGCGU6n0HbT5dWz",
   "sort": 0,

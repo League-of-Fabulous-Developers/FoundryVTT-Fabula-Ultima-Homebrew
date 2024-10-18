@@ -1,0 +1,22 @@
+{
+  "name": "Hunter [FULF]",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "QFIN04eSLGjn1zMw",
+  "description": "",
+  "sort": 100000,
+  "color": "#3a5a27",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728421194446,
+    "modifiedTime": 1728422554972,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!folders!QFIN04eSLGjn1zMw"
+}

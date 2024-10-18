@@ -95,17 +95,20 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "flesh-and-shadow"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715090916333,
-    "modifiedTime": 1715091566116,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282101427,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "CNKF6owcuObrd1JB",
   "sort": 0,

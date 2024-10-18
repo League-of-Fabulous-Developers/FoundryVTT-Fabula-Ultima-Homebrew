@@ -95,7 +95,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "unsuspected-persona"
   },
   "effects": [],
   "sort": 0,
@@ -107,10 +108,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715095796128,
-    "modifiedTime": 1715096245736,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282102123,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "zEHRgscd6yrGnPlF",
   "_key": "!items!zEHRgscd6yrGnPlF"

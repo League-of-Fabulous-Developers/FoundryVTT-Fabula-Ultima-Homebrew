@@ -22,7 +22,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "rejuvenator"
   },
   "effects": [],
   "flags": {
@@ -31,10 +32,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715048449880,
-    "modifiedTime": 1715049819353,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282028659,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "bj59z8qM1Ov9V54d",
   "sort": 0,

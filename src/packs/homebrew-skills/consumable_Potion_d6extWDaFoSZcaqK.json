@@ -23,7 +23,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "potion"
   },
   "effects": [],
   "sort": 0,
@@ -35,10 +36,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715048449880,
-    "modifiedTime": 1715048573850,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282028756,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!d6extWDaFoSZcaqK"
 }

@@ -125,7 +125,8 @@
       "value": false
     },
     "opportunity": "",
-    "defense": "def"
+    "defense": "def",
+    "fuid": "handout-finisher-rules"
   },
   "effects": [],
   "flags": {
@@ -139,10 +140,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1708922588320,
-    "modifiedTime": 1716074509667,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729281413615,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR",
+    "duplicateSource": null
   },
   "sort": 100000,
   "ownership": {

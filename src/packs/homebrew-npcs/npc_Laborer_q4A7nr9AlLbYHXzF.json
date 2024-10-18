@@ -38,7 +38,10 @@
       "fp": {
         "value": 3
       },
-      "bonds": []
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
     },
     "affinities": {
       "physical": {
@@ -176,7 +179,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -211,7 +219,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -221,11 +232,28 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -285,7 +313,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "heavy-weapon"
       },
       "_id": "Xg27Mw1pecNBzYI4",
       "img": "icons/svg/item-bag.svg",
@@ -304,10 +333,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804084426,
-        "modifiedTime": 1715807778221,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287602607,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Actor.TIMkq8fwjl04se0F.Item.D4tYKP9yX6EI6vqD",
+        "duplicateSource": null
       },
       "_key": "!actors.items!q4A7nr9AlLbYHXzF.Xg27Mw1pecNBzYI4"
     },
@@ -368,7 +399,8 @@
               "value": false
             }
           }
-        }
+        },
+        "fuid": "thrown-weapon"
       },
       "_id": "aezDoSmT0km1ef8D",
       "img": "icons/svg/item-bag.svg",
@@ -387,10 +419,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715804084215,
-        "modifiedTime": 1715807759539,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287605859,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": "Actor.TIMkq8fwjl04se0F.Item.QajiHXVStnTEmdvL",
+        "duplicateSource": null
       },
       "_key": "!actors.items!q4A7nr9AlLbYHXzF.aezDoSmT0km1ef8D"
     },
@@ -426,7 +460,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "experienced-worker"
       },
       "_id": "THfMt2ENsiru9OEl",
       "img": "icons/svg/item-bag.svg",
@@ -441,10 +476,12 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715807886669,
-        "modifiedTime": 1715807938693,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287609505,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!q4A7nr9AlLbYHXzF.THfMt2ENsiru9OEl"
     },
@@ -480,7 +517,8 @@
         },
         "source": {
           "value": "Homebrew"
-        }
+        },
+        "fuid": "physically-fit"
       },
       "_id": "Mo4uAxs6NJDNBAwm",
       "img": "icons/svg/item-bag.svg",
@@ -495,17 +533,18 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1715807886954,
-        "modifiedTime": 1715807931571,
-        "lastModifiedBy": "pBweP8B18hmB7U1j"
+        "modifiedTime": 1729287612395,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!q4A7nr9AlLbYHXzF.Mo4uAxs6NJDNBAwm"
     }
   ],
   "effects": [
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Actor.q4A7nr9AlLbYHXzF",
       "duration": {
         "startTime": 0,
@@ -541,7 +580,21 @@
           "CrisisInteraction": "none"
         }
       },
-      "tint": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!actors.effects!q4A7nr9AlLbYHXzF.roOwe6OfPYme4SPj"
     }
   ],
@@ -558,10 +611,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715803445479,
-    "modifiedTime": 1716344012296,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729287700611,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "q4A7nr9AlLbYHXzF",
   "_key": "!actors!q4A7nr9AlLbYHXzF"

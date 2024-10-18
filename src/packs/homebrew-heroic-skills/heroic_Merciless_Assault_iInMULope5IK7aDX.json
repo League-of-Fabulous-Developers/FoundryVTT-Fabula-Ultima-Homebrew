@@ -94,7 +94,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "merciless-assault"
   },
   "effects": [],
   "folder": "gPjvfXeiQA5waz6v",
@@ -108,10 +109,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715790947277,
-    "modifiedTime": 1715818972503,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729282101866,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "iInMULope5IK7aDX",
   "sort": 0,

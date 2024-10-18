@@ -113,7 +113,8 @@
       "current": 0,
       "step": 1,
       "max": 6
-    }
+    },
+    "fuid": "crimson-malediction"
   },
   "effects": [],
   "folder": "q3edpagvKBdht0Uw",
@@ -123,10 +124,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1709317931671,
-    "modifiedTime": 1713023219271,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729281701675,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "WG7v4YfpTm52lwv4",
   "sort": 100000,

@@ -124,7 +124,8 @@
       "value": false
     },
     "opportunity": "",
-    "defense": "def"
+    "defense": "def",
+    "fuid": "handout-all-finisher-bases"
   },
   "effects": [],
   "flags": {
@@ -136,10 +137,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1708922588320,
-    "modifiedTime": 1715114140002,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729281403619,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "ownership": {
     "default": 0,

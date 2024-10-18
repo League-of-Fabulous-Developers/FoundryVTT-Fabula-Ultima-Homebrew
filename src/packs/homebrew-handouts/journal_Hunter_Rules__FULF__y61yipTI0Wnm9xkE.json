@@ -1,0 +1,61 @@
+{
+  "name": "Hunter Rules [FULF]",
+  "_id": "y61yipTI0Wnm9xkE",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "TRAPS",
+      "type": "text",
+      "_id": "ymijw4JS529Pg8dI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Traps follow a set of special rules.</p><ul><li><p>Except for the Master Trapper Heroic skill, traps can only be deployed <strong>outside of battles</strong> and <strong>beyond the perception</strong> of the target creatures.</p></li><li><p>To set a trap, you perform the <strong>Inventory action</strong> and spend a number of Inventory Points <strong>equal to the 【SL】</strong> required to learn the trap.</p></li><li><p>Upon setting a trap, you may spend 10 Mind Points to choose one option: the trap gains <strong>multi (2)</strong> — or you increase the trap’s multi property by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p>If the trap is not in the predicted route of any foe, you may try <strong>luring creatures toward it</strong>. Prepare the terrain as best as you can!</p></li><li><p>Upon touching the trap, a creature rolls an Opposed <strong>【DEX + INS】</strong> Check against you. You gain a bonus equal to <strong>【SL】 </strong>on this check. If your trap has the multi property, only one check is required. You or the Game Master decide which additional creatures are affected.</p></li><li><p>If the creature that touched the trap passes the opposed check, <strong>the trap fails,</strong> and <strong>you lose the IP</strong> spent. The enemy might be now aware of your presence.</p></li><li><p>At any point during the scene, if the trap remains untouched and there are no foes observing you, you may <strong>safely disable it</strong> and recover your <strong>IP</strong>.</p></li><li><p>If, for any reason, you leave the scene before retrieving an untouched trap, the Game Master may decide, depending on the circumstances of your departure, whether you have retrieved the trap.</p></li></ul><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "MZACGjYlT5yfbfPC": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1728428768385,
+        "modifiedTime": 1728429718135,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_key": "!journal.pages!y61yipTI0Wnm9xkE.ymijw4JS529Pg8dI"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728428728362,
+    "modifiedTime": 1728428728362,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!journal!y61yipTI0Wnm9xkE"
+}

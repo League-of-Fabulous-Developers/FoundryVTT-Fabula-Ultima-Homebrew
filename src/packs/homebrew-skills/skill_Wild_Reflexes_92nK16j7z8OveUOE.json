@@ -1,0 +1,187 @@
+{
+  "folder": "QFIN04eSLGjn1zMw",
+  "name": "Wild Reflexes",
+  "type": "skill",
+  "_id": "92nK16j7z8OveUOE",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "fuid": "wild-reflexes",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you perform the <strong> @EFFECT[guard] </strong> action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p><p>Additionally, if an enemy <strong>misses</strong> you with an attack during the effect of this skill, you may perform a <strong>free attack</strong> against that creature. Treat your <strong>High Roll (HR)</strong> as <strong>0</strong> when calculating the damage dealt by this attack.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 3,
+      "min": 0
+    },
+    "class": {
+      "value": "Hunter"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FULF"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.92nK16j7z8OveUOE",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "name": "Wild Reflexes",
+      "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
+      "_id": "1sybvW4Z2s6Q6ipt",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.derived.def.value",
+          "mode": 2,
+          "value": "@system.level.value",
+          "priority": null
+        }
+      ],
+      "description": "<p>When you perform the <strong>@EFFECT[guard] </strong>action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1728420454824,
+        "modifiedTime": 1728420625830,
+        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+      },
+      "_key": "!items.effects!92nK16j7z8OveUOE.1sybvW4Z2s6Q6ipt"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728420263424,
+    "modifiedTime": 1728439651394,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!items!92nK16j7z8OveUOE"
+}

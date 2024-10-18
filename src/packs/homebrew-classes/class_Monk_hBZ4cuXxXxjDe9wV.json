@@ -1,0 +1,94 @@
+{
+  "name": "Monk",
+  "type": "class",
+  "_id": "hBZ4cuXxXxjDe9wV",
+  "img": "icons/equipment/neck/collar-rounded-red.webp",
+  "system": {
+    "fuid": "monk",
+    "subtype": {},
+    "summary": {
+      "value": "Balance and resolve are the riverbed of strength."
+    },
+    "description": "<h5><strong>ALSO: Ascendant, Zen Warrior, Kensei</strong></h5><p>Monks are masters of mind, body, and spirit, using their inner clarity to achieve supernatural feats. Through rigorous discipline, they can harness raw spiritual might to endure adversity, aid their allies, and strike with precision.</p><p>Monks seek to maintain balance — within themselves and in the world around them —, believing that true strength lies not in mastering combat, but in understanding the nature of conflict itself. Some monks choose solitude to perfect their discipline, while others act as conduits to harmonious living, helping the world around them.</p><p>Monks are capable of conjuring <strong>Soul Beads</strong>, which can appear in various forms: glowing segments on a mala, marks on your skin, or floating orbs circling your body — how do yours manifest?</p><hr /><h5><strong>MONK FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>Gain the ability to equip <strong>martial ranged weapons</strong> and <strong>martial melee weapons</strong>.</li></ul><h2><strong>MONK SKILLS</strong></h2><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.SzsNaeREQGUpeo9u]{Clarity (SL3)}</strong></p><p>For each pair of active <strong>Resolve Soul Beads</strong> you possess, choose one cumulative benefit from the following list. The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.a65UYj7NaS0pgz7d]{Resonant Clarity (SL3)}</strong></p><p>Your unwavering resolve and mental clarity radiate outward, reaching your companions. For each <strong>【SL】</strong>, you can share one of your active benefits from the <strong>Clarity Skill</strong>.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.t3eHGb1h2RBfCDye]{Soul Renewal}</strong></p><p>Choose any number of visible allies. As an action, launch your Soul Beads towards them, spending 2 MP per Bead. Each delivered bead restores 10 HP <strong>or</strong> MP (your choice). Each bead used in this way is destroyed.</p><p>At <strong>level 20</strong>, the regeneration increases to 12 HP/MP per bead, and at <strong>level 40</strong>, to 15 HP/MP per bead.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.FKruofSyld8CMxOe]{Spirit Shot (SL3)}</strong></p><p>As an action, choose any number of Soul Beads to release in a <strong>ranged attack</strong> against enemies, spending 2 MP per Bead. Perform a <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 2】</strong> HP <strong>or</strong> MP per bead. This damage ignores Resistances. Each bead is destroyed after use, whether it hits or not.</p><p>Beads targeting HP affect the target’s <strong>Defense</strong>, while those targeting MP affect their <strong>Magic Defense</strong>.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WaJj04PEIogLmwx4]{Spiritual Fortress (SL3)}</strong></p><p>As a reaction, destroy any number of Soul Beads to reduce incoming damage to you or your allies by <strong>【SL × 2】</strong>, before applying any damage Affinities. Each Soul Bead destroyed this way costs 2 MP.</p><p></p><h3>SOUL BEADS</h3><p>Soul Beads can appear in various forms: glowing segments on a mala, marks on your skin, or floating orbs circling your body — how do yours manifest?</p><ul><li><p>Your Soul Bead limit equals half your WLP die size, with a minimum of 3 and a maximum of 6.</p></li><li><p>You begin a conflict with a full set of <strong>Core Soul Beads</strong>. These Beads don’t count toward the Clarity Skill.</p></li><li><p>Once you start spending your Core Soul Beads, you gain 2 <strong>Resolve Soul Beads</strong> per turn, up to your Soul Bead limit.</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": true
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": true
+        },
+        "ranged": {
+          "value": true
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "FULF"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZACGjYlT5yfbfPC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728419738516,
+    "modifiedTime": 1728435292700,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!items!hBZ4cuXxXxjDe9wV"
+}

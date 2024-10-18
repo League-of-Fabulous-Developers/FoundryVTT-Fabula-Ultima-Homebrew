@@ -3,7 +3,7 @@
   "name": "Call of the Old Ones",
   "type": "heroic",
   "_id": "hPwo2Lyr12COOsao",
-  "img": "icons/tools/fishing/rod-simple-bamboo.webp",
+  "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
   "system": {
     "subtype": {
       "value": "skill"
@@ -96,7 +96,8 @@
     },
     "source": {
       "value": "Homebrew"
-    }
+    },
+    "fuid": "call-of-the-old-ones"
   },
   "effects": [],
   "sort": 100000,
@@ -108,10 +109,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1715038156384,
-    "modifiedTime": 1716865672424,
-    "lastModifiedBy": "CLAzxWQsDDB8fCLx"
+    "modifiedTime": 1729282101850,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!hPwo2Lyr12COOsao"
 }

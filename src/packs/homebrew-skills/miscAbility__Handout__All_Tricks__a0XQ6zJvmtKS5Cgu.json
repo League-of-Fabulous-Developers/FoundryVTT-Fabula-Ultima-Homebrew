@@ -124,7 +124,8 @@
       "value": false
     },
     "opportunity": "",
-    "defense": "def"
+    "defense": "def",
+    "fuid": "handout-all-tricks"
   },
   "effects": [],
   "flags": {
@@ -138,10 +139,12 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1708922588320,
-    "modifiedTime": 1716737491291,
-    "lastModifiedBy": "B6evqtezy9ZsGZG3"
+    "modifiedTime": 1729282028300,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR",
+    "duplicateSource": null
   },
   "sort": 100000,
   "ownership": {

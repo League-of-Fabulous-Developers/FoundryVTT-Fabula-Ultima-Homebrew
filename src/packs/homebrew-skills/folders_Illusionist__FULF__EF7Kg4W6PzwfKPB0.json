@@ -1,0 +1,22 @@
+{
+  "name": "Illusionist [FULF]",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "EF7Kg4W6PzwfKPB0",
+  "description": "",
+  "sort": 0,
+  "color": "#ff4c6e",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728419187639,
+    "modifiedTime": 1728421386647,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+  },
+  "_key": "!folders!EF7Kg4W6PzwfKPB0"
+}

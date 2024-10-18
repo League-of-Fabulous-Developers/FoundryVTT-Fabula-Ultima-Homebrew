@@ -114,17 +114,20 @@
     },
     "hasRoll": {
       "value": false
-    }
+    },
+    "fuid": "grapple"
   },
   "effects": [],
   "flags": {},
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1713026327778,
-    "modifiedTime": 1716073995056,
-    "lastModifiedBy": "pBweP8B18hmB7U1j"
+    "modifiedTime": 1729281429608,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "smYGm4dxTLgH0JuP",
   "sort": 0,
