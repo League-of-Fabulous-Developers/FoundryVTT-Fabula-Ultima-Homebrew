@@ -34,7 +34,6 @@ If you have any questions or would like to submit your homebrew it could be done
 - Discord: [Rooster Games Discord](https://discord.gg/G9qGbn2) - `#fabula-ultima-homebrew` channel
 - Discord: [Project FU Discord](https://discord.gg/SNuxpzCgVB) - `#support` channel
 
-
 ## Credit
 
 The full list of homebrew authors can be found in the [Attribution Page](https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima-Homebrew/blob/main/ATTRIBUTIONS.md).

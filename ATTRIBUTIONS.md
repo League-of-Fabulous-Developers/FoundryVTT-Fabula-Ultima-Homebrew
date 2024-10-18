@@ -25,3 +25,6 @@ For the following, PDFs can be found in Orphan's repository ([Link](https://driv
 - Malefactor ([STELLA IPULSUM](https://drive.google.com/file/d/1tb-2B26GB1o6N3jcI0x0rrM0tfUhYuRo/view)) by Desm☆n
 - Dungeneer ([SPELUNCA ULTIMA](https://drive.google.com/file/d/1o5lvEFJCWGghY-TDeLkwlpQBwLvrPx4S/view)) by Desm☆n
 - Delinquent ([Link](https://drive.google.com/file/d/1uiNEJu3meKuVWhqWCgjvDxXC0iULDp2t/view)) by Desm☆n
+- Hunter ([Link](https://drive.google.com/drive/folders/1z6NPtj_YwrBiRCQASCeruMCxomTYO03I)) by Breno
+- Illusionist ([Link](https://drive.google.com/drive/folders/1z6NPtj_YwrBiRCQASCeruMCxomTYO03I)) by Breno
+- Monk ([Link](https://drive.google.com/drive/folders/1z6NPtj_YwrBiRCQASCeruMCxomTYO03I)) by Breno
