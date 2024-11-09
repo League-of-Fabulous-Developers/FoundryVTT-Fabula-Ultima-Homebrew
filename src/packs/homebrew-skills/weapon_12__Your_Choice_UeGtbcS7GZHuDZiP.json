@@ -1,0 +1,106 @@
+{
+  "folder": "9xlvR8c4x1gRCj0v",
+  "name": "12. Your Choice",
+  "type": "weapon",
+  "img": "icons/creatures/fish/fish-carp-green.webp",
+  "system": {
+    "fuid": "thrown-fish",
+    "subtype": {},
+    "summary": {
+      "value": "Your choice of any weapon category!"
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 14
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "arcane"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "eGFjUCXxDy8l2KwV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731166649041,
+    "modifiedTime": 1731166699941,
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV"
+  },
+  "_id": "UeGtbcS7GZHuDZiP",
+  "sort": 0,
+  "_key": "!items!UeGtbcS7GZHuDZiP"
+}

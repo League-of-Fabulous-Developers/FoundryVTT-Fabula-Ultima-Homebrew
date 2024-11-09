@@ -1,0 +1,106 @@
+{
+  "folder": "k3MCzSB6Fc62Hn80",
+  "name": "Jellyfish",
+  "type": "weapon",
+  "_id": "bytxIbxKj4KGP4Rr",
+  "img": "icons/creatures/fish/fish-carp-green.webp",
+  "system": {
+    "fuid": "jellyfish",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "dex"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 8
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "flail"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "bolt"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731168957830,
+    "modifiedTime": 1731168957830,
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eGFjUCXxDy8l2KwV": 3
+  },
+  "_key": "!items!bytxIbxKj4KGP4Rr"
+}

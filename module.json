@@ -42,6 +42,7 @@
         "homebrew-heroic-skills",
         "homebrew-heroic-styles",
         "homebrew-classic-characters",
+        "homebrew-rollable-tables",
         "homebrew-handouts",
         "homebrew-npcs"
       ]
@@ -97,6 +98,17 @@
       "label": "Classic Characters [Homebrew]",
       "path": "packs/homebrew-classic-characters",
       "type": "Actor",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-rollable-tables",
+      "label": "Rollable Tables [Homebrew]",
+      "path": "packs/homebrew-rollable-tables",
+      "type": "RollTable",
       "system": "projectfu",
       "ownership": {
         "PLAYER": "OBSERVER",

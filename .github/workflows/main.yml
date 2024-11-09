@@ -107,7 +107,7 @@ jobs:
 
       # Run npm script to convert YML to LDB before creating release
       - name: Convert YML to LDB
-        run: npm run pullYMLtoLDB
+        run: npm run pack
         working-directory: ./tools
 
       # Create a "module.zip" archive containing all the module's required files.

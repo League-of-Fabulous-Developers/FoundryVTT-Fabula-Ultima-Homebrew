@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"description": "A community homebrew module for Fabula Ultima system",
 	"scripts": {
-		"pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs",
-		"pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs"
+		"unpack": "node ./tools/pushLDBtoYML.mjs",
+		"pack": "node ./tools/pullYMLtoLDB.mjs"
 	},
 	"browserslist": [
 		"last 3 versions"
