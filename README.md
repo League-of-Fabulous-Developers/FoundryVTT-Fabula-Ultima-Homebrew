@@ -1,4 +1,4 @@
-# Fabula Ultima Community Homebrew
+# ProjectFU Community Homebrew
 
 ![fu-sitecover.jpg](https://trello.com/1/cards/64db0994c4a8791322c8b2e2/attachments/64f476a7f1dc332714f44c8c/download/fu-sitecover.jpg)
 
