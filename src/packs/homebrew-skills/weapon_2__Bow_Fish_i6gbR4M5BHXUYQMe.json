@@ -1,0 +1,106 @@
+{
+  "folder": "9xlvR8c4x1gRCj0v",
+  "name": "2. Bow Fish",
+  "type": "weapon",
+  "img": "icons/creatures/fish/fish-carp-green.webp",
+  "system": {
+    "fuid": "thrown-fish",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "dex"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 4
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "bow"
+    },
+    "hands": {
+      "value": "one-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731166635490,
+    "modifiedTime": 1731166635490,
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV"
+  },
+  "_id": "i6gbR4M5BHXUYQMe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eGFjUCXxDy8l2KwV": 3
+  },
+  "_key": "!items!i6gbR4M5BHXUYQMe"
+}

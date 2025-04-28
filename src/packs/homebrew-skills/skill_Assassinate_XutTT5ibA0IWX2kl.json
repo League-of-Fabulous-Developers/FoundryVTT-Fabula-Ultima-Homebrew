@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may spend an action and up to <strong>【SL x 5】 MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>As an action, spend between <strong>5</strong> and <strong>【SL × 5】</strong> <strong>MP</strong> to select a target and perform a <strong>Free Attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against them. Add a <strong>+1</strong> bonus to your <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way.</p><p>If you beat your target’s <strong>Defense</strong> by 5 or more, multiply the attack’s damage by <strong>x2</strong>. If the target was <strong>Vulnerable</strong> to your attack and you triggered the damage multiplier, increase it to <strong>x3</strong> and ignore <strong>Vulnerable</strong>.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -54,9 +54,7 @@
       "value": 0,
       "type": {
         "value": "physical"
-      },
-      "onRoll": "",
-      "onApply": ""
+      }
     },
     "impdamage": {
       "hasImpDamage": {
@@ -127,8 +125,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712415118257,
-    "modifiedTime": 1745805921031,
-    "lastModifiedBy": "9aR18wpxqiStEQ8U",
+    "modifiedTime": 1729282028028,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null
   },

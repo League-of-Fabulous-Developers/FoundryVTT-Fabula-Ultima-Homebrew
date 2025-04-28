@@ -1,0 +1,106 @@
+{
+  "folder": "k3MCzSB6Fc62Hn80",
+  "name": "Lava Archerfish",
+  "type": "weapon",
+  "img": "icons/creatures/fish/fish-carp-green.webp",
+  "system": {
+    "fuid": "jellyfish",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": true
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "mdef",
+    "damage": {
+      "value": 12
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "firearm"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "fire"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731168957830,
+    "modifiedTime": 1731168957830,
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV"
+  },
+  "_id": "IR0onGJm52si5DDc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eGFjUCXxDy8l2KwV": 3
+  },
+  "_key": "!items!IR0onGJm52si5DDc"
+}

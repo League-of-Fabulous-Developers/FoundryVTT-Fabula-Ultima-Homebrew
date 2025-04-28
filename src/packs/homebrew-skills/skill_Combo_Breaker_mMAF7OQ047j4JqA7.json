@@ -8,7 +8,7 @@
     "summary": {
       "value": "Quick, hit all the buttons at the same time!"
     },
-    "description": "<div class=\"stackedit__html\"><p>At the start of every conflict, gain <strong>【SL】 Combo Break</strong> tokens. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <strong>Combo Break</strong> token at any time to dodge an attack.</p><p>You lose all of <strong>Combo Break</strong> tokens at the end of the scene.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>At the start of every conflict, gain <strong>【SL】</strong> Combo Break Counters. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <em>Counter</em> at any time to dodge an attack.</p><p>You lose all of these Counters whenever there’s a scene change.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -53,9 +53,7 @@
       "value": 0,
       "type": {
         "value": "physical"
-      },
-      "onRoll": "",
-      "onApply": ""
+      }
     },
     "impdamage": {
       "hasImpDamage": {
@@ -131,8 +129,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715043700326,
-    "modifiedTime": 1745807187939,
-    "lastModifiedBy": "9aR18wpxqiStEQ8U",
+    "modifiedTime": 1729282029622,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null
   },

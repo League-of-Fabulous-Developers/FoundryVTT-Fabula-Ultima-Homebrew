@@ -8,9 +8,9 @@
       "value": "skill"
     },
     "summary": {
-      "value": ""
+      "value": "Delicacies involving only fish use less ingredients."
     },
-    "description": "<blockquote><p><strong>Requirements: </strong>You must have mastered one or more classes among <strong>Angler</strong> and <strong>Gourmet</strong> and must have learned the <strong>Cooking</strong> skill.</p></blockquote><p>When creating <strong>delicacies</strong> consisting of only two fish, you may choose to have an additional effect that you already know in your cookbook for free.</p>",
+    "description": "<blockquote><p><strong>Requirements: </strong>You must have mastered one or more classes among <strong>Angler</strong> and <strong>Gourmet</strong> and must have learned the <strong>Cooking</strong> skill.</p></blockquote><p>When creating <strong>delicacies</strong> consisting of only two fish, you may choose to have an additional effect that you already know in your cookbook for free. When using delicacies with other ingredients, the delicacy follows the normal rules.</p>",
     "isFavored": {
       "value": false
     },
@@ -110,8 +110,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715038156384,
-    "modifiedTime": 1729282101176,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1731169222472,
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV",
     "compendiumSource": null,
     "duplicateSource": null
   },

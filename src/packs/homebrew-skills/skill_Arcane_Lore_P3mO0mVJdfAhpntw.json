@@ -1,0 +1,139 @@
+{
+  "folder": "VapJ0jSbbHHqGcEb",
+  "name": "Arcane Lore",
+  "type": "skill",
+  "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>Whenever you make an <strong>Open Check</strong> related to your knowledge of magic, curses, rituals, spells, or other similar effects, add a bonus equal to <strong>【SL】</strong> on that Check.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Ritualist"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "fuid": "arcane-lore"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "12.331",
+    "createdTime": 1712420994401,
+    "modifiedTime": 1729282027522,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "P3mO0mVJdfAhpntw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "_key": "!items!P3mO0mVJdfAhpntw"
+}

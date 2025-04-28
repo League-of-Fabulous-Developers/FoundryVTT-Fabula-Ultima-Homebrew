@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Fish out of nowhere and get benefits based on the fish caught. On a success, if you are able to <strong>equip</strong> the fish, you have the option to do a <strong>free attack</strong> with it, <strong>or</strong> trigger the effects of the fish if it is a Discovery, <strong>or</strong> store up to two fish in your <strong>inventory</strong> for later use. </span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Alternatively, instead of fishing a new fish, you can <strong>equip</strong> up to two fish from your inventory and <strong>attack</strong>. If you are  holding two fishes or a fish and a weapon, you may choose to do two weapon fighting if applicable.</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">You may store up to <strong>【SL】</strong> fish in your inventory and you may fish up to <strong>【SL】</strong> times per scene.</span></p></div>",
+    "description": "<div class=\"stackedit__html\"><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Fish out of nowhere and get benefits based on the fish caught. On a success, if you are able to <strong>equip</strong> the fish, you have the option to do a <strong>free attack</strong> with it, <strong>or</strong> trigger the effects of the fish if it is a Discovery, <strong>or</strong> store up to two fish in your <strong>inventory</strong> for later use. </span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Alternatively, instead of fishing a new fish, you can <strong>equip</strong> up to two fish from your inventory and <strong>attack</strong>. If you are  holding two fishes or a fish and a weapon, you may choose to do two weapon fighting if applicable.</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">You may store up to <strong>【SL】</strong> fish in your inventory and you may fish up to <strong>【SL】</strong> times per scene.</span></p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-rollable-tables.RollTable.BsRVNqECIlz6OhsE]{Fishing}</p></div>",
     "isFavored": {
       "value": false
     },
@@ -129,8 +129,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1713041900323,
-    "modifiedTime": 1729282027379,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1731083544578,
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -1,0 +1,139 @@
+{
+  "folder": "R6nlUG6b2nmGv2sK",
+  "name": "Perfect Parry",
+  "type": "skill",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "He parried my super! How?!"
+    },
+    "description": "<div class=\"stackedit__html\"><p>When you are about to be hit by a melee attack, you may perform an <strong>Accuracy Check</strong> as if you were attacking with an unarmed melee attack. Compare their results: <br />If you roll <strong>above</strong> it, treat that attack’s damage as if you <strong>Resist</strong> it.<br />If you roll <strong>below</strong> it, treat the attack’s damage as if you are <strong>Vulnerable</strong> to it.<br />If you match it, dodge that attack instead, ignoring all of its effects.</p><p>During conflict scenes and unless you matched the difficulty, you may not do this again until the start of your next turn.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 1,
+      "min": 0
+    },
+    "class": {
+      "value": "Brawler"
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "fuid": "perfect-parry"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "12.331",
+    "createdTime": 1715043700326,
+    "modifiedTime": 1729282025184,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "9iYytTSGAbEXr8Qo",
+  "_key": "!items!9iYytTSGAbEXr8Qo"
+}

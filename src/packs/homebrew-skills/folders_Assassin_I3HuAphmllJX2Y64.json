@@ -1,0 +1,19 @@
+{
+  "name": "Assassin",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "I3HuAphmllJX2Y64",
+  "sort": 600000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712415421370,
+    "modifiedTime": 1715832425540,
+    "lastModifiedBy": "pBweP8B18hmB7U1j"
+  },
+  "_key": "!folders!I3HuAphmllJX2Y64"
+}
