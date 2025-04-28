@@ -46,7 +46,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -141,8 +143,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1706574599766,
-    "modifiedTime": 1731168899496,
-    "lastModifiedBy": "eGFjUCXxDy8l2KwV",
+    "modifiedTime": 1745876140640,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": "Compendium.fabula-ultima-core-rulebook.skills.Item.7Hw8p7ZefudMdCxV",
     "duplicateSource": null
   },
