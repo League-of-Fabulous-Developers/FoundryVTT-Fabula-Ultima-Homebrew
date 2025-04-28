@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Whenever you support an ally’s <strong>Magic Check</strong> through <strong>Teamwork</strong>, choose <strong>【SL】</strong> options:</p><ul><li><p>Grant an additional +1 bonus to their Magic Check.</p></li><li><p>If the spell deals damage or restores HP, increase that number by 5.</p></li><li><p>Reduce the spell's total MP cost by 5, down to a minimum of 0.</p></li></ul><p>You can pick the same option more than once.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>Whenever you support an ally’s <strong>Magic Check</strong> through <strong>Teamwork</strong>, choose <strong>【SL】</strong> options:</p><ul><li><p>Grant an additional <strong>+1</strong> bonus to their <strong>Magic Check</strong>.</p></li><li><p>If the spell deals damage or restores <strong>HP</strong>, increase that number by <strong>5</strong>.</p></li><li><p>Reduce the spell's total <strong>MP</strong> cost by <strong>5</strong>, down to a minimum of 0.</p></li></ul><p>You can pick the same option more than once.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,8 +126,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712420994401,
-    "modifiedTime": 1729282028624,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745810933100,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

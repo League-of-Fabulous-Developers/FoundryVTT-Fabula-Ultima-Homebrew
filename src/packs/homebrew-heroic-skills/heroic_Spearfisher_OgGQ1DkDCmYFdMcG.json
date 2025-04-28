@@ -8,9 +8,9 @@
       "value": "skill"
     },
     "summary": {
-      "value": "Use all weaponry fish in sequence attacks."
+      "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> You must have mastered the <strong>Angler</strong> class.</p></blockquote><p>When you perform the <strong>Attack</strong> action to equip two fish and attack as part of the <strong>Fishing</strong> skill, you may instead use 1 Fabula Point to use <strong>up to five weaponry fish</strong> from your inventory. This follows the normal rules for <strong>two-weapon fighting</strong>: each of the five attacks lose the <strong>multi</strong> property and cannot gain it, and you treat the <strong>High Roll (HR)</strong> of each Accuracy Check as being equal to 0 when determining damage.</p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> You must have mastered the <strong>Angler</strong> class.</p></blockquote><p>When you use the <strong>Fishing</strong> skill, you may spend 1 Fabula Point to use <strong>all of your weaponry fish up in sequence attacks</strong> (multiple attacks in one action).<br />Weapon attacks follow normal accuracy rules, however the HR is treated as 0 when determining damage and cannot gain the multi property (if it has it, it is automatically lost).</p>",
     "isFavored": {
       "value": false
     },
@@ -110,8 +110,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715038156384,
-    "modifiedTime": 1731169216306,
-    "lastModifiedBy": "eGFjUCXxDy8l2KwV",
+    "modifiedTime": 1729282101601,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null
   },

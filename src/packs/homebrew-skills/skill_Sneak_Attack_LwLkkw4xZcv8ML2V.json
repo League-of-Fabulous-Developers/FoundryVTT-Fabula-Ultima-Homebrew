@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>During your first Turn of any Conflict, you gain a <strong>【SL】</strong> bonus to your <strong>Accuracy</strong> and <strong>Magic </strong>Checks. This also applies if you used HIDE IN PLAIN SIGHT during your previous turn.</p><p>Gain a <strong>【SL】</strong> bonus to Initiative checks.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>During your <strong>first turn of a conflict</strong>; or when one of your actions includes among its targets at least one creature that <strong>cannot see you</strong>, gain a <strong>【+SL】 </strong>bonus to your <strong>Accuracy</strong> and <strong>Magic Checks</strong>.</p><p>Additionally, gain a <strong>【+SL】 </strong>bonus to <strong>Initiative</strong> checks.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,8 +126,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712415118257,
-    "modifiedTime": 1729282027215,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745806082001,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

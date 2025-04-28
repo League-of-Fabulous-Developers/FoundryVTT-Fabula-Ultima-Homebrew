@@ -8,7 +8,7 @@
     "summary": {
       "value": "Quarter circle back, half circle forward, high punch!"
     },
-    "description": "<div class=\"stackedit__html\"><p>As an action, choose a number of <em>Inputs</em> up to <strong>【SL】</strong> and spend <strong>【5 × Inputs】 MP</strong>.<br />Perform a check with <strong>【DEX + INS】</strong> against a difficulty of <strong>【6 + Inputs】</strong>.<br />If you succeed, perform an unarmed Free Attack, adding as many effects from the following list as the Inputs you chose (each may only be chosen once) :</p><ul><li><p><strong>Powerful:</strong> Deal +5 <strong>Damage</strong>.</p></li><li><p><strong>Quick:</strong> Add a +3 bonus to the <strong>Accuracy Check</strong>.</p></li><li><p><strong>Anti-air:</strong> May target <strong>Flying</strong> foes: On hit, they become grounded.</p></li><li><p><strong>Screen-clear:</strong> Gain <strong>Multi (3)</strong>.</p></li><li><p><strong>Stun:</strong> Apply <strong>Slow</strong> or <strong>Dazed</strong> on hit.</p></li></ul></div>",
+    "description": "<div class=\"stackedit__html\"><p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -129,8 +131,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715043700326,
-    "modifiedTime": 1729282028329,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745807732331,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

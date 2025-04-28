@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">When you hit an enemy with a <strong>Fishing Net</strong>, you may “reel in” the enemy, triggering an <strong>Opposed Check</strong> dependent on your narration. On a success, you may choose to do one out of the two options: If the enemy is <strong>in cover</strong> from someone using the </span>@EFFECT[guard]<span style=\"font-family:'PT Sans Narrow',sans-serif\"> action, remove @EFFECT[cover] from that enemy. <strong>Or</strong>, steal @LOSS[2 ip] from the enemy.</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Note that this would only make it so that the one who is covered from the <strong>Guard</strong> action can be targeted again. The rest of the benefits of the <strong>Guard</strong> action will still apply.</span></p></div>",
+    "description": "<div class=\"stackedit__html\"><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">You may use your action to “reel in” an enemy, triggering an<strong> Opposed Check</strong> dependent on your narration. On a success, you may choose to do one out of the two options: If the enemy is <strong>in cover</strong> from someone using the <strong>Guard</strong> action, remove <strong>cover</strong> from that enemy. <strong>Or</strong>, steal <strong>@LOSS[2 ip]</strong> Inventory Points from the enemy.</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Note that this would only make it so that the one who is guarded can be targeted again. The rest of the benefits of the <strong>Guard</strong> action will still apply.</span></p></div>",
     "isFavored": {
       "value": false
     },
@@ -129,8 +129,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1713041900323,
-    "modifiedTime": 1731076427632,
-    "lastModifiedBy": "eGFjUCXxDy8l2KwV",
+    "modifiedTime": 1729282027167,
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null
   },

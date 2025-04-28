@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you perform the <strong>Guard</strong> skill, increase your <strong>M.DEF</strong> by <strong>【SL】</strong> until the start of your next turn.</p><p>If you choose to provide cover for another creature, they also benefit from this.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>When one or more creatures you can see or hear are threatened by a <strong>Spell</strong> with a <strong>total MP cost of 【SL x 10】 or lower</strong>, you may spend up to <strong>【SL x 10】 MP</strong> to <strong>remove</strong> one creature from its list of targets <strong>for every 10 MP spent this way</strong>. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -17,7 +17,7 @@
     },
     "level": {
       "value": 1,
-      "max": 2,
+      "max": 3,
       "min": 0
     },
     "class": {
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,8 +126,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712420994401,
-    "modifiedTime": 1729282029256,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745811392537,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },
