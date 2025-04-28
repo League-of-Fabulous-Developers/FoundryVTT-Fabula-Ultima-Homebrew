@@ -1,0 +1,89 @@
+{
+  "folder": "ZktbUWishDsytN8i",
+  "name": "Whoops!",
+  "type": "skill",
+  "img": "icons/equipment/waist/sash-cloth-red.webp",
+  "system": {
+    "fuid": "whoops",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>Before performing a <strong>Check</strong>, you may declare it as a <strong>Fumble</strong> due to a clumsy accident or silly coincidence. You cannot do this on <strong>Checks</strong> that may not generate Opportunities, such as Support Checks. You gain <strong>Fabula Points</strong> as normal as part of this <strong>Fumble</strong>, and you and the <strong>GM</strong> must choose together which Opportunity you generated.</p><p>Additionally, choose one ally whenever you get a <strong>Fumble</strong>: They recover <strong>10 MP</strong>.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 1,
+      "min": 0
+    },
+    "class": {
+      "value": "Improviser"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "accuracy": 0,
+    "defense": "def",
+    "damage": {
+      "hasDamage": false,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": 0
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": []
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.s8ZQJvGKezOPHkuz",
+    "duplicateSource": "Item.OYUkvXolOyvRgigE",
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745860388779,
+    "modifiedTime": 1745860402592,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_id": "BDiDiCvnVwUahUzy",
+  "_key": "!items!BDiDiCvnVwUahUzy"
+}

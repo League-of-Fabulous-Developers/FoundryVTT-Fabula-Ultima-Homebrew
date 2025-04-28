@@ -1,0 +1,89 @@
+{
+  "folder": "bys08voRb00zyypF",
+  "name": "Grappling Smash",
+  "type": "skill",
+  "_id": "ftv2cnR4Cx9IxKpj",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "fuid": "grappling-smash",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>When you <strong>hit a single creature with a flail or brawling attack</strong> and before you resolve its damage, you may set your attack’s total damage to <strong>0</strong> and perform an <strong>Opposed Check</strong> with <strong>【DEX + MIG】</strong>. If successful, set your attack’s total damage to twice what it was, and continue resolving it.</p><p>Gain a <strong>【+SL】</strong> bonus to this check.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 3,
+      "min": 0
+    },
+    "class": {
+      "value": "Brawler"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "accuracy": 0,
+    "defense": "def",
+    "damage": {
+      "hasDamage": false,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": 0
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745857637395,
+    "modifiedTime": 1745857674522,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!items!ftv2cnR4Cx9IxKpj"
+}

@@ -1,0 +1,91 @@
+{
+  "folder": "l8DPkl4IMsjZPzN0",
+  "name": "Loyal Supporter",
+  "type": "skill",
+  "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt\" id=\"docs-internal-guid-d32754f3-7fff-a31a-d602-78ecefafd3f5\"><span style=\"font-family: 'PT Sans Narrow',sans-serif\">Whenever you are a <strong>supporting </strong>character<strong> </strong>in a Group Check (such as <strong>Teamwork</strong>), gain a【<strong>+SL</strong>】bonus to your roll.</span></p><p><span style=\"font-family: 'PT Sans Narrow',sans-serif\">For every <strong>3 points above the DL</strong>, grant the leader an additional <strong>+1</strong> bonus.</span></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "Ritualist"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false
+    },
+    "attributes": {
+      "primary": "ins",
+      "secondary": "mig"
+    },
+    "accuracy": 0,
+    "defense": "def",
+    "damage": {
+      "hasDamage": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": "",
+      "hrZero": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "fuid": "accelerate-ritual",
+    "cost": {
+      "resource": "mp",
+      "amount": 0
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745859200110,
+    "modifiedTime": 1745859254003,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "ownership": {
+    "default": 0,
+    "B6evqtezy9ZsGZG3": 3,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "_id": "nXGPCU1WlcYeSgiH",
+  "sort": 0,
+  "_key": "!items!nXGPCU1WlcYeSgiH"
+}

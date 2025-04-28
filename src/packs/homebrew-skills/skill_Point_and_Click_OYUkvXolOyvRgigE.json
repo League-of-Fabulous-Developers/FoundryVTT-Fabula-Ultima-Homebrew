@@ -1,0 +1,89 @@
+{
+  "folder": "ZktbUWishDsytN8i",
+  "name": "Point and Click",
+  "type": "skill",
+  "_id": "OYUkvXolOyvRgigE",
+  "img": "icons/equipment/waist/sash-cloth-red.webp",
+  "system": {
+    "fuid": "point-and-click",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><p>Once per scene, when you spend a <strong>Fabula Point</strong> to alter the current situation or the story, gain <strong>【SL】 IP</strong>.</p></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 2,
+      "min": 0
+    },
+    "class": {
+      "value": "Improviser"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "accuracy": 0,
+    "defense": "def",
+    "damage": {
+      "hasDamage": false,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": 0
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": []
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.s8ZQJvGKezOPHkuz",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745860388779,
+    "modifiedTime": 1745860388779,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!items!OYUkvXolOyvRgigE"
+}

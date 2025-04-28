@@ -1,0 +1,89 @@
+{
+  "folder": "eeMGbxKcwUgDYcy8",
+  "name": "Master Of Disguise",
+  "type": "skill",
+  "_id": "Bm5kX0HJR6mL6SEf",
+  "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+  "system": {
+    "fuid": "master-of-disguise",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p>If you have some time to prepare and are out of sight, you may spend <strong>1 Fabula Point</strong> to fully adopt a new persona. Write it down: You may change into that persona at any time as long as you’re out of sight of those you wish to trick.</p><p>Your disguise is practically perfect and can withstand the scrutiny of any Soldier-ranked foe until you blow your cover.</p><p>Elites, Champions, and Villains may be able to see through your disguise, but only Villains get to permanently invalidate it by spending an <strong>Ultima Point</strong>.</p></div></div>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 1,
+      "min": 0
+    },
+    "class": {
+      "value": "Assassin"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "accuracy": 0,
+    "defense": "def",
+    "damage": {
+      "hasDamage": false,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": {
+      "value": "Homebrew"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": 0
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745857295981,
+    "modifiedTime": 1745857323446,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!items!Bm5kX0HJR6mL6SEf"
+}

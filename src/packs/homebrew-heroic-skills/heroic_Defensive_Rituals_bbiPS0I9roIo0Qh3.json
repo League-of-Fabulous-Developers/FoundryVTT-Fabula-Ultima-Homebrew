@@ -1,0 +1,59 @@
+{
+  "folder": "qFVgIclqePmMCX5c",
+  "name": "Defensive Rituals",
+  "type": "heroic",
+  "_id": "bbiPS0I9roIo0Qh3",
+  "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+  "system": {
+    "fuid": "defensive-rituals",
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px 0.5em 10px;padding:0px 0px 0px 10px !important;border-left:3px solid var(--color-border-light-tertiary);font-style:italic;font-size:16px;font-family:'EB Garamond', sans-serif !important;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><p style=\"box-sizing: border-box; user-select: text; margin: 0px; font-family: 'EB Garamond', sans-serif !important; font-style: italic; font-size: 16px; line-height: 1.45em\"><span style=\"font-family: 'EB Garamond', sans-serif !important\"><em><strong style=\"box-sizing:border-box;user-select:text\">Requirements:</strong> ou have mastered at least one class among the <strong>Ritualist</strong> and <strong>Guardian</strong> classes, and have the <strong>Spellcasting Assistant</strong> skill.</em></span></p></blockquote><p>When you use the <strong>Guard</strong> action to provide <strong>cover</strong> for an ally; <strong>or</strong> when you prevent an ally from being the target of an action, you may spend <strong>5 MP</strong> to apply the effects of <strong>Spellcasting Assistant</strong> towards the <strong>first spell they cast on their next Turn</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Ritualist"
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "requirement": {
+      "value": ""
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745859327205,
+    "modifiedTime": 1745859424362,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!items!bbiPS0I9roIo0Qh3"
+}

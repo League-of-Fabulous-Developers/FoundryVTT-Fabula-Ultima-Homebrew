@@ -1,0 +1,59 @@
+{
+  "folder": "lFyLZCpBV5dJ6M8D",
+  "name": "The Perfect Distraction",
+  "type": "heroic",
+  "_id": "HZ302IoqtvywpGU7",
+  "img": "icons/equipment/waist/sash-cloth-red.webp",
+  "system": {
+    "fuid": "the-perfect-distraction",
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> you have mastered the <strong>Improviser</strong> class and have obtained either the <strong>Witty Remark</strong> or <strong>Dialog Tree</strong> skills.</p></blockquote><p>Once per Scene and immediately after a <strong>Check</strong> gets a result <strong>other</strong> than a Critical Success, you may spend <strong>1 Fabula Point</strong> and yell out some fake threat: This causes a distraction big and shocking enough to turn it into a <strong>Fumble</strong>.</p><p>If there is a <strong>Villain</strong> present in the scene, they may spend <strong>1 Ultima Point</strong> to cause the threat to <strong>actually be real</strong>, and a problem for everyone involved. Including them. But especially <strong>you</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Improviser"
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "requirement": {
+      "value": ""
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745860521067,
+    "modifiedTime": 1745860726964,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!items!HZ302IoqtvywpGU7"
+}

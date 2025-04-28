@@ -1,0 +1,59 @@
+{
+  "name": "Super-Armored Payback",
+  "type": "heroic",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "fuid": "super-armored-payback",
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": "They’re just… approaching menacingly."
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> You must have Mastered the <strong>Brawler</strong> Class.</p></blockquote><p>While wearing <strong>Martial Armor</strong> and after you are <strong>hit by an attack</strong>, your <strong>checks</strong> against your attacker gain a <strong>+3</strong> bonus until the end of your next turn.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Brawler"
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "requirement": {
+      "value": ""
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": "FEQBk6SKyhMTM5ay",
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745858176633,
+    "modifiedTime": 1745858176633,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_id": "qlHxkRmQGe1bVqfN",
+  "sort": 0,
+  "_key": "!items!qlHxkRmQGe1bVqfN"
+}

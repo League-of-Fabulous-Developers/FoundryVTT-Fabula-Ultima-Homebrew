@@ -1,5 +1,5 @@
 {
-  "folder": "rTiCS7WnivbEtYNu",
+  "folder": "I32HQrycpzzAfpPJ",
   "name": "Dual-Bladed Assassination",
   "type": "heroic",
   "img": "icons/weapons/daggers/knife-kitchen-red.webp",
@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px 0.5em 10px;padding:0px 0px 0px 10px !important;border-left:3px solid var(--color-border-light-tertiary);font-style:italic;font-size:16px;font-family:'EB Garamond', sans-serif !important;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'EB Garamond', sans-serif !important;font-style:italic;font-size:16px;line-height:1.45em\"><span style=\"font-family:'EB Garamond', sans-serif !important\"><em><strong style=\"box-sizing:border-box;user-select:text\">Requirements: </strong>You must have mastered the <strong>Assassin</strong> class and acquired the <strong>Assassinate</strong> skill.</em></span></p></blockquote><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Whenever you perform the <strong>Assassinate</strong> skill, choose one:</span></p><ul><li><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">Select an additional target</span></p></li><li><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">Re-roll your Accuracy Check and keep the best result.</span></p></li></ul><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">If both Accuracy Checks against the same target would have resulted in triggering the skill’s damage multiplier, change it from <strong>x2</strong> to <strong>x3</strong>, or <strong>x4</strong> if they were <strong>Vulnerable </strong>to your attack.</span></p>",
+    "description": "<blockquote style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px 0.5em 10px;padding:0px 0px 0px 10px !important;border-left:3px solid var(--color-border-light-tertiary);font-style:italic;font-size:16px;font-family:'EB Garamond', sans-serif !important;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><p style=\"box-sizing: border-box; user-select: text; margin: 0px; font-family: 'EB Garamond', sans-serif !important; font-style: italic; font-size: 16px; line-height: 1.45em\"><span style=\"font-family: 'EB Garamond', sans-serif !important\"><em><strong style=\"box-sizing:border-box;user-select:text\">Requirements: </strong>You must have mastered the <strong>Assassin</strong> class and acquired the <strong>Assassinate</strong> skill.</em></span></p></blockquote><p style=\"box-sizing: border-box; user-select: text; margin: 0px; font-family: 'PT Sans Narrow', sans-serif; font-style: normal; font-size: 16px; line-height: 1.45em; color: rgb(43, 74, 66); font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: 'PT Sans Narrow', sans-serif\">Whenever you perform the <strong>Assassinate</strong> skill, choose one:</span></p><p><span style=\"font-family: 'PT Sans Narrow', sans-serif\">Target an additional creature; <strong>or</strong> repeat your <strong>Accuracy Check</strong> and keep the better result.</span></p><p><span style=\"font-family: 'PT Sans Narrow', sans-serif\">If both <strong>Accuracy Checks</strong> against the same target would have resulted in triggering an <em>Assassination</em>, increase the damage multiplier by one step (e.g from <strong>x2</strong> to <strong>x3</strong>, or <strong>x3</strong> to <strong>x4</strong>).</span></p>",
     "isFavored": {
       "value": false
     },
@@ -105,13 +105,13 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712414794232,
-    "modifiedTime": 1729282101622,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745859544114,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "QBfG2V41hmsjeEgY",
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "B6evqtezy9ZsGZG3": 3

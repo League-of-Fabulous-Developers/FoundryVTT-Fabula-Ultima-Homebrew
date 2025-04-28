@@ -1,0 +1,1555 @@
+{
+  "name": "Shoto",
+  "type": "character",
+  "_id": "CJPYAgfWkw9VOHfM",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 40,
+        "bonus": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "value": 6,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "exp": {
+        "value": 0
+      },
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
+    },
+    "bonds": [],
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 10
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 6
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {
+      "mainHand": "ogwGYRmRKO1vvmpk",
+      "offHand": "xC023ahzQlBszuYt",
+      "armor": "OyY3db7LuJ2HWS39"
+    },
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "floralist": {
+      "planted": null,
+      "garden": null
+    },
+    "description": ""
+  },
+  "prototypeToken": {
+    "name": "Shoto",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862458559,
+        "modifiedTime": 1745862458559,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "2f0vfZhdnFVsRcGl",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.2f0vfZhdnFVsRcGl"
+    },
+    {
+      "name": "Brawler",
+      "type": "class",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "This time, victory is mine!"
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Martial Artist, Pugilist, Street Fighter</strong></h5><ul><li><p>Are you trying to win a tournament, or did someone steal your significant other?</p></li><li><p>Would you eat floor chicken? What about wall chicken?</p></li><li><p>Which stereotypes of your culture do you embody?</p></li><li><p>How many times were you thrown off a volcano?</p></li></ul><hr><h5><strong>BRAWLER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Health Points by 5.</li></ul><h2><strong>BRAWLER SKILLS</strong></h2></div><div class=\"stackedit__html\"><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9iYytTSGAbEXr8Qo]{Parry}</p><p>When you are about to be hit by a <strong>melee attack</strong>, you may perform an <strong>Accuracy Check</strong> as if you were attacking <strong>unarmed</strong>. Then, compare both results:</p><ul><li><p>If yours is <em>higher</em>, <strong>halve</strong> that attack’s damage.</p></li><li><p>If yours is <em>lower</em>, you take <strong>double damage</strong> from it.</p></li><li><p>If they are <em>equal</em>, you get a <em>Perfect Parry</em> and completely interrupt that attack: It has no effect.</p></li></ul><p>If you use this Skill during a conflict, you cannot use it again until the start of your next turn unless you got a <em>Perfect Parry</em>.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ftv2cnR4Cx9IxKpj]{Grappling Smash} <strong>(SL3)</strong></p><p>When you <strong>hit a single creature with a flail or brawling attack</strong> and before you resolve its damage, you may set your attack’s total damage to <strong>0</strong> and perform an <strong>Opposed Check</strong> with <strong>【DEX + MIG】</strong>. If successful, set your attack’s total damage to twice what it was, and continue resolving it.</p><p>Gain a <strong>【+SL】</strong> bonus to this check.</p></div><hr><div class=\"stackedit__html\"><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM]{Attack Chain}</p><p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mMAF7OQ047j4JqA7]{Combo Breaker} <strong>(SL2)</strong></p><p>At the start of every conflict, gain <strong>【SL】 Combo Break</strong> tokens. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <strong>Combo Break</strong> token at any time to dodge an attack.</p><p>You lose all of <strong>Combo Break</strong> tokens at the end of the scene.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH]{Command Input} <strong>(SL5)</strong></p><div class=\"stackedit__html\"><p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p></div><p></p><div class=\"stackedit__html\"><h2>HEROIC SKILLS</h2></div><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.FuNQiKgWQTNt1ZUg]{Comeback Mechanics}</p></div><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.07VsutNH5UP9zlNP]{Devastating Counter}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.qlHxkRmQGe1bVqfN]{Super-Armored Payback}</p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Nitro</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 3,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "brawler"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.xXe5AGe88CXj2z2A",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862476090,
+        "modifiedTime": 1745863978540,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "1G6US45vCyee1sKH",
+      "sort": 0,
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.1G6US45vCyee1sKH"
+    },
+    {
+      "name": "Elementalist",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "Ignore the warnings of this World at your own risk."
+        },
+        "description": "<h5><strong>ALSO: Battle Mage, Geomancer, Sorcerer</strong></h5><p>An <strong>Elementalist </strong>has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some of them develop complex spells to contain the powerful energies of nature; others seek its protection in harmony and communion. Elemental magic can be highly destructive, causing damage and inflicting negative status effects. Due to this, there are many who would covet an Elementalist’s abilities… often for nefarious purposes.</p><hr /><h5><strong>ELEMENTALIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>ELEMENTALIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.muhtqtJ6av32K34Z]{Cataclysm} <strong>(SL5)</strong></p><p>When you cast an <strong>instantaneous </strong>spell, if you have an <strong>arcane </strong>weapon equipped, you may <strong>increase the spell’s total MP cost</strong> by up to <strong>【SL × 10】 </strong>Mind Points. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5]{Elemental Magic} <strong>(SL10)</strong></p><p><span class=\"fontstyle0\">Each time you acquire this Skill, learn one Elementalist spell (<strong>Core Rulebook</strong>, page <strong>188</strong>).<br />Offensive </span>( @ICON[offensive] ) <span class=\"fontstyle0\">Elementalist spells use </span><span class=\"fontstyle3\"><strong>【</strong></span><span class=\"fontstyle4\"><strong>INS + WLP</strong></span><span class=\"fontstyle3\"><strong>】 </strong></span><span class=\"fontstyle0\">for the Magic Check.</span> </p><hr /><p>@UUID[Compendium.projectfu.skills.Item.b5zzfsWN7h5ugrnW]{Magic Artillery} <strong>(SL3)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell, if you have an <strong>arcane </strong>weapon equipped, you gain a bonus to your Magic Check equal to <strong>【SL × 2】</strong> .</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.qgy43lWGmJ2YGhTp]{Ritual Elementalism}</p><p>You may perform Rituals whose effects fall within the <strong>Elementalism </strong>discipline. <br />Elementalism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.v6rTedHMjbLuLdN3]{Spellblade} <strong>(SL4)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell targeting a <strong>single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 10】or lower </strong>and you have one or more <strong>bow</strong>, <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, <strong>spear </strong>or <strong>sword </strong>weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon’s Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a <strong>bronze sword</strong> (<strong>Core Rulebook</strong>, page <strong>131</strong>) will be <strong>【DEX + MIG】</strong>+1 instead of <strong>【INS + WLP】 </strong>.</p><p></p><h3 id=\"elementalist-skills\"><strong>ELEMENTALIST SPELLS</strong></h3><p>@UUID[Compendium.projectfu.spells.Item.GOEbYMBu3cGnszWt]{[Elementalist Spells]}</p><p></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR186"
+        },
+        "fuid": "elementalist"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.vSE3PMoHTGLC1yzG",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862480661,
+        "modifiedTime": 1745862540511,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "bS0DyJr8xogruawE",
+      "sort": 1200000,
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.bS0DyJr8xogruawE"
+    },
+    {
+      "name": "Iron Knuckle",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/iron-knuckle.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 6
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "iron-knuckle",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.z4qfwCzJpig79JHd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862489436,
+        "modifiedTime": 1745862506593,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "ogwGYRmRKO1vvmpk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.ogwGYRmRKO1vvmpk"
+    },
+    {
+      "name": "Iron Knuckle",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/iron-knuckle.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 6
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "iron-knuckle",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.z4qfwCzJpig79JHd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862490284,
+        "modifiedTime": 1745862506953,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "xC023ahzQlBszuYt",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.xC023ahzQlBszuYt"
+    },
+    {
+      "name": "Combat Tunic",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/combat-tunic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 1,
+          "attribute": "dex"
+        },
+        "mdef": {
+          "value": 1,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": 0
+        },
+        "source": {
+          "value": "FUCR132"
+        },
+        "fuid": "combat-tunic"
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.he3PXlM5vLUb28qz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862494797,
+        "modifiedTime": 1745862494797,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "OyY3db7LuJ2HWS39",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.OyY3db7LuJ2HWS39"
+    },
+    {
+      "folder": "bys08voRb00zyypF",
+      "name": "Command Input",
+      "type": "skill",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "Quarter circle back, half circle forward, high punch!"
+        },
+        "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p></div></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Brawler"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "command-input",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862521355,
+        "modifiedTime": 1745862573241,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "dmHKlMA555Wbup0t",
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.dmHKlMA555Wbup0t"
+    },
+    {
+      "folder": "bys08voRb00zyypF",
+      "name": "Attack Chain",
+      "type": "skill",
+      "_id": "HCuVPZRZRPs16m5D",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "Light attack, kick, heavy slash!"
+        },
+        "description": "<div class=\"stackedit__html\"><p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Brawler"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "attack-chain",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862524336,
+        "modifiedTime": 1745862573241,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.HCuVPZRZRPs16m5D"
+    },
+    {
+      "folder": "laGyUtQnXPDC2pZG",
+      "name": "Elemental Magic",
+      "type": "skill",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_elemental_magic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Elementalist spell (<strong>Core Rulebook</strong>, page <strong>188</strong> or @UUID[Compendium.projectfu.spells.Item.GOEbYMBu3cGnszWt]{[Elementalist Spells]}).</p><p>Offensive @ICON[offensive] Elementalist spells use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR187"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "elemental-magic",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "6utNKI7T4Vq4KjiR": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862536433,
+        "modifiedTime": 1745862573241,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "eAKKS69Z5smNK8vP",
+      "sort": 300000,
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.eAKKS69Z5smNK8vP"
+    },
+    {
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Flare",
+      "type": "spell",
+      "_id": "HAPI1JNfvrAC6p5s",
+      "img": "icons/magic/fire/blast-jet-stream-splash.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. The target suffers <strong>【HR + 25】 fire</strong> damage.</p><p>Damage dealt by this spell <strong>ignores Resistances</strong>.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FUCR188"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "fire"
+            },
+            "value": 25
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "",
+        "fuid": "flare",
+        "traits": [
+          "IgnoreResistances"
+        ],
+        "cost": {
+          "resource": "mp",
+          "amount": 20
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.z3MJucbao8SYheqG",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863942884,
+        "modifiedTime": 1745864042120,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.HAPI1JNfvrAC6p5s"
+    },
+    {
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Soaring Strike",
+      "type": "spell",
+      "_id": "PvH7U5PQolsCM3Js",
+      "img": "icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>The wind carries your strikes across the battlefield. You may immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack may target creatures that can only be targeted by <strong>ranged</strong> attacks.</p><p>If you used a weapon belonging to the <strong>brawling</strong> or <strong>spear</strong> Category for this attack, it deals 5 extra damage.</p><p>If you hit a flying target with this attack, you may force them to land immediately.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR189"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 5
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "soaring-strike",
+        "traits": [
+          "IgnoreResistances"
+        ],
+        "cost": {
+          "resource": "mp",
+          "amount": 10
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.ERyYzi4cjxjAp7Xw",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863945375,
+        "modifiedTime": 1745864042431,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.PvH7U5PQolsCM3Js"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745862458514,
+    "modifiedTime": 1745862580333,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!actors!CJPYAgfWkw9VOHfM"
+}

@@ -1,5 +1,5 @@
 {
-  "folder": "R6nlUG6b2nmGv2sK",
+  "folder": "bys08voRb00zyypF",
   "name": "Attack Chain",
   "type": "skill",
   "_id": "hG34QQWLn0oW1tRM",
@@ -7,9 +7,9 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": "Low kick, mid punch, high kick!"
+      "value": "Light attack, kick, heavy slash!"
     },
-    "description": "<div class=\"stackedit__html\"><p>Whenever you hit a target with an unarmed attack, mark them as your Attack Chain target.<br />Your next action against them spends the mark but gains a <strong>+1</strong> bonus to its <strong>Accuracy</strong> or <strong>Magic Check</strong>.</p><p>Whenever you mark a target, remove your mark from everyone else. The mark is automatically cleared at the end of the scene.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -54,7 +54,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -119,7 +121,7 @@
     "fuid": "attack-chain"
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "B6evqtezy9ZsGZG3": 3
@@ -130,8 +132,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715043700326,
-    "modifiedTime": 1729282029223,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745857562854,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

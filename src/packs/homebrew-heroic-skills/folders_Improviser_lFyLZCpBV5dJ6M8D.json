@@ -1,0 +1,22 @@
+{
+  "name": "Improviser",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "lFyLZCpBV5dJ6M8D",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745860494473,
+    "modifiedTime": 1745860494473,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!folders!lFyLZCpBV5dJ6M8D"
+}

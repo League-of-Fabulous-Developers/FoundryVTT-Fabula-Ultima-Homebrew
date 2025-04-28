@@ -1,0 +1,1613 @@
+{
+  "name": "Friendly Idiot",
+  "type": "character",
+  "_id": "kjlIizfyLFcnyIrh",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 35,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "value": 8,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "exp": {
+        "value": 0
+      },
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
+    },
+    "bonds": [],
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 10
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 6
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {
+      "armor": "rbpq8JDYPCt0Rcbz",
+      "mainHand": "GPlipahSdYEAZpcM",
+      "offHand": "XIGPX45ZRZrXxaXS"
+    },
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "floralist": {
+      "planted": null,
+      "garden": null
+    },
+    "description": ""
+  },
+  "prototypeToken": {
+    "name": "Friendly Idiot",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745861699932,
+        "modifiedTime": 1745863233448,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "6xgdBPDNOQ6VK6W5",
+      "sort": -400000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.6xgdBPDNOQ6VK6W5"
+    },
+    {
+      "name": "Improviser",
+      "type": "class",
+      "_id": "JL1njFwkuSu1pDdC",
+      "img": "icons/equipment/waist/sash-cloth-red.webp",
+      "system": {
+        "fuid": "improviser",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Lucky Dumbass, Absolute Bufoon</strong></h5><ul><li><p>Your antics usually leave chaos in their wake. What’s one memorable incident you caused?</p></li><li><p>There was one time you fast-talked yourself into trouble. How did you get out?</p></li><li><p>Name an item that has seemingly no useful applications, and describe how it once saved your life.</p></li><li><p>What’s this one lie of yours that everyone just seems to keep falling for?</p></li></ul><hr><h5><strong>IMPROVISER FREE BENEFITS</strong></h5><ul><li><span style=\"font-family: 'PT Sans Narrow',sans-serif\"> Permanently increase your maximum Inventory Points by 2.</span></li></ul><h2><strong>IMPROVISER SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.OYUkvXolOyvRgigE]{Point and Click} <strong>(SL2)</strong></p><p>Once per scene, when you spend a <strong>Fabula Point</strong> to alter the current situation or the story, gain <strong>【SL】 IP</strong>.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.dmKJkUnO9itj5YEv]{Combine Items} <strong>(SL2)</strong></p><p>When you perform the <strong>Inventory</strong> action to produce an item, you may produce a second, different item that has an <strong>IP</strong> cost of <strong>【4 - SL】</strong> or greater: Treat both uses as if they were the same action, combine their associated costs, and merge the effects of the resulting items. If they are somehow incompatible, resolve the effects of the first, and then those of the latter.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MPaqVpCBlyPUbrAl]{Dialog Tree} <strong>(SL3)</strong></p><div class=\"stackedit__html\"><p>When you erase or mark segments of a Clock thanks to your lies or sense of humor, roll <strong>【SL】 d3</strong> and <strong>choose one of them</strong>: If it’s a 1, erase 1 segment from the clock; if it’s a <strong>3</strong>, mark 1 segment from the clock.</p></div><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.BDiDiCvnVwUahUzy]{Whoops!}</p><p>Before performing a <strong>Check</strong>, you may declare it as a <strong>Fumble</strong> due to a clumsy accident or silly coincidence. You cannot do this on <strong>Checks</strong> that may not generate Opportunities, such as Support Checks. You gain <strong>Fabula Points</strong> as normal as part of this <strong>Fumble</strong>, and you and the <strong>GM</strong> must choose together which Opportunity you generated.</p><p>Additionally, choose one ally whenever you get a <strong>Fumble</strong>: They recover <strong>10 MP</strong>.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IGVYZxDJZvY59qJ3]{Witty Remark} <strong>(SL3)</strong></p><div class=\"stackedit__html\"><p>During a <strong>Conflict Scene</strong> and when you perform a <strong>Check</strong> against a creature that can hear you, you may spend up to <strong>【SL x 5】 MP</strong>: Gain a <strong>+1</strong> bonus to that Check for every <strong>5 MP</strong> spent this way.</p></div><p></p><h3>HEROIC SKILLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.HZ302IoqtvywpGU7]{The Perfect Distraction}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.ZTmNmIU2hNPubX2E]{Bumbling Idiot}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Nitro</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -200000,
+      "ownership": {
+        "default": 0,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.LZs6yfawRQWQBZNA",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745861712675,
+        "modifiedTime": 1745861793638,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.JL1njFwkuSu1pDdC"
+    },
+    {
+      "folder": "ZktbUWishDsytN8i",
+      "name": "Combine Items",
+      "type": "skill",
+      "img": "icons/equipment/waist/sash-cloth-red.webp",
+      "system": {
+        "fuid": "combine-items",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>When you perform the <strong>Inventory</strong> action to produce an item, you may produce a second, different item that has an <strong>IP</strong> cost of <strong>【4 - SL】</strong> or greater: Treat both uses as if they were the same action, combine their associated costs, and merge the effects of the resulting items. If they are somehow incompatible, resolve the effects of the first, and then those of the latter.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 2,
+          "min": 0
+        },
+        "class": {
+          "value": "Improviser"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "ins"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "hrZero": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": ""
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.s8ZQJvGKezOPHkuz",
+        "duplicateSource": "Item.OYUkvXolOyvRgigE",
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745861738546,
+        "modifiedTime": 1745861823498,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "7wdYB3ex3NKQ6MAo",
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.7wdYB3ex3NKQ6MAo"
+    },
+    {
+      "folder": "ZktbUWishDsytN8i",
+      "name": "Witty Remark",
+      "type": "skill",
+      "img": "icons/equipment/waist/sash-cloth-red.webp",
+      "system": {
+        "fuid": "witty-remark",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p>During a <strong>Conflict Scene</strong> and when you perform a <strong>Check</strong> against a creature that can hear you, you may spend up to <strong>【SL x 5】 MP</strong>: Gain a <strong>+1</strong> bonus to that Check for every <strong>5 MP</strong> spent this way.</p></div></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Improviser"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "ins"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "hrZero": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": ""
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.s8ZQJvGKezOPHkuz",
+        "duplicateSource": "Item.OYUkvXolOyvRgigE",
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745861745332,
+        "modifiedTime": 1745861824373,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "5aDyoQxGf5s81wh8",
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.5aDyoQxGf5s81wh8"
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/rapier.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "damage": {
+          "value": 6
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "sword"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR131"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "rapier",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.CgzOruOUPActk6gT",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745861800742,
+        "modifiedTime": 1745861832443,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "GPlipahSdYEAZpcM",
+      "sort": -300000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.GPlipahSdYEAZpcM"
+    },
+    {
+      "name": "Bronze Shield",
+      "type": "shield",
+      "img": "systems/projectfu/styles/static/compendium/armor/bronze-shield.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 100
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 2
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": {
+          "value": "FUCR133"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "bronze-shield"
+      },
+      "effects": [],
+      "folder": "ns5SuBHXn69q4YjA",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.feOCNmJ5WS9VF9q7",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745861807018,
+        "modifiedTime": 1745861834816,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "XIGPX45ZRZrXxaXS",
+      "sort": -250000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.XIGPX45ZRZrXxaXS"
+    },
+    {
+      "name": "Combat Tunic",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/combat-tunic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 1,
+          "attribute": "dex"
+        },
+        "mdef": {
+          "value": 1,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": 0
+        },
+        "source": {
+          "value": "FUCR132"
+        },
+        "fuid": "combat-tunic"
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.he3PXlM5vLUb28qz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745861810813,
+        "modifiedTime": 1745861810813,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "rbpq8JDYPCt0Rcbz",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.rbpq8JDYPCt0Rcbz"
+    },
+    {
+      "folder": "XoV1kgCfYBfAuPoU",
+      "name": "Encourage",
+      "type": "skill",
+      "_id": "6ttnUdEretuTKbgX",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_encourage.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>During a conflict, you may use an action and spend 5 MP to choose <strong>another creature</strong> that can hear and understand you. That creature recovers <strong>【SL × 5】</strong> Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>; they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p><hr><ul><li><p><strong>Target Recovers: </strong>@GAIN[5*$sl hp]{SL × 5 HP}</p></li><li><p><strong>Target Receive:</strong> @EFFECT[dex-up e:sot i:1 t:source], @EFFECT[ins-up e:sot i:1 t:source], @EFFECT[mig-up e:sot i:1 t:source], or @EFFECT[wlp-up e:sot i:1 t:source]</p></li></ul>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 6,
+          "min": 0
+        },
+        "class": {
+          "value": "Orator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR201"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "encourage",
+        "cost": {
+          "amount": 5,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863178411,
+        "modifiedTime": 1745863202407,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.6ttnUdEretuTKbgX"
+    },
+    {
+      "folder": "XoV1kgCfYBfAuPoU",
+      "name": "Persuasive",
+      "type": "skill",
+      "_id": "rsRibtEytDb7chUF",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_persuasive.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception</strong>, or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】</strong> Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 2,
+          "min": 0
+        },
+        "class": {
+          "value": "Orator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR201"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "persuasive",
+        "cost": {
+          "amount": 20,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.GjmqoWAJ4szsk0om",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863182951,
+        "modifiedTime": 1745863203000,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.rsRibtEytDb7chUF"
+    },
+    {
+      "name": "Gadget - Alchemy",
+      "type": "classFeature",
+      "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/gadget/alchemy.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "isFavored": {
+          "value": true
+        },
+        "featureType": "projectfu.alchemy",
+        "data": {
+          "rank": "basic",
+          "description": "<h3>ALCHEMY</h3><p><span class=\"fontstyle0\"><strong>Also: </strong>Chemistry, Bombs, Mutations</span></p><hr><p><span class=\"fontstyle0\">You may perform the </span><span class=\"fontstyle2\"><strong>Inventory </strong></span>action to rapidly craft a <span class=\"fontstyle2\"><strong>potion </strong></span>with powerful but somewhat unpredictable effects. When you do so, choose one type of <span class=\"fontstyle2\"><strong>mix </strong></span>among those you have unlocked (<span class=\"fontstyle2\"><strong>basic</strong></span>, <span class=\"fontstyle2\"><strong>advanced </strong></span>or <span class=\"fontstyle2\"><strong>superior</strong></span>) and spend the appropriate amount of Inventory Points. </p><hr><p> </p><table style=\"width:100%\" border=\"1\"><colgroup><col style=\"width:14.8891%\"><col style=\"width:9.71909%\"><col style=\"width:75.3918%\"></colgroup><tbody><tr><td><strong>Mix</strong></td><td style=\"text-align:center\"><strong>IP Cost</strong></td><td> <strong>Description</strong></td></tr><tr><td><strong>Basic</strong></td><td style=\"text-align:center\"><strong>3</strong></td><td><span class=\"fontstyle0\"> Roll <strong>two </strong></span><span class=\"fontstyle2\"><strong>d20</strong></span><span class=\"fontstyle0\"><strong>s</strong> and assign one to </span><span class=\"fontstyle2\"><strong>target </strong></span><span class=\"fontstyle0\">and one to </span><span class=\"fontstyle2\"><strong>effect</strong></span><span class=\"fontstyle0\">.</span> </td></tr><tr><td><strong>Advanced</strong></td><td style=\"text-align:center\"><strong>4</strong></td><td><span class=\"fontstyle0\"> Roll <strong>three </strong></span><span class=\"fontstyle2\"><strong>d20</strong></span><span class=\"fontstyle0\"><strong>s</strong> and assign one to </span><span class=\"fontstyle2\"><strong>target </strong></span><span class=\"fontstyle0\">and one to </span><span class=\"fontstyle2\"><strong>effect</strong></span><span class=\"fontstyle0\">.</span> </td></tr><tr><td><strong>Superior</strong></td><td style=\"text-align:center\"><strong>5</strong></td><td><span class=\"fontstyle0\"> Roll <strong>four </strong></span><span class=\"fontstyle2\"><strong>d20</strong></span><span class=\"fontstyle0\"><strong>s</strong> and assign one to </span><span class=\"fontstyle2\"><strong>target </strong></span><span class=\"fontstyle0\">and one to </span><span class=\"fontstyle2\"><strong>effect</strong></span><span class=\"fontstyle0\">.</span> </td></tr></tbody></table><p> </p><p><span class=\"fontstyle0\">When you create a mix, roll the amount of twenty-sided dice indicated by that mix, then assign one of those rolls to the </span><span class=\"fontstyle2\"><strong>target </strong></span>table (below) and one to the <span class=\"fontstyle2\"><strong>effect </strong></span>table (on the right). Discard all remaining dice, then describe the effects of the mix!</p><blockquote><p><span class=\"fontstyle2\"><em><strong>Example</strong>: </em></span><em>You spend 5 Inventory Points for a </em><span class=\"fontstyle2\"><em><strong>superior mix </strong></em></span><em>and roll four twenty-sided dice. You roll </em><span class=\"fontstyle2\"><em><strong>3</strong></em></span><em>, </em><span class=\"fontstyle2\"><em><strong>14</strong></em></span><em>, </em><span class=\"fontstyle2\"><em><strong>9 </strong></em></span><em>and </em><span class=\"fontstyle2\"><em><strong>4</strong></em></span><em>. You might assign </em><span class=\"fontstyle2\"><em><strong>14 </strong></em></span><em>to </em><span class=\"fontstyle2\"><em><strong>target</strong> </em></span><em>and </em><span class=\"fontstyle2\"><em><strong>9 </strong></em></span><em>to </em><span class=\"fontstyle2\"><em><strong>effect </strong></em></span><em>to grant yourself and all allies Resistance to </em><span class=\"fontstyle2\"><em><strong>air </strong></em></span><em>and </em><span class=\"fontstyle2\"><em><strong>fire</strong></em></span><em>; or you could go on the offensive and assign </em><span class=\"fontstyle2\"><em><strong>9 </strong></em></span><em>to <strong>target </strong>and </em><span class=\"fontstyle2\"><em><strong>4 </strong></em></span><em>to </em><span class=\"fontstyle2\"><em><strong>effect </strong></em></span><em>to deal </em><span class=\"fontstyle2\"><em><strong>bolt </strong></em></span><em>damage to a single enemy; or even assign </em><span class=\"fontstyle2\"><em><strong>9 </strong></em></span><em>to <strong>target </strong>and </em><span class=\"fontstyle2\"><em><strong>14 </strong></em></span><em>to </em><span class=\"fontstyle2\"><em><strong>effect </strong></em></span><em>to inflict four status effects on that foe!</em></p></blockquote><p><span class=\"fontstyle0\">Whatever your choice, the two dice you don't assign will be discarded.</span></p><p><span class=\"fontstyle0\">The two effects marked with \"</span><span class=\"fontstyle2\">Any</span>\" on the <span class=\"fontstyle2\">effect </span>table are always availabl<span class=\"fontstyle0\">e and can be chosen if none of the available effects appeal to you. </span></p><p> </p><p><span class=\"fontstyle0\"><strong>TARGET</strong></span></p><table style=\"width:96.0876%\" border=\"1\"><colgroup><col style=\"width:14.2534%\"><col style=\"width:85.7502%\"></colgroup><tbody><tr><td style=\"text-align:center\"><strong>Die</strong></td><td> <span class=\"fontstyle0\"><strong>The potion affects...</strong></span><strong> </strong></td></tr><tr><td style=\"text-align:center\"><strong>1-6</strong></td><td> <span class=\"fontstyle0\">... you </span><span class=\"fontstyle2\"><strong>or </strong></span><span class=\"fontstyle0\">one ally you can see that is present on the scene.</span> </td></tr><tr><td style=\"text-align:center\"><strong>7-11</strong></td><td> <span class=\"fontstyle0\">... one enemy you can see that is present on the scene.</span> </td></tr><tr><td style=\"text-align:center\"><strong>12-16</strong></td><td> <span class=\"fontstyle0\">... you </span><span class=\"fontstyle2\"><strong>and </strong></span><span class=\"fontstyle0\">every ally present on the scene.</span> </td></tr><tr><td style=\"text-align:center\"><strong>17-20</strong></td><td> <span class=\"fontstyle0\">... every enemy present on the scene.</span> </td></tr></tbody></table><p> </p><p><strong>EFFECT</strong></p><table style=\"width:100%\" border=\"1\"><colgroup><col style=\"width:9.24765%\"><col style=\"width:90.7524%\"></colgroup><tbody><tr><td style=\"text-align:center\"><strong>Die</strong></td><td> <span class=\"fontstyle0\"><strong>Each creature affected by the potion...</strong></span><strong> </strong></td></tr><tr><td style=\"text-align:center\"><strong>Any</strong></td><td> <span class=\"fontstyle0\">... suffers @DMG[20 poison]</span><span class=\"fontstyle2\"> </span><span class=\"fontstyle0\">damage.</span></td></tr><tr><td style=\"text-align:center\"><strong>Any</strong></td><td> <span class=\"fontstyle0\">... recovers @GAIN[30 hp].</span> </td></tr><tr><td style=\"text-align:center\"><strong>1</strong></td><td> <span class=\"fontstyle0\">... treats their </span><span class=\"fontstyle2\"><strong>Dexterity</strong> (@EFFECT[dex-up e:eot i:2 t:source]) </span><span class=\"fontstyle0\">and </span><span class=\"fontstyle2\"><strong>Might </strong>(@EFFECT[mig-up e:eot i:2 t:source]) </span><span class=\"fontstyle0\">dice as if they were one size higher (up to a maximum of </span><span class=\"fontstyle2\"><strong>d12</strong></span><span class=\"fontstyle0\">) until the end of your next turn.</span> </td><td><p></p></td><td><p></p></td></tr><tr><td style=\"text-align:center\"><strong>2</strong></td><td> ... treats their <strong>Insight </strong>(@EFFECT[ins-up e:eot i:2 t:source]) and <strong>Willpower</strong> (@EFFECT[wlp-up e:eot i:2 t:source]) dice as if they were one size higher (up to a maximum of <strong>d12</strong>) until the end of your next turn. </td><td><p></p></td><td><p></p></td></tr><tr><td style=\"text-align:center\"><strong>3</strong></td><td> <span class=\"fontstyle0\">... suffers @DMG[20 air] damage. This amount increases to @DMG[30 air] damage if you are </span><span class=\"fontstyle2\"><strong>level 20 or higher</strong></span><span class=\"fontstyle0\">, or to @DMG[40 air] damage if you are </span><span class=\"fontstyle2\"><strong>level 40 or higher</strong></span><span class=\"fontstyle0\">.</span> </td></tr><tr><td style=\"text-align:center\"><strong>4</strong></td><td> ... suffers @DMG[20 bolt] damage. This amount increases to @DMG[30 bolt] damage if you are <strong>level 20 or higher</strong>, or to @DMG[40 bolt] damage if you are <strong>level 40 or higher</strong>. </td></tr><tr><td style=\"text-align:center\"><strong>5</strong></td><td> ... suffers @DMG[20 dark] damage. This amount increases to @DMG[30 dark] damage if you are <strong>level 20 or higher</strong>, or to @DMG[40 dark] damage if you are <strong>level 40 or higher</strong>. </td></tr><tr><td style=\"text-align:center\"><strong>6</strong></td><td> ... suffers @DMG[20 earth] damage. This amount increases to @DMG[30 earth] damage if you are <strong>level 20 or higher</strong>, or to @DMG[40 earth] damage if you are <strong>level 40 or higher</strong>. </td></tr><tr><td style=\"text-align:center\"><strong>7</strong></td><td> ... suffers @DMG[20 fire] damage. This amount increases to @DMG[30 fire] damage if you are <strong>level 20 or higher</strong>, or to @DMG[40 fire] damage if you are <strong>level 40 or higher</strong>. </td></tr><tr><td style=\"text-align:center\"><strong>8</strong></td><td> ... suffers @DMG[20 ice] damage. This amount increases to @DMG[30 ice] damage if you are <strong>level 20 or higher</strong>, or to @DMG[40 ice] damage if you are <strong>level 40 or higher</strong>. </td></tr><tr><td style=\"text-align:center\"><strong>9</strong></td><td> <span class=\"fontstyle0\">... gains Resistance to </span><span class=\"fontstyle2\"><strong>air </strong>(</span>@TYPE[affinity air resistance e:eos i:1 t:source]<span class=\"fontstyle2\">)<strong> </strong></span><span class=\"fontstyle0\">and </span><span class=\"fontstyle2\"><strong>fire </strong>(</span>@TYPE[affinity fire resistance e:eos i:1 t:source]<span class=\"fontstyle2\">)<strong> </strong></span><span class=\"fontstyle0\">damage until the end of the scene.</span> </td></tr><tr><td style=\"text-align:center\"><strong>10</strong></td><td> <span class=\"fontstyle0\">... gains Resistance to </span><span class=\"fontstyle2\"><strong>bolt </strong>(</span>@TYPE[affinity bolt resistance e:eos i:1 t:source]<span class=\"fontstyle2\">) </span><span class=\"fontstyle0\">and </span><span class=\"fontstyle2\"><strong>ice </strong>(</span>@TYPE[affinity ice resistance e:eos i:1 t:source]<span class=\"fontstyle2\">) damage until the end of the scene. </span></td></tr><tr><td style=\"text-align:center\"><strong>11</strong></td><td> <span class=\"fontstyle0\">... gains Resistance to </span><span class=\"fontstyle2\"><strong>dark</strong> (</span>@TYPE[affinity dark resistance e:eos i:1 t:source]<span class=\"fontstyle2\">)<strong> </strong></span><span class=\"fontstyle0\">and </span><span class=\"fontstyle2\"><strong>earth </strong>(</span>@TYPE[affinity earth resistance e:eos i:1 t:source]<span class=\"fontstyle2\">) </span><span class=\"fontstyle0\">damage until the end of the scene. </span></td></tr><tr><td style=\"text-align:center\"><strong>12</strong></td><td> <span class=\"fontstyle0\">... suffers </span><span class=\"fontstyle2\">@EFFECT[enraged]</span><span class=\"fontstyle0\">.</span> </td></tr><tr><td style=\"text-align:center\"><strong>13</strong></td><td> <span class=\"fontstyle0\">... suffers </span><span class=\"fontstyle2\">@EFFECT[poisoned]</span><span class=\"fontstyle0\">.</span> </td></tr><tr><td style=\"text-align:center\"><strong>14</strong></td><td> <span class=\"fontstyle0\">... suffers </span><span class=\"fontstyle2\">@EFFECT[dazed]</span><span class=\"fontstyle0\">, </span><span class=\"fontstyle2\">@EFFECT[shaken]</span><span class=\"fontstyle0\">, </span><span class=\"fontstyle2\">@EFFECT[slow], </span><span class=\"fontstyle0\">and </span><span class=\"fontstyle2\">@EFFECT[weak]</span><span class=\"fontstyle0\">.</span> </td></tr><tr><td style=\"text-align:center\"><strong>15</strong></td><td> <span class=\"fontstyle0\">... recovers from all status effects.</span> </td></tr><tr><td style=\"text-align:center\"><strong>16-17</strong></td><td> <span class=\"fontstyle0\">... recovers @GAIN[50 hp] and @GAIN[50 mp]</span></td></tr><tr><td style=\"text-align:center\"><strong>18</strong></td><td> <span class=\"fontstyle0\">... recovers @GAIN[100 hp]</span></td></tr><tr><td style=\"text-align:center\"><strong>19</strong></td><td> <span class=\"fontstyle0\">... recovers @GAIN[100 mp]</span></td></tr><tr><td style=\"text-align:center\"><strong>20</strong></td><td> <span class=\"fontstyle0\">... recovers @GAIN[100 hp] and @GAIN[100 mp]</span></td></tr></tbody></table><p> </p>",
+          "basic": "<p>For 3 Inventory Points, roll two d20s and assign one to target and one to effect.</p><hr><ul><li><p><strong>You Spend: </strong>@LOSS[3 ip]</p></li></ul>",
+          "advanced": "<p>For 4 Inventory Points, roll <strong>three d20s</strong> and assign one to <strong>target</strong> and one to <strong>effect</strong>.</p><hr><ul><li><p><strong>You Spend: </strong>@LOSS[4 ip]</p></li></ul>",
+          "superior": "<p>For 5 Inventory Points, roll <strong>four d20s</strong> and assign one to <strong>target</strong> and one to <strong>effect</strong>.</p><hr><ul><li><p><strong>You Spend: </strong>@LOSS[5 ip]</p></li></ul>",
+          "config": {
+            "targetRollTable": null,
+            "effectRollTable": null,
+            "ranks": {
+              "basic": {
+                "dice": 2,
+                "cost": 3
+              },
+              "advanced": {
+                "dice": 3,
+                "cost": 4
+              },
+              "superior": {
+                "dice": 4,
+                "cost": 5
+              }
+            },
+            "alwaysAvailableEffects": [
+              "... suffers @DMG[20 poison] damage.",
+              "... recovers @GAIN[30 hp]."
+            ]
+          }
+        },
+        "source": "FUCR212",
+        "fuid": "gadget-alchemy"
+      },
+      "effects": [],
+      "folder": "deLkolgURtb8RMPr",
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.SsR6UJXT65Q1qNO2",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863193368,
+        "modifiedTime": 1745863240786,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "QCS9lZcbwFCd07dt",
+      "sort": -200000,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.QCS9lZcbwFCd07dt"
+    },
+    {
+      "folder": "Jv2TAynII0DVVBZS",
+      "name": "Gadgets",
+      "type": "skill",
+      "_id": "lF7YINH13edYmTG1",
+      "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/tinkerer_gadgets.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you first acquire this Skill, choose a gadget type: <strong>alchemy, infusion</strong>, or <strong>magitech</strong> (see <strong>Core Rulebook</strong>, page <strong>212</strong>). You gain its <strong>basic benefits</strong>.</p><p>Whenever you take this Skill again, choose one option: you gain the <strong>basic benefits</strong> of a new gadget type; <strong>or</strong> you gain the <strong>advanced benefits</strong> of a gadget type whose <strong>basic benefits</strong> you already obtained; <strong>or</strong> you gain the <strong>superior benefits</strong> of a gadget type whose <strong>advanced benefits</strong> you already obtained.</p><hr /><ul><li><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">For </span><strong>gadget</strong> breakdown and a list of <strong>Gadgets</strong>, refer to<strong>:</strong> @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk]{Gadget Rules}</p></li><li><p>To <strong>automate</strong>, VTT Instructions can be found here: @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk.JournalEntryPage.7D5mpbaYddiztH1W]{Gadget VTT Instructions}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Tinkerer"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR211"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "gadgets",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.0ErPA4Q0P97ZPwPE",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863195176,
+        "modifiedTime": 1745863195176,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.lF7YINH13edYmTG1"
+    },
+    {
+      "name": "Orator",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "Words are only as good as they actions that follow them."
+        },
+        "description": "<h5><strong>ALSO: Ambassador, Diplomat, Entertainer</strong></h5><p>Some are graceful and ever smiling, others are subtle and witty: <strong>Orators </strong>are as good at reading someone’s heart as they are at rounding up allies for their cause, sometimes unintentionally. The words of an Orator may rekindle spirits or plunge their opponents into despair: over the centuries, some Orators’ talents have brought entire nations to ruin… and just as many have granted fallen kingdoms a chance to rise from their very ashes.</p><hr /><h5><strong>ORATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li></ul><h2><strong>ORATOR SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.DtEiCkDsC1amYABn]{Condemn} <strong>(SL4)</strong></p><p>You may use an action and spend 5 Mind Points to perform an Opposed 【<strong>INS</strong> + <strong>WLP</strong>】 Check against a creature that can hear and understand you — describe your accusations! If you succeed, the target loses <strong>【SL × 10】 </strong>Mind Points and suffers <strong>dazed </strong>or <strong>shaken </strong>(your choice).</p><p>You gain a bonus equal to <strong>【SL】 </strong>to your <strong>【INS + WLP】 </strong>Checks for this Skill.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n]{Encourage} <strong>(SL6)</strong></p><p>During a conflict, you may use an action and spend 5 Mind Points to choose another creature that can hear and understand you. That creature recovers <strong>【SL × 5】 </strong>Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>: they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.lK9onKSiMuQEe3zd]{My Trust In You} <strong>(SL2)</strong></p><p>After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their <strong>Traits </strong>or <strong>Bonds </strong>in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a <strong>Bond </strong>towards that character, they recover <strong>【SL × 10】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.GjmqoWAJ4szsk0om]{Persuasive} <strong>(SL2)</strong></p><p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception </strong>or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】 </strong>Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ucCrtRAvv2qX8aJO]{Unexpected Ally}</p><p>You may use an action and spend 1 Fabula Point to choose a <strong>non-hostile</strong> creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR200"
+        },
+        "fuid": "orator"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.8HxmAoTTwLlmQ8Fc",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863215053,
+        "modifiedTime": 1745863215053,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "MQPFDblxw2RHpMvy",
+      "sort": 300000,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.MQPFDblxw2RHpMvy"
+    },
+    {
+      "name": "Tinkerer",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "I like to think that what we have today was not a gift from the gods."
+        },
+        "description": "<h5><strong>ALSO: Alchemist, Magitech Engineer, Mechanic</strong></h5><p><strong>Tinkerers </strong>possess exceptional ingenuity and are known for their eccentric and marvelous inventions. They travel the world in an endless search for lost theories and ancient machinery, eyes glimmering whenever they witness the wonders of architecture and engineering. In a way, Tinkerers could be seen as the ultimate dreamers and rebels, challenging the very rules of nature and society in their pursuit of a better future.</p><hr /><h5><strong>TINKERER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Inventory Points by 2.</li><li>You may initiate <strong>Projects</strong>.</li></ul><h3><strong>TINKERER SKILLS</strong></h3><p>@UUID[Compendium.projectfu.skills.Item.2MoV74xWJnF5Ru8u]{Emergency Item}</p><p>Once per conflict scene, if you are in <strong>Crisis</strong>, you may perform an additional action on your turn. This action <strong>must </strong>be the <strong>Inventory </strong>action.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.0ErPA4Q0P97ZPwPE]{Gadgets} <strong>(SL5)</strong></p><p>When you first acquire this Skill, choose a gadget type: <strong>alchemy, infusion</strong>, or <strong>magitech</strong> (see <strong>Core Rulebook</strong>, page <strong>212</strong>). You gain its <strong>basic benefits</strong>.</p><p>Whenever you take this Skill again, choose one option: you gain the <strong>basic benefits</strong> of a new gadget type; <strong>or</strong> you gain the <strong>advanced benefits</strong> of a gadget type whose <strong>basic benefits</strong> you already obtained; <strong>or</strong> you gain the <strong>superior benefits</strong> of a gadget type whose <strong>advanced benefits</strong> you already obtained.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.xzyAHegWwSaysYqV]{Potion Rain} <strong>(SL2)</strong></p><p>When you create a <strong>potion </strong>that restores a <strong>single </strong>creature's HP and/or MP, you may have it affect up to <strong>【SL】 </strong>additional creatures. If you do, the potion only restores half the normal amount of HP and MP to each creature.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.S64zqBVdaYA3I5LW]{Secret Formula} <strong>(SL5)</strong></p><p>When you create a <strong>potion </strong>or <strong>magisphere </strong>whose effects restore HP and/or MP, each restored amount is increased by <strong>【SL × 5】</strong>.</p><p>When you create an <strong>elemental shard</strong>, <strong>potion </strong>or <strong>magisphere </strong>that deals damage, that item deals <strong>【SL】 </strong>extra damage.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.6pJAB6E29I15q1gU]{Visionary} <strong>(SL5)</strong></p><p>When you work on a <strong>Project</strong>, up to <strong>【SL × 100】 </strong>zenit of material costs are automatically paid; additionally, you generate an additional <strong>【SL】 progress</strong> every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative.</p><h2><strong>INVENTION TYPES</strong></h2><ul><li><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">For </span><strong>gadget</strong> breakdown and a list of <strong>Gadgets</strong>, refer to<strong>:</strong> @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk]{Gadget Rules}</p></li><li><p>To <strong>automate</strong>, VTT Instructions can be found here: @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk.JournalEntryPage.7D5mpbaYddiztH1W]{Gadget VTT Instructions}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": true
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR210"
+        },
+        "fuid": "tinkerer"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/tinkerer.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.Zmqvu8QKmgyIci7C",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745863218493,
+        "modifiedTime": 1745863220828,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "CiAn4lHfU1LoG0Hd",
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.CiAn4lHfU1LoG0Hd"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745861699797,
+    "modifiedTime": 1745863226218,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!actors!kjlIizfyLFcnyIrh"
+}

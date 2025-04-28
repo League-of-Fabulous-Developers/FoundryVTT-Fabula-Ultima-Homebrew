@@ -1,5 +1,5 @@
 {
-  "folder": "I3HuAphmllJX2Y64",
+  "folder": "eeMGbxKcwUgDYcy8",
   "name": "Hide In Plain Sight",
   "type": "skill",
   "img": "icons/weapons/daggers/knife-kitchen-red.webp",
@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>As an action during a Conflict scene, you may roll <strong>【DEX + INS】</strong>. Until the end of your next turn, you may not be directly targeted by any character whose <strong>【INS】</strong> die is lower than the result of your check.</p><p>All hiding and sneaking-related checks (including this one) get a <strong>【SL】</strong> bonus.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>You may spend an action to perform an <strong>open check 【DEX + INS】</strong>. Until the end of your next turn, you cannot be seen or targeted by any creature whose <strong>【INS】 </strong>die is lower than the result of your check. You may exempt allies from this effect.</p><p>All <strong>contested</strong> or <strong>open checks</strong> closely related to hiding or sneaking (including this one) get a <strong>【+SL】 </strong>bonus.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,13 +126,13 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712415118257,
-    "modifiedTime": 1729282025245,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745857176344,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "9u8jqkiI27YicLMQ",
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "B6evqtezy9ZsGZG3": 3

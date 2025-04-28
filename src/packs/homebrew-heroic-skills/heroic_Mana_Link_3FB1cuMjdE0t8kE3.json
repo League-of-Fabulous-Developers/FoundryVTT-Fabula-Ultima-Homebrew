@@ -1,5 +1,5 @@
 {
-  "folder": "c03M2J1NxvPJwE5P",
+  "folder": "qFVgIclqePmMCX5c",
   "name": "Mana Link",
   "type": "heroic",
   "_id": "3FB1cuMjdE0t8kE3",
@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px 0.5em 10px;padding:0px 0px 0px 10px !important;border-left:3px solid var(--color-border-light-tertiary);font-style:italic;font-size:16px;font-family:'EB Garamond', sans-serif !important;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'EB Garamond', sans-serif !important;font-style:italic;font-size:16px;line-height:1.45em\"><span style=\"font-family:'EB Garamond', sans-serif !important\"><em><strong style=\"box-sizing:border-box;user-select:text\">Requirements:</strong> you must have mastered the <strong>Ritualist </strong>Class.</em></span></p></blockquote><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">At the start of your turn, you may choose one creature you can see and create a Mana Link with them.</span></p><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">While active, you may pay for up to half of any <strong>MP</strong> expenditure or loss they take. Conversely, you may share up to half of any <strong>MP</strong> you gain.</span></p><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">You may only have one Mana Link active at a time. Any new one replaces the last.</span></p>",
+    "description": "<blockquote style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px 0.5em 10px;padding:0px 0px 0px 10px !important;border-left:3px solid var(--color-border-light-tertiary);font-style:italic;font-size:16px;font-family:'EB Garamond', sans-serif !important;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><p style=\"box-sizing: border-box; user-select: text; margin: 0px; font-family: 'EB Garamond', sans-serif !important; font-style: italic; font-size: 16px; line-height: 1.45em\"><span style=\"font-family: 'EB Garamond', sans-serif !important\"><em><strong style=\"box-sizing:border-box;user-select:text\">Requirements:</strong> you must have mastered the <strong>Ritualist </strong>Class.</em></span></p></blockquote><p style=\"box-sizing: border-box; user-select: text; margin: 0px; font-family: 'PT Sans Narrow', sans-serif; font-style: normal; font-size: 16px; line-height: 1.45em; color: rgb(43, 74, 66); font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: 'PT Sans Narrow', sans-serif\">Whenever you <strong>Rest</strong>, you may create a <strong>Mana Link</strong> between yourself and a willing ally. All previous <strong>Mana Links</strong> are lost when you create a new one. The <strong>Mana Link</strong> is also lost if either part of the link dies.</span></p><p><span style=\"font-family: 'PT Sans Narrow', sans-serif\">While the <strong>Mana Link</strong> remains active, both of you gain the following benefits as long as you are able to see or hear each-other:</span></p><ul><li><p><span style=\"font-family: 'PT Sans Narrow', sans-serif\">When you <strong>Cast a Spell</strong>, you may choose one from that ally’s list of spells.</span></p></li><li><p><span style=\"font-family: 'PT Sans Narrow', sans-serif\">When you <strong>recover MP</strong>, you may instead recover half as much <strong>MP</strong> and have that ally recover the other half.</span></p></li><li><p><span style=\"font-family: 'PT Sans Narrow', sans-serif\">When that ally <strong>spends or loses MP</strong>, you may pay up to <strong>half</strong> of that cost.</span></p></li></ul><p><span style=\"font-family: 'PT Sans Narrow', sans-serif\">If one of you uses any of the benefits from <strong>Mana Link</strong>, the other may use it until the current action or effect is fully resolved.</span></p>",
     "isFavored": {
       "value": false
     },
@@ -106,12 +106,12 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712420127386,
-    "modifiedTime": 1729282101235,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745858452867,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "B6evqtezy9ZsGZG3": 3

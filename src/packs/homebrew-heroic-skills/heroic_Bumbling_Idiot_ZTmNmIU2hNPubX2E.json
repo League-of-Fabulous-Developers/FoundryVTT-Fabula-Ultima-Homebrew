@@ -1,0 +1,59 @@
+{
+  "folder": "lFyLZCpBV5dJ6M8D",
+  "name": "Bumbling Idiot",
+  "type": "heroic",
+  "_id": "ZTmNmIU2hNPubX2E",
+  "img": "icons/equipment/waist/sash-cloth-red.webp",
+  "system": {
+    "fuid": "bumbling-idiot",
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> you have mastered the <strong>Improviser</strong> class and have obtained either the <strong>WHOOPS!</strong> skill.</p></blockquote><p>Whenever you get a <strong>Fumble</strong>, choose any number of creatures you can see: Each of them suffers <strong>either 10 physical damage</strong> or <strong>Shaken</strong>, your choice.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Improviser"
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "requirement": {
+      "value": ""
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745860531268,
+    "modifiedTime": 1745860680106,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!items!ZTmNmIU2hNPubX2E"
+}

@@ -1,0 +1,1525 @@
+{
+  "name": "Edgelord",
+  "type": "character",
+  "_id": "7xRYWyILyNhPH0rw",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 35,
+        "bonus": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "value": 8,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "exp": {
+        "value": 0
+      },
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
+    },
+    "bonds": [],
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 10
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 6
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {
+      "armor": "7sosxUk7ZYJewntg",
+      "mainHand": "jhvfX00IzjALJo7B",
+      "offHand": "a9QuzJwLX8qEFPxl"
+    },
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "floralist": {
+      "planted": null,
+      "garden": null
+    },
+    "description": ""
+  },
+  "prototypeToken": {
+    "name": "Edgelord",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862109663,
+        "modifiedTime": 1745862109663,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "fmm8h1d66CeHnK3o",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.fmm8h1d66CeHnK3o"
+    },
+    {
+      "name": "Assassin",
+      "type": "class",
+      "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "A Silent strike, a fatal blow, an assassin's work is never slow."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Secret Agent, Shinobi</strong></h5><ul><li><p>How are your targets chosen? Do you pick them yourself, or does somebody else do it?</p></li><li><p>Are you a freelancer, or part of an organization? Do you still work for them?</p></li><li><p>One of your previous marks changed you. How, and what happened?</p></li><li><p>Are you currently on a mission? Do you feel apprehensive about it for some reason?</p></li></ul><hr><h5><strong>ASSASSIN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Inventory Points by 2.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.XutTT5ibA0IWX2kl]{Assassinate} <strong>(SL5)</strong></p><p>You may spend an action and up to<strong>【SL x 5】MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9u8jqkiI27YicLMQ]{Hide In Plain Sight} <strong>(SL3)</strong></p><p>You may spend an action to perform an <strong>open check【DEX + INS】</strong>. Until the end of your next turn, you cannot be seen or targetted by any creature whose<strong>【INS】</strong>die is lower than the result of your check. You may exempt allies from this effect.</p><p>All <strong>contested</strong> or <strong>open checks</strong> closely related to hiding or sneaking (including this one) get a<strong>【+SL】</strong>bonus.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.LwLkkw4xZcv8ML2V]{Sneak Attack}</p><p>During your <strong>first turn of a conflict</strong>; or when one of your actions includes among its targets at least one creature that <strong>cannot see you</strong>, gain a<strong>【+SL】</strong>bonus to your <strong>Accuracy</strong> and <strong>Magic Checks</strong>.</p><p>Additionally, gain a<strong>【+SL】</strong>bonus to <strong>Initiative</strong> checks.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Bm5kX0HJR6mL6SEf]{Master Of Disguise}</p><div class=\"stackedit__html\"><p>If you have some time to prepare and are out of sight, you may spend <strong>1 Fabula Point</strong> to fully adopt a new persona. Write it down: You may change into that persona at any time as long as you’re out of sight of those you wish to trick.</p><p>Your disguise is practically perfect and can withstand the scrutiny of any Soldier-ranked foe until you blow your cover.</p><p>Elites, Champions, and Villains may be able to see through your disguise, but only Villains get to permanently invalidate it by spending an <strong>Ultima Point</strong>.</p></div><hr></div><div class=\"stackedit__html\"><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.oNBIVnORM0mB9R3m]{Poissonnier} <strong>(SL3)</strong></p><p>As an action, you may spend <strong>2 IP</strong> and choose any number of weapons you are holding: Until the end of the scene, you increase their damage by <strong>【SL】 </strong>and switch their damage to Poison.</p><p>All Open Checks related to identifying, combating, and using poisons gain a <strong>【+SL】 </strong>bonus.</p><p></p></div><div class=\"stackedit__html\"><div class=\"stackedit__html\"><h2>HEROIC SKILLS</h2></div><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.QBfG2V41hmsjeEgY]{Dual-Bladed Assassination}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.Xb84whBJgufzR9Id]{Deadly Rush}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Nitro</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 3,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": true
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "assassin"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.xaX26pv7i3Xc3mQA",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862333536,
+        "modifiedTime": 1745862373605,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "zTjjVAp2QUXGVvYv",
+      "sort": 0,
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.zTjjVAp2QUXGVvYv"
+    },
+    {
+      "folder": "eeMGbxKcwUgDYcy8",
+      "name": "Assassinate",
+      "type": "skill",
+      "_id": "ehdGKFjaoankG8rK",
+      "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>You may spend an action and up to <strong>【SL x 5】 MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Assassin"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "assassinate",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.XutTT5ibA0IWX2kl",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862336282,
+        "modifiedTime": 1745862394086,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.ehdGKFjaoankG8rK"
+    },
+    {
+      "name": "Fury",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "I'll just have to become stronger than you!"
+        },
+        "description": "<h5><strong>ALSO: Berserker, Brawler, Viking</strong></h5><p><strong>Furies </strong>never know when to quit. In battle and life, they are energetic, determined, and often restless. Whatever ideals or desires drive their actions, they will stop at nothing and risk everything in order to achieve them. Some Furies undergo a rigid training in order to control their emotions; others simply see might as the solution to all problems and are constantly on the verge of letting rage get the best of them.</p><hr /><h5><strong>FURY FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial armor</strong>.</li></ul><h2><strong>FURY SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.DniA4VMTBNhk5a1v]{Adrenaline} <strong>(SL5)</strong></p><p>As long as you are in <strong>Crisis</strong>, you deal <strong>【SL × 2】 </strong>extra damage (be it with attacks, spells, Arcana, items, or any other method).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3]{Frenzy}</p><p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail </strong>and <strong>thrown </strong>weapons trigger a <strong>critical success </strong>if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.wezEekAOYfbxrt74]{Indomitable Spirit} <strong>(SL4)</strong></p><p>When you spend one or more Fabula Points, you get an additional benefit — choose one option: you recover <strong>【SL × 5】 </strong>Hit Points; <strong>or </strong>you recover <strong>【SL × 5】 </strong>Mind Points; <strong>or </strong>you recover from a single status effect of your choice.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.XaopYEAay9e86srI]{Provoke} <strong>(SL5)</strong></p><p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【MIG + WLP】 </strong>Check against a creature you can see — describe how you taunt them! If you succeed, the target suffers <strong>enraged </strong>and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer <strong>enraged</strong>, or if they are successfully <strong>provoked </strong>by someone else.</p><p>You gain a bonus equal to <strong>【SL】 </strong>to your <strong>【MIG + WLP】 </strong>Checks for this Skill.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.OW3xxi09kANGy2ZO]{Withstand} <strong>(SL5)</strong></p><p>When you perform the <strong>Guard </strong>action, if you choose <strong>not </strong>to provide cover to another creature, you recover Hit Points equal to <strong>【SL, multiplied by the highest strength among your Bonds】 </strong>and choose <strong>Might </strong>or <strong>Willpower</strong>: you treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the end of your next turn.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": true
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": true
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR194"
+        },
+        "fuid": "fury"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.JqjAUSTgQyZdfAML",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862341752,
+        "modifiedTime": 1745862374456,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "wvQ9Cd26lCQU8j8E",
+      "sort": 1400000,
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.wvQ9Cd26lCQU8j8E"
+    },
+    {
+      "folder": "eeMGbxKcwUgDYcy8",
+      "name": "Hide In Plain Sight",
+      "type": "skill",
+      "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>You may spend an action to perform an <strong>open check 【DEX + INS】</strong>. Until the end of your next turn, you cannot be seen or targeted by any creature whose <strong>【INS】 </strong>die is lower than the result of your check. You may exempt allies from this effect.</p><p>All <strong>contested</strong> or <strong>open checks</strong> closely related to hiding or sneaking (including this one) get a <strong>【+SL】 </strong>bonus.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Assassin"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "hide-in-plain-sight",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9u8jqkiI27YicLMQ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862345473,
+        "modifiedTime": 1745862394535,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "oLQLhvdm92eZYWKt",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.oLQLhvdm92eZYWKt"
+    },
+    {
+      "folder": "eeMGbxKcwUgDYcy8",
+      "name": "Sneak Attack",
+      "type": "skill",
+      "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>During your <strong>first turn of a conflict</strong>; or when one of your actions includes among its targets at least one creature that <strong>cannot see you</strong>, gain a <strong>【+SL】 </strong>bonus to your <strong>Accuracy</strong> and <strong>Magic Checks</strong>.</p><p>Additionally, gain a <strong>【+SL】 </strong>bonus to <strong>Initiative</strong> checks.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Assassin"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "sneak-attack",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.LwLkkw4xZcv8ML2V",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862348564,
+        "modifiedTime": 1745862395102,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "VTXhPUt5c6GU3vLz",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.VTXhPUt5c6GU3vLz"
+    },
+    {
+      "folder": "gf9uvRkGXGXrNE9W",
+      "name": "Frenzy",
+      "type": "skill",
+      "_id": "LVz6Jkv6c2JzaprY",
+      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Fury"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR195"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "frenzy",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862353506,
+        "modifiedTime": 1745862395796,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.LVz6Jkv6c2JzaprY"
+    },
+    {
+      "folder": "gf9uvRkGXGXrNE9W",
+      "name": "Adrenaline",
+      "type": "skill",
+      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_adrenaline.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>As long as you are in <strong>Crisis</strong>, you deal <strong>【SL × 2】</strong> extra damage (be it with attacks, spells, Arcana, items or any other method).</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Fury"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR195"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "adrenaline",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": 1,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Adrenaline",
+          "_id": "kTPwUE4IK9FTRBIX",
+          "changes": [
+            {
+              "key": "system.bonuses.damage.melee",
+              "mode": 2,
+              "value": "2*@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.damage.ranged",
+              "mode": 2,
+              "value": "2*@system.level.value",
+              "priority": null
+            },
+            {
+              "key": "system.bonuses.damage.spell",
+              "mode": 2,
+              "value": "2*@system.level.value",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">As long as you are in <strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px;color:rgb(25, 24, 19);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Crisis</strong>, you deal<strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px;color:rgb(25, 24, 19);font-family:'PT Sans Narrow', sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">【SL × 2</strong><strong style=\"box-sizing:border-box;user-select:text;margin:0px;padding:0px\">】</strong>extra damage (be it with attacks, spells, Arcana, items or any other method). </span></p>",
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "active"
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_adrenaline.png",
+          "type": "base",
+          "system": {
+            "predicate": {
+              "crisisInteraction": "active"
+            },
+            "type": "default",
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 0
+            },
+            "rules": {
+              "progress": {
+                "current": 0,
+                "step": 1,
+                "max": 6,
+                "enabled": false
+              }
+            }
+          },
+          "origin": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!7xRYWyILyNhPH0rw.cJnYYd2IAlqa4el6.kTPwUE4IK9FTRBIX"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "YN7AhHIwAZeH33Tw": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.DniA4VMTBNhk5a1v",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862360025,
+        "modifiedTime": 1745862396180,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "cJnYYd2IAlqa4el6",
+      "sort": 400000,
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.cJnYYd2IAlqa4el6"
+    },
+    {
+      "name": "Steel Dagger",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/steel-dagger.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "damage": {
+          "value": 4
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "dagger"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "steel-dagger",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.isFPLsiPuTbBIJ4N",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862380040,
+        "modifiedTime": 1745862389861,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "jhvfX00IzjALJo7B",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.jhvfX00IzjALJo7B"
+    },
+    {
+      "name": "Steel Dagger",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/steel-dagger.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "damage": {
+          "value": 4
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "dagger"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "steel-dagger",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.isFPLsiPuTbBIJ4N",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862380915,
+        "modifiedTime": 1745862390266,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "a9QuzJwLX8qEFPxl",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.a9QuzJwLX8qEFPxl"
+    },
+    {
+      "name": "Combat Tunic",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/combat-tunic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 1,
+          "attribute": "dex"
+        },
+        "mdef": {
+          "value": 1,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": 0
+        },
+        "source": {
+          "value": "FUCR132"
+        },
+        "fuid": "combat-tunic"
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.he3PXlM5vLUb28qz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862386193,
+        "modifiedTime": 1745862386193,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "7sosxUk7ZYJewntg",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!7xRYWyILyNhPH0rw.7sosxUk7ZYJewntg"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745862109616,
+    "modifiedTime": 1745862400771,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!actors!7xRYWyILyNhPH0rw"
+}

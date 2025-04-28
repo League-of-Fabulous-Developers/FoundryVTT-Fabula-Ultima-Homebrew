@@ -1,0 +1,22 @@
+{
+  "name": "Brawler",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "bys08voRb00zyypF",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745857527194,
+    "modifiedTime": 1745857527194,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!folders!bys08voRb00zyypF"
+}

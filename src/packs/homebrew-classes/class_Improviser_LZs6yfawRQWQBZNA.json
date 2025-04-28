@@ -1,0 +1,94 @@
+{
+  "name": "Improviser",
+  "type": "class",
+  "_id": "LZs6yfawRQWQBZNA",
+  "img": "icons/equipment/waist/sash-cloth-red.webp",
+  "system": {
+    "fuid": "improviser",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Lucky Dumbass, Absolute Bufoon</strong></h5><ul><li><p>Your antics usually leave chaos in their wake. What’s one memorable incident you caused?</p></li><li><p>There was one time you fast-talked yourself into trouble. How did you get out?</p></li><li><p>Name an item that has seemingly no useful applications, and describe how it once saved your life.</p></li><li><p>What’s this one lie of yours that everyone just seems to keep falling for?</p></li></ul><hr><h5><strong>IMPROVISER FREE BENEFITS</strong></h5><ul><li><span style=\"font-family: 'PT Sans Narrow',sans-serif\"> Permanently increase your maximum Inventory Points by 2.</span></li></ul><h2><strong>IMPROVISER SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.OYUkvXolOyvRgigE]{Point and Click} <strong>(SL2)</strong></p><p>Once per scene, when you spend a <strong>Fabula Point</strong> to alter the current situation or the story, gain <strong>【SL】 IP</strong>.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.dmKJkUnO9itj5YEv]{Combine Items} <strong>(SL2)</strong></p><p>When you perform the <strong>Inventory</strong> action to produce an item, you may produce a second, different item that has an <strong>IP</strong> cost of <strong>【4 - SL】</strong> or greater: Treat both uses as if they were the same action, combine their associated costs, and merge the effects of the resulting items. If they are somehow incompatible, resolve the effects of the first, and then those of the latter.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MPaqVpCBlyPUbrAl]{Dialog Tree} <strong>(SL3)</strong></p><div class=\"stackedit__html\"><p>When you erase or mark segments of a Clock thanks to your lies or sense of humor, roll <strong>【SL】 d3</strong> and <strong>choose one of them</strong>: If it’s a 1, erase 1 segment from the clock; if it’s a <strong>3</strong>, mark 1 segment from the clock.</p></div><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.BDiDiCvnVwUahUzy]{Whoops!}</p><p>Before performing a <strong>Check</strong>, you may declare it as a <strong>Fumble</strong> due to a clumsy accident or silly coincidence. You cannot do this on <strong>Checks</strong> that may not generate Opportunities, such as Support Checks. You gain <strong>Fabula Points</strong> as normal as part of this <strong>Fumble</strong>, and you and the <strong>GM</strong> must choose together which Opportunity you generated.</p><p>Additionally, choose one ally whenever you get a <strong>Fumble</strong>: They recover <strong>10 MP</strong>.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IGVYZxDJZvY59qJ3]{Witty Remark} <strong>(SL3)</strong></p><div class=\"stackedit__html\"><p>During a <strong>Conflict Scene</strong> and when you perform a <strong>Check</strong> against a creature that can hear you, you may spend up to <strong>【SL x 5】 MP</strong>: Gain a <strong>+1</strong> bonus to that Check for every <strong>5 MP</strong> spent this way.</p></div><p></p><h3>HEROIC SKILLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.HZ302IoqtvywpGU7]{The Perfect Distraction}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.ZTmNmIU2hNPubX2E]{Bumbling Idiot}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Nitro</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "benefits": {
+      "resources": {
+        "hp": {
+          "value": false
+        },
+        "mp": {
+          "value": false
+        },
+        "ip": {
+          "value": false
+        }
+      },
+      "martials": {
+        "melee": {
+          "value": false
+        },
+        "ranged": {
+          "value": false
+        },
+        "armor": {
+          "value": false
+        },
+        "shields": {
+          "value": false
+        }
+      },
+      "rituals": {
+        "arcanism": {
+          "value": false
+        },
+        "chimerism": {
+          "value": false
+        },
+        "elementalism": {
+          "value": false
+        },
+        "entropism": {
+          "value": false
+        },
+        "ritualism": {
+          "value": false
+        },
+        "spiritism": {
+          "value": false
+        }
+      }
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745859647307,
+    "modifiedTime": 1745860740249,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!items!LZs6yfawRQWQBZNA"
+}

@@ -1,5 +1,5 @@
 {
-  "folder": "VapJ0jSbbHHqGcEb",
+  "folder": "l8DPkl4IMsjZPzN0",
   "name": "Ritualistic Efficiency",
   "type": "skill",
   "img": "icons/sundries/lights/candles-lit-red-evil.webp",
@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Gain a <strong>【SL】</strong> bonus to any Ritual check you perform. Reduce the base cost of Rituals you initiate by <strong>【SL × 5】</strong> MP (down to a minimum of 1).</p></div>",
+    "description": "<p>Gain a <strong>【+SL】</strong> bonus to any <strong>Ritual</strong> check you perform.</p><p>Reduce the base cost of <strong>Rituals</strong> you initiate by <strong>【SL x 5】 MP</strong> (down to a minimum of 1).</p><p>Whenever you make an <strong>Open Check</strong> related to your knowledge of magic, curses, rituals, spells, or other similar effects, add a bonus equal to <strong>【SL】</strong> on that Check.</p>",
     "isFavored": {
       "value": false
     },
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,13 +126,13 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712420994401,
-    "modifiedTime": 1729282024882,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745859190717,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "4yBals9akG0i4TuI",
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "B6evqtezy9ZsGZG3": 3

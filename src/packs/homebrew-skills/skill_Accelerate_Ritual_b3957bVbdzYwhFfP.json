@@ -1,5 +1,5 @@
 {
-  "folder": "VapJ0jSbbHHqGcEb",
+  "folder": "l8DPkl4IMsjZPzN0",
   "name": "Accelerate Ritual",
   "type": "skill",
   "_id": "b3957bVbdzYwhFfP",
@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Whenever you mark a segment of a ritual’s <strong>Clock</strong>, you may spend <strong>【SL × 20】</strong> MP to mark an additional segment for every 20 <strong>MP</strong> spent this way.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>Whenever you mark a segment of a ritual’s <strong>Clock</strong>, you may spend <strong>【SL × 20】</strong> <strong>MP</strong> to mark an additional segment for every 20 <strong>MP</strong> spent this way.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -54,7 +54,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -125,12 +127,12 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712420994401,
-    "modifiedTime": 1729282028522,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745859186550,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "B6evqtezy9ZsGZG3": 3

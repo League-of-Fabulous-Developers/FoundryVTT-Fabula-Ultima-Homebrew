@@ -1,0 +1,1624 @@
+{
+  "name": "Grappler",
+  "type": "character",
+  "_id": "cLElljWsw0Ijk9ZF",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 65,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 35,
+        "bonus": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "value": 6,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "exp": {
+        "value": 0
+      },
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
+    },
+    "bonds": [],
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 10
+      },
+      "wlp": {
+        "base": 6
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {
+      "mainHand": "HdEy2XeIhAXiffmc",
+      "offHand": "E8AaUKvf0rGC8h9v",
+      "phantom": "ySIeyojyYXS5adtC"
+    },
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "floralist": {
+      "planted": null,
+      "garden": null
+    },
+    "description": ""
+  },
+  "prototypeToken": {
+    "name": "Grappler",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862586336,
+        "modifiedTime": 1745862586336,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "xCaJaZBwY0k4NBD9",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.xCaJaZBwY0k4NBD9"
+    },
+    {
+      "name": "Brawler",
+      "type": "class",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "This time, victory is mine!"
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Martial Artist, Pugilist, Street Fighter</strong></h5><ul><li><p>Are you trying to win a tournament, or did someone steal your significant other?</p></li><li><p>Would you eat floor chicken? What about wall chicken?</p></li><li><p>Which stereotypes of your culture do you embody?</p></li><li><p>How many times were you thrown off a volcano?</p></li></ul><hr><h5><strong>BRAWLER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Health Points by 5.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2></div><div class=\"stackedit__html\"><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9iYytTSGAbEXr8Qo]{Parry}</p><p>When you are about to be hit by a <strong>melee attack</strong>, you may perform an <strong>Accuracy Check</strong> as if you were attacking <strong>unarmed</strong>. Then, compare both results:</p><ul><li><p>If yours is <em>higher</em>, <strong>halve</strong> that attack’s damage.</p></li><li><p>If yours is <em>lower</em>, you take <strong>double damage</strong> from it.</p></li><li><p>If they are <em>equal</em>, you get a <em>Perfect Parry</em> and completely interrupt that attack: It has no effect.</p></li></ul><p>If you use this Skill during a conflict, you cannot use it again until the start of your next turn unless you got a <em>Perfect Parry</em>.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ftv2cnR4Cx9IxKpj]{Grappling Smash} <strong>(SL3)</strong></p><p>When you <strong>hit a single creature with a flail or brawling attack</strong> and before you resolve its damage, you may set your attack’s total damage to <strong>0</strong> and perform an <strong>Opposed Check</strong> with <strong>【DEX + MIG】</strong>. If successful, set your attack’s total damage to twice what it was, and continue resolving it.</p><p>Gain a <strong>【+SL】</strong> bonus to this check.</p></div><hr><div class=\"stackedit__html\"><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM]{Attack Chain}</p><p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mMAF7OQ047j4JqA7]{Combo Breaker} <strong>(SL2)</strong></p><p>At the start of every conflict, gain <strong>【SL】 Combo Break</strong> tokens. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <strong>Combo Break</strong> token at any time to dodge an attack.</p><p>You lose all of <strong>Combo Break</strong> tokens at the end of the scene.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH]{Command Input} <strong>(SL5)</strong></p><div class=\"stackedit__html\"><p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p></div><p></p><div class=\"stackedit__html\"><h2>HEROIC SKILLS</h2></div><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.FuNQiKgWQTNt1ZUg]{Comeback Mechanics}</p></div><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.07VsutNH5UP9zlNP]{Devastating Counter}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.qlHxkRmQGe1bVqfN]{Super-Armored Payback}</p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Nitro</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 3,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "brawler"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.xXe5AGe88CXj2z2A",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862601566,
+        "modifiedTime": 1745862630404,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "bipkmRRdNwvmAgVI",
+      "sort": 0,
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.bipkmRRdNwvmAgVI"
+    },
+    {
+      "folder": "bys08voRb00zyypF",
+      "name": "Grappling Smash",
+      "type": "skill",
+      "_id": "BW1DRNix3jYpuajX",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "system": {
+        "fuid": "grappling-smash",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>When you <strong>hit a single creature with a flail or brawling attack</strong> and before you resolve its damage, you may set your attack’s total damage to <strong>0</strong> and perform an <strong>Opposed Check</strong> with <strong>【DEX + MIG】</strong>. If successful, set your attack’s total damage to twice what it was, and continue resolving it.</p><p>Gain a <strong>【+SL】</strong> bonus to this check.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Brawler"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "ins"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "hrZero": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": ""
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ftv2cnR4Cx9IxKpj",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862607368,
+        "modifiedTime": 1745862722196,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.BW1DRNix3jYpuajX"
+    },
+    {
+      "folder": "bys08voRb00zyypF",
+      "name": "Command Input",
+      "type": "skill",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "Quarter circle back, half circle forward, high punch!"
+        },
+        "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p></div></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Brawler"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "command-input",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862611714,
+        "modifiedTime": 1745862721600,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "a8exzqMJptHJNDn8",
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.a8exzqMJptHJNDn8"
+    },
+    {
+      "folder": "bys08voRb00zyypF",
+      "name": "Attack Chain",
+      "type": "skill",
+      "_id": "MjmiCXBQRUWOwc2Y",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "Light attack, kick, heavy slash!"
+        },
+        "description": "<div class=\"stackedit__html\"><p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Brawler"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "attack-chain",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862615327,
+        "modifiedTime": 1745862722865,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.MjmiCXBQRUWOwc2Y"
+    },
+    {
+      "name": "Runic Shield",
+      "type": "shield",
+      "img": "systems/projectfu/styles/static/compendium/armor/runic-shield.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 2
+        },
+        "mdef": {
+          "value": 2
+        },
+        "init": {
+          "value": 0
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": {
+          "value": "FUCR133"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "runic-shield"
+      },
+      "effects": [],
+      "folder": "ns5SuBHXn69q4YjA",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.13eXYpKPmgRYf7Lz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862646223,
+        "modifiedTime": 1745862727678,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "E8AaUKvf0rGC8h9v",
+      "sort": -200000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.E8AaUKvf0rGC8h9v"
+    },
+    {
+      "name": "Runic Shield",
+      "type": "shield",
+      "img": "systems/projectfu/styles/static/compendium/armor/runic-shield.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 150
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 2
+        },
+        "mdef": {
+          "value": 2
+        },
+        "init": {
+          "value": 0
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": {
+          "value": "FUCR133"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "runic-shield"
+      },
+      "effects": [],
+      "folder": "ns5SuBHXn69q4YjA",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.13eXYpKPmgRYf7Lz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745862647032,
+        "modifiedTime": 1745862728741,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "HdEy2XeIhAXiffmc",
+      "sort": -300000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.HdEy2XeIhAXiffmc"
+    },
+    {
+      "name": "Guardian",
+      "type": "class",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "Let me be your shield."
+        },
+        "description": "<h5><strong>ALSO: Paladin, Soldier, Yōjinbō</strong></h5><p>Proud and selfless, <strong>Guardians</strong> are individuals who know the value of life… and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. They are often extraordinary and impressive individuals, such as valiant soldiers or veterans scarred by a thousand battles. While some Guardians may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.</p><hr /><h5><strong>GUARDIAN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial armor</strong> and <strong>martial shields.</strong></li></ul><h2><strong>GUARDIAN SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd]{Bodyguard}</p><p>If you perform the <strong>Guard</strong> action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF]{Defensive Mastery} <strong>(SL5)</strong></p><p>As long as you have a <strong>shield</strong> or a <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aPQXTQegswRisA1R]{Dual Shieldbearer}</p><p>You may now equip a <strong>shield</strong> in your <strong>main hand</strong> slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee <strong>brawling</strong> weapon:</p><table style=\"width:98.7597%;height:53px\" border=\"1\"><colgroup><col style=\"width:14.4654%\"></col><col style=\"width:20.7547%\"></col><col style=\"width:23.2618%\"></col><col style=\"width:41.5181%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px\"><strong>WEAPON</strong></td><td style=\"height:17px\"><strong>ACCURACY</strong></td><td style=\"height:17px\"><strong>DAMAGE</strong></td><td style=\"height:17px\"><strong>QUALITY</strong></td></tr><tr style=\"height:36px\"><td style=\"height:36px\"><strong>Twin Shields</strong></td><td style=\"height:36px\"><strong>【MIG + MIG】</strong></td><td style=\"height:36px\"><strong>【HR + 5】physical</strong> </td><td style=\"height:36px\">Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong>.</td></tr></tbody></table><p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong> (above).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.X4KdFiQmzikrsM6v]{Fortress} <strong>(SL5)</strong></p><p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES]{Protect}</p><p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong> or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": true
+            },
+            "shields": {
+              "value": true
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR196"
+        },
+        "fuid": "guardian"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.ARBTZXtCwUzlyIyy",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745864063561,
+        "modifiedTime": 1745864098527,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "nFLlRWXOqwXWdzsv",
+      "sort": 700000,
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.nFLlRWXOqwXWdzsv"
+    },
+    {
+      "folder": "BdAXAA3IkZnarpJX",
+      "name": "Defensive Mastery",
+      "type": "skill",
+      "_id": "KNgYfQnQH2QmGKCT",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_defensive_mastery.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>As long as you have a <strong>shield</strong> or <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Guardian"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR196"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "defensive-mastery",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [
+        {
+          "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_defensive_mastery.png",
+          "origin": "Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Defensive Mastery",
+          "_id": "w7qI5rqewX56TrEC",
+          "type": "base",
+          "system": {
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 0
+            },
+            "rules": {
+              "progress": {
+                "current": 0,
+                "step": 1,
+                "max": 6,
+                "enabled": false
+              }
+            }
+          },
+          "changes": [
+            {
+              "key": "system.bonuses.incomingDamage.all",
+              "mode": 2,
+              "value": "-@system.level.value",
+              "priority": null
+            }
+          ],
+          "description": "<p>As long as you have a <strong>shield</strong> or <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "type": "default",
+              "source": "FUCR196",
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!cLElljWsw0Ijk9ZF.KNgYfQnQH2QmGKCT.w7qI5rqewX56TrEC"
+        }
+      ],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745864067929,
+        "modifiedTime": 1745864067929,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 200000,
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.KNgYfQnQH2QmGKCT"
+    },
+    {
+      "folder": "BdAXAA3IkZnarpJX",
+      "name": "Dual Shieldbearer",
+      "type": "skill",
+      "_id": "Jlw6ZLuZBEONxVO4",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_dual_shieldbearer.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You may now equip a <strong>shield</strong> in your <strong>main hand</strong> slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee <strong>brawling</strong> weapon:</p><table style=\"width:98.7597%\" border=\"1\"><colgroup><col style=\"width:14.4654%\"></col><col style=\"width:20.7547%\"></col><col style=\"width:23.2618%\"></col><col style=\"width:41.5181%\"></col></colgroup><tbody><tr><td><strong>WEAPON</strong></td><td><strong>ACCURACY</strong></td><td><strong>DAMAGE</strong></td><td><strong>QUALITY</strong></td></tr><tr><td><strong>Twin Shields</strong></td><td><strong>【MIG + MIG】</strong></td><td><strong>【HR + 5】</strong> <strong>physical</strong></td><td>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong>.</td></tr></tbody></table><hr /><ul><li><p>To <strong>automate</strong>, add the following @UUID[Compendium.projectfu.skills.Item.2LyT2btVVPDPYY4h]{Twin Shields} to your character sheet. Navigate to the '<strong>Items</strong>\" tab where <strong>Twin Shields</strong> is located and press <strong>Ctrl+Click</strong> the icon in <strong>Equip?</strong> column. The item will be added to the <strong>Phantom Slot</strong>. Make sure this skill is added to your character sheet. Now you can equip shields on both your main and off hand slot.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Guardian"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR196"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "dual-shieldbearer",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.aPQXTQegswRisA1R",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745864069977,
+        "modifiedTime": 1745864069977,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.Jlw6ZLuZBEONxVO4"
+    },
+    {
+      "folder": "rh1Z5dIGbWFOZSll",
+      "name": "Twin Shields",
+      "type": "weapon",
+      "_id": "ySIeyojyYXS5adtC",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/twin-shields/twin-shields.png",
+      "system": {
+        "source": {
+          "value": "FUCR196"
+        },
+        "summary": {
+          "value": ""
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "two-handed"
+        },
+        "type": {
+          "value": "melee"
+        },
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "isMartial": {
+          "value": false
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "cost": {
+          "value": 100
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "damage": {
+          "value": 5
+        },
+        "subtype": {},
+        "description": "<p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong>.</p>",
+        "impType": {
+          "value": "minor"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "defense": "def",
+        "fuid": "twin-shields",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [
+        {
+          "duration": {
+            "rounds": 1,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Twin Shields",
+          "_id": "oaHQT6sqi0iC32QB",
+          "changes": [
+            {
+              "key": "system.damage.value",
+              "mode": 2,
+              "value": "&sl(\"defensive-mastery\")",
+              "priority": null
+            }
+          ],
+          "description": "<p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong>.</p>",
+          "transfer": false,
+          "statuses": [],
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none",
+              "type": "default",
+              "source": "FUCR196"
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/projectfu/styles/static/compendium/classes/guardian/twin-shields/twin-shields.png",
+          "type": "base",
+          "system": {
+            "rules": {
+              "progress": {
+                "id": "",
+                "name": "",
+                "current": 0,
+                "step": 1,
+                "max": 6,
+                "enabled": false
+              }
+            },
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 0
+            }
+          },
+          "origin": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!cLElljWsw0Ijk9ZF.ySIeyojyYXS5adtC.oaHQT6sqi0iC32QB"
+        }
+      ],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.2LyT2btVVPDPYY4h",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745864083356,
+        "modifiedTime": 1745864083356,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 100000,
+      "_key": "!actors.items!cLElljWsw0Ijk9ZF.ySIeyojyYXS5adtC"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745862586294,
+    "modifiedTime": 1745864087454,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_key": "!actors!cLElljWsw0Ijk9ZF"
+}

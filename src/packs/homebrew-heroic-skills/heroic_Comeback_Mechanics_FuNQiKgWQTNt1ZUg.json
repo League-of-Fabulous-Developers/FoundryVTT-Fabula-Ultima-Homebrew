@@ -1,0 +1,59 @@
+{
+  "name": "Comeback Mechanics",
+  "type": "heroic",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "fuid": "comeback-mechanics",
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": "Why am I being punished for winning?!"
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> You must have Mastered the <strong>Brawler</strong> Class.</p></blockquote><p>While you are in Crisis:</p><ul><li><p><strong>Parry</strong> allows you to add a <strong>+1</strong> or <strong>-1</strong> bonus to your check <em><strong>after</strong></em> rolling it.</p></li><li><p><strong>Grappling Smash</strong> gains a <strong>+1</strong> bonus to its <strong>Opposed Check</strong>.</p></li><li><p><strong>Combo’s</strong> mark now also increases your action’s <strong>Damage</strong> by <strong>2</strong>.</p></li><li><p><strong>Command Input</strong> gains a <strong>+2</strong> bonus to its check.</p></li><li><p><strong>Combo Breaker</strong> gains one extra counter (may only happen once per scene).</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Brawler"
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "requirement": {
+      "value": ""
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": "FEQBk6SKyhMTM5ay",
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745858170681,
+    "modifiedTime": 1745858170681,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_id": "FuNQiKgWQTNt1ZUg",
+  "sort": 0,
+  "_key": "!items!FuNQiKgWQTNt1ZUg"
+}

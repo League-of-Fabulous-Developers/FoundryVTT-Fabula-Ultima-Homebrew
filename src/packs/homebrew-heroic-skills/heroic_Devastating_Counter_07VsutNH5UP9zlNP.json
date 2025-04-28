@@ -1,0 +1,59 @@
+{
+  "name": "Devastating Counter",
+  "type": "heroic",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "fuid": "devastating-counter",
+    "subtype": {
+      "value": "skill"
+    },
+    "summary": {
+      "value": "C-c-c-c-combo breaker!"
+    },
+    "description": "<blockquote><p><strong>Requirements:</strong> You must have Mastered the <strong>Brawler</strong> Class, and acquired either the <strong>Combo Breaker</strong> or <strong>Parry</strong> skills.</p></blockquote><p>When you use <strong>Combo Breaker</strong> against a <strong>melee attack</strong>; <strong>or</strong> get a Perfect Parry, choose one: Immediately perform a <strong>Command Input</strong> for free; or an unarmed <strong>Free Attack</strong>. Your attacker must be among your targets.</p><p>If you use <strong>Devastating Counter</strong> during a conflict, you cannot use it again until the start of your next turn.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": "Brawler"
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "requirement": {
+      "value": ""
+    },
+    "source": {
+      "value": "Homebrew"
+    }
+  },
+  "effects": [],
+  "folder": "FEQBk6SKyhMTM5ay",
+  "ownership": {
+    "default": 0,
+    "9aR18wpxqiStEQ8U": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1745858173528,
+    "modifiedTime": 1745858173528,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+  },
+  "_id": "07VsutNH5UP9zlNP",
+  "sort": 0,
+  "_key": "!items!07VsutNH5UP9zlNP"
+}
