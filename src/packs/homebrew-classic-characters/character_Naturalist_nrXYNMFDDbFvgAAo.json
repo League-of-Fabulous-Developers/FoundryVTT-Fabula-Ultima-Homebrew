@@ -402,256 +402,17 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "12.331",
         "createdTime": 1715054358875,
-        "modifiedTime": 1729286577833,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "modifiedTime": 1745937910591,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9",
         "duplicateSource": null
       },
-      "sort": 700000,
+      "sort": 100000,
       "ownership": {
         "default": 0,
         "B6evqtezy9ZsGZG3": 3
       },
       "_key": "!actors.items!nrXYNMFDDbFvgAAo.11n0DIeIf7BiOmb1"
-    },
-    {
-      "folder": "EeQWHiKz0q3EbCsZ",
-      "name": "Target Insight",
-      "type": "skill",
-      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<div class=\"stackedit__html\"><p>On your turn during a conflict scene, you may spend <strong>@LOSS[10 mp]</strong> to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p></div>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Hunter"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "defense": "def",
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        }
-      },
-      "effects": [],
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1715054358875,
-        "modifiedTime": 1729286570113,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv",
-        "duplicateSource": null
-      },
-      "_id": "N9aGl4iZBJL3zTFb",
-      "sort": 300000,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.N9aGl4iZBJL3zTFb"
-    },
-    {
-      "name": "Hunter",
-      "type": "class",
-      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "If hatred you will never find your quarry."
-        },
-        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h5><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><hr /><h5>HUNTER <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound (SL4)}</p><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer (SL4)}</p><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver &amp; Garlic}</p><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight (SL3)}</p><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks (SL5)}</p><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p><p></p><h3>HUNTER NOTES</h3></div><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": true
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": true
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "fuid": "hunter"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.WLjUavn6dDW5T8xl",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283608953,
-        "modifiedTime": 1729283610257,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "AWHP8iZrA2oDmQLj",
-      "sort": 0,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.AWHP8iZrA2oDmQLj"
     },
     {
       "name": "Wayfarer",
@@ -854,441 +615,6 @@
       "_key": "!actors.items!nrXYNMFDDbFvgAAo.a5vCU0IWM3d8u4l2"
     },
     {
-      "folder": "kDKKcLwB0Ut9ynTR",
-      "name": "Flash of Insight",
-      "type": "skill",
-      "_id": "coPFGiTCU8VktpNv",
-      "img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_flash_of_insight.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>When you roll a <strong>13 or higher</strong> on a Check performed to investigate a creature, item or location — this includes using the <strong>Study </strong>action during a conflict — you may ask the Game Master up to <strong>【SL】</strong> questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character's deductive process.</p><p>This Skill may only be used once on the same creature, item or location.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Loremaster"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR199"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "flash-of-insight"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.J5KbrSiczxizbdM3",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283707732,
-        "modifiedTime": 1729286587159,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 200000,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.coPFGiTCU8VktpNv"
-    },
-    {
-      "folder": "kDKKcLwB0Ut9ynTR",
-      "name": "Knowledge Is Power",
-      "type": "skill",
-      "_id": "iJOv8yalBlY5jbgu",
-      "img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_knowledge_is_power.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>When you perform an Accuracy Check, you may replace <strong>one</strong> of the Attribute dice with <strong>Insight</strong> (such as <strong>【INS + INS】</strong> for a pistol or <strong>【INS + MIG】</strong> for a waraxe).</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Loremaster"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR199"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "knowledge-is-power"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.XNAHXFdVPKiABegZ",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283712008,
-        "modifiedTime": 1729286593487,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 100000,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.iJOv8yalBlY5jbgu"
-    },
-    {
-      "folder": "3xqESZLpJir713ho",
-      "name": "Well-Traveled",
-      "type": "skill",
-      "_id": "MsDq8FDU5BCDF5Eo",
-      "img": "systems/projectfu/styles/static/compendium/classes/wayfarer/wayfarer_well_traveled.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You reduce the die rolled for your <strong>travel rolls</strong> by one size (to a minimum of <strong>d6</strong>).</p><p>If multiple characters have this Skill, the effects are <strong>not</strong> cumulative.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Wayfarer"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR217"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "well-traveled"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.fuPzuDHzaKUgbvL2",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283716685,
-        "modifiedTime": 1729286597646,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 800000,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.MsDq8FDU5BCDF5Eo"
-    },
-    {
       "name": "Chain Whip",
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/chain-whip.png",
@@ -1387,11 +713,11 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283747194,
-        "modifiedTime": 1729286571138,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745936696431,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "ZbeFlgETWmrbSbzy",
-      "sort": 0,
+      "sort": -200000,
       "ownership": {
         "default": 0,
         "BwRsFvMHAq9vUtEO": 3,
@@ -1484,261 +810,6 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!nrXYNMFDDbFvgAAo.NtURSlPlXyUBxaEp"
-    },
-    {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elemental-shard"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283772159,
-        "modifiedTime": 1729283772159,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "nU1A0Sr8PqZC6FoY",
-      "sort": 87500,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.nU1A0Sr8PqZC6FoY"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283772159,
-        "modifiedTime": 1729283772159,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "RKhsnz4KEl2ZYzTZ",
-      "sort": 50000,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.RKhsnz4KEl2ZYzTZ"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "magic-tent"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283772159,
-        "modifiedTime": 1729283772159,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "X0jVOCIlD5EKHKKp",
-      "sort": 100000,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.X0jVOCIlD5EKHKKp"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "remedy"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283772159,
-        "modifiedTime": 1729283772159,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "dke5EDTlnytuj6jn",
-      "sort": 0,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.dke5EDTlnytuj6jn"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "tonic"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283772159,
-        "modifiedTime": 1729283772159,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "GnhuhuG9mfdH7xPU",
-      "sort": 75000,
-      "_key": "!actors.items!nrXYNMFDDbFvgAAo.GnhuhuG9mfdH7xPU"
     },
     {
       "name": "Unarmed Strike",
@@ -1850,6 +921,737 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!nrXYNMFDDbFvgAAo.K4qg2M4cWrtCjNDG"
+    },
+    {
+      "folder": "kDKKcLwB0Ut9ynTR",
+      "name": "Knowledge Is Power",
+      "type": "skill",
+      "_id": "S8VwO5iGXxLNYZ5d",
+      "img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_knowledge_is_power.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you perform an Accuracy Check, you may replace <strong>one</strong> of the Attribute dice with <strong>Insight</strong> (such as <strong>【INS + INS】</strong> for a pistol or <strong>【INS + MIG】</strong> for a waraxe).</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Loremaster"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR199"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "knowledge-is-power",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.XNAHXFdVPKiABegZ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936633489,
+        "modifiedTime": 1745937910591,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 400000,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.S8VwO5iGXxLNYZ5d"
+    },
+    {
+      "folder": "kDKKcLwB0Ut9ynTR",
+      "name": "Flash of Insight",
+      "type": "skill",
+      "_id": "TNEUhkgpK2OJymmk",
+      "img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_flash_of_insight.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you roll a <strong>13 or higher</strong> on a Check performed to investigate a creature, item or location — this includes using the <strong>Study </strong>action during a conflict — you may ask the Game Master up to <strong>【SL】</strong> questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character's deductive process.</p><p>This Skill may only be used once on the same creature, item or location.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Loremaster"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR199"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "flash-of-insight",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.J5KbrSiczxizbdM3",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936636778,
+        "modifiedTime": 1745937910591,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 500000,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.TNEUhkgpK2OJymmk"
+    },
+    {
+      "folder": "3xqESZLpJir713ho",
+      "name": "Well-Traveled",
+      "type": "skill",
+      "_id": "ZP9iw9Yl9OzBLOdu",
+      "img": "systems/projectfu/styles/static/compendium/classes/wayfarer/wayfarer_well_traveled.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You reduce the die rolled for your <strong>travel rolls</strong> by one size (to a minimum of <strong>d6</strong>).</p><p>If multiple characters have this Skill, the effects are <strong>not</strong> cumulative.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Wayfarer"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR217"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "well-traveled",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.fuPzuDHzaKUgbvL2",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936642815,
+        "modifiedTime": 1745937910591,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.ZP9iw9Yl9OzBLOdu"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936692527,
+        "modifiedTime": 1745936692527,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "mAeRPDTjCdO4gpAH",
+      "sort": 87500,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.mAeRPDTjCdO4gpAH"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936692527,
+        "modifiedTime": 1745936692527,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "duLyh8qUbyawnZSc",
+      "sort": 100000,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.duLyh8qUbyawnZSc"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936692527,
+        "modifiedTime": 1745936692527,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "JrQOurw0o2zEMa2m",
+      "sort": 0,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.JrQOurw0o2zEMa2m"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936692527,
+        "modifiedTime": 1745936692527,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "EbnQAd4FgBb5X3pL",
+      "sort": 75000,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.EbnQAd4FgBb5X3pL"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936692527,
+        "modifiedTime": 1745936692527,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "czATloqvFaFGoFqA",
+      "sort": 50000,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.czATloqvFaFGoFqA"
+    },
+    {
+      "folder": "EeQWHiKz0q3EbCsZ",
+      "name": "Target Insight",
+      "type": "skill",
+      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p></div>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Hunter"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "target-insight",
+        "cost": {
+          "amount": 10,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937909280,
+        "modifiedTime": 1745937910591,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "m3dvs72z1AV37oDf",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.m3dvs72z1AV37oDf"
+    },
+    {
+      "name": "Hunter",
+      "type": "class",
+      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "If hatred you will never find your quarry."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h5><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><hr><h5>HUNTER <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound} <strong>(SL4)</strong></p><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer} <strong>(SL4)</strong></p><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver & Garlic}</p><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight} <strong>(SL3)</strong></p><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks} <strong>(SL5)</strong></p><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p><p></p><h3>HUNTER NOTES</h3></div><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": true
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": true
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "hunter"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.WLjUavn6dDW5T8xl",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938750509,
+        "modifiedTime": 1745938757372,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "7DyRx3jfOOQc5eG9",
+      "sort": -100000,
+      "_key": "!actors.items!nrXYNMFDDbFvgAAo.7DyRx3jfOOQc5eG9"
     }
   ],
   "effects": [],

@@ -823,13 +823,13 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "12.331",
         "createdTime": 1715060941887,
-        "modifiedTime": 1729286540656,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "modifiedTime": 1745936913859,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.RFNn56eRQQAY4gyV",
         "duplicateSource": null
       },
       "_id": "Rj6YQefMxxT0c4kO",
-      "sort": 25000,
+      "sort": -375000,
       "ownership": {
         "default": 0,
         "B6evqtezy9ZsGZG3": 3
@@ -935,11 +935,11 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283512590,
-        "modifiedTime": 1729286509062,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745936905186,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "svZ1LDeJEow6Hiz0",
-      "sort": 0,
+      "sort": -575000,
       "ownership": {
         "default": 0,
         "BwRsFvMHAq9vUtEO": 3,
@@ -1046,11 +1046,11 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283513378,
-        "modifiedTime": 1729286509551,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745936901444,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "yCpA0JyrKUmh6aWd",
-      "sort": 0,
+      "sort": -475000,
       "ownership": {
         "default": 0,
         "BwRsFvMHAq9vUtEO": 3,
@@ -1143,261 +1143,6 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!AejVDOT6yeXjs6Wq.IyvMFheCYEgBAeGn"
-    },
-    {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elemental-shard"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283532637,
-        "modifiedTime": 1729283532637,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "t87ZYFrFAnhwZQPc",
-      "sort": 87500,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.t87ZYFrFAnhwZQPc"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283532637,
-        "modifiedTime": 1729283532637,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "AuwKskk4sv25EMEw",
-      "sort": 50000,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.AuwKskk4sv25EMEw"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "magic-tent"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283532637,
-        "modifiedTime": 1729283532637,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "9KHZ6qxlIfVJ7N7f",
-      "sort": 100000,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.9KHZ6qxlIfVJ7N7f"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "remedy"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283532637,
-        "modifiedTime": 1729283532637,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "qLahqMLRAycZXOaK",
-      "sort": 0,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.qLahqMLRAycZXOaK"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "tonic"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283532637,
-        "modifiedTime": 1729283532637,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "mopxhH1gln18HXRg",
-      "sort": 75000,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.mopxhH1gln18HXRg"
     },
     {
       "name": "Rogue",
@@ -1498,393 +1243,6 @@
       "_id": "cBDxlGJb1xePtv3h",
       "sort": 400000,
       "_key": "!actors.items!AejVDOT6yeXjs6Wq.cBDxlGJb1xePtv3h"
-    },
-    {
-      "name": "Tectonomancer",
-      "type": "class",
-      "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Earth Mage, Stoneshaper, Terramancer</strong></h5><p>A <strong>Tectonomancer</strong> wields magic that manipulates the living earth. Whether they got their start with rocks and dirt or they’re an Elementalist who later specialized, nobody can doubt their expertise now.</p><p>Tectonomancy encourages a deliberate, almost ponderous approach to problem-solving, but not all practitioners are willing to take it slow. Those who last the longest recognize that it is best not to be reckless when calling upon such a dreadfully powerful and destructive art. After all, even the mightiest castle needs a foundation to stand on.</p><hr /><h5><strong>TECTONOMANCER FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Elementalism</strong> discipline. As long as they work with Earth, Metal or Living Wood.</p></li><li><p>Masterying <strong>Tectonomancer</strong> qualifies you to take the <strong>Powerful Spell</strong> Heroic Skills.</p></li></ul><h2><strong>TECTONOMANCER SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.zh4aSUXfN0gddzJj]{Earthmeld (SL2)}</p><p>At <strong>【SL 1】 </strong>you have the ability to move through solid stone and dirt without disturbing it. If solid ground is available, you may use an action and spend 1 Fabula Point to sink into it to take cover for the rest of a scene. You will have to emerge from the earth nearby.</p><p>At <strong>【SL 2】 </strong>you can take willing creatures with you a short distance - through a wall or rockfall, for instance. (If you release a creature, the magic launches them to the surface in an unpredictable direction; you can’t trap them, though you could try this as an unconventional travel method.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.xp1Csz7LczIW8Zoc]{Tectonomancy (SL10)}</p><p>Each time you acquire this Skill, learn one Elementalist spell (see next three pages).<br />Offensive (<strong>@ICON[offensive]</strong>) Tectonomancer spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iWV0UGI9HiDPfmVa]{Mineral Spirit}</p><p>When you use the Inventory action to create a Tonic, the creature that drinks it recovers from all status effects, instead of just one.</p><p><strong>Note:</strong> for the love of Bahamut, <strong>do not actually drink mineral spirits!</strong></p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.DHavgDFfytd17Ze3]{Solid Path (SL3)}</p><p>You are immune to environmental effects that would affect you via dangerous ground (for example, marshy ground inflicting <strong>slow</strong> or unstable footing filling a clock towards an avalanche.)</p><p>The <strong>GM</strong> is the final arbiter on what counts. You may extend this benefit to other creatures for the rest of a scene by spending <strong>【20 - (5 × SL)】</strong>MP for each creature.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mbuSMM9ZMFdoddEK]{Stonework}</p><p>You always have the tools you need to work stone or metal - even types you’ve never seen before - without spending Inventory Points. Additionally, whenever you fill in or erase a segment of a clock related to building, reinforcing, or destroying a structure made of stone, metal, or living wood, you may fill in or erase an additional segment.</p></div><p></p><div class=\"stackedit__html\"><h3>TECHTONOMANCER SPELLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aDULLlZqy8QhHpHp]{[Tectonomancer Spells]} | @UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.k7ZTC2cfSI9wgASF]{Tectonomancer Rules}</p></div><p></p><div class=\"stackedit__html\"><h3>HEROIC SKILLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.mMxNkLHUnIjwXVT5]{Cat 10}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.VPqEtc9VTVeQXy10]{Geoswimmer}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.oWAM9jhnAIXbbHRT]{Legendary Metal}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.DBUmTrx8USXsGz9q]{Lithommancy}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.Uhr8LxGtI95fynsG]{Seismic Sense}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Heroic Skills Help </strong>Cinder</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 3,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": true
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": true
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "fuid": "tectonomancer"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.IDYhhFpFv68Qlg3F",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283560492,
-        "modifiedTime": 1729283562401,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "78TUMaLFXW9FxijV",
-      "sort": 0,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.78TUMaLFXW9FxijV"
-    },
-    {
-      "folder": "k463lsw6TLekF6xu",
-      "name": "Cheap Shot",
-      "type": "skill",
-      "_id": "eCorpqXFzjfTxVs3",
-      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_cheap_shot.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>When you hit a creature with an attack, if the attack <strong>only</strong> targeted that creature and they are suffering from <strong>one or more status effects</strong>, you may have it deal extra damage equal to <strong>【SL + the number of status effects on the creature】</strong>.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Rogue"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR203"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "cheap-shot"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.c2XRt5pvOab25Tbe",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283572454,
-        "modifiedTime": 1729286517236,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 100000,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.eCorpqXFzjfTxVs3"
-    },
-    {
-      "folder": "k463lsw6TLekF6xu",
-      "name": "High Speed",
-      "type": "skill",
-      "_id": "RjaFVwcmVctmjSSi",
-      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_high_speed.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p><span>At the start of a conflict, you may spend @LOSS[10 mp]. If you do, choose one option and apply it before the start of the first round: perform a <strong>free attack</strong> with a weapon you have equipped; <strong>or </strong>perform a <strong>Hinder </strong>or <strong>Objective </strong>action. You also gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen option.</span></p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Rogue"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR203"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "high-speed"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.tiu0D74YNxirN6Tr",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283578521,
-        "modifiedTime": 1729286517762,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 300000,
-      "_key": "!actors.items!AejVDOT6yeXjs6Wq.RjaFVwcmVctmjSSi"
     },
     {
       "name": "Unarmed Strike",
@@ -1996,6 +1354,550 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!AejVDOT6yeXjs6Wq.NX8bbEiV5EbDBpBG"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936812825,
+        "modifiedTime": 1745936812825,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "SilCpMgQDL6UTwRb",
+      "sort": 87500,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.SilCpMgQDL6UTwRb"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936812825,
+        "modifiedTime": 1745936812825,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "XscMdrLw5RkazsF6",
+      "sort": 100000,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.XscMdrLw5RkazsF6"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936812825,
+        "modifiedTime": 1745936812825,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "W6t1sbOqJnDV9uK2",
+      "sort": 0,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.W6t1sbOqJnDV9uK2"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936812825,
+        "modifiedTime": 1745936812825,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "8T9LX3sN2tjE23x7",
+      "sort": 75000,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.8T9LX3sN2tjE23x7"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936812825,
+        "modifiedTime": 1745936812825,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "cjkH8iCQIsUJaXnt",
+      "sort": 50000,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.cjkH8iCQIsUJaXnt"
+    },
+    {
+      "folder": "k463lsw6TLekF6xu",
+      "name": "Cheap Shot",
+      "type": "skill",
+      "_id": "uY3HYWWafEsXGvBy",
+      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_cheap_shot.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you hit a creature with an attack, if the attack <strong>only</strong> targeted that creature and they are suffering from <strong>one or more status effects</strong>, you may have it deal extra damage equal to <strong>【SL + the number of status effects on the creature】</strong>.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Rogue"
+        },
+        "useWeapon": {
+          "accuracy": true,
+          "damage": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": true,
+          "value": 0,
+          "type": "",
+          "onRoll": "",
+          "onApply": "(min($tsc, 1) * $sl) + $tsc",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR203"
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "cheap-shot",
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.c2XRt5pvOab25Tbe",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936865874,
+        "modifiedTime": 1745936919886,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 187500,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.uY3HYWWafEsXGvBy"
+    },
+    {
+      "folder": "k463lsw6TLekF6xu",
+      "name": "High Speed",
+      "type": "skill",
+      "_id": "50wDgMHS3fzNUnKh",
+      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_high_speed.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p><span>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one option and apply it before the start of the first round: perform a <strong>free attack</strong> with a weapon you have equipped; <strong>or </strong>perform a <strong>Hinder </strong>or <strong>Objective </strong>action. You also gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen option.</span></p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Rogue"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR203"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "high-speed",
+        "cost": {
+          "amount": 10,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.tiu0D74YNxirN6Tr",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745936870323,
+        "modifiedTime": 1745936891574,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.50wDgMHS3fzNUnKh"
+    },
+    {
+      "name": "Tectonomancer",
+      "type": "class",
+      "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Earth Mage, Stoneshaper, Terramancer</strong></h5><p>A <strong>Tectonomancer</strong> wields magic that manipulates the living earth. Whether they got their start with rocks and dirt or they’re an Elementalist who later specialized, nobody can doubt their expertise now.</p><p>Tectonomancy encourages a deliberate, almost ponderous approach to problem-solving, but not all practitioners are willing to take it slow. Those who last the longest recognize that it is best not to be reckless when calling upon such a dreadfully powerful and destructive art. After all, even the mightiest castle needs a foundation to stand on.</p><hr><h5><strong>TECTONOMANCER FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Elementalism</strong> discipline. As long as they work with Earth, Metal or Living Wood.</p></li><li><p>Masterying <strong>Tectonomancer</strong> qualifies you to take the <strong>Powerful Spell</strong> Heroic Skills.</p></li></ul><h2><strong>TECTONOMANCER SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.zh4aSUXfN0gddzJj]{Earthmeld} <strong>(SL2)</strong></p><p>At <strong>【SL 1】 </strong>you have the ability to move through solid stone and dirt without disturbing it. If solid ground is available, you may use an action and spend 1 Fabula Point to sink into it to take cover for the rest of a scene. You will have to emerge from the earth nearby.</p><p>At <strong>【SL 2】 </strong>you can take willing creatures with you a short distance - through a wall or rockfall, for instance. (If you release a creature, the magic launches them to the surface in an unpredictable direction; you can’t trap them, though you could try this as an unconventional travel method.)</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.xp1Csz7LczIW8Zoc]{Tectonomancy} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Elementalist spell (see next three pages).<br>Offensive (<strong>@ICON[offensive]</strong>) Tectonomancer spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iWV0UGI9HiDPfmVa]{Mineral Spirit}</p><p>When you use the Inventory action to create a Tonic, the creature that drinks it recovers from all status effects, instead of just one.</p><p><strong>Note:</strong> for the love of Bahamut, <strong>do not actually drink mineral spirits!</strong></p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.DHavgDFfytd17Ze3]{Solid Path} <strong>(SL3)</strong></p><p>You are immune to environmental effects that would affect you via dangerous ground (for example, marshy ground inflicting <strong>slow</strong> or unstable footing filling a clock towards an avalanche.)</p><p>The <strong>GM</strong> is the final arbiter on what counts. You may extend this benefit to other creatures for the rest of a scene by spending <strong>【20 - (5 × SL)】</strong>MP for each creature.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mbuSMM9ZMFdoddEK]{Stonework}</p><p>You always have the tools you need to work stone or metal - even types you’ve never seen before - without spending Inventory Points. Additionally, whenever you fill in or erase a segment of a clock related to building, reinforcing, or destroying a structure made of stone, metal, or living wood, you may fill in or erase an additional segment.</p></div><p></p><div class=\"stackedit__html\"><h3>TECHTONOMANCER SPELLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.k7ZTC2cfSI9wgASF]{Tectonomancer Rules}</p></div><p></p><div class=\"stackedit__html\"><h3>HEROIC SKILLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.mMxNkLHUnIjwXVT5]{Cat 10}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.VPqEtc9VTVeQXy10]{Geoswimmer}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.oWAM9jhnAIXbbHRT]{Legendary Metal}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.DBUmTrx8USXsGz9q]{Lithommancy}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.Uhr8LxGtI95fynsG]{Seismic Sense}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Heroic Skills Help </strong>Cinder</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 3,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": true
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "tectonomancer"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.IDYhhFpFv68Qlg3F",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938178429,
+        "modifiedTime": 1745938179629,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "c2BDn2645e4Q0rwZ",
+      "sort": 0,
+      "_key": "!actors.items!AejVDOT6yeXjs6Wq.c2BDn2645e4Q0rwZ"
     }
   ],
   "effects": [],

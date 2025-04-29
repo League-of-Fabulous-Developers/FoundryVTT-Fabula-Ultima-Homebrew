@@ -872,296 +872,6 @@
       "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.cpgpJ7CpCghVdqvD"
     },
     {
-      "folder": "gf9uvRkGXGXrNE9W",
-      "name": "Frenzy",
-      "type": "skill",
-      "_id": "J9nSVLODQMds0RBm",
-      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Fury"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR195"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "frenzy"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728435996170,
-        "modifiedTime": 1729286150026,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 200000,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.J9nSVLODQMds0RBm"
-    },
-    {
-      "folder": "gf9uvRkGXGXrNE9W",
-      "name": "Provoke",
-      "type": "skill",
-      "_id": "XNqhV5jEBfr17kaH",
-      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_provoke.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You may use an action and spend <strong>@LOSS[5 mp]</strong> to perform an Opposed <strong>【MIG + WLP】</strong> Check against a creature you can see — describe how you taunt them! If you succeed, the target suffers <strong>@EFFECT[enraged]</strong> and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer enraged, or if they are successfully provoked by someone else.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【MIG + WLP】</strong> Checks for this Skill.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Fury"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR195"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "mig"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 1
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "provoke"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.XaopYEAay9e86srI",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436006614,
-        "modifiedTime": 1729286150672,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 400000,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.XNqhV5jEBfr17kaH"
-    },
-    {
       "name": "Runic Plate",
       "type": "armor",
       "img": "systems/projectfu/styles/static/compendium/armor/runic-plate.png",
@@ -1359,358 +1069,6 @@
       "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.9McphKIXVPnT2fY3"
     },
     {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elemental-shard"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436873729,
-        "modifiedTime": 1728436873729,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "SOjkkATp6JW26m52",
-      "sort": 87500,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.SOjkkATp6JW26m52"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "magic-tent"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436873729,
-        "modifiedTime": 1728436873729,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "QOySA9z1visn0vLf",
-      "sort": 100000,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.QOySA9z1visn0vLf"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "remedy"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436873729,
-        "modifiedTime": 1728436873729,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "yXI5Q816Gdb3bg5h",
-      "sort": 0,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.yXI5Q816Gdb3bg5h"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "tonic"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436873729,
-        "modifiedTime": 1728436873729,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "GKkV6mPO5T6RgrFy",
-      "sort": 75000,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.GKkV6mPO5T6RgrFy"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436873729,
-        "modifiedTime": 1728436873729,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "MfRhvrOpS7T84Jdi",
-      "sort": 50000,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.MfRhvrOpS7T84Jdi"
-    },
-    {
-      "name": "Warden",
-      "type": "class",
-      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
-        },
-        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h5><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><hr /><h5><strong>WARDEN FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h2><strong>WARDEN SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</p><p>You may <strong>bind</strong> your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your <strong>Sanctuaries</strong> (see next page.) You can <strong>Haunt</strong> other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death (SL5)}</p><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL × 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance (SL3)}</p><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL × 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is (SL5)}</p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL × 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><p></p><h3>SANCTUARY &amp; HAUNTOLOGY</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.KaHBiyz46c4vfawG]{[Handout: Sanctuary Rules]} | @UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JF4Vq0mwDSfEI1ry]{[Handout: Sanctuaries]}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": true
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": true
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "fuid": "warden"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.GZCOjMGiVdCwwScN",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729279622297,
-        "modifiedTime": 1729279623561,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "BFawLR08Y8DUlYjo",
-      "sort": 0,
-      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.BFawLR08Y8DUlYjo"
-    },
-    {
       "name": "Unarmed Strike",
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
@@ -1820,6 +1178,550 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.dDJh5Hp0mbp8zpLO"
+    },
+    {
+      "folder": "gf9uvRkGXGXrNE9W",
+      "name": "Frenzy",
+      "type": "skill",
+      "_id": "trcOLx2D6uyxZRZd",
+      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Fury"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR195"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "frenzy",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932349644,
+        "modifiedTime": 1745932358573,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 200000,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.trcOLx2D6uyxZRZd"
+    },
+    {
+      "folder": "gf9uvRkGXGXrNE9W",
+      "name": "Provoke",
+      "type": "skill",
+      "_id": "woylFCemB4C9MWzl",
+      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_provoke.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【MIG + WLP】</strong> Check against a creature you can see — describe how you taunt them! If you succeed, the target suffers <strong>enraged</strong> and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer <strong>enraged</strong>, or if they are successfully <strong>provoked</strong> by someone else.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【MIG + WLP】</strong> Checks for this Skill.</p><hr /><ul><li><p><strong>You Perform: </strong>@CHECK[mig wlp ($sl)]</p></li><li><p><strong>Target Suffers: </strong>@EFFECT[enraged] @EFFECT[Compendium.projectfu.skills.SBaaNDpwZQDafu3J]{Effect: Provoke}</p></li></ul>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Fury"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "mig",
+          "secondary": "wlp"
+        },
+        "accuracy": 1,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR195"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "provoke",
+        "cost": {
+          "amount": 5,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.XaopYEAay9e86srI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932355730,
+        "modifiedTime": 1745932358881,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 400000,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.woylFCemB4C9MWzl"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932384821,
+        "modifiedTime": 1745932384821,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "Sb4ChryKNR1RRT7T",
+      "sort": 87500,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.Sb4ChryKNR1RRT7T"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932384821,
+        "modifiedTime": 1745932384821,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "NEWNDSBqQLS85ek5",
+      "sort": 100000,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.NEWNDSBqQLS85ek5"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932384821,
+        "modifiedTime": 1745932384821,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "ED7b5GywmyTZkVo3",
+      "sort": 0,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.ED7b5GywmyTZkVo3"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932384821,
+        "modifiedTime": 1745932384821,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "vnzYQtNJSwjdXR1G",
+      "sort": 75000,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.vnzYQtNJSwjdXR1G"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932384821,
+        "modifiedTime": 1745932384821,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "36SQMKCD0JBx0q11",
+      "sort": 50000,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.36SQMKCD0JBx0q11"
+    },
+    {
+      "name": "Warden",
+      "type": "class",
+      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h5><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><hr><h5><strong>WARDEN FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h2><strong>WARDEN SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</p><p>You may <strong>bind</strong> your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your <strong>Sanctuaries</strong> (see next page.) You can <strong>Haunt</strong> other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death} <strong>(SL5)</strong></p><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL × 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance} <strong>(SL3)</strong></p><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL × 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is} <strong>(SL5)</strong></p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL × 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><p></p><h3>SANCTUARY & HAUNTOLOGY</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "warden"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.GZCOjMGiVdCwwScN",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938193177,
+        "modifiedTime": 1745938195333,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "9tSChxRnQDzjHfVf",
+      "sort": 0,
+      "_key": "!actors.items!ehmMAZ9Qf4mYzbU5.9tSChxRnQDzjHfVf"
     }
   ],
   "effects": [],

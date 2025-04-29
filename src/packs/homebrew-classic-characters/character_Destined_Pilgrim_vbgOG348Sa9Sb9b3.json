@@ -390,149 +390,6 @@
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.7l9VJI5NLyWqlhHP"
     },
     {
-      "folder": "3EHcnClhu17OK3A7",
-      "name": "Where the Heart Is",
-      "type": "skill",
-      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<div class=\"stackedit__html\"><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL x 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p></div>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Warden"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "defense": "def",
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        }
-      },
-      "effects": [],
-      "sort": 200000,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "CLAzxWQsDDB8fCLx": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1715100922423,
-        "modifiedTime": 1729286169976,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0",
-        "duplicateSource": null
-      },
-      "_id": "BlEFP0FkATtvFjA4",
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.BlEFP0FkATtvFjA4"
-    },
-    {
       "folder": "FyNc3kVrHbI4wz0q",
       "name": "Arcanum of the Sky",
       "type": "classFeature",
@@ -633,351 +490,6 @@
         "CLAzxWQsDDB8fCLx": 3
       },
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.k7tQh8dKjvW1rpfc"
-    },
-    {
-      "name": "Arcanist",
-      "type": "class",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": "Some fates are not so easily avoided."
-        },
-        "description": "<h5><strong>ALSO: Avatar, Chosen, Summoner</strong></h5><p><strong>Arcanists </strong>can fall into a deep trance and temporarily project a considerable portion of their soul outside the body, giving it physical form. Surrounded by this magical shroud, the Arcanist gains a variety of supernatural abilities; these summoned forms are said to be manifestations of the ancestral souls belonging to mythical entities of legend, known as the Arcana. In some worlds, the Arcana are even worshiped as deities.</p><hr /><h5><strong>ARCANIST FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li></ul><h2><strong>ARCANIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.hEj8s21iAOPhDtJN]{Arcane Circle (SL4)}</p><p>After you willingly dismiss an Arcanum on your turn during a conflict (see next page), if that Arcanum had not been <strong>summoned</strong> during this same turn and you have an <strong>arcane</strong> weapon equipped, you may immediately perform the <strong>Spell</strong> action for free. The spell you cast this way must have a <strong>total Mind Point cost of 【SL × 5】 or lower</strong> (you must still pay the spell’s MP cost).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ZTEuKRcX9erp1NDC]{Arcane Regeneration (SL2)}</p><p>When you summon an Arcanum, you immediately recover <strong>【SL × 5】</strong> Hit Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.gbkA1CRgQ9OxPstd]{Bind and Summon}</p><p>You may <strong>bind</strong> Arcana to your soul and <strong>summon</strong> them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question. You may use an action and spend 40 Mind Points to <strong>summon</strong> an Arcanum you have bound: the details of this process are explained on the next page. If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aIbwfdDFTSRgKxxx]{Emergency Arcanum (SL6)}</p><p>As long as you are in <strong>Crisis</strong>, the cost for summoning your Arcana is reduced by <strong>【SL × 5】</strong> Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Jaxs87P2Q8AfKwWO]{Ritual Arcanism}</p><p>You may perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound (see next pages). Arcanism Rituals use <strong>【WLP + WLP】</strong> for the Magic Check.</p><p></p><h2><strong>The Arcana</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.7Hw8p7ZefudMdCxV]{[Handout: Arcana Rules]}</p><p></p><h3><strong>ARCANUMs</strong></h3><p>@UUID[Compendium.projectfu.skills.Item.8ySmNzjYisVduHWP]{[Handout: Arcanums]}</p><p></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": true
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "FUCR176"
-        },
-        "fuid": "arcanist"
-      },
-      "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanist.png",
-      "effects": [],
-      "folder": null,
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.classes.Item.dqvpb3dkA3cDCChq",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436078576,
-        "modifiedTime": 1728436549796,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "_id": "h2vFTh5eTWmHIiz2",
-      "sort": 100000,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.h2vFTh5eTWmHIiz2"
-    },
-    {
-      "name": "Spiritist",
-      "type": "class",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": "Show me the truth in your heart."
-        },
-        "description": "<h5><strong>ALSO: Healer, Priest, Witch</strong></h5><p><strong>Spiritists </strong>have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions. Several worlds see the powers of Spiritism as gifts from a deity or proof that a person’s heart is pure; however, there is no definite proof of these abilities coming from anything but discipline, empathy, and focus.</p><hr /><h5><strong>SPIRITIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>SPIRITIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.rVM7HhQ5OwdPtFwa]{Healing Power} <strong>(SL2)</strong></p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may have each of those allies recover an amount of Hit Points equal to <strong>【SL, multiplied by the number of Bonds you have】</strong>.</p><p>This healing is separate from any healing caused by the effects of the spell.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ek0pzfo1bSWGHfzb]{Ritual Spiritism}</p><p>You may perform Rituals whose effects fall within the Spiritism discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy]{Spiritual Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Spiritist spell (see @UUID[Compendium.projectfu.spells.Item.fIzsuP7ro97Xc8H0]{[Spiritist Spells]}).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.pIkEDFcA5pnIpsu3]{Support Magic}</p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may choose one of those allies you have a <strong>Bond </strong>towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the <strong>strength </strong>of your Bond towards them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.affUHtuCYoDxmO4h]{Vismagus}</p><p>When you cast a spell, if you don’t have enough Mind Points to pay for its total cost, you may choose to spend <strong>twice as many</strong> Hit Points instead. You cannot use this Skill if doing so would reduce you to 0 Hit Points. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target).</p><p></p><h2><strong>SPIRITIST SPELLS</strong></h2><p>@UUID[Compendium.projectfu.spells.Item.fIzsuP7ro97Xc8H0]{[Spiritist Spells]}</p><p></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": true
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": true
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "FUCR206"
-        },
-        "fuid": "spiritist"
-      },
-      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist.png",
-      "effects": [],
-      "folder": null,
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.classes.Item.s7AtJlv04lTsbKg4",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436098288,
-        "modifiedTime": 1728436118101,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "_id": "Jv1kljnxoaIAeSyl",
-      "sort": 200000,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.Jv1kljnxoaIAeSyl"
-    },
-    {
-      "folder": "oFTBItb16ggocf8g",
-      "name": "Bind and Summon",
-      "type": "skill",
-      "_id": "MbIGbH1bbzVnrAUe",
-      "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanist_bind_and_summon.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You may <strong>bind</strong> Arcana to your soul and <strong>summon</strong> them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question.</p><p>You may use an action and spend @LOSS[40 mp] to <strong>summon</strong> an Arcanum you have bound: the details of this process are explained on the next page.</p><p>If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression.</p><p>Descriptions, as well as all of the rules, for all of the arcanums can be found in this handout: @UUID[Compendium.projectfu.handouts.JournalEntry.sO33zynz6ZsBDpFR]{Arcana Rules}</p><p></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Arcanist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR177"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "bind-and-summon"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.gbkA1CRgQ9OxPstd",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436573612,
-        "modifiedTime": 1729282313561,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 300000,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.MbIGbH1bbzVnrAUe"
     },
     {
       "folder": "LWIsJLQGwkSdYYwN",
@@ -1125,151 +637,6 @@
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.FTDOpFcQAqx4iwwE"
     },
     {
-      "folder": "LWIsJLQGwkSdYYwN",
-      "name": "Spiritual Magic",
-      "type": "skill",
-      "_id": "1S4zNVqAbHAOHnZo",
-      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Each time you acquire this Skill, learn one <strong>Spiritist</strong> spell (<strong>Core Rulebook</strong>, page <strong>208 </strong>or<strong> </strong>@UUID[Compendium.projectfu.spells.Item.fIzsuP7ro97Xc8H0]{[Spiritist Spells]}).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 10,
-          "min": 0
-        },
-        "class": {
-          "value": "Spiritist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR207"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "spiritual-magic"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728436611448,
-        "modifiedTime": 1729286174732,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 500000,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.1S4zNVqAbHAOHnZo"
-    },
-    {
       "folder": "KUerX2dLyeZ8A3Xw",
       "name": "Heal",
       "type": "spell",
@@ -1409,363 +776,11 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728436643340,
-        "modifiedTime": 1729286161851,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745938288025,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "sort": 50000,
+      "sort": -25000,
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.3ZyjTkmKcHCv8L7w"
-    },
-    {
-      "name": "Warden",
-      "type": "class",
-      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
-        },
-        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h5><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><hr /><h5><strong>WARDEN FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h2><strong>WARDEN SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</p><p>You may <strong>bind</strong> your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your <strong>Sanctuaries</strong> (see next page.) You can <strong>Haunt</strong> other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death (SL5)}</p><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL × 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance (SL3)}</p><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL × 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is (SL5)}</p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL × 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><p></p><h3>SANCTUARY &amp; HAUNTOLOGY</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.KaHBiyz46c4vfawG]{[Handout: Sanctuary Rules]} | @UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JF4Vq0mwDSfEI1ry]{[Handout: Sanctuaries]}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": true
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": true
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "fuid": "warden"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.GZCOjMGiVdCwwScN",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729279663474,
-        "modifiedTime": 1729279665467,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "IlPNYo8wZhVmRY0y",
-      "sort": 0,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.IlPNYo8wZhVmRY0y"
-    },
-    {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elemental-shard"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729279710485,
-        "modifiedTime": 1729279710485,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "BHaPp6LZujdm4F5d",
-      "sort": 87500,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.BHaPp6LZujdm4F5d"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729279710485,
-        "modifiedTime": 1729279710485,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "Dw5YCgMXFbmWDgOf",
-      "sort": 50000,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.Dw5YCgMXFbmWDgOf"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "magic-tent"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729279710485,
-        "modifiedTime": 1729279710485,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "RS6kK12DgTHPKFsd",
-      "sort": 100000,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.RS6kK12DgTHPKFsd"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "remedy"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729279710485,
-        "modifiedTime": 1729279710485,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "GgNAqQKpatj8UWTw",
-      "sort": 0,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.GgNAqQKpatj8UWTw"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "tonic"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729279710485,
-        "modifiedTime": 1729279710485,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "oWHeUA1vDutDeKE3",
-      "sort": 75000,
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.oWHeUA1vDutDeKE3"
     },
     {
       "name": "Unarmed Strike",
@@ -2077,6 +1092,839 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.UJz1bMNwu2fFiaeI"
+    },
+    {
+      "folder": "LWIsJLQGwkSdYYwN",
+      "name": "Spiritual Magic",
+      "type": "skill",
+      "_id": "895iiEazLcxSgwNS",
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Spiritist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR207"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "spiritual-magic",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932485301,
+        "modifiedTime": 1745932485301,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.895iiEazLcxSgwNS"
+    },
+    {
+      "folder": "oFTBItb16ggocf8g",
+      "name": "Bind and Summon",
+      "type": "skill",
+      "_id": "wHKWv6AarHYhUV75",
+      "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanist_bind_and_summon.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You may <strong>bind</strong> Arcana to your soul and <strong>summon</strong> them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question.</p><p>You may use an action and spend 40 Mind Points to <strong>summon</strong> an Arcanum you have bound: the details of this process are explained on the next page.</p><p>If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression.</p><hr /><ul><li><p>For <strong>arcana</strong> breakdown and a list of Arcanums, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.sO33zynz6ZsBDpFR]{Arcana Rules}</p></li></ul><p></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Arcanist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR177"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "bind-and-summon",
+        "cost": {
+          "amount": 40,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.gbkA1CRgQ9OxPstd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932494369,
+        "modifiedTime": 1745932511433,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 250000,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.wHKWv6AarHYhUV75"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932550899,
+        "modifiedTime": 1745932550899,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "oCBC5o22cyKnOuTC",
+      "sort": 87500,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.oCBC5o22cyKnOuTC"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932550899,
+        "modifiedTime": 1745932550899,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "sGLuIz4sG8vcb0FE",
+      "sort": 100000,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.sGLuIz4sG8vcb0FE"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932550899,
+        "modifiedTime": 1745932550899,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "NAxHUmfIJZlsG9DL",
+      "sort": 0,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.NAxHUmfIJZlsG9DL"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932550899,
+        "modifiedTime": 1745932550899,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "rIG1a2YONCdemfud",
+      "sort": 75000,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.rIG1a2YONCdemfud"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932550899,
+        "modifiedTime": 1745932550899,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "KqFIlfZr8c3x6a85",
+      "sort": 50000,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.KqFIlfZr8c3x6a85"
+    },
+    {
+      "name": "Warden",
+      "type": "class",
+      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h5><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><hr><h5><strong>WARDEN FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h2><strong>WARDEN SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</p><p>You may <strong>bind</strong> your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your <strong>Sanctuaries</strong> (see next page.) You can <strong>Haunt</strong> other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death} <strong>(SL5)</strong></p><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL × 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance} <strong>(SL3)</strong></p><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL × 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is} <strong>(SL5)</strong></p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL × 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><p></p><h3>SANCTUARY & HAUNTOLOGY</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "warden"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.GZCOjMGiVdCwwScN",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938227628,
+        "modifiedTime": 1745938244620,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "RmWvujOjptrzxOgB",
+      "sort": 0,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.RmWvujOjptrzxOgB"
+    },
+    {
+      "name": "Arcanist",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "Some fates are not so easily avoided."
+        },
+        "description": "<h5><strong>ALSO: Avatar, Chosen, Summoner</strong></h5><p><strong>Arcanists </strong>can fall into a deep trance and temporarily project a considerable portion of their soul outside the body, giving it physical form. Surrounded by this magical shroud, the Arcanist gains a variety of supernatural abilities; these summoned forms are said to be manifestations of the ancestral souls belonging to mythical entities of legend, known as the Arcana. In some worlds, the Arcana are even worshiped as deities.</p><hr /><h5><strong>ARCANIST FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li></ul><h2><strong>ARCANIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.hEj8s21iAOPhDtJN]{Arcane Circle} <strong>(SL4)</strong></p><p>After you willingly dismiss an Arcanum on your turn during a conflict (see <strong>Core Rulebook</strong>, page <strong>178</strong>), if that Arcanum had not been <strong>summoned</strong> during this same turn and you have an <strong>arcane</strong> weapon equipped, you may immediately perform the <strong>Spell</strong> action for free. The spell you cast this way must have a <strong>total Mind Point cost of 【SL × 5】 or lower</strong> (you must still pay the spell’s MP cost).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ZTEuKRcX9erp1NDC]{Arcane Regeneration} <strong>(SL2)</strong></p><p>When you summon an Arcanum, you immediately recover <strong>【SL × 5】</strong> Hit Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.gbkA1CRgQ9OxPstd]{Bind and Summon}</p><p>You may <strong>bind</strong> Arcana to your soul and <strong>summon</strong> them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question. You may use an action and spend 40 Mind Points to <strong>summon</strong> an Arcanum you have bound: the details of this process are explained on the next page. If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aIbwfdDFTSRgKxxx]{Emergency Arcanum} <strong>(SL6)</strong></p><p>As long as you are in <strong>Crisis</strong>, the cost for summoning your Arcana is reduced by <strong>【SL × 5】</strong> Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Jaxs87P2Q8AfKwWO]{Ritual Arcanism}</p><p>You may perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound (see <strong>Core Rulebook</strong>, page <strong>178</strong>). Arcanism Rituals use <strong>【WLP + WLP】</strong> for the Magic Check.</p><h2><strong>THE ARCANA</strong></h2><ul><li><p>For <strong>arcana</strong> breakdown and a list of Arcanums, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.sO33zynz6ZsBDpFR]{Arcana Rules}</p></li><li><p>To <strong>automate</strong>, VTT Instructions can be found here: @UUID[Compendium.projectfu.handouts.JournalEntry.sO33zynz6ZsBDpFR.JournalEntryPage.MQShQEsSnZ9ch3bs]{Arcana VTT Instructions}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR176"
+        },
+        "fuid": "arcanist"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanist.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.dqvpb3dkA3cDCChq",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938238462,
+        "modifiedTime": 1745938251090,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "nCm0zLljFaO1WBfi",
+      "sort": 900000,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.nCm0zLljFaO1WBfi"
+    },
+    {
+      "name": "Spiritist",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "Show me the truth in your heart."
+        },
+        "description": "<h5><strong>ALSO: Healer, Priest, Witch</strong></h5><p><strong>Spiritists </strong>have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions. Several worlds see the powers of Spiritism as gifts from a deity or proof that a person’s heart is pure; however, there is no definite proof of these abilities coming from anything but discipline, empathy, and focus.</p><hr /><h5><strong>SPIRITIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>SPIRITIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.rVM7HhQ5OwdPtFwa]{Healing Power} <strong>(SL2)</strong></p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may have each of those allies recover an amount of Hit Points equal to <strong>【SL, multiplied by the number of Bonds you have】</strong>.</p><p>This healing is separate from any healing caused by the effects of the spell.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ek0pzfo1bSWGHfzb]{Ritual Spiritism}</p><p>You may perform Rituals whose effects fall within the Spiritism discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy]{Spiritual Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive (@ICON[offensive]) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.pIkEDFcA5pnIpsu3]{Support Magic}</p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may choose one of those allies you have a <strong>Bond </strong>towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the <strong>strength </strong>of your Bond towards them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.affUHtuCYoDxmO4h]{Vismagus}</p><p>When you cast a spell, if you don’t have enough Mind Points to pay for its total cost, you may choose to spend <strong>twice as many</strong> Hit Points instead. You cannot use this Skill if doing so would reduce you to 0 Hit Points. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target).</p><h2><strong>SPIRITIST SPELLS</strong></h2><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR206"
+        },
+        "fuid": "spiritist"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.s7AtJlv04lTsbKg4",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938248492,
+        "modifiedTime": 1745938252624,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "7zAOfIJJTxQp9rGk",
+      "sort": 1000000,
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.7zAOfIJJTxQp9rGk"
+    },
+    {
+      "folder": "3EHcnClhu17OK3A7",
+      "name": "Where the Heart Is",
+      "type": "skill",
+      "img": "icons/creatures/birds/songbird-yellow-flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL x 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Warden"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "where-the-heart-is",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938269812,
+        "modifiedTime": 1745938272795,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "DHlupKdCFb7r3OPX",
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.DHlupKdCFb7r3OPX"
     }
   ],
   "effects": [],

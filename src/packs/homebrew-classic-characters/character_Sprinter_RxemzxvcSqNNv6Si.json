@@ -273,403 +273,6 @@
   },
   "items": [
     {
-      "folder": "OWNPvVgEv9kHf7lK",
-      "name": "Prey Instinct",
-      "type": "skill",
-      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<div class=\"stackedit__html\"><p>At the start of a conflict, you may spend <strong>@LOSS[10 mp]</strong>. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p></div>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Prey"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "defense": "def",
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        }
-      },
-      "effects": [],
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1715055493003,
-        "modifiedTime": 1729284085291,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd",
-        "duplicateSource": null
-      },
-      "_id": "MPLQKsUE0fjKlPGF",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.MPLQKsUE0fjKlPGF"
-    },
-    {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elemental-shard"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284100005,
-        "modifiedTime": 1729284100005,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "Dxi8rt1Ho0lW3uIz",
-      "sort": 87500,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.Dxi8rt1Ho0lW3uIz"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284100005,
-        "modifiedTime": 1729284100005,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "kDao6Mfj8ItLDK5p",
-      "sort": 50000,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.kDao6Mfj8ItLDK5p"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "magic-tent"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284100005,
-        "modifiedTime": 1729284100005,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "Ll0S0pDfhDnlVqO6",
-      "sort": 100000,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.Ll0S0pDfhDnlVqO6"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "remedy"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284100005,
-        "modifiedTime": 1729284100005,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "pqlrkcT4Yl8uN52B",
-      "sort": 0,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.pqlrkcT4Yl8uN52B"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "tonic"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284100005,
-        "modifiedTime": 1729284100005,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "33nsiQ7bJiUGybyA",
-      "sort": 75000,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.33nsiQ7bJiUGybyA"
-    },
-    {
       "name": "Tome",
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/tome.png",
@@ -682,7 +285,7 @@
         },
         "description": "",
         "isFavored": {
-          "value": false
+          "value": true
         },
         "showTitleCard": {
           "value": false
@@ -768,11 +371,11 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729284103328,
-        "modifiedTime": 1729284103328,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745938007989,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "kSrfNC3EPRNAVR60",
-      "sort": 0,
+      "sort": -200000,
       "ownership": {
         "default": 0,
         "BwRsFvMHAq9vUtEO": 3,
@@ -865,103 +468,6 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!RxemzxvcSqNNv6Si.7EgdeDnJtnsis8vX"
-    },
-    {
-      "name": "Prey",
-      "type": "class",
-      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "Finally, a momentt to rest! I hope."
-        },
-        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Final Girl, Target, Whisteblower</strong></h5><p>These heroes aren’t chosen by destiny or the gods, but rather by the very evil that they will oppose, as <strong>Prey</strong>. They might have been another forgotten victim, if not for the moment of strength, inspiration, or pure dumb luck that changed their fate.<br />Now they have a party of allies and a chance, however slim, to strike back at the evil that tried to claim them... as long as they can see past their own fear.</p><hr /><h5>PREY <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points or Mind Points by 5</p></li></ul><h2>PREY<strong> SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Aq4xDd3pP4dQ9fGt]{Cornered Rat (SL3)}</p><p>If a creature is blocking you from escaping a scene or restraining you, you deal <strong>【SL × 2】</strong>extra damage to them, and get a bonus equal to <strong>【SL】</strong> to Opposed Checks against them.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y]{Go On Without Me!}</p><p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy]{If It Bleeds… (SL5)}</p><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL × 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd]{Prey Instinct (SL3)}</p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8EhoBIexhAqyb0ex]{Vigilance or Paranoia (SL4)}</p><p>You can identify on sight when <strong>soldier</strong>-rank creatures are searching for you or mean you harm, but this Skill doesn’t reveal their exact intentions. Describe what tipped you off!</p><p>When you are present for the appearance or revelation of a Villain, you may immediately spend a Fabula Point to ask the GM a question about how the party could escape or hinder the Villain (but not to attack or defeat them.) The first Player Character to act on this answer gains a bonus equal to <strong>【SL】</strong> to their Check.</p></div><p></p><h3>PREY NOTES</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.fArjgN0xF1QmhtXe]{Prey Rules}</p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "fuid": "prey"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.dQIJpnWSMTIOC7nn",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284123061,
-        "modifiedTime": 1729284148476,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "dKiICDnfCTW03a7v",
-      "sort": 100000,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.dKiICDnfCTW03a7v"
     },
     {
       "name": "Orator",
@@ -1164,441 +670,6 @@
       "_key": "!actors.items!RxemzxvcSqNNv6Si.dDjuA3hpBIpmjcQO"
     },
     {
-      "folder": "XoV1kgCfYBfAuPoU",
-      "name": "Unexpected Ally",
-      "type": "skill",
-      "_id": "IsCT1PXwqudnMF6N",
-      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_unexpected_ally.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You may use an action and spend 1 Fabula Point to choose a <strong>non-hostile</strong> creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Orator"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR201"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "unexpected-ally"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.ucCrtRAvv2qX8aJO",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284166498,
-        "modifiedTime": 1729284166498,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 0,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.IsCT1PXwqudnMF6N"
-    },
-    {
-      "folder": "XoV1kgCfYBfAuPoU",
-      "name": "My Trust In You",
-      "type": "skill",
-      "_id": "UxAu6eQ14wl0mTG0",
-      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_my_trust_in_you.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their <strong>Traits</strong> or <strong>Bonds</strong> in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a <strong>Bond</strong> towards that character, they recover <strong>【SL × 10】</strong> Mind Points.</p><hr /><p>Skill Level <strong>1</strong> - @GAIN[10 mp]</p><p>Skill Level <strong>2</strong> - @GAIN[20 mp]</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 2,
-          "min": 0
-        },
-        "class": {
-          "value": "Orator"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR201"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "my-trust-in-you"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.lK9onKSiMuQEe3zd",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284174100,
-        "modifiedTime": 1729284174100,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 0,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.UxAu6eQ14wl0mTG0"
-    },
-    {
-      "folder": "3xqESZLpJir713ho",
-      "name": "Faithful Companion",
-      "type": "skill",
-      "_id": "U0TOFMXa6HIw4GHS",
-      "img": "systems/projectfu/styles/static/compendium/classes/wayfarer/wayfarer_faithful_companion.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Together with your group, create a <strong>level 5 beast, construct, elemental</strong> or <strong>plant NPC (see page 302)</strong> that becomes your <strong>companion</strong>: this creature has no initiative score and does not level up, can have a maximum of two basic attacks, gains a bonus equal to <strong>【SL】</strong> to Accuracy Checks and Magic Checks, and their maximum Hit Points are equal to <strong>【(SL, multiplied by the companion's base Might size) + half your level】</strong>.</p><p>Your companion doesn't get an independent turn during conflicts, but you can use an action to have them perform an action (once per turn). If your companion is affected by any <strong>turn-related effects</strong> (page <strong>77</strong>), these are based on <strong>your turn</strong>.</p><p>Your companion joins and leaves scenes when you do, and gains your same benefits for <strong>rests</strong>. If reduced to 0 HP, your companion flees the scene and rejoins you at the start of the next scene in which you are present, with current HP equal to their <strong>Crisis</strong> score.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Wayfarer"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR217"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "faithful-companion"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.L34pOGhdH0ZwV4Bt",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284182495,
-        "modifiedTime": 1729284182495,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 0,
-      "_key": "!actors.items!RxemzxvcSqNNv6Si.U0TOFMXa6HIw4GHS"
-    },
-    {
       "name": "Unarmed Strike",
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
@@ -1708,6 +779,735 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!RxemzxvcSqNNv6Si.rN5tFxBF7lNgeSJ5"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933025082,
+        "modifiedTime": 1745933025082,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "wEHqtpG7mcf2nljf",
+      "sort": 87500,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.wEHqtpG7mcf2nljf"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.QYyuig5iy5mMN9F8",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933025082,
+        "modifiedTime": 1745933025082,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "HLyoU6dwcsQYxfQL",
+      "sort": 100000,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.HLyoU6dwcsQYxfQL"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933025082,
+        "modifiedTime": 1745933025082,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "W0QOM3nW2hFkdp5f",
+      "sort": 0,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.W0QOM3nW2hFkdp5f"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933025082,
+        "modifiedTime": 1745933025082,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "jyCMxZC61cVzALnr",
+      "sort": 75000,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.jyCMxZC61cVzALnr"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933025082,
+        "modifiedTime": 1745933025082,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "RRogM0GXsdicQoHl",
+      "sort": 50000,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.RRogM0GXsdicQoHl"
+    },
+    {
+      "folder": "XoV1kgCfYBfAuPoU",
+      "name": "Unexpected Ally",
+      "type": "skill",
+      "_id": "cZb7HdxBw8dYvpur",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_unexpected_ally.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You may use an action and spend 1 Fabula Point to choose a <strong>non-hostile</strong> creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Orator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR201"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "unexpected-ally",
+        "cost": {
+          "resource": "fp",
+          "amount": 1
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.ucCrtRAvv2qX8aJO",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933037548,
+        "modifiedTime": 1745933074382,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.cZb7HdxBw8dYvpur"
+    },
+    {
+      "folder": "XoV1kgCfYBfAuPoU",
+      "name": "My Trust In You",
+      "type": "skill",
+      "_id": "lKP59UFCiqEvoIse",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_my_trust_in_you.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their <strong>Traits</strong> or <strong>Bonds</strong> in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a <strong>Bond</strong> towards that character, they recover <strong>【SL × 10】</strong> Mind Points.</p><hr /><ul><li><p><strong>Target Recovers: </strong>@GAIN[10*$sl mp]{SL × 10 MP}</p></li></ul>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 2,
+          "min": 0
+        },
+        "class": {
+          "value": "Orator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR201"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "my-trust-in-you",
+        "cost": {
+          "resource": "fp",
+          "amount": 1
+        },
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.lK9onKSiMuQEe3zd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933042369,
+        "modifiedTime": 1745933075533,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.lKP59UFCiqEvoIse"
+    },
+    {
+      "folder": "3xqESZLpJir713ho",
+      "name": "Faithful Companion",
+      "type": "skill",
+      "_id": "k5GHrW0cUbO7uj8E",
+      "img": "systems/projectfu/styles/static/compendium/classes/wayfarer/wayfarer_faithful_companion.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Together with your group, create a <strong>level 5 beast, construct, elemental </strong>or<strong> plant</strong> NPC (see <strong>Core Rulebook</strong>, page <strong>302</strong>), that becomes your <strong>companion</strong>: this creature has <strong>no initiative score</strong> and <strong>does not level up</strong>, can have a <strong>maximum of two basic attacks</strong>, gains a bonus equal to <strong>【SL】</strong> to Accuracy Checks and Magic Checks, and their maximum Hit Points are equal to <strong>【(SL, multiplied by the companion's base Might size) + half your level】</strong>.</p><p>Your companion doesn't get an independent turn during conflicts, but you can use an action to have them perform an action (once per turn). If your companion is affected by any <strong>turn-related effects</strong> (see <strong>Core Rulebook</strong>, page <strong>77</strong>), these are based on <strong>your</strong> turn.</p><p>Your companion joins and leaves scenes when you do, and gains your same benefits for <strong>rests</strong>. If reduced to 0 HP, your companion flees the scene and rejoins you at the start of the next scene in which you are present, with current HP equal to their <strong>Crisis</strong> score.</p><hr /><ul><li><p>To <strong>automate</strong>, import the following actor into the world: @UUID[Compendium.projectfu.npcs.Actor.7J6fSVwbaWwi3Ojv]{Faithful Companion}</p></li><li><p>Then, navigate to the '<strong>Settings</strong>' tab. For '<strong>Player</strong>,' select the actor who owns this companion, and for '<strong>Skill</strong>,' select the '<strong>Faithful Companion</strong>' skill.</p></li></ul>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Wayfarer"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR217"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "faithful-companion",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.L34pOGhdH0ZwV4Bt",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745933050823,
+        "modifiedTime": 1745933082441,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.k5GHrW0cUbO7uj8E"
+    },
+    {
+      "name": "Prey",
+      "type": "class",
+      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "Finally, a momentt to rest! I hope."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Final Girl, Target, Whisteblower</strong></h5><p>These heroes aren’t chosen by destiny or the gods, but rather by the very evil that they will oppose, as <strong>Prey</strong>. They might have been another forgotten victim, if not for the moment of strength, inspiration, or pure dumb luck that changed their fate.<br>Now they have a party of allies and a chance, however slim, to strike back at the evil that tried to claim them... as long as they can see past their own fear.</p><hr><h5>PREY <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points or Mind Points by 5</p></li></ul><h2>PREY<strong> SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Aq4xDd3pP4dQ9fGt]{Cornered Rat} <strong>(SL3)</strong></p><p>If a creature is blocking you from escaping a scene or restraining you, you deal <strong>【SL × 2】</strong>extra damage to them, and get a bonus equal to <strong>【SL】</strong> to Opposed Checks against them.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y]{Go On Without Me!}</p><p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy]{If It Bleeds…} <strong>(SL5)</strong></p><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL × 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd]{Prey Instinct} <strong>(SL3)</strong></p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8EhoBIexhAqyb0ex]{Vigilance or Paranoia} <strong>(SL4)</strong></p><p>You can identify on sight when <strong>soldier</strong>-rank creatures are searching for you or mean you harm, but this Skill doesn’t reveal their exact intentions. Describe what tipped you off!</p><p>When you are present for the appearance or revelation of a Villain, you may immediately spend a Fabula Point to ask the GM a question about how the party could escape or hinder the Villain (but not to attack or defeat them.) The first Player Character to act on this answer gains a bonus equal to <strong>【SL】</strong> to their Check.</p></div><p></p><h3>PREY NOTES</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.fArjgN0xF1QmhtXe]{Prey Rules}</p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "prey"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.dQIJpnWSMTIOC7nn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937995924,
+        "modifiedTime": 1745938005092,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "k3f98ZnPF4j8YJm6",
+      "sort": 0,
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.k3f98ZnPF4j8YJm6"
+    },
+    {
+      "folder": "OWNPvVgEv9kHf7lK",
+      "name": "Prey Instinct",
+      "type": "skill",
+      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>At the start of a conflict, you may spend <strong>@LOSS[10 mp]</strong>. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p></div>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Prey"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "prey-instinct",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937997068,
+        "modifiedTime": 1745938003165,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "UMGrtiGiTqSOYFT7",
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_key": "!actors.items!RxemzxvcSqNNv6Si.UMGrtiGiTqSOYFT7"
     }
   ],
   "effects": [],

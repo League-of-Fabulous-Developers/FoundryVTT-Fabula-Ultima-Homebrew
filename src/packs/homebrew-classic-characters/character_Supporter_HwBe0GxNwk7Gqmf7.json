@@ -942,97 +942,6 @@
       "_key": "!actors.items!HwBe0GxNwk7Gqmf7.oeWCFQdk9OMrstYx"
     },
     {
-      "folder": "l8DPkl4IMsjZPzN0",
-      "name": "Loyal Supporter",
-      "type": "skill",
-      "img": "icons/sundries/lights/candles-lit-red-evil.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt\" id=\"docs-internal-guid-d32754f3-7fff-a31a-d602-78ecefafd3f5\"><span style=\"font-family: 'PT Sans Narrow',sans-serif\">Whenever you are a <strong>supporting </strong>character<strong> </strong>in a Group Check (such as <strong>Teamwork</strong>), gain a【<strong>+SL</strong>】bonus to your roll.</span></p><p><span style=\"font-family: 'PT Sans Narrow',sans-serif\">For every <strong>3 points above the DL</strong>, grant the leader an additional <strong>+1</strong> bonus.</span></p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Ritualist"
-        },
-        "useWeapon": {
-          "accuracy": false,
-          "damage": false
-        },
-        "attributes": {
-          "primary": "ins",
-          "secondary": "mig"
-        },
-        "accuracy": 0,
-        "defense": "def",
-        "damage": {
-          "hasDamage": false,
-          "value": 0,
-          "type": "physical",
-          "onRoll": "",
-          "onApply": "",
-          "hrZero": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6,
-          "enabled": false
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "fuid": "accelerate-ritual",
-        "cost": {
-          "resource": "mp",
-          "amount": 0
-        },
-        "targeting": {
-          "rule": "special",
-          "max": 0
-        },
-        "traits": []
-      },
-      "effects": [],
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.nXGPCU1WlcYeSgiH",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745861924336,
-        "modifiedTime": 1745861976218,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "_id": "m7RJwBf1INFO3s8X",
-      "sort": 0,
-      "_key": "!actors.items!HwBe0GxNwk7Gqmf7.m7RJwBf1INFO3s8X"
-    },
-    {
       "folder": "XoV1kgCfYBfAuPoU",
       "name": "My Trust In You",
       "type": "skill",
@@ -1223,6 +1132,352 @@
       },
       "sort": 0,
       "_key": "!actors.items!HwBe0GxNwk7Gqmf7.L4LXtPieQ25cHNBt"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937026321,
+        "modifiedTime": 1745937026321,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "bFIfwqdBfx9m7xiB",
+      "sort": 87500,
+      "_key": "!actors.items!HwBe0GxNwk7Gqmf7.bFIfwqdBfx9m7xiB"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937026321,
+        "modifiedTime": 1745937026321,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "AIRVwwG78yieifP1",
+      "sort": 100000,
+      "_key": "!actors.items!HwBe0GxNwk7Gqmf7.AIRVwwG78yieifP1"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937026321,
+        "modifiedTime": 1745937026321,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "wNMMvKMz25wVtF5y",
+      "sort": 0,
+      "_key": "!actors.items!HwBe0GxNwk7Gqmf7.wNMMvKMz25wVtF5y"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937026321,
+        "modifiedTime": 1745937026321,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "WfIxNbONfhGpTIf7",
+      "sort": 75000,
+      "_key": "!actors.items!HwBe0GxNwk7Gqmf7.WfIxNbONfhGpTIf7"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937026321,
+        "modifiedTime": 1745937026321,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "I6ZODRX9f2J3gg7f",
+      "sort": 50000,
+      "_key": "!actors.items!HwBe0GxNwk7Gqmf7.I6ZODRX9f2J3gg7f"
+    },
+    {
+      "folder": "l8DPkl4IMsjZPzN0",
+      "name": "Loyal Supporter",
+      "type": "skill",
+      "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt\" id=\"docs-internal-guid-d32754f3-7fff-a31a-d602-78ecefafd3f5\"><span style=\"font-family: 'PT Sans Narrow',sans-serif\">Whenever you are a <strong>supporting </strong>character<strong> </strong>in a Group Check (such as <strong>Teamwork</strong>), gain a【<strong>SL</strong>】bonus to your roll.</span></p><p><span style=\"font-family: 'PT Sans Narrow',sans-serif\">For every <strong>3 points above the DL</strong>, grant the leader an additional <strong>+1</strong> bonus.</span></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Ritualist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "accelerate-ritual",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.nXGPCU1WlcYeSgiH",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938031863,
+        "modifiedTime": 1745938034661,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "BoMDKP26UecWfxAi",
+      "sort": -100000,
+      "_key": "!actors.items!HwBe0GxNwk7Gqmf7.BoMDKP26UecWfxAi"
     }
   ],
   "effects": [],

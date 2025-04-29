@@ -1034,198 +1034,6 @@
       "_key": "!actors.items!kjlIizfyLFcnyIrh.rbpq8JDYPCt0Rcbz"
     },
     {
-      "folder": "XoV1kgCfYBfAuPoU",
-      "name": "Encourage",
-      "type": "skill",
-      "_id": "6ttnUdEretuTKbgX",
-      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_encourage.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>During a conflict, you may use an action and spend 5 MP to choose <strong>another creature</strong> that can hear and understand you. That creature recovers <strong>【SL × 5】</strong> Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>; they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p><hr><ul><li><p><strong>Target Recovers: </strong>@GAIN[5*$sl hp]{SL × 5 HP}</p></li><li><p><strong>Target Receive:</strong> @EFFECT[dex-up e:sot i:1 t:source], @EFFECT[ins-up e:sot i:1 t:source], @EFFECT[mig-up e:sot i:1 t:source], or @EFFECT[wlp-up e:sot i:1 t:source]</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 6,
-          "min": 0
-        },
-        "class": {
-          "value": "Orator"
-        },
-        "useWeapon": {
-          "accuracy": false,
-          "damage": false
-        },
-        "attributes": {
-          "primary": "dex",
-          "secondary": "dex"
-        },
-        "accuracy": 0,
-        "damage": {
-          "hasDamage": false,
-          "value": 0,
-          "type": "physical",
-          "onRoll": "",
-          "onApply": "",
-          "hrZero": false
-        },
-        "source": {
-          "value": "FUCR201"
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6,
-          "enabled": false
-        },
-        "defense": "def",
-        "fuid": "encourage",
-        "cost": {
-          "amount": 5,
-          "resource": "mp"
-        },
-        "targeting": {
-          "rule": "single",
-          "max": 0
-        },
-        "traits": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745863178411,
-        "modifiedTime": 1745863202407,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": 0,
-      "_key": "!actors.items!kjlIizfyLFcnyIrh.6ttnUdEretuTKbgX"
-    },
-    {
-      "folder": "XoV1kgCfYBfAuPoU",
-      "name": "Persuasive",
-      "type": "skill",
-      "_id": "rsRibtEytDb7chUF",
-      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_persuasive.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception</strong>, or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】</strong> Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 2,
-          "min": 0
-        },
-        "class": {
-          "value": "Orator"
-        },
-        "useWeapon": {
-          "accuracy": false,
-          "damage": false
-        },
-        "attributes": {
-          "primary": "dex",
-          "secondary": "dex"
-        },
-        "accuracy": 0,
-        "damage": {
-          "hasDamage": false,
-          "value": 0,
-          "type": "physical",
-          "onRoll": "",
-          "onApply": "",
-          "hrZero": false
-        },
-        "source": {
-          "value": "FUCR201"
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6,
-          "enabled": false
-        },
-        "defense": "def",
-        "fuid": "persuasive",
-        "cost": {
-          "amount": 20,
-          "resource": "mp"
-        },
-        "targeting": {
-          "rule": "special",
-          "max": 0
-        },
-        "traits": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.GjmqoWAJ4szsk0om",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745863182951,
-        "modifiedTime": 1745863203000,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": 0,
-      "_key": "!actors.items!kjlIizfyLFcnyIrh.rsRibtEytDb7chUF"
-    },
-    {
       "name": "Gadget - Alchemy",
       "type": "classFeature",
       "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/gadget/alchemy.png",
@@ -1293,102 +1101,6 @@
       "_id": "QCS9lZcbwFCd07dt",
       "sort": -200000,
       "_key": "!actors.items!kjlIizfyLFcnyIrh.QCS9lZcbwFCd07dt"
-    },
-    {
-      "folder": "Jv2TAynII0DVVBZS",
-      "name": "Gadgets",
-      "type": "skill",
-      "_id": "lF7YINH13edYmTG1",
-      "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/tinkerer_gadgets.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>When you first acquire this Skill, choose a gadget type: <strong>alchemy, infusion</strong>, or <strong>magitech</strong> (see <strong>Core Rulebook</strong>, page <strong>212</strong>). You gain its <strong>basic benefits</strong>.</p><p>Whenever you take this Skill again, choose one option: you gain the <strong>basic benefits</strong> of a new gadget type; <strong>or</strong> you gain the <strong>advanced benefits</strong> of a gadget type whose <strong>basic benefits</strong> you already obtained; <strong>or</strong> you gain the <strong>superior benefits</strong> of a gadget type whose <strong>advanced benefits</strong> you already obtained.</p><hr /><ul><li><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">For </span><strong>gadget</strong> breakdown and a list of <strong>Gadgets</strong>, refer to<strong>:</strong> @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk]{Gadget Rules}</p></li><li><p>To <strong>automate</strong>, VTT Instructions can be found here: @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk.JournalEntryPage.7D5mpbaYddiztH1W]{Gadget VTT Instructions}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Tinkerer"
-        },
-        "useWeapon": {
-          "accuracy": false,
-          "damage": false
-        },
-        "attributes": {
-          "primary": "dex",
-          "secondary": "dex"
-        },
-        "accuracy": 0,
-        "damage": {
-          "hasDamage": false,
-          "value": 0,
-          "type": "physical",
-          "onRoll": "",
-          "onApply": "",
-          "hrZero": false
-        },
-        "source": {
-          "value": "FUCR211"
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6,
-          "enabled": false
-        },
-        "defense": "def",
-        "fuid": "gadgets",
-        "cost": {
-          "resource": "mp",
-          "amount": 0
-        },
-        "targeting": {
-          "rule": "special",
-          "max": 0
-        },
-        "traits": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.0ErPA4Q0P97ZPwPE",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745863195176,
-        "modifiedTime": 1745863195176,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": 0,
-      "_key": "!actors.items!kjlIizfyLFcnyIrh.lF7YINH13edYmTG1"
     },
     {
       "name": "Orator",
@@ -1589,6 +1301,549 @@
       "_id": "CiAn4lHfU1LoG0Hd",
       "sort": 0,
       "_key": "!actors.items!kjlIizfyLFcnyIrh.CiAn4lHfU1LoG0Hd"
+    },
+    {
+      "folder": "XoV1kgCfYBfAuPoU",
+      "name": "Encourage",
+      "type": "skill",
+      "_id": "sbpO1nQSFWjhVdfA",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_encourage.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>During a conflict, you may use an action and spend 5 MP to choose <strong>another creature</strong> that can hear and understand you. That creature recovers <strong>【SL × 5】</strong> Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>; they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p><hr><ul><li><p><strong>Target Recovers: </strong>@GAIN[5*$sl hp]{SL × 5 HP}</p></li><li><p><strong>Target Receive:</strong> @EFFECT[dex-up e:sot i:1 t:source], @EFFECT[ins-up e:sot i:1 t:source], @EFFECT[mig-up e:sot i:1 t:source], or @EFFECT[wlp-up e:sot i:1 t:source]</p></li></ul>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 6,
+          "min": 0
+        },
+        "class": {
+          "value": "Orator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR201"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "encourage",
+        "cost": {
+          "amount": 5,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932847448,
+        "modifiedTime": 1745932861854,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.sbpO1nQSFWjhVdfA"
+    },
+    {
+      "folder": "XoV1kgCfYBfAuPoU",
+      "name": "Persuasive",
+      "type": "skill",
+      "_id": "ND9WmnNny8oeJNTQ",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_persuasive.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception</strong>, or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】</strong> Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 2,
+          "min": 0
+        },
+        "class": {
+          "value": "Orator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR201"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "persuasive",
+        "cost": {
+          "amount": 20,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.GjmqoWAJ4szsk0om",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932849974,
+        "modifiedTime": 1745932862546,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.ND9WmnNny8oeJNTQ"
+    },
+    {
+      "folder": "Jv2TAynII0DVVBZS",
+      "name": "Gadgets",
+      "type": "skill",
+      "_id": "s29udhhJxNXXBVdU",
+      "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/tinkerer_gadgets.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you first acquire this Skill, choose a gadget type: <strong>alchemy, infusion</strong>, or <strong>magitech</strong> (see <strong>Core Rulebook</strong>, page <strong>212</strong>). You gain its <strong>basic benefits</strong>.</p><p>Whenever you take this Skill again, choose one option: you gain the <strong>basic benefits</strong> of a new gadget type; <strong>or</strong> you gain the <strong>advanced benefits</strong> of a gadget type whose <strong>basic benefits</strong> you already obtained; <strong>or</strong> you gain the <strong>superior benefits</strong> of a gadget type whose <strong>advanced benefits</strong> you already obtained.</p><hr /><ul><li><p><span style=\"font-family:'PT Sans Narrow', sans-serif\">For </span><strong>gadget</strong> breakdown and a list of <strong>Gadgets</strong>, refer to<strong>:</strong> @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk]{Gadget Rules}</p></li><li><p>To <strong>automate</strong>, VTT Instructions can be found here: @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk.JournalEntryPage.7D5mpbaYddiztH1W]{Gadget VTT Instructions}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Tinkerer"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR211"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "gadgets",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.0ErPA4Q0P97ZPwPE",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932857576,
+        "modifiedTime": 1745932857576,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.s29udhhJxNXXBVdU"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932867889,
+        "modifiedTime": 1745932867889,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "bmOatVwdkCblU8GB",
+      "sort": 87500,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.bmOatVwdkCblU8GB"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.QYyuig5iy5mMN9F8",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932867889,
+        "modifiedTime": 1745932867889,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "f2lCVQ9KyprXmqto",
+      "sort": 100000,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.f2lCVQ9KyprXmqto"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932867889,
+        "modifiedTime": 1745932867889,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "EdhQw0RkAJVubXJQ",
+      "sort": 0,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.EdhQw0RkAJVubXJQ"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932867889,
+        "modifiedTime": 1745932867889,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "PA9J3OACOaKZtT6V",
+      "sort": 50000,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.PA9J3OACOaKZtT6V"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932867889,
+        "modifiedTime": 1745932867889,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "l7WH9HKOMF4BW4Qy",
+      "sort": 75000,
+      "_key": "!actors.items!kjlIizfyLFcnyIrh.l7WH9HKOMF4BW4Qy"
     }
   ],
   "effects": [],

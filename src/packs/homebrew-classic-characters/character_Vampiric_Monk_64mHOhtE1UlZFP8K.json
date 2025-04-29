@@ -390,914 +390,6 @@
       "_key": "!actors.items!64mHOhtE1UlZFP8K.4upmSzD8m1qfwsf8"
     },
     {
-      "name": "Monk",
-      "type": "class",
-      "_id": "Lg9oj3wY29bdVZz0",
-      "img": "icons/equipment/neck/collar-rounded-red.webp",
-      "system": {
-        "fuid": "monk",
-        "subtype": {},
-        "summary": {
-          "value": "Balance and resolve are the riverbed of strength."
-        },
-        "description": "<h5><strong>ALSO: Ascendant, Zen Warrior, Kensei</strong></h5><p>Monks are masters of mind, body, and spirit, using their inner clarity to achieve supernatural feats. Through rigorous discipline, they can harness raw spiritual might to endure adversity, aid their allies, and strike with precision.</p><p>Monks seek to maintain balance — within themselves and in the world around them —, believing that true strength lies not in mastering combat, but in understanding the nature of conflict itself. Some monks choose solitude to perfect their discipline, while others act as conduits to harmonious living, helping the world around them.</p><p>Monks are capable of conjuring <strong>Soul Beads</strong>, which can appear in various forms: glowing segments on a mala, marks on your skin, or floating orbs circling your body — how do yours manifest?</p><hr /><h5><strong>MONK FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>Gain the ability to equip <strong>martial ranged weapons</strong> and <strong>martial melee weapons</strong>.</li></ul><h2><strong>MONK SKILLS</strong></h2><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.SzsNaeREQGUpeo9u]{Clarity (SL3)}</strong></p><p>For each pair of active <strong>Resolve Soul Beads</strong> you possess, choose one cumulative benefit from the following list. The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.a65UYj7NaS0pgz7d]{Resonant Clarity (SL3)}</strong></p><p>Your unwavering resolve and mental clarity radiate outward, reaching your companions. For each <strong>【SL】</strong>, you can share one of your active benefits from the <strong>Clarity Skill</strong>.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.t3eHGb1h2RBfCDye]{Soul Renewal}</strong></p><p>Choose any number of visible allies. As an action, launch your Soul Beads towards them, spending 2 MP per Bead. Each delivered bead restores 10 HP <strong>or</strong> MP (your choice). Each bead used in this way is destroyed.</p><p>At <strong>level 20</strong>, the regeneration increases to 12 HP/MP per bead, and at <strong>level 40</strong>, to 15 HP/MP per bead.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.FKruofSyld8CMxOe]{Spirit Shot (SL3)}</strong></p><p>As an action, choose any number of Soul Beads to release in a <strong>ranged attack</strong> against enemies, spending 2 MP per Bead. Perform a <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 2】</strong> HP <strong>or</strong> MP per bead. This damage ignores Resistances. Each bead is destroyed after use, whether it hits or not.</p><p>Beads targeting HP affect the target’s <strong>Defense</strong>, while those targeting MP affect their <strong>Magic Defense</strong>.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WaJj04PEIogLmwx4]{Spiritual Fortress (SL3)}</strong></p><p>As a reaction, destroy any number of Soul Beads to reduce incoming damage to you or your allies by <strong>【SL × 2】</strong>, before applying any damage Affinities. Each Soul Bead destroyed this way costs 2 MP.</p><p></p><h3>SOUL BEADS</h3><p>Soul Beads can appear in various forms: glowing segments on a mala, marks on your skin, or floating orbs circling your body — how do yours manifest?</p><ul><li><p>Your Soul Bead limit equals half your WLP die size, with a minimum of 3 and a maximum of 6.</p></li><li><p>You begin a conflict with a full set of <strong>Core Soul Beads</strong>. These Beads don’t count toward the Clarity Skill.</p></li><li><p>Once you start spending your Core Soul Beads, you gain 2 <strong>Resolve Soul Beads</strong> per turn, up to your Soul Bead limit.</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 3,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": true
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": true
-            },
-            "ranged": {
-              "value": true
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "FULF"
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.hBZ4cuXxXxjDe9wV",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728435658216,
-        "modifiedTime": 1728435660633,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.Lg9oj3wY29bdVZz0"
-    },
-    {
-      "name": "Entropist",
-      "type": "class",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": "The cold between the stars... it does not frighten me."
-        },
-        "description": "<h5><strong>ALSO: Astromancer, Chaos Mage, Gambler</strong></h5><p>High above the stars, where their lights do not shine, lies a bottomless void where life and souls wither and transform in unfathomable ways. This realm is a non-reality, an endless expanse of chaos impervious to the laws of time, space, and probability. <strong>Entropists </strong>refer to this realm as the Cosmos, the Heavens, or quite simply as Lady Luck: they are among the few gifted with the ability to channel its reality-bending energies.</p><hr /><h5><strong>ENTROPIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</li></ul><h2><strong>ENTROPIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.jgGLuOvN8xCSQWLK]{Absorb MP} <strong>(SL5)</strong></p><p>After you suffer damage, you may immediately recover <strong>【SL × 2】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.vtmxLTltA4JvXFXu]{Entropic Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Entropist spell (see @UUID[Compendium.projectfu.spells.Item.W9ZYH88gvlcg7atp]{[Entropist Spells]}). Offensive ( @ICON[offensive] ) Entropist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.HgxY0x6jUjS6ppBc]{Lucky Seven}</p><p>You have a <strong>lucky number</strong>; at the beginning of each session, that number is <strong>7</strong>. Once per scene after you perform a Check, you may replace the value shown on one of the dice you rolled with your lucky number (even if this would give an impossible Result, such as a value of 7 on a d6). If you do, the replaced value becomes your <strong>new</strong> lucky number.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Ko2QCUw6qbxhufwE]{Ritual Entropism}</p><p>You may perform Rituals whose effects fall within the <strong>Entropism</strong> discipline. Entropism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.84JARbmkQ5r0j39r]{Stolen Time} <strong>(SL4)</strong></p><p>During a conflict, you may use an action to interfere with the flow of time by spending up to <strong>【SL × 5】 </strong>Mind Points. For every 5 Mind Points you spend this way, choose one option: one creature you can see suffers <strong>slow</strong>; <strong>or</strong> one creature you can see recovers from slow; <strong>or</strong> one creature you can see may immediately perform the <strong>Equipment</strong> action for free; or choose one ally you can see who has yet to take a turn during this round: that ally may take their turn immediately after yours during this round. Each option can only be chosen once per use of this Skill.</p><p></p><h2><strong>ENTROPIST SPELLS</strong></h2><p><strong>@UUID[Compendium.projectfu.spells.Item.W9ZYH88gvlcg7atp]{[Entropist Spells]}</strong></p><p></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": true
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": true
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "FUCR190"
-        },
-        "fuid": "entropist"
-      },
-      "img": "systems/projectfu/styles/static/compendium/classes/entropist/entropist.png",
-      "effects": [],
-      "folder": null,
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.classes.Item.A24rkaeNHdKThN4N",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728437054779,
-        "modifiedTime": 1728437058894,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "_id": "KFnb9f0Gpovf1gu8",
-      "sort": 1300000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.KFnb9f0Gpovf1gu8"
-    },
-    {
-      "name": "Entropic Magic",
-      "type": "skill",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Each time you acquire this Skill, learn one Entropist spell (@UUID[Compendium.projectfu.spells.Item.W9ZYH88gvlcg7atp]{[Entropist Spells]}, Core Rulebook, page <strong>192</strong>).</p><p>Offensive ( @ICON[offensive] ) Entropist spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><p> </p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 10,
-          "min": 0
-        },
-        "class": {
-          "value": "Entropist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR191"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "entropic-magic"
-      },
-      "img": "systems/projectfu/styles/static/compendium/classes/entropist/entropist_entropic_magic.png",
-      "effects": [],
-      "folder": "bqBl8kPDVcWqosfM",
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.vtmxLTltA4JvXFXu",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728437062662,
-        "modifiedTime": 1728437062662,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "WVKcRMovTlpQJ7Dt",
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "sort": 600000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.WVKcRMovTlpQJ7Dt"
-    },
-    {
-      "folder": "3BdwBwfSnD04VRAz",
-      "name": "Drain Spirit",
-      "type": "spell",
-      "_id": "CKq8Dk8GRFEexlQ8",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You consume a creature's psyche. The target loses <strong>【HR + 15】</strong> Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none).</p><hr /><p>@LOSS[5 mp]</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Entropist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "mpCost": {
-          "value": "5"
-        },
-        "target": {
-          "value": "One creature"
-        },
-        "duration": {
-          "value": "instantaneous"
-        },
-        "isOffensive": {
-          "value": true
-        },
-        "source": {
-          "value": "FUCR192"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": true
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 15
-          }
-        },
-        "hasRoll": {
-          "value": true
-        },
-        "opportunity": "",
-        "maxTargets": {
-          "value": 1
-        },
-        "fuid": "drain-spirit"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.spells.Item.300SqWOqTrc7Qb3L",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728437071156,
-        "modifiedTime": 1729284313637,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 200000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.CKq8Dk8GRFEexlQ8"
-    },
-    {
-      "folder": "FqK57wPP1QRdZuE8",
-      "name": "Spirit Shot",
-      "type": "skill",
-      "_id": "k2evxZ1WRUXhQGoI",
-      "img": "icons/equipment/neck/collar-rounded-red.webp",
-      "system": {
-        "fuid": "spirit-shot",
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>As an action, choose any number of Soul Beads to release in a <strong>ranged attack</strong> against enemies, spending 2 MP per Bead. Perform a <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 2】</strong> HP <strong>or</strong> MP per bead. This damage ignores Resistances. Each bead is destroyed after use, whether it hits or not.</p><p>Beads targeting HP affect the target’s <strong>Defense</strong>, while those targeting MP affect their <strong>Magic Defense</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Monk"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "defense": "def",
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FULF"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        }
-      },
-      "effects": [],
-      "sort": 300000,
-      "ownership": {
-        "default": 0,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.FKruofSyld8CMxOe",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728437143276,
-        "modifiedTime": 1729284360556,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.k2evxZ1WRUXhQGoI"
-    },
-    {
-      "name": "Absorb MP",
-      "type": "skill",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>After you suffer damage, you may immediately recover <strong>【SL × 2】 </strong>Mind Points.</p><hr /><p>Skill Level <strong>1</strong> - @GAIN[2 mp]</p><p>Skill Level <strong>2</strong> - @GAIN[4 mp]</p><p>Skill Level <strong>3</strong> - @GAIN[6 mp]</p><p>Skill Level <strong>4</strong> - @GAIN[8 mp]</p><p>Skill Level <strong>5</strong> - @GAIN[10 mp]</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Entropist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR191"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "absorb-mp"
-      },
-      "img": "systems/projectfu/styles/static/compendium/classes/entropist/entropist_absorb_mp.png",
-      "effects": [],
-      "folder": "bqBl8kPDVcWqosfM",
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.jgGLuOvN8xCSQWLK",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728437245614,
-        "modifiedTime": 1729284315017,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "R0iLXhZ3Xsn1yuhq",
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "sort": 500000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.R0iLXhZ3Xsn1yuhq"
-    },
-    {
-      "folder": "FqK57wPP1QRdZuE8",
-      "name": "Clarity",
-      "type": "skill",
-      "_id": "0wYzoEBrrnFuwpD8",
-      "img": "icons/equipment/neck/collar-rounded-red.webp",
-      "system": {
-        "fuid": "resonant-clarity",
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>For each pair of active Resolve Soul Beads you possess, choose one cumulative benefit from the following list. The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Monk"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "defense": "def",
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FULF"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        }
-      },
-      "effects": [],
-      "sort": 400000,
-      "ownership": {
-        "default": 0,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.SzsNaeREQGUpeo9u",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1728437318943,
-        "modifiedTime": 1729284314440,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.0wYzoEBrrnFuwpD8"
-    },
-    {
       "name": "Staff",
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/staff.png",
@@ -1310,7 +402,7 @@
         },
         "description": "",
         "isFavored": {
-          "value": false
+          "value": true
         },
         "showTitleCard": {
           "value": false
@@ -1396,8 +488,8 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728437358761,
-        "modifiedTime": 1729284313062,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745937682417,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "L9yjwb1RW7YLOmra",
       "sort": 100000,
@@ -1774,7 +866,7 @@
       "img": "icons/equipment/neck/collar-rounded-red.webp",
       "effects": [],
       "folder": null,
-      "sort": 600000,
+      "sort": 700000,
       "ownership": {
         "default": 0,
         "MZACGjYlT5yfbfPC": 3
@@ -1787,8 +879,8 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728437891536,
-        "modifiedTime": 1729284327763,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745937682417,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_key": "!actors.items!64mHOhtE1UlZFP8K.gHy2BgzMKwRiNhxo"
     },
@@ -1803,7 +895,7 @@
         "summary": {
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
         "isFavored": {
           "value": false
         },
@@ -1824,7 +916,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1835,64 +927,13 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285535206,
-        "modifiedTime": 1729285535206,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937114904,
+        "modifiedTime": 1745937114904,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "ISKO1T8uCDSWi5jw",
+      "_id": "1nRtfNvyUsGTlXSY",
       "sort": 87500,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.ISKO1T8uCDSWi5jw"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285535206,
-        "modifiedTime": 1729285535206,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "LlkU6BhY40mrefWb",
-      "sort": 50000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.LlkU6BhY40mrefWb"
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.1nRtfNvyUsGTlXSY"
     },
     {
       "name": "Magic Tent",
@@ -1905,7 +946,7 @@
         "summary": {
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
         "isFavored": {
           "value": false
         },
@@ -1926,7 +967,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1937,13 +978,13 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285535206,
-        "modifiedTime": 1729285535206,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937114904,
+        "modifiedTime": 1745937114904,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "fhbV1MITMyyODj1B",
+      "_id": "BPEgOLlmRkA8gnoX",
       "sort": 100000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.fhbV1MITMyyODj1B"
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.BPEgOLlmRkA8gnoX"
     },
     {
       "name": "Remedy",
@@ -1956,7 +997,7 @@
         "summary": {
           "value": "One creature recovers 50 HP."
         },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
         "isFavored": {
           "value": false
         },
@@ -1977,7 +1018,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1988,13 +1029,13 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285535206,
-        "modifiedTime": 1729285535206,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937114904,
+        "modifiedTime": 1745937114904,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "0lJs7YbdSf3raHTF",
+      "_id": "9xfAAvb1m0Lswolq",
       "sort": 0,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.0lJs7YbdSf3raHTF"
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.9xfAAvb1m0Lswolq"
     },
     {
       "name": "Tonic",
@@ -2007,7 +1048,7 @@
         "summary": {
           "value": "One creature recovers from a single status effect."
         },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
         "isFavored": {
           "value": false
         },
@@ -2028,7 +1069,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -2039,13 +1080,783 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285535206,
-        "modifiedTime": 1729285535206,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937114904,
+        "modifiedTime": 1745937114904,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "uGjSmeV1t3uX4AwL",
+      "_id": "XocFcN93OANNKiIi",
       "sort": 75000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.uGjSmeV1t3uX4AwL"
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.XocFcN93OANNKiIi"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937114904,
+        "modifiedTime": 1745937114904,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "qPPqUSawfT3g3yfQ",
+      "sort": 50000,
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.qPPqUSawfT3g3yfQ"
+    },
+    {
+      "name": "Monk",
+      "type": "class",
+      "_id": "yymuH6zwocgKf8OX",
+      "img": "icons/equipment/neck/collar-rounded-red.webp",
+      "system": {
+        "fuid": "monk",
+        "subtype": {},
+        "summary": {
+          "value": "Balance and resolve are the riverbed of strength."
+        },
+        "description": "<h5><strong>ALSO: Ascetic, Sage, Shīfù</strong></h5><p><strong>Monks</strong> are masters of mind, body, and spirit, using their inner clarity to achieve supernatural feats. Through rigorous discipline, they can harness raw spiritual might to endure adversity, aid their allies, and strike with precision. Monks seek to maintain balance — within themselves and in the world around them — believing that true strength lies not in mastering combat, but in understanding the nature of conﬂict itself. Some monks choose solitude to perfect their discipline, while others act as conduits to harmonious living, helping the world around them.</p><hr><h5><strong>MONK FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>Gain the ability to equip <strong>martial ranged weapons</strong> and <strong>martial melee weapons</strong>.</li></ul><h2><strong>MONK SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.SzsNaeREQGUpeo9u]{Clarity} <strong>(SL3)</strong></p><p>For each pair of active <em><strong>Resolve</strong></em><strong> Soul Beads</strong> you possess, choose one of these cumulative benefits:</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul><p>The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.a65UYj7NaS0pgz7d]{Resonant Clarity} <strong>(SL3)</strong></p><p>Your unwavering resolve and mental clarity radiate outward, reaching your companions. For each <strong>【SL】</strong>, you can share one of your active benefits from the <strong>Clarity</strong> Skill, up to three creatures.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.t3eHGb1h2RBfCDye]{Soul Renewal}</p><p>Choose up to three creatures. As an action, release your <strong>Soul Beads </strong>towards them, spending 2 MP per Bead. Each delivered Bead restores 10 HP <strong>or</strong> MP, at your discretion. At <strong>level 20</strong>, the regeneration increases to 12 HP/MP per Bead, and at <strong>level 40</strong>, to 15 HP/MP per Bead. Each Bead released in this way is <strong>destroyed</strong>.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.FKruofSyld8CMxOe]{Spirit Shot} <strong>(SL2)</strong></p><p>As an action, choose any number of <strong>Soul Beads</strong> to release in a <strong>ranged </strong>attack against enemies, spending 2 MP per Bead. Perform a <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 4】</strong> HP <strong>or</strong> MP per Bead, based on your choice. This damage ignores Resistances.</p><p>Beads targeting HP aﬀect the target’s <strong>Defense</strong>, while those targeting MP aﬀect their <strong>Magic Defense</strong>. Each Bead is destroyed after release, whether it hits or not.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WaJj04PEIogLmwx4]{Spiritual Fortress} <strong>(SL3)</strong></p><p>As a reaction, release any number of <strong>Soul Beads</strong> to reduce incoming damage to you or up to three creatures by <br><strong>【SL × 2】</strong>, before applying any damage Aﬃnities. Each Bead destroyed this way costs 2 MP.</p><p></p><h3>SOUL BEADS</h3><p>Soul Beads can appear in various forms: glowing segments on a mala, marks on your skin, or ﬂoating orbs circling your body — how do yours manifest?</p><ul><li><p>Your <strong>Soul Bead</strong> limit <strong>equals half your Willpower die size</strong>, with a minimum of 3 and a maximum of 6.</p></li><li><p>You begin a conflict with a full set of <em><strong>Core</strong></em><strong> Soul Beads</strong>. These Beads don’t count toward the <strong>Clarity</strong> Skill.</p></li><li><p>Once you start releasing your <em><strong>Core</strong></em><strong> Soul Beads</strong>, you gain 2 <em><strong>Resolve</strong></em><strong> Soul Beads</strong> per turn, up to your Soul Bead limit.</p></li></ul><p></p><div class=\"stackedit__html\"><div class=\"stackedit__html\"><h2>HEROIC SKILLS</h2></div><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.rdWGGszxm27eUBed]{Crystal Clear}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.xjiGIzpgP523NAV7]{Beaded Weapon}</p></div><p></p><h3>CREDIT</h3><p>Class referenced from <strong>The Low Fantasy Atlas</strong> by <strong>Breno A. H. Marisguia</strong></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 3,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": true
+            },
+            "ranged": {
+              "value": true
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FULF"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "MZACGjYlT5yfbfPC": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.hBZ4cuXxXxjDe9wV",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937256536,
+        "modifiedTime": 1745937592052,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.yymuH6zwocgKf8OX"
+    },
+    {
+      "name": "Entropist",
+      "type": "class",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": "The cold between the stars... it does not frighten me."
+        },
+        "description": "<h5><strong>ALSO: Astromancer, Chaos Mage, Gambler</strong></h5><p>High above the stars, where their lights do not shine, lies a bottomless void where life and souls wither and transform in unfathomable ways. This realm is a non-reality, an endless expanse of chaos impervious to the laws of time, space, and probability. <strong>Entropists </strong>refer to this realm as the Cosmos, the Heavens, or quite simply as Lady Luck: they are among the few gifted with the ability to channel its reality-bending energies.</p><hr /><h5><strong>ENTROPIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</li></ul><h2><strong>ENTROPIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.jgGLuOvN8xCSQWLK]{Absorb MP} <strong>(SL5)</strong></p><p>After you suffer damage, you may immediately recover <strong>【SL × 2】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.vtmxLTltA4JvXFXu]{Entropic Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Entropist spell (see <strong>Core Rulebook</strong>, page <strong>192</strong>).</p><p>Offensive ( @ICON[offensive] ) Entropist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.HgxY0x6jUjS6ppBc]{Lucky Seven}</p><p>You have a <strong>lucky number</strong>; at the beginning of each session, that number is <strong>7</strong>. Once per scene after you perform a Check, you may replace the value shown on one of the dice you rolled with your lucky number (even if this would give an impossible Result, such as a value of 7 on a d6). If you do, the replaced value becomes your <strong>new</strong> lucky number.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Ko2QCUw6qbxhufwE]{Ritual Entropism}</p><p>You may perform Rituals whose effects fall within the <strong>Entropism</strong> discipline.</p><p>Entropism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.84JARbmkQ5r0j39r]{Stolen Time} <strong>(SL4)</strong></p><p>During a conflict, you may use an action to interfere with the flow of time by spending up to <strong>【SL × 5】 </strong>Mind Points. For every 5 Mind Points you spend this way, choose one option: one creature you can see suffers <strong>slow</strong>; <strong>or</strong> one creature you can see recovers from slow; <strong>or</strong> one creature you can see may immediately perform the <strong>Equipment</strong> action for free; or choose one ally you can see who has yet to take a turn during this round: that ally may take their turn immediately after yours during this round. Each option can only be chosen once per use of this Skill.</p><h2><strong>ENTROPIST SPELLS</strong></h2><ul><li><p>For <strong>spell</strong> breakdown and a list of Entropist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.jZeTJrK0mFsRyz8S]{Entropist Rules}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR190"
+        },
+        "fuid": "entropist"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/entropist/entropist.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.A24rkaeNHdKThN4N",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937266445,
+        "modifiedTime": 1745937268191,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "_id": "oihxfHp7q4iWrtMY",
+      "sort": 1300000,
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.oihxfHp7q4iWrtMY"
+    },
+    {
+      "folder": "FqK57wPP1QRdZuE8",
+      "name": "Spirit Shot",
+      "type": "skill",
+      "_id": "isK14MT3GcpOLWYA",
+      "img": "icons/equipment/neck/collar-rounded-red.webp",
+      "system": {
+        "fuid": "spirit-shot",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>As an action, choose any number of <strong>Soul Beads</strong> to release in a <strong>ranged </strong>attack against enemies, spending 2 MP per Bead. Perform a <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 4】</strong> HP <strong>or</strong> MP per Bead, based  on your choice. This damage ignores Resistances. </p><p>Beads targeting HP aﬀect the target’s <strong>Defense</strong>, while those targeting MP aﬀect their <strong>Magic Defense</strong>. Each Bead is destroyed after release, whether it hits or not.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 2,
+          "min": 0
+        },
+        "class": {
+          "value": "Monk"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "FULF"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "MZACGjYlT5yfbfPC": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.FKruofSyld8CMxOe",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937279307,
+        "modifiedTime": 1745937682417,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.isK14MT3GcpOLWYA"
+    },
+    {
+      "folder": "FqK57wPP1QRdZuE8",
+      "name": "Clarity",
+      "type": "skill",
+      "_id": "8Nr90N2c7c4doUbq",
+      "img": "icons/equipment/neck/collar-rounded-red.webp",
+      "system": {
+        "fuid": "resonant-clarity",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>For each pair of active <em><strong>Resolve</strong></em><strong> Soul Beads</strong> you possess, choose one of these cumulative benefits:</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul><p>The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Monk"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": {
+          "value": "FULF"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "MZACGjYlT5yfbfPC": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.SzsNaeREQGUpeo9u",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937285206,
+        "modifiedTime": 1745937682417,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.8Nr90N2c7c4doUbq"
+    },
+    {
+      "name": "Absorb MP",
+      "type": "skill",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After you suffer damage, you may immediately recover <strong>【SL × 2】 </strong>Mind Points.</p><hr /><ul><li><p><strong>You Recover: </strong>@GAIN[2*$sl mp]{SL × 2 MP}</p></li></ul>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR191"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "absorb-mp",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/entropist/entropist_absorb_mp.png",
+      "effects": [],
+      "folder": "bqBl8kPDVcWqosfM",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.jgGLuOvN8xCSQWLK",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937296828,
+        "modifiedTime": 1745937682417,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "oV4loiY3cstnJthe",
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "sort": 300000,
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.oV4loiY3cstnJthe"
+    },
+    {
+      "name": "Entropic Magic",
+      "type": "skill",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Entropist spell (see <strong>Core Rulebook</strong>, page <strong>192</strong>).</p><p>Offensive ( @ICON[offensive] ) Entropist spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr /><ul><li><p>For <strong>spell</strong> breakdown and a list of Entropist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.jZeTJrK0mFsRyz8S]{Entropist Rules}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR191"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "entropic-magic",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/entropist/entropist_entropic_magic.png",
+      "effects": [],
+      "folder": "bqBl8kPDVcWqosfM",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.vtmxLTltA4JvXFXu",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937302925,
+        "modifiedTime": 1745937302925,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "3qiq3UTrTRgCBndP",
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "sort": 600000,
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.3qiq3UTrTRgCBndP"
+    },
+    {
+      "folder": "3BdwBwfSnD04VRAz",
+      "name": "Drain Spirit",
+      "type": "spell",
+      "_id": "dl6pc5shryevTe8q",
+      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You consume a creature's psyche. The target loses <strong>【HR + 15】</strong> Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none).</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FUCR192"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "untyped"
+            },
+            "value": 15
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "",
+        "fuid": "drain-spirit",
+        "traits": [
+          "AbsorbHalf",
+          "MindPointLoss",
+          "Base"
+        ],
+        "cost": {
+          "resource": "mp",
+          "amount": 5
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.300SqWOqTrc7Qb3L",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937650204,
+        "modifiedTime": 1745937682417,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 200000,
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.dl6pc5shryevTe8q"
     }
   ],
   "effects": [],

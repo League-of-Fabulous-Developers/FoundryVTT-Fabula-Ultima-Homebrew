@@ -246,389 +246,6 @@
   },
   "items": [
     {
-      "name": "Children of the Night",
-      "type": "skill",
-      "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Predator"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "defense": "def",
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        }
-      },
-      "effects": [],
-      "folder": "7X5ncpm944PmFfES",
-      "ownership": {
-        "default": 0,
-        "YN7AhHIwAZeH33Tw": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1709317931671,
-        "modifiedTime": 1729285309575,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN",
-        "duplicateSource": null
-      },
-      "_id": "Wuckr6yFnVl2V2Xd",
-      "sort": 100000,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.Wuckr6yFnVl2V2Xd"
-    },
-    {
-      "name": "It Won't Die",
-      "type": "skill",
-      "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×5】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by<strong>【SL】</strong>before affinities. (You still suffer the consequences for surrendering.)</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 5,
-          "min": 0
-        },
-        "class": {
-          "value": "Predator"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "defense": "def",
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        }
-      },
-      "effects": [],
-      "folder": "7X5ncpm944PmFfES",
-      "ownership": {
-        "default": 0,
-        "YN7AhHIwAZeH33Tw": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1709317931671,
-        "modifiedTime": 1729285553790,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf",
-        "duplicateSource": null
-      },
-      "_id": "6h4fQ7jsMkoYQ3xF",
-      "sort": 200000,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.6h4fQ7jsMkoYQ3xF"
-    },
-    {
-      "name": "Predator",
-      "type": "class",
-      "system": {
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": true
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": false
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": false
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "subtype": {},
-        "summary": {
-          "value": "A ravening beast? A pillaging lord? I reject both fates."
-        },
-        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Conqueror, Parasite, Vampire</strong></h5><p>Some <strong>Predators</strong> are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><hr /><h5><strong>PREDATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life (SL5)}</p><p>When an ally casts a spell that includes you among the targets, they may choose to spend <strong>【SL】 </strong>Hit Points to allow you to regain <strong>【SL × 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend <strong>【SL】 </strong>Hit Points to deal <strong>【SL × 3】 </strong>dark damage to them.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</p><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger (SL5)}</strong></p><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die(SL5)}</p><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×2】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by <strong>【SL】 </strong>before affinities. (You still suffer the consequences for <strong>surrendering</strong>.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror (SL2)}</p><p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><p></p></div><div class=\"stackedit__html\"><h3>PREDATOR NOTES</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.dmcZAwL31lbvyJ8j]{Predator Rules}</strong></p><p></p></div><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "fuid": "predator"
-      },
-      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "YN7AhHIwAZeH33Tw": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.oA2gENCwk30ZsDeB",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284828247,
-        "modifiedTime": 1729284839434,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "znymSiA7MiO3T0Vl",
-      "sort": 0,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.znymSiA7MiO3T0Vl"
-    },
-    {
       "name": "Fury",
       "type": "class",
       "system": {
@@ -829,490 +446,6 @@
       "_key": "!actors.items!NeGosa5m8VZxUDJt.CKIb0r8Ugj6fXzyh"
     },
     {
-      "folder": "gf9uvRkGXGXrNE9W",
-      "name": "Frenzy",
-      "type": "skill",
-      "_id": "tidjHAlKprPJLPr5",
-      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 1,
-          "min": 0
-        },
-        "class": {
-          "value": "Fury"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR195"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "frenzy"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284851859,
-        "modifiedTime": 1729285553944,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 200000,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.tidjHAlKprPJLPr5"
-    },
-    {
-      "folder": "k463lsw6TLekF6xu",
-      "name": "Dodge",
-      "type": "skill",
-      "_id": "C4OmW2rROdPB6O8k",
-      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_dodge.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p><span>As long as you have no <strong>shields</strong> and no <strong>martial armor</strong> equipped, your Defense score is increased by <strong>【SL】</strong>.</span></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Rogue"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR203"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "dodge"
-      },
-      "effects": [
-        {
-          "duration": {
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": 1,
-            "startTurn": 1
-          },
-          "disabled": false,
-          "name": "Dodge",
-          "_id": "JB8FXzYLdzxU3NgX",
-          "changes": [
-            {
-              "key": "system.derived.def.bonus",
-              "mode": 2,
-              "value": "@system.level.value",
-              "priority": null
-            }
-          ],
-          "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">As long as you have no <strong>shields</strong> and no <strong>martial armor</strong> equipped, your Defense score is increased by<strong>【SL】</strong>. </span></p>",
-          "transfer": true,
-          "statuses": [],
-          "flags": {
-            "projectfu": {
-              "CrisisInteraction": "none"
-            }
-          },
-          "tint": "#ffffff",
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "12.331",
-            "systemId": "projectfu",
-            "systemVersion": "#{VERSION}#",
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null
-          },
-          "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_dodge.png",
-          "type": "base",
-          "system": {},
-          "origin": null,
-          "sort": 0,
-          "_key": "!actors.items.effects!NeGosa5m8VZxUDJt.C4OmW2rROdPB6O8k.JB8FXzYLdzxU3NgX"
-        }
-      ],
-      "sort": 200000,
-      "ownership": {
-        "default": 3,
-        "hYECXwi6O8UUBuN4": 3,
-        "YN7AhHIwAZeH33Tw": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.ksgKc90MZSpDTka7",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284859469,
-        "modifiedTime": 1729285554151,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.C4OmW2rROdPB6O8k"
-    },
-    {
-      "folder": "k463lsw6TLekF6xu",
-      "name": "High Speed",
-      "type": "skill",
-      "_id": "I5tF27cam1FaJbAm",
-      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_high_speed.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p><span>At the start of a conflict, you may spend @LOSS[10 mp]. If you do, choose one option and apply it before the start of the first round: perform a <strong>free attack</strong> with a weapon you have equipped; <strong>or </strong>perform a <strong>Hinder </strong>or <strong>Objective </strong>action. You also gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen option.</span></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 1,
-          "max": 3,
-          "min": 0
-        },
-        "class": {
-          "value": "Rogue"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR203"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "high-speed"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.tiu0D74YNxirN6Tr",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729284863325,
-        "modifiedTime": 1729285553596,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 100000,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.I5tF27cam1FaJbAm"
-    },
-    {
       "name": "Combat Tunic",
       "type": "armor",
       "img": "systems/projectfu/styles/static/compendium/armor/combat-tunic.png",
@@ -1411,7 +544,7 @@
         },
         "description": "",
         "isFavored": {
-          "value": false
+          "value": true
         },
         "showTitleCard": {
           "value": false
@@ -1497,8 +630,8 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729284967738,
-        "modifiedTime": 1729285553225,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745937798165,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "aUd1N3BEQTWC6f7Y",
       "sort": 0,
@@ -1633,7 +766,7 @@
         },
         "description": "",
         "isFavored": {
-          "value": false
+          "value": true
         },
         "showTitleCard": {
           "value": false
@@ -1719,8 +852,8 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285449531,
-        "modifiedTime": 1729285553424,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745937798798,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "AjSweEOW9HbgG1BJ",
       "sort": 0,
@@ -1742,7 +875,7 @@
         "summary": {
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
         "isFavored": {
           "value": false
         },
@@ -1763,7 +896,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1774,64 +907,13 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285471774,
-        "modifiedTime": 1729285471774,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937808504,
+        "modifiedTime": 1745937808504,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "eUJhJJSt6guQK3IF",
+      "_id": "jIT31gK3EAA3lZA8",
       "sort": 87500,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.eUJhJJSt6guQK3IF"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285471774,
-        "modifiedTime": 1729285471774,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "P9j9LSgXm0OSdd2z",
-      "sort": 50000,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.P9j9LSgXm0OSdd2z"
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.jIT31gK3EAA3lZA8"
     },
     {
       "name": "Magic Tent",
@@ -1844,7 +926,7 @@
         "summary": {
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
         "isFavored": {
           "value": false
         },
@@ -1865,7 +947,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1876,13 +958,13 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285471774,
-        "modifiedTime": 1729285471774,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937808504,
+        "modifiedTime": 1745937808504,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "IsKa3pDm3vXQiGKE",
+      "_id": "tqTNnKBgXrtcDr8R",
       "sort": 100000,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.IsKa3pDm3vXQiGKE"
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.tqTNnKBgXrtcDr8R"
     },
     {
       "name": "Remedy",
@@ -1895,7 +977,7 @@
         "summary": {
           "value": "One creature recovers 50 HP."
         },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
         "isFavored": {
           "value": false
         },
@@ -1916,7 +998,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1927,13 +1009,13 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285471774,
-        "modifiedTime": 1729285471774,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937808504,
+        "modifiedTime": 1745937808504,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "amID0oDeA0wkTano",
+      "_id": "Xxgnkadsun3w1jpI",
       "sort": 0,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.amID0oDeA0wkTano"
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.Xxgnkadsun3w1jpI"
     },
     {
       "name": "Tonic",
@@ -1946,7 +1028,7 @@
         "summary": {
           "value": "One creature recovers from a single status effect."
         },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
         "isFavored": {
           "value": false
         },
@@ -1967,7 +1049,7 @@
         "default": 0,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1978,13 +1060,701 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285471774,
-        "modifiedTime": 1729285471774,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745937808504,
+        "modifiedTime": 1745937808504,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "_id": "H0fPs4Z49CjJ55Vt",
+      "_id": "25V6s4i4wJgPgCT8",
       "sort": 75000,
-      "_key": "!actors.items!NeGosa5m8VZxUDJt.H0fPs4Z49CjJ55Vt"
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.25V6s4i4wJgPgCT8"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937808504,
+        "modifiedTime": 1745937808504,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "ZybWbyZ5yCm6dVtk",
+      "sort": 50000,
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.ZybWbyZ5yCm6dVtk"
+    },
+    {
+      "name": "Children of the Night",
+      "type": "skill",
+      "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Predator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "hrZero": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "children-of-the-night",
+        "defense": "def",
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "folder": "7X5ncpm944PmFfES",
+      "ownership": {
+        "default": 0,
+        "YN7AhHIwAZeH33Tw": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937818673,
+        "modifiedTime": 1745937841970,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "rjLz9ZcvcnVjIAaB",
+      "sort": 0,
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.rjLz9ZcvcnVjIAaB"
+    },
+    {
+      "name": "It Won't Die",
+      "type": "skill",
+      "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL × 2】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by<strong>【SL】</strong>before affinities. (You still suffer the consequences for surrendering.)</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*2 hp]{SL × 2 HP}</p></li></ul>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Predator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "it-wont-die",
+        "cost": {
+          "resource": "fp",
+          "amount": 1
+        },
+        "defense": "def",
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "folder": "7X5ncpm944PmFfES",
+      "ownership": {
+        "default": 0,
+        "YN7AhHIwAZeH33Tw": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937823243,
+        "modifiedTime": 1745937852411,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "BpkSRPxntiBkuryu",
+      "sort": 100000,
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.BpkSRPxntiBkuryu"
+    },
+    {
+      "folder": "k463lsw6TLekF6xu",
+      "name": "High Speed",
+      "type": "skill",
+      "_id": "SXLtcuJ9GFa1OmXc",
+      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_high_speed.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p><span>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one option and apply it before the start of the first round: perform a <strong>free attack</strong> with a weapon you have equipped; <strong>or </strong>perform a <strong>Hinder </strong>or <strong>Objective </strong>action. You also gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen option.</span></p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Rogue"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR203"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "high-speed",
+        "cost": {
+          "amount": 10,
+          "resource": "mp"
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.tiu0D74YNxirN6Tr",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937831603,
+        "modifiedTime": 1745937844070,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.SXLtcuJ9GFa1OmXc"
+    },
+    {
+      "folder": "gf9uvRkGXGXrNE9W",
+      "name": "Frenzy",
+      "type": "skill",
+      "_id": "GmIJ5yx46FdbPUwO",
+      "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
+        "isFavored": {
+          "value": true
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Fury"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR195"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "frenzy",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937834871,
+        "modifiedTime": 1745937844687,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 200000,
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.GmIJ5yx46FdbPUwO"
+    },
+    {
+      "folder": "k463lsw6TLekF6xu",
+      "name": "Dodge",
+      "type": "skill",
+      "_id": "nivvouefCa9kiJJY",
+      "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_dodge.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p><span>As long as you have no <strong>shields</strong> and no <strong>martial armor</strong> equipped, your Defense score is increased by <strong>【SL】</strong>.</span></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Rogue"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR203"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "dodge",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [
+        {
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Dodge",
+          "_id": "JB8FXzYLdzxU3NgX",
+          "changes": [
+            {
+              "key": "system.derived.def.bonus",
+              "mode": 2,
+              "value": "@system.level.value",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">As long as you have no <strong>shields</strong> and no <strong>martial armor</strong> equipped, your Defense score is increased by<strong>【SL】</strong>. </span></p>",
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none",
+              "type": "default",
+              "source": "FUCR203"
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_dodge.png",
+          "type": "base",
+          "system": {
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 0
+            },
+            "rules": {
+              "progress": {
+                "current": 0,
+                "step": 1,
+                "max": 6,
+                "enabled": false
+              }
+            }
+          },
+          "origin": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!NeGosa5m8VZxUDJt.nivvouefCa9kiJJY.JB8FXzYLdzxU3NgX"
+        }
+      ],
+      "sort": 350000,
+      "ownership": {
+        "default": 3,
+        "hYECXwi6O8UUBuN4": 3,
+        "YN7AhHIwAZeH33Tw": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.ksgKc90MZSpDTka7",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745937838052,
+        "modifiedTime": 1745937838052,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.nivvouefCa9kiJJY"
+    },
+    {
+      "name": "Predator",
+      "type": "class",
+      "system": {
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "subtype": {},
+        "summary": {
+          "value": "A ravening beast? A pillaging lord? I reject both fates."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Conqueror, Parasite, Vampire</strong></h5><p>Some <strong>Predators</strong> are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><hr><h5><strong>PREDATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life} <strong>(SL5)</strong></p><p>When an ally casts a spell that includes you among the targets, they may choose to spend <strong>【SL】 </strong>Hit Points to allow you to regain <strong>【SL × 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend <strong>【SL】 </strong>Hit Points to deal <strong>【SL × 3】 </strong>dark damage to them.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</p><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger} <strong>(SL5)</strong></p><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die} <strong>(SL5)</strong></p><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×2】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by <strong>【SL】 </strong>before affinities. (You still suffer the consequences for <strong>surrendering</strong>.)</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror} <strong>(SL2)</strong></p><p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><p></p></div><div class=\"stackedit__html\"><h3>PREDATOR NOTES</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.dmcZAwL31lbvyJ8j]{Predator Rules}</p><p></p></div><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "predator"
+      },
+      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "YN7AhHIwAZeH33Tw": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.oA2gENCwk30ZsDeB",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938084108,
+        "modifiedTime": 1745938084108,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "O2HMjWgJoqkwc8mk",
+      "sort": 0,
+      "_key": "!actors.items!NeGosa5m8VZxUDJt.O2HMjWgJoqkwc8mk"
     }
   ],
   "effects": [],

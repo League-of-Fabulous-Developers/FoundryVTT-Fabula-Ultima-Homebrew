@@ -371,11 +371,11 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729282920127,
-        "modifiedTime": 1729286385578,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745932765713,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_id": "pCRHZOzifG3qR1bK",
-      "sort": -200000,
+      "sort": -400000,
       "ownership": {
         "default": 0,
         "BwRsFvMHAq9vUtEO": 3,
@@ -471,358 +471,6 @@
         "lastModifiedBy": "MZACGjYlT5yfbfPC"
       },
       "_key": "!actors.items!G2lpvLjR5ipJOK3z.nXtufu9Tfo0Yfov6"
-    },
-    {
-      "name": "Elemental Shard",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
-        },
-        "description": "<p>For @LOSS[2 ip], one creature suffers 10 damage of a type of your choice ( @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice] ).</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elemental-shard"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729282939755,
-        "modifiedTime": 1729282939755,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "cHPQQirIfg5wDiEW",
-      "sort": 87500,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.cHPQQirIfg5wDiEW"
-    },
-    {
-      "name": "Elixir",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 MP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "elixir"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729282939755,
-        "modifiedTime": 1729282939755,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "kzY3HTYvt3gD7Dxb",
-      "sort": 50000,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.kzY3HTYvt3gD7Dxb"
-    },
-    {
-      "name": "Magic Tent",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "This allows the entire group to rest in the wilderness and at sea."
-        },
-        "description": "<p>For @LOSS[4 ip], this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 4
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "magic-tent"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729282939755,
-        "modifiedTime": 1729282939755,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "27DqX8znC4jfEnlX",
-      "sort": 100000,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.27DqX8znC4jfEnlX"
-    },
-    {
-      "name": "Remedy",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers 50 HP."
-        },
-        "description": "<p>For @LOSS[3 ip] one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 3
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "remedy"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729282939755,
-        "modifiedTime": 1729282939755,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "ilorNQO1PojUIqP2",
-      "sort": 0,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.ilorNQO1PojUIqP2"
-    },
-    {
-      "name": "Tonic",
-      "type": "consumable",
-      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
-      "system": {
-        "subtype": {
-          "value": "potion"
-        },
-        "summary": {
-          "value": "One creature recovers from a single status effect."
-        },
-        "description": "<p>For @LOSS[2 ip] one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "ipCost": {
-          "value": 2
-        },
-        "source": {
-          "value": "FUCR104"
-        },
-        "fuid": "tonic"
-      },
-      "effects": [],
-      "folder": "WTJwnSjYUL3GOIyA",
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729282939755,
-        "modifiedTime": 1729282939755,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "rl1ajRlNMoEEUtkn",
-      "sort": 75000,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.rl1ajRlNMoEEUtkn"
-    },
-    {
-      "name": "Hunter",
-      "type": "class",
-      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "If hatred you will never find your quarry."
-        },
-        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h5><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><hr /><h5>HUNTER <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound (SL4)}</p><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer (SL4)}</p><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver &amp; Garlic}</p><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight (SL3)}</p><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks (SL5)}</p><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p><p></p><h3>HUNTER NOTES</h3></div><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "benefits": {
-          "resources": {
-            "hp": {
-              "value": false
-            },
-            "mp": {
-              "value": false
-            },
-            "ip": {
-              "value": true
-            }
-          },
-          "martials": {
-            "melee": {
-              "value": false
-            },
-            "ranged": {
-              "value": true
-            },
-            "armor": {
-              "value": false
-            },
-            "shields": {
-              "value": false
-            }
-          },
-          "rituals": {
-            "arcanism": {
-              "value": false
-            },
-            "chimerism": {
-              "value": false
-            },
-            "elementalism": {
-              "value": false
-            },
-            "entropism": {
-              "value": false
-            },
-            "ritualism": {
-              "value": false
-            },
-            "spiritism": {
-              "value": false
-            }
-          }
-        },
-        "source": {
-          "value": "Homebrew"
-        },
-        "fuid": "hunter"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "B6evqtezy9ZsGZG3": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.WLjUavn6dDW5T8xl",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729282962645,
-        "modifiedTime": 1729282964217,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_id": "GKEtjQV5vb5qc7Cy",
-      "sort": 0,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.GKEtjQV5vb5qc7Cy"
     },
     {
       "name": "Spiritist",
@@ -1352,151 +1000,6 @@
       "_key": "!actors.items!G2lpvLjR5ipJOK3z.MmskUt8TN34Qu1lk"
     },
     {
-      "folder": "LWIsJLQGwkSdYYwN",
-      "name": "Spiritual Magic",
-      "type": "skill",
-      "_id": "h5Dw4eHQOWyYXtTa",
-      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Each time you acquire this Skill, learn one <strong>Spiritist</strong> spell (<strong>Core Rulebook</strong>, page <strong>208 </strong>or<strong> </strong>@UUID[Compendium.projectfu.spells.Item.fIzsuP7ro97Xc8H0]{[Spiritist Spells]}).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "level": {
-          "value": 2,
-          "max": 10,
-          "min": 0
-        },
-        "class": {
-          "value": "Spiritist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR207"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "hasResource": {
-          "value": false
-        },
-        "rp": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "defense": "def",
-        "fuid": "spiritual-magic"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283012904,
-        "modifiedTime": 1729285843332,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "sort": 300000,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.h5Dw4eHQOWyYXtTa"
-    },
-    {
       "name": "Unarmed Strike",
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
@@ -1608,10 +1111,265 @@
       "_key": "!actors.items!G2lpvLjR5ipJOK3z.sQlZN0RIaFg1T8KU"
     },
     {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932707534,
+        "modifiedTime": 1745932707534,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "QedaSISuE7AxpJYw",
+      "sort": 87500,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.QedaSISuE7AxpJYw"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.QYyuig5iy5mMN9F8",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932707534,
+        "modifiedTime": 1745932707534,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "uJDABqY1hL0yUpsS",
+      "sort": 100000,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.uJDABqY1hL0yUpsS"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932707534,
+        "modifiedTime": 1745932707534,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "D2NGN3JgfZt8uRz7",
+      "sort": 0,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.D2NGN3JgfZt8uRz7"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932707534,
+        "modifiedTime": 1745932707534,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "UvWykHqU6qw0tMP8",
+      "sort": 50000,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.UvWykHqU6qw0tMP8"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": {
+          "value": "FUCR104"
+        },
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932707534,
+        "modifiedTime": 1745932707534,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "KU0xUu7RxGyS0zTD",
+      "sort": 75000,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.KU0xUu7RxGyS0zTD"
+    },
+    {
       "folder": "KUerX2dLyeZ8A3Xw",
       "name": "Cleanse",
       "type": "spell",
-      "_id": "HnpEI5HoquBxBxIV",
+      "_id": "8hwrcKit96ypNqxi",
       "img": "icons/magic/life/cross-beam-green.webp",
       "system": {
         "subtype": {
@@ -1620,7 +1378,7 @@
         "summary": {
           "value": ""
         },
-        "description": "<p>You strengthen and purify the soul energy coursing through your companions. Each target recovers from all status effects.</p><hr /><p>@LOSS[5 mp] for <strong>one</strong> target.</p><p>@LOSS[10 mp] for <strong>two</strong> targets.</p><p>@LOSS[15 mp] for <strong>three</strong> targets.</p>",
+        "description": "<p>You strengthen and purify the soul energy coursing through your companions. Each target recovers from all status effects.</p>",
         "isFavored": {
           "value": true
         },
@@ -1678,12 +1436,6 @@
         },
         "weight": {
           "value": 1
-        },
-        "mpCost": {
-          "value": "5"
-        },
-        "target": {
-          "value": "Up to three creatures"
         },
         "duration": {
           "value": "instantaneous"
@@ -1725,17 +1477,23 @@
           "value": false
         },
         "opportunity": "",
-        "maxTargets": {
-          "value": 3
+        "fuid": "cleanse",
+        "cost": {
+          "resource": "mp",
+          "amount": 5
         },
-        "fuid": "cleanse"
+        "targeting": {
+          "max": 3,
+          "rule": "multiple"
+        },
+        "traits": []
       },
       "effects": [],
       "ownership": {
         "default": 2,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1746,18 +1504,18 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285849461,
-        "modifiedTime": 1729286382683,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745932720540,
+        "modifiedTime": 1745932762009,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "sort": -100000,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.HnpEI5HoquBxBxIV"
+      "sort": -250000,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.8hwrcKit96ypNqxi"
     },
     {
       "folder": "KUerX2dLyeZ8A3Xw",
       "name": "Lux",
       "type": "spell",
-      "_id": "ziluleYM8lkJ1FEm",
+      "_id": "Vcje7xQ6nWDht8Me",
       "img": "icons/magic/light/projectile-stars-blue.webp",
       "system": {
         "subtype": {
@@ -1766,7 +1524,7 @@
         "summary": {
           "value": ""
         },
-        "description": "<p>You focus your inner energy into a barrage of blinding soul rays. Each target hit by this spell suffers <strong>【HR + 15】</strong> <strong>light</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers <strong>@EFFECT[dazed]</strong>.</p><hr /><p>@LOSS[10 mp] for <strong>one</strong> target.</p><p>@LOSS[20 mp] for <strong>two</strong> targets.</p><p>@LOSS[30 mp] for <strong>three</strong> targets.</p>",
+        "description": "<p>You focus your inner energy into a barrage of blinding soul rays. Each target hit by this spell suffers <strong>【HR + 15】</strong> <strong>light</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>",
         "isFavored": {
           "value": true
         },
@@ -1825,12 +1583,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "10"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -1871,17 +1623,23 @@
           "value": true
         },
         "opportunity": "Each target hit by this spell suffers dazed.",
-        "maxTargets": {
-          "value": 3
+        "fuid": "lux",
+        "cost": {
+          "resource": "mp",
+          "amount": 10
         },
-        "fuid": "lux"
+        "targeting": {
+          "max": 3,
+          "rule": "multiple"
+        },
+        "traits": []
       },
       "effects": [],
       "ownership": {
         "default": 2,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "MZACGjYlT5yfbfPC": 3
+        "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
         "core": {}
@@ -1892,12 +1650,205 @@
         "coreVersion": "12.331",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285853703,
-        "modifiedTime": 1729286384277,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "createdTime": 1745932724478,
+        "modifiedTime": 1745932763620,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
-      "sort": -50000,
-      "_key": "!actors.items!G2lpvLjR5ipJOK3z.ziluleYM8lkJ1FEm"
+      "sort": -300000,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.Vcje7xQ6nWDht8Me"
+    },
+    {
+      "folder": "LWIsJLQGwkSdYYwN",
+      "name": "Spiritual Magic",
+      "type": "skill",
+      "_id": "MALWFaSuIs017JSe",
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Spiritist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": {
+          "value": "FUCR207"
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "spiritual-magic",
+        "cost": {
+          "resource": "mp",
+          "amount": 0
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745932736569,
+        "modifiedTime": 1745932736569,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.MALWFaSuIs017JSe"
+    },
+    {
+      "name": "Hunter",
+      "type": "class",
+      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "If hatred you will never find your quarry."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h5><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><hr><h5>HUNTER <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound} <strong>(SL4)</strong></p><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer} <strong>(SL4)</strong></p><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver & Garlic}</p><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight} <strong>(SL3)</strong></p><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks} <strong>(SL5)</strong></p><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p><p></p><h3>HUNTER NOTES</h3></div><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": true
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": true
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "Homebrew"
+        },
+        "fuid": "hunter"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.WLjUavn6dDW5T8xl",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745938541031,
+        "modifiedTime": 1745938541031,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_id": "kBMyLzYdJCHLGOj0",
+      "sort": 0,
+      "_key": "!actors.items!G2lpvLjR5ipJOK3z.kBMyLzYdJCHLGOj0"
     }
   ],
   "effects": [],
