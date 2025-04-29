@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Once per session, when you <strong>save an NPC</strong> or <strong>community from danger</strong> or <strong>complete a quest for them</strong>, you gain <strong>【SL】</strong> Fabula Points.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>Once per session, when you <strong>save an NPC</strong> or <strong>community from danger</strong> or <strong>complete a quest for them</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr><ul><li><p><strong>You Gain:</strong> @GAIN[$sl fp]{SL FP}</p></li></ul></div>",
     "isFavored": {
       "value": false
     },
@@ -54,7 +54,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -125,8 +127,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1713032976619,
-    "modifiedTime": 1729282027259,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745927536992,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Whenever you mark a segment of a ritual’s <strong>Clock</strong>, you may spend <strong>【SL × 20】</strong> <strong>MP</strong> to mark an additional segment for every 20 <strong>MP</strong> spent this way.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>Whenever you mark a segment of a ritual’s <strong>Clock</strong>, you may spend up to<strong>【SL × 20】</strong> <strong>MP</strong> to mark an additional segment for every 20 <strong>MP</strong> spent this way.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -118,7 +118,10 @@
     "hasRoll": {
       "value": false
     },
-    "fuid": "accelerate-ritual"
+    "fuid": "accelerate-ritual",
+    "cost": {
+      "amount": 20
+    }
   },
   "effects": [],
   "flags": {},
@@ -127,7 +130,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712420994401,
-    "modifiedTime": 1745859186550,
+    "modifiedTime": 1745930467062,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null

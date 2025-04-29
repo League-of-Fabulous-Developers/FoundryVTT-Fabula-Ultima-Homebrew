@@ -3,7 +3,7 @@
   "name": "Dither",
   "type": "spell",
   "_id": "R8WbK8lNtte4pQtL",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/thrown/bomb-timer.webp",
   "system": {
     "subtype": {},
     "summary": {
@@ -75,7 +75,7 @@
       "value": "One creature"
     },
     "duration": {
-      "value": "Scene"
+      "value": "instantaneous"
     },
     "isOffensive": {
       "value": false
@@ -123,8 +123,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715819987083,
-    "modifiedTime": 1729282027607,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745931921958,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You gain a number of extra <strong>bond slots</strong> equal to <strong>【SL】</strong> .<br />Additionally, once per session, If a Villain brings you to 0 Hit Points and you <strong>Surrender</strong>, you may immediately spend 2 Fabula Points to return to the Conflict with <strong>【Number of Bond × 5】</strong> Hit Points. Then, the Villain loses 1 Ultima Point.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>You gain a number of extra <strong>bond slots</strong> equal to <strong>【SL】</strong> .<br>Additionally, once per session, If a Villain brings you to 0 Hit Points and you <strong>Surrender</strong>, you may immediately spend 2 Fabula Points to return to the Conflict with <strong>【Number of Bond × 5】</strong> Hit Points. Then, the Villain loses 1 Ultima Point.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$bc*5 hp]{Total Bonds × 5}</p></li></ul></div>",
     "isFavored": {
       "value": false
     },
@@ -130,7 +130,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1713032976619,
-    "modifiedTime": 1745898844262,
+    "modifiedTime": 1745928044449,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null

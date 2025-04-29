@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt\" id=\"docs-internal-guid-d32754f3-7fff-a31a-d602-78ecefafd3f5\"><span style=\"font-family: 'PT Sans Narrow',sans-serif\">Whenever you are a <strong>supporting </strong>character<strong> </strong>in a Group Check (such as <strong>Teamwork</strong>), gain a【<strong>+SL</strong>】bonus to your roll.</span></p><p><span style=\"font-family: 'PT Sans Narrow',sans-serif\">For every <strong>3 points above the DL</strong>, grant the leader an additional <strong>+1</strong> bonus.</span></p>",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt\" id=\"docs-internal-guid-d32754f3-7fff-a31a-d602-78ecefafd3f5\"><span style=\"font-family: 'PT Sans Narrow',sans-serif\">Whenever you are a <strong>supporting </strong>character<strong> </strong>in a Group Check (such as <strong>Teamwork</strong>), gain a【<strong>SL</strong>】bonus to your roll.</span></p><p><span style=\"font-family: 'PT Sans Narrow',sans-serif\">For every <strong>3 points above the DL</strong>, grant the leader an additional <strong>+1</strong> bonus.</span></p>",
     "isFavored": {
       "value": false
     },
@@ -77,7 +77,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745859200110,
-    "modifiedTime": 1745859254003,
+    "modifiedTime": 1745929889795,
     "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "ownership": {

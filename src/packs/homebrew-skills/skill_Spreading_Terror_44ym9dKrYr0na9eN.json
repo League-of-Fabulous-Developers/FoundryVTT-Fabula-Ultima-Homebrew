@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】 </strong>Mind Points to inflict <strong>@EFFECT[shaken]</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p>",
+    "description": "<p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】 </strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><hr><ul><li><p><strong>You Lose:</strong> @LOSS[$sl*5 mp]{SL × 5 MP}</p></li><li><p><strong>Target Suffers:</strong> @EFFECT[shaken]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -51,7 +51,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -120,8 +122,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1709317931671,
-    "modifiedTime": 1729282024773,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745929543809,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Gain a <strong>【+SL】</strong> bonus to any <strong>Ritual</strong> check you perform.</p><p>Reduce the base cost of <strong>Rituals</strong> you initiate by <strong>【SL x 5】 MP</strong> (down to a minimum of 1).</p><p>Whenever you make an <strong>Open Check</strong> related to your knowledge of magic, curses, rituals, spells, or other similar effects, add a bonus equal to <strong>【SL】</strong> on that Check.</p>",
+    "description": "<p>Gain a <strong>【SL】</strong> bonus to any <strong>Ritual</strong> check you perform.</p><p>Reduce the base cost of <strong>Rituals</strong> you initiate by <strong>【SL x 5】 MP</strong> (down to a minimum of 1).</p><p>Whenever you make an <strong>Open Check</strong> related to your knowledge of magic, curses, rituals, spells, or other similar effects, add a bonus equal to <strong>【SL】</strong> on that Check.</p>",
     "isFavored": {
       "value": false
     },
@@ -126,7 +126,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1712420994401,
-    "modifiedTime": 1745859190717,
+    "modifiedTime": 1745929900983,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null

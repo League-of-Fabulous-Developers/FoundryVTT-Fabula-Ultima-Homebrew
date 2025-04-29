@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<h3>SANCTUARY &amp; HAUNTOLOGY</h3><p><span class=\"fontstyle0\">Sanctuaries are sites in the world that have spiritual and historical significance. Usually, they take up a small area - a building, hill, grove, or small community - but larger Sanctuaries aren’t any more powerful or important. A Warden will need to understand the story and nature of a place in order to <strong>bind</strong> it, which can be a different trial for each one.</span></p><p><span class=\"fontstyle0\">Even when you are far away, the spirits of your Sanctuaries are always close at hand. On your turn in a conflict scene, you may spend an Action to Haunt other creatures that you have a Bond with in the scene, paying 5 Mind Points for the first Haunting, 10 for the second on the same turn, and 15 for each beyond that.</span></p><p><span class=\"fontstyle0\"><strong>[More costly to Haunt enemies? You still need a Bond.]</strong></span></p><p><span class=\"fontstyle0\">You can banish any number of Hauntings on your turn, either before or after your action, which removes their benefit or drawback from the creatures and frees them to Haunt another creature.</span></p><p><span class=\"fontstyle0\">You cannot Haunt yourself, and each Sanctuary can only Haunt one creature at a time.</span></p><p><span class=\"fontstyle0\">Each Sanctuary has two mechanical effects. A <strong>Haunt</strong> is the benefit (or drawback) that a creature gets when you use <strong>Bind and Haunt</strong> to grant them its spirit. <strong>Ritual</strong> is a broad description of the types of Rituals that become easier when carried out at that site. The GM might allow a Mind Point discount, a stronger effect, or a cushion for failure to such Rituals there.</span></p><p><span class=\"fontstyle0\">Unless otherwise noted, each creature can only be Haunted by the spirit of one Sanctuary, and you can only Haunt one creature with the spirit of a given Sanctuary at a time.</span></p><p><span class=\"fontstyle0\">Here are some example Sanctuaries. <strong>[There’ll be a few more.]</strong></span></p><hr /><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JF4Vq0mwDSfEI1ry]{[Handout: All Sanctuaries]}</strong></p>",
+    "description": "<h3>SANCTUARY & HAUNTOLOGY</h3><p><span class=\"fontstyle0\">Sanctuaries are sites in the world that have spiritual and historical significance. Usually, they take up a small area - a building, hill, grove, or small community - but larger Sanctuaries aren’t any more powerful or important. A Warden will need to understand the story and nature of a place in order to <strong>bind</strong> it, which can be a different trial for each one.</span></p><p><span class=\"fontstyle0\">Even when you are far away, the spirits of your Sanctuaries are always close at hand. On your turn in a conflict scene, you may spend an Action to Haunt other creatures that you have a Bond with in the scene, paying 5 Mind Points for the first Haunting, 10 for the second on the same turn, and 15 for each beyond that.</span></p><p><span class=\"fontstyle0\"><strong>[More costly to Haunt enemies? You still need a Bond.]</strong></span></p><p><span class=\"fontstyle0\">You can banish any number of Hauntings on your turn, either before or after your action, which removes their benefit or drawback from the creatures and frees them to Haunt another creature.</span></p><p><span class=\"fontstyle0\">You cannot Haunt yourself, and each Sanctuary can only Haunt one creature at a time.</span></p><p><span class=\"fontstyle0\">Each Sanctuary has two mechanical effects. A <strong>Haunt</strong> is the benefit (or drawback) that a creature gets when you use <strong>Bind and Haunt</strong> to grant them its spirit. <strong>Ritual</strong> is a broad description of the types of Rituals that become easier when carried out at that site. The GM might allow a Mind Point discount, a stronger effect, or a cushion for failure to such Rituals there.</span></p><p><span class=\"fontstyle0\">Unless otherwise noted, each creature can only be Haunted by the spirit of one Sanctuary, and you can only Haunt one creature with the spirit of a given Sanctuary at a time.</span></p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.JF4Vq0mwDSfEI1ry]{[Handout: All Sanctuaries]}</p>",
     "isFavored": {
       "value": false
     },
@@ -46,7 +46,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -141,8 +143,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1706551315529,
-    "modifiedTime": 1729281473176,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745931054012,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": "Compendium.fabula-ultima-core-rulebook.skills.Item.wcHoBANLBJNHBTc0",
     "duplicateSource": null
   },

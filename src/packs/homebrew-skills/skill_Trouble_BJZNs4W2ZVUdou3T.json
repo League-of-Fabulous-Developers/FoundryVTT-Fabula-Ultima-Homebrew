@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>During a conflict when an enemy attacks or use a spell on your group, before the target are declared, you can pay <strong>【35 – 5 x SL】</strong> MP to force them to target you <strong>or</strong> force them to not target you.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>During a conflict when an enemy attacks or use a spell on your group, before the target are declared, you can pay <strong>【35 – 5 x SL】</strong> MP to force them to target you <strong>or</strong> force them to not target you.</p><hr><ul><li><p> <strong>You Lose:</strong> @LOSS[35-($sl*5) mp]{35 – 5 x SL MP}</p></li></ul></div>",
     "isFavored": {
       "value": false
     },
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,8 +126,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715095039228,
-    "modifiedTime": 1729282025531,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745930229555,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

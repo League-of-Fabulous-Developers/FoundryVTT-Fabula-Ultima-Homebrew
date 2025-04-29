@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you take damage, hit using a melee weapon, or succeed on a Check (excluding Accuracy Checks) that relies on Might or Willpower, you gain 1 Hype. You also gain <strong>【SL + 1】</strong>. Hype when you invoke your Traits or Bonds. You lose half your current Hype when you rest (to a minimum of 1). </p><p>You may use an action to perform a finisher with your choice of flairs (found further in this document), spending as much Hype as you have. Each time you acquire this Skill, learn 2 flairs.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>When you take damage, hit using a melee weapon, or succeed on a Check (excluding Accuracy Checks) that relies on Might or Willpower, you gain 1 Hype. You also gain <strong>【SL + 1】</strong> Hype when you invoke your Traits or Bonds. You lose half your current Hype when you rest (to a minimum of 1).</p><p>You may use an action to perform a finisher with your choice of flairs (found further in this document), spending as much Hype as you have. Each time you acquire this Skill, learn 2 flairs.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -126,7 +126,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1713026327778,
-    "modifiedTime": 1745899226226,
+    "modifiedTime": 1745931430908,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null

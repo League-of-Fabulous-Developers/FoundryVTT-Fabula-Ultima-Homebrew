@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may use an action and spend 1 Fabula Point to recover from all status effects and also recover <strong>【SL × 5】</strong>Mind Points.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>You may use an action and spend 1 Fabula Point to recover from all status effects and also recover <strong>【SL × 5】</strong>Mind Points.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*5 mp]{SL × 5 MP}</p></li></ul></div>",
     "isFavored": {
       "value": false
     },
@@ -130,7 +130,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1713032976619,
-    "modifiedTime": 1745898857665,
+    "modifiedTime": 1745927650900,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null

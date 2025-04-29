@@ -2,7 +2,7 @@
   "folder": "8G3K59b9u19Zwddg",
   "name": "Soften",
   "type": "spell",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/thrown/bomb-timer.webp",
   "system": {
     "subtype": {},
     "summary": {
@@ -74,7 +74,7 @@
       "value": "One creature"
     },
     "duration": {
-      "value": "Instantaneous"
+      "value": "instantaneous"
     },
     "isOffensive": {
       "value": false
@@ -122,8 +122,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715819987083,
-    "modifiedTime": 1729282030251,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745931984872,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

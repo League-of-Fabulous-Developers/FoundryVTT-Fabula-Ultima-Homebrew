@@ -134,10 +134,17 @@
       },
       "disabled": true,
       "name": "Wild Reflexes",
-      "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
+      "img": "icons/creatures/reptiles/snake-poised-white.webp",
       "_id": "1sybvW4Z2s6Q6ipt",
       "type": "base",
-      "system": {},
+      "system": {
+        "rules": {
+          "progress": {
+            "id": "",
+            "name": ""
+          }
+        }
+      },
       "changes": [
         {
           "key": "system.derived.def.value",
@@ -146,7 +153,7 @@
           "priority": null
         }
       ],
-      "description": "<p>When you perform the <strong>@EFFECT[guard] </strong>action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p>",
+      "description": "<p>When you perform the @EFFECT[guard] action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -163,8 +170,8 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728420454824,
-        "modifiedTime": 1728420625830,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745928390380,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_key": "!items.effects!92nK16j7z8OveUOE.1sybvW4Z2s6Q6ipt"
     }
