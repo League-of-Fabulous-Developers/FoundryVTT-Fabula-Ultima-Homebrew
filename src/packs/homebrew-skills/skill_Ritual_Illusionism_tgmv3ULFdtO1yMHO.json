@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You may perform <strong>Rituals</strong> whose effects fall within the <strong>Illusionism discipline</strong>.</p><p><strong>Illusionism Rituals</strong> use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
+    "description": "<p>You may perform <strong>Rituals</strong> whose effects fall within the <strong>Illusionism </strong>discipline.</p><p>Illusionism Rituals use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423670904,
-    "modifiedTime": 1728434125507,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745889201183,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!tgmv3ULFdtO1yMHO"
 }

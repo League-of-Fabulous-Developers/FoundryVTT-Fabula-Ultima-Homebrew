@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You may spend one action to create a vexing Phantasm that taunts and distracts your foe. For the next attack, if the target rolls an even number for Accuracy Check, the attack misses. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to taunt again, with no MP requirements.</p>",
+    "description": "<p>You may spend one action to create a vexing Phantasm that taunts and distracts your foe. For the next <strong>Attack</strong> action, if the target rolls an even number for Accuracy Check, the attack misses. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to taunt again, with no MP requirements.</p>",
     "isFavored": {
       "value": false
     },
@@ -127,8 +127,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745889830542,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "jgu28rsxgmz1derC",
   "sort": 0,

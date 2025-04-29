@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<ul><li><p><span>At any moment, if you have a full set of active Soul Beads, you may imbue one weapon with them. Until this spell ends, the weapon gains a +3 bonus to Accuracy Checks, and its damage ignores Resistances.</span></p></li><li><p><span>If it’s a melee weapon, it also gains the ranged property, and its attacks can now be launched from afar.</span></p></li><li><p><span>If you have that weapon equipped while casting this spell, you may perform a free attack with it as part of the same action.</span></p></li><li><p><span>You lose access to beads used, and they don’t count toward the Clarity Skill while imbued in your weapon.</span></p></li><li><p><span>You can generate Soul Beads as normal on the next turn.</span></p></li><li><p><span>The same weapon cannot benefit from this skill twice.</span></p></li></ul>",
+    "description": "<ul><li><p><span>At any moment, if you have a full set of active <strong>Soul Beads</strong>, you may spend 40 MP and imbue one equipped weapon with them. Until this spell ends, the weapon gains a <strong>+3 bonus</strong> to Accuracy Checks, and its damage ignores Resistances.</span></p></li><li><p><span>If it’s a <strong>melee</strong> weapon, it also gains the <strong>ranged</strong> property, and its attacks can now be launched from afar.</span></p></li><li><p><span>If you have that weapon equipped while casting this spell, you may perform a free attack with it as part of the same action.</span></p></li><li><p><span>You lose access to <strong>Soul Beads</strong> used, and they don’t count toward the <strong>Clarity Skill</strong> while imbued in your weapon.</span></p></li><li><p><span>You can generate <strong>Soul Beads</strong> as normal from the the next turn onwards.</span></p></li><li><p><span>Only one weapon can benefit from this Skill at a time.</span></p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -133,8 +133,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728426050320,
-    "modifiedTime": 1728426641998,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745898385708,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!9lJf06RynqAfPxXe"
 }

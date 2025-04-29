@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>As an action, you may spend <strong>2 IP</strong> and choose any number of weapons you are holding: Until the end of the scene, you increase their damage by <strong>【SL】 </strong>and switch their damage to Poison.</p><p>All Open Checks related to identifying, combating, and using poisons gain a <strong>【+SL】 </strong>bonus.</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>As an action, you may spend 2 Inventory Points and choose any number of weapons you are holding: Until the end of the scene, you increase their damage by <strong>【SL】 </strong>and switch their damage to Poison.</p><p>All Open Checks related to identifying, combating, and using poisons gain a <strong>【+SL】 </strong>bonus.</p></div>",
     "isFavored": {
       "value": false
     },
@@ -59,8 +59,8 @@
       "value": false
     },
     "cost": {
-      "resource": "mp",
-      "amount": 0
+      "resource": "ip",
+      "amount": 2
     },
     "targeting": {
       "rule": "special",
@@ -82,7 +82,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745857347937,
-    "modifiedTime": 1745857383783,
+    "modifiedTime": 1745898586523,
     "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!oNBIVnORM0mB9R3m"

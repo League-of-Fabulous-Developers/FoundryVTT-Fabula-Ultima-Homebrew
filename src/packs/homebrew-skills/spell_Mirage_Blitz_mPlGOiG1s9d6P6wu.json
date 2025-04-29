@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You command all your Phantasms to charge at a single enemy with incredible speed, shattering on impact. They all share a single Magic Check. <br />If they hit, the target suffers <strong>【HR + 10】</strong> physical damage per Phantasm and the @EFFECT[dazed] effect. Damage dealt by this spell ignores resistances. This amount <span>increase by 15 if you are <strong>level 20 or higher</strong>, or by 20 if you are <strong>level 40 or higher</strong>.</span></p>",
+    "description": "<p>You command <strong>all</strong> your Phantasms to charge at a <strong>single enemy</strong> with incredible speed, shattering on impact. They all share a single Magic Check. <br>If they hit, the target suffers <strong>【HR + 10】 physical</strong> damage per Phantasm and <strong>dazed</strong>. Damage dealt by this spell ignores resistances. This amount <span>increase by 15 if you are <strong>level 20 or higher</strong>, or by 20 if you are <strong>level 40 or higher</strong>.</span></p><hr><ul><li><p><strong>Target Suffers:</strong> @EFFECT[dazed]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -116,7 +116,10 @@
     "hasRoll": {
       "value": true
     },
-    "opportunity": ""
+    "opportunity": "",
+    "traits": [
+      "IgnoreResistances"
+    ]
   },
   "effects": [],
   "flags": {},
@@ -127,8 +130,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745890465092,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "mPlGOiG1s9d6P6wu",
   "sort": 0,

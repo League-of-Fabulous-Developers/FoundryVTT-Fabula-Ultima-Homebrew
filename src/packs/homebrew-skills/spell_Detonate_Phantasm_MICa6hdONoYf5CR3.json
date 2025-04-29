@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You overflow one Phantasm with energy, making it explode to devastating effect. Choose a damage type: <strong>light</strong> or <strong>dark</strong>. The target hit by this spell suffers <strong>【HR + 25】</strong> damage of the chosen type.<br />This shatters the Phantasm.</p>",
+    "description": "<p>You overflow one Phantasm with energy, making it explode to devastating effect. Choose a damage type: <strong>light</strong> or <strong>dark</strong>. The target hit by this spell suffers <strong>【HR + 25】</strong> damage of the chosen type. This shatters the Phantasm.</p>",
     "isFavored": {
       "value": false
     },
@@ -127,8 +127,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745889868888,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "MICa6hdONoYf5CR3",
   "sort": 0,

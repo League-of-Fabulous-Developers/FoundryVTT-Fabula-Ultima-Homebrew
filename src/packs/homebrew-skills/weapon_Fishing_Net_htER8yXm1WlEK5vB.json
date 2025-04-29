@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">You may perform the Inventory action and spend @LOSS[3 ip] to create a two-handed melee <strong>thrown</strong> weapon known as a <strong>Fishing Net</strong> (see below). The weapon will crumble to pieces as soon as you create a new Fishing Net. Upon creating a net, you perform a free attack with it. If this attack hits, choose one option: Reduce one enemy's next <strong>attack</strong> or <strong>offensive spell</strong> check by <strong>【SL】</strong>, or improve one of your ally’s next <strong>attack</strong> or <strong>offensive spell check</strong> by <strong>【SL】</strong>, or fish up to <strong>【SL】 </strong>fish and store it immediately in your <strong>inventory</strong>. The first two effects do not stack.</span></p></div></div>",
+    "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p><span style=\"font-family: 'PT Sans Narrow',sans-serif\">You may perform the Inventory action and spend 3 Inventory Points to create a two-handed melee <strong>thrown</strong> weapon known as a <strong>Fishing Net</strong> (see below). The weapon will crumble to pieces as soon as you create a new Fishing Net. Upon creating a net, you perform a free attack with it. If this attack hits, choose one option: Reduce one enemy's next <strong>attack</strong> or <strong>offensive spell</strong> check by <strong>【SL】</strong>, or improve one of your ally’s next <strong>attack</strong> or <strong>offensive spell check</strong> by <strong>【SL】</strong>, or fish up to <strong>【SL】 </strong>fish and store it immediately in your <strong>inventory</strong>. The first two effects do not stack.</span></p></div></div>",
     "isFavored": {
       "value": false
     },
@@ -99,8 +99,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731074812225,
-    "modifiedTime": 1731075871073,
-    "lastModifiedBy": "eGFjUCXxDy8l2KwV"
+    "modifiedTime": 1745898503497,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!htER8yXm1WlEK5vB"
 }

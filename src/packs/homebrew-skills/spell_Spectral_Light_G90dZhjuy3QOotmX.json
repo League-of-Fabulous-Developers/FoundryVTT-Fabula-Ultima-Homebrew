@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You command all your active Phantasms to shatter with a blinding light. Choose either <strong>@EFFECT[dazed] </strong>or <strong>@EFFECT[shaken]</strong>: You inflict the chosen status effect on each target hit by this spell.</p>",
+    "description": "<p>You command all your active Phantasms to shatter with a blinding light. Choose either <strong>dazed</strong> or <strong>shaken</strong>: You inflict the chosen status effect on each target hit by this spell.</p><hr><ul><li><p><strong>Targets Suffers:</strong> @EFFECT[dazed] or @EFFECT[shaken]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -114,7 +114,7 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
     "opportunity": ""
   },
@@ -127,8 +127,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745890853614,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "G90dZhjuy3QOotmX",
   "sort": 0,

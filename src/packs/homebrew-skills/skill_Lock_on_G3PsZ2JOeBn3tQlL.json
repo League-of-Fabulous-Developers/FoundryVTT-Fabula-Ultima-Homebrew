@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You may use an action and spend 10 Mind Points to lock onto a target. During the next turn, any action taken by an ally against this target gains a <strong>+2 bonus</strong> to associated checks.</p><p>If all checks succeed, the target suffers the <strong> @EFFECT[weak] </strong> condition.</p><p>If the target is reduced to 0 Hit Points while under the effect of this skill, you may <strong>immediately</strong> lock onto another target, starting the cycle anew for the next round.</p><hr /><p>@LOSS[10 mp]</p>",
+    "description": "<p>You may use an action and spend 10 Mind Points to lock onto a target. During the next turn, any action performed by an ally against this target gains a +2 bonus to associated Checks.</p><p>If all performed Checks against the target during this time are successful, the target also suffers weak.</p><p>If the target is reduced to 0 Hit Points (HP) while under the eﬀect of this Skill, you may immediately mark another target at no additional MP cost.</p><hr><ul><li><p><strong>Target Suffers:</strong> @EFFECT[weak]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -116,6 +118,9 @@
     },
     "hasRoll": {
       "value": false
+    },
+    "cost": {
+      "amount": 10
     }
   },
   "effects": [],
@@ -132,8 +137,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423517494,
-    "modifiedTime": 1728428436930,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745885839895,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!G3PsZ2JOeBn3tQlL"
 }

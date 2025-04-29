@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Use an action and spend 10 Mind Points to track prey that is not currently in the scene and whose leads can be followed through conventional, hunter-related means. The target must roll an Opposed <strong>【WLP + INS】</strong> Check against you, and you gain a bonus equal to <strong>【SL】</strong> on this check.</p><p>If the tracking is successful, you arrive at the prey’s location. If you decide to start a conflict, you gain a bonus equal to <strong>【SL】</strong> to your first Accuracy Check against the prey, and the target suffers <strong>【HR + 15】</strong> damage.</p><p>This ability ends if you fall unconscious, attack the prey, choose to track another target, or by Game Master ruling.</p><hr /><p> @LOSS[10 mp] </p>",
+    "description": "<p>You may spend 10 MP to track prey that is not currently in the scene and whose leads can be followed through conventional, hunter-related means. The target must roll an Opposed <strong>【WLP + INS】</strong> Check against you, and you gain a bonus equal to <strong>【SL】</strong> on this check.</p><p>If the tracking is successful, you arrive at the prey’s location. If a conﬂict begins, your ﬁrst Accuracy Check gains a bonus of <strong>【 SL 】</strong> against the prey. If successful, it deals an additional <strong>【HR + 15】</strong> damage.</p><p>This ability ends if you are reduced to 0 HP, attack the prey, choose to track another target, or by Game Master ruling.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -116,6 +118,9 @@
     },
     "hasRoll": {
       "value": false
+    },
+    "cost": {
+      "amount": 10
     }
   },
   "effects": [],
@@ -132,8 +137,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423373126,
-    "modifiedTime": 1728428426547,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745885895394,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!SszkVbiIJqsMBm8A"
 }

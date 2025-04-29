@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You may spend one action to create a Phantasm and command it to attack an enemy. The target hit by the Phantasm suffers <strong>【HR + 25】</strong> damage. This damage increases to 16 if you are <strong>level 20 or higher</strong>, or to 18 if you are <strong>level 40 or higher</strong>.</p><p>The range of the attack is determined by your current weapon. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to attack again, with no MP requirements. Damage dealt by this spell ignores resistances.</p>",
+    "description": "<p>You may spend one action to create a Phantasm and command it to attack an enemy. The target hit by the Phantasm suffers <strong>【HR + 12】</strong> damage. This damage increases to 16 if you are <strong>level 20 or higher</strong>, or to 18 if you are <strong>level 40 or higher</strong>.</p><p>The <strong>range</strong> of the attack is determined by your current weapon. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to attack again, with no MP requirements. Damage dealt by this spell ignores resistances.</p>",
     "isFavored": {
       "value": false
     },
@@ -107,7 +107,7 @@
         "hasDamage": {
           "value": true
         },
-        "value": 25,
+        "value": 12,
         "type": {
           "value": "untyped"
         }
@@ -116,7 +116,10 @@
     "hasRoll": {
       "value": true
     },
-    "opportunity": ""
+    "opportunity": "",
+    "traits": [
+      "IgnoreResistances"
+    ]
   },
   "effects": [],
   "flags": {},
@@ -127,8 +130,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745890111525,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "9Eu50hBASZZGgSXI",
   "sort": 0,

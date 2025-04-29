@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You command your Phantasms to replenish your allies' Mind Points. Each Phantasm runs towards a companion and shatters itself in a spray of mana. Each target recovers @GAIN[20 mp]. A single ally cannot be replenished by more than one Phantasm per action.</p>",
+    "description": "<p>You command your Phantasms to replenish your allies' Mind Points. Each Phantasm runs towards a companion and shatters itself in a spray of mana. Each target recovers 20 Mind Points. A single ally cannot be replenished by more than one Phantasm per action.</p><hr><ul><li><p><strong>Targets Recovers:</strong> @GAIN[20 mp]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -127,8 +127,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745889934665,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "g3c8KaRPro7JObQ9",
   "sort": 0,

@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You command your Phantasms to heal your allies. Each Phantasm runs towards a companion and shatters itself in a cloud of healing energy. Each target recovers @GAIN[20 hp]. A single ally cannot be healed by more than one Phantasm per action.</p>",
+    "description": "<p>You command your Phantasms to heal your allies. Each Phantasm runs towards a companion and shatters itself in a cloud of healing energy. Each target recovers 20 Hit Points. A single ally cannot be healed by more than one Phantasm per action.</p><hr><ul><li><p><strong>Target Recovers:</strong> @GAIN[20 hp] </p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -81,7 +81,7 @@
       "value": "instantaneous"
     },
     "isOffensive": {
-      "value": true
+      "value": false
     },
     "source": {
       "value": "FULF"
@@ -127,8 +127,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745890959733,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "zH7GgjcAyZ2ApbhK",
   "sort": 0,

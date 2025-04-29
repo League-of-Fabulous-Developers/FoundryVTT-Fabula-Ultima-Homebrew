@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -115,7 +117,11 @@
     "hasRoll": {
       "value": false
     },
-    "fuid": "sucker-punch"
+    "fuid": "sucker-punch",
+    "cost": {
+      "amount": 1,
+      "resource": "fp"
+    }
   },
   "effects": [],
   "flags": {},
@@ -124,8 +130,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1715832655592,
-    "modifiedTime": 1729282025111,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745898762859,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

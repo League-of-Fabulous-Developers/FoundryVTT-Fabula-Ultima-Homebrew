@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After any of your Phantasms is destroyed, you may immediately recover <strong>【SL + 2】</strong> Mind Points.</p>",
+    "description": "<p>After any of your Phantasms is shattered, you recover <strong>【SL + 2】</strong> Mind Points.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*10 mp]{SL + 2 MP}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423716815,
-    "modifiedTime": 1728427327270,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745888837082,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!RH2J6woo98YWM0W3"
 }

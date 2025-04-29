@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you perform the <strong> @EFFECT[guard] </strong> action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p><p>Additionally, if an enemy <strong>misses</strong> you with an attack during the effect of this skill, you may perform a <strong>free attack</strong> against that creature. Treat your <strong>High Roll (HR)</strong> as <strong>0</strong> when calculating the damage dealt by this attack.</p>",
+    "description": "<p>When you perform the @EFFECT[guard]<strong> </strong>action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p><p>Additionally, if an enemy <strong>misses</strong> you with an attack during the effect of this skill, you may perform a <strong>free attack</strong> against that creature. Treat your <strong>High Roll (HR)</strong> as <strong>0</strong> when calculating the damage for this counterattack</p>",
     "isFavored": {
       "value": false
     },
@@ -19,7 +19,7 @@
     },
     "level": {
       "value": 1,
-      "max": 3,
+      "max": 5,
       "min": 0
     },
     "class": {
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -180,8 +182,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728420263424,
-    "modifiedTime": 1728439651394,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745886008295,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!92nK16j7z8OveUOE"
 }

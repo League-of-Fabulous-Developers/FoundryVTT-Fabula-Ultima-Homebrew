@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You may spend one action to conjure a terrifying Phantasm. Choose either <strong>@EFFECT[weak] </strong>or <strong>@EFFECT[shaken]</strong>: the Phantasm inflicts the chosen status effect on the target hit by this spell. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to inflict the effects again, with no MP requirements.</p>",
+    "description": "<p>You may spend one action to conjure a terrifying Phantasm. Choose either <strong>weaken</strong> or <strong>shaken</strong>: the Phantasm inflicts the chosen status effect on the target hit by this spell. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to inflict the effects again, with no MP requirements.</p><hr><ul><li><p><strong>Target Suffers:</strong> @EFFECT[weak] or @EFFECT[shaken]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -117,7 +117,10 @@
     "hasRoll": {
       "value": true
     },
-    "opportunity": ""
+    "opportunity": "",
+    "targeting": {
+      "rule": "single"
+    }
   },
   "effects": [],
   "flags": {},
@@ -128,8 +131,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745890234046,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "sort": 0,
   "ownership": {

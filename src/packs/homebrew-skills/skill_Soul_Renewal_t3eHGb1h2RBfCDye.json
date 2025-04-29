@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Choose any number of visible allies. As an action, launch your Soul Beads towards them, spending 2 MP per Bead. Each delivered bead restores 10 HP <strong>or</strong> MP (your choice). Each bead used in this way is destroyed.</p><p>At level 20, the regeneration increases to 12 HP/MP per bead, and at level 40, to 15 HP/MP per bead.</p>",
+    "description": "<p>Choose up to three creatures. As an action, release your <strong>Soul Beads </strong>towards them, spending 2 MP per Bead. Each delivered Bead restores 10 HP <strong>or</strong> MP, at your discretion. At <strong>level 20</strong>, the regeneration increases to 12 HP/MP per Bead, and at <strong>level 40</strong>, to 15 HP/MP per Bead. Each Bead released in this way is <strong>destroyed</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728424240815,
-    "modifiedTime": 1728427065135,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745897633723,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!t3eHGb1h2RBfCDye"
 }

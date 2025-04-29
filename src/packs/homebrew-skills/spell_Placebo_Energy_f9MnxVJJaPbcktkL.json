@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You create an illusion that makes your companions feel healthier and refreshed for a while. For 3 turns, they gain 40 additional HP — this increases both their maximum and their current HP. This amount increases to 50 HP if you are <strong>level 20 or higher</strong>, or to 60 HP if you are <strong>level 40 or higher</strong>. After 3 turns, they lose this additional HP. If reduced to 0 Hit Points at the end of the spell, the Sacrifice and Surrender rules apply as normal.</p>",
+    "description": "<p>You create an illusion that makes your companions feel healthier and refreshed for a while. For their next 3 turns, they gain 40 additional HP this increases <strong>both</strong> their maximum and their current HP by 40. This amount increases to 50 HP if you are <strong>level 20 or higher,</strong> or to 60 HP if you are level <strong>40 or higher.</strong> After 3 turns, they lose this additional HP. If reduced to 0 HP at the end of the spell, the <strong>Sacrifice</strong> and <strong>Surrender</strong> rules apply as normal.</p>",
     "isFavored": {
       "value": false
     },
@@ -81,7 +81,7 @@
       "value": "instantaneous"
     },
     "isOffensive": {
-      "value": true
+      "value": false
     },
     "source": {
       "value": "FULF"
@@ -127,8 +127,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728433171661,
-    "modifiedTime": 1728433171661,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745890774975,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "f9MnxVJJaPbcktkL",
   "sort": 0,

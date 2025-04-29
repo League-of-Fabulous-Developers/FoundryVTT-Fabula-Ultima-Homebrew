@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>As a reaction, destroy any number of Soul Beads to reduce incoming damage to you or your allies by <strong>【SL × 2】</strong>, before applying any damage Affinities. Each Soul Bead destroyed this way costs 2 MP.</p>",
+    "description": "<p>As a reaction, release any number of <strong>Soul Beads</strong> to reduce incoming damage to you or up to three creatures by <br><strong>【 SL x 2 】</strong>, before applying any damage Aﬃnities. Each Bead destroyed this way costs 2 MP.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728424146116,
-    "modifiedTime": 1728427075445,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745897832895,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!WaJj04PEIogLmwx4"
 }

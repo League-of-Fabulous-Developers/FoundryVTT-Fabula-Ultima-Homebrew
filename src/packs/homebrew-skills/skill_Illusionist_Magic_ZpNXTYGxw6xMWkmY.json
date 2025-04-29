@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Each time you acquire this Skill, learn one <strong>Illusionist spell</strong>. Offensive Illusionist spells and <strong>Phantasm</strong> use <strong>【INS + WLP】</strong> for their Checks.</p>",
+    "description": "<p>Each time you acquire this Skill, learn one Illusionist spell.</p><p>Offensive ( @ICON[offensive] ) <strong>Illusionist</strong> spells and <strong>Phantasm</strong> use <strong>【INS + WLP】</strong> for their Checks.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423730788,
-    "modifiedTime": 1728427323060,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745888742422,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!ZpNXTYGxw6xMWkmY"
 }

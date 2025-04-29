@@ -12,7 +12,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p></p><blockquote><p><strong>Requirements</strong>: You must have mastered the <strong>Monk</strong> class, and must have three levels in the <strong>Clarity</strong> skill.</p></blockquote><p>Whenever you have a full set of Resolve Soul Beads, you also receive a +2 bonus to your Defense, Magical Defense, and Accuracy Checks. For the purposes of the Resonant Clarity skill, these benefits are shared as a +1 bonus to your allies' Defense, Magical Defense, and Accuracy Checks.</p>",
+    "description": "<blockquote><p><strong>Requirements</strong>: You must have mastered the <strong>Monk</strong> class, and must have three levels in the <strong>Clarity</strong> skill.</p></blockquote><p>Whenever you have a full set of Resolve <strong>Soul Beads</strong>, you also receive a <strong>+2 bonus</strong> to your Defense, Magical Defense, and Accuracy Checks. For the purposes of the <strong>Resonant Clarity</strong> skill, these benefits are shared as a <strong>+1 bonus</strong> to your allies' Defense, Magical Defense, and Accuracy Checks.</p>",
     "isFavored": {
       "value": false
     },
@@ -113,8 +113,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728425151585,
-    "modifiedTime": 1728427039251,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745898103978,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!rdWGGszxm27eUBed"
 }

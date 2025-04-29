@@ -12,7 +12,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family:'EB Garamond', sans-serif !important\"> and acquired the <strong>Set Trap</strong> skill.</span></p></blockquote><ul><li><p>The IP requirement to set up traps is reduced by 1. For instance, Tripwire is now free, and the <strong>Explosive Trap</strong> will cost 4 IP.</p></li><li><p>Additionally, you can prepare and store up to 3 traps during resting scenes. At any moment, including during conflict scenes, you can use an action to throw a trap at any target. The target must roll an Opposed <strong>【DEX + INS】</strong> Check against you, and then normal trap rules regarding multiple targets are applied.</p></li></ul><p></p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the <strong>Set Trap</strong> skill.</span></p></blockquote><p>The IP requirements to set up <strong>SL 2</strong> or higher traps is reduced by <strong>1</strong>. For example, <strong>Snare Net</strong> now costs <strong>1 IP</strong>, and the <strong>Explosive Trap</strong> costs <strong>4 IP</strong>. Additionally, you can prepare and store one trap during <strong>resting scenes</strong>, following the regular trap-making rules for IP and MP requirements. Regardless of whether you set a trap at the beginning of the conﬂict or not, in any of your turns during conﬂict scenes, you can spend an action to throw the trap at your targets, which must perform an Opposed  <strong>【DEX + INS】</strong> Check against you.</p><p></p>",
     "isFavored": {
       "value": false
     },
@@ -108,8 +108,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728440398615,
-    "modifiedTime": 1728440398615,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745887985854,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "sort": 0,
   "ownership": {

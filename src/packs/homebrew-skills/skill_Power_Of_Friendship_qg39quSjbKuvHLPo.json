@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -115,7 +117,11 @@
     "hasRoll": {
       "value": false
     },
-    "fuid": "power-of-friendship"
+    "fuid": "power-of-friendship",
+    "cost": {
+      "resource": "fp",
+      "amount": 2
+    }
   },
   "effects": [],
   "flags": {},
@@ -124,8 +130,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1713032976619,
-    "modifiedTime": 1729282029873,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745898844262,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

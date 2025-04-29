@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Destroy one of your Phantasms to recover <strong>【SL × 5】</strong> HP. Destroying a Phantasm this way <strong>will not</strong> trigger the Phantasmal Echo skill.</p>",
+    "description": "<p>Shatter one of your Phantasms to recover <strong>【SL × 5】</strong> Hit Points. Shattering a Phantasm this way will not trigger the <strong>Phantasmal Echo</strong> Skill.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*5 hp]{SL × 5 HP}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423700226,
-    "modifiedTime": 1728427330581,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745888942870,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!3CwZuXYCrgyKxpKm"
 }

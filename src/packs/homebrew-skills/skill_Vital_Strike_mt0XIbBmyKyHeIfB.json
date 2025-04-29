@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After a successful Accuracy Check, you may spend 10 Mind Points. The targeted creatures suffer additional damage equal to your <strong>【DEX】</strong> die size. If a creature is already in <strong>Crisis</strong>, or would enter <strong>Crisis</strong> with your attack, it also suffers an <strong>additional 5 damage</strong>.</p><hr /><p> @LOSS[10 mp] </p>",
+    "description": "<p>After a successful Accuracy Check, you may spend 10 Mind Points. The targeted creatures suffer additional damage equal to your <strong>【DEX】</strong> die size. If a creature is already in <strong>Crisis</strong>, or would enter <strong>Crisis</strong> with your attack, it also suffers an 5 additional damage.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -116,6 +118,9 @@
     },
     "hasRoll": {
       "value": false
+    },
+    "cost": {
+      "amount": 10
     }
   },
   "effects": [],
@@ -132,8 +137,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423078817,
-    "modifiedTime": 1728428421647,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745885907535,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!mt0XIbBmyKyHeIfB"
 }

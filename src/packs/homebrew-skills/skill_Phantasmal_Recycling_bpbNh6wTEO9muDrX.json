@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you cast a spell, if you don't have enough MP to pay for its total cost, you may choose to destroy one of your Phantasms instead. Destroying a Phantasm this way <strong>will not</strong> trigger the Phantasmal Echo skill. You <strong>cannot</strong> use this skill to create a Phantasm.</p>",
+    "description": "<p>When you cast a spell, if you don't have enough MP to pay for its total cost, you may choose to shatter one of your Phantasms instead. Shattering a Phantasm this way <strong>will not</strong> trigger the Phantasmal Echo skill. You <strong>cannot</strong> use this skill to create a Phantasm.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728423683383,
-    "modifiedTime": 1728427334261,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745889054605,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!bpbNh6wTEO9muDrX"
 }

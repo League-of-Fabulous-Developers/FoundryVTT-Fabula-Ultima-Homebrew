@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>As an action, choose any number of Soul Beads to release in a <strong>ranged attack</strong> against enemies, spending 2 MP per Bead. Perform a  <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 2】</strong> HP <strong>or</strong> MP per bead. This damage ignores Resistances. Each bead is destroyed after use, whether it hits or not.</p><p>Beads targeting HP affect the target’s <strong>Defense</strong>, while those targeting MP affect their <strong>Magic Defense</strong>.</p>",
+    "description": "<p>As an action, choose any number of <strong>Soul Beads</strong> to release in a <strong>ranged </strong>attack against enemies, spending 2 MP per Bead. Perform a <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 4】</strong> HP <strong>or</strong> MP per Bead, based  on your choice. This damage ignores Resistances. </p><p>Beads targeting HP aﬀect the target’s <strong>Defense</strong>, while those targeting MP aﬀect their <strong>Magic Defense</strong>. Each Bead is destroyed after release, whether it hits or not.</p>",
     "isFavored": {
       "value": false
     },
@@ -19,7 +19,7 @@
     },
     "level": {
       "value": 1,
-      "max": 3,
+      "max": 2,
       "min": 0
     },
     "class": {
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728424195674,
-    "modifiedTime": 1728437128847,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745897853412,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!FKruofSyld8CMxOe"
 }

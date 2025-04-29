@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family:'EB Garamond', sans-serif !important\"> and acquired the <strong>Lock-on</strong> skill.</span></p></blockquote><p>When you use the <strong>Lock-on</strong> skill, you may choose to spend @LOSS[20 mp] instead of 10. If you do, the associated bonus increases to +4 instead of +2.</p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the <strong>Lock-on</strong> skill.</span></p></blockquote><p>When you use the <strong>Lock-on</strong> Skill, you may choose to spend 20 Mind Points instead of 10. If you do, the associated bonus increases to <strong>+4</strong> instead of <strong>+2</strong>.</p><hr><ul><li><p><strong>You Lose:</strong> @LOSS[20 mp]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -107,8 +107,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728440398615,
-    "modifiedTime": 1728440398615,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745888051621,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "e1QG5CJsFiCWP4aW",
   "sort": 0,

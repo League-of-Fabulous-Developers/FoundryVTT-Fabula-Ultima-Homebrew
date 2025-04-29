@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Your unwavering resolve and mental clarity radiate outward, reaching your companions. For each <strong>【SL】</strong>, you can share one of your active benefits from the <strong>Clarity Skill</strong>.</p>",
+    "description": "<p>Your unwavering resolve and mental clarity radiate outward, reaching your companions. For each <strong>【SL】</strong>, you can share one of your active benefits from the <strong>Clarity</strong> Skill, up to three creatures.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728424297363,
-    "modifiedTime": 1728427061344,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745897513439,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!a65UYj7NaS0pgz7d"
 }

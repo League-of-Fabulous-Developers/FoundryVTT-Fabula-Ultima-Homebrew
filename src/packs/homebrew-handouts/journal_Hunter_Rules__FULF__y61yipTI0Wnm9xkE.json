@@ -4,7 +4,7 @@
   "pages": [
     {
       "sort": 100000,
-      "name": "TRAPS",
+      "name": "TRAP RULES",
       "type": "text",
       "_id": "ymijw4JS529Pg8dI",
       "system": {},
@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Traps follow a set of special rules.</p><ul><li><p>Except for the Master Trapper Heroic skill, traps can only be deployed <strong>outside of battles</strong> and <strong>beyond the perception</strong> of the target creatures.</p></li><li><p>To set a trap, you perform the <strong>Inventory action</strong> and spend a number of Inventory Points <strong>equal to the 【SL】</strong> required to learn the trap.</p></li><li><p>Upon setting a trap, you may spend 10 Mind Points to choose one option: the trap gains <strong>multi (2)</strong> — or you increase the trap’s multi property by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p>If the trap is not in the predicted route of any foe, you may try <strong>luring creatures toward it</strong>. Prepare the terrain as best as you can!</p></li><li><p>Upon touching the trap, a creature rolls an Opposed <strong>【DEX + INS】</strong> Check against you. You gain a bonus equal to <strong>【SL】 </strong>on this check. If your trap has the multi property, only one check is required. You or the Game Master decide which additional creatures are affected.</p></li><li><p>If the creature that touched the trap passes the opposed check, <strong>the trap fails,</strong> and <strong>you lose the IP</strong> spent. The enemy might be now aware of your presence.</p></li><li><p>At any point during the scene, if the trap remains untouched and there are no foes observing you, you may <strong>safely disable it</strong> and recover your <strong>IP</strong>.</p></li><li><p>If, for any reason, you leave the scene before retrieving an untouched trap, the Game Master may decide, depending on the circumstances of your departure, whether you have retrieved the trap.</p></li></ul><p></p>"
+        "content": "<p>Traps follow a set of special rules.</p><p>At the start of the conﬂict scene, you may spend a number of IP equal to the desired Trap <strong>【 SL 】</strong>. If you do, choose one option and deploy it before the start of the ﬁrst round:</p><table><tbody><tr><td data-colwidth=\"142\"><p style=\"text-align:center\">Effect size</p></td><td data-colwidth=\"142\"><p style=\"text-align:center\">IP cost</p></td><td><p style=\"text-align:center\">MP cost</p></td><td><p style=\"text-align:center\">Targets</p></td></tr><tr><td data-colwidth=\"142\"><p style=\"text-align:center\"><strong>Minor</strong></p></td><td data-colwidth=\"142\"><p style=\"text-align:center\">Trap <strong>【SL】</strong></p></td><td><p style=\"text-align:center\">5</p></td><td><p style=\"text-align:center\">One creature</p></td></tr><tr><td data-colwidth=\"142\"><p style=\"text-align:center\"><strong>Medium</strong></p></td><td data-colwidth=\"142\"><p style=\"text-align:center\">Trap <strong>【SL】</strong></p></td><td><p style=\"text-align:center\">10</p></td><td><p style=\"text-align:center\">Two creatures</p></td></tr><tr><td data-colwidth=\"142\"><p style=\"text-align:center\"><strong>Major</strong></p></td><td data-colwidth=\"142\"><p style=\"text-align:center\">Trap <strong>【SL】</strong></p></td><td><p style=\"text-align:center\">15</p></td><td><p style=\"text-align:center\">Three creatures</p></td></tr></tbody></table><p>Choose your targets. The aﬀected creatures perform an Opposed <strong>【 DEX  + INS 】</strong> Check against you. You gain a bonus equal to <strong>【 SL 】</strong> on this Check. Creatures that succeed escape the trap. Unless otherwise stated, traps may only be deployed at the start of a conﬂict scene.</p><p>However, if the <strong>surprise round</strong> optional rule (see <strong>Core Rulebook</strong>) is active, traps can also be set outside of combat to <strong>ambush</strong> unaware enemies. If you choose to use them in this way, you cannot place them again at the start of the conﬂict scene.</p><p><strong>Example.</strong> Eshe and his party spot a DARK patrol near an alley. As conﬂict begins, he spends 3 IP (<strong>Poison Dart’s</strong> associated <strong>【 SL 】</strong>) and 10 MP to deploy a <strong>Medium Poison Dart Trap</strong>, targeting two agents. Both targets perform an Opposed <strong>【 DEX + INS 】</strong> Check against Eshe’s <strong>【 DEX + INS 】 +4</strong> (his current <strong>Set Trap SL</strong>). One agent fails, suﬀering <strong>【 HR + 10 】 poison</strong> and the poisoned status. The other agent succeeds and is unaﬀected.</p>"
       },
       "video": {
         "controls": true,
@@ -34,10 +34,47 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728428768385,
-        "modifiedTime": 1728429718135,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "modifiedTime": 1745886997068,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
       },
       "_key": "!journal.pages!y61yipTI0Wnm9xkE.ymijw4JS529Pg8dI"
+    },
+    {
+      "sort": 200000,
+      "name": "TRAP LIST",
+      "type": "text",
+      "_id": "bKebBN0CcGAAzXEB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h3>TYPES OF TRAPS</h3><h4>【SL 1】</h4><p><strong>Tripwire.</strong> You set up a simple wire attached to two points to detect movement and trip your target. In non-conﬂict scenes, this trap <strong>alerts allies</strong> of incoming enemies. In combat, the target suffers <strong>【 HR + 10 】 physical</strong> damage. Describe your contraption and the sound it makes!</p><p><strong>Siren.</strong> Once triggered, this trap emits a loud noise designed to distract foes. In non-conﬂict scenes, you set a timer that expires at your discretion, and aﬀected creatures must <strong>immediately move toward the source of the sound</strong> upon activation. In combat, there is no timer, and aﬀected creatures suffer <strong>dazed</strong>.</p><p><strong>Smoke bomb.</strong> You set up a canister or pouch ﬁlled with substances that release a thick, obscuring smoke designed to cloud visibility and confuse foes. The aﬀected target suffers a <strong>-2 penalty</strong> to all its Accuracy Checks within a full round. If the target has already taken any turn during the round the trap was deployed, the eﬀect begins at the start of the next round.</p><h4>【SL 2】</h4><p><strong>Snare Net.</strong> This trap, when triggered, swiftly ensnares the target. Affected creatures must spend an action escaping it. On top of that, if the creature is flying, it falls to the ground for <strong>one round</strong>, suffering <strong>【 HR + 10 】 physical</strong> damage.</p><p><strong>Blinding Powder.</strong> This trap creates a burst of powder that clouds the targets’ vision. Each aﬀected creature suffers <strong>dazed</strong> and <strong>slow</strong>.</p><p><strong>Mocking Trap.</strong> You set up a weird contraption that taunts your target. Aﬀected creatures now suffer <strong>enraged</strong>.</p><h4>【SL 3】</h4><p><strong>Poison Dart.</strong> You set up a hidden mechanism that, when activated, shoots a concealed dart at the target, coated with a potent toxin. The target suffers <strong>【HR + 10】 poison</strong> damage and the <strong>poisoned</strong> status.</p><p><strong>Snap Out.</strong> This electrifying trap releases a sudden electrical discharge that jolts the targets upon activation. Shocked creatures suffer <strong>【 HR + 10 】 bolt</strong> damage and a <strong>-2 penalty</strong> to all its Accuracy Checks within a full round. If the target has already taken any turn during the round the trap was deployed, the eﬀect begins at the start of the next round.</p><p><strong>Sting Thing.</strong> Hidden spikes burst upward when triggered, piercing the target. Choose one damage type: <strong>physical</strong>, <strong>bolt</strong>, or <strong>poison</strong>. The aﬀected target suffers <strong>【HR + 15】</strong> damage of the chosen type.</p><h4>【SL 4】</h4><p><strong>Bear Trap.</strong> You create a powerful spring-loaded bear trap with razor-sharp teeth, capable of snapping shut on the target's limb, maiming it. The design is very human. Affected targets suffer <strong>【 HR + 20 】 physical</strong> damage and the slow status.</p><p><strong>Moth Trap.</strong> This trap releases a searing ﬂash of intense radiance upon activation. Affected creatures suffer <strong>【HR + 15】 light</strong> damage and a <strong>penalty</strong> of <strong>【 SL 】</strong> to all its Accuracy Checks within a full round. If the target has already taken any turn during the round the trap was deployed, the eﬀect begins at the start of the next round.</p><p><strong>Fly Trap.</strong> This trap releases a sticky substance that inhibits movement. Creatures caught in it lose one action to free themselves and suffer <strong>slow</strong>. On top of that, if the creature is ﬂying, it falls to the ground for <strong>two rounds</strong>, suffering <strong>【HR + 10】 physical</strong> damage and the <strong>slow</strong> status.</p><h4>【SL 5】</h4><p><strong>Explosive Trap.</strong> When triggered, this trap releases a concussive explosion. Targets caught in the blast suffer <strong>【 HR + 25 】 ﬁre</strong> damage.</p><p><strong>Venomous Cloud.</strong> When triggered, this trap releases a ﬁne mist of corrosive venom that clings to the skin and burns into the ﬂesh. The aﬀected creatures suffer <strong>【 HR + 20 】 poison</strong> damage and the <strong>poisoned</strong> status.</p><p><strong>Soul Mirror.</strong> You craft a reﬂective contraption laced with ritualistic runes that shimmers brightly when triggered. Aﬀected creatures suffer a magical backlash as their next oﬀensive ( @ICON[offensive] ) spell is redirected toward them.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9aR18wpxqiStEQ8U": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1745886063345,
+        "modifiedTime": 1745887717091,
+        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+      },
+      "_key": "!journal.pages!y61yipTI0Wnm9xkE.bKebBN0CcGAAzXEB"
     }
   ],
   "folder": null,

@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>For each pair of active Resolve Soul Beads you possess, choose one cumulative benefit from the following list. The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul>",
+    "description": "<p>For each pair of active <em><strong>Resolve</strong></em><strong> Soul Beads</strong> you possess, choose one of these cumulative benefits:</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul><p>The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p>",
     "isFavored": {
       "value": false
     },
@@ -55,7 +55,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -132,8 +134,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728424297599,
-    "modifiedTime": 1728434652324,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745897466261,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!SzsNaeREQGUpeo9u"
 }

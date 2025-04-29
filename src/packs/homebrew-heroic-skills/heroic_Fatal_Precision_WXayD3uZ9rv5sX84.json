@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family:'EB Garamond', sans-serif !important\"> and acquired the <strong>Vital Strike</strong> skill.</span></p></blockquote><p>Your <strong>Vital Strike</strong> now incapacitates your enemies. On hit, they suffer additional damage equal to your <strong>DEX</strong> die size +5 and gain the @EFFECT[weak] condition. If a creature is already in Crisis, or would enter Crisis from your attack, it takes an additional 10 damage instead of 5 and gains both the Weak and Shaken conditions.</p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the <strong>Vital Strike</strong> skill.</span></p></blockquote><p>Your <strong>Vital Strike</strong> now ruthless. On hit, the target suffers additional damage equal to your <strong>Dexterity</strong> die size <strong>+5</strong>, alongside the <strong>weak</strong> status. If a creature is already in <strong>Crisis</strong>, or would enter <strong>Crisis</strong> from your attack, it takes an additional <strong>10</strong> damage instead of 5 and suffer both <strong>weak</strong> and <strong>shaken</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -107,8 +107,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728440398615,
-    "modifiedTime": 1728440398615,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745888165893,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "WXayD3uZ9rv5sX84",
   "sort": 0,

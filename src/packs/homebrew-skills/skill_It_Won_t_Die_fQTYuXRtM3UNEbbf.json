@@ -51,7 +51,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -104,7 +106,11 @@
     "hasRoll": {
       "value": false
     },
-    "fuid": "it-wont-die"
+    "fuid": "it-wont-die",
+    "cost": {
+      "resource": "fp",
+      "amount": 1
+    }
   },
   "effects": [],
   "folder": "7X5ncpm944PmFfES",
@@ -120,8 +126,8 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "12.331",
     "createdTime": 1709317931671,
-    "modifiedTime": 1729282028970,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1745899154695,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null
   },

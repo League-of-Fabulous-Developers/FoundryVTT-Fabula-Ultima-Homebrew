@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family:'EB Garamond', sans-serif !important\"> and acquired the </span><strong>Wild Reflexes</strong><span style=\"font-family:'EB Garamond', sans-serif !important\"> skill.</span></p></blockquote><p>The <strong>Wild Reflexes</strong> Skill now gives you a bonus to your Defense equal to <strong>【SL】</strong>+1. Instead of treating your High Roll as 0 when calculating the damage dealt by its counterattack, use your High Roll as normal.</p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the </span><strong>Wild Reflexes</strong><span style=\"font-family: 'EB Garamond', sans-serif !important\"> skill.</span></p></blockquote><p>The <strong>Wild Reﬂexes</strong> Skill now gives you a bonus to your Defense equal to <strong>【SL】+1</strong>. Instead of treating your <strong>HR</strong> as 0 when calculating the damage dealt by its counterattack, use <strong>HR</strong> as normal.</p>",
     "isFavored": {
       "value": false
     },
@@ -107,8 +107,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728440398615,
-    "modifiedTime": 1728440398615,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "modifiedTime": 1745888197388,
+    "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_id": "BxV10ubbMUwLO7mR",
   "sort": 0,

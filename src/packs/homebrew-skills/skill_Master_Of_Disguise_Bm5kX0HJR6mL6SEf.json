@@ -59,8 +59,8 @@
       "value": false
     },
     "cost": {
-      "resource": "mp",
-      "amount": 0
+      "resource": "fp",
+      "amount": 1
     },
     "targeting": {
       "rule": "special",
@@ -82,7 +82,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745857295981,
-    "modifiedTime": 1745857323446,
+    "modifiedTime": 1745898544874,
     "lastModifiedBy": "9aR18wpxqiStEQ8U"
   },
   "_key": "!items!Bm5kX0HJR6mL6SEf"
