@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may use an action and spend 1 Fabula Point to create a bond with 1 emotion tied to it, <strong>or</strong> add or change 1 emotion to a bond you have, <strong>or</strong> add or change 1 emotion to a bond another Player Character present in the scene has with you (with their permission).<br>Explain how destiny affected your relationships.</p><p>If you have the <strong>Ties That Bind</strong> skill, you may spend 20 Mind Points and immediately use it with no Fabula Point cost to invoke the bond you just created or altered with this skill.</p><hr><ul><li><p><strong>You Lose:</strong> @LOSS[20 mp] </p></li></ul></div>",
+    "description": "<div class=\"stackedit__html\"><p>Once per session, you may spend a Fabula Point to create a new <strong>Bond</strong> towards someone or something, or add an <strong>emotion</strong> to one of your existing <strong>Bonds</strong>; this doesn’t require an action, but during a conflict it can only be done on your turn, <strong>while no effect is being resolved</strong>. Explain how destiny affected your relationships!</p><hr /><ul><li><p><strong>You Lose:</strong> @LOSS[1 fp]</p></li></ul></div>",
     "isFavored": {
       "value": false
     },
@@ -124,16 +124,21 @@
     }
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1713032976619,
-    "modifiedTime": 1745927581256,
-    "lastModifiedBy": "9aR18wpxqiStEQ8U",
+    "modifiedTime": 1761088487586,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "4NcCRrGyuuOrgI8J",
   "sort": 0,

@@ -30,13 +30,15 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715113693764,
         "modifiedTime": 1745931443357,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!Z05gfgWBDBnSy61n.Vub5OqdaSDk5kC0x"
     },
     {
@@ -68,13 +70,15 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715114005027,
         "modifiedTime": 1745932084794,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!Z05gfgWBDBnSy61n.9XGrHKnKECFnUUOc"
     },
     {
@@ -105,13 +109,15 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715114128943,
         "modifiedTime": 1715114156270,
         "lastModifiedBy": "B6evqtezy9ZsGZG3",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!Z05gfgWBDBnSy61n.umyFOrU2tdWR1EKM"
     }
   ],
@@ -125,12 +131,14 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1715113348790,
     "modifiedTime": 1716849087337,
     "lastModifiedBy": "CLAzxWQsDDB8fCLx",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
+  "categories": [],
   "_key": "!journal!Z05gfgWBDBnSy61n"
 }

@@ -4,195 +4,327 @@
   "description": "<p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Roll <strong>4d12</strong> and refer to the table below. (If you are not using any bait, halve the result of the 3rd and 4th d12s.)</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Note that an Angler can still use these fish <strong>even if they normally lack the ability</strong> to handle martial weapons, and all weaponry fish are <strong>one-handed unless stated otherwise</strong>. The damage type of the fish then depends on the <strong>origin</strong> of the fish (see Origin to Damage Type Conversion table).</span></p>",
   "results": [
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
-      "text": "1. Thrown Fish",
-      "documentId": "03QAXQjBOn2cDcNX",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "Hgowvedncri8xdEe",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "1. Thrown Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.03QAXQjBOn2cDcNX",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.Hgowvedncri8xdEe"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
-      "text": "2. Bow Fish",
-      "documentId": "i6gbR4M5BHXUYQMe",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "Pf3LZgIkxsF7SYZT",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "2. Bow Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.i6gbR4M5BHXUYQMe",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.Pf3LZgIkxsF7SYZT"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
         3
       ],
       "drawn": false,
-      "text": "3. Heavy Fish",
-      "documentId": "8oNbzxmlR7W05jyH",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "XThQhi2qRKe1aZ2b",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "3. Heavy Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8oNbzxmlR7W05jyH",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.XThQhi2qRKe1aZ2b"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         4,
         4
       ],
       "drawn": false,
-      "text": "4. Flail Fish",
-      "documentId": "iIjv8hmfNZtmzc3H",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "CpbeNji8zzHFfovg",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "4. Flail Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iIjv8hmfNZtmzc3H",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.CpbeNji8zzHFfovg"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
         5
       ],
       "drawn": false,
-      "text": "5. Dagger Fish",
-      "documentId": "YLlegamBvfW98m2V",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "AwfcZhZxY5HRRTxB",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "5. Dagger Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.YLlegamBvfW98m2V",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.AwfcZhZxY5HRRTxB"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         6,
         6
       ],
       "drawn": false,
-      "text": "6. Brawling Fish",
-      "documentId": "3UuEi099L79wxdp2",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "QIuFXDO0i0eerLMC",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "6. Brawling Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.3UuEi099L79wxdp2",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.QIuFXDO0i0eerLMC"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         7,
         7
       ],
       "drawn": false,
-      "text": "7. Arcane Fish",
-      "documentId": "eEo9afjjs4zqhMsy",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "P1Pit82FWsnb9sYd",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "7. Arcane Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.eEo9afjjs4zqhMsy",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.P1Pit82FWsnb9sYd"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         8,
         8
       ],
       "drawn": false,
-      "text": "8. Firearm Fish",
-      "documentId": "2ibmA5akpR0M8bFM",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "G8We317c7fPQUGvE",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "8. Firearm Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.2ibmA5akpR0M8bFM",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.G8We317c7fPQUGvE"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         9,
         9
       ],
       "drawn": false,
-      "text": "9. Heavy Fish",
-      "documentId": "BGMU1QwGYGrSrXHI",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "rE0jfFPCxooxzjoa",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "9. Heavy Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.BGMU1QwGYGrSrXHI",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.rE0jfFPCxooxzjoa"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         10,
         10
       ],
       "drawn": false,
-      "text": "10. Spear Fish",
-      "documentId": "ZNzNeSLVtkWWEVoA",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "r1CD9xgv6ZfV77y0",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "10. Spear Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ZNzNeSLVtkWWEVoA",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.r1CD9xgv6ZfV77y0"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         11,
         11
       ],
       "drawn": false,
-      "text": "11. Sword Fish",
-      "documentId": "H4BuVg5dPXVrQNVj",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "no9JoGcCw6fJqE93",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "11. Sword Fish",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.H4BuVg5dPXVrQNVj",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.no9JoGcCw6fJqE93"
     },
     {
-      "type": "pack",
-      "documentCollection": "fabula-ultima-homebrew.homebrew-skills",
+      "type": "document",
       "weight": 1,
       "range": [
         12,
         12
       ],
       "drawn": false,
-      "text": "12. Your Choice",
-      "documentId": "UeGtbcS7GZHuDZiP",
       "img": "icons/creatures/fish/fish-carp-green.webp",
       "_id": "4OYcTtoa0gbOyTky",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "12. Your Choice",
+      "documentUuid": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.UeGtbcS7GZHuDZiP",
+      "description": "",
       "_key": "!tables.results!fWpbhmKeSHJjffT3.4OYcTtoa0gbOyTky"
     }
   ],
@@ -207,12 +339,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731166982656,
     "modifiedTime": 1731167169308,
-    "lastModifiedBy": "eGFjUCXxDy8l2KwV"
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV",
+    "exportSource": null
   },
   "formula": "2d12+2d6",
   "_id": "fWpbhmKeSHJjffT3",

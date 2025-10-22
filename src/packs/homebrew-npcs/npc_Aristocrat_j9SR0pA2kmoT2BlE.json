@@ -239,7 +239,6 @@
     "detectionModes": [],
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -254,7 +253,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -330,12 +336,13 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715803658250,
         "modifiedTime": 1729287252556,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.MBmZwZMEut1tDFzE"
     },
@@ -412,12 +419,13 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715803659096,
         "modifiedTime": 1729287257232,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.iD8bdFKmn09odlJn"
     },
@@ -548,19 +556,18 @@
         "pBweP8B18hmB7U1j": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.spells.Item.6QG5ZZgRs4xnxlVl"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1706570865794,
         "modifiedTime": 1729287264140,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": "Compendium.fabula-ultima-core-rulebook.spells.Item.6QG5ZZgRs4xnxlVl",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "sort": 0,
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.StfbLMx1f1IDL6fc"
@@ -613,12 +620,13 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715803789965,
         "modifiedTime": 1729287274220,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.MlqMZ6OA9DQ4DvKV"
     },
@@ -670,12 +678,13 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715803796413,
         "modifiedTime": 1729287269735,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!j9SR0pA2kmoT2BlE.JngCScGpJMgfgydL"
     }
@@ -719,14 +728,15 @@
       },
       "tint": "#ffffff",
       "_stats": {
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": null,
         "systemVersion": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
@@ -767,14 +777,15 @@
       "statuses": [],
       "tint": "#ffffff",
       "_stats": {
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": null,
         "systemVersion": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "img": "/icons/svg/aura.svg",
       "type": "base",
@@ -796,12 +807,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1715803445479,
     "modifiedTime": 1729287325394,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!actors!j9SR0pA2kmoT2BlE"
 }

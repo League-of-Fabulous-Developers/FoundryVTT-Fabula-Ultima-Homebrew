@@ -1,0 +1,59 @@
+{
+  "folder": "nVBzQ8yaqQttxd17",
+  "name": "Making Legend",
+  "type": "heroic",
+  "_id": "V5zFlTpLppmjoXuZ",
+  "img": "icons/weapons/swords/sword-gold-holy.webp",
+  "system": {
+    "fuid": "making-legend",
+    "description": "<blockquote><p><em><strong>Requirements :</strong> You must have mastered one or more Classes among <strong>Commander, Hero</strong> and <strong>Orator</strong>.</em></p></blockquote><p>Once per conflict, during your turn, you may use an action and choose a number of allies that you have a <strong>Bond</strong> with that are present on the scene. Then, spend a number of Fabula Points equal to the number of chosen allies. Until the end of your next turn, you and every ally you chose treat their <strong>Dexterity, Insight, Might</strong> and <strong>Willpower</strong> Attributes as if they were one die size higher (up to a maximum of <strong>d12</strong>).</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "subtype": {
+      "value": "skill"
+    },
+    "class": {
+      "value": ""
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "requirement": {
+      "value": ""
+    },
+    "source": "Homebrew"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "93RRHGE4s1SwaU2P": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1761089875130,
+    "modifiedTime": 1761090101976,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P"
+  },
+  "_key": "!items!V5zFlTpLppmjoXuZ"
+}

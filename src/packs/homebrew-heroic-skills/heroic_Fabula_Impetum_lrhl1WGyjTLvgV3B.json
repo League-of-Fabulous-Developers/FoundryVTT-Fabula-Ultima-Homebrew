@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><em><strong>Requirements :</strong> You must have mastered the <strong>Hero</strong> class.</em></p></blockquote><p>When you perform an Attack, you may spend a number of Fabula Points equal to <strong>your Character Level divided by 5</strong>. The attack then becomes <strong>light</strong> and its damage type <strong>cannot be changed</strong>, it ignores resistances, and for each Fabula Point spent this way, you may choose one of the die you rolled for the Attack and roll it again, dealing extra damage equal to the number rolled.</p>",
+    "description": "<blockquote><p><em><strong>Requirements :</strong> You must have mastered the <strong>Hero</strong> class.</em></p></blockquote><p>Once per scene, you may use an action and spend up to 2 Fabula Points to perform a <strong>free attack</strong> with a weapon you have equipped. For each Fabula Point spent this way, that attack gains a +2 bonus to its Accuracy Check and deals 10 extra damage. However, all damage dealt by this attack becomes <strong>light</strong> and its type cannot change.</p><p>Damage dealt by this attack against Villains ignores Immunities and Resistances.</p>",
     "isFavored": {
       "value": false
     },
@@ -104,16 +104,21 @@
     "default": 0,
     "B6evqtezy9ZsGZG3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1713031878571,
-    "modifiedTime": 1729282101911,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1761089644319,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "lrhl1WGyjTLvgV3B",
   "_key": "!items!lrhl1WGyjTLvgV3B"

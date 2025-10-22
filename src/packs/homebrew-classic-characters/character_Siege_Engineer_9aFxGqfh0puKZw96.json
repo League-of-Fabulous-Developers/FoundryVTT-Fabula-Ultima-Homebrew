@@ -254,7 +254,6 @@
       }
     },
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -269,7 +268,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -397,19 +403,18 @@
         "B6evqtezy9ZsGZG3": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mbuSMM9ZMFdoddEK"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715060650014,
         "modifiedTime": 1729286681492,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mbuSMM9ZMFdoddEK",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "TO2C8d4RTGIRNL3X",
       "_key": "!actors.items!9aFxGqfh0puKZw96.TO2C8d4RTGIRNL3X"
@@ -539,19 +544,18 @@
         "B6evqtezy9ZsGZG3": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.xp1Csz7LczIW8Zoc"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715060650014,
         "modifiedTime": 1745933258172,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.xp1Csz7LczIW8Zoc",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "F0uj5nrasoOBejWm",
       "_key": "!actors.items!9aFxGqfh0puKZw96.F0uj5nrasoOBejWm"
@@ -675,19 +679,18 @@
       },
       "effects": [],
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.cFV3ZV1Q46c7CXGP"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715060941887,
         "modifiedTime": 1729286684194,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.cFV3ZV1Q46c7CXGP",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "sort": -400000,
       "ownership": {
@@ -764,12 +767,13 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1716818914855,
         "modifiedTime": 1729286647448,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!9aFxGqfh0puKZw96.xle8j04sxd5o7c2p"
     },
@@ -868,12 +872,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.Mn8dvssoXj3cjGKw",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283836853,
         "modifiedTime": 1745936568473,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "9tAd8NPamcxIUgp2",
       "sort": -675000,
@@ -954,12 +959,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.WQOsQfBec08zOYgc",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283844301,
         "modifiedTime": 1729283844301,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "DvrCKFIpKxD4NaeD",
       "sort": 0,
@@ -1053,12 +1059,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.Zmqvu8QKmgyIci7C",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283884889,
         "modifiedTime": 1729283886384,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -1153,12 +1160,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.eO37Jm8x3VaGmE7c",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283890339,
         "modifiedTime": 1729283892890,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -1265,12 +1273,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285493375,
         "modifiedTime": 1729285495575,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "3hDbv22jy5aa8pBl",
       "sort": -100000,
@@ -1321,12 +1330,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933208498,
         "modifiedTime": 1745933208498,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "mLUUf8ZPu8AliBFx",
       "sort": 87500,
@@ -1372,12 +1382,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.consumables.Item.QYyuig5iy5mMN9F8",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933208498,
         "modifiedTime": 1745933208498,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "VZulycVmhdI7Veng",
       "sort": 100000,
@@ -1423,12 +1434,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933208498,
         "modifiedTime": 1745933208498,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "1nFuSdkOC13Q0RhE",
       "sort": 0,
@@ -1474,12 +1486,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933208498,
         "modifiedTime": 1745933208498,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "Mwd4iaBoNgdgKbvk",
       "sort": 75000,
@@ -1525,12 +1538,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933208498,
         "modifiedTime": 1745933208498,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "naZc8SOfwrgsxm6N",
       "sort": 50000,
@@ -1572,12 +1586,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.EmwWSYlFjlUSGPLL",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933221635,
         "modifiedTime": 1745936566418,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!9aFxGqfh0puKZw96.Z8dOMuUBK11jnA4Z"
     },
@@ -1667,12 +1682,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.sIkQa2NzkqsvczBr",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933247179,
         "modifiedTime": 1745936586025,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 200000,
       "_key": "!actors.items!9aFxGqfh0puKZw96.LMTvwBGXE6ifGktv"
@@ -1763,12 +1779,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.0ErPA4Q0P97ZPwPE",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933254617,
         "modifiedTime": 1745933262904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 0,
       "_key": "!actors.items!9aFxGqfh0puKZw96.jqPixj707J2AB3kF"
@@ -1815,12 +1832,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.consumables.Item.AbazTRyaMTW4ouhx",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933365242,
         "modifiedTime": 1745936781051,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!9aFxGqfh0puKZw96.kDcWUXbE4mziJz28"
     },
@@ -1910,12 +1928,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.IDYhhFpFv68Qlg3F",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937955548,
         "modifiedTime": 1745937958809,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "7HcOsZYCPyCls9Yf",
       "sort": -100000,
@@ -1930,12 +1949,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1715066527215,
     "modifiedTime": 1729285497030,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

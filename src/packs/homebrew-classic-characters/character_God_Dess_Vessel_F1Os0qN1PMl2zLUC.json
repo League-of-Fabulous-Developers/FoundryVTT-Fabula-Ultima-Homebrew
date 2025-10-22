@@ -151,7 +151,7 @@
       "supports": []
     },
     "equipped": {
-      "armor": "Ms4wQiIkl4a9Utum",
+      "armor": "7OuAqOQEwAhZyyJq",
       "mainHand": "icAyzjs0EHLmd6Ii",
       "offHand": "icAyzjs0EHLmd6Ii"
     }
@@ -227,7 +227,6 @@
     "detectionModes": [],
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -242,7 +241,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -340,12 +346,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.yPIyB7tBCD4ZVP4C",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283214269,
         "modifiedTime": 1745932979727,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "icAyzjs0EHLmd6Ii",
       "sort": -200000,
@@ -355,95 +362,6 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!F1Os0qN1PMl2zLUC.icAyzjs0EHLmd6Ii"
-    },
-    {
-      "name": "Sage Robe (S5)",
-      "type": "armor",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 200
-        },
-        "isMartial": {
-          "value": false
-        },
-        "quality": {
-          "value": ""
-        },
-        "def": {
-          "value": 1
-        },
-        "mdef": {
-          "value": 2
-        },
-        "init": {
-          "value": -2
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "ins"
-          }
-        },
-        "source": {
-          "value": "FUCR132"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "fuid": "sage-robe-s5"
-      },
-      "_id": "Ms4wQiIkl4a9Utum",
-      "img": "modules/fabula-ultima-press-start/artwork/items/Sage%20Robe.png",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "tpPonTjn7it9dSQP": 3,
-        "pcRlFlAnFfU7VnPM": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Actor.bWa9CbV0GYZywXtj.Item.g1H1TkpPybmfzGts"
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Actor.bWa9CbV0GYZywXtj.Item.g1H1TkpPybmfzGts",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729283217638,
-        "modifiedTime": 1729283217638,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.Ms4wQiIkl4a9Utum"
     },
     {
       "name": "Orator",
@@ -528,12 +446,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.8HxmAoTTwLlmQ8Fc",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283263556,
         "modifiedTime": 1729283264681,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -628,12 +547,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.vSE3PMoHTGLC1yzG",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283298721,
         "modifiedTime": 1729283299875,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -740,12 +660,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285574628,
         "modifiedTime": 1729285576612,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "vI7YMEteivGat39u",
       "sort": -100000,
@@ -842,12 +763,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.DtEiCkDsC1amYABn",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932939429,
         "modifiedTime": 1745938679379,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 0,
       "_key": "!actors.items!F1Os0qN1PMl2zLUC.BPGcXxwNtpAM0r7m"
@@ -936,310 +858,17 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932953156,
         "modifiedTime": 1745932957407,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "DUH6IatBD6RIZ898",
       "sort": 0,
       "_key": "!actors.items!F1Os0qN1PMl2zLUC.DUH6IatBD6RIZ898"
-    },
-    {
-      "folder": "NZHiCa0mU3DKOiVo",
-      "name": "Fulgur",
-      "type": "spell",
-      "_id": "vFqeuH7xoixddAL3",
-      "img": "icons/magic/lightning/bolts-forked-large-blue.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You weave electricity into a wave of crackling bolts. Each target hit by this spell suffers <strong>【HR + 15】 bolt</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "duration": {
-          "value": "instantaneous"
-        },
-        "isOffensive": {
-          "value": true
-        },
-        "source": {
-          "value": "FUCR188"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": true
-            },
-            "type": {
-              "value": "bolt"
-            },
-            "value": 15
-          }
-        },
-        "hasRoll": {
-          "value": true
-        },
-        "opportunity": "Each target hit by this spell suffers dazed.",
-        "fuid": "fulgur",
-        "cost": {
-          "resource": "mp",
-          "amount": 10
-        },
-        "targeting": {
-          "max": 3,
-          "rule": "multiple"
-        },
-        "traits": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.spells.Item.YV1OL72oIzseoLbd",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745932970315,
-        "modifiedTime": 1745932980493,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": -200000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.vFqeuH7xoixddAL3"
-    },
-    {
-      "folder": "NZHiCa0mU3DKOiVo",
-      "name": "Thunderbolt",
-      "type": "spell",
-      "_id": "5WUfRsQq4X8rbTXy",
-      "img": "icons/magic/lightning/bolt-strike-blue.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You send lightning striking at your foe. The target suffers <strong>【HR + 25】bolt</strong> damage.</p><p>Damage dealt by this spell <strong>ignores Resistances</strong>.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "duration": {
-          "value": "instantaneous"
-        },
-        "isOffensive": {
-          "value": true
-        },
-        "source": {
-          "value": "FUCR189"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": true
-            },
-            "type": {
-              "value": "bolt"
-            },
-            "value": 25
-          }
-        },
-        "hasRoll": {
-          "value": true
-        },
-        "opportunity": "",
-        "fuid": "thunderbolt",
-        "traits": [
-          "IgnoreResistances"
-        ],
-        "cost": {
-          "resource": "mp",
-          "amount": 20
-        },
-        "targeting": {
-          "max": 1,
-          "rule": "single"
-        }
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.spells.Item.I4DfvMXCmGMkuXKB",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745932973551,
-        "modifiedTime": 1745932981189,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": -200000,
-      "_key": "!actors.items!F1Os0qN1PMl2zLUC.5WUfRsQq4X8rbTXy"
     },
     {
       "name": "Elemental Shard",
@@ -1281,12 +910,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932991126,
         "modifiedTime": 1745932991126,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "ZSwlk2CNynKq1U37",
       "sort": 87500,
@@ -1332,12 +962,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.consumables.Item.QYyuig5iy5mMN9F8",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932991126,
         "modifiedTime": 1745932991126,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "5UQS5BukWhuJe0dA",
       "sort": 100000,
@@ -1383,12 +1014,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932991126,
         "modifiedTime": 1745932991126,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "D2S4Ubmly5LosFUX",
       "sort": 0,
@@ -1434,12 +1066,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932991126,
         "modifiedTime": 1745932991126,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "MK2kLHFvM93oHcUB",
       "sort": 75000,
@@ -1485,12 +1118,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932991126,
         "modifiedTime": 1745932991126,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "XolPgE6rvMk9Xuck",
       "sort": 50000,
@@ -1582,12 +1216,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.oA2gENCwk30ZsDeB",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938650901,
         "modifiedTime": 1745938671836,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "mqRI1ENSG16TM0Qp",
       "sort": 0,
@@ -1674,16 +1309,367 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938659057,
         "modifiedTime": 1745938678355,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "NaNqSZb1XGjfqoEA",
       "sort": -200000,
       "_key": "!actors.items!F1Os0qN1PMl2zLUC.NaNqSZb1XGjfqoEA"
+    },
+    {
+      "name": "Sage Robe",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/sage-robe.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 1,
+          "attribute": "dex"
+        },
+        "mdef": {
+          "value": 2,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": -2
+        },
+        "source": "[object Object]",
+        "fuid": "sage-robe",
+        "slots": "alpha",
+        "items": []
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.7OuAqOQEwAhZyyJq",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092479641,
+        "modifiedTime": 1761092479641,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "7OuAqOQEwAhZyyJq",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.7OuAqOQEwAhZyyJq"
+    },
+    {
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Fulgur",
+      "type": "spell",
+      "_id": "YV1OL72oIzseoLbd",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/fulgur.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You weave electricity into a wave of crackling bolts. Each target hit by this spell suffers <strong>【HR + 15】 bolt</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": "FUCR188",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "bolt"
+            },
+            "value": 15
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "Each target hit by this spell suffers dazed.",
+        "fuid": "fulgur",
+        "cost": {
+          "resource": "mp",
+          "amount": 10,
+          "perTarget": true
+        },
+        "targeting": {
+          "max": 3,
+          "rule": "multiple"
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.YV1OL72oIzseoLbd",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092551736,
+        "modifiedTime": 1761092570596,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 0,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.YV1OL72oIzseoLbd"
+    },
+    {
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Thunderbolt",
+      "type": "spell",
+      "_id": "I4DfvMXCmGMkuXKB",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/thunderbolt.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You send lightning striking at your foe. The target suffers <strong>【HR + 25】bolt</strong> damage.</p><p>Damage dealt by this spell <strong>ignores Resistances</strong>.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": "FUCR189",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "bolt"
+            },
+            "value": 25
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "",
+        "fuid": "thunderbolt",
+        "traits": [
+          "IgnoreResistances"
+        ],
+        "cost": {
+          "resource": "mp",
+          "amount": 20,
+          "perTarget": false
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.I4DfvMXCmGMkuXKB",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092555088,
+        "modifiedTime": 1761092566941,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 0,
+      "_key": "!actors.items!F1Os0qN1PMl2zLUC.I4DfvMXCmGMkuXKB"
     }
   ],
   "effects": [],
@@ -1694,12 +1680,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1712416013022,
-    "modifiedTime": 1729283347325,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1761092481621,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

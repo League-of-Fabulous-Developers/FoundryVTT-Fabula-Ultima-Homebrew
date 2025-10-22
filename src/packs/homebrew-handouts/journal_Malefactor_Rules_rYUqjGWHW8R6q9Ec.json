@@ -30,13 +30,15 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1716737026241,
         "modifiedTime": 1745931623626,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!rYUqjGWHW8R6q9Ec.NoZbAe7VVlw4D7eY"
     }
   ],
@@ -50,12 +52,14 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1716736998784,
     "modifiedTime": 1716737065755,
     "lastModifiedBy": "B6evqtezy9ZsGZG3",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
+  "categories": [],
   "_key": "!journal!rYUqjGWHW8R6q9Ec"
 }

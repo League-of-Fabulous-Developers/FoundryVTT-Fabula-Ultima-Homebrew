@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may use an action and spend 1 Fabula Point to recover from all status effects and also recover <strong>【SL × 5】</strong>Mind Points.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*5 mp]{SL × 5 MP}</p></li></ul></div>",
+    "description": "<div class=\"stackedit__html\"><p>During a conflict, you may use an action and spend a Fabula Point to recover from all status effects and also recover <strong>【10 + (SL </strong>×<strong> 10)】</strong> Mind Points.</p><hr /><ul><li><p><strong>You Spend:</strong> @LOSS[1 fp]</p></li><li><p><strong>You Recover:</strong> @GAIN[10 + ($sl*10) mp]{10 + (SL × 10) MP}</p></li></ul></div>",
     "isFavored": {
       "value": false
     },
@@ -124,16 +124,21 @@
     }
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1713032976619,
-    "modifiedTime": 1745927650900,
-    "lastModifiedBy": "9aR18wpxqiStEQ8U",
+    "modifiedTime": 1761089104858,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "iIBms0agbwthfoEz",
   "sort": 0,

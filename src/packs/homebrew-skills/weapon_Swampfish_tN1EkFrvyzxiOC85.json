@@ -89,12 +89,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731168957830,
     "modifiedTime": 1731168957830,
-    "lastModifiedBy": "eGFjUCXxDy8l2KwV"
+    "lastModifiedBy": "eGFjUCXxDy8l2KwV",
+    "exportSource": null
   },
   "_id": "tN1EkFrvyzxiOC85",
   "sort": 0,

@@ -1,0 +1,1741 @@
+{
+  "name": "Protector of Hope",
+  "type": "character",
+  "_id": "VYztFu4tOkuyaDVB",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 65,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "zenit": {
+        "value": 70
+      },
+      "ip": {
+        "value": 6,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "exp": {
+        "value": 0
+      },
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
+    },
+    "bonds": [],
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 6
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 10
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {
+      "mainHand": "T0Yboz2fX79ykc6g",
+      "offHand": "feOCNmJ5WS9VF9q7",
+      "armor": "Y2vQeg24PIIpESSe"
+    },
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "floralist": {
+      "planted": null,
+      "garden": null
+    },
+    "description": ""
+  },
+  "prototypeToken": {
+    "name": "Protector of Hope",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": "FUCR130",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091331466,
+        "modifiedTime": 1761091331466,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "dsrs6pRW0VYfLoAl",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.dsrs6pRW0VYfLoAl"
+    },
+    {
+      "name": "Guardian",
+      "type": "class",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian.png",
+      "system": {
+        "summary": {
+          "value": "Let me be your shield."
+        },
+        "description": "<h5><strong>ALSO: Paladin, Soldier, Yōjinbō</strong></h5><p>Proud and selfless, <strong>Guardians</strong> are individuals who know the value of life… and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. They are often extraordinary and impressive individuals, such as valiant soldiers or veterans scarred by a thousand battles. While some Guardians may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.</p><hr /><h5><strong>GUARDIAN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial armor</strong> and <strong>martial shields.</strong></li></ul><h2><strong>GUARDIAN SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd]{Bodyguard}</p><p>If you perform the <strong>Guard</strong> action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF]{Defensive Mastery} <strong>(SL5)</strong></p><p>As long as you have a <strong>shield</strong> or a <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aPQXTQegswRisA1R]{Dual Shieldbearer}</p><p>You may now equip a <strong>shield</strong> in your <strong>main hand</strong> slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee <strong>brawling</strong> weapon:</p><table style=\"width:98.7597%;height:53px\" border=\"1\"><colgroup><col style=\"width:14.4654%\"></col><col style=\"width:20.7547%\"></col><col style=\"width:23.2618%\"></col><col style=\"width:41.5181%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px\"><strong>WEAPON</strong></td><td style=\"height:17px\"><strong>ACCURACY</strong></td><td style=\"height:17px\"><strong>DAMAGE</strong></td><td style=\"height:17px\"><strong>QUALITY</strong></td></tr><tr style=\"height:36px\"><td style=\"height:36px\"><strong>Twin Shields</strong></td><td style=\"height:36px\"><strong>【MIG + MIG】</strong></td><td style=\"height:36px\"><strong>【HR + 5】physical</strong> </td><td style=\"height:36px\">Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong>.</td></tr></tbody></table><p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong> (above).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.X4KdFiQmzikrsM6v]{Fortress} <strong>(SL5)</strong></p><p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES]{Protect}</p><p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong> or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": true
+            },
+            "shields": {
+              "value": true
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "FUCR196",
+        "fuid": "guardian"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.ARBTZXtCwUzlyIyy",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091337611,
+        "modifiedTime": 1761091337611,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "ARBTZXtCwUzlyIyy",
+      "sort": 700000,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.ARBTZXtCwUzlyIyy"
+    },
+    {
+      "name": "Hero",
+      "type": "class",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "system": {
+        "summary": {
+          "value": "What we seek is to help people, not words of appreciation."
+        },
+        "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Champion, Chosen One, Savior</strong></h5><p>Often written in legends, a <strong>Hero</strong> is the embodiment of light and hope in a land plagued by darkness and despair. Together with their fellow companions, heroes travel the world seeking to help people in need and defeat forces of evil. Their only true reward, is maybe one day being remembered by those whose lives they impacted.</p><hr /><h5>HERO<strong> FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points by 5.</p></li><li><p>Gain the ability to equip <strong>martial shields</strong>, and choose one: gain the ability to equip <strong>martial melee weapons</strong>; or gain the ability to equip <strong>martial ranged weapons</strong>.</p></li></ul><h3>HERO<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MCrVhNlP4jbzdJi6]{A Hero's Purpose} <strong>(SL3)</strong></p><p>Once per session, when you <strong>save one or more NPCs from danger, complete a quest for one or more NPCs</strong>, or <strong>one or more Villains reach 0 Ultima Points while you are present on the scene</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4NcCRrGyuuOrgI8J]{It Was Destiny}</p><p>Once per session, you may spend a Fabula Point to create a new <strong>Bond</strong> towards someone or something, or add an <strong>emotion</strong> to one of your existing <strong>Bonds</strong>; this doesn’t require an action, but during a conflict it can only be done on your turn, <strong>while no effect is being resolved</strong>. Explain how destiny affected your relationships!</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.qg39quSjbKuvHLPo]{Power Of Friendship} <strong>(SL2)</strong></p><p>You gain a number of extra <strong>Bond slots</strong> equal to <strong>【SL】</strong> .</p><p>Additionally, when you invoke a <strong>Bond</strong> to improve the Accuracy Check of an attack, that attack deals extra damage equal to <strong>【the strength of that Bond】</strong> .</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iIBms0agbwthfoEz]{Resolve} <strong>(SL5)</strong></p><p>During a conflict, you may use an action and spend a Fabula Point to recover from all status effects and also recover <strong>【10 + (SL x 10)】</strong> Mind Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.89brp9KWRYdJlvgZ]{Ties That Bind} <strong>(SL5)</strong></p><p>When you invoke a <strong>Bond</strong>, you may choose an ally present on the scene: they recover <strong>【SL x 4】 </strong>Hit Points <strong>or</strong> Mind points (your choice). If the <strong>Bond</strong> you invoked is with the ally you chose, that ally instead recovers both <strong>【SL x 4】</strong> it Points <strong>and</strong> Mind Points.</p></div><p></p><div class=\"stackedit__html\"><div class=\"stackedit__html\"><h2>HEROIC SKILLS</h2></div><p>“Mastery of the <strong>Hero</strong> Class” is included in the Requirements of the following existing Heroic Skills: <strong>Disarming Rhetoric</strong>, <strong>Heroic Companion</strong>, and <strong>Unbreakable</strong> (<strong>Core Rulebook</strong>, pages <strong>235</strong>, <strong>236 </strong>and <strong>240</strong>, respectively), <strong>Arcane Soldier</strong> (<strong>Techno Fantasy Atlas</strong>, page <strong>171</strong>), and <strong>Brave Bash</strong> and <strong>Cheer Up!</strong> (<strong>Natural Fantasy Atlas</strong>, page <strong>163</strong>).</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.lrhl1WGyjTLvgV3B]{Fabula Impetum}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.DmzhRK2b6wNM1MKN]{Heroic Aura}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.V5zFlTpLppmjoXuZ]{Making Legend}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Tails (@tailspr)</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 3,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": true
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "Homebrew",
+        "fuid": "hero"
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.zW3W4M7smyEvPVWO",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091351399,
+        "modifiedTime": 1761091393324,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "zW3W4M7smyEvPVWO",
+      "sort": 0,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.zW3W4M7smyEvPVWO"
+    },
+    {
+      "name": "Spiritist",
+      "type": "class",
+      "system": {
+        "summary": {
+          "value": "Show me the truth in your heart."
+        },
+        "description": "<h5><strong>ALSO: Healer, Priest, Witch</strong></h5><p><strong>Spiritists </strong>have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions. Several worlds see the powers of Spiritism as gifts from a deity or proof that a person’s heart is pure; however, there is no definite proof of these abilities coming from anything but discipline, empathy, and focus.</p><hr /><h5><strong>SPIRITIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>SPIRITIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.rVM7HhQ5OwdPtFwa]{Healing Power} <strong>(SL2)</strong></p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may have each of those allies recover an amount of Hit Points equal to <strong>【SL, multiplied by the number of Bonds you have】</strong>.</p><p>This healing is separate from any healing caused by the effects of the spell.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ek0pzfo1bSWGHfzb]{Ritual Spiritism}</p><p>You may perform Rituals whose effects fall within the Spiritism discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy]{Spiritual Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive (@ICON[offensive]) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.pIkEDFcA5pnIpsu3]{Support Magic}</p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may choose one of those allies you have a <strong>Bond </strong>towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the <strong>strength </strong>of your Bond towards them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.affUHtuCYoDxmO4h]{Vismagus}</p><p>When you cast a spell, if you don’t have enough Mind Points to pay for its total cost, you may choose to spend <strong>twice as many</strong> Hit Points instead. You cannot use this Skill if doing so would reduce you to 0 Hit Points. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target).</p><h2><strong>SPIRITIST SPELLS</strong></h2><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "FUCR206",
+        "fuid": "spiritist"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.s7AtJlv04lTsbKg4",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091355771,
+        "modifiedTime": 1761091355771,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_id": "s7AtJlv04lTsbKg4",
+      "sort": 200000,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.s7AtJlv04lTsbKg4"
+    },
+    {
+      "folder": "LWIsJLQGwkSdYYwN",
+      "name": "Spiritual Magic",
+      "type": "skill",
+      "_id": "dwVQpxDTOZeNbcjy",
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Spiritist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": "FUCR207",
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "spiritual-magic",
+        "cost": {
+          "resource": "mp",
+          "amount": 0,
+          "perTarget": false
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091360333,
+        "modifiedTime": 1761091360333,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.dwVQpxDTOZeNbcjy"
+    },
+    {
+      "folder": "Z3L9k5WlADTx8Mfo",
+      "name": "A Hero's Purpose",
+      "type": "skill",
+      "_id": "MCrVhNlP4jbzdJi6",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>Once per session, when you <strong>save one or more NPCs from danger, complete a quest for one or more NPCs</strong>, or <strong>one or more Villains reach 0 Ultima Points while you are present on the scene</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr /><ul><li><p><strong>You Gain:</strong> @GAIN[$sl fp]{SL FP}</p></li></ul></div>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Hero"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "Homebrew",
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "a-heros-purpose",
+        "cost": {
+          "resource": "mp",
+          "amount": 0,
+          "perTarget": false
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MCrVhNlP4jbzdJi6",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091366838,
+        "modifiedTime": 1761092683634,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.MCrVhNlP4jbzdJi6"
+    },
+    {
+      "folder": "Z3L9k5WlADTx8Mfo",
+      "name": "Resolve",
+      "type": "skill",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>During a conflict, you may use an action and spend a Fabula Point to recover from all status effects and also recover <strong>【10 + (SL </strong>×<strong> 10)】</strong> Mind Points.</p><hr /><ul><li><p><strong>You Spend:</strong> @LOSS[1 fp]</p></li><li><p><strong>You Recover:</strong> @GAIN[10 + ($sl*10) mp]{10 + (SL × 10) MP}</p></li></ul></div>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Hero"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "Homebrew",
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "resolve",
+        "cost": {
+          "resource": "fp",
+          "amount": 1,
+          "perTarget": false
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iIBms0agbwthfoEz",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091372951,
+        "modifiedTime": 1761092687358,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "iIBms0agbwthfoEz",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.iIBms0agbwthfoEz"
+    },
+    {
+      "folder": "Z3L9k5WlADTx8Mfo",
+      "name": "Ties That Bind",
+      "type": "skill",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<div class=\"stackedit__html\"><p>When you invoke a <strong>Bond</strong>, you may choose an ally present on the scene: they recover <strong>【SL × 4】 </strong>Hit Points <strong>or</strong> Mind points (your choice). If the <strong>Bond</strong> you invoked is with the ally you chose, that ally instead recovers both <strong>【SL × 4】</strong> Hit Points <strong>and</strong> Mind Points.</p><hr /></div><ul><li><p><strong>Ally Recovers:</strong> @GAIN[$sl*4 hp]{SL × 4 HP} or @GAIN[$sl*4 hp]{SL × 4 MP}</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 5,
+          "min": 0
+        },
+        "class": {
+          "value": "Hero"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "ins",
+          "secondary": "mig"
+        },
+        "accuracy": 0,
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "Homebrew",
+        "hasRoll": {
+          "value": false
+        },
+        "fuid": "ties-that-bind",
+        "cost": {
+          "resource": "mp",
+          "amount": 0,
+          "perTarget": false
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.89brp9KWRYdJlvgZ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091381672,
+        "modifiedTime": 1761092691130,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "89brp9KWRYdJlvgZ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "B6evqtezy9ZsGZG3": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.89brp9KWRYdJlvgZ"
+    },
+    {
+      "folder": "BdAXAA3IkZnarpJX",
+      "name": "Protect",
+      "type": "skill",
+      "_id": "Z4WIA15aR4uLL5ES",
+      "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_protect.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong>, or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 1,
+          "min": 0
+        },
+        "class": {
+          "value": "Guardian"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": 0,
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": "FUCR196",
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "protect",
+        "cost": {
+          "resource": "mp",
+          "amount": 0,
+          "perTarget": false
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091386462,
+        "modifiedTime": 1761092673226,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 500000,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.Z4WIA15aR4uLL5ES"
+    },
+    {
+      "name": "Bronze Plate",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/bronze-plate.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 11,
+          "attribute": ""
+        },
+        "mdef": {
+          "value": 0,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": -3
+        },
+        "source": "[object Object]",
+        "fuid": "bronze-plate",
+        "slots": "alpha",
+        "items": []
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.Y2vQeg24PIIpESSe",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091401191,
+        "modifiedTime": 1761091401191,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "Y2vQeg24PIIpESSe",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.Y2vQeg24PIIpESSe"
+    },
+    {
+      "name": "Bronze Shield",
+      "type": "shield",
+      "img": "systems/projectfu/styles/static/compendium/armor/bronze-shield.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 100
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 2
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": "[object Object]",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "bronze-shield"
+      },
+      "effects": [],
+      "folder": "ns5SuBHXn69q4YjA",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.feOCNmJ5WS9VF9q7",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091403681,
+        "modifiedTime": 1761091403681,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "feOCNmJ5WS9VF9q7",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.feOCNmJ5WS9VF9q7"
+    },
+    {
+      "name": "Bronze Sword",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/bronze-sword.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "damage": {
+          "value": 6
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "sword"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": "FUCR131",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "bronze-sword",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.T0Yboz2fX79ykc6g",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761091404662,
+        "modifiedTime": 1761092701555,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "T0Yboz2fX79ykc6g",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.T0Yboz2fX79ykc6g"
+    },
+    {
+      "name": "Magic Tent",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/magic-tent.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "This allows the entire group to rest in the wilderness and at sea."
+        },
+        "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 4
+        },
+        "source": "FUCR104",
+        "fuid": "magic-tent"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.QYyuig5iy5mMN9F8",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092657652,
+        "modifiedTime": 1761092657652,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "QYyuig5iy5mMN9F8",
+      "sort": 100000,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.QYyuig5iy5mMN9F8"
+    },
+    {
+      "name": "Elemental Shard",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elemental-shard.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
+        },
+        "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": "FUCR104",
+        "fuid": "elemental-shard"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.00h8sKH3ktIFF5ei",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092659135,
+        "modifiedTime": 1761092659135,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "00h8sKH3ktIFF5ei",
+      "sort": 87500,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.00h8sKH3ktIFF5ei"
+    },
+    {
+      "name": "Tonic",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers from a single status effect."
+        },
+        "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 2
+        },
+        "source": "FUCR104",
+        "fuid": "tonic"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.mZPZqpxSMxzpQ8uX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092660364,
+        "modifiedTime": 1761092660364,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "mZPZqpxSMxzpQ8uX",
+      "sort": 75000,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.mZPZqpxSMxzpQ8uX"
+    },
+    {
+      "name": "Elixir",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 MP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": "FUCR104",
+        "fuid": "elixir"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.mn3F6qOfdVYM405v",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092662576,
+        "modifiedTime": 1761092662576,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "mn3F6qOfdVYM405v",
+      "sort": 50000,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.mn3F6qOfdVYM405v"
+    },
+    {
+      "name": "Remedy",
+      "type": "consumable",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "system": {
+        "subtype": {
+          "value": "potion"
+        },
+        "summary": {
+          "value": "One creature recovers 50 HP."
+        },
+        "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "ipCost": {
+          "value": 3
+        },
+        "source": "FUCR104",
+        "fuid": "remedy"
+      },
+      "effects": [],
+      "folder": "WTJwnSjYUL3GOIyA",
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.consumables.Item.iLidslBpjoLfrsT9",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092663749,
+        "modifiedTime": 1761092663749,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "iLidslBpjoLfrsT9",
+      "sort": 0,
+      "_key": "!actors.items!VYztFu4tOkuyaDVB.iLidslBpjoLfrsT9"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "93RRHGE4s1SwaU2P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1761091331380,
+    "modifiedTime": 1761091429162,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P"
+  },
+  "_key": "!actors!VYztFu4tOkuyaDVB"
+}

@@ -132,9 +132,7 @@
   },
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.8ySmNzjYisVduHWP"
-    },
+    "core": {},
     "projectfu-playtest": {
       "growthClock": false
     }
@@ -142,12 +140,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1710465708129,
     "modifiedTime": 1745931063769,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": "Compendium.fabula-ultima-core-rulebook.skills.Item.8ySmNzjYisVduHWP",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

@@ -30,7 +30,7 @@
         "value": 0
       },
       "zenit": {
-        "value": 0
+        "value": 70
       },
       "ip": {
         "value": 6,
@@ -154,7 +154,7 @@
     "equipped": {
       "mainHand": "UJz1bMNwu2fFiaeI",
       "offHand": "UJz1bMNwu2fFiaeI",
-      "armor": "eQmVrN2sDsl4qib4"
+      "armor": "7OuAqOQEwAhZyyJq"
     }
   },
   "prototypeToken": {
@@ -228,7 +228,6 @@
     "detectionModes": [],
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -243,7 +242,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -373,123 +379,20 @@
         "CLAzxWQsDDB8fCLx": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715100922423,
         "modifiedTime": 1729282312834,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.7l9VJI5NLyWqlhHP"
-    },
-    {
-      "folder": "FyNc3kVrHbI4wz0q",
-      "name": "Arcanum of the Sky",
-      "type": "classFeature",
-      "_id": "k7tQh8dKjvW1rpfc",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/class/Arcana/Arcanum%20of%20the%20Sky.png",
-      "system": {
-        "summary": {
-          "value": ""
-        },
-        "isFavored": {
-          "value": true
-        },
-        "featureType": "projectfu.arcanum",
-        "data": {
-          "merge": "",
-          "dismiss": "",
-          "domains": ""
-        },
-        "source": "FUCR180",
-        "quantity": {
-          "value": 1
-        }
-      },
-      "effects": [
-        {
-          "origin": "Compendium.fabula-ultima-core-rulebook.skills.Item.zabsA5F47r9B5h4f",
-          "duration": {
-            "rounds": 1,
-            "startTime": 0,
-            "seconds": null,
-            "combat": null,
-            "turns": null,
-            "startRound": 0,
-            "startTurn": 0
-          },
-          "disabled": true,
-          "name": "Merged: Sky",
-          "_id": "cIBHjOjwpWhhnx2h",
-          "changes": [
-            {
-              "key": "system.affinities.air.bonus",
-              "mode": 5,
-              "value": "1",
-              "priority": null
-            },
-            {
-              "key": "system.affinities.bolt.bonus",
-              "mode": 5,
-              "value": "1",
-              "priority": null
-            }
-          ],
-          "description": "",
-          "transfer": true,
-          "statuses": [],
-          "flags": {
-            "projectfu": {
-              "CrisisInteraction": "none"
-            }
-          },
-          "tint": "#ffffff",
-          "_stats": {
-            "coreVersion": "12.331",
-            "systemId": null,
-            "systemVersion": null,
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null
-          },
-          "img": "modules/fabula-ultima-core-rulebook/artwork/class/Arcana/Arcanum%20of%20the%20Sky.png",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!vbgOG348Sa9Sb9b3.k7tQh8dKjvW1rpfc.cIBHjOjwpWhhnx2h"
-        }
-      ],
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.skills.Item.zabsA5F47r9B5h4f"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1710464043159,
-        "modifiedTime": 1729286164037,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
-        "compendiumSource": "Compendium.fabula-ultima-core-rulebook.skills.Item.zabsA5F47r9B5h4f",
-        "duplicateSource": null
-      },
-      "sort": -50000,
-      "ownership": {
-        "default": 0,
-        "YN7AhHIwAZeH33Tw": 3,
-        "CLAzxWQsDDB8fCLx": 3
-      },
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.k7tQh8dKjvW1rpfc"
     },
     {
       "folder": "LWIsJLQGwkSdYYwN",
@@ -626,12 +529,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.ek0pzfo1bSWGHfzb",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728436604620,
         "modifiedTime": 1729286176696,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "sort": 400000,
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.FTDOpFcQAqx4iwwE"
@@ -772,12 +676,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.spells.Item.uQd6aE423mPv12Vc",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728436643340,
         "modifiedTime": 1745938288025,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": -25000,
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.3ZyjTkmKcHCv8L7w"
@@ -877,12 +782,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285671590,
         "modifiedTime": 1729285672527,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "cloakwUubl6JqBrN",
       "sort": -600000,
@@ -892,95 +798,6 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.cloakwUubl6JqBrN"
-    },
-    {
-      "name": "Sage Robe (S5)",
-      "type": "armor",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 200
-        },
-        "isMartial": {
-          "value": false
-        },
-        "quality": {
-          "value": ""
-        },
-        "def": {
-          "value": 1
-        },
-        "mdef": {
-          "value": 2
-        },
-        "init": {
-          "value": -2
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "ins"
-          }
-        },
-        "source": {
-          "value": "FUCR132"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "fuid": "sage-robe-s5"
-      },
-      "_id": "eQmVrN2sDsl4qib4",
-      "img": "modules/fabula-ultima-press-start/artwork/items/Sage%20Robe.png",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "tpPonTjn7it9dSQP": 3,
-        "pcRlFlAnFfU7VnPM": 3,
-        "MZACGjYlT5yfbfPC": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Actor.bWa9CbV0GYZywXtj.Item.g1H1TkpPybmfzGts"
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Actor.bWa9CbV0GYZywXtj.Item.g1H1TkpPybmfzGts",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1729285748118,
-        "modifiedTime": 1729285748118,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
-      },
-      "_key": "!actors.items!vbgOG348Sa9Sb9b3.eQmVrN2sDsl4qib4"
     },
     {
       "name": "Staff",
@@ -1077,12 +894,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.yPIyB7tBCD4ZVP4C",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285753800,
         "modifiedTime": 1729286185501,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "UJz1bMNwu2fFiaeI",
       "sort": -150000,
@@ -1179,12 +997,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932485301,
         "modifiedTime": 1745932485301,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 300000,
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.895iiEazLcxSgwNS"
@@ -1275,12 +1094,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.gbkA1CRgQ9OxPstd",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932494369,
         "modifiedTime": 1745932511433,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 250000,
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.wHKWv6AarHYhUV75"
@@ -1325,12 +1145,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932550899,
         "modifiedTime": 1745932550899,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "oCBC5o22cyKnOuTC",
       "sort": 87500,
@@ -1376,12 +1197,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932550899,
         "modifiedTime": 1745932550899,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "sGLuIz4sG8vcb0FE",
       "sort": 100000,
@@ -1427,12 +1249,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932550899,
         "modifiedTime": 1745932550899,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "NAxHUmfIJZlsG9DL",
       "sort": 0,
@@ -1478,12 +1301,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932550899,
         "modifiedTime": 1745932550899,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "rIG1a2YONCdemfud",
       "sort": 75000,
@@ -1529,12 +1353,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932550899,
         "modifiedTime": 1745932550899,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "KqFIlfZr8c3x6a85",
       "sort": 50000,
@@ -1626,12 +1451,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.GZCOjMGiVdCwwScN",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938227628,
         "modifiedTime": 1745938244620,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "RmWvujOjptrzxOgB",
       "sort": 0,
@@ -1720,12 +1546,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.dqvpb3dkA3cDCChq",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938238462,
         "modifiedTime": 1745938251090,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -1820,12 +1647,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.s7AtJlv04lTsbKg4",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938248492,
         "modifiedTime": 1745938252624,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -1916,15 +1744,186 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938269812,
         "modifiedTime": 1745938272795,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "DHlupKdCFb7r3OPX",
       "_key": "!actors.items!vbgOG348Sa9Sb9b3.DHlupKdCFb7r3OPX"
+    },
+    {
+      "folder": "FyNc3kVrHbI4wz0q",
+      "name": "Arcanum of the Sky",
+      "type": "classFeature",
+      "_id": "zabsA5F47r9B5h4f",
+      "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanum/arcanum-of-the-sky.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "featureType": "projectfu.arcanum",
+        "data": {
+          "merge": "<ul><li><p>You have Resistance to <strong>air</strong> and <strong>bolt</strong> damage.</p></li><li><p>You may use an action to accurately predict weather conditions for the next day within a range of <strong>two travel days</strong> — the Game Master will tell you what the weather conditions will be.</p></li></ul>",
+          "dismiss": "<ul><li><p><strong>Thunderstorm.</strong> Choose any number of creatures you can see: each of them suffers @DMG[30 bolt] damage. This damage <strong>ignores Resistances</strong>.</p></li></ul>",
+          "domains": "fog, rain, storms"
+        },
+        "source": "FUCR180",
+        "fuid": "arcanum-of-the-sky"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.projectfu.skills.Item.zabsA5F47r9B5h4f",
+          "duration": {
+            "rounds": 1,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": 0,
+            "startTurn": 0
+          },
+          "disabled": false,
+          "name": "Merged: Sky",
+          "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanum/arcanum-of-the-sky.png",
+          "_id": "Nm6hnzBAzx3GZpTj",
+          "type": "base",
+          "system": {
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 0
+            },
+            "rules": {}
+          },
+          "changes": [
+            {
+              "key": "system.affinities.air",
+              "mode": 0,
+              "value": "upgrade",
+              "priority": null
+            },
+            {
+              "key": "system.affinities.bolt",
+              "mode": 0,
+              "value": "upgrade",
+              "priority": null
+            }
+          ],
+          "description": "<ul><li><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">You have Resistance to </span></span><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">air </strong></span></span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">and </span></span><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">bolt </strong></span></span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">damage.</span></span></p></li><li><p style=\"box-sizing:border-box;user-select:text;margin:0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">You may use an action to accurately predict weather conditions for the next day within a range of </span></span><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">two travel days</strong> </span></span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">— the Game Master will tell you what the weather conditions will be.</span></span><span style=\"font-family:'PT Sans Narrow', sans-serif\"> </span></p></li></ul>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "source": "FUCR180"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.350",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!vbgOG348Sa9Sb9b3.zabsA5F47r9B5h4f.Nm6hnzBAzx3GZpTj"
+        }
+      ],
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.zabsA5F47r9B5h4f",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092168640,
+        "modifiedTime": 1761092168640,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "YN7AhHIwAZeH33Tw": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.zabsA5F47r9B5h4f"
+    },
+    {
+      "name": "Sage Robe",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/sage-robe.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 1,
+          "attribute": "dex"
+        },
+        "mdef": {
+          "value": 2,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": -2
+        },
+        "source": "[object Object]",
+        "fuid": "sage-robe",
+        "slots": "alpha",
+        "items": []
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.7OuAqOQEwAhZyyJq",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092188379,
+        "modifiedTime": 1761092188379,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "7OuAqOQEwAhZyyJq",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!vbgOG348Sa9Sb9b3.7OuAqOQEwAhZyyJq"
     }
   ],
   "effects": [],
@@ -1932,12 +1931,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1710464043159,
-    "modifiedTime": 1729285756771,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1761092199981,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

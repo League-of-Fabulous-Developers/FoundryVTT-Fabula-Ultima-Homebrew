@@ -254,7 +254,6 @@
       }
     },
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -269,7 +268,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -361,19 +367,18 @@
         "B6evqtezy9ZsGZG3": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Actor.XaUyCR6PjgkW50Y3.Item.jZSwzt4gsMxEVdBJ"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715057538497,
         "modifiedTime": 1745937783960,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": "Actor.XaUyCR6PjgkW50Y3.Item.jZSwzt4gsMxEVdBJ",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!XaUyCR6PjgkW50Y3.jZSwzt4gsMxEVdBJ"
     },
@@ -466,12 +471,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.ARBTZXtCwUzlyIyy",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285026284,
         "modifiedTime": 1729285047913,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "7zgwcUnRELvJq62r",
       "sort": 400000,
@@ -560,12 +566,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.eO37Jm8x3VaGmE7c",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285036416,
         "modifiedTime": 1729285048722,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -647,12 +654,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.53hU8yNkPrgXhtx5",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285175390,
         "modifiedTime": 1729285175390,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "Q2siBejANcn9SOV6",
       "sort": 0,
@@ -758,12 +766,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285423984,
         "modifiedTime": 1729285425364,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "QKBlR0GuWDfz70o5",
       "sort": -300000,
@@ -814,12 +823,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937705920,
         "modifiedTime": 1745937705920,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "KCN1dDG1XTguJTTy",
       "sort": 87500,
@@ -865,12 +875,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937705920,
         "modifiedTime": 1745937705920,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "DqEiD4tj2f7tYhYd",
       "sort": 100000,
@@ -916,12 +927,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937705920,
         "modifiedTime": 1745937705920,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "0OfBFX67TshxgMbm",
       "sort": 0,
@@ -967,12 +979,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937705920,
         "modifiedTime": 1745937705920,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "l5YA0nLpnnwfU6Lp",
       "sort": 75000,
@@ -1018,12 +1031,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937705920,
         "modifiedTime": 1745937705920,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "YxD1Blo72kwwddPa",
       "sort": 50000,
@@ -1115,12 +1129,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.lCFQMCY4AmDsv6sv",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937722108,
         "modifiedTime": 1745937789013,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": -100000,
       "_key": "!actors.items!XaUyCR6PjgkW50Y3.GyNN4ATn0u7fsKNM"
@@ -1234,12 +1249,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.350",
             "systemId": "projectfu",
             "systemVersion": "#{VERSION}#",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_ranged_weapon_mastery.png",
           "type": "base",
@@ -1282,12 +1298,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.0UxTgrag7cE4M1oc",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937727754,
         "modifiedTime": 1745937743514,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!XaUyCR6PjgkW50Y3.Vxb6UNXZmEjp9P7v"
     },
@@ -1377,12 +1394,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937738201,
         "modifiedTime": 1745937747497,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 500000,
       "_key": "!actors.items!XaUyCR6PjgkW50Y3.pKvT9q4pI0dCLOzM"
@@ -1462,12 +1480,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937767212,
         "modifiedTime": 1745938098829,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "VIP5XrNFxj58tMpW",
       "sort": -200000,
@@ -1553,12 +1572,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937771209,
         "modifiedTime": 1745938099867,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "Sht1DG0rGFjGN6P0",
       "sort": -150000,
@@ -1655,12 +1675,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.dQIJpnWSMTIOC7nn",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938093679,
         "modifiedTime": 1745938107030,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "k0pPcBjHyKs5TAeX",
       "sort": 0,
@@ -1675,12 +1696,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1715057116072,
     "modifiedTime": 1729285176745,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Once per session, when you <strong>save an NPC</strong> or <strong>community from danger</strong> or <strong>complete a quest for them</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr><ul><li><p><strong>You Gain:</strong> @GAIN[$sl fp]{SL FP}</p></li></ul></div>",
+    "description": "<div class=\"stackedit__html\"><p>Once per session, when you <strong>save one or more NPCs from danger, complete a quest for one or more NPCs</strong>, or <strong>one or more Villains reach 0 Ultima Points while you are present on the scene</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr /><ul><li><p><strong>You Gain:</strong> @GAIN[$sl fp]{SL FP}</p></li></ul></div>",
     "isFavored": {
       "value": false
     },
@@ -121,16 +121,21 @@
     "fuid": "a-heros-purpose"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1713032976619,
-    "modifiedTime": 1745927536992,
-    "lastModifiedBy": "9aR18wpxqiStEQ8U",
+    "modifiedTime": 1761088375576,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

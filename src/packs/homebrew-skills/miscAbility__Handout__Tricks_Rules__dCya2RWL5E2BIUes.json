@@ -132,19 +132,18 @@
     "projectfu-playtest": {
       "growthClock": false
     },
-    "core": {
-      "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1708922588320,
     "modifiedTime": 1729282028785,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Dhimj2Pv4V4Ko6bR",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 100000,
   "ownership": {

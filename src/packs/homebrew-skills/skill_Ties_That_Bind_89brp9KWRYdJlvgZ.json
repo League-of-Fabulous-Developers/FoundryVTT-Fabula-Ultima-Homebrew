@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>After you invoke a bond, you or the creature of that bond may recover a number of Hit Points or Mind Points equal to <strong>【SL× the Strength of that bond】</strong> , <strong>or</strong> a creature of your choice present in the scene may lose a number of Hit Points or Mind Points equal to <strong>【SL× the Strength of that bond】</strong> .</p></div>",
+    "description": "<div class=\"stackedit__html\"><p>When you invoke a <strong>Bond</strong>, you may choose an ally present on the scene: they recover <strong>【SL × 4】 </strong>Hit Points <strong>or</strong> Mind points (your choice). If the <strong>Bond</strong> you invoked is with the ally you chose, that ally instead recovers both <strong>【SL × 4】</strong> Hit Points <strong>and</strong> Mind Points.</p><hr /></div><ul><li><p><strong>Ally Recovers:</strong> @GAIN[$sl*4 hp]{SL × 4 HP} or @GAIN[$sl*4 hp]{SL × 4 MP}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -53,7 +53,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -118,16 +120,21 @@
     "fuid": "ties-that-bind"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1713032976619,
-    "modifiedTime": 1729282025070,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1761089248040,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "89brp9KWRYdJlvgZ",
   "sort": 0,

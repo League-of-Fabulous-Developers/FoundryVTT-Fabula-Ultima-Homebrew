@@ -210,7 +210,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -275,7 +274,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -373,12 +379,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728435577963,
         "modifiedTime": 1728435577963,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "4upmSzD8m1qfwsf8",
       "sort": 0,
@@ -484,12 +491,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.yPIyB7tBCD4ZVP4C",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728437358761,
         "modifiedTime": 1745937682417,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "L9yjwb1RW7YLOmra",
       "sort": 100000,
@@ -570,12 +578,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.7OuAqOQEwAhZyyJq",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728437364603,
         "modifiedTime": 1728437364603,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "rR0tGmD80UoWJapd",
       "sort": 0,
@@ -726,12 +735,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728437499323,
         "modifiedTime": 1729284326319,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_key": "!actors.items!64mHOhtE1UlZFP8K.znmGrjzz19WPDpIs"
     },
@@ -875,12 +885,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728437891536,
         "modifiedTime": 1745937682417,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!64mHOhtE1UlZFP8K.gHy2BgzMKwRiNhxo"
     },
@@ -924,12 +935,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937114904,
         "modifiedTime": 1745937114904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "1nRtfNvyUsGTlXSY",
       "sort": 87500,
@@ -975,12 +987,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937114904,
         "modifiedTime": 1745937114904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "BPEgOLlmRkA8gnoX",
       "sort": 100000,
@@ -1026,12 +1039,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937114904,
         "modifiedTime": 1745937114904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "9xfAAvb1m0Lswolq",
       "sort": 0,
@@ -1077,12 +1091,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937114904,
         "modifiedTime": 1745937114904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "XocFcN93OANNKiIi",
       "sort": 75000,
@@ -1128,12 +1143,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937114904,
         "modifiedTime": 1745937114904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "qPPqUSawfT3g3yfQ",
       "sort": 50000,
@@ -1225,12 +1241,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.hBZ4cuXxXxjDe9wV",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937256536,
         "modifiedTime": 1745937592052,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!64mHOhtE1UlZFP8K.yymuH6zwocgKf8OX"
     },
@@ -1317,12 +1334,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.A24rkaeNHdKThN4N",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937266445,
         "modifiedTime": 1745937268191,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -1416,12 +1434,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.FKruofSyld8CMxOe",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937279307,
         "modifiedTime": 1745937682417,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!64mHOhtE1UlZFP8K.isK14MT3GcpOLWYA"
     },
@@ -1507,12 +1526,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.SzsNaeREQGUpeo9u",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937285206,
         "modifiedTime": 1745937682417,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!64mHOhtE1UlZFP8K.8Nr90N2c7c4doUbq"
     },
@@ -1595,12 +1615,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.jgGLuOvN8xCSQWLK",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937296828,
         "modifiedTime": 1745937682417,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "oV4loiY3cstnJthe",
       "ownership": {
@@ -1691,12 +1712,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.vtmxLTltA4JvXFXu",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937302925,
         "modifiedTime": 1745937302925,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "3qiq3UTrTRgCBndP",
       "ownership": {
@@ -1712,19 +1734,13 @@
       "folder": "3BdwBwfSnD04VRAz",
       "name": "Drain Spirit",
       "type": "spell",
-      "_id": "dl6pc5shryevTe8q",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+      "_id": "300SqWOqTrc7Qb3L",
+      "img": "systems/projectfu/styles/static/compendium/classes/entropist/spells/drain_spirit.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You consume a creature's psyche. The target loses <strong>【HR + 15】</strong> Mind Points. Then, you recover an amount of Mind Points equal to half the Mind Points loss they suffered (if the loss was reduced to 0 in some way, you recover none).</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1786,9 +1802,7 @@
         "isOffensive": {
           "value": true
         },
-        "source": {
-          "value": "FUCR192"
-        },
+        "source": "FUCR192",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1828,7 +1842,8 @@
         ],
         "cost": {
           "resource": "mp",
-          "amount": 5
+          "amount": 5,
+          "perTarget": false
         },
         "targeting": {
           "max": 1,
@@ -1840,7 +1855,7 @@
         "default": 2,
         "hYECXwi6O8UUBuN4": 3,
         "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
+        "93RRHGE4s1SwaU2P": 3
       },
       "flags": {
         "core": {}
@@ -1848,15 +1863,16 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.spells.Item.300SqWOqTrc7Qb3L",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "exportSource": null,
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1745937650204,
-        "modifiedTime": 1745937682417,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "createdTime": 1761092843206,
+        "modifiedTime": 1761092843206,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
       },
-      "sort": 200000,
-      "_key": "!actors.items!64mHOhtE1UlZFP8K.dl6pc5shryevTe8q"
+      "sort": 0,
+      "_key": "!actors.items!64mHOhtE1UlZFP8K.300SqWOqTrc7Qb3L"
     }
   ],
   "effects": [],
@@ -1870,12 +1886,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728435577891,
     "modifiedTime": 1728438106575,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC"
+    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "exportSource": null
   },
   "_key": "!actors!64mHOhtE1UlZFP8K"
 }

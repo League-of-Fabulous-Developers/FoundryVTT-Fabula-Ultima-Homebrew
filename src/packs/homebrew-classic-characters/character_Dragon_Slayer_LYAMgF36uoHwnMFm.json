@@ -151,9 +151,9 @@
       "supports": []
     },
     "equipped": {
-      "mainHand": "19YgUVaIyGu7S5xd",
-      "offHand": "19YgUVaIyGu7S5xd",
-      "armor": "WHPjV3WmPnkt1DrK"
+      "mainHand": "ZhUOJC4AYqGtteQa",
+      "offHand": "ZhUOJC4AYqGtteQa",
+      "armor": "3CGBfWi3HRQeCoqg"
     }
   },
   "prototypeToken": {
@@ -254,7 +254,6 @@
       }
     },
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -269,7 +268,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -393,19 +399,18 @@
       },
       "effects": [],
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715054358875,
         "modifiedTime": 1745938410312,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "sort": 100000,
       "ownership": {
@@ -537,19 +542,18 @@
       },
       "effects": [],
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715054358875,
         "modifiedTime": 1745938425956,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "PlJImVPDqOWMSsfH",
       "sort": 150000,
@@ -558,204 +562,6 @@
         "B6evqtezy9ZsGZG3": 3
       },
       "_key": "!actors.items!LYAMgF36uoHwnMFm.PlJImVPDqOWMSsfH"
-    },
-    {
-      "name": "Greatsword",
-      "type": "weapon",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Weapons/Greatsword.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 200
-        },
-        "isMartial": {
-          "value": true
-        },
-        "quality": {
-          "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "mainHand"
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 1
-        },
-        "damage": {
-          "value": 10
-        },
-        "type": {
-          "value": "melee"
-        },
-        "category": {
-          "value": "sword"
-        },
-        "hands": {
-          "value": "two-handed"
-        },
-        "impType": {
-          "value": "minor"
-        },
-        "damageType": {
-          "value": "physical"
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR131"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "defense": "def"
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-weapons.Item.NrAHIyWTlJ4cyIYH"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1706649007862,
-        "modifiedTime": 1729286223489,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC",
-        "compendiumSource": "Compendium.fabula-ultima-core-rulebook.basic-weapons.Item.NrAHIyWTlJ4cyIYH",
-        "duplicateSource": null
-      },
-      "_id": "19YgUVaIyGu7S5xd",
-      "sort": -100000,
-      "_key": "!actors.items!LYAMgF36uoHwnMFm.19YgUVaIyGu7S5xd"
-    },
-    {
-      "name": "Steel Plate",
-      "type": "armor",
-      "img": "modules/fabula-ultima-core-rulebook/artwork/items/Basic%20Armor%20and%20Shields/Steel%20Plate.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 300
-        },
-        "isMartial": {
-          "value": true
-        },
-        "quality": {
-          "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "armor"
-        },
-        "def": {
-          "value": 12
-        },
-        "mdef": {
-          "value": 0
-        },
-        "init": {
-          "value": -4
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "attributes": {
-          "primary": {
-            "value": ""
-          },
-          "secondary": {
-            "value": "ins"
-          }
-        },
-        "source": {
-          "value": "FUCR132"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "hYECXwi6O8UUBuN4": 3,
-        "B6evqtezy9ZsGZG3": 3
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-core-rulebook.basic-armor.Item.ici5f4ZyrZbupoH2"
-        }
-      },
-      "_stats": {
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
-        "createdTime": 1706646625151,
-        "modifiedTime": 1716814633676,
-        "lastModifiedBy": "CLAzxWQsDDB8fCLx",
-        "compendiumSource": "Compendium.fabula-ultima-core-rulebook.basic-armor.Item.ici5f4ZyrZbupoH2",
-        "duplicateSource": null
-      },
-      "_id": "WHPjV3WmPnkt1DrK",
-      "sort": 100000,
-      "_key": "!actors.items!LYAMgF36uoHwnMFm.WHPjV3WmPnkt1DrK"
     },
     {
       "name": "Guardian",
@@ -846,12 +652,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.ARBTZXtCwUzlyIyy",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729282375016,
         "modifiedTime": 1729282376214,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "gmoYXjKX8FvtNKfq",
       "sort": 700000,
@@ -940,12 +747,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.kVSzbabb2AUviwnH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729282383713,
         "modifiedTime": 1729282383713,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -1092,12 +900,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729282430547,
         "modifiedTime": 1745938410312,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 400000,
       "_key": "!actors.items!LYAMgF36uoHwnMFm.MJKpLuiiWxpeTQyo"
@@ -1237,12 +1046,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729282438273,
         "modifiedTime": 1729286248991,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "sort": 500000,
       "_key": "!actors.items!LYAMgF36uoHwnMFm.sBpSGtdRW9WzimgG"
@@ -1342,12 +1152,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285683304,
         "modifiedTime": 1729286236031,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "qbxe37Bi1gaHwARe",
       "sort": -200000,
@@ -1398,12 +1209,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932590904,
         "modifiedTime": 1745932590904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "Q4Y8ogxPOsbXWrlJ",
       "sort": 87500,
@@ -1449,12 +1261,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932590904,
         "modifiedTime": 1745932590904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "PS0KpKSTW5hizWPj",
       "sort": 100000,
@@ -1500,12 +1313,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932590904,
         "modifiedTime": 1745932590904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "hBX5zcwfstmiVefd",
       "sort": 0,
@@ -1551,12 +1365,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932590904,
         "modifiedTime": 1745932590904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "Gvl6bIWgKAhcNTK5",
       "sort": 75000,
@@ -1602,12 +1417,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745932590904,
         "modifiedTime": 1745932590904,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "yO18ChrmQoI1ze8T",
       "sort": 50000,
@@ -1699,12 +1515,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.WLjUavn6dDW5T8xl",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938394739,
         "modifiedTime": 1745938399558,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "8hSoYAl7hEBhW3bd",
       "sort": -100000,
@@ -1796,15 +1613,180 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.7jWycVYFgZ1BMxch",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745938408734,
         "modifiedTime": 1745938408734,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 200000,
       "_key": "!actors.items!LYAMgF36uoHwnMFm.ZDgHZfTlcFLuqDqa"
+    },
+    {
+      "name": "Greatsword",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/greatsword.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "damage": {
+          "value": 10
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "sword"
+        },
+        "hands": {
+          "value": "two-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": "FUCR131",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "greatsword",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "traits": []
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.ZhUOJC4AYqGtteQa",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092238797,
+        "modifiedTime": 1761092238797,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "ZhUOJC4AYqGtteQa",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!LYAMgF36uoHwnMFm.ZhUOJC4AYqGtteQa"
+    },
+    {
+      "name": "Steel Plate",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/steel-plate.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 300
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 12,
+          "attribute": ""
+        },
+        "mdef": {
+          "value": 0,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": -4
+        },
+        "source": "[object Object]",
+        "fuid": "steel-plate",
+        "slots": "alpha",
+        "items": []
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.3CGBfWi3HRQeCoqg",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092242374,
+        "modifiedTime": 1761092242374,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "_id": "3CGBfWi3HRQeCoqg",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "_key": "!actors.items!LYAMgF36uoHwnMFm.3CGBfWi3HRQeCoqg"
     }
   ],
   "effects": [],
@@ -1815,12 +1797,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1715056222498,
-    "modifiedTime": 1729282330820,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1761092244032,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

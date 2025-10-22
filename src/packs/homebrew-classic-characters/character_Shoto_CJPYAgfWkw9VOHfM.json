@@ -296,7 +296,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -361,7 +360,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -459,12 +465,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862458559,
         "modifiedTime": 1745862458559,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "2f0vfZhdnFVsRcGl",
       "sort": 0,
@@ -561,12 +568,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.xXe5AGe88CXj2z2A",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862476090,
         "modifiedTime": 1745863978540,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "1G6US45vCyee1sKH",
       "sort": 0,
@@ -655,12 +663,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.vSE3PMoHTGLC1yzG",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862480661,
         "modifiedTime": 1745862540511,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -767,12 +776,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.z4qfwCzJpig79JHd",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862489436,
         "modifiedTime": 1745862506593,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "ogwGYRmRKO1vvmpk",
       "sort": 0,
@@ -878,12 +888,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.z4qfwCzJpig79JHd",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862490284,
         "modifiedTime": 1745862506953,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "xC023ahzQlBszuYt",
       "sort": 0,
@@ -945,12 +956,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.he3PXlM5vLUb28qz",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862494797,
         "modifiedTime": 1745862494797,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "OyY3db7LuJ2HWS39",
       "sort": 0,
@@ -1042,12 +1054,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862521355,
         "modifiedTime": 1745862573241,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "dmHKlMA555Wbup0t",
       "_key": "!actors.items!CJPYAgfWkw9VOHfM.dmHKlMA555Wbup0t"
@@ -1134,12 +1147,13 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862524336,
         "modifiedTime": 1745862573241,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_key": "!actors.items!CJPYAgfWkw9VOHfM.HCuVPZRZRPs16m5D"
     },
@@ -1225,312 +1239,17 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745862536433,
         "modifiedTime": 1745862573241,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "eAKKS69Z5smNK8vP",
       "sort": 300000,
       "_key": "!actors.items!CJPYAgfWkw9VOHfM.eAKKS69Z5smNK8vP"
-    },
-    {
-      "folder": "NZHiCa0mU3DKOiVo",
-      "name": "Flare",
-      "type": "spell",
-      "_id": "HAPI1JNfvrAC6p5s",
-      "img": "icons/magic/fire/blast-jet-stream-splash.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. The target suffers <strong>【HR + 25】 fire</strong> damage.</p><p>Damage dealt by this spell <strong>ignores Resistances</strong>.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "duration": {
-          "value": "instantaneous"
-        },
-        "isOffensive": {
-          "value": true
-        },
-        "source": {
-          "value": "FUCR188"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": true
-            },
-            "type": {
-              "value": "fire"
-            },
-            "value": 25
-          }
-        },
-        "hasRoll": {
-          "value": true
-        },
-        "opportunity": "",
-        "fuid": "flare",
-        "traits": [
-          "IgnoreResistances"
-        ],
-        "cost": {
-          "resource": "mp",
-          "amount": 20
-        },
-        "targeting": {
-          "max": 1,
-          "rule": "single"
-        }
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.spells.Item.z3MJucbao8SYheqG",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745863942884,
-        "modifiedTime": 1745864042120,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": 0,
-      "_key": "!actors.items!CJPYAgfWkw9VOHfM.HAPI1JNfvrAC6p5s"
-    },
-    {
-      "folder": "NZHiCa0mU3DKOiVo",
-      "name": "Soaring Strike",
-      "type": "spell",
-      "_id": "PvH7U5PQolsCM3Js",
-      "img": "icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>The wind carries your strikes across the battlefield. You may immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack may target creatures that can only be targeted by <strong>ranged</strong> attacks.</p><p>If you used a weapon belonging to the <strong>brawling</strong> or <strong>spear</strong> Category for this attack, it deals 5 extra damage.</p><p>If you hit a flying target with this attack, you may force them to land immediately.</p>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "duration": {
-          "value": "instantaneous"
-        },
-        "isOffensive": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR189"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 5
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "opportunity": "",
-        "fuid": "soaring-strike",
-        "traits": [
-          "IgnoreResistances"
-        ],
-        "cost": {
-          "resource": "mp",
-          "amount": 10
-        },
-        "targeting": {
-          "max": 1,
-          "rule": "single"
-        }
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.spells.Item.ERyYzi4cjxjAp7Xw",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745863945375,
-        "modifiedTime": 1745864042431,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": 0,
-      "_key": "!actors.items!CJPYAgfWkw9VOHfM.PvH7U5PQolsCM3Js"
     },
     {
       "name": "Elemental Shard",
@@ -1572,12 +1291,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745936602937,
         "modifiedTime": 1745936602937,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "GkGVBqeo0FD8nkAy",
       "sort": 87500,
@@ -1623,12 +1343,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745936602937,
         "modifiedTime": 1745936602937,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "Sag7nUAkLQzdtSTy",
       "sort": 100000,
@@ -1674,12 +1395,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745936602937,
         "modifiedTime": 1745936602937,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "3KyPr0wsH25LKzjw",
       "sort": 0,
@@ -1725,12 +1447,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745936602937,
         "modifiedTime": 1745936602937,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "saavLKUa89jZmHcm",
       "sort": 75000,
@@ -1776,16 +1499,301 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745936602937,
         "modifiedTime": 1745936602937,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "OYTZ93o7zpEP3iE8",
       "sort": 50000,
       "_key": "!actors.items!CJPYAgfWkw9VOHfM.OYTZ93o7zpEP3iE8"
+    },
+    {
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Flare",
+      "type": "spell",
+      "_id": "z3MJucbao8SYheqG",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/flare.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. The target suffers <strong>【HR + 25】 fire</strong> damage.</p><p>Damage dealt by this spell <strong>ignores Resistances</strong>.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": "FUCR188",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "fire"
+            },
+            "value": 25
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "",
+        "fuid": "flare",
+        "traits": [
+          "IgnoreResistances"
+        ],
+        "cost": {
+          "resource": "mp",
+          "amount": 20,
+          "perTarget": false
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.z3MJucbao8SYheqG",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092731534,
+        "modifiedTime": 1761092731534,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 0,
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.z3MJucbao8SYheqG"
+    },
+    {
+      "folder": "NZHiCa0mU3DKOiVo",
+      "name": "Soaring Strike",
+      "type": "spell",
+      "_id": "ERyYzi4cjxjAp7Xw",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/soaring_strike.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>The wind carries your strikes across the battlefield. You may immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack may target creatures that can only be targeted by <strong>ranged</strong> attacks.</p><p>If you used a weapon belonging to the <strong>brawling</strong> or <strong>spear</strong> Category for this attack, it deals 5 extra damage.</p><p>If you hit a flying target with this attack, you may force them to land immediately.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": "FUCR189",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 5
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "soaring-strike",
+        "traits": [
+          "IgnoreResistances"
+        ],
+        "cost": {
+          "resource": "mp",
+          "amount": 10,
+          "perTarget": false
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.ERyYzi4cjxjAp7Xw",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092735134,
+        "modifiedTime": 1761092735134,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 0,
+      "_key": "!actors.items!CJPYAgfWkw9VOHfM.ERyYzi4cjxjAp7Xw"
     }
   ],
   "effects": [],
@@ -1799,12 +1807,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745862458514,
     "modifiedTime": 1745862580333,
-    "lastModifiedBy": "9aR18wpxqiStEQ8U"
+    "lastModifiedBy": "9aR18wpxqiStEQ8U",
+    "exportSource": null
   },
   "_key": "!actors!CJPYAgfWkw9VOHfM"
 }

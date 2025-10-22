@@ -27,20 +27,20 @@
         "B6evqtezy9ZsGZG3": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.fArjgN0xF1QmhtXe.JournalEntryPage.km9TmJ1MAJNe6yWz"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715116371481,
         "modifiedTime": 1716822506778,
         "lastModifiedBy": "CLAzxWQsDDB8fCLx",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.fArjgN0xF1QmhtXe.JournalEntryPage.km9TmJ1MAJNe6yWz",
+        "duplicateSource": null,
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!J9UR8eVsU7XhlOLw.km9TmJ1MAJNe6yWz"
     }
   ],
@@ -54,12 +54,14 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1716736485418,
     "modifiedTime": 1716822506778,
     "lastModifiedBy": "CLAzxWQsDDB8fCLx",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
+  "categories": [],
   "_key": "!journal!J9UR8eVsU7XhlOLw"
 }

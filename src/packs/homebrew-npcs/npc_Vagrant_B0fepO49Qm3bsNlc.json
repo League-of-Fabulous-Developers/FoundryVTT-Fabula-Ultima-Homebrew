@@ -238,7 +238,6 @@
     "detectionModes": [],
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -253,7 +252,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -326,19 +332,18 @@
         "pBweP8B18hmB7U1j": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Actor.TIMkq8fwjl04se0F.Item.QajiHXVStnTEmdvL"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715804084215,
         "modifiedTime": 1729287752113,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": "Actor.TIMkq8fwjl04se0F.Item.QajiHXVStnTEmdvL",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.EQ9gJz0mqlVJfvtX"
     },
@@ -412,19 +417,18 @@
         "pBweP8B18hmB7U1j": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Actor.TIMkq8fwjl04se0F.Item.D4tYKP9yX6EI6vqD"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715804084426,
         "modifiedTime": 1729287747184,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": "Actor.TIMkq8fwjl04se0F.Item.D4tYKP9yX6EI6vqD",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.e0uZaHb0igfBve21"
     },
@@ -476,12 +480,13 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715805690970,
         "modifiedTime": 1729287765853,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.QIy1g9LZsjuFvht8"
     },
@@ -533,12 +538,13 @@
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715805691159,
         "modifiedTime": 1729287771986,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!B0fepO49Qm3bsNlc.cLrZvF89Tun7OTny"
     }
@@ -583,14 +589,15 @@
       },
       "_id": "2Z4k6lOPml7uO1wR",
       "_stats": {
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": null,
         "systemVersion": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "img": "/icons/svg/aura.svg",
       "type": "base",
@@ -636,14 +643,15 @@
       },
       "tint": "#ffffff",
       "_stats": {
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": null,
         "systemVersion": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
@@ -665,12 +673,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1715803445479,
     "modifiedTime": 1729288047712,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "B0fepO49Qm3bsNlc",
   "_key": "!actors!B0fepO49Qm3bsNlc"

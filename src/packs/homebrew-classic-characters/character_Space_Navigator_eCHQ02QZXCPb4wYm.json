@@ -227,7 +227,6 @@
     "detectionModes": [],
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -242,7 +241,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -372,19 +378,18 @@
         "CLAzxWQsDDB8fCLx": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "createdTime": 1715100922423,
         "modifiedTime": 1729284000693,
         "lastModifiedBy": "MZACGjYlT5yfbfPC",
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!eCHQ02QZXCPb4wYm.tV4VO0JfyOoYbYUG"
     },
@@ -471,12 +476,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.A24rkaeNHdKThN4N",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283961280,
         "modifiedTime": 1729283983560,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -571,12 +577,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.classes.Item.Zmqvu8QKmgyIci7C",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729283973808,
         "modifiedTime": 1729283973808,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -723,12 +730,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.Ko2QCUw6qbxhufwE",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729284009272,
         "modifiedTime": 1729284018329,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "sort": -100000,
       "_key": "!actors.items!eCHQ02QZXCPb4wYm.KNdnoj0Z7hDSSRTG"
@@ -803,12 +811,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.7OuAqOQEwAhZyyJq",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729284056193,
         "modifiedTime": 1729284056193,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "oE3vd1zbAop4uRc3",
       "sort": 0,
@@ -914,12 +923,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.DXbkF4xfyC9HNSXH",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729285501480,
         "modifiedTime": 1729285501480,
-        "lastModifiedBy": "MZACGjYlT5yfbfPC"
+        "lastModifiedBy": "MZACGjYlT5yfbfPC",
+        "exportSource": null
       },
       "_id": "NxilYISnroBjEc5z",
       "sort": 0,
@@ -1025,12 +1035,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.5M41BRhqgnUY1X8y",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1729286035043,
         "modifiedTime": 1745933095787,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "DM4qY1joNqhD8KAR",
       "sort": 0,
@@ -1081,12 +1092,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933094624,
         "modifiedTime": 1745933094624,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "QWFaF19ZhlcOh2NZ",
       "sort": 87500,
@@ -1132,12 +1144,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.consumables.Item.QYyuig5iy5mMN9F8",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933094624,
         "modifiedTime": 1745933094624,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "NxqrAxxZ5si8dU6D",
       "sort": 100000,
@@ -1183,12 +1196,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933094624,
         "modifiedTime": 1745933094624,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "WgJmWTtdwBBVdje1",
       "sort": 0,
@@ -1234,12 +1248,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933094624,
         "modifiedTime": 1745933094624,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "IGRihI0FKGPjMHtJ",
       "sort": 75000,
@@ -1285,308 +1300,17 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933094624,
         "modifiedTime": 1745933094624,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "uaWsdXwQnzzaTGTj",
       "sort": 50000,
       "_key": "!actors.items!eCHQ02QZXCPb4wYm.uaWsdXwQnzzaTGTj"
-    },
-    {
-      "folder": "3BdwBwfSnD04VRAz",
-      "name": "Acceleration",
-      "type": "spell",
-      "_id": "d9QUKujrAfTvviDn",
-      "img": "icons/magic/time/arrows-circling-pink.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You bend the fabric of time. Until this spell ends, the target gains the ability to perform a single additional action during each of their turns. Once the target has performed a total of two additional actions granted by this spell, this spell ends.</p><hr /><ul><li><p><strong>Target Receives</strong>: @EFFECT[Compendium.projectfu.spells.O8ZlgIEzCodMsadz]{Effect: Acceleration}</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Entropist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "duration": {
-          "value": "scene"
-        },
-        "isOffensive": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR192"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "opportunity": "",
-        "fuid": "acceleration",
-        "cost": {
-          "resource": "mp",
-          "amount": 20
-        },
-        "targeting": {
-          "max": 1,
-          "rule": "single"
-        },
-        "traits": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.spells.Item.odCKj31VovzmcEUw",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745933105155,
-        "modifiedTime": 1745933110817,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": 0,
-      "_key": "!actors.items!eCHQ02QZXCPb4wYm.d9QUKujrAfTvviDn"
-    },
-    {
-      "folder": "3BdwBwfSnD04VRAz",
-      "name": "Divination",
-      "type": "spell",
-      "_id": "NAnZ5jVUAQLkrkWO",
-      "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You glimpse briefly into the future. Until this spell ends, after a creature you can see performs a Check, if it was not a <strong>fumble</strong> nor a <strong>critical success</strong>, you may force that creature to reroll both dice. Once you have forced <strong>two</strong> rerolls this way, this spell ends.</p><hr /><ul><li><p><strong>Target Receive</strong>: @EFFECT[Compendium.projectfu.spells.Item.7Lt7jZqWTtyWXzYR]{Effect: Divination}</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Entropist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "duration": {
-          "value": "scene"
-        },
-        "isOffensive": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR192"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "opportunity": "",
-        "fuid": "divination",
-        "cost": {
-          "resource": "mp",
-          "amount": 10
-        },
-        "targeting": {
-          "max": 1,
-          "rule": "single"
-        },
-        "traits": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "9aR18wpxqiStEQ8U": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.projectfu.spells.Item.AAsEhxIBxlig3hRk",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1745933109045,
-        "modifiedTime": 1745933111545,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
-      },
-      "sort": 0,
-      "_key": "!actors.items!eCHQ02QZXCPb4wYm.NAnZ5jVUAQLkrkWO"
     },
     {
       "name": "Entropic Magic",
@@ -1667,12 +1391,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.vtmxLTltA4JvXFXu",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933123653,
         "modifiedTime": 1745933123653,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "O8uYJAuMN5M3sZ1a",
       "ownership": {
@@ -1770,12 +1495,13 @@
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.6pJAB6E29I15q1gU",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745933127313,
         "modifiedTime": 1745933170488,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "sort": 0,
       "_key": "!actors.items!eCHQ02QZXCPb4wYm.dYId8TyUQAkEYJA7"
@@ -1866,16 +1592,303 @@
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-classes.Item.GZCOjMGiVdCwwScN",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.350",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1745937971912,
         "modifiedTime": 1745937977157,
-        "lastModifiedBy": "9aR18wpxqiStEQ8U"
+        "lastModifiedBy": "9aR18wpxqiStEQ8U",
+        "exportSource": null
       },
       "_id": "Vm69t7vmGKPUupna",
       "sort": -200000,
       "_key": "!actors.items!eCHQ02QZXCPb4wYm.Vm69t7vmGKPUupna"
+    },
+    {
+      "folder": "3BdwBwfSnD04VRAz",
+      "name": "Acceleration",
+      "type": "spell",
+      "_id": "odCKj31VovzmcEUw",
+      "img": "systems/projectfu/styles/static/compendium/classes/entropist/spells/acceleration.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You bend the fabric of time. Until this spell ends, the target gains the ability to perform a single additional action during each of their turns. Once the target has performed a total of two additional actions granted by this spell, this spell ends.</p><hr /><ul><li><p><strong>Target Receives</strong>: @EFFECT[Compendium.projectfu.spells.Item.O8ZlgIEzCodMsadz]{Effect: Acceleration}</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "scene"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": "FUCR192",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "acceleration",
+        "cost": {
+          "resource": "mp",
+          "amount": 20,
+          "perTarget": false
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.odCKj31VovzmcEUw",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092768311,
+        "modifiedTime": 1761092776485,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 0,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.odCKj31VovzmcEUw"
+    },
+    {
+      "folder": "3BdwBwfSnD04VRAz",
+      "name": "Divination",
+      "type": "spell",
+      "_id": "AAsEhxIBxlig3hRk",
+      "img": "systems/projectfu/styles/static/compendium/classes/entropist/spells/divination.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You glimpse briefly into the future. Until this spell ends, after a creature you can see performs a Check, if it was not a <strong>fumble</strong> nor a <strong>critical success</strong>, you may force that creature to reroll both dice. Once you have forced <strong>two</strong> rerolls this way, this spell ends.</p><hr /><ul><li><p><strong>Target Receive</strong>: @EFFECT[Compendium.projectfu.spells.Item.7Lt7jZqWTtyWXzYR]{Effect: Divination}</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "scene"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": "FUCR192",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "divination",
+        "cost": {
+          "resource": "mp",
+          "amount": 10,
+          "perTarget": false
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "93RRHGE4s1SwaU2P": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.spells.Item.AAsEhxIBxlig3hRk",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1761092772558,
+        "modifiedTime": 1761092779730,
+        "lastModifiedBy": "93RRHGE4s1SwaU2P"
+      },
+      "sort": 0,
+      "_key": "!actors.items!eCHQ02QZXCPb4wYm.AAsEhxIBxlig3hRk"
     }
   ],
   "effects": [],
@@ -1884,12 +1897,13 @@
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1716811814714,
     "modifiedTime": 1729286036591,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

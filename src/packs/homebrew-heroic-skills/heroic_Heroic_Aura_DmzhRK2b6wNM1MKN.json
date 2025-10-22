@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><em><strong>Requirements :</strong> You must have mastered the <strong>Hero</strong> class.</em></p></blockquote><p>Player Characters that are present in the scene and have a bond with you, may spend 1 Fabula Point after being targeted with an Attack or Offensive Spell to increase their Defense or Magic Defense by <strong>【the Strength of that bond】</strong> against that Attack or Offensive Spell.</p>",
+    "description": "<blockquote><p><em><strong>Requirements :</strong> You must have mastered one or more Classes among <strong>Guardian</strong> and <strong>Hero</strong>.</em></p></blockquote><p>When an ally that you have a <strong>Bond</strong> with and is present on the scene suffers damage, you may spend a Fabula Point to reduce that damage by an amount equal to <strong>【7 + the strength of the Bond you have with them】</strong> (applied before damage Affinities).</p><hr /><ul><li><p><strong>You Spend:</strong> @LOSS[1 fp]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -105,16 +105,21 @@
     "default": 0,
     "B6evqtezy9ZsGZG3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1713031878571,
-    "modifiedTime": 1729282101496,
-    "lastModifiedBy": "MZACGjYlT5yfbfPC",
+    "modifiedTime": 1761089832661,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!DmzhRK2b6wNM1MKN"
 }

@@ -5,9 +5,9 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": "I'll defeat evil and bring peace to the world!"
+      "value": "What we seek is to help people, not words of appreciation."
     },
-    "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Champion, Chosen One, Savior</strong></h5><ul><li><p>What lit your desire to help those in need?</p></li><li><p>How far are you willing to go when helping others? Would you risk your life?</p></li><li><p>What makes you seek connections with people you meet? What is your strongest one?</p></li><li><p>Is there something that can break your will?</p></li></ul><hr><h5>HERO<strong> FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points <strong>or</strong> Mind Points by 5 (your choice).</p></li><li><p>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial shields</strong>.</p></li></ul><h3>HERO<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MCrVhNlP4jbzdJi6]{A Hero's Purpose} <strong>(SL3)</strong></p><p>Once per session, when you <strong>save an NPC</strong> or <strong>community from danger</strong> or <strong>complete a quest for them</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4NcCRrGyuuOrgI8J]{It Was Destiny}</p><p>You may use an action and spend 1 Fabula Point to create a bond with 1 emotion tied to it, <strong>or</strong> add or change 1 emotion to a bond you have, <strong>or</strong> add or change 1 emotion to a bond another Player Character present in the scene has with you (with their permission).<br>Explain how destiny affected your relationships.</p><p>If you have the <strong>Ties That Bind</strong> skill, you may spend 20 Mind Points and immediately use it with no Fabula Point cost to invoke the bond you just created or altered with this skill.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.qg39quSjbKuvHLPo]{Power Of Friendship} <strong>(SL2)</strong></p><p>You gain a number of extra <strong>bond slots</strong> equal to <strong>【SL】</strong> .<br>Additionally, once per session, If a Villain brings you to 0 Hit Points and you <strong>Surrender</strong>, you may immediately spend 2 Fabula Points to return to the Conflict with <strong>【Number of Bond × 5】</strong> Hit Points. Then, the Villain loses 1 Ultima Point.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iIBms0agbwthfoEz]{Resolve} <strong>(SL5)</strong></p><p>You may use an action and spend 1 Fabula Point to recover from all status effects and also recover <strong>【SL × 5】</strong>Mind Points.</p><hr><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.89brp9KWRYdJlvgZ]{Ties That Bind} <strong>(SL5)</strong></p><p>After you invoke a bond, you or the creature of that bond may recover a number of Hit Points or Mind Points equal to <strong>【SL × the Strength of that bond】</strong> , <strong>or</strong> a creature of your choice present in the scene may lose a number of Hit Points or Mind Points equal to <strong>【SL × the Strength of that bond】</strong> .</p></div><p></p><div class=\"stackedit__html\"><div class=\"stackedit__html\"><h2>HEROIC SKILLS</h2></div><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.lrhl1WGyjTLvgV3B]{Fabula Impetum}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.DmzhRK2b6wNM1MKN]{Heroic Aura}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Tails</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
+    "description": "<div class=\"stackedit__html\"><h5><strong>ALSO: Champion, Chosen One, Savior</strong></h5><p>Often written in legends, a <strong>Hero</strong> is the embodiment of light and hope in a land plagued by darkness and despair. Together with their fellow companions, heroes travel the world seeking to help people in need and defeat forces of evil. Their only true reward, is maybe one day being remembered by those whose lives they impacted.</p><hr /><h5>HERO<strong> FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points by 5.</p></li><li><p>Gain the ability to equip <strong>martial shields</strong>, and choose one: gain the ability to equip <strong>martial melee weapons</strong>; or gain the ability to equip <strong>martial ranged weapons</strong>.</p></li></ul><h3>HERO<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.MCrVhNlP4jbzdJi6]{A Hero's Purpose} <strong>(SL3)</strong></p><p>Once per session, when you <strong>save one or more NPCs from danger, complete a quest for one or more NPCs</strong>, or <strong>one or more Villains reach 0 Ultima Points while you are present on the scene</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4NcCRrGyuuOrgI8J]{It Was Destiny}</p><p>Once per session, you may spend a Fabula Point to create a new <strong>Bond</strong> towards someone or something, or add an <strong>emotion</strong> to one of your existing <strong>Bonds</strong>; this doesn’t require an action, but during a conflict it can only be done on your turn, <strong>while no effect is being resolved</strong>. Explain how destiny affected your relationships!</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.qg39quSjbKuvHLPo]{Power Of Friendship} <strong>(SL2)</strong></p><p>You gain a number of extra <strong>Bond slots</strong> equal to <strong>【SL】</strong> .</p><p>Additionally, when you invoke a <strong>Bond</strong> to improve the Accuracy Check of an attack, that attack deals extra damage equal to <strong>【the strength of that Bond】</strong> .</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iIBms0agbwthfoEz]{Resolve} <strong>(SL5)</strong></p><p>During a conflict, you may use an action and spend a Fabula Point to recover from all status effects and also recover <strong>【10 + (SL x 10)】</strong> Mind Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.89brp9KWRYdJlvgZ]{Ties That Bind} <strong>(SL5)</strong></p><p>When you invoke a <strong>Bond</strong>, you may choose an ally present on the scene: they recover <strong>【SL x 4】 </strong>Hit Points <strong>or</strong> Mind points (your choice). If the <strong>Bond</strong> you invoked is with the ally you chose, that ally instead recovers both <strong>【SL x 4】</strong> it Points <strong>and</strong> Mind Points.</p></div><p></p><div class=\"stackedit__html\"><div class=\"stackedit__html\"><h2>HEROIC SKILLS</h2></div><p>“Mastery of the <strong>Hero</strong> Class” is included in the Requirements of the following existing Heroic Skills: <strong>Disarming Rhetoric</strong>, <strong>Heroic Companion</strong>, and <strong>Unbreakable</strong> (<strong>Core Rulebook</strong>, pages <strong>235</strong>, <strong>236 </strong>and <strong>240</strong>, respectively), <strong>Arcane Soldier</strong> (<strong>Techno Fantasy Atlas</strong>, page <strong>171</strong>), and <strong>Brave Bash</strong> and <strong>Cheer Up!</strong> (<strong>Natural Fantasy Atlas</strong>, page <strong>163</strong>).</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.lrhl1WGyjTLvgV3B]{Fabula Impetum}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.DmzhRK2b6wNM1MKN]{Heroic Aura}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.V5zFlTpLppmjoXuZ]{Making Legend}</p></div><p></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Tails (@tailspr)</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
     "isFavored": {
       "value": false
     },
@@ -22,7 +22,7 @@
     "benefits": {
       "resources": {
         "hp": {
-          "value": false
+          "value": true
         },
         "mp": {
           "value": false
@@ -33,7 +33,7 @@
       },
       "martials": {
         "melee": {
-          "value": true
+          "value": false
         },
         "ranged": {
           "value": false
@@ -78,17 +78,21 @@
     "B6evqtezy9ZsGZG3": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.331",
+    "coreVersion": "13.350",
     "createdTime": 1712414014626,
-    "modifiedTime": 1745880603811,
-    "lastModifiedBy": "9aR18wpxqiStEQ8U",
+    "modifiedTime": 1761090243806,
+    "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "zW3W4M7smyEvPVWO",
   "sort": 0,
