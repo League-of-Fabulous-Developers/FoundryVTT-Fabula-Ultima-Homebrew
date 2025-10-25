@@ -1,6 +1,6 @@
 {
 	"name": "fabula-ultima-homebrew",
-	"version": "0.0.1",
+	"version": "0.0.12",
 	"description": "A community homebrew module for Fabula Ultima system",
 	"scripts": {
 		"unpack": "node ./tools/pushLDBtoYML.mjs",
