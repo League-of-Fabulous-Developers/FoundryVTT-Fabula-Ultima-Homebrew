@@ -24,7 +24,7 @@
       "min": 0
     },
     "class": {
-      "value": "lightbearer"
+      "value": "lightbearer,orator"
     },
     "useWeapon": {
       "accuracy": {

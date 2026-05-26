@@ -20,7 +20,7 @@
       "value": false
     },
     "class": {
-      "value": "ritualist"
+      "value": "guardian,ritualist"
     },
     "hasResource": {
       "value": false

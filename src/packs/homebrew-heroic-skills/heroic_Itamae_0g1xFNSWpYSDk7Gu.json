@@ -23,7 +23,7 @@
       "min": 0
     },
     "class": {
-      "value": "angler"
+      "value": "angler,gourmet"
     },
     "useWeapon": {
       "accuracy": {
