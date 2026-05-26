@@ -67,14 +67,14 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "10 × T"
+    "cost": {
+      "amount": "10 × T"
     },
     "target": {
       "value": "Up to three creatures"
     },
     "duration": {
-      "value": "Instantaneous"
+      "value": "instantaneous"
     },
     "isOffensive": {
       "value": true

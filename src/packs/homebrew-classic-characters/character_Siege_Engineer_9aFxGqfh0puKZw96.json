@@ -637,7 +637,7 @@
           "value": "Up to three creatures"
         },
         "duration": {
-          "value": "Scene"
+          "value": "scene"
         },
         "isOffensive": {
           "value": false

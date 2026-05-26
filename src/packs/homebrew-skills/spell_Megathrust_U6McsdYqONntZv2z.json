@@ -67,14 +67,14 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "20"
+    "cost": {
+      "amount": "20"
     },
     "target": {
       "value": "Special"
     },
     "duration": {
-      "value": "Instantaneous"
+      "value": "instantaneous"
     },
     "isOffensive": {
       "value": false

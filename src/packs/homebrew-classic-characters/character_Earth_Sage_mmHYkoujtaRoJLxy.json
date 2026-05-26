@@ -357,7 +357,7 @@
           "value": "Up to three creatures"
         },
         "duration": {
-          "value": "Instantaneous"
+          "value": "instantaneous"
         },
         "isOffensive": {
           "value": true

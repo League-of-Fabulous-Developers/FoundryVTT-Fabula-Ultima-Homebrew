@@ -67,8 +67,8 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "15"
+    "cost": {
+      "amount": "15"
     },
     "target": {
       "value": "Two creatures"

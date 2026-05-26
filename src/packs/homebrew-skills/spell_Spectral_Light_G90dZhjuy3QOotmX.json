@@ -68,8 +68,8 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "5"
+    "cost": {
+      "amount": "5"
     },
     "maxTargets": {
       "value": 3
