@@ -25,7 +25,7 @@
       "min": 0
     },
     "class": {
-      "value": "Illusionist"
+      "value": "illusionist"
     },
     "useWeapon": {
       "accuracy": {
@@ -95,9 +95,7 @@
         }
       }
     },
-    "source": {
-      "value": "FULF"
-    }
+    "source": "FULF"
   },
   "effects": [],
   "sort": 0,
@@ -105,7 +103,12 @@
     "default": 0,
     "MZACGjYlT5yfbfPC": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -113,7 +116,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728427232325,
-    "modifiedTime": 1745889521532,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

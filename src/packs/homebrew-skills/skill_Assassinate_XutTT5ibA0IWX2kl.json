@@ -22,7 +22,7 @@
       "min": 0
     },
     "class": {
-      "value": "Assassin"
+      "value": "assassin"
     },
     "useWeapon": {
       "accuracy": {
@@ -79,9 +79,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -121,13 +119,17 @@
     "fuid": "assassinate"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1712415118257,
-    "modifiedTime": 1745857133504,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null,

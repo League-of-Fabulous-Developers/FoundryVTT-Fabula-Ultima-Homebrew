@@ -23,7 +23,7 @@
       "min": 0
     },
     "class": {
-      "value": "Angler"
+      "value": "angler"
     },
     "useWeapon": {
       "accuracy": {
@@ -93,9 +93,7 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "itamae"
   },
   "effects": [],
@@ -104,13 +102,18 @@
     "default": 0,
     "B6evqtezy9ZsGZG3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1715038156384,
-    "modifiedTime": 1731169222472,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "eGFjUCXxDy8l2KwV",
     "compendiumSource": null,
     "duplicateSource": null,

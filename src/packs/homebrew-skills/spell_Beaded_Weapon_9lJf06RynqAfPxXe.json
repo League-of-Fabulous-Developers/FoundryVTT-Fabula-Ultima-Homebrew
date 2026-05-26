@@ -84,9 +84,7 @@
     "isOffensive": {
       "value": false
     },
-    "source": {
-      "value": "FULF"
-    },
+    "source": "FULF",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -125,7 +123,12 @@
     "default": 0,
     "MZACGjYlT5yfbfPC": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

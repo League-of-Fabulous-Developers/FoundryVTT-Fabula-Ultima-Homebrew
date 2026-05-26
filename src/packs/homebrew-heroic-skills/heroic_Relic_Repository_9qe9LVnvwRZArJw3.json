@@ -24,7 +24,7 @@
       "min": 0
     },
     "class": {
-      "value": "Dungeoneer"
+      "value": "dungeoneer"
     },
     "useWeapon": {
       "accuracy": {
@@ -94,9 +94,7 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "relic-repository"
   },
   "effects": [],
@@ -105,13 +103,18 @@
     "default": 0,
     "B6evqtezy9ZsGZG3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1716742094952,
-    "modifiedTime": 1729282101336,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null,

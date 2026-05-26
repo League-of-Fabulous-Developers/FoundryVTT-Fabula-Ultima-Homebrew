@@ -17,7 +17,7 @@
       "value": false
     },
     "class": {
-      "value": "Malefactor"
+      "value": "malefactor"
     },
     "useWeapon": {
       "accuracy": {
@@ -80,9 +80,7 @@
     "isOffensive": {
       "value": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -117,7 +115,12 @@
     "fuid": "dither"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",

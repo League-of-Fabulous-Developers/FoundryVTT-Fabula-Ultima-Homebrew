@@ -21,7 +21,7 @@
       "min": 0
     },
     "class": {
-      "value": "Celebrity"
+      "value": "celebrity"
     },
     "useWeapon": {
       "accuracy": {
@@ -76,9 +76,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -119,14 +117,17 @@
   },
   "effects": [],
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "classConverted": true
+    }
   },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1715791034905,
-    "modifiedTime": 1729282026725,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null,

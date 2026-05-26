@@ -22,7 +22,7 @@
       "min": 0
     },
     "class": {
-      "value": "Tectonomancer"
+      "value": "tectonomancer"
     },
     "useWeapon": {
       "accuracy": {
@@ -92,22 +92,24 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "legendary-metal"
   },
   "effects": [],
   "folder": "Ed821xpGKSbM8rIv",
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
   },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1715059888237,
-    "modifiedTime": 1729282101985,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null,

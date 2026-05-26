@@ -20,7 +20,7 @@
       "min": 0
     },
     "class": {
-      "value": "Predator"
+      "value": "predator"
     },
     "useWeapon": {
       "accuracy": {
@@ -67,9 +67,7 @@
         "value": "physical"
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -115,14 +113,17 @@
     "YN7AhHIwAZeH33Tw": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "classConverted": true
+    }
   },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1709317931671,
-    "modifiedTime": 1745929246290,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "compendiumSource": null,
     "duplicateSource": null,

@@ -67,9 +67,7 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "celebrity"
   },
   "effects": [],

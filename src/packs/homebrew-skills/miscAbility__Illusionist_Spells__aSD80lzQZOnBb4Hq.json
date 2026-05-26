@@ -86,9 +86,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": "FULF"
-    },
+    "source": "FULF",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {

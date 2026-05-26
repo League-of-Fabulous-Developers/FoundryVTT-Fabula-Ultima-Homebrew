@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": "Brawler"
+      "value": "brawler"
     },
     "hasResource": {
       "value": false
@@ -32,9 +32,7 @@
     "requirement": {
       "value": ""
     },
-    "source": {
-      "value": "Homebrew"
-    }
+    "source": "Homebrew"
   },
   "effects": [],
   "folder": "FEQBk6SKyhMTM5ay",
@@ -42,7 +40,12 @@
     "default": 0,
     "9aR18wpxqiStEQ8U": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -50,7 +53,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745858170681,
-    "modifiedTime": 1745858170681,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

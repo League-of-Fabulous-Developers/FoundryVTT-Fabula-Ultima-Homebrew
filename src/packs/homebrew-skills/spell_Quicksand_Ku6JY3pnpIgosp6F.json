@@ -79,9 +79,7 @@
     "isOffensive": {
       "value": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -116,7 +114,12 @@
     "fuid": "quicksand"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",

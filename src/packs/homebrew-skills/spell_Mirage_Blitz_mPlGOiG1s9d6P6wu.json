@@ -83,9 +83,7 @@
     "isOffensive": {
       "value": true
     },
-    "source": {
-      "value": "FULF"
-    },
+    "source": "FULF",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -117,12 +115,15 @@
       "value": true
     },
     "opportunity": "",
-    "traits": [
-      "IgnoreResistances"
-    ]
+    "traits": ["IgnoreResistances"]
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

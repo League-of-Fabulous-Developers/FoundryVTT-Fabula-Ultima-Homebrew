@@ -23,7 +23,7 @@
       "min": 0
     },
     "class": {
-      "value": "Improviser"
+      "value": "improviser"
     },
     "useWeapon": {
       "accuracy": false,
@@ -52,9 +52,7 @@
       "max": 6,
       "enabled": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "hasRoll": {
       "value": false
     },
@@ -74,7 +72,11 @@
     "default": 0,
     "9aR18wpxqiStEQ8U": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.s8ZQJvGKezOPHkuz",
     "duplicateSource": null,
@@ -82,7 +84,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745860388779,
-    "modifiedTime": 1745860388779,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

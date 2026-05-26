@@ -23,7 +23,7 @@
       "min": 0
     },
     "class": {
-      "value": "Hunter"
+      "value": "hunter"
     },
     "useWeapon": {
       "accuracy": {
@@ -80,9 +80,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": "FULF"
-    },
+    "source": "FULF",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -170,7 +168,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1728420454824,
-        "modifiedTime": 1745928390380,
+        "modifiedTime": 1779790072334,
         "lastModifiedBy": "9aR18wpxqiStEQ8U",
         "exportSource": null
       },
@@ -182,7 +180,12 @@
     "default": 0,
     "MZACGjYlT5yfbfPC": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -190,7 +193,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728420263424,
-    "modifiedTime": 1745886008295,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

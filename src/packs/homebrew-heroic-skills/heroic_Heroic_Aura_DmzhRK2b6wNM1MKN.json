@@ -24,7 +24,7 @@
       "min": 0
     },
     "class": {
-      "value": "Hero"
+      "value": "hero"
     },
     "useWeapon": {
       "accuracy": {
@@ -94,9 +94,7 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "heroic-aura"
   },
   "effects": [],
@@ -107,7 +105,8 @@
   },
   "flags": {
     "projectfu": {
-      "favorite": false
+      "favorite": false,
+      "classConverted": true
     }
   },
   "_stats": {
@@ -115,7 +114,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1713031878571,
-    "modifiedTime": 1761089832661,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "93RRHGE4s1SwaU2P",
     "compendiumSource": null,
     "duplicateSource": null,

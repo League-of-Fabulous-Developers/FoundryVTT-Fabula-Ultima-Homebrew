@@ -41,7 +41,8 @@
   },
   "flags": {
     "projectfu": {
-      "favorite": false
+      "favorite": false,
+      "classConverted": true
     }
   },
   "_stats": {
@@ -52,7 +53,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1761089875130,
-    "modifiedTime": 1761090101976,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "93RRHGE4s1SwaU2P"
   },
   "_key": "!items!V5zFlTpLppmjoXuZ"

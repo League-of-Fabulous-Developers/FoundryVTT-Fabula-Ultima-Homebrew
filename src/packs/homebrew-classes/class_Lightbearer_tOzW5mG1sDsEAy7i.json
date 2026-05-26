@@ -66,9 +66,7 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "lightbearer"
   },
   "effects": [],

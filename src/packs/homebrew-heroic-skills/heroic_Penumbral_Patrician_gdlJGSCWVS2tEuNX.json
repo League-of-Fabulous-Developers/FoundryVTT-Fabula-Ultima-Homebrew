@@ -23,7 +23,7 @@
       "min": 0
     },
     "class": {
-      "value": "Vampire"
+      "value": "vampire"
     },
     "useWeapon": {
       "accuracy": {
@@ -93,19 +93,22 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "penumbral-patrician"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1712423219042,
-    "modifiedTime": 1729282101837,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null,
