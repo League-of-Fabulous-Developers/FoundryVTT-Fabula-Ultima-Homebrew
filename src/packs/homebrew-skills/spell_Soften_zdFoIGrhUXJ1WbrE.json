@@ -16,7 +16,7 @@
       "value": false
     },
     "class": {
-      "value": "Malefactor"
+      "value": "malefactor"
     },
     "useWeapon": {
       "accuracy": {
@@ -67,8 +67,8 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "20"
+    "cost": {
+      "amount": "20"
     },
     "target": {
       "value": "One creature"
@@ -79,9 +79,7 @@
     "isOffensive": {
       "value": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -116,7 +114,12 @@
     "fuid": "soften"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",

@@ -21,7 +21,7 @@
       "min": 0
     },
     "class": {
-      "value": "Unchained"
+      "value": "unchained"
     },
     "useWeapon": {
       "accuracy": {
@@ -76,9 +76,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -118,13 +116,17 @@
     "fuid": "sabotage-champion"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1715089005146,
-    "modifiedTime": 1729282029314,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null,

@@ -22,7 +22,7 @@
       "min": 0
     },
     "class": {
-      "value": "Hunter"
+      "value": "hunter"
     },
     "useWeapon": {
       "accuracy": {
@@ -77,9 +77,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -119,13 +117,17 @@
     "fuid": "bloodhound"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1715054358875,
-    "modifiedTime": 1729282024801,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null,

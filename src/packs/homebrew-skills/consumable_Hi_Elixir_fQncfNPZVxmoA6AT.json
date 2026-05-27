@@ -20,9 +20,7 @@
     "ipCost": {
       "value": 4
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "hi-elixir"
   },
   "effects": [],

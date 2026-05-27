@@ -16,7 +16,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "tectonomancer"
     },
     "useWeapon": {
       "accuracy": {
@@ -67,21 +67,19 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "20"
+    "cost": {
+      "amount": "20"
     },
     "target": {
       "value": "Special"
     },
     "duration": {
-      "value": "Instantaneous"
+      "value": "instantaneous"
     },
     "isOffensive": {
       "value": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -116,7 +114,12 @@
     "fuid": "megathrust"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",

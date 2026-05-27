@@ -67,9 +67,7 @@
     "isCustomWeapon": {
       "value": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {

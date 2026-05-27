@@ -17,7 +17,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "tectonomancer"
     },
     "useWeapon": {
       "accuracy": {
@@ -68,21 +68,19 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "10 × T"
+    "cost": {
+      "amount": "10 × T"
     },
     "target": {
       "value": "Up to three creatures"
     },
     "duration": {
-      "value": "Scene"
+      "value": "scene"
     },
     "isOffensive": {
       "value": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -117,7 +115,12 @@
     "fuid": "earthworks"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",

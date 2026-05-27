@@ -20,9 +20,7 @@
     "ipCost": {
       "value": 6
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "miracle-tonic"
   },
   "effects": [],

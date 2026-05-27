@@ -23,7 +23,7 @@
       "min": 0
     },
     "class": {
-      "value": "Monk"
+      "value": "monk"
     },
     "useWeapon": {
       "accuracy": {
@@ -80,9 +80,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": "FULF"
-    },
+    "source": "FULF",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -126,7 +124,11 @@
     "default": 0,
     "MZACGjYlT5yfbfPC": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -134,7 +136,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728424297363,
-    "modifiedTime": 1745897513439,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

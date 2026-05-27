@@ -1623,7 +1623,7 @@
           "value": 1
         },
         "duration": {
-          "value": "Scene"
+          "value": "scene"
         },
         "isOffensive": {
           "value": false
@@ -1765,7 +1765,7 @@
           "value": 1
         },
         "duration": {
-          "value": "Scene"
+          "value": "scene"
         },
         "isOffensive": {
           "value": false

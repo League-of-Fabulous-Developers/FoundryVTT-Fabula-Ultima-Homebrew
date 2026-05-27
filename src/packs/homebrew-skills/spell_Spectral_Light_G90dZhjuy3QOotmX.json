@@ -17,7 +17,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "illusionist"
     },
     "useWeapon": {
       "accuracy": {
@@ -68,8 +68,8 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "5"
+    "cost": {
+      "amount": "5"
     },
     "maxTargets": {
       "value": 3
@@ -83,9 +83,7 @@
     "isOffensive": {
       "value": true
     },
-    "source": {
-      "value": "FULF"
-    },
+    "source": "FULF",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -119,7 +117,12 @@
     "opportunity": ""
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

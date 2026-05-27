@@ -23,7 +23,7 @@
       "min": 0
     },
     "class": {
-      "value": "Unchained"
+      "value": "unchained"
     },
     "useWeapon": {
       "accuracy": {
@@ -93,19 +93,22 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "magical-sabotage"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "13.350",
     "createdTime": 1715088479323,
-    "modifiedTime": 1729282101968,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "MZACGjYlT5yfbfPC",
     "compendiumSource": null,
     "duplicateSource": null,

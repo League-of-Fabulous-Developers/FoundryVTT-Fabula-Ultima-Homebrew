@@ -21,7 +21,7 @@
       "min": 0
     },
     "class": {
-      "value": "Ritualist"
+      "value": "ritualist"
     },
     "useWeapon": {
       "accuracy": false,
@@ -51,9 +51,7 @@
       "max": 6,
       "enabled": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "hasRoll": {
       "value": false
     },
@@ -69,7 +67,11 @@
     "traits": []
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -77,7 +79,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745859200110,
-    "modifiedTime": 1745929889795,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

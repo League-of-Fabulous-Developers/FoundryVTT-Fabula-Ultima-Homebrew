@@ -68,9 +68,7 @@
         }
       }
     },
-    "source": {
-      "value": "Homebrew"
-    }
+    "source": "Homebrew"
   },
   "effects": [],
   "folder": null,

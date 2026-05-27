@@ -15,7 +15,7 @@
         "value": "One Creature"
       },
       "duration": {
-        "value": "Instantaneous"
+        "value": "instantaneous"
       },
       "description": "<p>With a single word, you inflict great agony on your foe. Your target takes <strong>【MIG + WLP】</strong> typeless damage.</p><p><em>Opportunity:</em> Your target takes the half the initial damage again at the start of its turn.</p>",
       "hpCost": {

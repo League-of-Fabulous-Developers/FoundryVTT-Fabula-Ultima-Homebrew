@@ -24,7 +24,7 @@
       "min": 0
     },
     "class": {
-      "value": "Hunter"
+      "value": "hunter"
     },
     "useWeapon": {
       "accuracy": {
@@ -94,12 +94,15 @@
         }
       }
     },
-    "source": {
-      "value": "FULF"
-    }
+    "source": "FULF"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -107,7 +110,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728440398615,
-    "modifiedTime": 1745888103078,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

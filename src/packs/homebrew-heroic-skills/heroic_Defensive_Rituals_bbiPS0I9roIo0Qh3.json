@@ -20,7 +20,7 @@
       "value": false
     },
     "class": {
-      "value": "Ritualist"
+      "value": "guardian,ritualist"
     },
     "hasResource": {
       "value": false
@@ -34,9 +34,7 @@
     "requirement": {
       "value": ""
     },
-    "source": {
-      "value": "Homebrew"
-    }
+    "source": "Homebrew"
   },
   "effects": [],
   "sort": 0,
@@ -44,7 +42,12 @@
     "default": 0,
     "9aR18wpxqiStEQ8U": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -52,7 +55,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1745859327205,
-    "modifiedTime": 1745859424362,
+    "modifiedTime": 1779790072334,
     "lastModifiedBy": "9aR18wpxqiStEQ8U",
     "exportSource": null
   },

@@ -16,7 +16,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "tectonomancer"
     },
     "useWeapon": {
       "accuracy": {
@@ -67,21 +67,19 @@
     "weight": {
       "value": 1
     },
-    "mpCost": {
-      "value": "5 × T"
+    "cost": {
+      "amount": "5 × T"
     },
     "target": {
       "value": "Up to five creatures"
     },
     "duration": {
-      "value": "Instantaneous"
+      "value": "instantaneous"
     },
     "isOffensive": {
       "value": false
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -116,7 +114,12 @@
     "fuid": "quicksand"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
   "_stats": {
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",

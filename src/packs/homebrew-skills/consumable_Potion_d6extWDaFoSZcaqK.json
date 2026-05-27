@@ -21,9 +21,7 @@
     "ipCost": {
       "value": 1
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "potion"
   },
   "effects": [],

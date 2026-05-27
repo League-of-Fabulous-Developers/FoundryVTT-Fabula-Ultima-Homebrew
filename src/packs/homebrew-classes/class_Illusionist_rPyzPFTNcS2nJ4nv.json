@@ -68,9 +68,7 @@
         }
       }
     },
-    "source": {
-      "value": "FULF"
-    }
+    "source": "FULF"
   },
   "effects": [],
   "folder": null,

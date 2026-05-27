@@ -65,9 +65,7 @@
       "max": 10,
       "min": 0
     },
-    "source": {
-      "value": "Homebrew"
-    },
+    "source": "Homebrew",
     "fuid": "predator"
   },
   "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
