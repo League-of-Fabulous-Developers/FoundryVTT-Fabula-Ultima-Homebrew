@@ -499,12 +499,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "10"
-        },
-        "target": {
-          "value": "One creature"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -545,7 +539,15 @@
           "value": false
         },
         "opportunity": "",
-        "fuid": "enthrall"
+        "fuid": "enthrall",
+        "cost": {
+          "resource": "mp",
+          "amount": "10"
+        },
+        "targeting": {
+          "rule": "single",
+          "max": 1
+        }
       },
       "_id": "r4HLlY5T4tYHbl2g",
       "img": "icons/svg/item-bag.svg",
@@ -637,12 +639,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "10 × T"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -683,7 +679,16 @@
           "value": false
         },
         "opportunity": "",
-        "fuid": "inspire"
+        "fuid": "inspire",
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": true
+        },
+        "targeting": {
+          "rule": "multiple",
+          "max": 3
+        }
       },
       "_id": "4K05BsdEflDCRLP1",
       "img": "icons/svg/item-bag.svg",

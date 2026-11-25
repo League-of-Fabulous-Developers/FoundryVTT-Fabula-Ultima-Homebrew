@@ -18,12 +18,8 @@
     "quantity": {
       "value": null
     },
-    "optionalType": "projectfu-playtest.camping",
+    "optionalType": "projectfu.campActivity",
     "data": {
-      "hasClock": {},
-      "hasResource": {},
-      "progress": {},
-      "rp": {},
       "description": "<p>You spend your time looking for bait in the area; describe how and roll <strong>1d6</strong></p><ul><li><p><strong>1. None, really</strong>? You do not manage to find bait, and you wear yourself out so that you do not recover Hit Points and Mind Points during this rest.</p></li><li><p><strong>2. It's Something, I guess...</strong> You find 1 Simple Bait.</p></li><li><p><strong>3-5. A respectable find!</strong> You find 3 Simple Bait.</p></li><li><p><strong>6. No way!</strong> You find 1 Unique Bait.</p></li></ul><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-rollable-tables.RollTable.EdwaC4A1eZVFUYNW]{Bait Finding}</p>"
     },
     "source": "Homebrew"

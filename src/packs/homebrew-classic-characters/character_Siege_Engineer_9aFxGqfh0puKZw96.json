@@ -630,12 +630,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "10 × T"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
         "duration": {
           "value": "scene"
         },
@@ -675,7 +669,16 @@
         "hasRoll": {
           "value": false
         },
-        "opportunity": ""
+        "opportunity": "",
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": true
+        },
+        "targeting": {
+          "rule": "multiple",
+          "max": 3
+        }
       },
       "effects": [],
       "flags": {

@@ -612,12 +612,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "10"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -658,10 +652,15 @@
           "value": false
         },
         "opportunity": "",
-        "maxTargets": {
-          "value": 3
+        "fuid": "heal",
+        "cost": {
+          "resource": "mp",
+          "amount": "10"
         },
-        "fuid": "heal"
+        "targeting": {
+          "rule": "multiple",
+          "max": 3
+        }
       },
       "effects": [],
       "ownership": {

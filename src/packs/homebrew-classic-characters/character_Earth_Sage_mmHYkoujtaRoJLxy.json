@@ -350,12 +350,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "10 × T"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -395,7 +389,16 @@
         "hasRoll": {
           "value": true
         },
-        "opportunity": "Each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions)."
+        "opportunity": "Each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).",
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": true
+        },
+        "targeting": {
+          "rule": "multiple",
+          "max": 3
+        }
       },
       "effects": [],
       "flags": {

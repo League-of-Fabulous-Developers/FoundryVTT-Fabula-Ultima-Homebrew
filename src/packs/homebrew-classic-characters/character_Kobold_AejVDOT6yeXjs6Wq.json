@@ -629,12 +629,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "5 × T"
-        },
-        "target": {
-          "value": "Up to five creatures"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -674,7 +668,16 @@
         "hasRoll": {
           "value": false
         },
-        "opportunity": ""
+        "opportunity": "",
+        "cost": {
+          "resource": "mp",
+          "amount": "5",
+          "perTarget": true
+        },
+        "targeting": {
+          "rule": "multiple",
+          "max": 5
+        }
       },
       "effects": [],
       "flags": {
@@ -768,12 +771,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "15 × T"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -813,7 +810,16 @@
         "hasRoll": {
           "value": false
         },
-        "opportunity": ""
+        "opportunity": "",
+        "cost": {
+          "resource": "mp",
+          "amount": "15",
+          "perTarget": true
+        },
+        "targeting": {
+          "rule": "multiple",
+          "max": 3
+        }
       },
       "effects": [],
       "flags": {

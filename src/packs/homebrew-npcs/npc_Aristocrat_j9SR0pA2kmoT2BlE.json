@@ -501,12 +501,6 @@
         "weight": {
           "value": 1
         },
-        "mpCost": {
-          "value": "10"
-        },
-        "target": {
-          "value": "One creature"
-        },
         "duration": {
           "value": "instantaneous"
         },
@@ -547,7 +541,15 @@
           "value": false
         },
         "opportunity": "",
-        "fuid": "dispel"
+        "fuid": "dispel",
+        "cost": {
+          "resource": "mp",
+          "amount": "10"
+        },
+        "targeting": {
+          "rule": "single",
+          "max": 1
+        }
       },
       "effects": [],
       "ownership": {
