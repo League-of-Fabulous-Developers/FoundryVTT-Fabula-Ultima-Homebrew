@@ -4,7 +4,8 @@
 	"description": "A community homebrew module for Fabula Ultima system",
 	"scripts": {
 		"unpack": "node ./tools/pushLDBtoYML.mjs",
-		"pack": "node ./tools/pullYMLtoLDB.mjs"
+		"pack": "node ./tools/pullYMLtoLDB.mjs",
+		"sanitize": "node ./tools/sanitizeHTML.mjs"
 	},
 	"browserslist": [
 		"last 3 versions"
@@ -13,8 +14,7 @@
 	"license": "MIT",
 	"private": true,
 	"devDependencies": {
-		"@foundryvtt/foundryvtt-cli": "^1.0.2"
-	},
-	"dependencies": {
+		"@foundryvtt/foundryvtt-cli": "^3.0.5",
+		"sanitize-html": "^2.18.2"
 	}
 }
