@@ -11,9 +11,6 @@
       "value": ""
     },
     "description": "<p>One creature recovers Mind Points equal to half their Maximum MP.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with MP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers half the initial amount of MP recovered at the start of their next turn.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

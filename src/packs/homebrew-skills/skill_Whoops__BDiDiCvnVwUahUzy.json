@@ -5,14 +5,10 @@
   "img": "icons/equipment/waist/sash-cloth-red.webp",
   "system": {
     "fuid": "whoops",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Before performing a <strong>Check</strong>, you may declare it as a <strong>Fumble</strong> due to a clumsy accident or silly coincidence. You cannot do this on <strong>Checks</strong> that may not generate Opportunities, such as Support Checks. You gain <strong>Fabula Points</strong> as normal as part of this <strong>Fumble</strong>, and you and the <strong>GM</strong> must choose together which Opportunity you generated.</p><p>Additionally, choose one ally whenever you get a <strong>Fumble</strong>: They recover <strong>10 MP</strong>.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

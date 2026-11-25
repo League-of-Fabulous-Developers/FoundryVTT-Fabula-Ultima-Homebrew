@@ -11,9 +11,6 @@
       "value": "Why am I being punished for winning?!"
     },
     "description": "<blockquote><p><strong>Requirements:</strong> You must have Mastered the <strong>Brawler</strong> Class.</p></blockquote><p>While you are in Crisis:</p><ul><li><p><strong>Parry</strong> allows you to add a <strong>+1</strong> or <strong>-1</strong> bonus to your check <em><strong>after</strong></em> rolling it.</p></li><li><p><strong>Grappling Smash</strong> gains a <strong>+1</strong> bonus to its <strong>Opposed Check</strong>.</p></li><li><p><strong>Combo’s</strong> mark now also increases your action’s <strong>Damage</strong> by <strong>2</strong>.</p></li><li><p><strong>Command Input</strong> gains a <strong>+2</strong> bonus to its check.</p></li><li><p><strong>Combo Breaker</strong> gains one extra counter (may only happen once per scene).</p></li></ul>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

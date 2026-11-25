@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/weapons/thrown/bomb-timer.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Roll 1d6 once for every 10 Mind Points spent when casting this spell. Resolve each effect.</p><table><tbody><tr><td><p><strong>1</strong></p></td><td><p>Nothing happens.</p></td></tr><tr><td><p><strong>2</strong></p></td><td><p>Target suffers @EFFECT[slow].</p></td></tr><tr><td><p><strong>3</strong></p></td><td><p>Target suffers @EFFECT[dazed].</p></td></tr><tr><td><p><strong>4</strong></p></td><td><p>Target suffers @EFFECT[weak].</p></td></tr><tr><td><p><strong>5</strong></p></td><td><p>Target suffers @EFFECT[shaken].</p></td></tr><tr><td><p><strong>6</strong></p></td><td><p>Target suffers your choice of either @EFFECT[dazed], @EFFECT[shaken], @EFFECT[slow], or @EFFECT[weak].</p></td></tr></tbody></table>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

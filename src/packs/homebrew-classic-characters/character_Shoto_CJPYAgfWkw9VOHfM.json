@@ -375,16 +375,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -432,12 +426,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -487,19 +476,14 @@
       "type": "class",
       "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "This time, victory is mine!"
         },
         "description": "<h5><strong>ALSO: Martial Artist, Pugilist, Street Fighter</strong></h5><ul><li><p>Are you trying to win a tournament, or did someone steal your significant other?</p></li><li><p>Would you eat floor chicken? What about wall chicken?</p></li><li><p>Which stereotypes of your culture do you embody?</p></li><li><p>How many times were you thrown off a volcano?</p></li></ul><hr /><h5><strong>BRAWLER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Health Points by 5.</li></ul><h2><strong>BRAWLER SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9iYytTSGAbEXr8Qo]{Parry}</p><p>When you are about to be hit by a <strong>melee attack</strong>, you may perform an <strong>Accuracy Check</strong> as if you were attacking <strong>unarmed</strong>. Then, compare both results:</p><ul><li><p>If yours is <em>higher</em>, <strong>halve</strong> that attack’s damage.</p></li><li><p>If yours is <em>lower</em>, you take <strong>double damage</strong> from it.</p></li><li><p>If they are <em>equal</em>, you get a <em>Perfect Parry</em> and completely interrupt that attack: It has no effect.</p></li></ul><p>If you use this Skill during a conflict, you cannot use it again until the start of your next turn unless you got a <em>Perfect Parry</em>.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ftv2cnR4Cx9IxKpj]{Grappling Smash} <strong>(SL3)</strong></p><p>When you <strong>hit a single creature with a flail or brawling attack</strong> and before you resolve its damage, you may set your attack’s total damage to <strong>0</strong> and perform an <strong>Opposed Check</strong> with <strong>【DEX + MIG】</strong>. If successful, set your attack’s total damage to twice what it was, and continue resolving it.</p><p>Gain a <strong>【+SL】</strong> bonus to this check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM]{Attack Chain}</p><p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mMAF7OQ047j4JqA7]{Combo Breaker} <strong>(SL2)</strong></p><p>At the start of every conflict, gain <strong>【SL】 Combo Break</strong> tokens. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <strong>Combo Break</strong> token at any time to dodge an attack.</p><p>You lose all of <strong>Combo Break</strong> tokens at the end of the scene.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH]{Command Input} <strong>(SL5)</strong></p><p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p><h2>HEROIC SKILLS</h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.FuNQiKgWQTNt1ZUg]{Comeback Mechanics}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.07VsutNH5UP9zlNP]{Devastating Counter}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.qlHxkRmQGe1bVqfN]{Super-Armored Payback}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Nitro</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 3,
           "max": 10,
           "min": 0
         },
@@ -550,9 +534,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "brawler"
       },
       "effects": [],
@@ -584,21 +566,14 @@
       "name": "Elementalist",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Ignore the warnings of this World at your own risk."
         },
         "description": "<h5><strong>ALSO: Battle Mage, Geomancer, Sorcerer</strong></h5><p>An <strong>Elementalist </strong>has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some of them develop complex spells to contain the powerful energies of nature; others seek its protection in harmony and communion. Elemental magic can be highly destructive, causing damage and inflicting negative status effects. Due to this, there are many who would covet an Elementalist’s abilities… often for nefarious purposes.</p><hr /><h5><strong>ELEMENTALIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>ELEMENTALIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.muhtqtJ6av32K34Z]{Cataclysm} <strong>(SL5)</strong></p><p>When you cast an <strong>instantaneous </strong>spell, if you have an <strong>arcane </strong>weapon equipped, you may <strong>increase the spell’s total MP cost</strong> by up to <strong>【SL × 10】 </strong>Mind Points. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5]{Elemental Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Elementalist spell (<strong>Core Rulebook</strong>, page <strong>188</strong>).<br />Offensive ( @ICON[offensive] ) Elementalist spells use <strong>【INS + WLP】 </strong>for the Magic Check. </p><hr /><p>@UUID[Compendium.projectfu.skills.Item.b5zzfsWN7h5ugrnW]{Magic Artillery} <strong>(SL3)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell, if you have an <strong>arcane </strong>weapon equipped, you gain a bonus to your Magic Check equal to <strong>【SL × 2】</strong> .</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.qgy43lWGmJ2YGhTp]{Ritual Elementalism}</p><p>You may perform Rituals whose effects fall within the <strong>Elementalism </strong>discipline. <br />Elementalism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.v6rTedHMjbLuLdN3]{Spellblade} <strong>(SL4)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell targeting a <strong>single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 10】or lower </strong>and you have one or more <strong>bow</strong>, <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, <strong>spear </strong>or <strong>sword </strong>weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon’s Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a <strong>bronze sword</strong> (<strong>Core Rulebook</strong>, page <strong>131</strong>) will be <strong>【DEX + MIG】</strong>+1 instead of <strong>【INS + WLP】 </strong>.</p><h3><strong>ELEMENTALIST SPELLS</strong></h3><p>@UUID[Compendium.projectfu.spells.Item.GOEbYMBu3cGnszWt]{[Elementalist Spells]}</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -649,9 +624,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR186"
-        },
+        "source": "FUCR186",
         "fuid": "elementalist"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist.png",
@@ -686,16 +659,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/iron-knuckle.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -743,12 +710,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -771,7 +733,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.z4qfwCzJpig79JHd",
@@ -798,16 +763,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/iron-knuckle.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -855,12 +814,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -883,7 +837,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.z4qfwCzJpig79JHd",
@@ -979,14 +936,10 @@
       "type": "skill",
       "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "Quarter circle back, half circle forward, high punch!"
         },
         "description": "<p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1026,9 +979,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -1050,7 +1001,11 @@
         "B6evqtezy9ZsGZG3": 3,
         "9aR18wpxqiStEQ8U": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aCw4kpkM9AyVVOwH",
         "duplicateSource": null,
@@ -1072,14 +1027,10 @@
       "_id": "HCuVPZRZRPs16m5D",
       "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "Light attack, kick, heavy slash!"
         },
         "description": "<p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1119,9 +1070,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -1143,7 +1092,11 @@
         "B6evqtezy9ZsGZG3": 3,
         "9aR18wpxqiStEQ8U": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.hG34QQWLn0oW1tRM",
         "duplicateSource": null,
@@ -1163,16 +1116,10 @@
       "type": "skill",
       "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_elemental_magic.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Each time you acquire this Skill, learn one Elementalist spell (<strong>Core Rulebook</strong>, page <strong>188</strong> or @UUID[Compendium.projectfu.spells.Item.GOEbYMBu3cGnszWt]{[Elementalist Spells]}).</p><p>Offensive @ICON[offensive] Elementalist spells use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1199,9 +1146,7 @@
           "type": "physical",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR187"
-        },
+        "source": "FUCR187",
         "hasRoll": {
           "value": false
         },
@@ -1263,18 +1208,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1315,18 +1255,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1367,18 +1302,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1419,18 +1349,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1471,18 +1396,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1549,15 +1469,6 @@
         },
         "accuracy": {
           "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
         },
         "impdamage": {
           "hasImpDamage": {
@@ -1691,15 +1602,6 @@
         },
         "accuracy": {
           "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
         },
         "impdamage": {
           "hasImpDamage": {

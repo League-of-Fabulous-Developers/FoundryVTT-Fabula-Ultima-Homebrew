@@ -5,14 +5,10 @@
   "_id": "KfeQBezlHMm3ggni",
   "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You are able to obtain (by trading, stealing or extorting them) the powers of demons.</p><p>Once per turn, before any other action, you can take the form of a demon whose powers you have obtained. Your weaknesses, resistances, immunities and absorptions are replaced by those of this demon until the end of the scene, or until you take the form of another demon.</p><p>You can possess the powers of up to <strong>【SL】</strong> demons. If you gain new powers when you're already at your maximum, you must choose which powers you lose to replace them with these new ones. If you choose this skill at creation, you can immediately posses the powers of up to two demons.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -25,48 +21,19 @@
       "value": "demoncaller"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -78,39 +45,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

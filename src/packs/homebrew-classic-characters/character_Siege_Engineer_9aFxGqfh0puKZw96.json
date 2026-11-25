@@ -284,14 +284,10 @@
       "type": "skill",
       "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>You always have the tools you need to work stone or metal - even types you’ve never seen before - without spending Inventory Points. Additionally, whenever you fill in or erase a segment of a clock related to building, reinforcing, or destroying a structure made of stone, metal, or living wood, you may fill in or erase an additional segment.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -304,48 +300,19 @@
           "value": "Tectonomancer"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -356,42 +323,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         }
@@ -403,7 +335,10 @@
         "B6evqtezy9ZsGZG3": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "systemId": "projectfu",
@@ -425,14 +360,10 @@
       "type": "skill",
       "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>Each time you acquire this Skill, learn one Elementalist spell (see next three pages).<br />Offensive (<strong>@ICON[offensive]</strong>) Tectonomancer spells use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -445,48 +376,19 @@
           "value": "Tectonomancer"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -497,42 +399,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         }
@@ -567,14 +434,10 @@
       "_id": "CDcVvZViu8SSEFOg",
       "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>Trenches collapse and barriers spring up to protect your allies. Your targets cannot be targeted by <strong>ranged</strong> attacks. Any creature that targets them with a <strong>melee</strong> attack is considered to be <strong>in the trenches</strong>. The effect of this spell on a target ends when they make a <strong>melee</strong> attack against a creature that <strong>isn’t in the trenches</strong> or otherwise leave its protection (such as by taking flight.)</p><hr /><p><strong>@LOSS[10 mp]</strong> for <strong>one</strong> target.</p><p><strong>@LOSS[20 mp]</strong> for <strong>two</strong> targets.</p><p><strong>@LOSS[30 mp]</strong> for <strong>three</strong> targets.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -603,15 +466,6 @@
         "accuracy": {
           "value": 0
         },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
         "impdamage": {
           "hasImpDamage": {
             "value": false
@@ -636,9 +490,7 @@
         "isOffensive": {
           "value": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -682,7 +534,10 @@
       },
       "effects": [],
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "systemId": "projectfu",
@@ -785,16 +640,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/pistol.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -842,12 +691,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -870,7 +714,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.Mn8dvssoXj3cjGKw",
@@ -983,21 +830,14 @@
       "name": "Tinkerer",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "I like to think that what we have today was not a gift from the gods."
         },
         "description": "<h5><strong>ALSO: Alchemist, Magitech Engineer, Mechanic</strong></h5><p><strong>Tinkerers </strong>possess exceptional ingenuity and are known for their eccentric and marvelous inventions. They travel the world in an endless search for lost theories and ancient machinery, eyes glimmering whenever they witness the wonders of architecture and engineering. In a way, Tinkerers could be seen as the ultimate dreamers and rebels, challenging the very rules of nature and society in their pursuit of a better future.</p><hr /><h5><strong>TINKERER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Inventory Points by 2.</li><li>You may initiate <strong>Projects</strong>.</li></ul><h3><strong>TINKERER SKILLS</strong></h3><p>@UUID[Compendium.projectfu.skills.Item.2MoV74xWJnF5Ru8u]{Emergency Item}</p><p>Once per conflict scene, if you are in <strong>Crisis</strong>, you may perform an additional action on your turn. This action <strong>must </strong>be the <strong>Inventory </strong>action.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.0ErPA4Q0P97ZPwPE]{Gadgets} <strong>(SL5)</strong></p><p>When you first acquire this Skill, choose a gadget type: <strong>alchemy</strong>, <strong>infusions </strong>or <strong>magitech </strong>(see next four pages). You gain its <strong>basic benefits</strong>.</p><p>Whenever you take this Skill again, choose one option: you gain the<strong> basic benefits </strong>of a new gadget type; <strong>or </strong>you gain the <strong>advanced benefits</strong> of a gadget type whose basic <strong>benefits </strong>you already obtained; <strong>or </strong>you gain the <strong>superior benefits</strong> of a gadget type whose <strong>advanced benefits</strong> you already obtained.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.xzyAHegWwSaysYqV]{Potion Rain} <strong>(SL2)</strong></p><p>When you create a <strong>potion </strong>that restores a <strong>single </strong>creature's HP and/or MP, you may have it affect up to <strong>【SL】 </strong>additional creatures. If you do, the potion only restores half the normal amount of HP and MP to each creature.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.S64zqBVdaYA3I5LW]{Secret Formula} <strong>(SL5)</strong></p><p>When you create a <strong>potion </strong>or <strong>magisphere </strong>whose effects restore HP and/or MP, each restored amount is increased by <strong>【SL × 5】</strong>.</p><p>When you create an <strong>elemental shard</strong>, <strong>potion </strong>or <strong>magisphere </strong>that deals damage, that item deals <strong>【SL】 </strong>extra damage.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.6pJAB6E29I15q1gU]{Visionary} <strong>(SL5)</strong></p><p>When you work on a <strong>Project</strong>, up to <strong>【SL × 100】 </strong>zenit of material costs are automatically paid; additionally, you generate an additional <strong>【SL】 progress</strong> every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative.</p><h2><strong>Inventory Types</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.SsR6UJXT65Q1qNO2]{Gadget - Alchemy}</p><p>@UUID[Compendium.projectfu.skills.Item.1tfYFkiXLuTOUmre]{Gadget - Infusion}</p><p>@UUID[Compendium.projectfu.skills.Item.EmwWSYlFjlUSGPLL]{Gadget- Magitech}</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -1048,9 +888,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR210"
-        },
+        "source": "FUCR210",
         "fuid": "tinkerer"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/tinkerer.png",
@@ -1084,21 +922,14 @@
       "name": "Sharpshooter",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Flee to the other end of the world; my arrow shall find you."
         },
         "description": "<h5><strong>ALSO: Archer, Gunslinger, Sniper</strong></h5><p>A majority of <strong>Sharpshooters </strong>are exceptionally good at dealing with threats from a carefully calculated distance; others are brave, skilled or reckless enough to engage their foes at point-blank. While many of these skilled snipers are battle-hardened soldiers, some have turned to a life of piracy, bounty hunting or banditry. A few have put their abilities at the service of the people, or use them to protect a sacred or forbidden site from intruders.</p><hr /><h5><strong>SHARPSHOOTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip martial ranged weapons and martial shields.</li></ul><h2><strong>SHARPSHOOTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.lCFQMCY4AmDsv6sv]{Barrage} <strong>(SL5)</strong></p><p>When you perform a <strong>ranged </strong>attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi </strong>(2); or you increase the attack’s <strong>multi </strong>property by one, up to a maximum of <strong>multi </strong>(3).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.sIkQa2NzkqsvczBr]{Crossfire} <strong>(SL3)</strong></p><p>After a creature you can see performs a <strong>ranged </strong>attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a ranged weapon equipped, and it has no effect if the Accuracy Check was a critical success.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.hmDCgX5OEk5l4uXW]{Hawkeye} <strong>(SL5)</strong></p><p>When you perform the <strong>Guard </strong>action, if you choose <strong>not </strong>to provide cover to another creature, you may choose one option: the next <strong>ranged </strong>attack you perform before the end of the current scene will deal <strong>【SL × 2】 </strong>extra damage; or you may immediately perform a<strong> free attack</strong> with a <strong>bow </strong>or <strong>firearm </strong>you have equipped, treating your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.0UxTgrag7cE4M1oc]{Ranged Weapon Mastery} <strong>(SL4)</strong></p><p>You gain a bonus equal to <strong>【SL】 </strong>to all Accuracy Checks with <strong>ranged </strong>weapons.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Ovmw7cMrN6qvagG4]{Warning Shot} <strong>(SL4)</strong></p><p>When you hit one or more targets with a <strong>ranged </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>shaken </strong>on each target hit by the attack; <strong>or </strong>inflict <strong>slow </strong>on each target hit by the attack; <strong>or </strong>each target hit by the attack loses <strong>【SL × 10】 </strong>Mind Points. Describe your maneuver!</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -1149,9 +980,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR204"
-        },
+        "source": "FUCR204",
         "fuid": "sharpshooter"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter.png",
@@ -1186,16 +1015,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1243,12 +1066,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1305,18 +1123,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1357,18 +1170,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1409,18 +1217,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1461,18 +1264,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1513,18 +1311,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1606,16 +1399,10 @@
       "_id": "LMTvwBGXE6ifGktv",
       "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_crossfire.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>After a creature you can see performs a <strong>ranged</strong> attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a <strong>ranged</strong> weapon equipped, and it has no effect if the Accuracy Check was a <strong>critical success</strong>.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1644,9 +1431,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR205"
-        },
+        "source": "FUCR205",
         "hasRoll": {
           "value": false
         },
@@ -1680,7 +1465,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.sIkQa2NzkqsvczBr",
@@ -1703,16 +1491,10 @@
       "_id": "jqPixj707J2AB3kF",
       "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/tinkerer_gadgets.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>When you first acquire this Skill, choose a gadget type: <strong>alchemy, infusion</strong>, or <strong>magitech</strong> (see <strong>Core Rulebook</strong>, page <strong>212</strong>). You gain its <strong>basic benefits</strong>.</p><p>Whenever you take this Skill again, choose one option: you gain the <strong>basic benefits</strong> of a new gadget type; <strong>or</strong> you gain the <strong>advanced benefits</strong> of a gadget type whose <strong>basic benefits</strong> you already obtained; <strong>or</strong> you gain the <strong>superior benefits</strong> of a gadget type whose <strong>advanced benefits</strong> you already obtained.</p><hr /><ul><li><p>For <strong>gadget</strong> breakdown and a list of <strong>Gadgets</strong>, refer to<strong>:</strong> @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk]{Gadget Rules}</p></li><li><p>To <strong>automate</strong>, VTT Instructions can be found here: @UUID[Compendium.projectfu.handouts.JournalEntry.TV4Cj3UI0LWNZaOk.JournalEntryPage.7D5mpbaYddiztH1W]{Gadget VTT Instructions}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1741,9 +1523,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR211"
-        },
+        "source": "FUCR211",
         "hasRoll": {
           "value": false
         },
@@ -1807,18 +1587,13 @@
           "value": "Create a firearm that deals air, bolt, earth, fire, ice, or physical."
         },
         "description": "<h5>Required: Advanced Benefits in @UUID[Compendium.projectfu.skills.Item.EmwWSYlFjlUSGPLL]{Gadget- Magitech}</h5><p>For 3 Inventory Points creates a firearm that deals <strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, <strong>ice</strong>, or <strong>physical </strong>damage. Drag and drop the one you create onto your character sheet.</p><hr /><p>@UUID[Compendium.projectfu.consumables.Item.EGvZsEWEhaTqoCgG]{Magicannon (Air)}</p><p>@UUID[Compendium.projectfu.consumables.Item.uuKKqm81klCOiDjO]{Magicannon (Bolt)}</p><p>@UUID[Compendium.projectfu.consumables.Item.sREYRTy6TfK8fe53]{Magicannon (Earth)}</p><p>@UUID[Compendium.projectfu.consumables.Item.jHbcjw8RW9Ywesyu]{Magicannon (Fire)}</p><p>@UUID[Compendium.projectfu.consumables.Item.eVOnHgRLTnL695cP]{Magicannon (Ice)}</p><p>@UUID[Compendium.projectfu.consumables.Item.MJoIwfTvo0FHcDqL]{Magicannon (Physical)}</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR215"
-        },
+        "source": "FUCR215",
         "fuid": "magicannon-item"
       },
       "effects": [],
@@ -1830,7 +1605,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.consumables.Item.AbazTRyaMTW4ouhx",
@@ -1850,19 +1628,14 @@
       "type": "class",
       "img": "icons/magic/earth/barrier-stone-explosion-spiked.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<h5><strong>ALSO: Earth Mage, Stoneshaper, Terramancer</strong></h5><p>A <strong>Tectonomancer</strong> wields magic that manipulates the living earth. Whether they got their start with rocks and dirt or they’re an Elementalist who later specialized, nobody can doubt their expertise now.</p><p>Tectonomancy encourages a deliberate, almost ponderous approach to problem-solving, but not all practitioners are willing to take it slow. Those who last the longest recognize that it is best not to be reckless when calling upon such a dreadfully powerful and destructive art. After all, even the mightiest castle needs a foundation to stand on.</p><hr /><h5><strong>TECTONOMANCER FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Elementalism</strong> discipline. As long as they work with Earth, Metal or Living Wood.</p></li><li><p>Masterying <strong>Tectonomancer</strong> qualifies you to take the <strong>Powerful Spell</strong> Heroic Skills.</p></li></ul><h2><strong>TECTONOMANCER SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.zh4aSUXfN0gddzJj]{Earthmeld} <strong>(SL2)</strong></p><p>At <strong>【SL 1】 </strong>you have the ability to move through solid stone and dirt without disturbing it. If solid ground is available, you may use an action and spend 1 Fabula Point to sink into it to take cover for the rest of a scene. You will have to emerge from the earth nearby.</p><p>At <strong>【SL 2】 </strong>you can take willing creatures with you a short distance - through a wall or rockfall, for instance. (If you release a creature, the magic launches them to the surface in an unpredictable direction; you can’t trap them, though you could try this as an unconventional travel method.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.xp1Csz7LczIW8Zoc]{Tectonomancy} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Elementalist spell (see next three pages).<br />Offensive (<strong>@ICON[offensive]</strong>) Tectonomancer spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.iWV0UGI9HiDPfmVa]{Mineral Spirit}</p><p>When you use the Inventory action to create a Tonic, the creature that drinks it recovers from all status effects, instead of just one.</p><p><strong>Note:</strong> for the love of Bahamut, <strong>do not actually drink mineral spirits!</strong></p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.DHavgDFfytd17Ze3]{Solid Path} <strong>(SL3)</strong></p><p>You are immune to environmental effects that would affect you via dangerous ground (for example, marshy ground inflicting <strong>slow</strong> or unstable footing filling a clock towards an avalanche.)</p><p>The <strong>GM</strong> is the final arbiter on what counts. You may extend this benefit to other creatures for the rest of a scene by spending <strong>【20 - (5 × SL)】</strong>MP for each creature.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.mbuSMM9ZMFdoddEK]{Stonework}</p><p>You always have the tools you need to work stone or metal - even types you’ve never seen before - without spending Inventory Points. Additionally, whenever you fill in or erase a segment of a clock related to building, reinforcing, or destroying a structure made of stone, metal, or living wood, you may fill in or erase an additional segment.</p><h3>TECHTONOMANCER SPELLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.k7ZTC2cfSI9wgASF]{Tectonomancer Rules}</p><h3>HEROIC SKILLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.mMxNkLHUnIjwXVT5]{Cat 10}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.VPqEtc9VTVeQXy10]{Geoswimmer}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.oWAM9jhnAIXbbHRT]{Legendary Metal}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.DBUmTrx8USXsGz9q]{Lithommancy}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.Uhr8LxGtI95fynsG]{Seismic Sense}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Heroic Skills Help </strong>Cinder</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -1913,9 +1686,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "tectonomancer"
       },
       "effects": [],

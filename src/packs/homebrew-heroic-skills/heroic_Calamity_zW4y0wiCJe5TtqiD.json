@@ -10,62 +10,25 @@
       "value": ""
     },
     "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Malefactor </strong>Class. </p></blockquote><p>You learn the ultimate <strong>Malefactor </strong>spell: <strong>Calamity</strong>. </p><table><tbody><tr><td style=\"text-align:center\"><strong>Comet</strong></td><td style=\"text-align:center\"><strong>MP: </strong>40</td><td style=\"text-align:center\"><strong>Target: </strong>One creature</td><td style=\"text-align:center\"><strong>Duration: </strong>Instantaneous</td></tr></tbody></table><p>You assault the targets body with a sensory onslaught. All stimuli, from pleasure to pain, light up at the same time. The target suffers <strong>@EFFECT[dazed], @EFFECT[enraged], @EFFECT[poisoned], @EFFECT[shaken], @EFFECT[slow], </strong>and <strong>@EFFECT[weak].</strong></p><p>Add the <strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.tlpBSwSM525GU18M]{Calamity}</strong> spell to your character sheet from the <strong>Malefactor </strong>spell list.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "malefactor"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -78,19 +41,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "Homebrew",
     "fuid": "calamity"

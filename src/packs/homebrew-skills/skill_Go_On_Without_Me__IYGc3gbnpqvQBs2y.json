@@ -4,14 +4,10 @@
   "type": "skill",
   "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -24,50 +20,21 @@
       "value": "prey"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -79,39 +46,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

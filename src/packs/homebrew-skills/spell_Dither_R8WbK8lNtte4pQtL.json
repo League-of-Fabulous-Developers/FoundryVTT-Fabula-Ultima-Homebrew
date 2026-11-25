@@ -5,14 +5,10 @@
   "_id": "R8WbK8lNtte4pQtL",
   "img": "icons/weapons/thrown/bomb-timer.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>When you cast this spell, you must declare an Action type (besides Attack). For the spell’s duration, whenever the Target takes the declared Action, they lose hit points equal to their level.</p><p>Once this has occurred 3 times, this spells effects end.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

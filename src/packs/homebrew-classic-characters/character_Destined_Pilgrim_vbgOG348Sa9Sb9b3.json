@@ -259,14 +259,10 @@
       "_id": "7l9VJI5NLyWqlhHP",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>You may bind your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your Sanctuaries (see next page.) You can Haunt other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -279,48 +275,19 @@
           "value": "Warden"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -331,42 +298,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         }
@@ -401,16 +333,10 @@
       "_id": "FTDOpFcQAqx4iwwE",
       "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_ritual_spiritism.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You may perform Rituals whose effects fall within the <strong>Spiritism</strong> discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -423,84 +349,20 @@
           "value": "Spiritist"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "dex",
+          "secondary": "dex"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR207"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
+        "source": "FUCR207",
         "hasRoll": {
           "value": false
         },
@@ -547,16 +409,10 @@
       "_id": "3ZyjTkmKcHCv8L7w",
       "img": "icons/magic/life/heart-cross-strong-green.webp",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You invigorate your companions, soothing their pain and healing their fatigue. Each target recovers @HEAL[40 hp]. This amount increases to @HEAL[50 hp] if you are <strong>level 20 or higher</strong>, or to @HEAL[60 hp] if you are <strong>level 40 or higher</strong>.</p><hr /><p>@LOSS[10 mp] for <strong>one</strong> target.</p><p>@LOSS[20 mp] for <strong>two</strong> targets.</p><p>@LOSS[30 mp] for <strong>three</strong> targets.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -585,15 +441,6 @@
         "accuracy": {
           "value": 0
         },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
         "impdamage": {
           "hasImpDamage": {
             "value": false
@@ -618,9 +465,7 @@
         "isOffensive": {
           "value": false
         },
-        "source": {
-          "value": "FUCR209"
-        },
+        "source": "FUCR209",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -670,7 +515,10 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.spells.Item.uQd6aE423mPv12Vc",
@@ -691,16 +539,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -748,12 +590,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -803,16 +640,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/staff.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -860,12 +691,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -888,7 +714,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.yPIyB7tBCD4ZVP4C",
@@ -917,16 +746,10 @@
       "_id": "895iiEazLcxSgwNS",
       "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -955,9 +778,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR207"
-        },
+        "source": "FUCR207",
         "hasRoll": {
           "value": false
         },
@@ -1014,16 +835,10 @@
       "_id": "wHKWv6AarHYhUV75",
       "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanist_bind_and_summon.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You may <strong>bind</strong> Arcana to your soul and <strong>summon</strong> them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question.</p><p>You may use an action and spend 40 Mind Points to <strong>summon</strong> an Arcanum you have bound: the details of this process are explained on the next page.</p><p>If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression.</p><hr /><ul><li><p>For <strong>arcana</strong> breakdown and a list of Arcanums, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.sO33zynz6ZsBDpFR]{Arcana Rules}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1052,9 +867,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR177"
-        },
+        "source": "FUCR177",
         "hasRoll": {
           "value": false
         },
@@ -1116,18 +929,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1168,18 +976,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1220,18 +1023,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1272,18 +1070,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1324,18 +1117,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1369,19 +1157,14 @@
       "type": "class",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
         },
         "description": "<h5><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h5><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><hr /><h5><strong>WARDEN FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h2><strong>WARDEN SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</p><p>You may <strong>bind</strong> your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your <strong>Sanctuaries</strong> (see next page.) You can <strong>Haunt</strong> other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death} <strong>(SL5)</strong></p><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL × 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance} <strong>(SL3)</strong></p><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL × 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is} <strong>(SL5)</strong></p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL × 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><h3>SANCTUARY &amp; HAUNTOLOGY</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -1432,9 +1215,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "warden"
       },
       "effects": [],
@@ -1466,21 +1247,14 @@
       "name": "Arcanist",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Some fates are not so easily avoided."
         },
         "description": "<h5><strong>ALSO: Avatar, Chosen, Summoner</strong></h5><p><strong>Arcanists </strong>can fall into a deep trance and temporarily project a considerable portion of their soul outside the body, giving it physical form. Surrounded by this magical shroud, the Arcanist gains a variety of supernatural abilities; these summoned forms are said to be manifestations of the ancestral souls belonging to mythical entities of legend, known as the Arcana. In some worlds, the Arcana are even worshiped as deities.</p><hr /><h5><strong>ARCANIST FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li></ul><h2><strong>ARCANIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.hEj8s21iAOPhDtJN]{Arcane Circle} <strong>(SL4)</strong></p><p>After you willingly dismiss an Arcanum on your turn during a conflict (see <strong>Core Rulebook</strong>, page <strong>178</strong>), if that Arcanum had not been <strong>summoned</strong> during this same turn and you have an <strong>arcane</strong> weapon equipped, you may immediately perform the <strong>Spell</strong> action for free. The spell you cast this way must have a <strong>total Mind Point cost of 【SL × 5】 or lower</strong> (you must still pay the spell’s MP cost).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ZTEuKRcX9erp1NDC]{Arcane Regeneration} <strong>(SL2)</strong></p><p>When you summon an Arcanum, you immediately recover <strong>【SL × 5】</strong> Hit Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.gbkA1CRgQ9OxPstd]{Bind and Summon}</p><p>You may <strong>bind</strong> Arcana to your soul and <strong>summon</strong> them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question. You may use an action and spend 40 Mind Points to <strong>summon</strong> an Arcanum you have bound: the details of this process are explained on the next page. If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aIbwfdDFTSRgKxxx]{Emergency Arcanum} <strong>(SL6)</strong></p><p>As long as you are in <strong>Crisis</strong>, the cost for summoning your Arcana is reduced by <strong>【SL × 5】</strong> Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Jaxs87P2Q8AfKwWO]{Ritual Arcanism}</p><p>You may perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound (see <strong>Core Rulebook</strong>, page <strong>178</strong>). Arcanism Rituals use <strong>【WLP + WLP】</strong> for the Magic Check.</p><h2><strong>THE ARCANA</strong></h2><ul><li><p>For <strong>arcana</strong> breakdown and a list of Arcanums, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.sO33zynz6ZsBDpFR]{Arcana Rules}</p></li><li><p>To <strong>automate</strong>, VTT Instructions can be found here: @UUID[Compendium.projectfu.handouts.JournalEntry.sO33zynz6ZsBDpFR.JournalEntryPage.MQShQEsSnZ9ch3bs]{Arcana VTT Instructions}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -1531,9 +1305,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR176"
-        },
+        "source": "FUCR176",
         "fuid": "arcanist"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/arcanist/arcanist.png",
@@ -1567,21 +1339,14 @@
       "name": "Spiritist",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Show me the truth in your heart."
         },
         "description": "<h5><strong>ALSO: Healer, Priest, Witch</strong></h5><p><strong>Spiritists </strong>have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions. Several worlds see the powers of Spiritism as gifts from a deity or proof that a person’s heart is pure; however, there is no definite proof of these abilities coming from anything but discipline, empathy, and focus.</p><hr /><h5><strong>SPIRITIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>SPIRITIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.rVM7HhQ5OwdPtFwa]{Healing Power} <strong>(SL2)</strong></p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may have each of those allies recover an amount of Hit Points equal to <strong>【SL, multiplied by the number of Bonds you have】</strong>.</p><p>This healing is separate from any healing caused by the effects of the spell.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ek0pzfo1bSWGHfzb]{Ritual Spiritism}</p><p>You may perform Rituals whose effects fall within the Spiritism discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy]{Spiritual Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive (@ICON[offensive]) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.pIkEDFcA5pnIpsu3]{Support Magic}</p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may choose one of those allies you have a <strong>Bond </strong>towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the <strong>strength </strong>of your Bond towards them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.affUHtuCYoDxmO4h]{Vismagus}</p><p>When you cast a spell, if you don’t have enough Mind Points to pay for its total cost, you may choose to spend <strong>twice as many</strong> Hit Points instead. You cannot use this Skill if doing so would reduce you to 0 Hit Points. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target).</p><h2><strong>SPIRITIST SPELLS</strong></h2><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -1632,9 +1397,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR206"
-        },
+        "source": "FUCR206",
         "fuid": "spiritist"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist.png",
@@ -1670,14 +1433,10 @@
       "type": "skill",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL x 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1715,9 +1474,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -1739,7 +1496,11 @@
         "B6evqtezy9ZsGZG3": 3,
         "9aR18wpxqiStEQ8U": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0",
         "duplicateSource": null,

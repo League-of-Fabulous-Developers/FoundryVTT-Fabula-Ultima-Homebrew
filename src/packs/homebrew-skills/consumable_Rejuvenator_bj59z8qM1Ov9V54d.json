@@ -11,9 +11,6 @@
       "value": ""
     },
     "description": "<p>One creature recovers <strong>@GAIN[25 hp]</strong> and <strong>@GAIN[25 mp]</strong> .</p><hr /><p><strong>Synergy Conditions:</strong> Combine with Status Recovery potion.<br /><strong>Synergy Effect:</strong> Double the HP and MP recovery of this item.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>The earth splits and noxious fumes spill forth. Each target hit by this spell suffers <strong>【HR + 15】 poison</strong> damage. Your targets’ magic defense is set to their dexterity die against this spell.</p><p><strong>Opportunity</strong>: Each target hit by this spell suffers <strong>@EFFECT[poisoned]</strong>.</p><hr /><p><strong>@LOSS[15 mp]</strong> for <strong>one</strong> target.</p><p><strong>@LOSS[30 mp]</strong> for <strong>two</strong> targets.</p><p><strong>@LOSS[45 mp]</strong> for <strong>three</strong> targets.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

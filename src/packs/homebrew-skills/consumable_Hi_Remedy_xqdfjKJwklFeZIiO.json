@@ -12,9 +12,6 @@
       "value": ""
     },
     "description": "<p>One creature recovers <strong>@GAIN[70 hp]</strong>.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with HP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers half the initial amount of HP recovered at the start of their next turn.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

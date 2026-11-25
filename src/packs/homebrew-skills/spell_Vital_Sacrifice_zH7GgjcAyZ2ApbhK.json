@@ -5,14 +5,10 @@
   "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
   "system": {
     "fuid": "spell",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You command your Phantasms to heal your allies. Each Phantasm runs towards a companion and shatters itself in a cloud of healing energy. Each target recovers 20 Hit Points. A single ally cannot be healed by more than one Phantasm per action.</p><hr /><ul><li><p><strong>Target Recovers:</strong> @GAIN[20 hp] </p></li></ul>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

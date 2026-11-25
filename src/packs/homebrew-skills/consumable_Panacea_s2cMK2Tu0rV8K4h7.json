@@ -11,9 +11,6 @@
       "value": ""
     },
     "description": "<p>One creature recovers from up to three Status effects.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with HP or MP Recovery potion.<br /><strong>Synergy Effect:</strong> Target recovers 10 extra HP or MP for each Status effect removed by this item.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

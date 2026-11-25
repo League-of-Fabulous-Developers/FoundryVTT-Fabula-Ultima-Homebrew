@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Your target is lifted by a spire of rock. Until they voluntarily slide down, they can only be reached in <strong>melee</strong> by b creatures, and likewise can only use <strong>melee</strong> attacks against <strong>flying</strong> creatures. If there is a ceiling (e.g. in a cavern underground), this spell instead functions as <strong>Terra</strong>, except it can still only target one creature.</p><hr /><p> <strong>@LOSS[10 mp]</strong> </p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

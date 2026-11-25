@@ -12,62 +12,25 @@
       "value": "Reel in a special fish on Discovery with unique bait."
     },
     "description": "<blockquote><p><strong>Requirements:</strong> You must have mastered one or more classes among <strong>Loremaster</strong>, <strong>Entropist</strong> and <strong>Angler</strong>, and must have learned the <strong>Fishing</strong> skill.</p></blockquote><p>When you roll a <strong>Discovery</strong> using <strong>Unique</strong>-rank bait, you may instead channel to reel in from the cosmos and choose to get any of these special fish:</p><table><tbody><tr><td><p style=\"text-align:center\"><strong>Astral Leviathan</strong></p></td><td><p><em>You may cast an <strong>Entropic</strong> spell that you know for free. If you cast the Ultimate spell <strong>Comet</strong>, you still pay half of the Mind Point cost.</em></p></td></tr><tr><td><p style=\"text-align:center\"><strong>Eldritch Elderfish</strong></p></td><td><p><em>When you take the <strong>Study</strong> action during a conflict, you can instead describe <strong>two</strong> things you want to know, instead of one. You learn both of those things as if you're rolled a <strong>13</strong>, learning <strong>Detailed</strong> information without needing to make a roll (as per the study action open roll chart on page <strong>74</strong> of the <strong>Core Rulebook</strong>).</em></p><p><em>Alternatively, you can choose one non-player character in a conflict and learn their physical traits as if you had rolled a <strong>16+</strong> to learn about an NPC's profile (<strong>Core Rulebook</strong>, page <strong>319</strong>). You also learn all of that creature's Special Rules, if it has any.</em></p></td></tr><tr><td><p style=\"text-align:center\"><strong>Luminescent Voidswimmer</strong></p></td><td><p><em>Improve your next fishing die by one (up to d6), and turn a failure into a success. If it’s already a success, turn it into a <strong>Discovery</strong>. Note that this does not allow you to trigger <strong>Call of the Old Ones</strong> again.</em></p></td></tr></tbody></table>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "angler,entropist,loremaster"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -80,19 +43,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "Homebrew",
     "fuid": "call-of-the-old-ones"

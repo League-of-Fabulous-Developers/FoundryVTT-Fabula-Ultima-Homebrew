@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/weapons/thrown/bomb-timer.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Any spells or effects on the Target that were acquired since the end of your last turn are lost. If an effect was acquired as a consequence of a change of state, such as being in Crisis or holding a specific item, it cannot be lost as a result of this spell.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

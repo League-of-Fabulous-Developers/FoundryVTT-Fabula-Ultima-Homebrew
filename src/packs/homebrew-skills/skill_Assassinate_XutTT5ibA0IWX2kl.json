@@ -5,14 +5,10 @@
   "_id": "XutTT5ibA0IWX2kl",
   "img": "icons/weapons/daggers/knife-kitchen-red.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You may spend an action and up to <strong>【SL x 5】 MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -25,50 +21,21 @@
       "value": "assassin"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -80,39 +47,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

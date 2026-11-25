@@ -12,62 +12,25 @@
       "value": ""
     },
     "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered one or more Classes among <strong>Dungeoneer</strong> and <strong>Wayfarer</strong>, and must have learned <strong>both</strong> the <strong>Treasure Hunter</strong> and <strong>Treasure Magnet</strong> skills.</p></blockquote><p>When you encounter a <strong>Danger</strong> as a result of a travel or encounter roll, you may spend a Fabula Point to, at the same time as the Danger, also make a <strong>Discovery</strong>. These two things may be one after the other or interwoven into the same scene, chosen by your <strong>Game Master</strong>.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "dungeoneer,wayfarer"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -80,19 +43,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "Homebrew",
     "fuid": "treasure-fiend"

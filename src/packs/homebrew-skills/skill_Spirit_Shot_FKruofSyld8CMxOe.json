@@ -6,14 +6,10 @@
   "img": "icons/equipment/neck/collar-rounded-red.webp",
   "system": {
     "fuid": "spirit-shot",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>As an action, choose any number of <strong>Soul Beads</strong> to release in a <strong>ranged </strong>attack against enemies, spending 2 MP per Bead. Perform a <strong>【DEX + WLP】</strong> Check. On a hit, each target loses <strong>【SL × 4】</strong> HP <strong>or</strong> MP per Bead, based  on your choice. This damage ignores Resistances. </p><p>Beads targeting HP aﬀect the target’s <strong>Defense</strong>, while those targeting MP aﬀect their <strong>Magic Defense</strong>. Each Bead is destroyed after release, whether it hits or not.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -26,50 +22,21 @@
       "value": "monk"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -81,39 +48,6 @@
       "max": 6
     },
     "source": "FULF",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     }

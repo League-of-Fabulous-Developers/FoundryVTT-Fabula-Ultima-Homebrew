@@ -436,14 +436,10 @@
       "name": "Enthrall",
       "type": "spell",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>Target creature becomes <strong>@EFFECT[enraged]</strong>. Until the creature is no longer <strong>Enraged</strong>, their Attacks and Offensive Spells must include you among their Targets if possible.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -472,15 +468,6 @@
         "accuracy": {
           "value": 0
         },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
         "impdamage": {
           "hasImpDamage": {
             "value": false
@@ -505,9 +492,7 @@
         "isOffensive": {
           "value": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -558,7 +543,11 @@
         "default": 0,
         "pBweP8B18hmB7U1j": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
@@ -576,14 +565,10 @@
       "name": "Inspire",
       "type": "spell",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>Until this spell ends, each target gains a <strong>+1</strong> bonus to Accuracy Checks.</p><hr /><p><strong>@EFFECT[eyJuYW1lIjoiSW5zcGlyZSIsImNoYW5nZXMiOlt7ImtleSI6InN5c3RlbS5ib251c2VzLmFjY3VyYWN5LmFjY3VyYWN5Q2hlY2siLCJtb2RlIjoyLCJ2YWx1ZSI6MX1dLCJpY29uIjoiaWNvbnMvbWFnaWMvaG9seS9wcmF5ZXItaGFuZHMtZ2xvd2luZy15ZWxsb3cud2VicCJ9]</strong> </p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -612,15 +597,6 @@
         "accuracy": {
           "value": 0
         },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
         "impdamage": {
           "hasImpDamage": {
             "value": false
@@ -645,9 +621,7 @@
         "isOffensive": {
           "value": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -699,7 +673,11 @@
         "default": 0,
         "pBweP8B18hmB7U1j": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",

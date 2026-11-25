@@ -259,14 +259,10 @@
       "_id": "nAYPBewlpiveV4iN",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>You may bind your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your Sanctuaries (see next page.) You can Haunt other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -279,48 +275,19 @@
           "value": "Warden"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -331,42 +298,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         }
@@ -400,14 +332,10 @@
       "type": "skill",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -420,48 +348,19 @@
           "value": "Warden"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -472,42 +371,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         }
@@ -520,7 +384,10 @@
         "CLAzxWQsDDB8fCLx": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "systemId": "projectfu",
@@ -540,21 +407,14 @@
       "name": "Rogue",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "I will find my own justice."
         },
         "description": "<h5><strong>ALSO: Bandit, Ninja, Thief</strong></h5><p>Be they criminals, rebels, or spies, <strong>Rogues</strong> are more than willing to play dirty to get what they want. Rogues are generally quick, witty, and elusive: while a few of them are infamous for being mostly concerned with their personal wealth and profit, many see themselves as fighting against injustice, tyranny, or social exclusion. Tragically, it is quite common for Rogues to end up being painted as threats by those same people they fight for.</p><hr /><h5><strong>ROGUE FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Inventory Points by 2.</li></ul><h2><strong>ROGUE SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.c2XRt5pvOab25Tbe]{Cheap Shot} <strong>(SL5)</strong></p><p>When you hit a creature with an attack, if the attack <strong>only</strong> targeted that creature and they are suffering from <strong>one or more status effects</strong>, you may have it deal extra damage equal to <strong>【SL + the number of status effects on the creature】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ksgKc90MZSpDTka7]{Dodge} <strong>(SL3)</strong></p><p>As long as you have no <strong>shields</strong> and no <strong>martial armor</strong> equipped, your Defense score is increased by <strong>【SL】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.tiu0D74YNxirN6Tr]{High Speed} <strong>(SL3)</strong></p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one option and apply it before the start of the first round: perform a <strong>free attack</strong> with a weapon you have equipped; <strong>or</strong> perform a <strong>Hinder</strong> or <strong>Objective</strong> action. You also gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen option.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.cHKzZJBYjwLuRfDL]{See You Later}</p><p>You may use an action and spend 1 Fabula Point to vanish from the current scene, reappearing whenever you want during a <strong>different</strong> scene in which another Player Character is present. Describe how you escaped and miraculously got here!</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.bpCv5Vkr1aWZiFSw]{Soul Steal} <strong>(SL5)</strong></p><p>You may use an action to perform a <strong>【DEX + WLP】</strong> Check against the Magic Defense of a creature you can see. If you succeed and the target is a <strong>soldier</strong>, you recover <strong>【SL】</strong> Inventory Points; if they are an <strong>elite</strong> or <strong>champion</strong>, the GM gives you the target’s <strong>soul treasure</strong>, an item worth an amount of zenit equal to or lower than <strong>【the target’s level multiplied by 30, or by 50 if they are a Villain】</strong>. This <strong>soul treasure</strong> will appear inside your <strong>backpack</strong>; a creature can be successfully stolen from with this Skill only once.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【DEX + WLP】</strong> Checks for this Skill.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -605,9 +465,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR203"
-        },
+        "source": "FUCR203",
         "fuid": "rogue"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue.png",
@@ -641,21 +499,14 @@
       "name": "Sharpshooter",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Flee to the other end of the world; my arrow shall find you."
         },
         "description": "<h5><strong>ALSO: Archer, Gunslinger, Sniper</strong></h5><p>A majority of <strong>Sharpshooters </strong>are exceptionally good at dealing with threats from a carefully calculated distance; others are brave, skilled or reckless enough to engage their foes at point-blank. While many of these skilled snipers are battle-hardened soldiers, some have turned to a life of piracy, bounty hunting or banditry. A few have put their abilities at the service of the people, or use them to protect a sacred or forbidden site from intruders.</p><hr /><h5><strong>SHARPSHOOTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip martial ranged weapons and martial shields.</li></ul><h2><strong>SHARPSHOOTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.lCFQMCY4AmDsv6sv]{Barrage} <strong>(SL5)</strong></p><p>When you perform a <strong>ranged </strong>attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi </strong>(2); or you increase the attack’s <strong>multi </strong>property by one, up to a maximum of <strong>multi </strong>(3).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.sIkQa2NzkqsvczBr]{Crossfire} <strong>(SL3)</strong></p><p>After a creature you can see performs a <strong>ranged </strong>attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a ranged weapon equipped, and it has no effect if the Accuracy Check was a critical success.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.hmDCgX5OEk5l4uXW]{Hawkeye} <strong>(SL5)</strong></p><p>When you perform the <strong>Guard </strong>action, if you choose <strong>not </strong>to provide cover to another creature, you may choose one option: the next <strong>ranged </strong>attack you perform before the end of the current scene will deal <strong>【SL × 2】 </strong>extra damage; or you may immediately perform a<strong> free attack</strong> with a <strong>bow </strong>or <strong>firearm </strong>you have equipped, treating your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.0UxTgrag7cE4M1oc]{Ranged Weapon Mastery} <strong>(SL4)</strong></p><p>You gain a bonus equal to <strong>【SL】 </strong>to all Accuracy Checks with <strong>ranged </strong>weapons.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Ovmw7cMrN6qvagG4]{Warning Shot} <strong>(SL4)</strong></p><p>When you hit one or more targets with a <strong>ranged </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>shaken </strong>on each target hit by the attack; <strong>or </strong>inflict <strong>slow </strong>on each target hit by the attack; <strong>or </strong>each target hit by the attack loses <strong>【SL × 10】 </strong>Mind Points. Describe your maneuver!</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -706,9 +557,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR204"
-        },
+        "source": "FUCR204",
         "fuid": "sharpshooter"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter.png",
@@ -743,16 +592,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/pistol.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -800,12 +643,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -828,7 +666,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.Mn8dvssoXj3cjGKw",
@@ -942,16 +783,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -999,12 +834,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1061,18 +891,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1113,18 +938,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1165,18 +985,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1217,18 +1032,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1269,18 +1079,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1316,16 +1121,10 @@
       "_id": "FLh8npCffj2AkSMp",
       "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_dodge.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>As long as you have no <strong>shields</strong> and no <strong>martial armor</strong> equipped, your Defense score is increased by <strong>【SL】</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1354,9 +1153,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR203"
-        },
+        "source": "FUCR203",
         "hasRoll": {
           "value": false
         },
@@ -1484,16 +1281,10 @@
       "_id": "HxQR1GHkDycu5Ilt",
       "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_soul_steal.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You may use an action to perform a <strong>【DEX + WLP】</strong> Check against the Magic Defense of a creature you can see. If you succeed and the target is a <strong>soldier</strong>, you recover <strong>【SL】</strong> Inventory Points; if they are an <strong>elite</strong> or <strong>champion</strong>, the GM gives you the target’s <strong>soul treasure</strong>, an item worth an amount of zenit <strong>equal to or lower than</strong> <strong>【the target's level multiplied by 30, or by 50 if they are a Villain】</strong>. This <strong>soul treasure</strong> will appear inside your <strong>backpack</strong>; a creature can be successfully stolen from with this Skill only once.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【DEX + WLP】 </strong>Checks for this Skill.</p><hr /><ul><li><p><strong>You Perform: </strong>@CHECK[dex wlp ($sl)]</p></li><li><p><strong>You Recover: </strong>@GAIN[$sl ip]{Soldier: SL IP}</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1522,9 +1313,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR203"
-        },
+        "source": "FUCR203",
         "hasRoll": {
           "value": true
         },
@@ -1558,7 +1347,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.bpCv5Vkr1aWZiFSw",
@@ -1581,16 +1373,10 @@
       "_id": "9172zy9Mwu8DGgGA",
       "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_warning_shot.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>When you hit one or more targets with a <strong>ranged</strong> attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>shaken</strong> on each target hit by the attack; <strong>or</strong> inflicts <strong>slow</strong> on each target hit by the attack; or each target hit by the attack loses <strong>【SL × 10】</strong> Mind Points. Describe your maneuver!</p><hr /><ul><li><p><strong>Targets Suffers: </strong>@EFFECT[shaken], @EFFECT[slow], or @LOSS[10*$sl mp]{SL × 10 MP}</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1619,9 +1405,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR205"
-        },
+        "source": "FUCR205",
         "hasRoll": {
           "value": false
         },
@@ -1655,7 +1439,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.Ovmw7cMrN6qvagG4",
@@ -1676,19 +1463,14 @@
       "type": "class",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
         },
         "description": "<h5><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h5><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><hr /><h5><strong>WARDEN FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h2><strong>WARDEN SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</p><p>You may <strong>bind</strong> your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your <strong>Sanctuaries</strong> (see next page.) You can <strong>Haunt</strong> other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death} <strong>(SL5)</strong></p><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL × 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance} <strong>(SL3)</strong></p><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL × 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is} <strong>(SL5)</strong></p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL × 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><h3>SANCTUARY &amp; HAUNTOLOGY</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -1739,9 +1521,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "warden"
       },
       "effects": [],

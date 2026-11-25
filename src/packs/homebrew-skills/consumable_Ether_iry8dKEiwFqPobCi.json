@@ -11,9 +11,6 @@
       "value": ""
     },
     "description": "<p>One creature recovers <strong>@GAIN[15 mp]</strong>.</p><hr /><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

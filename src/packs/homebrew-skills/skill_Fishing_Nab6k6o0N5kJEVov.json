@@ -4,14 +4,10 @@
   "type": "skill",
   "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You may use an action to fish out of nowhere and get benefits based on the fish caught. On a success, if you are able to <strong>equip</strong> the fish, you have the option to do a <strong>free attack</strong> with it, or trigger the effects of the fish if it is a Discovery, <strong>or</strong> store up to two fish in your <strong>inventory</strong> for later use.</p><p>Alternatively, you may use the <strong>Attack</strong> action and <strong>equip</strong> up to two fish from your inventory before attacking. If you are holding two fishes or a fish and a weapon, you may choose to do two weapon fighting if applicable. If you equip other types of fish, you can choose to trigger the effects instead of performing an attack.</p><p>You may store up to <strong>【SL × 2】</strong> fish in your inventory and you may fish up to <strong>【SL】</strong> times per scene.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-rollable-tables.RollTable.BsRVNqECIlz6OhsE]{Fishing}</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -24,50 +20,21 @@
       "value": "angler"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -79,39 +46,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

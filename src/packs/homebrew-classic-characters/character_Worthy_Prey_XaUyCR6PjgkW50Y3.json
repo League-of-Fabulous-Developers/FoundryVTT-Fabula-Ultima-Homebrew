@@ -282,14 +282,10 @@
       "name": "Heavy Rifle",
       "type": "weapon",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>This weapon possesses the modifications of <strong>Accurate</strong>, <strong>Powerful</strong>, and <strong>Magic Defense Boost.</strong></p><p>See <strong>Custom Weapons</strong> for details.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -301,10 +297,6 @@
         },
         "quality": {
           "value": ""
-        },
-        "isEquipped": {
-          "value": true,
-          "slot": "mainHand"
         },
         "attributes": {
           "primary": {
@@ -342,12 +334,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": true
-        },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -367,7 +354,10 @@
         "B6evqtezy9ZsGZG3": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "systemId": "projectfu",
@@ -387,21 +377,14 @@
       "type": "class",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Let me be your shield."
         },
         "description": "<h5><strong>ALSO: Paladin, Soldier, Yōjinbō</strong></h5><p>Proud and selfless, <strong>Guardians</strong> are individuals who know the value of life… and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. They are often extraordinary and impressive individuals, such as valiant soldiers or veterans scarred by a thousand battles. While some Guardians may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.</p><hr /><h5><strong>GUARDIAN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial armor</strong> and <strong>martial shields.</strong></li></ul><h2><strong>GUARDIAN SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd]{Bodyguard}</p><p>If you perform the <strong>Guard</strong> action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF]{Defensive Mastery} <strong>(SL5)</strong></p><p>As long as you have a <strong>shield</strong> or a <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aPQXTQegswRisA1R]{Dual Shieldbearer}</p><p>You may now equip a <strong>shield</strong> in your <strong>main hand</strong> slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee <strong>brawling</strong> weapon:</p><table><tbody><tr><td><strong>WEAPON</strong></td><td><strong>ACCURACY</strong></td><td><strong>DAMAGE</strong></td><td><strong>QUALITY</strong></td></tr><tr><td><strong>Twin Shields</strong></td><td>【MIG + MIG】</td><td>【HR + 5】physical </td><td>Deals extra damage equal to your 【SL】 in defensive mastery (above).</td></tr></tbody></table><p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong> (above).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.X4KdFiQmzikrsM6v]{Fortress} <strong>(SL5)</strong></p><p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES]{Protect}</p><p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong> or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -452,9 +435,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR196"
-        },
+        "source": "FUCR196",
         "fuid": "guardian"
       },
       "effects": [],
@@ -487,21 +468,14 @@
       "name": "Sharpshooter",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Flee to the other end of the world; my arrow shall find you."
         },
         "description": "<h5><strong>ALSO: Archer, Gunslinger, Sniper</strong></h5><p>A majority of <strong>Sharpshooters </strong>are exceptionally good at dealing with threats from a carefully calculated distance; others are brave, skilled or reckless enough to engage their foes at point-blank. While many of these skilled snipers are battle-hardened soldiers, some have turned to a life of piracy, bounty hunting or banditry. A few have put their abilities at the service of the people, or use them to protect a sacred or forbidden site from intruders.</p><hr /><h5><strong>SHARPSHOOTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip martial ranged weapons and martial shields.</li></ul><h2><strong>SHARPSHOOTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.lCFQMCY4AmDsv6sv]{Barrage} <strong>(SL5)</strong></p><p>When you perform a <strong>ranged </strong>attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi </strong>(2); or you increase the attack’s <strong>multi </strong>property by one, up to a maximum of <strong>multi </strong>(3).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.sIkQa2NzkqsvczBr]{Crossfire} <strong>(SL3)</strong></p><p>After a creature you can see performs a <strong>ranged </strong>attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a ranged weapon equipped, and it has no effect if the Accuracy Check was a critical success.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.hmDCgX5OEk5l4uXW]{Hawkeye} <strong>(SL5)</strong></p><p>When you perform the <strong>Guard </strong>action, if you choose <strong>not </strong>to provide cover to another creature, you may choose one option: the next <strong>ranged </strong>attack you perform before the end of the current scene will deal <strong>【SL × 2】 </strong>extra damage; or you may immediately perform a<strong> free attack</strong> with a <strong>bow </strong>or <strong>firearm </strong>you have equipped, treating your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.0UxTgrag7cE4M1oc]{Ranged Weapon Mastery} <strong>(SL4)</strong></p><p>You gain a bonus equal to <strong>【SL】 </strong>to all Accuracy Checks with <strong>ranged </strong>weapons.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Ovmw7cMrN6qvagG4]{Warning Shot} <strong>(SL4)</strong></p><p>When you hit one or more targets with a <strong>ranged </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>shaken </strong>on each target hit by the attack; <strong>or </strong>inflict <strong>slow </strong>on each target hit by the attack; <strong>or </strong>each target hit by the attack loses <strong>【SL × 10】 </strong>Mind Points. Describe your maneuver!</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -552,9 +526,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR204"
-        },
+        "source": "FUCR204",
         "fuid": "sharpshooter"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter.png",
@@ -676,16 +648,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -733,12 +699,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -795,18 +756,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -847,18 +803,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -899,18 +850,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -951,18 +897,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1003,18 +944,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1050,16 +986,10 @@
       "_id": "GyNN4ATn0u7fsKNM",
       "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_barrage.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>When you perform a <strong>ranged</strong> attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi (2)</strong>; <strong>or</strong> you increase the attack's <strong>multi</strong> property by one, up to a maximum of <strong>multi (3)</strong>.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1088,9 +1018,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR205"
-        },
+        "source": "FUCR205",
         "hasRoll": {
           "value": true
         },
@@ -1124,7 +1052,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.lCFQMCY4AmDsv6sv",
@@ -1147,16 +1078,10 @@
       "_id": "Vxb6UNXZmEjp9P7v",
       "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_ranged_weapon_mastery.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You gain a bonus equal to <strong>【SL】</strong> to all Accuracy Checks with <strong>ranged</strong> weapons.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1185,9 +1110,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR205"
-        },
+        "source": "FUCR205",
         "hasRoll": {
           "value": false
         },
@@ -1315,16 +1238,10 @@
       "_id": "pKvT9q4pI0dCLOzM",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_bodyguard.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>If you perform the <strong>Guard</strong> action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.</p><hr /><ul><li><p><strong>Target Receive:</strong> @EFFECT[cover] + @TYPE[affinity all resistance e:sot i:1 t:source]</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1353,9 +1270,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR196"
-        },
+        "source": "FUCR196",
         "hasRoll": {
           "value": false
         },
@@ -1389,7 +1304,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd",
@@ -1411,14 +1329,10 @@
       "type": "skill",
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL × 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p><hr /><ul><li><p><strong>Target Recovers:</strong> @GAIN[$sl*3 hp]{SL × 3 HP}, or @GAIN[$sl*3 mp]{SL × 3 MP}</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1458,9 +1372,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -1476,7 +1388,11 @@
         "traits": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy",
         "duplicateSource": null,
@@ -1503,14 +1419,10 @@
       "type": "skill",
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1550,9 +1462,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -1568,7 +1478,11 @@
         "traits": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y",
         "duplicateSource": null,
@@ -1594,19 +1508,14 @@
       "type": "class",
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "Finally, a momentt to rest! I hope."
         },
         "description": "<h5><strong>ALSO: Final Girl, Target, Whisteblower</strong></h5><p>These heroes aren’t chosen by destiny or the gods, but rather by the very evil that they will oppose, as <strong>Prey</strong>. They might have been another forgotten victim, if not for the moment of strength, inspiration, or pure dumb luck that changed their fate.<br />Now they have a party of allies and a chance, however slim, to strike back at the evil that tried to claim them... as long as they can see past their own fear.</p><hr /><h5>PREY <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Hit Points or Mind Points by 5</p></li></ul><h2>PREY<strong> SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Aq4xDd3pP4dQ9fGt]{Cornered Rat} <strong>(SL3)</strong></p><p>If a creature is blocking you from escaping a scene or restraining you, you deal <strong>【SL × 2】</strong>extra damage to them, and get a bonus equal to <strong>【SL】</strong> to Opposed Checks against them.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.IYGc3gbnpqvQBs2y]{Go On Without Me!}</p><p>On another creature’s turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use an Action to escape from the scene, reappearing in a different scene where you or another Player Character is present. Describe how you created the opportunity, and when they reappear, they’ll describe how they got there!</p><p>After using this Skill, you can’t use the Rogue Skill <strong>See You Later</strong> in the same scene, and another character can’t use <strong>Go On Without Me!</strong> on you. Face your fate.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.aFH53QmpAoUH4aBy]{If It Bleeds…} <strong>(SL5)</strong></p><p>During a conflict scene, when an ally completes a Clock with a successful Check or an enemy with a rank of <strong>elite</strong> or above enters <strong>Crisis</strong> for the first time, choose one: a creature of your choice recovers <strong>【SL × 3】</strong> HP or MP; or the creature who dealt the triggering damage or completed the triggering Clock gains a bonus equal to <strong>【SL】</strong> to their next Check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.CFyfRtizTPl2mAOd]{Prey Instinct} <strong>(SL3)</strong></p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.8EhoBIexhAqyb0ex]{Vigilance or Paranoia} <strong>(SL4)</strong></p><p>You can identify on sight when <strong>soldier</strong>-rank creatures are searching for you or mean you harm, but this Skill doesn’t reveal their exact intentions. Describe what tipped you off!</p><p>When you are present for the appearance or revelation of a Villain, you may immediately spend a Fabula Point to ask the GM a question about how the party could escape or hinder the Villain (but not to attack or defeat them.) The first Player Character to act on this answer gains a bonus equal to <strong>【SL】</strong> to their Check.</p><h3>PREY NOTES</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.fArjgN0xF1QmhtXe]{Prey Rules}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout </strong>by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -1657,9 +1566,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "prey"
       },
       "effects": [],

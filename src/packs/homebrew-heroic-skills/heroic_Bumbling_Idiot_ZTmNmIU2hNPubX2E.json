@@ -13,9 +13,6 @@
       "value": ""
     },
     "description": "<blockquote><p><strong>Requirements:</strong> you have mastered the <strong>Improviser</strong> class and have obtained either the <strong>WHOOPS!</strong> skill.</p></blockquote><p>Whenever you get a <strong>Fumble</strong>, choose any number of creatures you can see: Each of them suffers <strong>either 10 physical damage</strong> or <strong>Shaken</strong>, your choice.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

@@ -5,14 +5,10 @@
   "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
   "system": {
     "fuid": "spell",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You make a weapon appear as if it were imbued with soul energy. Choose a damage type: <strong>light</strong> or <strong>dark</strong>. Until this spell ends, all damage dealt by the weapon is of this type. If you have that weapon equipped while casting this spell, you may perform a <strong>free attack</strong> with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

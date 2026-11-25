@@ -5,14 +5,10 @@
   "_id": "cFV3ZV1Q46c7CXGP",
   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Trenches collapse and barriers spring up to protect your allies. Your targets cannot be targeted by <strong>ranged</strong> attacks. Any creature that targets them with a <strong>melee</strong> attack is considered to be <strong>in the trenches</strong>. The effect of this spell on a target ends when they make a <strong>melee</strong> attack against a creature that <strong>isn’t in the trenches</strong> or otherwise leave its protection (such as by taking flight.)</p><hr /><p><strong>@LOSS[10 mp]</strong> for <strong>one</strong> target.</p><p><strong>@LOSS[20 mp]</strong> for <strong>two</strong> targets.</p><p><strong>@LOSS[30 mp]</strong> for <strong>three</strong> targets.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

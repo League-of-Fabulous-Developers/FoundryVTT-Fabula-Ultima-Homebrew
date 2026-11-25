@@ -13,62 +13,25 @@
       "value": ""
     },
     "description": "<blockquote><p><strong>Requirements</strong>: You must have mastered the <strong>Monk</strong> class, and must have three levels in the <strong>Clarity</strong> skill.</p></blockquote><p>Whenever you have a full set of Resolve <strong>Soul Beads</strong>, you also receive a <strong>+2 bonus</strong> to your Defense, Magical Defense, and Accuracy Checks. For the purposes of the <strong>Resonant Clarity</strong> skill, these benefits are shared as a <strong>+1 bonus</strong> to your allies' Defense, Magical Defense, and Accuracy Checks.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "monk"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -81,19 +44,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "FULF"
   },

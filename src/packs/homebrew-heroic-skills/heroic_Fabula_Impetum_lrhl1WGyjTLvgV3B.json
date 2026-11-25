@@ -11,62 +11,25 @@
       "value": ""
     },
     "description": "<blockquote><p><em><strong>Requirements :</strong> You must have mastered the <strong>Hero</strong> class.</em></p></blockquote><p>Once per scene, you may use an action and spend up to 2 Fabula Points to perform a <strong>free attack</strong> with a weapon you have equipped. For each Fabula Point spent this way, that attack gains a +2 bonus to its Accuracy Check and deals 10 extra damage. However, all damage dealt by this attack becomes <strong>light</strong> and its type cannot change.</p><p>Damage dealt by this attack against Villains ignores Immunities and Resistances.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "hero"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -79,19 +42,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "Homebrew",
     "fuid": "fabula-impetum"

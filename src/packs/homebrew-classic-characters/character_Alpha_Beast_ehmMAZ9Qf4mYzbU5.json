@@ -257,21 +257,14 @@
       "type": "class",
       "img": "systems/projectfu/styles/static/compendium/classes/chimerist/chimerist.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Power without harmony will only lead to suffering."
         },
         "description": "<h5><strong>ALSO: Druid, Shapeshifter, Wild Mage</strong></h5><p><strong>Chimerists</strong> gather their power from the souls of the monsters and beasts they encounter. By manipulating their inner wild energy, these mages may mimic the magical abilities of monsters and have reached a supernatural understanding of feral creatures. Chimerists frequently rely on their toughness and physical prowess in addition to magic; they are often seen traveling the world in search of rare and enchanted creatures.</p><hr /><h5><strong>CHIMERIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</li></ul><h2><strong>CHIMERIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.c46SCybV1gtiHbL4]{Consume} <strong>(SL5)</strong></p><p>After you deal damage to one or more creatures with a spell, if you have an <strong>arcane</strong>, <strong>dagger</strong>, or <strong>flail</strong> weapon equipped, you recover <strong>【SL × 2】</strong> Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.YLWWM3IqnFCAGoUc]{Feral Speech}</p><p>You can communicate with creatures of the <strong>beast, monster</strong>, and <strong>plant</strong> Species.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.EBbeGD1rgPmN6Y6R]{Pathogenesis}</p><p>When you deal damage to one or more creatures with one of your Chimerist spells, each of those creatures that share their <strong>Species</strong> with the creature you originally learned that spell from suffers <strong>poisoned</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.99bT5ymNnmR60Kmf]{Ritual Chimerism}</p><p>You may perform Rituals whose effects fall within the <strong>Chimerism</strong> discipline. When you acquire this Skill, choose <strong>【INS + WLP】 or 【MIG + WLP】</strong>.</p><p>From now on, your Chimerism Rituals will use the chosen Attributes for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.yiX5sLJLKBh3UMmz]{Spell Mimic} <strong>(SL10)</strong></p><p>When you see a creature belonging to the <strong>beast, monster</strong>, or <strong>plant</strong> Species cast a spell, you may immediately choose to learn that spell as a Chimerist spell of your own: if you do, record the <strong>Species</strong> of the creature you learned it from. When you first acquire this Skill, choose <strong>【INS + WLP】 or 【MIG + WLP】</strong>. From now on, your offensive <br />( @ICON[offensive] ) Chimerist spells will use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creature you learned the spell from. You may have <strong>up to 【SL + 2】 different Chimerist spells</strong> memorized this way. If you want to memorize a new Chimerist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -322,9 +315,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR182"
-        },
+        "source": "FUCR182",
         "fuid": "chimerist"
       },
       "effects": [],
@@ -357,21 +348,14 @@
       "name": "Fury",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "I'll just have to become stronger than you!"
         },
         "description": "<h5><strong>ALSO: Berserker, Brawler, Viking</strong></h5><p><strong>Furies </strong>never know when to quit. In battle and life, they are energetic, determined, and often restless. Whatever ideals or desires drive their actions, they will stop at nothing and risk everything in order to achieve them. Some Furies undergo a rigid training in order to control their emotions; others simply see might as the solution to all problems and are constantly on the verge of letting rage get the best of them.</p><hr /><h5><strong>FURY FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial armor</strong>.</li></ul><h2><strong>FURY SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.DniA4VMTBNhk5a1v]{Adrenaline} <strong>(SL5)</strong></p><p>As long as you are in <strong>Crisis</strong>, you deal <strong>【SL × 2】 </strong>extra damage (be it with attacks, spells, Arcana, items, or any other method).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3]{Frenzy}</p><p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail </strong>and <strong>thrown </strong>weapons trigger a <strong>critical success </strong>if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.wezEekAOYfbxrt74]{Indomitable Spirit} <strong>(SL4)</strong></p><p>When you spend one or more Fabula Points, you get an additional benefit — choose one option: you recover <strong>【SL × 5】 </strong>Hit Points; <strong>or </strong>you recover <strong>【SL × 5】 </strong>Mind Points; <strong>or </strong>you recover from a single status effect of your choice.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.XaopYEAay9e86srI]{Provoke} <strong>(SL5)</strong></p><p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【MIG + WLP】 </strong>Check against a creature you can see — describe how you taunt them! If you succeed, the target suffers <strong>enraged </strong>and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer <strong>enraged</strong>, or if they are successfully <strong>provoked </strong>by someone else.</p><p>You gain a bonus equal to <strong>【SL】 </strong>to your <strong>【MIG + WLP】 </strong>Checks for this Skill.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.OW3xxi09kANGy2ZO]{Withstand} <strong>(SL5)</strong></p><p>When you perform the <strong>Guard </strong>action, if you choose <strong>not </strong>to provide cover to another creature, you recover Hit Points equal to <strong>【SL, multiplied by the highest strength among your Bonds】 </strong>and choose <strong>Might </strong>or <strong>Willpower</strong>: you treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the end of your next turn.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -422,9 +406,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR194"
-        },
+        "source": "FUCR194",
         "fuid": "fury"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/fury/fury.png",
@@ -461,14 +443,10 @@
       "_id": "28JLagY0bsZQ0Wig",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>You may bind your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your Sanctuaries (see next page.) You can Haunt other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -481,48 +459,19 @@
           "value": "Warden"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -533,42 +482,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -581,7 +495,11 @@
         "B6evqtezy9ZsGZG3": 3,
         "MZACGjYlT5yfbfPC": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw",
         "duplicateSource": null,
@@ -601,14 +519,10 @@
       "type": "skill",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL x 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -621,48 +535,19 @@
           "value": "Warden"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -673,42 +558,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -721,7 +571,11 @@
         "B6evqtezy9ZsGZG3": 3,
         "MZACGjYlT5yfbfPC": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24",
         "duplicateSource": null,
@@ -743,16 +597,10 @@
       "_id": "cpgpJ7CpCghVdqvD",
       "img": "systems/projectfu/styles/static/compendium/classes/chimerist/chimerist_ritual_chimerism.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You may perform Rituals whose effects fall within the <strong>Chimerism</strong> discipline.</p><p>When you acquire this Skill, choose <strong>【INS + WLP】</strong> or <strong>【MIG + WLP】</strong>. From now on, your Chimerism Rituals will use the chosen Attributes for the Magic Check.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -765,84 +613,20 @@
           "value": "Chimerist"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "dex",
+          "secondary": "dex"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR183"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
+        "source": "FUCR183",
         "hasRoll": {
           "value": false
         },
@@ -974,16 +758,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/waraxe.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1031,12 +809,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR131"
-        },
+        "source": "FUCR131",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1059,7 +832,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.uflwG9W4gIA9Iz0Q",
@@ -1086,16 +862,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1143,12 +913,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1200,16 +965,10 @@
       "_id": "trcOLx2D6uyxZRZd",
       "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1238,9 +997,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR195"
-        },
+        "source": "FUCR195",
         "hasRoll": {
           "value": false
         },
@@ -1274,7 +1031,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3",
@@ -1297,16 +1057,10 @@
       "_id": "woylFCemB4C9MWzl",
       "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_provoke.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【MIG + WLP】</strong> Check against a creature you can see — describe how you taunt them! If you succeed, the target suffers <strong>enraged</strong> and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer <strong>enraged</strong>, or if they are successfully <strong>provoked</strong> by someone else.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【MIG + WLP】</strong> Checks for this Skill.</p><hr /><ul><li><p><strong>You Perform: </strong>@CHECK[mig wlp ($sl)]</p></li><li><p><strong>Target Suffers: </strong>@EFFECT[enraged] @EFFECT[Compendium.projectfu.skills.SBaaNDpwZQDafu3J]{Effect: Provoke}</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1335,9 +1089,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR195"
-        },
+        "source": "FUCR195",
         "hasRoll": {
           "value": false
         },
@@ -1371,7 +1123,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.XaopYEAay9e86srI",
@@ -1399,18 +1154,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1451,18 +1201,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1503,18 +1248,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1555,18 +1295,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1607,18 +1342,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1652,19 +1382,14 @@
       "type": "class",
       "img": "icons/creatures/birds/songbird-yellow-flying.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "\"If we ever forget what happened here, this tragedy will repeat... or worse!\""
         },
         "description": "<h5><strong>ALSO: Genius Loci, Keeper, Watcher</strong></h5><p>When heroes seal a great evil away, who keeps it from escaping? When the spirits of the wood create a sacred grove, who scares arsonists and loggers away?</p><p><strong>Wardens</strong> watch over important places, either to protect them from the world, or to protect the rest of the world from whatever lies within. While they’ve been rousted from their familiar home and duties to join the party, they can still draw strength from their connection to their home - and, potentially, fireballs.</p><hr /><h5><strong>WARDEN FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Mind Points by 5.</p></li><li><p>You may perform Rituals whose effects fall within the <strong>Ritualism</strong> discipline.</p></li></ul><h2><strong>WARDEN SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WH4FqoETFhpeJxfw]{Bind And Haunt}</p><p>You may <strong>bind</strong> your soul to important sites in the world. When you encounter a suitable site, the GM will let you know the details of the binding process for that one. When you have bound yourself to such a place, it becomes one of your <strong>Sanctuaries</strong> (see next page.) You can <strong>Haunt</strong> other creatures with their spirits; the mechanics for doing so are explained there as well.</p><p>If you take this Skill at character creation, work with the GM to create or choose a place that you have a unique connection to. Other than that, you can only discover new potential Sanctuaries through exploration and story progression.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r512LcBYlnoTuwvz]{Haunted By Death} <strong>(SL5)</strong></p><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL × 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.doe2LwQORA5lbS24]{Forbiddance} <strong>(SL3)</strong></p><p>When you rest, you may set a condition that describes a creature, such as “soldiers of the Empire,” or “my rival, Hrothgar II.” When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed <strong>【WLP + WLP】</strong> Check against you or be repelled and unable to try again until the next sunrise. You get a bonus equal to <strong>【SL × 2】 </strong>to this Check.</p><p>A Villain can spend an Ultima Point to force their way in. As before, you know instantly.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Fy4nFbIR0IgCXybP]{Soul Offering}</p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.NuvX3gMhPapKqmI0]{Where the Heart Is} <strong>(SL5)</strong></p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of <strong>【SL】</strong> Mind Points for each positive emotion in their Bond with you, capped at 3 emotions. However, each negative emotion adds <strong>【SL × 2】</strong> Mind Points to the cost, so be careful who you ask for help!</p><h3>SANCTUARY &amp; HAUNTOLOGY</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.W1prRTLNuXn7NNgW]{Warden Rules}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -1715,9 +1440,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "warden"
       },
       "effects": [],

@@ -11,62 +11,25 @@
       "value": ""
     },
     "description": "<blockquote><p><em><strong>Requirements: </strong>You must have mastered the <strong>Assassin</strong> class and acquired the <strong>Assassinate</strong> skill.</em></p></blockquote><p>Whenever you perform the <strong>Assassinate</strong> skill, choose one:</p><p>Target an additional creature; <strong>or</strong> repeat your <strong>Accuracy Check</strong> and keep the better result.</p><p>If both <strong>Accuracy Checks</strong> against the same target would have resulted in triggering an <em>Assassination</em>, increase the damage multiplier by one step (e.g from <strong>x2</strong> to <strong>x3</strong>, or <strong>x3</strong> to <strong>x4</strong>).</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "assassin"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -79,19 +42,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "Homebrew",
     "fuid": "dual-bladed-assassination"

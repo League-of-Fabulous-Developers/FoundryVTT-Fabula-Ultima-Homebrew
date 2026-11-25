@@ -3,14 +3,10 @@
   "type": "skill",
   "img": "icons/environment/creatures/gargoyle-grey-blue.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You may use an action to perform an Opposed <strong>【MIG + WLP】</strong> Check against a creature you can touch. If you succeed, choose one from the following:</p><ul><li><p>Your target loses <strong>【HR】 Hit Points</strong> and you recover an amount of HP equal to half this <strong>HP</strong> loss.</p></li><li><p>Your target suffers <strong>dazed</strong>, and you may treat your <strong>Insight</strong> die as one die size higher until they recover from dazed.</p></li><li><p>Your target suffers <strong>shaken</strong>, and you may treat your <strong>Willpower</strong> die as one die size higher until they recover from shaken.</p></li><li><p>Your target suffers <strong>slow</strong>, and you may treat your <strong>Dexterity</strong> die as one die size higher until they recover from slow.</p></li><li><p>Your target suffers <strong>weak</strong>, and you may treat your <strong>Might</strong> die as one die size higher 3 until they recover from weak.</p></li></ul>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -23,82 +19,20 @@
       "value": "vampire"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

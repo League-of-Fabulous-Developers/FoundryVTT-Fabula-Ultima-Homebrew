@@ -6,14 +6,10 @@
   "img": "icons/creatures/reptiles/snake-poised-white.webp",
   "system": {
     "fuid": "track",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You may spend 10 MP to track prey that is not currently in the scene and whose leads can be followed through conventional, hunter-related means. The target must roll an Opposed <strong>【WLP + INS】</strong> Check against you, and you gain a bonus equal to <strong>【SL】</strong> on this check.</p><p>If the tracking is successful, you arrive at the prey’s location. If a conﬂict begins, your ﬁrst Accuracy Check gains a bonus of <strong>【 SL 】</strong> against the prey. If successful, it deals an additional <strong>【HR + 15】</strong> damage.</p><p>This ability ends if you are reduced to 0 HP, attack the prey, choose to track another target, or by Game Master ruling.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -26,50 +22,21 @@
       "value": "hunter"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -81,39 +48,6 @@
       "max": 6
     },
     "source": "FULF",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

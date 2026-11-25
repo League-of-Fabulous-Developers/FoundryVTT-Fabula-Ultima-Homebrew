@@ -4,62 +4,27 @@
   "type": "miscAbility",
   "img": "icons/magic/life/crosses-trio-red.webp",
   "system": {
-    "subtype": {
-      "value": "other"
-    },
     "summary": {
       "value": ""
     },
     "description": "<h1>MEDICAL PROCEDURES</h1><h4>MEDICAL PROCEDURES</h4><p>Medical procedures use the same mechanics as Rituals with a few differences:</p><ul><li><p>You perform a Medical Check instead of a Magic Check. The Attributes used for this Check vary depending on what you aim to accomplish, but are generally either <strong>【DEX + INS】</strong> or <strong>【INS + INS】</strong> Checks.</p></li><li><p>The cost of performing a Medical Procedure is more flexible; your GM may determine that you must spend Inventory Points, Zenit or special materials instead of or alongside Mind Points to perform the Medical Procedures.</p></li></ul><p>The table below illustrates some examples as to the alternative costs and sample effects you can produce using Medical Procedures.</p><table><tbody><tr><td><p><strong>POTENCY</strong></p></td><td><p style=\"text-align:center\"><strong>ALT COST</strong></p></td><td><p style=\"text-align:center\"><strong>DL</strong></p></td><td><p style=\"text-align:center\"><strong>EXAMPLES</strong></p></td></tr><tr><td><p style=\"text-align:center\">Minor</p></td><td><p style=\"text-align:center\">100 Zenit,<br />3 IP</p></td><td><p style=\"text-align:center\">7</p></td><td><p>Diagnose and treat flu-level diseases, create a nutrition plan for an individual, reset dislocated bones.</p></td></tr><tr><td><p style=\"text-align:center\">Medium</p></td><td><p style=\"text-align:center\">200 Zenit,<br />4 IP</p></td><td><p style=\"text-align:center\">10</p></td><td><p>Develop health and safety measures mitigating widespread diseases, performing minor cosmetic surgery, attaching a prosthetic limb.</p></td></tr><tr><td><p style=\"text-align:center\">Major</p></td><td><p style=\"text-align:center\">400 Zenit,<br />5 IP</p></td><td><p style=\"text-align:center\">13</p></td><td><p>Graft skin onto burn injuries, amputate a limb, create a vaccine for a localized disease.</p></td></tr><tr><td><p style=\"text-align:center\">Extreme</p></td><td><p style=\"text-align:center\">800 Zenit,<br />6 IP</p></td><td><p style=\"text-align:center\">16</p></td><td><p>Transplant organs, develop a cure for a deadly disease, excising tumors.</p></td></tr></tbody></table>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "dex"
-      },
-      "secondary": {
-        "value": "ins"
-      }
+      "primary": "dex",
+      "secondary": "dex"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "isBehavior": {
       "value": false
@@ -86,39 +51,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "dex"
-        },
-        "secondary": {
-          "value": "dex"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

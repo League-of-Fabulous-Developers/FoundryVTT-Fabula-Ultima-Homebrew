@@ -11,9 +11,6 @@
       "value": "They’re just… approaching menacingly."
     },
     "description": "<blockquote><p><strong>Requirements:</strong> You must have Mastered the <strong>Brawler</strong> Class.</p></blockquote><p>While wearing <strong>Martial Armor</strong> and after you are <strong>hit by an attack</strong>, your <strong>checks</strong> against your attacker gain a <strong>+3</strong> bonus until the end of your next turn.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

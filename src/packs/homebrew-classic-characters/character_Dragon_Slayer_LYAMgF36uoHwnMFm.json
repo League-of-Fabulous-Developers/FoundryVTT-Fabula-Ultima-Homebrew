@@ -285,14 +285,10 @@
       "_id": "ooc58jPb7PdryZ0V",
       "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -305,48 +301,19 @@
           "value": "Hunter"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -357,49 +324,17 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         }
       },
       "effects": [],
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "systemId": "projectfu",
@@ -425,14 +360,10 @@
       "type": "skill",
       "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -445,50 +376,21 @@
           "value": "Hunter"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          },
+          "type": "physical",
           "onRoll": "",
           "onApply": ""
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
         },
         "hasResource": {
           "value": false
@@ -499,42 +401,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -542,7 +409,10 @@
       },
       "effects": [],
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "systemId": "projectfu",
@@ -568,21 +438,14 @@
       "type": "class",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Let me be your shield."
         },
         "description": "<h5><strong>ALSO: Paladin, Soldier, Yōjinbō</strong></h5><p>Proud and selfless, <strong>Guardians</strong> are individuals who know the value of life… and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. They are often extraordinary and impressive individuals, such as valiant soldiers or veterans scarred by a thousand battles. While some Guardians may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.</p><hr /><h5><strong>GUARDIAN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial armor</strong> and <strong>martial shields.</strong></li></ul><h2><strong>GUARDIAN SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd]{Bodyguard}</p><p>If you perform the <strong>Guard</strong> action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF]{Defensive Mastery} <strong>(SL5)</strong></p><p>As long as you have a <strong>shield</strong> or a <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aPQXTQegswRisA1R]{Dual Shieldbearer}</p><p>You may now equip a <strong>shield</strong> in your <strong>main hand</strong> slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee <strong>brawling</strong> weapon:</p><table><tbody><tr><td><strong>WEAPON</strong></td><td><strong>ACCURACY</strong></td><td><strong>DAMAGE</strong></td><td><strong>QUALITY</strong></td></tr><tr><td><strong>Twin Shields</strong></td><td>【MIG + MIG】</td><td>【HR + 5】physical </td><td>Deals extra damage equal to your 【SL】 in defensive mastery (above).</td></tr></tbody></table><p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong> (above).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.X4KdFiQmzikrsM6v]{Fortress} <strong>(SL5)</strong></p><p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES]{Protect}</p><p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong> or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -633,9 +496,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR196"
-        },
+        "source": "FUCR196",
         "fuid": "guardian"
       },
       "effects": [],
@@ -668,21 +529,14 @@
       "name": "Weaponmaster",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "The wiser blades remain unsheathed."
         },
         "description": "<h5><strong>ALSO: Fighter, Rōnin, Warrior</strong></h5><p>Weaponmasters spend years upon years honing their close combat arts. Most of them display remarkable skill with a variety of weapons; others have trained to become one with a specific armament. Many <strong>Weaponmasters </strong>follow and protect someone out of love or loyalty, but there are also those who tirelessly wander the world seeking worthy opponents, legendary magical weapons, or capable teachers.</p><hr /><h5><strong>WEAPONMASTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial shields</strong>.</li></ul><h2><strong>WEAPONMASTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.IhBCZsilt0bj5RJK]{Bladestorm}</p><p>When you perform a <strong>melee </strong>attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi (2)</strong>; or you increase the attack’s multi property by one, up to a maximum of <strong>multi (3)</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7jWycVYFgZ1BMxch]{Bone Crusher} <strong>(SL4)</strong></p><p>When you hit one or more targets with a <strong>melee </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>dazed </strong>on each target hit by the attack; <strong>or </strong>inflict <strong>weak </strong>on each target hit by the attack; <strong>or </strong>each target hit by the attack loses <strong>【SL × 10】 </strong>Mind Points. Describe your maneuver!</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.WZDdQfw9VF64La2P]{Breach} <strong>(SL3)</strong></p><p>You may use an action and spend 5 Mind Points to perform a<strong> free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack must target a <strong>single creature</strong>. If the attack is successful, it deals no damage and you choose one option: you destroy one shield equipped by the target; <strong>or </strong>you destroy the target’s equipped armor; or whenever the target suffers damage from a source before the start of your next turn, that source deals <strong>【SL × 2】 </strong>extra damage to them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.XhcTVGtGEk7L2Ddq]{Counterattack}</p><p>After an enemy <strong>hits or misses you with a melee attack</strong>, if the Result of their Accuracy Check was an <strong>even number</strong>, you may perform a<strong> free attack </strong>against that enemy (after their attack has been fully resolved). This attack must be a <strong>melee </strong>attack and must have that enemy as its <strong>only </strong>target; treat your<strong> High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ztxLYzo1ADCaRupR]{Melee Weapon Mastery} <strong>(SL4)</strong></p><p>You gain a bonus equal to <strong>【SL】 </strong>to all Accuracy Checks with <strong>melee </strong>weapons.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -733,9 +587,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR218"
-        },
+        "source": "FUCR218",
         "fuid": "weaponmaster"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster.png",
@@ -772,16 +624,10 @@
       "_id": "MJKpLuiiWxpeTQyo",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_defensive_mastery.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>As long as you have a <strong>shield</strong> or <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied before damage Affinities).</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -794,84 +640,20 @@
           "value": "Guardian"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "dex",
+          "secondary": "dex"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR196"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
+        "source": "FUCR196",
         "hasRoll": {
           "value": false
         },
@@ -895,7 +677,10 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF",
@@ -918,16 +703,10 @@
       "_id": "sBpSGtdRW9WzimgG",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_protect.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong>, or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -940,84 +719,20 @@
           "value": "Guardian"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "dex",
+          "secondary": "dex"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR196"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
+        "source": "FUCR196",
         "hasRoll": {
           "value": false
         },
@@ -1041,7 +756,10 @@
         "MZACGjYlT5yfbfPC": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES",
@@ -1062,16 +780,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1119,12 +831,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1181,18 +888,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1233,18 +935,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1285,18 +982,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1337,18 +1029,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1389,18 +1076,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1434,19 +1116,14 @@
       "type": "class",
       "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "If hatred you will never find your quarry."
         },
         "description": "<h5><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h5><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><hr /><h5>HUNTER <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound} <strong>(SL4)</strong></p><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer} <strong>(SL4)</strong></p><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver &amp; Garlic}</p><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight} <strong>(SL3)</strong></p><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks} <strong>(SL5)</strong></p><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p><h3>HUNTER NOTES</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -1497,9 +1174,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "hunter"
       },
       "effects": [],
@@ -1534,16 +1209,10 @@
       "_id": "ZDgHZfTlcFLuqDqa",
       "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster_bone_crusher.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>When you hit one or more targets with a <strong>melee</strong> attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>dazed </strong>on each target hit by the attack; <strong>or</strong> inflict <strong>weak</strong> on each target hit by the attack; <strong>or</strong> each target hit by the attack loses <strong>【SL × 10】</strong> Mind Points. Describe your maneuver!</p><hr /><ul><li><p><strong>Target Suffers: </strong>@EFFECT[dazed], @EFFECT[weak], or @LOSS[$sl*10 mp]{SL × 10 MP}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1572,9 +1241,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR219"
-        },
+        "source": "FUCR219",
         "hasRoll": {
           "value": false
         },

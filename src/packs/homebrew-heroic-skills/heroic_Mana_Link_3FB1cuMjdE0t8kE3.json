@@ -12,62 +12,25 @@
       "value": ""
     },
     "description": "<blockquote><p><em><strong>Requirements:</strong> you must have mastered the <strong>Ritualist </strong>Class.</em></p></blockquote><p>Whenever you <strong>Rest</strong>, you may create a <strong>Mana Link</strong> between yourself and a willing ally. All previous <strong>Mana Links</strong> are lost when you create a new one. The <strong>Mana Link</strong> is also lost if either part of the link dies.</p><p>While the <strong>Mana Link</strong> remains active, both of you gain the following benefits as long as you are able to see or hear each-other:</p><ul><li><p>When you <strong>Cast a Spell</strong>, you may choose one from that ally’s list of spells.</p></li><li><p>When you <strong>recover MP</strong>, you may instead recover half as much <strong>MP</strong> and have that ally recover the other half.</p></li><li><p>When that ally <strong>spends or loses MP</strong>, you may pay up to <strong>half</strong> of that cost.</p></li></ul><p>If one of you uses any of the benefits from <strong>Mana Link</strong>, the other may use it until the current action or effect is fully resolved.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "ritualist"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -80,19 +43,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "Homebrew",
     "fuid": "mana-link"

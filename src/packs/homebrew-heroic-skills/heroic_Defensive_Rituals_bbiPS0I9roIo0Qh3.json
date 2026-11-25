@@ -13,9 +13,6 @@
       "value": ""
     },
     "description": "<blockquote><p><em><strong>Requirements:</strong> ou have mastered at least one class among the <strong>Ritualist</strong> and <strong>Guardian</strong> classes, and have the <strong>Spellcasting Assistant</strong> skill.</em></p></blockquote><p>When you use the <strong>Guard</strong> action to provide <strong>cover</strong> for an ally; <strong>or</strong> when you prevent an ally from being the target of an action, you may spend <strong>5 MP</strong> to apply the effects of <strong>Spellcasting Assistant</strong> towards the <strong>first spell they cast on their next Turn</strong>.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

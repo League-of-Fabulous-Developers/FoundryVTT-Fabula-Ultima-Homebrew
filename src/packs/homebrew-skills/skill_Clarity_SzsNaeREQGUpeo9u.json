@@ -6,14 +6,10 @@
   "img": "icons/equipment/neck/collar-rounded-red.webp",
   "system": {
     "fuid": "resonant-clarity",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>For each pair of active <em><strong>Resolve</strong></em><strong> Soul Beads</strong> you possess, choose one of these cumulative benefits:</p><ul><li>Immunity to a chosen status effect.</li><li>Your attacks or spells of a chosen damage type ignore Resistances.</li><li>You gain Resistance to a chosen damage type.</li></ul><p>The number of bonuses you can have active at any given moment is equal to <strong>【SL】.</strong> You cannot select the same benefit more than once.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -26,50 +22,21 @@
       "value": "monk"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -81,39 +48,6 @@
       "max": 6
     },
     "source": "FULF",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     }

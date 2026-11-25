@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You delicately pluck at the earth so that the damage doesn’t spread beyond your target. Each target hit by this spell suffers <strong>【HR + 10】 earth</strong> damage. This spell cannot target creatures who are flying, floating, falling, or otherwise in mid-air.</p><p><strong>Opportunity</strong>: On your next turn, you may cast <strong>Aftershock</strong> on all of the same targets who are still eligible, either before or after your action. It’s a copy of <strong>Tremor</strong> that doesn’t use your action and doesn’t have this <strong>Opportunity</strong>.</p><hr /><p><strong>@LOSS[5 mp]</strong> for <strong>one</strong> target.</p><p><strong>@LOSS[10 mp]</strong> for <strong>two</strong> targets.</p><p><strong>@LOSS[15 mp]</strong> for <strong>three</strong> targets.</p><p><strong>@LOSS[20 mp]</strong> for <strong>four</strong> targets.</p><p><strong>@LOSS[25 mp]</strong> for <strong>five</strong> targets.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

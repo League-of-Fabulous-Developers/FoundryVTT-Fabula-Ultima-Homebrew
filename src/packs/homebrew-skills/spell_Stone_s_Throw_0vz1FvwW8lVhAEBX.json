@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Better rock tossing through magic! You create three Perfect Stones as the following <strong>one-handed thrown</strong> weapon - It is <strong>limited (3)</strong></p><table><tbody><tr><td><p><strong>Perfect Stones</strong></p></td><td><p><strong>【MIG + DEX】 or 【INS + WLP】</strong></p></td><td><p style=\"text-align:center\"><strong>【HR + 10】Earth</strong></p></td></tr></tbody></table><p><strong>Opportunity:</strong> Each target hit suffers <strong>@EFFECT[dazed]</strong>.</p><p>If you have a free hand slot as you cast this spell, you may equip the Perfect Stones to it and make a <strong>free attack</strong> with one as part of the same action. When you’ve attacked with your third Perfect Stone, the effects of the spell end.</p><hr /><p><strong>@UUID[Item.Wo9LDqTbd4jGLsi6]{Perfect Stones} @LOSS[10 mp] </strong></p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

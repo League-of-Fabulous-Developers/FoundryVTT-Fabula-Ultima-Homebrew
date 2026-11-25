@@ -6,14 +6,10 @@
   "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
   "system": {
     "fuid": "grappling-smash",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>When you <strong>hit a single creature with a flail or brawling attack</strong> and before you resolve its damage, you may set your attack’s total damage to <strong>0</strong> and perform an <strong>Opposed Check</strong> with <strong>【DEX + MIG】</strong>. If successful, set your attack’s total damage to twice what it was, and continue resolving it.</p><p>Gain a <strong>【+SL】</strong> bonus to this check.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

@@ -375,16 +375,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -432,12 +426,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -487,19 +476,14 @@
       "type": "class",
       "img": "icons/weapons/daggers/knife-kitchen-red.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "A Silent strike, a fatal blow, an assassin's work is never slow."
         },
         "description": "<h5><strong>ALSO: Secret Agent, Shinobi</strong></h5><ul><li><p>How are your targets chosen? Do you pick them yourself, or does somebody else do it?</p></li><li><p>Are you a freelancer, or part of an organization? Do you still work for them?</p></li><li><p>One of your previous marks changed you. How, and what happened?</p></li><li><p>Are you currently on a mission? Do you feel apprehensive about it for some reason?</p></li></ul><hr /><h5><strong>ASSASSIN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Inventory Points by 2.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.XutTT5ibA0IWX2kl]{Assassinate} <strong>(SL5)</strong></p><p>You may spend an action and up to<strong>【SL x 5】MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9u8jqkiI27YicLMQ]{Hide In Plain Sight} <strong>(SL3)</strong></p><p>You may spend an action to perform an <strong>open check【DEX + INS】</strong>. Until the end of your next turn, you cannot be seen or targetted by any creature whose<strong>【INS】</strong>die is lower than the result of your check. You may exempt allies from this effect.</p><p>All <strong>contested</strong> or <strong>open checks</strong> closely related to hiding or sneaking (including this one) get a<strong>【+SL】</strong>bonus.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.LwLkkw4xZcv8ML2V]{Sneak Attack}</p><p>During your <strong>first turn of a conflict</strong>; or when one of your actions includes among its targets at least one creature that <strong>cannot see you</strong>, gain a<strong>【+SL】</strong>bonus to your <strong>Accuracy</strong> and <strong>Magic Checks</strong>.</p><p>Additionally, gain a<strong>【+SL】</strong>bonus to <strong>Initiative</strong> checks.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.Bm5kX0HJR6mL6SEf]{Master Of Disguise}</p><p>If you have some time to prepare and are out of sight, you may spend <strong>1 Fabula Point</strong> to fully adopt a new persona. Write it down: You may change into that persona at any time as long as you’re out of sight of those you wish to trick.</p><p>Your disguise is practically perfect and can withstand the scrutiny of any Soldier-ranked foe until you blow your cover.</p><p>Elites, Champions, and Villains may be able to see through your disguise, but only Villains get to permanently invalidate it by spending an <strong>Ultima Point</strong>.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.oNBIVnORM0mB9R3m]{Poissonnier} <strong>(SL3)</strong></p><p>As an action, you may spend <strong>2 IP</strong> and choose any number of weapons you are holding: Until the end of the scene, you increase their damage by <strong>【SL】 </strong>and switch their damage to Poison.</p><p>All Open Checks related to identifying, combating, and using poisons gain a <strong>【+SL】 </strong>bonus.</p><h2>HEROIC SKILLS</h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.QBfG2V41hmsjeEgY]{Dual-Bladed Assassination}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.Xb84whBJgufzR9Id]{Deadly Rush}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Nitro</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 3,
           "max": 10,
           "min": 0
         },
@@ -550,9 +534,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "assassin"
       },
       "effects": [],
@@ -587,14 +569,10 @@
       "_id": "ehdGKFjaoankG8rK",
       "img": "icons/weapons/daggers/knife-kitchen-red.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>You may spend an action and up to <strong>【SL x 5】 MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -634,9 +612,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -652,7 +628,11 @@
         "traits": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.XutTT5ibA0IWX2kl",
         "duplicateSource": null,
@@ -676,21 +656,14 @@
       "name": "Fury",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "I'll just have to become stronger than you!"
         },
         "description": "<h5><strong>ALSO: Berserker, Brawler, Viking</strong></h5><p><strong>Furies </strong>never know when to quit. In battle and life, they are energetic, determined, and often restless. Whatever ideals or desires drive their actions, they will stop at nothing and risk everything in order to achieve them. Some Furies undergo a rigid training in order to control their emotions; others simply see might as the solution to all problems and are constantly on the verge of letting rage get the best of them.</p><hr /><h5><strong>FURY FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial armor</strong>.</li></ul><h2><strong>FURY SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.DniA4VMTBNhk5a1v]{Adrenaline} <strong>(SL5)</strong></p><p>As long as you are in <strong>Crisis</strong>, you deal <strong>【SL × 2】 </strong>extra damage (be it with attacks, spells, Arcana, items, or any other method).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.oi2LgAoLN5IyuBG3]{Frenzy}</p><p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail </strong>and <strong>thrown </strong>weapons trigger a <strong>critical success </strong>if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.wezEekAOYfbxrt74]{Indomitable Spirit} <strong>(SL4)</strong></p><p>When you spend one or more Fabula Points, you get an additional benefit — choose one option: you recover <strong>【SL × 5】 </strong>Hit Points; <strong>or </strong>you recover <strong>【SL × 5】 </strong>Mind Points; <strong>or </strong>you recover from a single status effect of your choice.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.XaopYEAay9e86srI]{Provoke} <strong>(SL5)</strong></p><p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【MIG + WLP】 </strong>Check against a creature you can see — describe how you taunt them! If you succeed, the target suffers <strong>enraged </strong>and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer <strong>enraged</strong>, or if they are successfully <strong>provoked </strong>by someone else.</p><p>You gain a bonus equal to <strong>【SL】 </strong>to your <strong>【MIG + WLP】 </strong>Checks for this Skill.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.OW3xxi09kANGy2ZO]{Withstand} <strong>(SL5)</strong></p><p>When you perform the <strong>Guard </strong>action, if you choose <strong>not </strong>to provide cover to another creature, you recover Hit Points equal to <strong>【SL, multiplied by the highest strength among your Bonds】 </strong>and choose <strong>Might </strong>or <strong>Willpower</strong>: you treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the end of your next turn.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -741,9 +714,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR194"
-        },
+        "source": "FUCR194",
         "fuid": "fury"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/fury/fury.png",
@@ -779,14 +750,10 @@
       "type": "skill",
       "img": "icons/weapons/daggers/knife-kitchen-red.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>You may spend an action to perform an <strong>open check 【DEX + INS】</strong>. Until the end of your next turn, you cannot be seen or targeted by any creature whose <strong>【INS】 </strong>die is lower than the result of your check. You may exempt allies from this effect.</p><p>All <strong>contested</strong> or <strong>open checks</strong> closely related to hiding or sneaking (including this one) get a <strong>【+SL】 </strong>bonus.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -826,9 +793,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -844,7 +809,11 @@
         "traits": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9u8jqkiI27YicLMQ",
         "duplicateSource": null,
@@ -871,14 +840,10 @@
       "type": "skill",
       "img": "icons/weapons/daggers/knife-kitchen-red.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>During your <strong>first turn of a conflict</strong>; or when one of your actions includes among its targets at least one creature that <strong>cannot see you</strong>, gain a <strong>【+SL】 </strong>bonus to your <strong>Accuracy</strong> and <strong>Magic Checks</strong>.</p><p>Additionally, gain a <strong>【+SL】 </strong>bonus to <strong>Initiative</strong> checks.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -918,9 +883,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -936,7 +899,11 @@
         "traits": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.LwLkkw4xZcv8ML2V",
         "duplicateSource": null,
@@ -962,16 +929,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/steel-dagger.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1019,12 +980,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1047,7 +1003,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.isFPLsiPuTbBIJ4N",
@@ -1074,16 +1033,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/steel-dagger.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1131,12 +1084,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1159,7 +1107,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.isFPLsiPuTbBIJ4N",
@@ -1256,16 +1207,10 @@
       "_id": "O3u7ZfOovxtiWQRU",
       "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1294,9 +1239,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR195"
-        },
+        "source": "FUCR195",
         "hasRoll": {
           "value": false
         },
@@ -1352,16 +1295,10 @@
       "type": "skill",
       "img": "systems/projectfu/styles/static/compendium/classes/fury/fury_adrenaline.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>As long as you are in <strong>Crisis</strong>, you deal <strong>【SL × 2】</strong> extra damage (be it with attacks, spells, Arcana, items or any other method).</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1390,9 +1327,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR195"
-        },
+        "source": "FUCR195",
         "hasRoll": {
           "value": false
         },
@@ -1526,18 +1461,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1578,18 +1508,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1630,18 +1555,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1682,18 +1602,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1734,18 +1649,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],

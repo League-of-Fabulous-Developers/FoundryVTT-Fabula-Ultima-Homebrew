@@ -11,9 +11,6 @@
       "value": ""
     },
     "description": "<p>One creature recovers <strong>@GAIN[90 hp]</strong>.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with MP and Status Recovery potions.<br /><strong>Synergy Effect:</strong> Target may reduce the next source of damage they take to 1.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

@@ -11,9 +11,6 @@
       "value": ""
     },
     "description": "<p>One creature gains <strong>Immunity</strong> to one status effect of your choice until the end of the scene.</p><hr /><p><strong>Synergy Conditions:</strong> Combine with Status Recovery potion.<br /><strong>Synergy Effect:</strong> Target can suffer status effects but may treat their Attribute dice as unchanged until the end of the scene.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

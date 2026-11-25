@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/weapons/thrown/bomb-timer.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Targets Defense and Magic Defense are reduced by <strong>2</strong>.</p><p>Once the Target has been hit by <strong>3</strong> Attacks or Offensive Spells, this spells effect ends.</p><hr /><p><strong>@EFFECT[eyJuYW1lIjoiU3VuZGVyIiwiaWNvbiI6Ii9pY29ucy9zdmcvYXVyYS5zdmciLCJjaGFuZ2VzIjpbeyJrZXkiOiJzeXN0ZW0uZGVyaXZlZC5kZWYudmFsdWUiLCJtb2RlIjoyLCJ2YWx1ZSI6Ii0yIn0seyJrZXkiOiJzeXN0ZW0uZGVyaXZlZC5tZGVmLnZhbHVlIiwibW9kZSI6MiwidmFsdWUiOiItMiJ9XSwiZGlzYWJsZWQiOmZhbHNlLCJkdXJhdGlvbiI6eyJzdGFydFRpbWUiOjAsInNlY29uZHMiOm51bGwsImNvbWJhdCI6bnVsbCwicm91bmRzIjpudWxsLCJ0dXJucyI6bnVsbCwic3RhcnRSb3VuZCI6MCwic3RhcnRUdXJuIjowfSwiZGVzY3JpcHRpb24iOiI8cD48c3BhbiBzdHlsZT1cImZvbnQtZmFtaWx5OiAnUFQgU2FucyBOYXJyb3cnLCBzYW5zLXNlcmlmXCI+VGFyZ2V0cyBEZWZlbnNlIGFuZCBNYWdpYyBEZWZlbnNlIGFyZSByZWR1Y2VkIGJ5IDxzdHJvbmcgc3R5bGU9XCJib3gtc2l6aW5nOmJvcmRlci1ib3g7dXNlci1zZWxlY3Q6dGV4dFwiPjI8L3N0cm9uZz4uPC9zcGFuPjwvcD48cCBzdHlsZT1cImJveC1zaXppbmc6IGJvcmRlci1ib3g7IHVzZXItc2VsZWN0OiB0ZXh0OyBtYXJnaW46IDEwcHggMHB4IDBweDsgZm9udC1mYW1pbHk6ICdQVCBTYW5zIE5hcnJvdycsIHNhbnMtc2VyaWY7IGZvbnQtc3R5bGU6IG5vcm1hbDsgZm9udC1zaXplOiAxNnB4OyBsaW5lLWhlaWdodDogMS40NWVtOyBjb2xvcjogcmdiKDQzLCA3NCwgNjYpOyBmb250LXZhcmlhbnQtbGlnYXR1cmVzOiBub3JtYWw7IGZvbnQtdmFyaWFudC1jYXBzOiBub3JtYWw7IGZvbnQtd2VpZ2h0OiA0MDA7IGxldHRlci1zcGFjaW5nOiBub3JtYWw7IG9ycGhhbnM6IDI7IHRleHQtaW5kZW50OiAwcHg7IHRleHQtdHJhbnNmb3JtOiBub25lOyB3aGl0ZS1zcGFjZTogbm9ybWFsOyB3aWRvd3M6IDI7IHdvcmQtc3BhY2luZzogMHB4OyAtd2Via2l0LXRleHQtc3Ryb2tlLXdpZHRoOiAwcHg7IHRleHQtZGVjb3JhdGlvbi10aGlja25lc3M6IGluaXRpYWw7IHRleHQtZGVjb3JhdGlvbi1zdHlsZTogaW5pdGlhbDsgdGV4dC1kZWNvcmF0aW9uLWNvbG9yOiBpbml0aWFsOyB0ZXh0LWFsaWduOiBzdGFydFwiPjxzcGFuIHN0eWxlPVwiZm9udC1mYW1pbHk6ICdQVCBTYW5zIE5hcnJvdycsIHNhbnMtc2VyaWZcIj5PbmNlIHRoZSBUYXJnZXQgaGFzIGJlZW4gaGl0IGJ5IDxzdHJvbmcgc3R5bGU9XCJib3gtc2l6aW5nOmJvcmRlci1ib3g7dXNlci1zZWxlY3Q6dGV4dFwiPjM8L3N0cm9uZz4gQXR0YWNrcyBvciBPZmZlbnNpdmUgU3BlbGxzLCB0aGlzIHNwZWxscyBlZmZlY3QgZW5kcy48L3NwYW4+PC9wPiIsIm9yaWdpbiI6bnVsbCwidGludCI6bnVsbCwidHJhbnNmZXIiOmZhbHNlLCJzdGF0dXNlcyI6W10sImZsYWdzIjp7InByb2plY3RmdSI6eyJDcmlzaXNJbnRlcmFjdGlvbiI6Im5vbmUifX19]</strong> </p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

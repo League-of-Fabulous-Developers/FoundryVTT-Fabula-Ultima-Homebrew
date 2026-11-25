@@ -5,14 +5,10 @@
   "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
   "system": {
     "fuid": "spell",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>When another creature is threatened by an attack, spell, or other danger, command one Phantasm to take their place. Any Checks that are part of the danger will be performed against the Phantasm. The Phantasm shields the creature, taking an amount of damage corresponding to how much PV it has left, until it shatters. The remaining damage goes to the creature being defended. All status effects related to the attack are nullified.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

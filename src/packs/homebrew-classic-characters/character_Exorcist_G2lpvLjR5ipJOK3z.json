@@ -283,16 +283,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/tome.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -340,12 +334,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -368,7 +357,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.5M41BRhqgnUY1X8y",
@@ -394,21 +386,14 @@
       "name": "Spiritist",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Show me the truth in your heart."
         },
         "description": "<h5><strong>ALSO: Healer, Priest, Witch</strong></h5><p><strong>Spiritists </strong>have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions. Several worlds see the powers of Spiritism as gifts from a deity or proof that a person’s heart is pure; however, there is no definite proof of these abilities coming from anything but discipline, empathy, and focus.</p><hr /><h5><strong>SPIRITIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>SPIRITIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.rVM7HhQ5OwdPtFwa]{Healing Power} <strong>(SL2)</strong></p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may have each of those allies recover an amount of Hit Points equal to <strong>【SL, multiplied by the number of Bonds you have】</strong>.</p><p>This healing is separate from any healing caused by the effects of the spell.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ek0pzfo1bSWGHfzb]{Ritual Spiritism}</p><p>You may perform Rituals whose effects fall within the Spiritism discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy]{Spiritual Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Spiritist spell (see @UUID[Compendium.projectfu.spells.Item.fIzsuP7ro97Xc8H0]{[Spiritist Spells]}).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.pIkEDFcA5pnIpsu3]{Support Magic}</p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may choose one of those allies you have a <strong>Bond </strong>towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the <strong>strength </strong>of your Bond towards them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.affUHtuCYoDxmO4h]{Vismagus}</p><p>When you cast a spell, if you don’t have enough Mind Points to pay for its total cost, you may choose to spend <strong>twice as many</strong> Hit Points instead. You cannot use this Skill if doing so would reduce you to 0 Hit Points. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target).</p><h2><strong>SPIRITIST SPELLS</strong></h2><p>@UUID[Compendium.projectfu.spells.Item.fIzsuP7ro97Xc8H0]{[Spiritist Spells]}</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 3,
           "max": 10,
           "min": 0
         },
@@ -459,9 +444,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR206"
-        },
+        "source": "FUCR206",
         "fuid": "spiritist"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist.png",
@@ -498,14 +481,10 @@
       "_id": "MW9AYoN1nkZG2n0V",
       "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -518,48 +497,19 @@
           "value": "Hunter"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -570,49 +520,18 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
         "fuid": "bloodhound"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9",
         "duplicateSource": null,
@@ -638,14 +557,10 @@
       "type": "skill",
       "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -658,48 +573,19 @@
           "value": "Hunter"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "ins",
+          "secondary": "mig"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
         "hasResource": {
           "value": false
@@ -710,42 +596,7 @@
           "step": 1,
           "max": 6
         },
-        "source": {
-          "value": "Homebrew"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "mig"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -753,7 +604,10 @@
       },
       "effects": [],
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g",
@@ -782,16 +636,10 @@
       "_id": "MmskUt8TN34Qu1lk",
       "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_ritual_spiritism.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You may perform Rituals whose effects fall within the <strong>Spiritism</strong> discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -804,84 +652,20 @@
           "value": "Spiritist"
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false
         },
         "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "dex",
+          "secondary": "dex"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": 0,
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical"
         },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "source": {
-          "value": "FUCR207"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            },
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "type": {
-              "value": "physical"
-            },
-            "value": 0
-          }
-        },
+        "source": "FUCR207",
         "hasRoll": {
           "value": false
         },
@@ -926,16 +710,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -983,12 +761,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1045,18 +818,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1097,18 +865,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1149,18 +912,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1201,18 +959,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1253,18 +1006,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1300,16 +1048,10 @@
       "_id": "8hwrcKit96ypNqxi",
       "img": "icons/magic/life/cross-beam-green.webp",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You strengthen and purify the soul energy coursing through your companions. Each target recovers from all status effects.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1338,15 +1080,6 @@
         "accuracy": {
           "value": 0
         },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
         "impdamage": {
           "hasImpDamage": {
             "value": false
@@ -1371,9 +1104,7 @@
         "isOffensive": {
           "value": false
         },
-        "source": {
-          "value": "FUCR208"
-        },
+        "source": "FUCR208",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1424,7 +1155,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.spells.Item.YIxwINZ4z4p04H8n",
@@ -1447,16 +1181,10 @@
       "_id": "Vcje7xQ6nWDht8Me",
       "img": "icons/magic/light/projectile-stars-blue.webp",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You focus your inner energy into a barrage of blinding soul rays. Each target hit by this spell suffers <strong>【HR + 15】</strong> <strong>light</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1485,15 +1213,6 @@
         "accuracy": {
           "value": 0
         },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
         "impdamage": {
           "hasImpDamage": {
             "value": false
@@ -1518,9 +1237,7 @@
         "isOffensive": {
           "value": true
         },
-        "source": {
-          "value": "FUCR209"
-        },
+        "source": "FUCR209",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -1571,7 +1288,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.spells.Item.c73bNM930l9ZUJZh",
@@ -1594,16 +1314,10 @@
       "_id": "MALWFaSuIs017JSe",
       "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive ( @ICON[offensive] ) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1632,9 +1346,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR207"
-        },
+        "source": "FUCR207",
         "hasRoll": {
           "value": false
         },
@@ -1689,19 +1401,14 @@
       "type": "class",
       "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "If hatred you will never find your quarry."
         },
         "description": "<h5><strong>ALSO: Inquisitor, Specialist, Tracker</strong></h5><p>The world is full of dangerous creatures and malevolent spirits that threaten common folk. <strong>Hunters</strong> have dedicated themselves to understanding such beings, developing an uncanny ability to track them down and then survive the encounter. Some remorselessly slay their targets, while others mediate, lead them from vulnerable communities, or quietly observe from afar.</p><p>Whether they seek Beasts to feed their villages, Elementals to study their mysterious properties, or Demons to protect time and space itself, the focus and expertise of Hunters keeps them one step ahead of their quarry is your guide.</p><hr /><h5>HUNTER <strong>FREE BENEFITS</strong></h5><ul><li><p>Permanently increase your maximum Inventory Points by 2.</p></li><li><p>Gain the ability to equip <strong>martial ranged weapons</strong>.</p></li><li><p>Mastering Hunter qualifies you for <strong>Powerful Shot</strong> (<strong>Core Rulebook</strong> page <strong>238</strong>).</p></li></ul><h3>HUNTER<strong> SKILLS</strong></h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4ECytZQiA3WNMBW9]{Bloodhound} <strong>(SL4)</strong></p><p>When you acquire this Skill, choose a Species other than <strong>humanoid</strong>.</p><p>Once per Scene, you may create a <strong>Bond</strong> of <strong>inferiority</strong> or <strong>admiration</strong> with a creature of that Species, as long as you are aware of their presence or a sign of their passing. As long as you have this Bond, that creature is your Quarry. If you fail to form a Bond, your expertise has revealed that the Species is not present/involved.</p><p>You gain a bonus of <strong>【SL】 </strong>to Checks you perform to locate, track, or <strong>Study</strong> your Quarry.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fTgS8KOEBCwEPtFJ]{Silencer} <strong>(SL4)</strong></p><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against your Quarry. If you succeed, they cannot spend Mind Points until your next turn. You get a bonus equal to <strong>【SL】 </strong>to this Check.</p><p>If you have a weapon equipped, you may instead use its Accuracy formula, and your target opposes you with the same attributes (not benefitting from any bonuses in the formula).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.tV6JyUmx3Ziykz9g]{Silver &amp; Garlic}</p><p>When you spend Inventory Points to deal damage to a creature of the Species you chose for <strong>Bloodhound</strong>, inflict a status effect on them, or to recover from a status effect inflicted by them, spend 1 less Inventory Point (to a minimum of 1).</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.r3CzR7Yk1gKJthEv]{Target Insight} <strong>(SL3)</strong></p><p>On your turn during a conflict scene, you may spend 10 Mind Points to perform the Study action for free, as long as your target is your Quarry. If you do, any other Checks you perform during that turn suffer a penalty of by <strong>【3 - SL】</strong>. This Skill may only be used once on the same creature (and remember the normal restrictions on the Study action.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ek3HmMmJLSxQ5L40]{Wise to Your Tricks} <strong>(SL5)</strong></p><p>Whenever your Quarry casts a spell or uses a Skill that includes you as a target, you may have that creature lose <strong>【SL × 2】</strong>Mind Points. If a Check associated with that creature’s Skill or spell fails, they lose <strong>【SL × 3】</strong>Mind Points instead.</p><h3>HUNTER NOTES</h3><p><strong>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.J9UR8eVsU7XhlOLw]{Hunter Rules}</strong></p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development </strong>Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -1752,9 +1459,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "hunter"
       },
       "effects": [],

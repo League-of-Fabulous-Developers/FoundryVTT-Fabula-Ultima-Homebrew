@@ -11,9 +11,6 @@
       "value": ""
     },
     "description": "<p>One creature increases their maximum MP by a <em>Minor</em> amount until the end of the current scene.</p><hr /><p><strong>Synergy Conditions:</strong> -<br /><strong>Synergy Effect:</strong> -</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

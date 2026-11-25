@@ -485,7 +485,6 @@
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -578,7 +577,6 @@
           "value": false
         },
         "level": {
-          "value": 3,
           "max": 10,
           "min": 0
         },
@@ -672,7 +670,6 @@
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },

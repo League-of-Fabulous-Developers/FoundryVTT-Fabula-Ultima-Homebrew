@@ -4,14 +4,10 @@
   "type": "skill",
   "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Learn an NPC spell (except Devastation), you can cast spells learn this way via the <strong>Spell</strong> action using <strong>【MIG + WLP】</strong>, you pay the cost of these spells in HP and not in MP.</p><p>If this spell has an effect indicating <strong>(choose a type)</strong>, this type is physical by default. If you have taken a demon form, you may choose an elemental type for which this form offers you resistance, immunity or absorption the first time you cast that spell in this form. This type replaces this indication for all NPC spells you cast in this form from now on.</p><p>If this spell has an effect indicating <strong>(choose a status)</strong>, this status is weak by default. If you have taken demon form, you can choose a state from slow, dazed, weak or shaken the first time you cast that spell in this form. This state replaces this indication for all NPC spells you cast in this form from now on.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -24,48 +20,19 @@
       "value": "demoncaller"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -77,39 +44,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

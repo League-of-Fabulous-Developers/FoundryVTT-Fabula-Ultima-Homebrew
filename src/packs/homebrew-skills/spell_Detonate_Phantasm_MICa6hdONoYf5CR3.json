@@ -5,14 +5,10 @@
   "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
   "system": {
     "fuid": "spell",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You overflow one Phantasm with energy, making it explode to devastating effect. Choose a damage type: <strong>light</strong> or <strong>dark</strong>. The target hit by this spell suffers <strong>【HR + 25】</strong> damage of the chosen type. This shatters the Phantasm.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

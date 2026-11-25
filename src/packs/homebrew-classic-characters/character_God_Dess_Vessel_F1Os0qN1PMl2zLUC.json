@@ -256,16 +256,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/staff.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -313,12 +307,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -341,7 +330,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.yPIyB7tBCD4ZVP4C",
@@ -367,21 +359,14 @@
       "name": "Orator",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Words are only as good as they actions that follow them."
         },
         "description": "<h5><strong>ALSO: Ambassador, Diplomat, Entertainer</strong></h5><p>Some are graceful and ever smiling, others are subtle and witty: <strong>Orators </strong>are as good at reading someone’s heart as they are at rounding up allies for their cause, sometimes unintentionally. The words of an Orator may rekindle spirits or plunge their opponents into despair: over the centuries, some Orators’ talents have brought entire nations to ruin… and just as many have granted fallen kingdoms a chance to rise from their very ashes.</p><hr /><h5><strong>ORATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li></ul><h2><strong>ORATOR SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.DtEiCkDsC1amYABn]{Condemn} <strong>(SL4)</strong></p><p>You may use an action and spend 5 Mind Points to perform an Opposed 【<strong>INS</strong> + <strong>WLP</strong>】 Check against a creature that can hear and understand you — describe your accusations! If you succeed, the target loses <strong>【SL × 10】 </strong>Mind Points and suffers <strong>dazed </strong>or <strong>shaken </strong>(your choice).</p><p>You gain a bonus equal to <strong>【SL】 </strong>to your <strong>【INS + WLP】 </strong>Checks for this Skill.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n]{Encourage} <strong>(SL6)</strong></p><p>During a conflict, you may use an action and spend 5 Mind Points to choose another creature that can hear and understand you. That creature recovers <strong>【SL × 5】 </strong>Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>: they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.lK9onKSiMuQEe3zd]{My Trust In You} <strong>(SL2)</strong></p><p>After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their <strong>Traits </strong>or <strong>Bonds </strong>in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a <strong>Bond </strong>towards that character, they recover <strong>【SL × 10】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.GjmqoWAJ4szsk0om]{Persuasive} <strong>(SL2)</strong></p><p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception </strong>or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】 </strong>Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ucCrtRAvv2qX8aJO]{Unexpected Ally}</p><p>You may use an action and spend 1 Fabula Point to choose a <strong>non-hostile</strong> creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 1,
           "max": 10,
           "min": 0
         },
@@ -432,9 +417,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR200"
-        },
+        "source": "FUCR200",
         "fuid": "orator"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/orator/orator.png",
@@ -468,21 +451,14 @@
       "name": "Elementalist",
       "type": "class",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Ignore the warnings of this World at your own risk."
         },
         "description": "<h5><strong>ALSO: Battle Mage, Geomancer, Sorcerer</strong></h5><p>An <strong>Elementalist </strong>has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some of them develop complex spells to contain the powerful energies of nature; others seek its protection in harmony and communion. Elemental magic can be highly destructive, causing damage and inflicting negative status effects. Due to this, there are many who would covet an Elementalist’s abilities… often for nefarious purposes.</p><hr /><h5><strong>ELEMENTALIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>ELEMENTALIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.muhtqtJ6av32K34Z]{Cataclysm} <strong>(SL5)</strong></p><p>When you cast an <strong>instantaneous </strong>spell, if you have an <strong>arcane </strong>weapon equipped, you may <strong>increase the spell’s total MP cost</strong> by up to <strong>【SL × 10】 </strong>Mind Points. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5]{Elemental Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Elementalist spell (<strong>Core Rulebook</strong>, page <strong>188</strong>).<br />Offensive ( @ICON[offensive] ) Elementalist spells use <strong>【INS + WLP】 </strong>for the Magic Check. </p><hr /><p>@UUID[Compendium.projectfu.skills.Item.b5zzfsWN7h5ugrnW]{Magic Artillery} <strong>(SL3)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell, if you have an <strong>arcane </strong>weapon equipped, you gain a bonus to your Magic Check equal to <strong>【SL × 2】</strong> .</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.qgy43lWGmJ2YGhTp]{Ritual Elementalism}</p><p>You may perform Rituals whose effects fall within the <strong>Elementalism </strong>discipline. <br />Elementalism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.v6rTedHMjbLuLdN3]{Spellblade} <strong>(SL4)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell targeting a <strong>single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 10】or lower </strong>and you have one or more <strong>bow</strong>, <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, <strong>spear </strong>or <strong>sword </strong>weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon’s Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a <strong>bronze sword</strong> (<strong>Core Rulebook</strong>, page <strong>131</strong>) will be <strong>【DEX + MIG】</strong>+1 instead of <strong>【INS + WLP】 </strong>.</p><h3><strong>ELEMENTALIST SPELLS</strong></h3><p>@UUID[Compendium.projectfu.spells.Item.GOEbYMBu3cGnszWt]{[Elementalist Spells]}</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -533,9 +509,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR186"
-        },
+        "source": "FUCR186",
         "fuid": "elementalist"
       },
       "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist.png",
@@ -570,16 +544,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -627,12 +595,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -684,16 +647,10 @@
       "_id": "BPGcXxwNtpAM0r7m",
       "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_condemn.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>You may use an action and spend 5 MP to perform an Opposed <strong>【INS + WLP】</strong> Check against a creature that can hear and understand you — describe your accusations! If you succeed, the target loses <strong>【SL × 10】</strong> Mind Points and suffers <strong>dazed</strong> or <strong>shaken</strong> (your choice).</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【INS + WLP】</strong> Checks for this Skill.</p><hr /><ul><li><p><strong>You Perform: </strong>@CHECK[ins wlp ($sl)]</p></li><li><p><strong>Target Loses</strong>: @LOSS[$sl*10 mp]</p></li><li><p><strong>Target Suffers:</strong> @EFFECT[dazed], or @EFFECT[shaken]</p></li></ul>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -722,9 +679,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR201"
-        },
+        "source": "FUCR201",
         "hasRoll": {
           "value": false
         },
@@ -758,7 +713,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.DtEiCkDsC1amYABn",
@@ -780,16 +738,10 @@
       "type": "skill",
       "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_elemental_magic.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Each time you acquire this Skill, learn one Elementalist spell (see <strong>Core Rulebook</strong>, page <strong>188</strong>).</p><p>Offensive ( @ICON[offensive] ) Elementalist spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr /><ul><li><p>For <strong>spell</strong> breakdown and a list of Elemental Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.hK8r8lsQNaknSqdq]{Elementalist Rules}</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -818,9 +770,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR187"
-        },
+        "source": "FUCR187",
         "hasRoll": {
           "value": false
         },
@@ -882,18 +832,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -934,18 +879,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -986,18 +926,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1038,18 +973,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1090,18 +1020,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],
@@ -1181,25 +1106,18 @@
             }
           }
         },
-        "subtype": {},
         "summary": {
           "value": "A ravening beast? A pillaging lord? I reject both fates."
         },
         "description": "<h5><strong>ALSO: Conqueror, Parasite, Vampire</strong></h5><p>Some <strong>Predators</strong> are cursed with an unlife that demands the blood of the living. Others have just learned to profit from human suffering. In a world where everything has a soul, even the most mundane sort of predation can twist a person’s nature until they are barely recognizable.</p><p>But not all are Predators by choice. Some fight to change, whether by lifting a curse, learning better, or just finding worthy targets. In the meantime, they try to bend their cruel powers to the benefit of allies and former victims.</p><hr /><h5><strong>PREDATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li></ul><h2><strong>PREDATOR SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4]{Blood is Life} <strong>(SL5)</strong></p><p>When an ally casts a spell that includes you among the targets, they may choose to spend <strong>【SL】 </strong>Hit Points to allow you to regain <strong>【SL × 3】</strong>Hit Points (in addition to any the spell may give you.)</p><p>When an enemy casts a spell that includes you among the targets, you may spend <strong>【SL】 </strong>Hit Points to deal <strong>【SL × 3】 </strong>dark damage to them.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.5BBwd1SlBOz3cpWN]{Children of the Night}</p><p>You can communicate with creatures of the <strong>beast</strong>, <strong>undead</strong>, and <strong>demon</strong> Species. Even if an <strong>undead</strong> creature is mindless, you can learn what it is driven to do, and whether that is a command or an instinct.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.no98XceqRjiRMrpK]{Dark Hunger} <strong>(SL5)</strong></p><p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.fQTYuXRtM3UNEbbf]{It Won't Die} <strong>(SL5)</strong></p><p>At the start of the round after the first time you surrender in a scene, you may spend a Fabula Point to rise again with<strong>【SL×2】</strong>Hit Points. For the rest of the scene, all damage you suffer is reduced by <strong>【SL】 </strong>before affinities. (You still suffer the consequences for <strong>surrendering</strong>.)</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.44ym9dKrYr0na9eN]{Spreading Terror} <strong>(SL2)</strong></p><p>You deal <strong>【SL】 </strong>extra damage for each creature in the scene that is <strong>shaken</strong> (whether they are allies, enemies, or even yourself.) When you inflict <strong>shaken</strong> on another creature, you may pay up to <strong>【SL × 5】</strong>Mind Points to inflict <strong>shaken</strong> on a <strong>soldier</strong>-rank NPC who isn’t a <strong>construct</strong> or <strong>undead</strong> who can see or hear what you did for every 5 Mind Points spent this way.</p><h3>PREDATOR NOTES</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.dmcZAwL31lbvyJ8j]{Predator Rules}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Dr. Razno</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "predator"
       },
       "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
@@ -1233,14 +1151,10 @@
       "type": "skill",
       "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<ol><li><p>When an ally casts a spell that includes you among the targets, they may choose to spend<strong>【SL】</strong>Hit Points to allow you to regain<strong>【SL x 3】</strong>Hit Points (in addition to any the spell may give you.)</p></li><li><p>When an enemy casts a spell that includes you among the targets, you may spend<strong>【SL】</strong>Hit Points to deal<strong>【SL x 3】</strong>dark damage to them.</p></li></ol><hr /><ol><li><p><strong>Ally Lose:</strong> @LOSS[$sl hp]{SL HP}<br /><strong>You Recover:</strong> @GAIN[$sl*3 hp]{SL x 3 HP}</p></li><li><p><strong>You Lose:</strong> @LOSS[$sl hp]{SL HP}<br /><strong>Target Suffers:</strong> @DMG[$sl*3 dark]{SL x 3 Dark}</p></li></ol>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1269,9 +1183,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -1304,7 +1216,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.ggXXiDX5jxP77Nm4",
@@ -1421,15 +1336,6 @@
         },
         "accuracy": {
           "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
         },
         "impdamage": {
           "hasImpDamage": {
@@ -1564,15 +1470,6 @@
         },
         "accuracy": {
           "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
         },
         "impdamage": {
           "hasImpDamage": {

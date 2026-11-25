@@ -5,14 +5,10 @@
   "_id": "Wo9LDqTbd4jGLsi6",
   "img": "icons/magic/earth/projectiles-stone-salvo-gray.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -24,9 +20,6 @@
     },
     "quality": {
       "value": "Opportunity: Each target hit suffers dazed."
-    },
-    "isEquipped": {
-      "value": false
     },
     "attributes": {
       "primary": {
@@ -63,9 +56,6 @@
     },
     "weight": {
       "value": 1
-    },
-    "isCustomWeapon": {
-      "value": false
     },
     "source": "Homebrew",
     "rollInfo": {

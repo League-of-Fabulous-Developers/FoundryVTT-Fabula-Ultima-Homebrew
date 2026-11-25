@@ -5,14 +5,10 @@
   "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
   "system": {
     "fuid": "spell",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You may spend one action to create a Phantasm and command it to attack an enemy. The target hit by the Phantasm suffers <strong>【HR + 12】</strong> damage. This damage increases to 16 if you are <strong>level 20 or higher</strong>, or to 18 if you are <strong>level 40 or higher</strong>.</p><p>The <strong>range</strong> of the attack is determined by your current weapon. On any subsequent turn, you may spend an action and roll another Magic Check to command the Phantasm to attack again, with no MP requirements. Damage dealt by this spell ignores resistances.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

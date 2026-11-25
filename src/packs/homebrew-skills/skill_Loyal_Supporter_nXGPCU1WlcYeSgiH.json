@@ -4,14 +4,10 @@
   "type": "skill",
   "img": "icons/sundries/lights/candles-lit-red-evil.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Whenever you are a <strong>supporting </strong>characterin a Group Check (such as <strong>Teamwork</strong>), gain a【<strong>SL</strong>】bonus to your roll.</p><p>For every <strong>3 points above the DL</strong>, grant the leader an additional <strong>+1</strong> bonus.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

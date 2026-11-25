@@ -13,62 +13,25 @@
       "value": ""
     },
     "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Monk</strong> Class.</p></blockquote><p>You learn the ultimate <strong>Monk</strong> spell: <strong>Beaded Weapon</strong>.</p><table><tbody><tr><td style=\"text-align:center\"><strong>Beaded Weapon</strong></td><td style=\"text-align:center\"><strong>MP:</strong> 40</td><td style=\"text-align:center\"><strong>Target:</strong> One equipped weapon</td><td style=\"text-align:center\"><strong>Duration:</strong> Scene</td></tr></tbody></table><ul><li><p>At any moment, if you have a full set of active <strong>Soul Beads</strong>, you may spend 40 MP and imbue one equipped weapon with them. Until this spell ends, the weapon gains a <strong>+3 bonus</strong> to Accuracy Checks, and its damage ignores Resistances.</p></li><li><p>If it’s a <strong>melee</strong> weapon, it also gains the <strong>ranged</strong> property, and its attacks can now be launched from afar.</p></li><li><p>If you have that weapon equipped while casting this spell, you may perform a free attack with it as part of the same action.</p></li><li><p>You lose access to <strong>Soul Beads</strong> used, and they don’t count toward the <strong>Clarity Skill</strong> while imbued in your weapon.</p></li><li><p>You can generate <strong>Soul Beads</strong> as normal from the the next turn onwards.</p></li><li><p>Only one weapon can benefit from this Skill at a time.</p></li></ul><p>Add the @UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.9lJf06RynqAfPxXe]{Beaded Weapon} spell to your character sheet.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "monk"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -81,19 +44,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "FULF"
   },

@@ -11,9 +11,6 @@
       "value": "C-c-c-c-combo breaker!"
     },
     "description": "<blockquote><p><strong>Requirements:</strong> You must have Mastered the <strong>Brawler</strong> Class, and acquired either the <strong>Combo Breaker</strong> or <strong>Parry</strong> skills.</p></blockquote><p>When you use <strong>Combo Breaker</strong> against a <strong>melee attack</strong>; <strong>or</strong> get a Perfect Parry, choose one: Immediately perform a <strong>Command Input</strong> for free; or an unarmed <strong>Free Attack</strong>. Your attacker must be among your targets.</p><p>If you use <strong>Devastating Counter</strong> during a conflict, you cannot use it again until the start of your next turn.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

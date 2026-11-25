@@ -5,14 +5,10 @@
   "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
   "system": {
     "fuid": "spell",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>You command your Phantasms to replenish your allies' Mind Points. Each Phantasm runs towards a companion and shatters itself in a spray of mana. Each target recovers 20 Mind Points. A single ally cannot be replenished by more than one Phantasm per action.</p><hr /><ul><li><p><strong>Targets Recovers:</strong> @GAIN[20 mp]</p></li></ul>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -40,15 +36,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

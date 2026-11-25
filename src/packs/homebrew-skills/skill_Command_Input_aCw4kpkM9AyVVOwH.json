@@ -4,14 +4,10 @@
   "type": "skill",
   "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": "Quarter circle back, half circle forward, high punch!"
     },
     "description": "<p>As an action, choose a number of Inputs up to <strong>【SL】</strong> and spend <strong>【5 x </strong><em><strong>Inputs</strong></em><strong>】 </strong>MP.</p><p>Then, perform a <strong>check</strong> with <strong>【DEX + INS】</strong> against a <strong>DL</strong> of <strong>【6 + </strong><em><strong>Inputs</strong></em><strong>】</strong>.</p><p>If you succeed, perform an <strong>unarmed free attack</strong> and add to it as many effects from the following list as the <em><strong>Inputs</strong></em> you chose:</p><ul><li><p><em><strong>Powerful</strong></em>: It deals <strong>+5 Damage</strong>.</p></li><li><p><em><strong>Quick</strong></em>: It gains a <strong>+3</strong> bonus to its <strong>Accuracy Check.</strong></p></li><li><p><em><strong>Wide</strong></em>: It gains <strong>multi (2)</strong> or, if it already has it, increases it by one, up to a maximum of <strong>multi (3)</strong>.</p></li><li><p><em><strong>Stun</strong></em>: Its targets suffer <strong>slow or dazed</strong> (your choice).</p></li><li><p><em><strong>Command-Grab</strong></em>: You gain a <strong>+3</strong> to your next <strong>Opposed Check</strong> against your target until the end of your next turn.</p></li></ul><p>You may only choose each option once.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -24,50 +20,21 @@
       "value": "brawler"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -79,39 +46,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

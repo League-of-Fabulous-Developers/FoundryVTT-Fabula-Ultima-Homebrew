@@ -375,16 +375,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -432,12 +426,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
+        "source": "FUCR130",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -487,19 +476,14 @@
       "type": "class",
       "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": "I know magic, and real magic requires effort and sacrifice."
         },
         "description": "<h5><strong>ALSO: Cultist, Support Mage</strong></h5><ul><li><p>Have you taken part in a ritual that changed things for the worse? How?</p></li><li><p>How do you feel about not being in the spotlight? Do you feel appreciated?</p></li><li><p>Were you a part of a cult or similar group? Were they a force for good, or evil?</p></li><li><p>How do you help with other people’s magic? Is it knowledge, or your nature?</p></li></ul><hr /><h5><strong>RITUALIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>Allows you to perform rituals of the Ritualism category.</li></ul><h2><strong>RITUALIST SKILLS</strong></h2><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.bhk8nPeipfXj23ME]{Spellcasting Assistant} <strong>(SL3)</strong></p><p>Whenever you support an ally’s <strong>Magic Check</strong> through <strong>Teamwork</strong>, choose <strong>【SL】</strong> options:</p><ul><li><p>Grant an additional <strong>+1</strong> bonus to their <strong>Magic Check</strong>.</p></li><li><p>If the spell deals damage or restores <strong>HP</strong>, increase that number by <strong>5</strong>.</p></li><li><p>Reduce the spell's total <strong>MP</strong> cost by <strong>5</strong>, down to a minimum of 0.</p></li></ul><p>You can pick the same option more than once.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.b3957bVbdzYwhFfP]{Accelerate Ritual} <strong>(SL3)</strong></p><p>Whenever you mark a segment of a ritual’s <strong>Clock</strong>, you may spend <strong>【SL × 20】</strong> <strong>MP</strong> to mark an additional segment for every 20 <strong>MP</strong> spent this way.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.i4PPAb0jouUfyiYv]{Magical Countermeasures} <strong>(SL3)</strong></p><p>When one or more creatures you can see or hear are threatened by a <strong>Spell</strong> with a <strong>total MP cost of 【SL x 10】 or lower</strong>, you may spend up to <strong>【SL x 10】 MP</strong> to <strong>remove</strong> one creature from its list of targets <strong>for every 10 MP spent this way</strong>. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.4yBals9akG0i4TuI]{Ritualistic Efficiency} <strong>(SL2)</strong></p><p>Gain a <strong>【+SL】</strong> bonus to any <strong>Ritual</strong> check you perform.</p><p>Reduce the base cost of <strong>Rituals</strong> you initiate by <strong>【SL x 5】 MP</strong> (down to a minimum of 1).</p><p>Whenever you make an <strong>Open Check</strong> related to your knowledge of magic, curses, rituals, spells, or other similar effects, add a bonus equal to <strong>【SL】</strong> on that Check.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.nXGPCU1WlcYeSgiH]{Loyal Supporter} <strong>(SL5)</strong></p><p>Whenever you are a <strong>supporting</strong> character in a Group Check (such as <strong>Teamwork</strong>), gain a <strong>【+SL】</strong> bonus to your roll.</p><p>For every <strong>3 points above the DL</strong>, grant the leader an additional <strong>+1</strong> bonus.</p><h3>HEROIC SKILLS</h3><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.3FB1cuMjdE0t8kE3]{Mana Link}</p><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-heroic-skills.Item.bbiPS0I9roIo0Qh3]{Defensive Rituals}</p><h3>CREDIT</h3><p><strong>Class Design, Writing and Development</strong> Nitro</p><p><strong>Layout</strong> by Ophan, based on the official Fabula Ultima layout by Emanuele Galletto</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 3,
           "max": 10,
           "min": 0
         },
@@ -550,9 +534,7 @@
             }
           }
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "fuid": "ritualist"
       },
       "effects": [],
@@ -586,14 +568,10 @@
       "type": "skill",
       "img": "icons/sundries/lights/candles-lit-red-evil.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>When one or more creatures you can see or hear are threatened by a <strong>Spell</strong> with a <strong>total MP cost of 【SL x 10】 or lower</strong>, you may spend up to <strong>【SL x 10】 MP</strong> to <strong>remove</strong> one creature from its list of targets <strong>for every 10 MP spent this way</strong>. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -633,9 +611,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -651,7 +627,11 @@
         "traits": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.i4PPAb0jouUfyiYv",
         "duplicateSource": null,
@@ -678,14 +658,10 @@
       "type": "skill",
       "img": "icons/sundries/lights/candles-lit-red-evil.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "<p>Whenever you support an ally’s <strong>Magic Check</strong> through <strong>Teamwork</strong>, choose <strong>【SL】</strong> options:</p><ul><li><p>Grant an additional <strong>+1</strong> bonus to their <strong>Magic Check</strong>.</p></li><li><p>If the spell deals damage or restores <strong>HP</strong>, increase that number by <strong>5</strong>.</p></li><li><p>Reduce the spell's total <strong>MP</strong> cost by <strong>5</strong>, down to a minimum of 0.</p></li></ul><p>You can pick the same option more than once.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -725,9 +701,7 @@
           "max": 6,
           "enabled": false
         },
-        "source": {
-          "value": "Homebrew"
-        },
+        "source": "Homebrew",
         "hasRoll": {
           "value": false
         },
@@ -743,7 +717,11 @@
         "traits": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": true
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fabula-ultima-homebrew.homebrew-skills.Item.bhk8nPeipfXj23ME",
         "duplicateSource": null,
@@ -769,16 +747,10 @@
       "type": "weapon",
       "img": "systems/projectfu/styles/static/compendium/weapons/iron-hammer.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -826,12 +798,7 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR131"
-        },
+        "source": "FUCR131",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -854,7 +821,10 @@
       "effects": [],
       "folder": "SnyIBMif9646gEkD",
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.basic-equipment.Item.MgTLIL0OHNjazL4U",
@@ -1058,21 +1028,14 @@
       "type": "class",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": "Let me be your shield."
         },
         "description": "<h5><strong>ALSO: Paladin, Soldier, Yōjinbō</strong></h5><p>Proud and selfless, <strong>Guardians</strong> are individuals who know the value of life… and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. They are often extraordinary and impressive individuals, such as valiant soldiers or veterans scarred by a thousand battles. While some Guardians may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.</p><hr /><h5><strong>GUARDIAN FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial armor</strong> and <strong>martial shields.</strong></li></ul><h2><strong>GUARDIAN SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.ZvZT5jWlBZVm1Gmd]{Bodyguard}</p><p>If you perform the <strong>Guard</strong> action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7wF1oulk0Zn7ITTF]{Defensive Mastery} <strong>(SL5)</strong></p><p>As long as you have a <strong>shield</strong> or a <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.aPQXTQegswRisA1R]{Dual Shieldbearer}</p><p>You may now equip a <strong>shield</strong> in your <strong>main hand</strong> slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee <strong>brawling</strong> weapon:</p><table><tbody><tr><td><strong>WEAPON</strong></td><td><strong>ACCURACY</strong></td><td><strong>DAMAGE</strong></td><td><strong>QUALITY</strong></td></tr><tr><td><strong>Twin Shields</strong></td><td><strong>【MIG + MIG】</strong></td><td><strong>【HR + 5】physical</strong> </td><td>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong>.</td></tr></tbody></table><p>Deals extra damage equal to your <strong>【SL】</strong> in <strong>defensive mastery</strong> (above).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.X4KdFiQmzikrsM6v]{Fortress} <strong>(SL5)</strong></p><p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES]{Protect}</p><p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong> or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "level": {
-          "value": 2,
           "max": 10,
           "min": 0
         },
@@ -1123,9 +1086,7 @@
             }
           }
         },
-        "source": {
-          "value": "FUCR196"
-        },
+        "source": "FUCR196",
         "fuid": "guardian"
       },
       "effects": [],
@@ -1161,16 +1122,10 @@
       "_id": "nEMhuXH3W7vc8dw4",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_protect.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong>, or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> or <strong>after</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
-        "isFavored": {
-          "value": true
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1199,9 +1154,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR196"
-        },
+        "source": "FUCR196",
         "hasRoll": {
           "value": false
         },
@@ -1235,7 +1188,10 @@
         "9aR18wpxqiStEQ8U": 3
       },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": true
+        }
       },
       "_stats": {
         "compendiumSource": "Compendium.projectfu.skills.Item.Z4WIA15aR4uLL5ES",
@@ -1257,16 +1213,10 @@
       "type": "skill",
       "img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_fortress.png",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
         "description": "<p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -1295,9 +1245,7 @@
           "onApply": "",
           "hrZero": false
         },
-        "source": {
-          "value": "FUCR196"
-        },
+        "source": "FUCR196",
         "hasRoll": {
           "value": false
         },
@@ -1429,18 +1377,13 @@
           "value": "One creature suffers 10 damage of a type of your choice (10 Air, 10 Bolt, 10 Earth, 10 Fire, or 10 Ice)."
         },
         "description": "<p>For 2 Inventory Points, one creature suffers 10 damage of a type of your choice (<strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>).</p><hr /><ul><li><p><strong>Target Suffers:</strong> @DMG[10 air], @DMG[10 bolt], @DMG[10 earth], @DMG[10 fire], or @DMG[10 ice]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elemental-shard"
       },
       "effects": [],
@@ -1481,18 +1424,13 @@
           "value": "This allows the entire group to rest in the wilderness and at sea."
         },
         "description": "<p>For 4 Inventory Points, this allows the entire group to <strong>rest</strong> in the wilderness and at sea.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 4
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "magic-tent"
       },
       "effects": [],
@@ -1533,18 +1471,13 @@
           "value": "One creature recovers 50 HP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 hp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "remedy"
       },
       "effects": [],
@@ -1585,18 +1518,13 @@
           "value": "One creature recovers from a single status effect."
         },
         "description": "<p>For 2 Inventory Points, one creature recovers from a single status effect.</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 2
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "tonic"
       },
       "effects": [],
@@ -1637,18 +1565,13 @@
           "value": "One creature recovers 50 MP."
         },
         "description": "<p>For 3 Inventory Points, one creature recovers @HEAL[50 mp].</p>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
         "ipCost": {
           "value": 3
         },
-        "source": {
-          "value": "FUCR104"
-        },
+        "source": "FUCR104",
         "fuid": "elixir"
       },
       "effects": [],

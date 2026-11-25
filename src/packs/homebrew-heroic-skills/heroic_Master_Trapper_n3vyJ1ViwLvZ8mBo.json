@@ -13,62 +13,25 @@
       "value": ""
     },
     "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class and acquired the <strong>Set Trap</strong> skill.</p></blockquote><p>The IP requirements to set up <strong>SL 2</strong> or higher traps is reduced by <strong>1</strong>. For example, <strong>Snare Net</strong> now costs <strong>1 IP</strong>, and the <strong>Explosive Trap</strong> costs <strong>4 IP</strong>. Additionally, you can prepare and store one trap during <strong>resting scenes</strong>, following the regular trap-making rules for IP and MP requirements. Regardless of whether you set a trap at the beginning of the conﬂict or not, in any of your turns during conﬂict scenes, you can spend an action to throw the trap at your targets, which must perform an Opposed  <strong>【DEX + INS】</strong> Check against you.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
-    },
-    "level": {
-      "value": 1,
-      "max": 10,
-      "min": 0
     },
     "class": {
       "value": "hunter"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
+      "type": "physical"
     },
     "hasResource": {
       "value": false
@@ -81,19 +44,6 @@
     },
     "requirement": {
       "value": ""
-    },
-    "benefits": {
-      "resources": {
-        "hp": {
-          "value": false
-        },
-        "mp": {
-          "value": false
-        },
-        "ip": {
-          "value": false
-        }
-      }
     },
     "source": "FULF"
   },

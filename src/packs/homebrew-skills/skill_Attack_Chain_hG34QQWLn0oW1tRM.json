@@ -5,14 +5,10 @@
   "_id": "hG34QQWLn0oW1tRM",
   "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": "Light attack, kick, heavy slash!"
     },
     "description": "<p>When you <strong>hit one or more creatures with an Attack, Offensive Spell, or a similar ability</strong>, you may set <strong>one</strong> of them as your <em><strong>Attack Chain</strong></em> target. You may only have one <em><strong>Attack Chain</strong></em> target at a time, and lose it at the end of the scene.</p><p>Whenever you are about to perform <strong>any sort of Check against your </strong><em><strong>Attack Chain</strong></em> target, clear your <em><strong>Attack Chain</strong></em> and gain a <strong>+1</strong> to your Check.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -25,50 +21,21 @@
       "value": "brawler"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
-    },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
     },
     "hasResource": {
       "value": false
@@ -80,39 +47,6 @@
       "max": 6
     },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

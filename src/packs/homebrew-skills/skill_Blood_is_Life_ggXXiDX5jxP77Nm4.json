@@ -3,14 +3,10 @@
   "type": "skill",
   "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<ol><li><p>When an ally casts a spell that includes you among the targets, they may choose to spend<strong>【SL】</strong>Hit Points to allow you to regain<strong>【SL x 3】</strong>Hit Points (in addition to any the spell may give you.)</p></li><li><p>When an enemy casts a spell that includes you among the targets, you may spend<strong>【SL】</strong>Hit Points to deal<strong>【SL x 3】</strong>dark damage to them.</p></li></ol><hr /><ol><li><p><strong>Ally Lose:</strong> @LOSS[$sl hp]{SL HP}<br /><strong>You Recover:</strong> @GAIN[$sl*3 hp]{SL x 3 HP}</p></li><li><p><strong>You Lose:</strong> @LOSS[$sl hp]{SL HP}<br /><strong>Target Suffers:</strong> @DMG[$sl*3 dark]{SL x 3 Dark}</p></li></ol>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -23,84 +19,22 @@
       "value": "predator"
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
-      "hrZero": {
-        "value": false
-      }
+      "accuracy": false,
+      "damage": false
     },
     "attributes": {
-      "primary": {
-        "value": "ins"
-      },
-      "secondary": {
-        "value": "mig"
-      }
+      "primary": "ins",
+      "secondary": "mig"
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": 0,
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": false,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "physical",
       "onRoll": "",
       "onApply": ""
     },
-    "impdamage": {
-      "hasImpDamage": {
-        "value": false
-      },
-      "value": 0,
-      "impType": {
-        "value": "minor"
-      },
-      "type": {
-        "value": "physical"
-      }
-    },
     "source": "Homebrew",
-    "rollInfo": {
-      "useWeapon": {
-        "accuracy": {
-          "value": false
-        },
-        "damage": {
-          "value": false
-        },
-        "hrZero": {
-          "value": false
-        }
-      },
-      "attributes": {
-        "primary": {
-          "value": "ins"
-        },
-        "secondary": {
-          "value": "mig"
-        }
-      },
-      "accuracy": {
-        "value": 0
-      },
-      "damage": {
-        "hasDamage": {
-          "value": false
-        },
-        "value": 0,
-        "type": {
-          "value": "physical"
-        }
-      }
-    },
     "hasRoll": {
       "value": false
     },

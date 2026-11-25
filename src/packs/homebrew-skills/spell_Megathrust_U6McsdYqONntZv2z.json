@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Each creature on the scene that isn’t flying, floating, falling, or otherwise in mid-air takes <strong>@DMG[30 earth] </strong> damage. Creatures that are being protected by the <strong>Solid Path</strong> Skill have resistance to this damage.</p><hr /><p><strong>@LOSS[20 mp]</strong> </p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

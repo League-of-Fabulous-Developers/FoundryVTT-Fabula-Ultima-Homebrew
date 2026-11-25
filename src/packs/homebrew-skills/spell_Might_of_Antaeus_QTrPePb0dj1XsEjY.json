@@ -4,14 +4,10 @@
   "type": "spell",
   "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>The strength of the earth itself surges through your ally. Until this spell ends, the target treats their <strong>Might</strong> and <strong>Willpower</strong> attributes as one die size higher (up to a maximum of d12) and is immune to <strong>weak</strong> and <strong>shaken</strong> as long as they are standing on solid ground. They lose the benefit in mid-air, on a platform, or on the deck of a ship, but regain it if they reach the ground again during this scene.</p><p><em>Note: in practical terms, this means there are encounters you just won’t be able to use it in.</em></p><hr /><p><strong>@LOSS[20 mp]</strong> </p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -39,15 +35,6 @@
     },
     "accuracy": {
       "value": 0
-    },
-    "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
     },
     "impdamage": {
       "hasImpDamage": {

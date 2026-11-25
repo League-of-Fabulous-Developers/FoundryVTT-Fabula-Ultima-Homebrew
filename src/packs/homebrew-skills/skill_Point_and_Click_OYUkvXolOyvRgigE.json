@@ -6,14 +6,10 @@
   "img": "icons/equipment/waist/sash-cloth-red.webp",
   "system": {
     "fuid": "point-and-click",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "<p>Once per scene, when you spend a <strong>Fabula Point</strong> to alter the current situation or the story, gain <strong>【SL】 IP</strong>.</p>",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },

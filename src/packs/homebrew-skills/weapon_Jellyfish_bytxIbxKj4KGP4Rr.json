@@ -6,14 +6,10 @@
   "img": "icons/creatures/fish/fish-carp-green.webp",
   "system": {
     "fuid": "jellyfish",
-    "subtype": {},
     "summary": {
       "value": ""
     },
     "description": "",
-    "isFavored": {
-      "value": false
-    },
     "showTitleCard": {
       "value": false
     },
@@ -70,9 +66,6 @@
     },
     "weight": {
       "value": 1
-    },
-    "isCustomWeapon": {
-      "value": false
     },
     "source": "Homebrew",
     "rollInfo": {
