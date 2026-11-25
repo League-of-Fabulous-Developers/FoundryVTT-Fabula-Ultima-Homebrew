@@ -70,9 +70,6 @@
     "cost": {
       "amount": "20"
     },
-    "target": {
-      "value": "Special"
-    },
     "duration": {
       "value": "instantaneous"
     },
@@ -111,7 +108,11 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "megathrust"
+    "fuid": "megathrust",
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    }
   },
   "effects": [],
   "flags": {

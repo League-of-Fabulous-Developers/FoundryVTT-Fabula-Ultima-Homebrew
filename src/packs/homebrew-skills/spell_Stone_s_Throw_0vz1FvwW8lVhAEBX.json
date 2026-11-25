@@ -70,9 +70,6 @@
     "cost": {
       "amount": "10"
     },
-    "target": {
-      "value": "Self"
-    },
     "duration": {
       "value": "scene"
     },
@@ -111,7 +108,11 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "stones-throw"
+    "fuid": "stones-throw",
+    "targeting": {
+      "rule": "self",
+      "max": 0
+    }
   },
   "effects": [],
   "flags": {

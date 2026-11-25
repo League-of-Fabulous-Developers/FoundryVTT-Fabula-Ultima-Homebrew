@@ -69,10 +69,8 @@
       "value": 1
     },
     "cost": {
-      "amount": "10 × T"
-    },
-    "target": {
-      "value": "Up to three creatures"
+      "amount": "10",
+      "perTarget": true
     },
     "duration": {
       "value": "scene"
@@ -112,7 +110,11 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "earthworks"
+    "fuid": "earthworks",
+    "targeting": {
+      "rule": "multiple",
+      "max": 3
+    }
   },
   "effects": [],
   "flags": {

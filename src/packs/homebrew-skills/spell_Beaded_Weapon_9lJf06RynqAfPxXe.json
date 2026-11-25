@@ -72,12 +72,6 @@
     "cost": {
       "amount": "40"
     },
-    "maxTargets": {
-      "value": 0
-    },
-    "target": {
-      "value": "One equipped weapon"
-    },
     "duration": {
       "value": "scene"
     },
@@ -115,7 +109,11 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "targeting": {
+      "rule": "weapon",
+      "max": 1
+    }
   },
   "effects": [],
   "sort": 0,

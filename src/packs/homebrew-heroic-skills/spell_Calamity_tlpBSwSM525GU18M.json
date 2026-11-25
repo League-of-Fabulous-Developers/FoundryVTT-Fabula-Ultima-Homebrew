@@ -70,9 +70,6 @@
     "cost": {
       "amount": "40"
     },
-    "target": {
-      "value": "One creature"
-    },
     "duration": {
       "value": "instantaneous"
     },
@@ -111,7 +108,11 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "calamity"
+    "fuid": "calamity",
+    "targeting": {
+      "rule": "single",
+      "max": 1
+    }
   },
   "effects": [],
   "ownership": {

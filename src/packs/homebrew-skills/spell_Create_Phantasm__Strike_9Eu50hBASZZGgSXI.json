@@ -71,12 +71,6 @@
     "cost": {
       "amount": "10"
     },
-    "maxTargets": {
-      "value": 1
-    },
-    "target": {
-      "value": "One creature"
-    },
     "duration": {
       "value": "instantaneous"
     },
@@ -115,7 +109,13 @@
       "value": true
     },
     "opportunity": "",
-    "traits": ["IgnoreResistances"]
+    "traits": [
+      "IgnoreResistances"
+    ],
+    "targeting": {
+      "rule": "single",
+      "max": 1
+    }
   },
   "effects": [],
   "flags": {

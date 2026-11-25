@@ -71,12 +71,6 @@
     "cost": {
       "amount": "10"
     },
-    "maxTargets": {
-      "value": 3
-    },
-    "target": {
-      "value": "One creature"
-    },
     "duration": {
       "value": "instantaneous"
     },
@@ -114,7 +108,11 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "targeting": {
+      "rule": "single",
+      "max": 1
+    }
   },
   "effects": [],
   "flags": {

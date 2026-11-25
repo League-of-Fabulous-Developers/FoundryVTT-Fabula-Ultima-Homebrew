@@ -71,12 +71,6 @@
     "cost": {
       "amount": "10"
     },
-    "maxTargets": {
-      "value": 3
-    },
-    "target": {
-      "value": "Up to three creatures"
-    },
     "duration": {
       "value": "instantaneous"
     },
@@ -115,7 +109,13 @@
       "value": true
     },
     "opportunity": "",
-    "traits": ["IgnoreResistances"]
+    "traits": [
+      "IgnoreResistances"
+    ],
+    "targeting": {
+      "rule": "multiple",
+      "max": 3
+    }
   },
   "effects": [],
   "flags": {

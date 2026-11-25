@@ -71,9 +71,6 @@
     "cost": {
       "amount": "20"
     },
-    "target": {
-      "value": "One creature"
-    },
     "duration": {
       "value": "instantaneous"
     },
@@ -112,7 +109,11 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "dither"
+    "fuid": "dither",
+    "targeting": {
+      "rule": "single",
+      "max": 1
+    }
   },
   "effects": [],
   "flags": {

@@ -70,9 +70,6 @@
     "cost": {
       "amount": "20"
     },
-    "target": {
-      "value": "One creature"
-    },
     "duration": {
       "value": "scene"
     },
@@ -111,7 +108,11 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "might-of-antaeus"
+    "fuid": "might-of-antaeus",
+    "targeting": {
+      "rule": "single",
+      "max": 1
+    }
   },
   "effects": [],
   "flags": {

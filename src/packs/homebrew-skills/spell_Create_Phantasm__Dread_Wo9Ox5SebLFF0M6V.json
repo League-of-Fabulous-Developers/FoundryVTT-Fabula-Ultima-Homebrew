@@ -72,12 +72,6 @@
     "cost": {
       "amount": "10"
     },
-    "maxTargets": {
-      "value": 1
-    },
-    "target": {
-      "value": "One creature"
-    },
     "duration": {
       "value": "scene"
     },
@@ -117,7 +111,8 @@
     },
     "opportunity": "",
     "targeting": {
-      "rule": "single"
+      "rule": "single",
+      "max": 1
     }
   },
   "effects": [],

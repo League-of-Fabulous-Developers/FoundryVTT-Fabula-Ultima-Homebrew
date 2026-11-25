@@ -71,12 +71,6 @@
     "cost": {
       "amount": "5"
     },
-    "maxTargets": {
-      "value": 3
-    },
-    "target": {
-      "value": "Up to three creatures"
-    },
     "duration": {
       "value": "scene"
     },
@@ -114,7 +108,11 @@
     "hasRoll": {
       "value": true
     },
-    "opportunity": ""
+    "opportunity": "",
+    "targeting": {
+      "rule": "multiple",
+      "max": 3
+    }
   },
   "effects": [],
   "flags": {

@@ -68,10 +68,8 @@
       "value": 1
     },
     "cost": {
-      "amount": "5 × T"
-    },
-    "target": {
-      "value": "Up to five creatures"
+      "amount": "5",
+      "perTarget": true
     },
     "duration": {
       "value": "instantaneous"
@@ -111,7 +109,11 @@
       "value": true
     },
     "opportunity": "",
-    "fuid": "halt"
+    "fuid": "halt",
+    "targeting": {
+      "rule": "multiple",
+      "max": 5
+    }
   },
   "effects": [],
   "flags": {

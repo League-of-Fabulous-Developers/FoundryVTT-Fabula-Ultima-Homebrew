@@ -70,9 +70,6 @@
     "cost": {
       "amount": "15"
     },
-    "target": {
-      "value": "Two creatures"
-    },
     "duration": {
       "value": "instantaneous"
     },
@@ -111,7 +108,11 @@
       "value": true
     },
     "opportunity": "",
-    "fuid": "shuffle"
+    "fuid": "shuffle",
+    "targeting": {
+      "rule": "multiple",
+      "max": 2
+    }
   },
   "effects": [],
   "flags": {

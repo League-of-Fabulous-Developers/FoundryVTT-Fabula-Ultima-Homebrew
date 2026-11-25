@@ -71,10 +71,8 @@
       "value": 1
     },
     "cost": {
-      "amount": "10 × T"
-    },
-    "target": {
-      "value": "Up to three creatures"
+      "amount": "10",
+      "perTarget": true
     },
     "duration": {
       "value": "instantaneous"
@@ -114,7 +112,11 @@
       "value": true
     },
     "opportunity": "Each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).",
-    "fuid": "terra"
+    "fuid": "terra",
+    "targeting": {
+      "rule": "multiple",
+      "max": 3
+    }
   },
   "effects": [],
   "flags": {

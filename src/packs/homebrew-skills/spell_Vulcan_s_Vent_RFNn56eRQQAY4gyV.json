@@ -68,10 +68,8 @@
       "value": 1
     },
     "cost": {
-      "amount": "15 × T"
-    },
-    "target": {
-      "value": "Up to three creatures"
+      "amount": "15",
+      "perTarget": true
     },
     "duration": {
       "value": "instantaneous"
@@ -111,7 +109,11 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "vulcans-vent"
+    "fuid": "vulcans-vent",
+    "targeting": {
+      "rule": "multiple",
+      "max": 3
+    }
   },
   "effects": [],
   "flags": {

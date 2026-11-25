@@ -68,10 +68,7 @@
       "value": 1
     },
     "cost": {
-      "amount": "Up to 20"
-    },
-    "target": {
-      "value": "One creature"
+      "amount": "10"
     },
     "duration": {
       "value": "instantaneous"
@@ -112,8 +109,9 @@
     },
     "opportunity": "",
     "fuid": "malady",
-    "cost": {
-      "amount": 10
+    "targeting": {
+      "rule": "single",
+      "max": 1
     }
   },
   "effects": [],
