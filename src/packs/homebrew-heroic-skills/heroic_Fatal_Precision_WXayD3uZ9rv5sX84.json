@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the <strong>Vital Strike</strong> skill.</span></p></blockquote><p>Your <strong>Vital Strike</strong> now ruthless. On hit, the target suffers additional damage equal to your <strong>Dexterity</strong> die size <strong>+5</strong>, alongside the <strong>weak</strong> status. If a creature is already in <strong>Crisis</strong>, or would enter <strong>Crisis</strong> from your attack, it takes an additional <strong>10</strong> damage instead of 5 and suffer both <strong>weak</strong> and <strong>shaken</strong>.</p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class and acquired the <strong>Vital Strike</strong> skill.</p></blockquote><p>Your <strong>Vital Strike</strong> now ruthless. On hit, the target suffers additional damage equal to your <strong>Dexterity</strong> die size <strong>+5</strong>, alongside the <strong>weak</strong> status. If a creature is already in <strong>Crisis</strong>, or would enter <strong>Crisis</strong> from your attack, it takes an additional <strong>10</strong> damage instead of 5 and suffer both <strong>weak</strong> and <strong>shaken</strong>.</p>",
     "isFavored": {
       "value": false
     },

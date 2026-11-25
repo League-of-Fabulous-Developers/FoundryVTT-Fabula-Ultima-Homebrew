@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><span class=\"fontstyle0\">You assault the targets body with a sensory onslaught. All stimuli, from pleasure to pain, light up at the same time. The target suffers <strong>@EFFECT[dazed], @EFFECT[enraged], @EFFECT[poisoned], @EFFECT[shaken], @EFFECT[slow], </strong>and <strong>@EFFECT[weak].</strong></span></p>",
+    "description": "<p>You assault the targets body with a sensory onslaught. All stimuli, from pleasure to pain, light up at the same time. The target suffers <strong>@EFFECT[dazed], @EFFECT[enraged], @EFFECT[poisoned], @EFFECT[shaken], @EFFECT[slow], </strong>and <strong>@EFFECT[weak].</strong></p>",
     "isFavored": {
       "value": false
     },

@@ -8,7 +8,7 @@
     "summary": {
       "value": "You can parry that!?"
     },
-    "description": "<div class=\"stackedit__html\"><p>When you are about to be hit by a <strong>melee attack</strong>, you may perform an <strong>Accuracy Check</strong> as if you were attacking <strong>unarmed</strong>. Then, compare both results:</p><ul><li><p>If yours is <em>higher</em>, <strong>halve</strong> that attack’s damage.</p></li><li><p>If yours is <em>lower</em>, you take <strong>double damage</strong> from it.</p></li><li><p>If they are <em>equal</em>, you get a <em>Perfect Parry</em> and completely interrupt that attack: It has no effect.</p></li></ul><p>If you use this Skill during a conflict, you cannot use it again until the start of your next turn unless you got a <em>Perfect Parry</em>.</p></div>",
+    "description": "<p>When you are about to be hit by a <strong>melee attack</strong>, you may perform an <strong>Accuracy Check</strong> as if you were attacking <strong>unarmed</strong>. Then, compare both results:</p><ul><li><p>If yours is <em>higher</em>, <strong>halve</strong> that attack’s damage.</p></li><li><p>If yours is <em>lower</em>, you take <strong>double damage</strong> from it.</p></li><li><p>If they are <em>equal</em>, you get a <em>Perfect Parry</em> and completely interrupt that attack: It has no effect.</p></li></ul><p>If you use this Skill during a conflict, you cannot use it again until the start of your next turn unless you got a <em>Perfect Parry</em>.</p>",
     "isFavored": {
       "value": false
     },

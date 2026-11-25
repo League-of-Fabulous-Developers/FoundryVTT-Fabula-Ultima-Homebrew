@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may carry an additional <strong>【SL × 2】 Inventory Points</strong>. You can only use these additional Inventory Points for <strong>Pharmaceuticals</strong> and items made using the Drug Synthesis Skill.</p><p>If you take this Skill during character creation, you begin play with the additional IP.</p></div>",
+    "description": "<p>You may carry an additional <strong>【SL × 2】 Inventory Points</strong>. You can only use these additional Inventory Points for <strong>Pharmaceuticals</strong> and items made using the Drug Synthesis Skill.</p><p>If you take this Skill during character creation, you begin play with the additional IP.</p>",
     "isFavored": {
       "value": false
     },

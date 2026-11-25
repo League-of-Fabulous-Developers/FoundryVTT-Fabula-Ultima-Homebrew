@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>If a creature is blocking you from escaping a scene or restraining you, you deal <strong>【SL × 2】</strong>extra damage to them, and get a bonus equal to <strong>【SL】</strong> to Opposed Checks against them.</p></div>",
+    "description": "<p>If a creature is blocking you from escaping a scene or restraining you, you deal <strong>【SL × 2】</strong>extra damage to them, and get a bonus equal to <strong>【SL】</strong> to Opposed Checks against them.</p>",
     "isFavored": {
       "value": false
     },

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">Target becomes Vulnerable to the next source of damage they suffer.</span></p>",
+    "description": "<p>Target becomes Vulnerable to the next source of damage they suffer.</p>",
     "isFavored": {
       "value": false
     },

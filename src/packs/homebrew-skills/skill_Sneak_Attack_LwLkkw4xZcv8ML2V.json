@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>During your <strong>first turn of a conflict</strong>; or when one of your actions includes among its targets at least one creature that <strong>cannot see you</strong>, gain a <strong>【+SL】 </strong>bonus to your <strong>Accuracy</strong> and <strong>Magic Checks</strong>.</p><p>Additionally, gain a <strong>【+SL】 </strong>bonus to <strong>Initiative</strong> checks.</p></div>",
+    "description": "<p>During your <strong>first turn of a conflict</strong>; or when one of your actions includes among its targets at least one creature that <strong>cannot see you</strong>, gain a <strong>【+SL】 </strong>bonus to your <strong>Accuracy</strong> and <strong>Magic Checks</strong>.</p><p>Additionally, gain a <strong>【+SL】 </strong>bonus to <strong>Initiative</strong> checks.</p>",
     "isFavored": {
       "value": false
     },

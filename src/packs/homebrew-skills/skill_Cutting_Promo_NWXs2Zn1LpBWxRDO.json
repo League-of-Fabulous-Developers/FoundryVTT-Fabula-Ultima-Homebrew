@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">At the start of a conflict, you may spend 2 Hype to form a Bond with up to <strong style=\"box-sizing:border-box;user-select:text\">【SL】</strong> strength with a creature you can see. This Bond does not count towards the total Bonds you may have and only lasts for the conflict.</span></p>",
+    "description": "<p>At the start of a conflict, you may spend 2 Hype to form a Bond with up to <strong>【SL】</strong> strength with a creature you can see. This Bond does not count towards the total Bonds you may have and only lasts for the conflict.</p>",
     "isFavored": {
       "value": false
     },

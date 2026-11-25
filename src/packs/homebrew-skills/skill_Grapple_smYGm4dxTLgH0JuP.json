@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【MIG + DEX】 </strong>or <strong>【MIG + MIG】 </strong>Check against a creature you can touch. If you succeed, you grapple your target: your target cannot leave the scene unless you let go of them (no action required), you drop to 0 HP, they successfully fill a a 4-section clock with the goal of escaping your grapple, or they use an Ultima Point to safely leave the scene.</p><p>Grappled targets are always valid targets for your attacks and finishers and you gain a bonus to Accuracy and Opposed Checks against them equal to <strong>【SL】</strong>.</p></div>",
+    "description": "<p>You may use an action and spend 10 Mind Points to perform an Opposed <strong>【MIG + DEX】 </strong>or <strong>【MIG + MIG】 </strong>Check against a creature you can touch. If you succeed, you grapple your target: your target cannot leave the scene unless you let go of them (no action required), you drop to 0 HP, they successfully fill a a 4-section clock with the goal of escaping your grapple, or they use an Ultima Point to safely leave the scene.</p><p>Grappled targets are always valid targets for your attacks and finishers and you gain a bonus to Accuracy and Opposed Checks against them equal to <strong>【SL】</strong>.</p>",
     "isFavored": {
       "value": false
     },

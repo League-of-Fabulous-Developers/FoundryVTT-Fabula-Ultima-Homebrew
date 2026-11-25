@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>While inside of a Dungeon or similar environment where you have successfully averted the consequences of a <strong>Danger</strong>, your Attacks against <strong>Constructs</strong>, <strong>Elementals</strong>, <strong>Monsters</strong>, and <strong>Undead</strong>, as well as <strong>Villains</strong> of <strong>any species</strong>, ignore <strong>Resistances</strong>.</p></div>",
+    "description": "<p>While inside of a Dungeon or similar environment where you have successfully averted the consequences of a <strong>Danger</strong>, your Attacks against <strong>Constructs</strong>, <strong>Elementals</strong>, <strong>Monsters</strong>, and <strong>Undead</strong>, as well as <strong>Villains</strong> of <strong>any species</strong>, ignore <strong>Resistances</strong>.</p>",
     "isFavored": {
       "value": false
     },

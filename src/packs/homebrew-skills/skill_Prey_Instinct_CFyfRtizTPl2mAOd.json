@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>At the start of a conflict, you may spend <strong>@LOSS[10 mp]</strong>. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p></div>",
+    "description": "<p>At the start of a conflict, you may spend <strong>@LOSS[10 mp]</strong>. If you do, choose one action and perform it before the start of the first round: <strong>Guard</strong>, <strong>Objective</strong>, or <strong>Study</strong>. You gain a bonus equal to <strong>【SL】</strong> to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill <strong>High Speed</strong> in the same scene, or vice-versa.</p>",
     "isFavored": {
       "value": false
     },

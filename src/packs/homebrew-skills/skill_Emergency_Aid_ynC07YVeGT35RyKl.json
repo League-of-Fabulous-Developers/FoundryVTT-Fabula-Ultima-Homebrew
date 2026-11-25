@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you use an item or cast a spell that restores HP and/or MP, your target recovers an additional <strong>【SL × 5】</strong> HP and/or MP if they are in <strong>Crisis</strong>.</p><hr><ul><li><p><strong>Target Recovers:</strong> @GAIN[10 hp]{SL × 5 HP}, or @GAIN[10 mp]{SL × 5 MP}</p></li></ul></div>",
+    "description": "<p>When you use an item or cast a spell that restores HP and/or MP, your target recovers an additional <strong>【SL × 5】</strong> HP and/or MP if they are in <strong>Crisis</strong>.</p><hr /><ul><li><p><strong>Target Recovers:</strong> @GAIN[10 hp]{SL × 5 HP}, or @GAIN[10 mp]{SL × 5 MP}</p></li></ul>",
     "isFavored": {
       "value": false
     },

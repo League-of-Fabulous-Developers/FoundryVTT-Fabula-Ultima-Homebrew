@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>After a <strong>Clock</strong> imposed by the <strong>game master</strong>, such as to complete a ritual or accomplish a complex task, is resolved in your favor in a <strong>Conflict Scene</strong>, you recover <strong>【SL × 5】</strong> Mind Points.</p><p>Additionally, you gain a bonus equal to <strong>【SL ÷ 2】 </strong>to all Checks made when you take the <strong>Objective</strong> Action or Support a <strong>Group Check</strong> towards an <strong>Objective</strong>.</p></div>",
+    "description": "<p>After a <strong>Clock</strong> imposed by the <strong>game master</strong>, such as to complete a ritual or accomplish a complex task, is resolved in your favor in a <strong>Conflict Scene</strong>, you recover <strong>【SL × 5】</strong> Mind Points.</p><p>Additionally, you gain a bonus equal to <strong>【SL ÷ 2】 </strong>to all Checks made when you take the <strong>Objective</strong> Action or Support a <strong>Group Check</strong> towards an <strong>Objective</strong>.</p>",
     "isFavored": {
       "value": false
     },

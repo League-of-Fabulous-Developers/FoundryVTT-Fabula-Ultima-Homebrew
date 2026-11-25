@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">You are able to communicate with creatures of <strong>Aquatic</strong> origin.</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">While <strong>resting</strong> in an area, you can sing sea shanties with the group to gain a <strong>party wide effect</strong> that is able to be used once by each of your allies: Your next HP or MP cost is reduced by <strong>【SL × 2】</strong>. If multiple characters have this Skill, the effects are <strong>not</strong> cumulative.</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">This can be stacked with <strong>camp activities</strong>.</span></p></div>",
+    "description": "<p>You are able to communicate with creatures of <strong>Aquatic</strong> origin.</p><p>While <strong>resting</strong> in an area, you can sing sea shanties with the group to gain a <strong>party wide effect</strong> that is able to be used once by each of your allies: Your next HP or MP cost is reduced by <strong>【SL × 2】</strong>. If multiple characters have this Skill, the effects are <strong>not</strong> cumulative.</p><p>This can be stacked with <strong>camp activities</strong>.</p>",
     "isFavored": {
       "value": false
     },

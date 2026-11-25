@@ -442,7 +442,7 @@
         "summary": {
           "value": ""
         },
-        "description": "<p><span class=\"fontstyle0\">See the <strong>page 192</strong> for details on the <strong>Dispel</strong> spell.</span></p><hr /><p><strong>@LOSS[10 mp]</strong></p>",
+        "description": "<p>See the <strong>page 192</strong> for details on the <strong>Dispel</strong> spell.</p><hr /><p><strong>@LOSS[10 mp]</strong></p>",
         "isFavored": {
           "value": true
         },

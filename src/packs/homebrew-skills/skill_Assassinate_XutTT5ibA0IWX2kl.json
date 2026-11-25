@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may spend an action and up to <strong>【SL x 5】 MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p></div>",
+    "description": "<p>You may spend an action and up to <strong>【SL x 5】 MP</strong> (minimum 5 MP) to perform a <strong>free attack</strong> using a <strong>Brawling</strong>, <strong>Dagger</strong>, or <strong>Thrown</strong> weapon against <strong>a single creature,</strong> gaining a <strong>+1</strong> to its <strong>Accuracy Check</strong> for every <strong>5 MP</strong> spent this way. This attack cannot gain <strong>multi</strong>, and loses if it has it.</p><p>If you beat your target’s <strong>Defense</strong> by <strong>5 or more</strong>, trigger an <em>Assassination</em>: Your attack ignores Affinities and multiplies its damage by <strong>x2</strong>, or to <strong>x3</strong> if your target was <strong>Vulnerable</strong> to it in the first place.</p>",
     "isFavored": {
       "value": false
     },

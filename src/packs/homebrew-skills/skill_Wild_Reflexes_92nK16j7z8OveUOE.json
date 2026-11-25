@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you perform the @EFFECT[guard]<strong> </strong>action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p><p>Additionally, if an enemy <strong>misses</strong> you with an attack during the effect of this skill, you may perform a <strong>free attack</strong> against that creature. Treat your <strong>High Roll (HR)</strong> as <strong>0</strong> when calculating the damage for this counterattack</p>",
+    "description": "<p>When you perform the @EFFECT[guard]action, if you choose not to provide cover to another creature, your reflexes are wildly increased. Until the start of your next turn, you gain a bonus to your <strong>Defense</strong> equal to <strong>【SL】</strong>.</p><p>Additionally, if an enemy <strong>misses</strong> you with an attack during the effect of this skill, you may perform a <strong>free attack</strong> against that creature. Treat your <strong>High Roll (HR)</strong> as <strong>0</strong> when calculating the damage for this counterattack</p>",
     "isFavored": {
       "value": false
     },

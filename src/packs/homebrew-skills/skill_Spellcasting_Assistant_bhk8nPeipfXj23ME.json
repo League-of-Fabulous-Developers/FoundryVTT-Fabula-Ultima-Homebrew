@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Whenever you support an ally’s <strong>Magic Check</strong> through <strong>Teamwork</strong>, choose <strong>【SL】</strong> options:</p><ul><li><p>Grant an additional <strong>+1</strong> bonus to their <strong>Magic Check</strong>.</p></li><li><p>If the spell deals damage or restores <strong>HP</strong>, increase that number by <strong>5</strong>.</p></li><li><p>Reduce the spell's total <strong>MP</strong> cost by <strong>5</strong>, down to a minimum of 0.</p></li></ul><p>You can pick the same option more than once.</p></div>",
+    "description": "<p>Whenever you support an ally’s <strong>Magic Check</strong> through <strong>Teamwork</strong>, choose <strong>【SL】</strong> options:</p><ul><li><p>Grant an additional <strong>+1</strong> bonus to their <strong>Magic Check</strong>.</p></li><li><p>If the spell deals damage or restores <strong>HP</strong>, increase that number by <strong>5</strong>.</p></li><li><p>Reduce the spell's total <strong>MP</strong> cost by <strong>5</strong>, down to a minimum of 0.</p></li></ul><p>You can pick the same option more than once.</p>",
     "isFavored": {
       "value": false
     },

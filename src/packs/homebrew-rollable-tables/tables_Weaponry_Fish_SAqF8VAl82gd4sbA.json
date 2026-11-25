@@ -2,7 +2,7 @@
   "name": "Weaponry Fish",
   "_id": "SAqF8VAl82gd4sbA",
   "img": "icons/creatures/fish/fish-carp-green.webp",
-  "description": "<p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Roll <strong>4d12</strong> and refer to the table below. (If you are not using any bait, halve the result of the 3rd and 4th d12s.)</span></p><p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Note that an Angler can still use these fish <strong>even if they normally lack the ability</strong> to handle martial weapons, and all weaponry fish are <strong>one-handed unless stated otherwise</strong>. The damage type of the fish then depends on the <strong>origin</strong> of the fish (see Origin to Damage Type Conversion table).</span></p>",
+  "description": "<p>Roll <strong>4d12</strong> and refer to the table below. (If you are not using any bait, halve the result of the 3rd and 4th d12s.)</p><p>Note that an Angler can still use these fish <strong>even if they normally lack the ability</strong> to handle martial weapons, and all weaponry fish are <strong>one-handed unless stated otherwise</strong>. The damage type of the fish then depends on the <strong>origin</strong> of the fish (see Origin to Damage Type Conversion table).</p>",
   "results": [
     {
       "type": "document",

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You may spend an action to perform an <strong>open check 【DEX + INS】</strong>. Until the end of your next turn, you cannot be seen or targeted by any creature whose <strong>【INS】 </strong>die is lower than the result of your check. You may exempt allies from this effect.</p><p>All <strong>contested</strong> or <strong>open checks</strong> closely related to hiding or sneaking (including this one) get a <strong>【+SL】 </strong>bonus.</p></div>",
+    "description": "<p>You may spend an action to perform an <strong>open check 【DEX + INS】</strong>. Until the end of your next turn, you cannot be seen or targeted by any creature whose <strong>【INS】 </strong>die is lower than the result of your check. You may exempt allies from this effect.</p><p>All <strong>contested</strong> or <strong>open checks</strong> closely related to hiding or sneaking (including this one) get a <strong>【+SL】 </strong>bonus.</p>",
     "isFavored": {
       "value": false
     },

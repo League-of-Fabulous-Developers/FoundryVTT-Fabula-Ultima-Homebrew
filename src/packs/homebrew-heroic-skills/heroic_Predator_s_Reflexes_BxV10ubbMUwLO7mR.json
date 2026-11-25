@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the </span><strong>Wild Reflexes</strong><span style=\"font-family: 'EB Garamond', sans-serif !important\"> skill.</span></p></blockquote><p>The <strong>Wild Reﬂexes</strong> Skill now gives you a bonus to your Defense equal to <strong>【SL】+1</strong>. Instead of treating your <strong>HR</strong> as 0 when calculating the damage dealt by its counterattack, use <strong>HR</strong> as normal.</p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class and acquired the <strong>Wild Reflexes</strong> skill.</p></blockquote><p>The <strong>Wild Reﬂexes</strong> Skill now gives you a bonus to your Defense equal to <strong>【SL】+1</strong>. Instead of treating your <strong>HR</strong> as 0 when calculating the damage dealt by its counterattack, use <strong>HR</strong> as normal.</p>",
     "isFavored": {
       "value": false
     },

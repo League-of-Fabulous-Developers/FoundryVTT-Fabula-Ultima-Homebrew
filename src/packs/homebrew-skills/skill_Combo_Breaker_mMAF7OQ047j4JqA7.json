@@ -8,7 +8,7 @@
     "summary": {
       "value": "Quick, hit all the buttons at the same time!"
     },
-    "description": "<div class=\"stackedit__html\"><p>At the start of every conflict, gain <strong>【SL】 Combo Break</strong> tokens. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <strong>Combo Break</strong> token at any time to dodge an attack.</p><p>You lose all of <strong>Combo Break</strong> tokens at the end of the scene.</p></div>",
+    "description": "<p>At the start of every conflict, gain <strong>【SL】 Combo Break</strong> tokens. If you’re not wearing <strong>Martial Armor</strong>, you may spend one <strong>Combo Break</strong> token at any time to dodge an attack.</p><p>You lose all of <strong>Combo Break</strong> tokens at the end of the scene.</p>",
     "isFavored": {
       "value": false
     },

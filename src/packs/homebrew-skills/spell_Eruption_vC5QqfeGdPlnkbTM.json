@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Magma surges, flinging boulders high into the air. Each non-<strong>flying</strong> target hit by this spell suffers <strong>【HR + 15】 fire</strong> damage, and each flying target hit suffers <strong>【HR + 15】earth</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers <strong>@EFFECT[shaken] </strong>.</p></div><hr /><p><strong>@LOSS[10 mp]</strong> for <strong>one</strong> target.</p><p><strong>@LOSS[20 mp]</strong> for <strong>two</strong> targets.</p><p><strong>@LOSS[30 mp]</strong> for <strong>three</strong> targets.</p>",
+    "description": "<p>Magma surges, flinging boulders high into the air. Each non-<strong>flying</strong> target hit by this spell suffers <strong>【HR + 15】 fire</strong> damage, and each flying target hit suffers <strong>【HR + 15】earth</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers <strong>@EFFECT[shaken] </strong>.</p><hr /><p><strong>@LOSS[10 mp]</strong> for <strong>one</strong> target.</p><p><strong>@LOSS[20 mp]</strong> for <strong>two</strong> targets.</p><p><strong>@LOSS[30 mp]</strong> for <strong>three</strong> targets.</p>",
     "isFavored": {
       "value": false
     },

@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You command all your active Phantasms to shatter with a blinding light. Choose either <strong>dazed</strong> or <strong>shaken</strong>: You inflict the chosen status effect on each target hit by this spell.</p><hr><ul><li><p><strong>Targets Suffers:</strong> @EFFECT[dazed] or @EFFECT[shaken]</p></li></ul>",
+    "description": "<p>You command all your active Phantasms to shatter with a blinding light. Choose either <strong>dazed</strong> or <strong>shaken</strong>: You inflict the chosen status effect on each target hit by this spell.</p><hr /><ul><li><p><strong>Targets Suffers:</strong> @EFFECT[dazed] or @EFFECT[shaken]</p></li></ul>",
     "isFavored": {
       "value": false
     },

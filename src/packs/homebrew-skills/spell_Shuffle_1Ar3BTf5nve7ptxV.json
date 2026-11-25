@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">Targets swap their current Status Effects with one another. Willing Targets can choose to be hit by this spell regardless of the Magic Checks result.</span></p>",
+    "description": "<p>Targets swap their current Status Effects with one another. Willing Targets can choose to be hit by this spell regardless of the Magic Checks result.</p>",
     "isFavored": {
       "value": false
     },

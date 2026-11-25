@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you request a place to sleep or transportation from a rebel group, you reduce the price of this service by <strong>【SL × 10】</strong>z per night of rest or day of travel for each person in your group. This can make the service free, but does not reduce the price below 0 z.</p><p>In addition, the first time you ask for help from a rebel group that isn't hostile to you, you can get <strong>【SL × 4】 </strong>IP to divide among the group, or a locally unsellable item worth no more than <strong>【SL × 300】 </strong>z from them.</p></div>",
+    "description": "<p>When you request a place to sleep or transportation from a rebel group, you reduce the price of this service by <strong>【SL × 10】</strong>z per night of rest or day of travel for each person in your group. This can make the service free, but does not reduce the price below 0 z.</p><p>In addition, the first time you ask for help from a rebel group that isn't hostile to you, you can get <strong>【SL × 4】 </strong>IP to divide among the group, or a locally unsellable item worth no more than <strong>【SL × 300】 </strong>z from them.</p>",
     "isFavored": {
       "value": false
     },

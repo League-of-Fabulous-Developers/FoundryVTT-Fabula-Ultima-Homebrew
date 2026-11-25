@@ -2,7 +2,7 @@
   "name": "Fishing",
   "_id": "BsRVNqECIlz6OhsE",
   "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
-  "description": "<p><span style=\"font-family:'PT Sans Narrow',sans-serif\">Fishing works by making use of a <strong>fishing die</strong>: it would determine if you would be able to catch a fish in that particular area. The game master determines the fishing die based on how <strong>feasible</strong> it would be to catch a fish in that spot.</span></p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WG2RzzNDhufzKgAA]{[Handout: Fishing Rules]} | @UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.kYZCpAPJEhhVXpcD]{Angler Rules}</p>",
+  "description": "<p>Fishing works by making use of a <strong>fishing die</strong>: it would determine if you would be able to catch a fish in that particular area. The game master determines the fishing die based on how <strong>feasible</strong> it would be to catch a fish in that spot.</p><hr /><p>@UUID[Compendium.fabula-ultima-homebrew.homebrew-skills.Item.WG2RzzNDhufzKgAA]{[Handout: Fishing Rules]} | @UUID[Compendium.fabula-ultima-homebrew.homebrew-handouts.JournalEntry.kYZCpAPJEhhVXpcD]{Angler Rules}</p>",
   "results": [
     {
       "type": "text",

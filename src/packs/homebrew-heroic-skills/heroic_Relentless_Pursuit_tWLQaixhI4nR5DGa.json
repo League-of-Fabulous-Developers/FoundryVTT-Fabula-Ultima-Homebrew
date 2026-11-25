@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the <strong>Lock-on</strong> skill.</span></p></blockquote><p>Your <strong>Track</strong> check bonus is now <strong>【SL】+2</strong>. If a conflict is initiated, choose one option: the target is immediately affected by the <strong>Lock-on</strong> skill, or the target immediately triggers a chosen trap, with no Opposed Check required, but maintaining the IP requirement as normal.</p>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class and acquired the <strong>Lock-on</strong> skill.</p></blockquote><p>Your <strong>Track</strong> check bonus is now <strong>【SL】+2</strong>. If a conflict is initiated, choose one option: the target is immediately affected by the <strong>Lock-on</strong> skill, or the target immediately triggers a chosen trap, with no Opposed Check required, but maintaining the IP requirement as normal.</p>",
     "isFavored": {
       "value": false
     },

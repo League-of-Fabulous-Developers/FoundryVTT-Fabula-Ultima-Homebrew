@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><div class=\"stackedit__html\"><p>During a <strong>Conflict Scene</strong> and when you perform a <strong>Check</strong> against a creature that can hear you, you may spend up to <strong>【SL x 5】 MP</strong>: Gain a <strong>+1</strong> bonus to that Check for every <strong>5 MP</strong> spent this way.</p></div></div>",
+    "description": "<p>During a <strong>Conflict Scene</strong> and when you perform a <strong>Check</strong> against a creature that can hear you, you may spend up to <strong>【SL x 5】 MP</strong>: Gain a <strong>+1</strong> bonus to that Check for every <strong>5 MP</strong> spent this way.</p>",
     "isFavored": {
       "value": false
     },

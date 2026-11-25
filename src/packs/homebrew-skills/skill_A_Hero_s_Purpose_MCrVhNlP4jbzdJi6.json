@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Once per session, when you <strong>save one or more NPCs from danger, complete a quest for one or more NPCs</strong>, or <strong>one or more Villains reach 0 Ultima Points while you are present on the scene</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr /><ul><li><p><strong>You Gain:</strong> @GAIN[$sl fp]{SL FP}</p></li></ul></div>",
+    "description": "<p>Once per session, when you <strong>save one or more NPCs from danger, complete a quest for one or more NPCs</strong>, or <strong>one or more Villains reach 0 Ultima Points while you are present on the scene</strong>, you gain <strong>【SL】</strong> Fabula Points.</p><hr /><ul><li><p><strong>You Gain:</strong> @GAIN[$sl fp]{SL FP}</p></li></ul>",
     "isFavored": {
       "value": false
     },

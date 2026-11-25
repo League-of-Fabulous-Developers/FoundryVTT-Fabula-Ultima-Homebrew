@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you create a <strong>potion</strong>, you may combine that item with up to <strong>【SL】 </strong>number of <strong>Pharmaceuticals</strong> before using it. The resulting potion combines all the component items' effects and IP costs, and may have <strong>synergy</strong> effects depending on the combination.</p></div>",
+    "description": "<p>When you create a <strong>potion</strong>, you may combine that item with up to <strong>【SL】 </strong>number of <strong>Pharmaceuticals</strong> before using it. The resulting potion combines all the component items' effects and IP costs, and may have <strong>synergy</strong> effects depending on the combination.</p>",
     "isFavored": {
       "value": false
     },

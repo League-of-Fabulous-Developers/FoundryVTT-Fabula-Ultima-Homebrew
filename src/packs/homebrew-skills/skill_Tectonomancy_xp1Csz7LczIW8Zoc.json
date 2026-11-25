@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Each time you acquire this Skill, learn one Elementalist spell (see next three pages).<br />Offensive (<strong>@ICON[offensive]</strong>) Tectonomancer spells use <strong>【INS + WLP】</strong> for the Magic Check.</p></div>",
+    "description": "<p>Each time you acquire this Skill, learn one Elementalist spell (see next three pages).<br />Offensive (<strong>@ICON[offensive]</strong>) Tectonomancer spells use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
     "isFavored": {
       "value": false
     },

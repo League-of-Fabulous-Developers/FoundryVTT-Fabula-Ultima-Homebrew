@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You command all your Phantasms to charge at your foes, shattering them on impact. They all share the same Magic Check. <br>Each target hit suffers <strong>【HR + 15】 physical</strong> damage. You can target <strong>only one</strong> foe per Phantasm. Damage dealt by this spell ignores resistances.</p>",
+    "description": "<p>You command all your Phantasms to charge at your foes, shattering them on impact. They all share the same Magic Check. <br />Each target hit suffers <strong>【HR + 15】 physical</strong> damage. You can target <strong>only one</strong> foe per Phantasm. Damage dealt by this spell ignores resistances.</p>",
     "isFavored": {
       "value": false
     },

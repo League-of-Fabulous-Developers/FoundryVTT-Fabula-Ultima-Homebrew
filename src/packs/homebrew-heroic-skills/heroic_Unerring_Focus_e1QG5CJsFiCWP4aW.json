@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class<span style=\"font-family: 'EB Garamond', sans-serif !important\"> and acquired the <strong>Lock-on</strong> skill.</span></p></blockquote><p>When you use the <strong>Lock-on</strong> Skill, you may choose to spend 20 Mind Points instead of 10. If you do, the associated bonus increases to <strong>+4</strong> instead of <strong>+2</strong>.</p><hr><ul><li><p><strong>You Lose:</strong> @LOSS[20 mp]</p></li></ul>",
+    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Hunter</strong> Class and acquired the <strong>Lock-on</strong> skill.</p></blockquote><p>When you use the <strong>Lock-on</strong> Skill, you may choose to spend 20 Mind Points instead of 10. If you do, the associated bonus increases to <strong>+4</strong> instead of <strong>+2</strong>.</p><hr /><ul><li><p><strong>You Lose:</strong> @LOSS[20 mp]</p></li></ul>",
     "isFavored": {
       "value": false
     },

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When you use the Inventory action to create a Tonic, the creature that drinks it recovers from all status effects, instead of just one.</p></div>",
+    "description": "<p>When you use the Inventory action to create a Tonic, the creature that drinks it recovers from all status effects, instead of just one.</p>",
     "isFavored": {
       "value": false
     },

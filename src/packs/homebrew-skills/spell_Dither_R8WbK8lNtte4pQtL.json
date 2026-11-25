@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><span style=\"font-family:'PT Sans Narrow', sans-serif\">When you cast this spell, you must declare an Action type (besides Attack). For the spell’s duration, whenever the Target takes the declared Action, they lose hit points equal to their level.</span></p><p style=\"box-sizing:border-box;user-select:text;margin:10px 0px 0px;font-family:'PT Sans Narrow', sans-serif;font-style:normal;font-size:16px;line-height:1.45em;color:rgb(43, 74, 66);font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:'PT Sans Narrow', sans-serif\">Once this has occurred 3 times, this spells effects end.</span></p>",
+    "description": "<p>When you cast this spell, you must declare an Action type (besides Attack). For the spell’s duration, whenever the Target takes the declared Action, they lose hit points equal to their level.</p><p>Once this has occurred 3 times, this spells effects end.</p>",
     "isFavored": {
       "value": false
     },

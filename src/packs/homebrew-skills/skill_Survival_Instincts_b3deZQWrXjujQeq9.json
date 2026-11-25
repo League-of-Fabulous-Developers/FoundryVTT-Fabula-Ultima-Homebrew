@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>All damage you suffer while outside of a <strong>Conflict Scene</strong> that is not from an Attack or Spell, such as from a <strong>Danger</strong> in a Dungeon or during Travel, a <strong>Catastrophe</strong> caused by a failed ritual, or harsh environmental conditions such as harmful terrain or weather, is reduced by <strong>【SL × 3】</strong>.</p></div>",
+    "description": "<p>All damage you suffer while outside of a <strong>Conflict Scene</strong> that is not from an Attack or Spell, such as from a <strong>Danger</strong> in a Dungeon or during Travel, a <strong>Catastrophe</strong> caused by a failed ritual, or harsh environmental conditions such as harmful terrain or weather, is reduced by <strong>【SL × 3】</strong>.</p>",
     "isFavored": {
       "value": false
     },

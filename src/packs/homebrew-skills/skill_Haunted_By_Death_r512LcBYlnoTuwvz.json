@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL x 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p></div>",
+    "description": "<p>As long as you are in Crisis, the cost for Haunting is reduced by <strong>【SL】</strong> Mind Points, or <strong>【SL x 2】 </strong>Mind Points, to a minimum of 0, if the creature you are Haunting is also in Crisis.</p>",
     "isFavored": {
       "value": false
     },

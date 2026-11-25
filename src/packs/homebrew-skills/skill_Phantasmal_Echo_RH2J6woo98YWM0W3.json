@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After any of your Phantasms is shattered, you recover <strong>【SL + 2】</strong> Mind Points.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*10 mp]{SL + 2 MP}</p></li></ul>",
+    "description": "<p>After any of your Phantasms is shattered, you recover <strong>【SL + 2】</strong> Mind Points.</p><hr /><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*10 mp]{SL + 2 MP}</p></li></ul>",
     "isFavored": {
       "value": false
     },

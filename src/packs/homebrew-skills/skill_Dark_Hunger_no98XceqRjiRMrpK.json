@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl hp]{SL HP}, or @GAIN[$sl hp]{SL MP}</p></li></ul>",
+    "description": "<p>When you acquire this Skill, choose a status effect other than <strong>shaken</strong>.</p><p>The first time in a scene that you inflict the chosen status effect on a creature, put a <strong>mark</strong> on them. Each time you inflict the chosen status effect on an <strong>unmarked</strong> creature that isn’t <strong>undead</strong> or a <strong>construct</strong>, you may regain <strong>【SL】</strong> Hit Points or <strong>【SL】 </strong>Mind Points.</p><hr /><ul><li><p><strong>You Recover:</strong> @GAIN[$sl hp]{SL HP}, or @GAIN[$sl hp]{SL MP}</p></li></ul>",
     "isFavored": {
       "value": false
     },

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>When one or more creatures you can see or hear are threatened by a <strong>Spell</strong> with a <strong>total MP cost of 【SL x 10】 or lower</strong>, you may spend up to <strong>【SL x 10】 MP</strong> to <strong>remove</strong> one creature from its list of targets <strong>for every 10 MP spent this way</strong>. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p></div>",
+    "description": "<p>When one or more creatures you can see or hear are threatened by a <strong>Spell</strong> with a <strong>total MP cost of 【SL x 10】 or lower</strong>, you may spend up to <strong>【SL x 10】 MP</strong> to <strong>remove</strong> one creature from its list of targets <strong>for every 10 MP spent this way</strong>. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p>",
     "isFavored": {
       "value": false
     },

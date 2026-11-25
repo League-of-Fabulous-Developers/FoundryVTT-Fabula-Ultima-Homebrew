@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>You are immune to environmental effects that would affect you via dangerous ground (for example, marshy ground inflicting <strong>slow</strong> or unstable footing filling a clock towards an avalanche.)</p><p>The <strong>GM</strong> is the final arbiter on what counts. You may extend this benefit to other creatures for the rest of a scene by spending <strong>【20 - (5*SL)】</strong>MP for each creature.</p><hr><ul><li><p><strong>You Lose:</strong> @LOSS[20-($sl*5) mp]{20 - (5*SL) MP}</p></li></ul></div>",
+    "description": "<p>You are immune to environmental effects that would affect you via dangerous ground (for example, marshy ground inflicting <strong>slow</strong> or unstable footing filling a clock towards an avalanche.)</p><p>The <strong>GM</strong> is the final arbiter on what counts. You may extend this benefit to other creatures for the rest of a scene by spending <strong>【20 - (5*SL)】</strong>MP for each creature.</p><hr /><ul><li><p><strong>You Lose:</strong> @LOSS[20-($sl*5) mp]{20 - (5*SL) MP}</p></li></ul>",
     "isFavored": {
       "value": false
     },

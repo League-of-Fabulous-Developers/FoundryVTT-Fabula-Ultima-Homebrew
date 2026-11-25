@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Shatter one of your Phantasms to recover <strong>【SL × 5】</strong> Hit Points. Shattering a Phantasm this way will not trigger the <strong>Phantasmal Echo</strong> Skill.</p><hr><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*5 hp]{SL × 5 HP}</p></li></ul>",
+    "description": "<p>Shatter one of your Phantasms to recover <strong>【SL × 5】</strong> Hit Points. Shattering a Phantasm this way will not trigger the <strong>Phantasmal Echo</strong> Skill.</p><hr /><ul><li><p><strong>You Recover:</strong> @GAIN[$sl*5 hp]{SL × 5 HP}</p></li></ul>",
     "isFavored": {
       "value": false
     },

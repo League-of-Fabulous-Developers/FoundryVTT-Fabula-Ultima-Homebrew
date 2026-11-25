@@ -1,7 +1,7 @@
 {
   "name": "Bait Finding",
   "img": "icons/tools/fishing/bobber-red-spiral.webp",
-  "description": "<p><span style=\"font-family:'PT Sans Narrow',sans-serif\">You spend your time looking for bait in the area; describe how, then roll <strong>1d6</strong>.</span></p>",
+  "description": "<p>You spend your time looking for bait in the area; describe how, then roll <strong>1d6</strong>.</p>",
   "results": [
     {
       "type": "text",

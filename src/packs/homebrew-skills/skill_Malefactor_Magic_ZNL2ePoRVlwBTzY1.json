@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<div class=\"stackedit__html\"><p>Each time you acquire this Skill, learn one <strong>Malefaction</strong> spell (see next two pages).</p><p>Offensive (<strong>@ICON[offensive]</strong>) Malefaction spells use <strong>【INS + WLP】</strong> for the Magic Check.</p></div>",
+    "description": "<p>Each time you acquire this Skill, learn one <strong>Malefaction</strong> spell (see next two pages).</p><p>Offensive (<strong>@ICON[offensive]</strong>) Malefaction spells use <strong>【INS + WLP】</strong> for the Magic Check.</p>",
     "isFavored": {
       "value": false
     },
