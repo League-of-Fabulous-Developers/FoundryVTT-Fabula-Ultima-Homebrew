@@ -32,7 +32,7 @@ Hooks.once('init', async function () {
         });
     }
 
-    loadTemplates(templates)
+    await foundry.applications.handlebars.loadTemplates(templates)
 
     console.log(LOG_MESSAGE, "Class Features registered", registeredFeatures)
 

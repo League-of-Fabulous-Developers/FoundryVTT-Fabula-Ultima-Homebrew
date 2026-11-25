@@ -82,7 +82,7 @@ export class MaledictionDataModel extends projectfu.RollableClassFeatureDataMode
 				mpCost: model.hpCost.value,
 				type: model.type,
 				summary: item.system.summary.value,
-				description: await TextEditor.enrichHTML(model.description)
+				description: await foundry.applications.ux.TextEditor.implementation.enrichHTML(model.description)
 			}
 			
 			// const {
